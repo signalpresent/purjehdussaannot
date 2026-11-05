@@ -30,7 +30,8 @@ function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
   const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' ? 'practice' : 'rules';
   const nav = (['list', 'rules', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', practice: 'tabPractice' }[v])}</button>`).join('');
-  const foot = `<footer><span class="mute">${text ? `${t('textLoaded')} · ${esc(text.edition)}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".json,application/json" hidden><p class="mute" id="timpmsg"></p></footer>`;
+  const foot = `<footer><span class="mute">${text ? `${t('textLoaded')} · ${esc(text.edition)}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".json,application/json" hidden><p class="mute" id="timpmsg"></p>
+    <details class="help"><summary>${t('textHow')}</summary><p>${t('textIntro')}</p><ol>${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></details></footer>`;
   return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
 }
 
