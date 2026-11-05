@@ -7591,5 +7591,856 @@
         ]
       }
     ]
+  },
+  {
+    "n": 44,
+    "section": "4",
+    "title": {
+      "fi": "Tapahtuman aikana otettavat rangaistukset",
+      "sv": "Straff vid händelsen",
+      "en": "Penalties at the Time of an Incident"
+    },
+    "explain": {
+      "fi": "Vene, joka on kilpaillessaan saattanut rikkoa yhtä tai useampaa osan 2 sääntöä, voi sovittaa rikkomuksen heti Kahden Kierroksen Rangaistuksella; merkin koskettamisesta (sääntö 31) riittää Yhden Kierroksen Rangaistus. ”Saattanut rikkoa” tarkoittaa, ettei rikkomusta tarvitse myöntää. Kilpailukutsu tai purjehdusohjeet voivat korvata kierrokset pisterangaistuksella tai muulla rangaistuksella. (a) Jos samassa tapahtumassa rikkoutuu sekä osan 2 sääntö että sääntö 31, otetaan vain osan 2 rangaistus. (b) Jos vene aiheutti loukkaantumisen tai vakavan vahingon tai sai rikkomuksellaan merkittävää etua kilpapurjehduksessa tai sarjassa rangaistuksesta huolimatta, kierrokset eivät riitä: sen pitää vetäytyä kilpapurjehduksesta. Vahingolla ja vakavalla on tavallinen kielellinen merkitys (Case 19, 141). Vahingon ei tarvitse syntyä suoraan kosketuksesta, vaan riittää, että se on rikkomuksen todennäköinen seuraus (Case 135). Kun vene vetäytyy, se on ottanut rangaistuksen, eikä sitä hylätä samasta rikkomuksesta (60.5(c)(2); Case 99, 107). Kierrokset (44.2): ensin purjehditaan mahdollisimman pian selvästi eroon muista veneistä, sitten käännökset tehdään viipymättä samaan suuntaan, ja jokaiseen sisältyy vastakäännös ja jiippi. Täyttä 360 asteen ympyrää ei vaadita, ja rangaistuksen voi yhdistää merkin kiertoon (Case 108). Rangaistusta ottava vene pysyy loitolla muista (21.2); jos se keskeyttää käännökset vain väistääkseen, rangaistus on silti viipymätön (Case 149). Maalilinjalla tai sen lähellä rungon pitää olla kokonaan linjan radan puolella ennen maaliin tuloa. Pisterangaistus (44.3): keltainen lippu ensimmäisen kohtuullisen tilaisuuden tullen, lippu näkyvissä maaliin asti, ja maalissa kilpailulautakunnalle kerrotaan lipusta ja toisesta osallisesta veneestä. Ellei toisin määrätä, rangaistus on 20 % DNF-pistemäärästä pyöristettynä lähimpään kymmenykseen; muiden pisteitä ei muuteta, eikä tulos voi olla DNF:ää huonompi.",
+      "en": "A boat that may have broken one or more Part 2 rules while racing can settle it on the spot with a Two-Turns Penalty; for touching a mark (rule 31) a One-Turn Penalty is enough. ‘May have broken’ means she need not admit the breach. The notice of race or sailing instructions may replace the turns with the Scoring Penalty or another penalty. (a) If a Part 2 rule and rule 31 are broken in the same incident, only the Part 2 penalty is taken. (b) If the boat caused injury or serious damage, or despite the penalty gained a significant advantage in the race or series by her breach, turns are not enough: she must retire. ‘Damage’ and ‘serious’ have their ordinary meanings (Cases 19, 141). The damage need not come directly from contact; it is enough that it was the probable consequence of the breach (Case 135). A boat that retires has taken her penalty and is not disqualified for that breach (60.5(c)(2); Cases 99, 107). Turns (44.2): first get well clear of other boats as soon as possible, then promptly make the turns in the same direction, each including a tack and a gybe. A full 360° circle is not required, and the penalty may be combined with rounding a mark (Case 108). A boat taking a penalty keeps clear of the others (21.2); interrupting the turns only to keep clear still counts as prompt (Case 149). At or near the finishing line her hull must be completely on the course side before she finishes. Scoring Penalty (44.3): yellow flag at the first reasonable opportunity, kept displayed until finishing, and at the finish the race committee is told about the flag and the other boat involved. Unless stated otherwise the penalty is 20% of the DNF score rounded to the nearest tenth; other boats' scores do not change, and the score cannot be worse than DNF."
+    },
+    "note": {
+      "fi": "Sääntö 44 ei ole säännön 86.1(a) luettelossa, joten kilpailukutsu tai purjehdusohjeet voivat muuttaa sitä. Liitteet: B (purjelautailu) 360 asteen käännös ilman vaatimusta vastakäännöksestä tai jiipistä; C (mätsikilpailu) poistaa säännön 44 ja käyttää omaa rangaistusjärjestelmää; D (joukkuekilpailu) Yhden Kierroksen Rangaistus myös sääntöjen 31 ja 42 rikkomisesta; E (radio-ohjattavat veneet) Yhden Kierroksen Rangaistus, etu tasataan lisäkierroksilla, vakava vahinko tai toisen veneen vetäytymään pakottaminen johtaa vetäytymiseen, ja 44.3 on poistettu; F (leijalautailu) yksi 360 asteen käännös ilman vastakäännöstä tai jiippiä, ja myös sotkeutuminen johtaa vetäytymiseen. Liite P: säännön 42 ensimmäinen rangaistus on Kahden Kierroksen Rangaistus säännön 44.2 mukaan. Liite T: kilpailun jälkeinen rangaistus on 30 %:n pisterangaistus kohdan 44.3(c) laskutavalla.",
+      "en": "Rule 44 is not listed in rule 86.1(a), so the notice of race or sailing instructions may change it. Appendices: B (windsurfing) a 360° turn with no tack or gybe required; C (match racing) deletes rule 44 and uses its own penalty system; D (team racing) a One-Turn Penalty, also for rules 31 and 42; E (radio sailing) a One-Turn Penalty, an advantage is removed with extra turns, serious damage or causing another boat to become disabled and retire means retiring, and 44.3 is deleted; F (kiteboarding) one 360° turn with no tack or gybe, and a tangle also means retiring. Appendix P: the first rule 42 penalty is a Two-Turns Penalty under rule 44.2. Appendix T: the Post-Race Penalty is a 30% Scoring Penalty calculated as in 44.3(c)."
+    },
+    "source": "RRS 44, 21.2, 60.5(c), 86.1, A5, Appendices B, C, D, E, F, P, T; Case 19, 99, 107, 108, 135, 141, 149",
+    "scene": {
+      "h": 260,
+      "track": [
+        [
+          80,
+          210
+        ],
+        [
+          180,
+          125
+        ],
+        [
+          180,
+          125
+        ],
+        [
+          193,
+          132
+        ],
+        [
+          207,
+          132
+        ],
+        [
+          220,
+          125
+        ],
+        [
+          227,
+          112
+        ],
+        [
+          227,
+          98
+        ],
+        [
+          220,
+          85
+        ],
+        [
+          207,
+          78
+        ],
+        [
+          193,
+          78
+        ],
+        [
+          180,
+          85
+        ],
+        [
+          173,
+          98
+        ],
+        [
+          173,
+          112
+        ],
+        [
+          180,
+          125
+        ]
+      ],
+      "boats": [
+        {
+          "n": "B",
+          "x": 80,
+          "y": 210,
+          "rot": 45,
+          "tack": "p",
+          "c": "b",
+          "ghost": true
+        },
+        {
+          "n": "C",
+          "x": 135,
+          "y": 205,
+          "rot": -45,
+          "tack": "s",
+          "c": "c"
+        },
+        {
+          "n": "B",
+          "x": 160,
+          "y": 145,
+          "rot": 45,
+          "tack": "p",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "B rikkoo sääntöä 10 C:tä vastaan (haalea vene on B tapahtumahetkellä). Se purjehtii ensin selvästi eroon C:stä ja muista veneistä ja tekee sitten viipymättä kaksi samansuuntaista käännöstä, joissa kummassakin on vastakäännös ja jiippi (44.2).",
+      "en": "B breaks rule 10 against C (the faded boat is B at the time of the incident). She first gets well clear of C and other boats, then promptly makes two turns in the same direction, each with a tack and a gybe (44.2)."
+    },
+    "defs": [
+      "Finish",
+      "Racing",
+      "Keep Clear"
+    ],
+    "links": [
+      {
+        "rules": [
+          "21"
+        ],
+        "note": {
+          "fi": "Rangaistusta ottavan veneen pitää pysyä loitolla veneestä, joka ei ota rangaistusta (21.2; Case 149).",
+          "en": "A boat taking a penalty must keep clear of one that is not (21.2; Case 149)."
+        }
+      },
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "Merkin koskettamisesta otetaan Yhden Kierroksen Rangaistus, ellei samassa tapahtumassa rikota myös osan 2 sääntöä (44.1(a); Case 108).",
+          "en": "Touching a mark calls for a One-Turn Penalty unless a Part 2 rule is broken in the same incident (44.1(a); Case 108)."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "Vapautetun veneen ei tarvitse ottaa rangaistusta (43.2).",
+          "en": "An exonerated boat need not take a penalty (43.2)."
+        }
+      },
+      {
+        "rules": [
+          "14"
+        ],
+        "note": {
+          "fi": "Kosketus, josta seuraa loukkaantuminen tai vakava vahinko, ei sovitu kierroksilla: rikkonut vene vetäytyy (44.1(b); Case 99, 107).",
+          "en": "Contact causing injury or serious damage cannot be settled with turns: the boat that broke the rule retires (44.1(b); Cases 99, 107)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 99,
+        "title": {
+          "fi": "Hallitsematon vene ja vakava vahinko",
+          "en": "Out of control and serious damage"
+        },
+        "text": {
+          "fi": "Kaksi Farr 30 -venettä purjehti kovassa säässä. S kulki myötätuulessa vauhdikkaasti. P oli kaatunut kyljelleen (broach) eikä pystynyt ohjaamaan. P osui S:n kylkeen keskelle, ja S vaurioitui vakavasti. Kumpikin vetäytyi, ja S protestoi P:tä. Lautakunnan mukaan S oli tehnyt pieniä suunnanmuutoksia veneiden ollessa vielä kaukana, mutta P:n arvaamaton liike teki niistä hyödyttömiä; kun kävi selväksi, ettei P pysy loitolla, S:n ainoa keino olisi ollut hallitsematon jiippi, joka olisi voinut vaurioittaa sitä pahasti. Lautakunta hylkäsi molemmat veneet.",
+          "en": "Two Farr 30s were racing in hard conditions. S was running fast. P had broached and could not steer. P hit S amidships and S was seriously damaged. Both retired, and S protested P. The committee found that S had made small course changes while the boats were still far apart, but P's erratic motion defeated them; once it was clear P would not keep clear, S's only option would have been a crash gybe that risked serious damage to her. The committee disqualified both boats."
+        },
+        "answer": {
+          "fi": "Molempien hylkäykset kumottiin, ja kumpikin sai tuloksen RET. P rikkoi sääntöjä 10 ja 14(a); hallitsemattomuus ei vapauta. Koska P aiheutti vakavan vahingon, sen rangaistus oli vetäytyä (44.1(b)). P vetäytyi, joten sitä ei saa hylätä; vetäytymisen syyllä ei ole merkitystä (60.5(c)). S:n piti toimia vasta, kun kävi selväksi, ettei P pysy loitolla, eikä kosketusta voinut silloin kohtuudella välttää, joten S ei rikkonut sääntöä 14. Lautakunta voi lisäksi harkita S:lle hyvitystä.",
+          "en": "Both disqualifications were reversed and both boats scored RET. P broke rules 10 and 14(a); being out of control does not exonerate. Because P caused serious damage, her penalty was to retire (44.1(b)). P retired, so she may not be disqualified; why she retired does not matter (60.5(c)). S had to act only once it was clear P was not keeping clear, and by then contact was not reasonably avoidable, so S did not break rule 14. The committee may also consider redress for S."
+        },
+        "also": [
+          "10",
+          "14",
+          "60",
+          "61"
+        ],
+        "source": "Case 99"
+      },
+      {
+        "case": 108,
+        "title": {
+          "fi": "Rangaistus merkin kierrossa",
+          "en": "A penalty while rounding"
+        },
+        "text": {
+          "fi": "Vene koskettaa merkkiä, joka sen pitää jättää vasemmalle, ja tekee sitten käännöksen, johon sisältyy yksi vastakäännös ja yksi jiippi. Käännös voi samalla olla osa merkin kiertoa, eikä se välttämättä ole täysi ympyrä. Kelpaako tämä Yhden Kierroksen Rangaistukseksi?",
+          "en": "A boat touches a mark she must leave to port and then makes a turn including one tack and one gybe. The turn may also be part of rounding the mark and need not be a full circle. Does it count as a One-Turn Penalty?"
+        },
+        "answer": {
+          "fi": "Kelpaa, jos vene on ensin mahdollisimman pian purjehtinut selvästi eroon muista veneistä, ei enää koske merkkiä käännöksen alkaessa ja tekee käännöksen viipymättä. Sääntö 44.2 ei vaadi tiettyä astemäärää eikä kiellä yhdistämästä rangaistusta toiseen liikkeeseen. Myös sääntö 28.1 täyttyy, kun kireälle vedetty lanka veneen reitiltä jää merkin oikealle puolelle. Jos kosketus kuitenkin aiheutti vakavan vahingon tai merkittävää etua, rangaistus on vetäytyminen (44.1(b)).",
+          "en": "It does, provided the boat first got well clear of other boats as soon as possible, is no longer touching the mark when the turn begins, and makes the turn promptly. Rule 44.2 requires no particular number of degrees and does not forbid combining the penalty with another manoeuvre. Rule 28.1 is also met when a string along her track, drawn taut, lies on the required side of the mark. If the touch caused serious damage or a significant advantage, however, the penalty is to retire (44.1(b))."
+        },
+        "also": [
+          "28",
+          "31"
+        ],
+        "source": "Case 108"
+      },
+      {
+        "case": 149,
+        "title": {
+          "fi": "Keskeytetyt kierrokset",
+          "en": "Interrupted turns"
+        },
+        "text": {
+          "fi": "Luovittaessa B joutui tapahtumaan kolmannen veneen kanssa. Lähellä ei ollut muita veneitä kuin A, eikä A:n reitti olisi vienyt sitä B:n kierrosten alueelle. B laski aloittaakseen Kahden Kierroksen Rangaistuksen. Samaan aikaan A teki vastakäännöksen oikealle halssille tiukasti vastaiseen suuntaan, ja veneet joutuivat törmäyskurssille. B nousi hetkeksi väistääkseen A:n ja jatkoi sitten laskemista ja kierroksia loppuun.",
+          "en": "Upwind, B was involved in an incident with a third boat. No boats were nearby except A, whose course would not have taken her into B's turning area. B bore away to begin a Two-Turns Penalty. Meanwhile A tacked onto a close-hauled starboard course, and the boats were on a collision course. B luffed briefly to keep clear of A, then resumed bearing away and completed her turns."
+        },
+        "answer": {
+          "fi": "B ei rikkonut sääntöä, ja sen rangaistus kelpaa. Se oli selvästi eroon muista, koska sillä ei ollut syytä odottaa A:n vastakäännöstä. Keskeytys kesti vain sen ajan, joka tarvittiin A:n väistämiseen säännön 21.2 mukaisesti, joten kierrokset tehtiin viipymättä. A:n osalta ratkaisee, purjehtiko se oikeaa suuntaansa. Jos purjehti, sääntö 23.2 ei koskenut sitä; kulkuun oikeutettuna suuntaa muuttavana veneenä sen piti antaa B:lle tilaa pysyä loitolla (16.1), ja se antoi. Jos ei purjehtinut, se häiritsi rangaistusta ottavaa venettä ja rikkoi sääntöä 23.2.",
+          "en": "B broke no rule and her penalty counts. She was well clear, since she had no reason to expect A to tack. The interruption lasted only as long as she needed to keep clear of A under rule 21.2, so the turns were prompt. For A, it depends on whether she was sailing her proper course. If she was, rule 23.2 did not apply to her; as a right-of-way boat changing course she had to give B room to keep clear (16.1), and she did. If she was not, she interfered with a boat taking a penalty and broke rule 23.2."
+        },
+        "also": [
+          "16",
+          "21",
+          "23"
+        ],
+        "source": "Case 149"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r44-q1",
+        "prompt": {
+          "fi": "B kosketti merkkiä, mutta ei ollut tekemisissä muiden veneiden kanssa. Kilpailukutsussa ei ole muuta rangaistusta. Mikä rangaistus B:n pitää ottaa?",
+          "en": "B touched a mark but was not involved with any other boat. The notice of race sets no other penalty. What penalty should B take?"
+        },
+        "scene": {
+          "h": 220,
+          "k": 0.5,
+          "mark": [
+            150,
+            110
+          ],
+          "boats": [
+            {
+              "n": "B",
+              "x": 150,
+              "y": 130,
+              "rot": -90,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden Kierroksen Rangaistus",
+              "en": "A One-Turn Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistus",
+              "en": "A Two-Turns Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, jos merkki ei liikkunut",
+              "en": "None, if the mark did not move"
+            }
+          }
+        ],
+        "why": {
+          "fi": "44.1: säännön 31 rikkomisesta otetaan Yhden Kierroksen Rangaistus; Kahden Kierroksen Rangaistus koskee osan 2 sääntöjä. Merkin liikkumisella ei ole merkitystä.",
+          "en": "44.1: breaking rule 31 calls for a One-Turn Penalty; the Two-Turns Penalty is for Part 2 rules. Whether the mark moved does not matter."
+        },
+        "source": "RRS 44.1",
+        "also": [
+          "31"
+        ]
+      },
+      {
+        "id": "r44-q2",
+        "prompt": {
+          "fi": "Merkillä P ei pysy loitolla S:stä ja koskettaa samassa tilanteessa merkkiä. Montako kierrosta P:n pitää tehdä?",
+          "en": "At a mark P fails to keep clear of S and in the same incident touches the mark. How many turns must P make?"
+        },
+        "scene": {
+          "h": 220,
+          "k": 0.5,
+          "mark": [
+            150,
+            110
+          ],
+          "boats": [
+            {
+              "n": "S",
+              "x": 190,
+              "y": 128,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 118,
+              "y": 142,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kolme: kaksi säännöstä 10 ja yksi säännöstä 31",
+              "en": "Three: two for rule 10 and one for rule 31"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaksi: säännön 31 rangaistusta ei tarvita",
+              "en": "Two: no penalty is needed for rule 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yksi",
+              "en": "One"
+            }
+          }
+        ],
+        "why": {
+          "fi": "44.1(a): kun samassa tapahtumassa rikotaan sekä osan 2 sääntöä että sääntöä 31, säännön 31 rangaistusta ei tarvitse ottaa. Kahden Kierroksen Rangaistus riittää.",
+          "en": "44.1(a): when a Part 2 rule and rule 31 are broken in the same incident, the rule 31 penalty need not be taken. The Two-Turns Penalty is enough."
+        },
+        "source": "RRS 44.1(a)",
+        "also": [
+          "10",
+          "31"
+        ]
+      },
+      {
+        "id": "r44-q3",
+        "prompt": {
+          "fi": "P ei pysy loitolla S:stä. S tekee kovassa tuulessa nopean vastakäännöksen väistääkseen, kaatuu, ja perämies kaatuessaan vaurioittaa ohjausaisaa. Veneiden kosketus ei vahingoittanut kumpaakaan. Aisaa ei voi korjata vesillä, ja S vetäytyy. Mikä olisi ollut P:n oikea rangaistus?",
+          "en": "P fails to keep clear of S. In strong wind S tacks quickly to avoid her, capsizes, and the helmsman falls and damages the tiller. The contact between the boats did no damage. The tiller cannot be repaired on the water and S retires. What was P's appropriate penalty?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 165,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 125,
+              "y": 150,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistus, koska kosketus ei aiheuttanut vahinkoa",
+              "en": "A Two-Turns Penalty, because the contact caused no damage"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vetäytyminen, koska vakava vahinko oli rikkomuksen todennäköinen seuraus",
+              "en": "Retiring, because serious damage was the probable consequence of the breach"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei rangaistusta, koska S kaatui itse",
+              "en": "No penalty, because S capsized by herself"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 135: vahingon ei tarvitse syntyä suoraan kosketuksesta, vaan riittää, että se on rikkomuksen todennäköinen seuraus. Vahinko oli vakava, koska sitä ei voinut korjata vesillä ja S joutui vetäytymään. Siksi P:n rangaistus oli vetäytyä (44.1(b)). S:n hyvitys edellyttää lisäksi, ettei kaatuminen johtunut huonosta merimiestaidosta eikä aisa ollut ennestään huonossa kunnossa.",
+          "en": "Case 135: damage need not come directly from the contact; it is enough that it was the probable consequence of the breach. It was serious, because it could not be repaired on the water and S had to retire. So P's penalty was to retire (44.1(b)). Redress for S also requires that the capsize was not due to poor seamanship and the tiller was not already in poor condition."
+        },
+        "source": "Case 135; RRS 44.1(b)",
+        "also": [
+          "10",
+          "61"
+        ]
+      },
+      {
+        "id": "r44-q4",
+        "prompt": {
+          "fi": "Lähtöä edeltävässä tilanteessa vasemman halssin vene törmää ja vaurioituu niin pahasti, että se vetäytyy. Protestissa lautakunta toteaa sen rikkoneen sääntöä 10. Mikä sen tulos on?",
+          "en": "Before the start a port-tack boat collides and is damaged so badly that she retires. In the protest the committee finds she broke rule 10. What is her score?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 165,
+              "y": 125,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 130,
+              "y": 150,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "DSQ, koska se rikkoi sääntöä",
+              "en": "DSQ, because she broke a rule"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "RET: vetäytymällä se otti rangaistuksen, eikä sitä rangaista uudelleen",
+              "en": "RET: by retiring she took the penalty and is not penalized again"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 107: vakavan vahingon jälkeen vetäytyvä vene on ottanut sovellettavan rangaistuksen (44.1(b)), eikä sitä saa rangaista lisää (60.5(c)(2)). Sama pätee, vaikka vetäytyminen johtuisi pakosta eikä valinnasta (Case 99).",
+          "en": "Case 107: a boat that retires after causing serious damage has taken the applicable penalty (44.1(b)) and may not be penalized further (60.5(c)(2)). The same applies even if she retired from necessity rather than choice (Case 99)."
+        },
+        "source": "Case 107, 99; RRS 60.5(c)(2)",
+        "also": [
+          "10",
+          "14",
+          "60"
+        ]
+      },
+      {
+        "id": "r44-q5",
+        "prompt": {
+          "fi": "Kosketuksen jälkeen kölivene tarkistetaan satamassa. Mikä näistä viittaa vahvimmin siihen, että vahinko on vakava?",
+          "en": "After contact a keelboat is inspected in harbour. Which of these points most strongly to serious damage?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 160,
+              "y": 115,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 128,
+              "y": 145,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vantin kiinnitys on haljennut, ja miehistön turvallisuus heikkeni",
+              "en": "A shroud chainplate cracked and crew safety was reduced"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyljessä on naarmu, joka ei vaikuta arvoon eikä toimivuuteen",
+              "en": "A scratch on the side that affects neither value nor function"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kosketus kuului kovana äänenä",
+              "en": "The contact made a loud noise"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 141: ”vakava” on tavallisen kielen sana. Kysymyksiä ovat esimerkiksi, heikensikö vahinko miehistön turvallisuutta tai veneen purjehduskykyä merkittävästi ja ovatko korjauskulut tai arvon alenema merkittäviä suhteessa veneen arvoon. Case 19: pelkkä naarmu ilman arvon tai toimivuuden heikkenemistä ei välttämättä ole edes vahinkoa.",
+          "en": "Case 141: ‘serious’ is an ordinary word. The questions include whether the damage reduced crew safety or sailing performance significantly, and whether repair cost or loss of value is significant relative to the boat's value. Case 19: a scratch that impairs neither value nor function may not even be damage."
+        },
+        "source": "Case 141, 19; RRS 44.1(b)",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "r44-q6",
+        "prompt": {
+          "fi": "Vene koskettaa merkkiä ja tekee merkin kierron aikana käännöksen, jossa on vastakäännös ja jiippi, mutta joka jää selvästi alle 360 asteen. Muita veneitä ei ole lähellä. Kelpaako rangaistus?",
+          "en": "A boat touches a mark and, while rounding it, makes a turn with a tack and a gybe that is well short of 360°. No other boats are nearby. Does the penalty count?"
+        },
+        "scene": {
+          "h": 220,
+          "k": 0.5,
+          "mark": [
+            150,
+            110
+          ],
+          "track": [
+            [
+              150,
+              140
+            ],
+            [
+              165,
+              136
+            ],
+            [
+              176,
+              125
+            ],
+            [
+              180,
+              110
+            ],
+            [
+              176,
+              95
+            ],
+            [
+              165,
+              84
+            ],
+            [
+              150,
+              80
+            ],
+            [
+              135,
+              84
+            ],
+            [
+              124,
+              95
+            ],
+            [
+              120,
+              110
+            ]
+          ],
+          "boats": [
+            {
+              "n": "B",
+              "x": 150,
+              "y": 140,
+              "rot": -90,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, käännöksen pitää olla täysi ympyrä",
+              "en": "No, the turn must be a full circle"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos merkki ei enää kosketa ja käännös tehdään viipymättä",
+              "en": "Yes, if she is no longer touching the mark and turns promptly"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 108: sääntö 44.2 ei vaadi tiettyä astemäärää eikä kiellä yhdistämästä rangaistusta merkin kiertoon. Ehdot ovat: selvästi erossa muista, ei enää kosketa merkkiä ja käännös tehdään viipymättä.",
+          "en": "Case 108: rule 44.2 requires no particular number of degrees and does not forbid combining the penalty with rounding. The conditions are: well clear of others, no longer touching the mark, and turning promptly."
+        },
+        "source": "Case 108; RRS 44.2",
+        "also": [
+          "28",
+          "31"
+        ]
+      },
+      {
+        "id": "r44-q7",
+        "prompt": {
+          "fi": "B on aloittanut Kahden Kierroksen Rangaistuksen. A tekee vastakäännöksen ja tulee B:n eteen. Mitä B:n pitää tehdä?",
+          "en": "B has begun a Two-Turns Penalty. A tacks and comes into B's path. What must B do?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 175,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 130,
+              "y": 150,
+              "rot": 100,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Jatkaa käännöstä, koska rangaistusta ottavalla on etuoikeus",
+              "en": "Carry on turning, as a boat taking a penalty has right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Väistää A:n ja jatkaa sitten kierroksia; rangaistus on silti viipymätön",
+              "en": "Keep clear of A and then resume; the penalty is still prompt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aloittaa rangaistuksen alusta",
+              "en": "Start the penalty again from the beginning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.2: rangaistusta ottavan veneen pitää pysyä loitolla veneestä, joka ei ota rangaistusta. Case 149: kun keskeytys kestää vain väistämisen ajan, kierrokset tehdään edelleen viipymättä (44.2).",
+          "en": "21.2: a boat taking a penalty must keep clear of one that is not. Case 149: when the interruption lasts only as long as keeping clear takes, the turns are still prompt (44.2)."
+        },
+        "source": "Case 149; RRS 21.2, 44.2",
+        "also": [
+          "21",
+          "23"
+        ]
+      },
+      {
+        "id": "r44-q8",
+        "prompt": {
+          "fi": "Vene rikkoo sääntöä 10 juuri ennen maalilinjaa, ylittää linjan ja tekee kierrokset heti linjan takana. Mitä sen pitää vielä tehdä?",
+          "en": "A boat breaks rule 10 just before the finishing line, crosses the line and makes her turns just beyond it. What else must she do?"
+        },
+        "scene": {
+          "h": 220,
+          "track": [
+            [
+              40,
+              110
+            ],
+            [
+              260,
+              110
+            ]
+          ],
+          "mark": [
+            260,
+            110
+          ],
+          "boats": [
+            {
+              "n": "B",
+              "x": 150,
+              "y": 68,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään: se tuli jo maaliin",
+              "en": "Nothing: she has already finished"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Palata kokonaan radan puolelle ja tulla maaliin uudelleen",
+              "en": "Return completely to the course side and finish again"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Maaliin tulon määritelmä: vene ei ole tullut maaliin, jos se linjan ylitettyään ottaa rangaistuksen säännön 44.2 mukaan. Säännön 44.2 mukaan rungon pitää olla kokonaan linjan radan puolella ennen maaliin tuloa.",
+          "en": "Definition Finish: a boat has not finished if, after crossing the line, she takes a penalty under rule 44.2. Rule 44.2 requires her hull to be completely on the course side of the line before she finishes."
+        },
+        "source": "RRS 44.2; Definition Finish",
+        "also": []
+      },
+      {
+        "id": "r44-q9",
+        "prompt": {
+          "fi": "Sarjaan on ilmoittautunut 30 venettä, ja purjehdusohjeissa on pisterangaistus ilman pistemäärää. A ottaa pisterangaistuksen ja tulee maaliin viidentenä. Montako pistettä A saa?",
+          "en": "30 boats have entered the series, and the sailing instructions use the Scoring Penalty without stating the points. A takes a Scoring Penalty and finishes fifth. How many points does A score?"
+        },
+        "scene": {
+          "h": 200,
+          "track": [
+            [
+              40,
+              100
+            ],
+            [
+              260,
+              100
+            ]
+          ],
+          "mark": [
+            260,
+            100
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 130,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "5 pistettä ja jälkimmäiset veneet nousevat sijan",
+              "en": "5 points, and the boats behind move up a place"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "11,2 pistettä; muiden pisteet eivät muutu",
+              "en": "11.2 points; other boats' scores do not change"
+            }
+          },
+          {
+            "t": {
+              "fi": "6 pistettä",
+              "en": "6 points"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A5.2: maaliin tulematon vene ei ole purjehtinut rataa, ja sen pistemäärä on sarjaan ilmoittautuneiden määrä plus yksi, eli 31 (ellei käytössä ole A5.3). 44.3(c): rangaistus on 20 % siitä eli 6,2 pistettä, joten A saa 5 + 6,2 = 11,2. Muiden veneiden pisteitä ei muuteta, joten kaksi venettä voi saada saman pistemäärän.",
+          "en": "A5.2: a boat that did not finish did not sail the course and scores the number of entries in the series plus one, that is 31 (unless A5.3 applies). 44.3(c): the penalty is 20% of that, 6.2 points, so A scores 5 + 6.2 = 11.2. Other boats' scores are not changed, so two boats may have the same score."
+        },
+        "source": "RRS 44.3(c), A5.2; Definition Sail the Course",
+        "also": []
+      },
+      {
+        "id": "r44-q10",
+        "prompt": {
+          "fi": "Samassa 30 veneen sarjassa B ottaa pisterangaistuksen ja tulee maaliin 28:ntena. Montako pistettä B saa?",
+          "en": "In the same 30-boat series B takes a Scoring Penalty and finishes 28th. How many points does B score?"
+        },
+        "scene": {
+          "h": 200,
+          "track": [
+            [
+              40,
+              100
+            ],
+            [
+              260,
+              100
+            ]
+          ],
+          "mark": [
+            260,
+            100
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 130,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "34,2",
+              "en": "34.2"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "31, eli DNF-pistemäärä",
+              "en": "31, the DNF score"
+            }
+          },
+          {
+            "t": {
+              "fi": "28",
+              "en": "28"
+            }
+          }
+        ],
+        "why": {
+          "fi": "28 + 6,2 = 34,2 olisi huonompi kuin DNF-pistemäärä 31, mutta 44.3(c) kieltää rangaistusta tekemästä tulosta DNF:ää huonommaksi. B saa 31 pistettä.",
+          "en": "28 + 6.2 = 34.2 would be worse than the DNF score of 31, but 44.3(c) does not allow the penalty to make the score worse than DNF. B scores 31 points."
+        },
+        "source": "RRS 44.3(c), A5.2",
+        "also": []
+      }
+    ]
   }
 ]

@@ -34,17 +34,18 @@ export function pageLines(all: Item[]): string[] {
       else if (x - end > cw) s += ' '.repeat(Math.max(2, col - s.length));
       s += it.str; end = x + it.width;
     }
-    return s.replace(/\u00ad/g, '-').trimEnd();
+    // pdf.js drops the soft hyphen in the Swedish 44.2 title (pdftotext keeps it).
+    return s.replace(/\u00ad/g, '-').replace('Ensv\u00e4ngs och', 'Ensv\u00e4ngs- och').trimEnd();
   });
 }
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*SECTION D$/], rules: [[/^43\s+EXONERATION$/, /^44\s+PENALTIES/]],
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*SECTION D$/], rules: [[/^43\s+EXONERATION$/, /^45\s+HAULING/]],
     furniture: /^\s*(DEFINITIONS|Part [24]\s+(WHEN BOATS MEET|OTHER REQUIREMENTS WHEN RACING)|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^RYHMÄ D$/], rules: [[/^43\s+VAPAUTTAMINEN$/, /^44\s+TAPAHTUMAN/]],
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^RYHMÄ D$/], rules: [[/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
     furniture: /^\s*(MÄÄRITELMÄT|Osa [24]\s+(KUN VENEET KOHTAAVAT|MUUT VAATIMUKSET KILPAILTAESSA)|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^\s*AVDELNING D/], rules: [[/^43\s+FRIKÄNNANDE$/, /^44\s+STRAFF/]],
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^\s*AVDELNING D/], rules: [[/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
     furniture: /^\s*(DEFINITIONER|\s+DEL 2 – NÄR BÅTAR MÖTS|\s+DEL 4 – ANDRA KRAV NÄR BÅTAR KAPPSEGLAR|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
