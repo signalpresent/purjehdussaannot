@@ -8,6 +8,8 @@ Vaihe 1: Määritelmät-moduuli (haku, kolmikielinen termilista). Toimii offline
     npm run build      # tuotantoversio hakemistoon dist/
 
 ## Sisältö
+Virallista sääntötekstiä ei ole repossa eikä julkaistussa sovelluksessa (tekijänoikeus: World Sailing, SPV, SSF). `python3 scripts/build_text.py` tekee omista PDF-tiedostoista (repon yläkansiossa, vaatii pdftotext) tiedoston `../saannot-teksti.json` repon ulkopuolelle. Tiedosto tuodaan laitteelle sovelluksen alaosan painikkeella. Laajuus: määritelmät ja osa 2 ryhmään D asti. Skripti pysähtyy, jos kohtien rakenne eroaa kielten välillä tai jos jollekin sääntösivulle ei löydy tekstiä.
+
 `scripts/build_defs.py` päivittää `src/defs.json`:iin sääntö- ja tapauskytkennät tiedostosta content-map.json. Selitykset (`explain.fi/sv/en`) ovat omin sanoin, ne muokataan suoraan `defs.json`:iin ja skripti säilyttää ne (kenttä `source` kertoo lähteen).
 
 ## Säännöt ja harjoittelu

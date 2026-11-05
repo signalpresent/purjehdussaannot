@@ -26,3 +26,18 @@ export function importBox(text: string, ids: string[]): Record<string, number> |
   } catch { return null; }
 }
 export type { State };
+// Official rule text: built locally from the user's own PDFs (scripts/build_text.py), imported on the device, never bundled.
+export interface RuleText { edition: string; titles: Record<string, Record<Lang, string>>; blocks: { id: string; d: number; t: Record<Lang, string> }[] }
+const TK = 'sailrules.text.v1';
+const isML = (m: unknown) => !!m && (['fi', 'sv', 'en'] as const).every(l => typeof (m as Record<string, unknown>)[l] === 'string');
+export function parseText(s: string): RuleText | null {
+  try {
+    const d = JSON.parse(s);
+    if (d?.app !== 'sailrules-text' || d.v !== 1 || !Array.isArray(d.blocks) || typeof d.titles !== 'object' || !d.titles) return null;
+    if (!d.blocks.every((b: RuleText['blocks'][number]) => typeof b?.id === 'string' && Number.isInteger(b.d) && isML(b.t))) return null;
+    if (!Object.values(d.titles).every(isML)) return null;
+    return { edition: String(d.edition ?? ''), titles: d.titles, blocks: d.blocks };
+  } catch { return null; }
+}
+export const loadText = () => { try { return parseText(localStorage.getItem(TK) || ''); } catch { return null; } };
+export function saveText(s: string): boolean { try { localStorage.setItem(TK, s); return true; } catch { return false; } }

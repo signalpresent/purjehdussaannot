@@ -33,5 +33,10 @@ export const T: Record<string, Record<Lang, string>> = {
   import: { fi: 'Tuo edistyminen', sv: 'Importera framsteg', en: 'Import progress' },
   imported: { fi: 'Tuotu kysymystä', sv: 'Importerade frågor', en: 'Imported questions' },
   importFail: { fi: 'Tuonti epäonnistui: tiedosto ei ole edistymistiedosto.', sv: 'Importen misslyckades: filen är ingen framstegsfil.', en: 'Import failed: the file is not a progress file.' },
+  official: { fi: 'Virallinen teksti', sv: 'Officiell text', en: 'Official text' },
+  textImport: { fi: 'Tuo sääntöteksti', sv: 'Importera regeltext', en: 'Import rule text' },
+  textLoaded: { fi: 'Sääntöteksti ladattu', sv: 'Regeltext inläst', en: 'Rule text loaded' },
+  textNone: { fi: 'Virallista sääntötekstiä ei ole tuotu tälle laitteelle.', sv: 'Ingen officiell regeltext har importerats till enheten.', en: 'No official rule text has been imported on this device.' },
+  textFail: { fi: 'Tuonti epäonnistui: tiedosto ei ole sääntötekstitiedosto, tai tila ei riitä.', sv: 'Importen misslyckades: filen är ingen regeltextfil, eller utrymmet räcker inte.', en: 'Import failed: not a rule text file, or not enough storage.' },
   none: { fi: 'Ei hakutuloksia', sv: 'Inga träffar', en: 'No results' },
 };

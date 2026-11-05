@@ -2,9 +2,9 @@ import './style.css';
 import { registerSW } from 'virtual:pwa-register';
 import defsRaw from './defs.json';
 import { LANGS, Lang, T, esc } from './i18n';
-import { load, save, State, exportBox, importBox } from './store';
+import { load, save, State, exportBox, importBox, loadText, parseText, saveText } from './store';
 import { diagrams, overlapMove } from './diagrams';
-import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds } from './rules';
+import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -24,12 +24,14 @@ let current: Def | null = null;
 let currentRule: (typeof rules)[number] | null = null;
 let query = '';
 let flash = '';
+let text = loadText();
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
   const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' ? 'practice' : 'rules';
   const nav = (['list', 'rules', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', practice: 'tabPractice' }[v])}</button>`).join('');
-  return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}</div>`;
+  const foot = `<footer><span class="mute">${text ? `${t('textLoaded')} · ${esc(text.edition)}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".json,application/json" hidden><p class="mute" id="timpmsg"></p></footer>`;
+  return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
 }
 
 function listView(): string {
@@ -47,12 +49,12 @@ function detailView(d: Def): string {
   const cases = d.cases.length ? `<div class="chips">${d.cases.map(c => `<span>Case ${c}</span>`).join('')}</div>` : '–';
   const ex = `<p>${esc(d.explain[state.lang])}</p><p class="mute">${t('source')}: ${esc(d.source)}</p>`;
   return `<button class="btn" data-nav="${backTo}">${t('back')}</button><h2>${esc(d[state.lang])}</h2><div class="tri">${tri}</div>
-  <h3>${t('explain')}</h3>${ex}${diagrams[d.en]?.(state.lang) ?? ''}<h3>${t('rules')}</h3>${rules}<h3>${t('cases')}</h3>${cases}`;
+  ${official(text, state.lang, b => b === 'def:' + d.en)}<h3>${t('explain')}</h3>${ex}${diagrams[d.en]?.(state.lang) ?? ''}<h3>${t('rules')}</h3>${rules}<h3>${t('cases')}</h3>${cases}`;
 }
 
 function render() {
-  const inner = view === 'detail' && current ? detailView(current) : view === 'rule' && currentRule ? ruleView(currentRule, state.lang)
-    : view === 'rules' ? rulesView(state.lang) : view === 'practice' ? practiceView(state) : listView();
+  const inner = view === 'detail' && current ? detailView(current) : view === 'rule' && currentRule ? ruleView(currentRule, state.lang, text)
+    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : listView();
   const hadFocus = document.activeElement?.id === 'q';
   root.innerHTML = shell(inner);
   const m = document.getElementById('impmsg'); if (m) m.textContent = flash;
@@ -60,10 +62,11 @@ function render() {
 }
 
 root.addEventListener('click', e => {
-  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next],[data-export],[data-import]') as HTMLElement | null;
+  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next],[data-export],[data-import],[data-timport]') as HTMLElement | null;
   if (!el) return;
   const ds = el.dataset;
   flash = '';
+  if (ds.timport) { (document.getElementById('timp') as HTMLInputElement).click(); return; }
   if (ds.import) { (document.getElementById('imp') as HTMLInputElement).click(); return; }
   if (ds.export) {
     const a = document.createElement('a');
@@ -87,6 +90,11 @@ root.addEventListener('input', e => {
 });
 root.addEventListener('change', async e => {
   const el = e.target as HTMLInputElement;
+  if (el.id === 'timp' && el.files?.[0]) {
+    const raw = await el.files[0].text(), parsed = parseText(raw), ok = !!parsed && saveText(raw);
+    if (ok) text = parsed;
+    render(); if (!ok) document.getElementById('timpmsg')!.textContent = t('textFail'); return;
+  }
   if (el.id !== 'imp' || !el.files?.[0]) return;
   const box = importBox(await el.files[0].text(), questionIds());
   if (box) { state.box = box; save(state); flash = `${t('imported')}: ${Object.keys(box).length}`; } else flash = t('importFail');
