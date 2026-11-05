@@ -1,0 +1,29 @@
+export type Lang = 'fi' | 'sv' | 'en';
+export const LANGS: Lang[] = ['fi', 'sv', 'en'];
+export const esc = (s: string) => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+export const T: Record<string, Record<Lang, string>> = {
+  title: { fi: 'Purjehdussäännöt 2025–2028', sv: 'Kappseglingsreglerna 2025–2028', en: 'Racing Rules of Sailing 2025–2028' },
+  search: { fi: 'Hae termiä…', sv: 'Sök term…', en: 'Search term…' },
+  rules: { fi: 'Säännöt, joissa termi esiintyy', sv: 'Regler där termen förekommer', en: 'Rules where the term appears' },
+  cases: { fi: 'Case Book -tapaukset', sv: 'Case Book-fall', en: 'Case Book cases' },
+  explain: { fi: 'Selitys (oma tiivistys)', sv: 'Förklaring', en: 'Explanation' },
+  source: { fi: 'Lähde', sv: 'Källa', en: 'Source' },
+  back: { fi: '← Takaisin', sv: '← Tillbaka', en: '← Back' },
+  tabDefs: { fi: 'Määritelmät', sv: 'Definitioner', en: 'Definitions' },
+  tabRules: { fi: 'Säännöt', sv: 'Regler', en: 'Rules' },
+  tabPractice: { fi: 'Harjoittele', sv: 'Öva', en: 'Practice' },
+  rule: { fi: 'Sääntö', sv: 'Regel', en: 'Rule' },
+  moreRules: { fi: 'Lisää sääntöjä tulossa.', sv: 'Fler regler kommer.', en: 'More rules to come.' },
+  related: { fi: 'Liittyvät määritelmät', sv: 'Relaterade definitioner', en: 'Related definitions' },
+  links: { fi: 'Kytkennät', sv: 'Kopplingar', en: 'Links' },
+  scenarios: { fi: 'Skenaariot Case Bookista (omin sanoin)', sv: 'Scenarier från Case Book (egna ord)', en: 'Scenarios from the Case Book (own words)' },
+  outcome: { fi: 'Ratkaisu', sv: 'Avgörande', en: 'Outcome' },
+  notYet: { fi: 'ei vielä sisällössä', sv: 'inte ännu med', en: 'not yet covered' },
+  fallback: { fi: '', sv: 'Den svenska versionen saknas ännu; texten visas på engelska.', en: '' },
+  wind: { fi: 'Nuoli: tuulen suunta. Veneiden keula osoittaa ylöspäin kuvassa kulkusuuntaan.', sv: 'Pilen: vindriktning. Båtarnas för pekar i färdriktningen.', en: 'Arrow: wind direction. Each boat’s bow points in her direction of travel.' },
+  next: { fi: 'Seuraava', sv: 'Nästa', en: 'Next' },
+  correct: { fi: 'Oikein', sv: 'Rätt', en: 'Correct' },
+  wrong: { fi: 'Väärin', sv: 'Fel', en: 'Incorrect' },
+  mastered: { fi: 'Hallittu', sv: 'Behärskade', en: 'Mastered' },
+  none: { fi: 'Ei hakutuloksia', sv: 'Inga träffar', en: 'No results' },
+};

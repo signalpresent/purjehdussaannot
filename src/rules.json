@@ -1,0 +1,3977 @@
+[
+  {
+    "n": 10,
+    "section": "2A",
+    "title": {
+      "fi": "Eri halsseilla",
+      "sv": "För olika halsar",
+      "en": "On Opposite Tacks"
+    },
+    "explain": {
+      "fi": "Kun veneet ovat eri halsseilla, vasemmalla halssilla olevan veneen pitää pysyä loitolla oikealla halssilla olevasta veneestä. Halssi määräytyy veneen tuulen puolen mukaan, ei purjehdussuunnan: vene on oikealla halssilla, kun sen tuulen puoli on oikea (starboard), ja vasemmalla halssilla, kun tuulen puoli on vasen (port). Kun vene purjehtii suoraan myötätuuleen tai tuulen ylitse, tuulen puoli on se, jonka vastakkaisella puolella isopurje on. Loitolla pysyminen on enemmän kuin kosketuksen välttämistä: kulkuun oikeutetun veneen pitää voida purjehtia kurssiaan ilman tarvetta väistää (määritelmä Pysyä loitolla). Kulkuun oikeutetun veneen toimia rajoittavat lisäksi eräät ryhmien B, C ja D säännöt.",
+      "en": "When boats are on opposite tacks, the port-tack boat must keep clear of the starboard-tack boat. A boat's tack follows her windward side, not the direction she is heading: she is on starboard tack when her windward side is the starboard side, and on port tack when it is the port side. When a boat sails by the lee or directly downwind, her windward side is the side opposite the one her mainsail lies on. Keeping clear means more than avoiding contact: the right-of-way boat must be able to sail her course with no need to take avoiding action (definition Keep Clear). Some rules in Sections B, C and D also limit what a right-of-way boat may do."
+    },
+    "note": {
+      "fi": "Liitteet B (purjelautailu) ja F (leijalautailu) määrittelevät halssin kilpailijan käden mukaan.",
+      "en": "Appendices B (windsurfing) and F (kiteboarding) define the tack by the competitor's hand."
+    },
+    "source": "RRS 10, Part 2 Section A preamble, Definitions (Keep Clear, Leeward and Windward, Tack), Appendices B, F; Case 9, 87, 88, 105",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "P",
+          "x": 90,
+          "y": 185,
+          "rot": 45,
+          "tack": "p",
+          "c": "b"
+        },
+        {
+          "n": "S",
+          "x": 200,
+          "y": 150,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "P on vasemmalla halssilla (tuuli tulee sen vasemmalta puolelta) ja S oikealla halssilla (tuuli tulee sen oikealta puolelta). Veneet lähestyvät toisiaan, ja P:n pitää pysyä loitolla S:stä (sääntö 10).",
+      "en": "P is on port tack (the wind comes over her port side) and S is on starboard tack (the wind comes over her starboard side). The boats are converging and P must keep clear of S (rule 10)."
+    },
+    "defs": [
+      "Keep Clear",
+      "Tack, Starboard or Port",
+      "Leeward and Windward"
+    ],
+    "links": [
+      {
+        "rules": [
+          "13"
+        ],
+        "note": {
+          "fi": "Vastakäännöksen aikana (tuulensilmän ohituksesta tiukasti vastaisessa suunnassa oloon) sääntö 10 ei päde.",
+          "en": "During a tack (from passing head to wind until close-hauled) rule 10 does not apply."
+        }
+      },
+      {
+        "rules": [
+          "14",
+          "16"
+        ],
+        "note": {
+          "fi": "Case 87, 88 ja 105: kulkuun oikeutetun veneen pitää välttää kosketus, kun on selvää, ettei toinen pysy loitolla (14), ja sen pitää antaa toiselle tilaa pysyä loitolla, kun se muuttaa suuntaansa (16.1).",
+          "en": "Cases 87, 88 and 105: a right-of-way boat must avoid contact once it is clear the other boat is not keeping clear (14), and must give the other boat room to keep clear when she changes course (16.1)."
+        }
+      },
+      {
+        "rules": [
+          "18.1"
+        ],
+        "note": {
+          "fi": "Sääntö 18 ei päde eri halsseilla olevien veneiden välillä, kun ne luovivat tuuleen, eikä silloin, kun merkillä toisen mutta ei molempien oikea suunta on vastakäännös (18.1(a)(1)–(2)); silloin pätee mm. sääntö 10 (Case 9).",
+          "en": "Rule 18 does not apply between boats on opposite tacks on a beat to windward, nor when the proper course at the mark for one but not both is to tack (18.1(a)(1)–(2)); rules such as 10 then apply (Case 9)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 9,
+        "title": {
+          "fi": "Merkillä: S ei käänny, vaikka voisi",
+          "en": "At the mark: S does not tack although she could"
+        },
+        "text": {
+          "fi": "Kaksi tiukasti vastaisessa suunnassa purjehtivaa venettä eri halsseilla kohtaa ylämerkillä, joka jätetään oikealle puolelle (starboard). Oikealla halssilla oleva S pääsisi hyvin kääntymään ja kiertämään merkin, mutta jatkaa kurssiaan, jotta vasemmalla halssilla oleva P joutuisi kääntymään väistääkseen. P väittää, että S purjehtii oikean suuntansa ohi ja että sillä on tilaa kiertää merkki.",
+          "en": "Two close-hauled boats on opposite tacks meet at a windward mark to be left to starboard. S, on starboard tack, has plenty of room to tack and round the mark, but holds her course so that P, on port tack, has to tack to keep clear. P argues that S is sailing beyond her proper course and has room to round the mark."
+        },
+        "answer": {
+          "fi": "P:n pitää pysyä loitolla. Sääntö 18 ei päde, koska veneet ovat eri halsseilla tiukasti vastaisessa suunnassa (18.1(a)(1)) ja koska S:n mutta ei P:n oikea suunta merkillä on vastakäännös (18.1(a)(2)). Niinpä sääntö 10 pätee. Joissakin tilanteissa venettä kielletään purjehtimasta oikeaa suuntaansa ylempänä, mutta mikään sääntö ei velvoita venettä purjehtimaan oikeaa suuntaansa.",
+          "en": "P must keep clear. Rule 18 does not apply, because the boats are on opposite tacks on a beat (18.1(a)(1)) and because the proper course at the mark for S but not for P is to tack (18.1(a)(2)), so rule 10 applies. In some situations a boat may not sail above her proper course, but no rule requires a boat to sail her proper course."
+        },
+        "also": [
+          "18"
+        ],
+        "source": "Case 9"
+      },
+      {
+        "case": 88,
+        "title": {
+          "fi": "Ei kosketusta, mutta ei loitolla",
+          "en": "No contact, but not clear"
+        },
+        "text": {
+          "fi": "S ja P lähestyivät toisiaan tuulta vasten törmäyskurssilla, S oikealla ja P vasemmalla halssilla. S huusi kaksi kertaa ‘oikea halssi’, mutta P ei vastannut eikä muuttanut kurssiaan. Vasta kun törmäykseen oli aikaa pari sekuntia, molemmat kääntyivät: S ohjasi jyrkästi tuuleen aikoen tehdä vastakäännöksen ja P laski jyrkästi alta pois. P meni S:n perän taakse alle metrin päästä. Veneet eivät koskettaneet. Protestilautakunta katsoi, ettei P rikkonut sääntöä 10.",
+          "en": "S and P approached each other upwind on a collision course, S on starboard tack and P on port tack. S hailed ‘Starboard’ twice, but P neither answered nor changed course. Only when a couple of seconds from a collision did both turn: S luffed sharply intending to tack and P bore away sharply, passing astern of S less than a metre away. The boats did not touch. The protest committee decided that P did not break rule 10."
+        },
+        "answer": {
+          "fi": "Valitus hyväksyttiin ja P hylättiin säännön 10 rikkomisesta. ‘Pysyä loitolla’ tarkoittaa enemmän kuin kosketuksen välttämistä. Veneet olivat törmäyskurssilla, aikaa oli vain hetki ja S:n olisi pitänyt tehdä noin 90 asteen kurssimuutos (vastakäännös) välttääkseen P:n, joten S ei voinut purjehtia kurssiaan ilman tarvetta väistää. Sillä, rikkoiko S sääntöä 16, ei ollut merkitystä, koska P oli jo rikkonut sääntöä 10 ja S toimi säännön 14 edellyttämällä tavalla; S olisi joka tapauksessa vapautettu (43.1(a)).",
+          "en": "The appeal was upheld and P was disqualified for breaking rule 10. ‘Keep clear’ means more than avoiding contact. The boats were on a collision course, there was very little time left, and S would have had to make a course change of about 90 degrees (a tack) to avoid P, so S could not sail her course with no need to take avoiding action. Whether S broke rule 16 did not matter, because P had already broken rule 10 and S acted as rule 14 requires; S would have been exonerated in any case (43.1(a))."
+        },
+        "also": [
+          "14",
+          "16",
+          "43"
+        ],
+        "source": "Case 88"
+      },
+      {
+        "case": 105,
+        "title": {
+          "fi": "Kulkuun oikeutettu vene muuttaa kurssiaan",
+          "en": "The right-of-way boat changes course"
+        },
+        "text": {
+          "fi": "S ja P purjehtivat myötätuuleen rinnakkain eri halsseilla: S oikealla ja P vasemmalla halssilla. Noin kaksi minuuttia S:n jiipin jälkeen S alkaa kääntyä ylemmäs. P ei reagoi, ja veneet koskettavat toisiaan. Vahinkoa tai loukkaantumisia ei tule.",
+          "en": "S and P are running side by side on opposite tacks, S on starboard and P on port. About two minutes after S's gybe, S starts to luff. P does not respond and the boats touch. There is no damage or injury."
+        },
+        "answer": {
+          "fi": "S:llä on kulkuoikeus säännöllä 10, ja P:n pitää pysyä loitolla. Sääntö 16.1 rajoittaa kuitenkin S:ää: se saa kääntyä ylemmäs, jos se antaa P:lle tilaa pysyä loitolla, ja P:n pitää olla valmis reagoimaan viipymättä, tarvittaessa jiippaamalla. Koska P:llä oli tilaa väistää, S ei rikkonut sääntöä 16.1. P rikkoi sääntöjä 10 ja 14(a). S rikkoi myös sääntöä 14, koska se olisi voinut välttää kosketuksen, kun kävi selväksi ettei P väistä, mutta vapautui säännöllä 43.1(c), koska vahinkoa ei syntynyt.",
+          "en": "S has right of way under rule 10 and P must keep clear. Rule 16.1 still limits S: she may luff provided she gives P room to keep clear, and P must be ready to react promptly, if necessary by gybing. Since P had room to keep clear, S did not break rule 16.1. P broke rules 10 and 14(a). S also broke rule 14, because once it was clear that P was not keeping clear she could have avoided contact, but she was exonerated by rule 43.1(c) because there was no damage or injury."
+        },
+        "also": [
+          "14",
+          "15",
+          "16",
+          "43"
+        ],
+        "source": "Case 105"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r10-q1",
+        "prompt": {
+          "fi": "Tuuli puhaltaa nuolen suuntaan (ylhäältä). Vene A purjehtii ylös oikealle (koilliseen) ja vene B ylös vasemmalle (luoteeseen), ja veneet lähestyvät toisiaan. Kenen pitää pysyä loitolla?",
+          "en": "The wind blows in the direction of the arrow (from the top). Boat A sails up and to the right (north-east) and boat B up and to the left (north-west), and the boats are converging. Who must keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 80,
+              "y": 190,
+              "rot": 45,
+              "tack": "p"
+            },
+            {
+              "n": "B",
+              "x": 210,
+              "y": 150,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "A: tuuli tulee sen vasemmalta puolelta, joten se on vasemmalla halssilla",
+              "en": "A: the wind comes over her port side, so she is on port tack"
+            }
+          },
+          {
+            "t": {
+              "fi": "B, koska se purjehtii vasemmalle ja on siksi vasemmalla halssilla",
+              "en": "B, because she is sailing to the left and so is on port tack"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tuulen puolen vene (sääntö 11)",
+              "en": "The windward boat (rule 11)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Halssi määräytyy tuulen puolen mukaan, ei sen mukaan, mihin vene purjehtii. A:lle tuuli tulee vasemmalta, joten A on vasemmalla halssilla; B:lle tuuli tulee oikealta, joten B on oikealla halssilla. Sääntö 10: vasemmalla halssilla olevan A:n pitää pysyä loitolla.",
+          "en": "The tack follows the windward side, not the direction the boat is heading. For A the wind comes over her left (port) side, so she is on port tack; for B it comes over her right side, so she is on starboard tack. Rule 10: A, on port tack, must keep clear."
+        },
+        "source": "RRS 10, Definition Tack, Starboard or Port",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r10-q2",
+        "prompt": {
+          "fi": "S on oikealla ja P vasemmalla halssilla, ja veneet ovat törmäyskurssilla. S huutaa kahdesti ‘oikea halssi’, mutta P ei vastaa eikä muuta kurssiaan. Vasta kun törmäykseen on aikaa pari sekuntia, S ohjaa jyrkästi tuuleen ja P laskee jyrkästi, ja P kulkee S:n perän taakse alle metrin päästä. Veneet eivät kosketa toisiaan. Rikkoiko P sääntöä 10?",
+          "en": "S is on starboard and P on port tack, and the boats are on a collision course. S hails ‘Starboard’ twice, but P neither answers nor changes course. Only when a couple of seconds from a collision does S luff sharply and P bear away sharply, and P passes astern of S less than a metre away. The boats do not touch. Did P break rule 10?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 95,
+              "y": 175,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 205,
+              "y": 135,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: kosketusta ei tullut, joten P pysyi loitolla",
+              "en": "No: there was no contact, so P kept clear"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: P ei pysynyt loitolla, koska S ei voinut purjehtia kurssiaan ilman tarvetta väistää",
+              "en": "Yes: P did not keep clear, because S could not sail her course with no need to take avoiding action"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: S rikkoi sääntöä 16 kääntyessään, joten P on vapaa velvoitteesta",
+              "en": "No: S broke rule 16 by changing course, so P is relieved of her obligation"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 88: ‘pysyä loitolla’ tarkoittaa enemmän kuin kosketuksen välttämistä. Veneet olivat törmäyskurssilla ja aikaa oli vain hetki; S olisi joutunut tekemään noin 90 asteen kurssimuutoksen välttääkseen P:n. P oli jo rikkonut sääntöä 10, kun S muutti kurssia, ja S toimi säännön 14 mukaan.",
+          "en": "Case 88: ‘keep clear’ means more than avoiding contact. The boats were on a collision course with very little time left, and S would have needed a course change of about 90 degrees to avoid P. P had already broken rule 10 when S changed course, and S was acting as rule 14 requires."
+        },
+        "source": "Case 88; RRS 10, Definition Keep Clear",
+        "also": [
+          "14",
+          "16",
+          "43"
+        ]
+      },
+      {
+        "id": "r10-q3",
+        "prompt": {
+          "fi": "Kaksi tiukasti vastaisessa suunnassa purjehtivaa venettä, S oikealla ja P vasemmalla halssilla, kohtaa ylämerkillä. S:llä olisi hyvin tilaa kääntyä ja kiertää merkki, mutta se jatkaa suoraan, jotta P joutuisi kääntymään. Voiko P jättää säännön 10 huomiotta, koska S purjehtii oikean suuntansa ohi?",
+          "en": "Two close-hauled boats, S on starboard and P on port tack, meet at a windward mark. S has plenty of room to tack and round it, but holds her course so that P has to tack. Can P ignore rule 10 because S is sailing beyond her proper course?"
+        },
+        "scene": {
+          "h": 260,
+          "mark": [
+            150,
+            55
+          ],
+          "boats": [
+            {
+              "n": "P",
+              "x": 75,
+              "y": 175,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 225,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: merkillä sääntö 10 ei päde, vaan sääntö 18",
+              "en": "Yes: at a mark rule 10 does not apply, rule 18 does"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: P:n pitää pysyä loitolla; mikään sääntö ei velvoita venettä purjehtimaan oikeaa suuntaansa",
+              "en": "No: P must keep clear; no rule requires a boat to sail her proper course"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä: koska S:llä on tilaa kääntyä, P saa jatkaa",
+              "en": "Yes: because S has room to tack, P may continue"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 9: sääntö 18 ei päde, koska veneet ovat eri halsseilla tiukasti vastaisessa suunnassa (18.1(a)(1)) ja S:n mutta ei P:n oikea suunta merkillä on vastakäännös (18.1(a)(2)). Sääntö 10 pätee, ja kun S päättää jatkaa, P:n pitää pysyä loitolla.",
+          "en": "Case 9: rule 18 does not apply, because the boats are on opposite tacks on a beat (18.1(a)(1)) and the proper course at the mark for S but not for P is to tack (18.1(a)(2)). Rule 10 applies, and when S chooses to hold her course P must keep clear."
+        },
+        "source": "Case 9; RRS 18.1(a)",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "r10-q4",
+        "prompt": {
+          "fi": "S (oikea halssi) ja P (vasen halssi) purjehtivat myötätuuleen rinnakkain. Noin kaksi minuuttia S:n jiipin jälkeen S kääntyy ylemmäs (lähemmäs tuulta). Saako S, jolla on kulkuoikeus, muuttaa kurssiaan?",
+          "en": "S (starboard tack) and P (port tack) are running side by side. About two minutes after S's gybe, S turns higher (closer to the wind). May S, the right-of-way boat, change course?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 110,
+              "y": 130,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 170,
+              "y": 130,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: kulkuun oikeutettu vene ei saa muuttaa kurssiaan",
+              "en": "No: a right-of-way boat may not change course"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, vapaasti: P:n pitää joka tapauksessa väistää",
+              "en": "Yes, freely: P must keep clear in any case"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos se antaa P:lle tilaa pysyä loitolla (16.1); P:n pitää reagoida viipymättä, tarvittaessa jiippaamalla",
+              "en": "Yes, provided she gives P room to keep clear (16.1); P must react promptly, if necessary by gybing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 105: S:llä on kulkuoikeus säännöllä 10, mutta sääntö 16.1 rajoittaa sen kurssinmuutoksia: P:lle on annettava tilaa pysyä loitolla. P:n pitää olla valmis reagoimaan viipymättä. Jos P:llä on tilaa väistää, S ei riko sääntöä 16.1.",
+          "en": "Case 105: S has right of way under rule 10, but rule 16.1 limits her changes of course: she must give P room to keep clear. P must be prepared to react promptly. If P has room to keep clear, S does not break rule 16.1."
+        },
+        "source": "Case 105; RRS 10, Part 2 Section A preamble",
+        "also": [
+          "15",
+          "16"
+        ]
+      },
+      {
+        "id": "r10-q5",
+        "prompt": {
+          "fi": "Vene A purjehtii suoraan myötätuuleen, ja sen isopurje on veneen vasemmalla (port) puolella. Millä halssilla A on?",
+          "en": "Boat A is sailing directly downwind with her mainsail on her port side. Which tack is she on?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 125,
+              "rot": 180,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Vasemmalla halssilla, koska isopurje on vasemmalla puolella",
+              "en": "Port tack, because the mainsail is on the port side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Halssia ei voi määrittää myötätuulessa",
+              "en": "The tack cannot be determined when running"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Oikealla halssilla: tuulen puoli on isopurjeen vastakkainen puoli eli oikea",
+              "en": "Starboard tack: the windward side is the side opposite the mainsail, so the starboard side"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kun vene purjehtii suoraan myötätuuleen tai tuulen ylitse, sen suojan puoli on se, jolla isopurje on, ja toinen puoli on tuulen puoli. Halssi vastaa tuulen puolta: tässä tuulen puoli on oikea, joten A on oikealla halssilla.",
+          "en": "When a boat sails directly downwind or by the lee, her leeward side is the side her mainsail lies on and the other side is her windward side. The tack corresponds to the windward side: here that is the starboard side, so A is on starboard tack."
+        },
+        "source": "Definitions: Leeward and Windward; Tack, Starboard or Port"
+      },
+      {
+        "id": "r10-q6",
+        "prompt": {
+          "fi": "S purjehtii oikealla halssilla ja huutaa lähestyville vasemmalla halssilla oleville veneille ‘oikea halssi’. P1 ja P2 väistävät. P3 ei yritä väistää, ja S purjehtii kurssiaan, kunnes P3 törmää sen kylkeen. P3 olisi voinut vielä aivan S:n vierestä laskea alta pois, joten vasta aivan viime hetkellä kävi selväksi, ettei se väistä, eikä kosketuksen välttämiseen enää jäänyt aikaa. Rikkoiko S sääntöä 14?",
+          "en": "S is sailing on starboard tack and hailing ‘Starboard’ to the port-tack boats approaching her. P1 and P2 bear away. P3 makes no attempt to avoid S, and S holds her course until P3 hits her amidships. P3 could still have borne away from very close to S, so it only became clear at the very last moment that she would not keep clear, and there was no time left to avoid contact. Did S break rule 14?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 85,
+              "y": 150,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 215,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: kulkuun oikeutetun veneen pitää aina välttää kosketus, vaikka toinen olisi velvollinen väistämään",
+              "en": "Yes: a right-of-way boat must always avoid contact even when the other boat must keep clear"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: S sai purjehtia kurssiaan olettaen, että P3 pysyy loitolla, kunnes kävi selväksi ettei se pysy; aikaa väistää ei jäänyt",
+              "en": "No: S could sail her course expecting P3 to keep clear until it became clear she would not, and there was no time left to avoid contact"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: sääntö 14 ei koske kulkuun oikeutettua venettä",
+              "en": "No: rule 14 does not apply to a right-of-way boat"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 87: sääntö 14 koskee kumpaakin venettä, mutta se sallii kulkuun oikeutetun veneen purjehtia kurssiaan odottaen, että toinen pysyy loitolla, kunnes käy selväksi ettei se pysy. Tässä aikaa kosketukseen jäi niin vähän, ettei S voinut välttää sitä. S ei rikkonut sääntöä 14; P3 rikkoi sääntöjä 10 ja 14.",
+          "en": "Case 87: rule 14 applies to both boats, but it lets a right-of-way boat sail her course expecting the other boat to keep clear until it becomes clear she will not. Here so little time remained that S could not avoid contact. S did not break rule 14; P3 broke rules 10 and 14."
+        },
+        "source": "Case 87; RRS 14",
+        "also": [
+          "14"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 11,
+    "section": "2A",
+    "title": {
+      "fi": "Samalla halssilla, peitto",
+      "sv": "För samma halsar med överlapp",
+      "en": "On the Same Tack, Overlapped"
+    },
+    "explain": {
+      "fi": "Kun veneet ovat samalla halssilla ja peittävät toisiaan, tuulen puolen veneen pitää pysyä loitolla suojan puolen veneestä. Veneet ovat peitossa, kun kumpikaan ei ole selvästi perässä, ja myös silloin, kun niiden välissä oleva vene on peitossa kummankin kanssa (määritelmä Selvästi perässä ja selvästi edessä; peitto). Suojan puolen vene on se, joka on toisen suojan puolella. Jos peitto syntyy siten, että selvästi perässä ollut vene tulee suojan puolelle, se saa kulkuoikeuden, mutta sen pitää aluksi antaa toiselle tilaa pysyä loitolla (sääntö 15); sitä rajoittavat lisäksi säännöt 16.1 ja 17. Ennen peiton syntymistä edessä olevan veneen ei tarvitse tehdä mitään (Case 53).",
+      "en": "When boats are on the same tack and overlapped, the windward boat must keep clear of the leeward boat. Boats overlap when neither is clear astern, and also when a boat between them overlaps both (definition Clear Astern and Clear Ahead; Overlap). The leeward boat is the one on the other's leeward side. If the overlap arises because a boat that was clear astern becomes overlapped to leeward, she gains right of way but must at first give the other boat room to keep clear (rule 15); she is also limited by rules 16.1 and 17. Before the overlap begins the boat clear ahead need take no action (Case 53)."
+    },
+    "note": {
+      "fi": "Liite F muuttaa leijalautojen osalta määritelmiä Peitto, Suojan ja tuulen puoli sekä Halssi; liite B muuttaa purjelautojen halssin määritelmää.",
+      "en": "Appendix F changes the definitions Overlap, Leeward and Windward and Tack for kiteboards; Appendix B changes the definition of Tack for boards."
+    },
+    "source": "RRS 11, Definitions (Clear Astern and Clear Ahead; Overlap, Leeward and Windward, Tack), Appendices B, F; Case 7, 13, 24, 53",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "L",
+          "x": 110,
+          "y": 170,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "W",
+          "x": 160,
+          "y": 120,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "Molemmat veneet ovat oikealla halssilla (tuuli tulee oikealta) ja peitossa. L on suojan puolella, W tuulen puolella: W:n pitää pysyä loitolla L:stä (sääntö 11).",
+      "en": "Both boats are on starboard tack (the wind comes from the right) and overlapped. L is the leeward boat and W the windward boat: W must keep clear of L (rule 11)."
+    },
+    "defs": [
+      "Leeward and Windward",
+      "Clear Astern and Clear Ahead; Overlap",
+      "Keep Clear",
+      "Tack, Starboard or Port"
+    ],
+    "links": [
+      {
+        "rules": [
+          "13"
+        ],
+        "note": {
+          "fi": "Vastakäännöksen aikana (tuulensilmän ohituksesta tiukasti vastaisessa suunnassa oloon) sääntö 11 ei päde.",
+          "en": "During a tack (from passing head to wind until close-hauled) rule 11 does not apply."
+        }
+      },
+      {
+        "rules": [
+          "15",
+          "16",
+          "17"
+        ],
+        "note": {
+          "fi": "Suojan puolen veneen liikkeitä rajoittavat: kulkuoikeuden saadessaan sen pitää antaa toiselle tilaa pysyä loitolla (15; Case 24, 53), suuntaa muuttaessaan antaa tilaa (16.1; Case 13, 46) ja, jos se tuli peittoon selvästi perästä lähelle, olla purjehtimatta oikeaa suuntaansa ylempänä (17; Case 7, 13, 46).",
+          "en": "The leeward boat is limited: on gaining right of way she must give the other boat room to keep clear (15; Cases 24, 53), when changing course she must give room (16.1; Cases 13, 46), and if she became overlapped from clear astern close by she must not sail above her proper course (17; Cases 7, 13, 46)."
+        }
+      },
+      {
+        "rules": [
+          "18.4"
+        ],
+        "note": {
+          "fi": "Merkillä sääntö 18.4 rajoittaa sisäpuolella peitossa olevaa kulkuun oikeutettua venettä, jonka täytyy jiipata oikean suuntansa purjehtimiseksi.",
+          "en": "At a mark rule 18.4 limits an inside overlapped right-of-way boat that must gybe to sail her proper course."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 53,
+        "title": {
+          "fi": "Edessä oleva vene ja tuleva peitto",
+          "en": "The boat ahead and the coming overlap"
+        },
+        "text": {
+          "fi": "Puoli minuuttia ennen lähtöviestiä W oli lähes paikallaan ja sen purjeet lepattivat. L huusi ‘suojan puolen vene’ vähintään kolmen rungonpituuden päästä, ennen kuin se tuli peittoon W:n suojan puolelle selvästi perästä. W ei tehnyt mitään. Heti peiton synnyttyä L joutui laskemaan välttääkseen kosketuksen, ja W alkoi kiristää purjeitaan ja kääntyä ylemmäs. Protestilautakunta katsoi, että W oli saanut riittävän varoituksen ja rikkoi sääntöä 11.",
+          "en": "Thirty seconds before the starting signal W was almost stationary with her sails flapping. L hailed ‘Leeward boat’ at least three hull lengths before becoming overlapped to leeward of W from clear astern. W did nothing. Immediately after the overlap began L had to bear away to avoid contact, and W started to trim her sails and head up. The protest committee decided that W had been given adequate warning and broke rule 11."
+        },
+        "answer": {
+          "fi": "Valitus hyväksyttiin. Sääntö ei vaadi edessä olevaa venettä tekemään mitään tuulen puolen veneenä ennen kuin peitto on syntynyt. Peiton synnyttyä W kiristi purjeensa, kääntyi ylemmäs ja pysyi sen jälkeen loitolla, joten se täytti säännön 11. Jos L ei olisi laskenut heti, se olisi rikkonut sääntöä 15, koska W:lle pitää antaa aikaa ja tilaa reagoida. Kumpikaan vene ei rikkonut sääntöä, ja W palautettiin.",
+          "en": "The appeal was upheld. The rule does not require the boat clear ahead to take any action as a windward boat before the overlap exists. Once the overlap began W trimmed, headed up and thereafter kept clear, so she fulfilled rule 11. Had L not borne away immediately she would have broken rule 15, because W must be given time and space to respond. Neither boat broke a rule, and W was reinstated."
+        },
+        "also": [
+          "15"
+        ],
+        "source": "Case 53"
+      },
+      {
+        "case": 7,
+        "title": {
+          "fi": "Peitto synnytetty lähelle, kosketus myöhemmin",
+          "en": "Overlap made close up, contact much later"
+        },
+        "text": {
+          "fi": "Kaksi jollaa: L muodosti peiton W:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä W:stä. Veneet purjehtivat sen jälkeen rinnakkain noin puolentoista rungonpituuden välimatkalla. Kun merkille oli vielä matkaa, L käänsi hieman ylemmäs purjehtiakseen suoraan merkille, mikä ei vaikuttanut W:hen. W piti kurssinsa, ja sen puomi kosketti L:n vanttia ilman vahinkoa. Protestilautakunta hylkäsi L:n protestin ja hylkäsi L:n, koska L ei ollut antanut W:lle riittävästi tilaa väistää (15).",
+          "en": "Two dinghies: L became overlapped to leeward of W from clear astern less than two hull lengths from her. The boats then sailed alongside each other about one and a half hull lengths apart. With the mark still some way off, L luffed slightly to sail directly to it, which did not affect W. W held a steady course and her boom touched L's shroud, without damage. The protest committee dismissed L's protest and disqualified L for not giving W enough room to keep clear (15)."
+        },
+        "answer": {
+          "fi": "Valitus hyväksyttiin. Peiton synnyttyä W:n piti pysyä loitolla (11). L:n velvollisuus antaa W:lle tilaa (15) ei ole jatkuva, ja peitto oli kestänyt pitkään, joten W:llä oli ollut tilaa väistää. L ei rikkonut sääntöä 17, koska se ei purjehtinut oikeaa suuntaansa ylempänä (vain L:n oma oikea suunta ratkaisee, ei W:n), eikä sääntöä 16.1, koska W:llä oli tilaa väistää. L rikkoi sääntöä 14(a) mutta vapautui säännöllä 43.1(c), koska vahinkoa ei syntynyt. W hylättiin säännöillä 11 ja 14(a), ja L palautettiin.",
+          "en": "The appeal was upheld. From the moment the overlap began W had to keep clear (11). L's obligation to give W room (15) is not a continuing one, and the overlap had existed for a long time, so W had had room to keep clear. L did not break rule 17, because she never sailed above her proper course (only L's own proper course matters, not W's), nor rule 16.1, because W had room to keep clear. L broke rule 14(a) but was exonerated by rule 43.1(c) because there was no damage or injury. W was disqualified under rules 11 and 14(a) and L was reinstated."
+        },
+        "also": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "43"
+        ],
+        "source": "Case 7"
+      },
+      {
+        "case": 13,
+        "title": {
+          "fi": "Ennen lähtöviestiä: suojan puolen vene nousee ylemmäs",
+          "en": "Before the starting signal: the leeward boat luffs"
+        },
+        "text": {
+          "fi": "Ennen lähtöviestiä kaksi jollaa, A ja B, ylitti lähtölinjan ja palasi lähtöpuolelle. A, joka oli aluksi tuulen puolella, laski B:n perän taakse ja tuli sen suojan puolelle peittoon. Heti sen jälkeen A käänsi tiukasti vastaiseen suuntaan ja purjehti kohti lähtölinjan päätä, kun B purjehti hitaammin purjeet löysällä lähtölinjan suuntaan. Veneet koskettivat: B:n puomi osui A:n vanttiin. A protestoi säännön 11 nojalla.",
+          "en": "Before the starting signal two dinghies, A and B, crossed the starting line and returned to the pre-start side. A, initially the windward boat, bore away under B's stern and became overlapped to leeward of her. Immediately afterwards A luffed to close-hauled and sailed for the end of the line, while B sailed more slowly along the line with her sheets eased. The boats touched: B's boom hit A's shroud. A protested under rule 11."
+        },
+        "answer": {
+          "fi": "B:n valitus hylättiin. Peiton synnyttyä A sai kulkuoikeuden säännöllä 11, mutta sen piti aluksi antaa B:lle tilaa pysyä loitolla (15), minkä se teki. Kun A nousi ylemmäs, sen piti antaa B:lle tilaa (16.1), minkä se myös teki. Ennen lähtöviestiä veneellä ei ole oikeaa suuntaa, joten A:n kääntyminen ylemmäs ei rikkonut sääntöä 17; se olisi saanut nousta jopa tuulensilmään asti noudattaen sääntöä 16.1. B rikkoi sääntöjä 11 ja 14(a). A rikkoi sääntöä 14(a) mutta vapautui säännöllä 43.1(c).",
+          "en": "B's appeal was dismissed. When the overlap began A gained right of way under rule 11 but at first had to give B room to keep clear (15), which she did. When A luffed she had to give B room (16.1), which she also did. Before the starting signal a boat has no proper course, so A's luff did not break rule 17; she could have luffed even as high as head to wind provided she complied with rule 16.1. B broke rules 11 and 14(a). A broke rule 14(a) but was exonerated by rule 43.1(c)."
+        },
+        "also": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "43"
+        ],
+        "source": "Case 13"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r11-q1",
+        "prompt": {
+          "fi": "Veneet A ja B ovat oikealla halssilla ja peitossa. A on B:n koillispuolella eli lähempänä tuulta. Kenen pitää pysyä loitolla?",
+          "en": "Boats A and B are on starboard tack and overlapped. A is to the north-east of B, closer to the wind. Who must keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "B",
+              "x": 110,
+              "y": 170,
+              "rot": -45,
+              "tack": "s"
+            },
+            {
+              "n": "A",
+              "x": 160,
+              "y": 120,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B, koska A on oikealla ja oikea halssi antaa kulkuoikeuden",
+              "en": "B, because A is on the right and starboard tack gives right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A, koska se on tuulen puolen vene (sääntö 11)",
+              "en": "A, because she is the windward boat (rule 11)"
+            }
+          },
+          {
+            "t": {
+              "fi": "B, koska se on jäljempänä",
+              "en": "B, because she is further astern"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Veneet ovat samalla halssilla ja peitossa, joten pätee sääntö 11: tuulen puolen veneen pitää pysyä loitolla suojan puolen veneestä. A on lähempänä tuulta, joten A on tuulen puolen vene. Oikea halssi antaa kulkuoikeuden vain, kun veneet ovat eri halsseilla (sääntö 10).",
+          "en": "The boats are on the same tack and overlapped, so rule 11 applies: the windward boat must keep clear of the leeward boat. A is closer to the wind, so A is the windward boat. Starboard tack gives right of way only when the boats are on opposite tacks (rule 10)."
+        },
+        "source": "RRS 11, Definition Leeward and Windward",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r11-q2",
+        "prompt": {
+          "fi": "Puoli minuuttia ennen lähtöviestiä W on lähes paikallaan ja sen purjeet lepattavat. L, joka on selvästi W:n perässä ja suojan puolella, huutaa ‘suojan puolen vene’ ja tulee kolmen rungonpituuden päästä peittoon. W ei tee mitään ennen peiton syntymistä. Rikkooko W sääntöä 11, koska se ei toiminut etukäteen?",
+          "en": "Thirty seconds before the starting signal W is almost stationary with her sails flapping. L, clear astern of W and to leeward, hails ‘Leeward boat’ and becomes overlapped from three hull lengths away. W does nothing before the overlap begins. Does W break rule 11 by not acting in advance?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 140,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 186,
+              "y": 198,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: L huusi etukäteen, joten W:n olisi pitänyt toimia heti",
+              "en": "Yes: L hailed in advance, so W should have acted at once"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: W voi odottaa niin kauan kuin haluaa, koska L:n pitää antaa sille tilaa",
+              "en": "No: W may wait as long as she likes, because L must give her room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: W:n ei tarvitse toimia ennen peiton syntymistä, mutta sen jälkeen sen pitää toimia viipymättä",
+              "en": "No: W need not act before the overlap begins, but afterwards she must act promptly"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 53: sääntö ei vaadi edessä olevaa venettä tekemään mitään tuulen puolen veneenä ennen kuin peitto on syntynyt. Peiton synnyttyä W:n pitää toimia viipymättä: tässä W kiristi purjeensa ja kääntyi ylemmäs, joten se täytti säännön 11. L:n piti puolestaan antaa W:lle tilaa ja aikaa reagoida (15).",
+          "en": "Case 53: the rule does not require the boat clear ahead to take any action as a windward boat before the overlap exists. Once it exists W must act promptly: here W trimmed and headed up, so she fulfilled rule 11. L, for her part, had to give W room and time to respond (15)."
+        },
+        "source": "Case 53",
+        "also": [
+          "15"
+        ]
+      },
+      {
+        "id": "r11-q3",
+        "prompt": {
+          "fi": "L muodosti peiton W:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä. Veneet purjehtivat sen jälkeen pitkään rinnakkain noin puolentoista rungonpituuden välimatkalla. L käänsi hieman ylemmäs purjehtiakseen suoraan merkille; W:llä oli tilaa väistää, mutta se piti kurssinsa, ja sen puomi kosketti L:n vanttia. Kumpi vene rikkoi sääntöä 11?",
+          "en": "L became overlapped to leeward of W from clear astern, less than two hull lengths from her. The boats then sailed side by side for a long time about one and a half hull lengths apart. L luffed slightly to sail directly to the mark; W had room to keep clear but held her course, and her boom touched L's shroud. Which boat broke rule 11?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 174,
+              "y": 106,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "L, koska se käänsi ylemmäs W:n lähellä",
+              "en": "L, because she luffed close to W"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan: L:n velvollisuus antaa tilaa (15) kestää niin kauan kuin veneet ovat peitossa",
+              "en": "Neither: L's obligation to give room (15) lasts as long as the boats are overlapped"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "W, koska tuulen puolen veneen pitää pysyä loitolla; L:n velvollisuus antaa tilaa ei ole jatkuva",
+              "en": "W, because the windward boat must keep clear; L's obligation to give room is not a continuing one"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 7: peiton synnyttyä W:n piti pysyä loitolla. L:n velvollisuus antaa W:lle tilaa pysyä loitolla (15) ei ole jatkuva, ja W:llä oli ollut pitkään tilaa. L:n ylöspäin kääntyminen ei rikkonut sääntöä 16.1 (W:llä oli tilaa) eikä sääntöä 17 (L ei purjehtinut oman oikean suuntansa ylempänä). W hylättiin säännöillä 11 ja 14(a).",
+          "en": "Case 7: once the overlap began W had to keep clear. L's obligation to give W room to keep clear (15) is not a continuing one, and W had had room for a long time. L's luff broke neither rule 16.1 (W had room) nor rule 17 (L did not sail above her own proper course). W was disqualified under rules 11 and 14(a)."
+        },
+        "source": "Case 7",
+        "also": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "43"
+        ]
+      },
+      {
+        "id": "r11-q4",
+        "prompt": {
+          "fi": "Ennen lähtöviestiä A, joka on tullut B:n suojan puolelle peittoon selvästi perästä lähelle, nousee tiukasti vastaiseen suuntaan ylemmäs kuin B:n suunta ja purjehtii kohti lähtölinjan päätä. Onko A:n kielletty purjehtimasta oikeaa suuntaansa ylempänä (sääntö 17)?",
+          "en": "Before the starting signal A, who has become overlapped to leeward of B from clear astern close by, luffs to close-hauled, higher than B's course, and sails for the end of the starting line. Is A prohibited from sailing above her proper course (rule 17)?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 122,
+              "y": 176,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: sääntö 17 kieltää suojan puolen venettä purjehtimasta oikeaa suuntaansa ylempänä",
+              "en": "Yes: rule 17 forbids the leeward boat from sailing above her proper course"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: ennen lähtöviestiä veneellä ei ole oikeaa suuntaa; A saa nousta ylemmäs, jos se antaa B:lle tilaa pysyä loitolla (16.1)",
+              "en": "No: before the starting signal a boat has no proper course; A may luff provided she gives B room to keep clear (16.1)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: suojan puolen vene saa nousta miten tahansa, ja B:n pitää väistää joka tapauksessa",
+              "en": "No: the leeward boat may luff as she likes, and B must keep clear in any case"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 13: ennen lähtöviestiä veneellä ei ole oikeaa suuntaa, joten A:n ylöspäin kääntyminen ei rikkonut sääntöä 17. A saa nousta jopa tuulensilmään asti, kunhan se antaa B:lle tilaa pysyä loitolla (16.1).",
+          "en": "Case 13: before the starting signal a boat has no proper course, so A's luff did not break rule 17. She may luff as high as head to wind, provided she gives B room to keep clear (16.1)."
+        },
+        "source": "Case 13; Definition Proper Course",
+        "also": [
+          "14",
+          "16",
+          "17"
+        ]
+      },
+      {
+        "id": "r11-q5",
+        "prompt": {
+          "fi": "B on selvästi A:n perässä ja tulee nopeammin A:n perän suojan puolelle peittoon. A kääntyy viipymättä ylemmäs merenkulkutaidolla, mutta B:n varusteet koskettavat silti A:ta. Rikkoiko A sääntöä 11, ja rangaistaanko sitä?",
+          "en": "B, clear astern of A, is faster and becomes overlapped close to leeward of A's stern. A promptly luffs in a seamanlike way, but B's equipment still touches A. Did A break rule 11, and is she penalized?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s"
+            },
+            {
+              "n": "B",
+              "x": 157,
+              "y": 176,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "A rikkoo sääntöä 11 koskettaessaan, mutta vapautuu (43.1(b)), koska B ei antanut sille tilaa pysyä loitolla (15)",
+              "en": "A breaks rule 11 by touching but is exonerated (43.1(b)), because B did not give her room to keep clear (15)"
+            }
+          },
+          {
+            "t": {
+              "fi": "A on aina rangaistava, kun tuulen puolen vene koskettaa suojan puolen venettä",
+              "en": "A is always penalized when the windward boat touches the leeward boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "A ei rikkonut sääntöä 11, koska se toimi viipymättä",
+              "en": "A did not break rule 11, because she acted promptly"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 24: kun vene tulee suojan puolelle peittoon selvästi perästä, toisen pitää toimia viipymättä pysyäkseen loitolla; jos se ei voi tehdä sitä merenkulkutaidolla, sille ei ole annettu tilaa, jota sääntö 15 vaatii. Jos kosketus tulee, vaikka A nousi ylemmäs merenkulkutaidolla, B rikkoo sääntöä 15 ja A vapautuu säännöllä 43.1(b). Jos A olisi noussut ylemmäs kuin loitolla pysymiseen tarvitaan, se ei vapautuisi.",
+          "en": "Case 24: when a boat becomes overlapped to leeward from clear astern, the other must act promptly to keep clear; if she cannot do so in a seamanlike way, she has not been given the room rule 15 requires. If contact occurs although A luffed in a seamanlike way, B breaks rule 15 and A is exonerated by rule 43.1(b). Had A luffed higher than needed to keep clear she would not be exonerated."
+        },
+        "source": "Case 24",
+        "also": [
+          "15",
+          "43"
+        ]
+      },
+      {
+        "id": "r11-q6",
+        "prompt": {
+          "fi": "Vene B tulee selvästi A:n perästä peittoon A:n tuulen puolelle. Kenen pitää nyt pysyä loitolla?",
+          "en": "Boat B, which was clear astern of A, becomes overlapped on A's windward side. Who must now keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 210,
+              "y": 124,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "A, koska se oli edessä ennen peiton syntymistä",
+              "en": "A, because she was ahead before the overlap began"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "B, koska se on nyt tuulen puolen vene (sääntö 11)",
+              "en": "B, because she is now the windward boat (rule 11)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan, koska peiton synnyttyä ei ole sääntöä",
+              "en": "Neither, because no rule applies once the overlap begins"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kun peitto syntyy, sääntö 12 lakkaa ja sääntö 11 alkaa. Peittoon tulleen B:n tuulen puoli on lähempänä tuulta, joten B on tuulen puolen vene, ja sen pitää pysyä loitolla suojan puolen A:sta.",
+          "en": "When the overlap begins rule 12 stops and rule 11 starts. B is on the side closer to the wind, so she is the windward boat and must keep clear of A, the leeward boat."
+        },
+        "source": "RRS 11, 12",
+        "also": [
+          "12"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "section": "2A",
+    "title": {
+      "fi": "Samalla halssilla, ei peittoa",
+      "sv": "För samma halsar utan överlapp",
+      "en": "On the Same Tack, Not Overlapped"
+    },
+    "explain": {
+      "fi": "Kun veneet ovat samalla halssilla eivätkä peitä toisiaan, selvästi perässä olevan veneen pitää pysyä loitolla selvästi edessä olevasta veneestä. Sääntö koskee koko venettä: rungon lisäksi varusteita ja miehistöä, myös varusteita, jotka ovat pois normaaliasennostaan, kun ne ovat olleet siinä niin kauan, että ne on voitu nähdä ja väistää (Case 91). Perässä oleva vene rikkoo sääntöä jo siinä vaiheessa, kun edessä olevan on ensimmäisen kerran väistettävä, eikä vasta törmäyksessä (Case 30). Kun peitto syntyy, sääntö 12 lakkaa ja sääntö 11 alkaa (Case 24).",
+      "en": "When boats are on the same tack and not overlapped, the boat clear astern must keep clear of the boat clear ahead. The rule covers the whole boat: not just the hull but also equipment and crew, including equipment out of its normal position when it has been there long enough to be seen and avoided (Case 91). The boat astern breaks the rule as soon as the boat ahead first has to take avoiding action, not only at the collision (Case 30). When an overlap begins, rule 12 stops and rule 11 starts (Case 24)."
+    },
+    "note": {
+      "fi": "Liite F muuttaa leijalautojen osalta määritelmiä Selvästi perässä ja selvästi edessä; peitto, Loitolla pysyminen ja Halssi.",
+      "en": "Appendix F changes the definitions Clear Astern and Clear Ahead; Overlap, Keep Clear and Tack for kiteboards."
+    },
+    "source": "RRS 12, Definitions (Clear Astern and Clear Ahead; Overlap, Keep Clear), Appendix F; Case 2, 24, 30, 91",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "A",
+          "x": 120,
+          "y": 100,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "B",
+          "x": 162,
+          "y": 178,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "Molemmat veneet ovat oikealla halssilla. B on selvästi A:n perässä (se ei ole peitossa A:n kanssa), joten B:n pitää pysyä loitolla A:sta (sääntö 12).",
+      "en": "Both boats are on starboard tack. B is clear astern of A (she is not overlapped with A), so B must keep clear of A (rule 12)."
+    },
+    "defs": [
+      "Clear Astern and Clear Ahead; Overlap",
+      "Keep Clear",
+      "Tack, Starboard or Port"
+    ],
+    "links": [
+      {
+        "rules": [
+          "13"
+        ],
+        "note": {
+          "fi": "Vastakäännöksen aikana (tuulensilmän ohituksesta tiukasti vastaisessa suunnassa oloon) sääntö 12 ei päde.",
+          "en": "During a tack (from passing head to wind until close-hauled) rule 12 does not apply."
+        }
+      },
+      {
+        "rules": [
+          "11"
+        ],
+        "note": {
+          "fi": "Kun peitto syntyy, sääntö 12 vaihtuu säännöksi 11 (Case 24).",
+          "en": "When an overlap begins, rule 12 gives way to rule 11 (Case 24)."
+        }
+      },
+      {
+        "rules": [
+          "14",
+          "18.2"
+        ],
+        "note": {
+          "fi": "Case 2 ja 30: perässä oleva vene voi rikkoa myös sääntöä 14(a), ja merkillä edessä olevan veneen pitää antaa merkkitilaa, jos perässä oleva vene saavuttaa vyöhykkeen ensin (18.2(a)(2)).",
+          "en": "Cases 2 and 30: the boat astern may also break rule 14(a), and at a mark the boat ahead must give mark-room if the boat astern reaches the zone first (18.2(a)(2))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 30,
+        "title": {
+          "fi": "Tuulensuoja johtaa tahattomaan jiippiin",
+          "en": "Wind shadow leads to an unintentional gybe"
+        },
+        "text": {
+          "fi": "A ja B purjehtivat myötätuuleen oikealla halssilla lähellä rantaa voimakasta virtaa vasten. A oli enintään puolen rungonpituuden verran B:n edessä. B vei A:lta tuulen, jolloin A hidastui ja jiippasi tahattomasti. Heti sen jälkeen veneet törmäsivät, mutta vahinkoa ei syntynyt. Protestilautakunta hylkäsi molemmat: B säännöllä 12 ja A säännöllä 10, koska A oli jiipin jälkeen vasemmalla halssilla.",
+          "en": "A and B were running on starboard tack close to the shore against a strong current. A was no more than half a hull length ahead of B. B blanketed A, which slowed her and made her gybe unintentionally. The boats collided immediately afterwards, without damage. The protest committee disqualified both: B under rule 12 and A under rule 10, because after her gybe A was on port tack."
+        },
+        "answer": {
+          "fi": "B rikkoi sääntöä 12 jo ennen törmäystä, kun A joutui ensimmäisen kerran väistämään (määritelmä Pysyä loitolla). Törmäyshetkellä B:llä oli kulkuoikeus säännöllä 10, joten sen rikkomus säännössä 14(a) ei johtanut rangaistukseen (43.1(c)). A:n piti jiipin jälkeen pysyä loitolla säännön 10 mukaan, vaikka jiippi oli tahaton, mutta se rikkoi sääntöä vain siksi, että B:n rikkomus teki loitolla pysymisen mahdottomaksi; A vapautui säännöllä 43.1(a), ja sen valitus hyväksyttiin.",
+          "en": "B broke rule 12 before the collision, at the moment A first had to take avoiding action (definition Keep Clear). At the collision B held right of way under rule 10, so her breach of rule 14(a) was not penalized (43.1(c)). After her gybe A had to keep clear under rule 10 even though the gybe was unintentional, but she broke the rule only because B's breach made keeping clear impossible; A was exonerated by rule 43.1(a) and her appeal was upheld."
+        },
+        "also": [
+          "10",
+          "14",
+          "43"
+        ],
+        "source": "Case 30"
+      },
+      {
+        "case": 91,
+        "title": {
+          "fi": "Varuste pois normaaliasennostaan",
+          "en": "Equipment out of its normal position"
+        },
+        "text": {
+          "fi": "A:n spinnaakkeri oli leijunut hallitsemattomana mastonhuipusta koko osuuden ajan. A ja B purjehtivat vasemmalla halssilla kohti merkkiä, joka jätetään vasemmalle puolelle, B selvästi A:n perässä. Molemmat tekivät vastakäännöksen merkin ympäri. B purjehti vähän matkaa tiukasti vastaisessa suunnassa, laski sitten, ja sen takila kosketti A:n spinnaakkeria. Protestilautakunta hylkäsi B:n säännön 12 rikkomisesta.",
+          "en": "A's spinnaker had been flying out of control from the top of her mast for the whole leg. A and B were on port tack approaching a mark to be left to port, B clear astern of A. Both tacked around the mark. B sailed a short distance close-hauled, then bore away, and her rigging touched A's spinnaker. The protest committee disqualified B for breaking rule 12."
+        },
+        "answer": {
+          "fi": "B:n valitus hylättiin. Kosketus syntyi, kun B laski, ja silloin B:n keula oli A:n rungon ja normaaliasennossa olevien varusteiden takana, joten veneet eivät olleet peitossa ja sääntö 12 piti paikkansa. B:n piti pysyä loitolla A:n rungosta, varusteista ja miehistöstä, myös spinnaakkerista, koska se oli ollut epänormaalissa asennossa niin kauan, että B oli voinut nähdä sen. Case 77 on erilainen: siinä B ei voinut ennakoida, että A:n spinnaakkeri lentäisi äkkiä kuuden metrin päähän perän taakse.",
+          "en": "B's appeal was dismissed. The contact came when B bore away, at which time B's bow was astern of A's hull and all her equipment in normal position, so the boats were not overlapped and rule 12 applied. B had to keep clear of A's hull, equipment and crew, including the spinnaker, because it had been out of position long enough for B to see it. Case 77 differs: there B could not have foreseen that A's spinnaker would suddenly trail astern by six metres."
+        },
+        "also": [
+          "14"
+        ],
+        "source": "Case 91"
+      },
+      {
+        "case": 2,
+        "title": {
+          "fi": "Kuka on edessä osumahetkellä?",
+          "en": "Who is ahead at the moment of contact?"
+        },
+        "text": {
+          "fi": "A ja B purjehtivat vasemmalla halssilla kohti merkkiä, joka jätetään oikealle puolelle. Kun B saavutti vyöhykkeen, A oli selvästi sen edessä, mutta neljän ja puolen rungonpituuden päässä merkistä. Sen jälkeen A jiippasi ja peitti B:n ulkopuolelle, B jiippasi ja pääsi lopulta selvästi A:n eteen. Muutaman sekunnin kuluttua nopeammin purjehtinut A osui B:n perään. Vahinkoa ei syntynyt.",
+          "en": "A and B were on port tack approaching a mark to be left to starboard. When B reached the zone, A was clear ahead of her but four and a half hull lengths from the mark. A then gybed and became overlapped outside B; B gybed and eventually became clear ahead of A. A few seconds later A, the faster boat, hit B's transom. There was no damage."
+        },
+        "answer": {
+          "fi": "A rikkoi sääntöjä 12, 14(a) ja 18.2(a)(2) ja pysyi hylättynä. B saavutti vyöhykkeen ensin, vaikka se oli selvästi perässä, joten A:n piti antaa B:lle merkkitilaa (18.2(a)(2)). Osumahetkellä B oli selvästi edessä ja A selvästi perässä, joten A:n piti pysyä loitolla B:stä (12). B ei enää voinut välttää kosketusta, ja jos olisi voinut, se olisi silti vapautettu säännöllä 43.1(c), koska sillä oli kulkuoikeus.",
+          "en": "A broke rules 12, 14(a) and 18.2(a)(2) and remained disqualified. B was first to reach the zone although she was clear astern, so A had to give B mark-room (18.2(a)(2)). At the moment of contact B was clear ahead and A clear astern, so A had to keep clear of B (12). B could no longer avoid contact, and even if she could have she would have been exonerated by rule 43.1(c) as the right-of-way boat."
+        },
+        "also": [
+          "14",
+          "18",
+          "43"
+        ],
+        "source": "Case 2"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r12-q1",
+        "prompt": {
+          "fi": "Veneet ovat samalla halssilla. A on selvästi edessä. B on selvästi perässä, mutta hieman A:n suojan puolella, eivätkä veneet ole peitossa. Kenen pitää pysyä loitolla?",
+          "en": "The boats are on the same tack. A is clear ahead. B is clear astern but slightly to leeward of A, and the boats are not overlapped. Who must keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 120,
+              "y": 100,
+              "rot": -45,
+              "tack": "s"
+            },
+            {
+              "n": "B",
+              "x": 162,
+              "y": 178,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "A, koska B on suojan puolella (sääntö 11)",
+              "en": "A, because B is the leeward boat (rule 11)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "B, koska se on selvästi perässä (sääntö 12)",
+              "en": "B, because she is clear astern (rule 12)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan, koska veneet eivät ole peitossa",
+              "en": "Neither, because the boats are not overlapped"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 11 koskee vain peitossa olevia veneitä. Kun veneet eivät ole peitossa, pätee sääntö 12: selvästi perässä olevan B:n pitää pysyä loitolla selvästi edessä olevasta A:sta, vaikka B olisi suojan puolella.",
+          "en": "Rule 11 only applies to boats that are overlapped. When they are not, rule 12 applies: B, clear astern, must keep clear of A, clear ahead, even though B is to leeward."
+        },
+        "source": "RRS 12, 11; Definition Clear Astern and Clear Ahead; Overlap",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r12-q2",
+        "prompt": {
+          "fi": "A ja B purjehtivat myötätuuleen oikealla halssilla. B oli suoraan A:n perässä, alle puolen rungonpituuden päässä. B vei A:lta tuulen, A hidastui ja jiippasi tahattomasti, ja veneet törmäsivät. Milloin B rikkoi sääntöä 12?",
+          "en": "A and B were running on starboard tack. B was directly astern of A, less than half a hull length away. B blanketed A, A slowed and gybed unintentionally, and the boats collided. When did B break rule 12?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "B",
+              "x": 150,
+              "y": 100,
+              "rot": 180,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 150,
+              "y": 190,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Vasta törmäyshetkellä",
+              "en": "Only at the moment of the collision"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei lainkaan: A jiippasi, joten kulkuoikeus siirtyi B:lle säännöllä 10",
+              "en": "Not at all: A gybed, so right of way passed to B under rule 10"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Jo ennen törmäystä, kun A joutui ensimmäisen kerran väistämään B:tä",
+              "en": "Already before the collision, when A first had to take avoiding action"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 30: B rikkoi sääntöä 12 jo ennen törmäystä, kun A joutui ensimmäisen kerran väistämään (määritelmä Pysyä loitolla). Rikkomus syntyi ennen A:n jiippiä, joten kulkuoikeuden siirtyminen B:lle ei muuta sitä.",
+          "en": "Case 30: B broke rule 12 before the collision, at the moment A first had to take avoiding action (definition Keep Clear). The breach came before A's gybe, so the later change of right of way does not alter it."
+        },
+        "source": "Case 30; Definition Keep Clear",
+        "also": [
+          "10",
+          "14"
+        ]
+      },
+      {
+        "id": "r12-q3",
+        "prompt": {
+          "fi": "Kun A on jiipannut tahattomasti vasemmalle halssille, B on edelleen oikealla halssilla. Onko A velvollinen pysymään loitolla säännön 10 mukaan?",
+          "en": "After A has gybed unintentionally onto port tack, B is still on starboard tack. Must A keep clear under rule 10?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "B",
+              "x": 160,
+              "y": 105,
+              "rot": 180,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 150,
+              "y": 185,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: tahaton jiippi ei siirrä velvollisuutta A:lle",
+              "en": "No: an unintentional gybe does not transfer the obligation to A"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: B:n aiempi rikkomus poisti A:n velvollisuuden",
+              "en": "No: B's earlier breach removed A's obligation"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: myös tahattomasti halssia vaihtanut vene on velvollinen pysymään loitolla, mutta B:n rikkomus voi vapauttaa A:n (43.1(a))",
+              "en": "Yes: a boat that changes tack unintentionally must still keep clear, but B's breach may exonerate A (43.1(a))"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 30: vene, joka menettää kulkuoikeutensa vaihtamalla halssia tahattomasti, on silti velvollinen pysymään loitolla. A rikkoi sääntöä 10, mutta vain siksi, että B:n rikkomus (12) teki loitolla pysymisen mahdottomaksi, joten A vapautui säännöllä 43.1(a).",
+          "en": "Case 30: a boat that loses right of way by changing tack unintentionally must nevertheless keep clear. A broke rule 10, but only because B's breach of rule 12 made it impossible for her to keep clear, so A was exonerated by rule 43.1(a)."
+        },
+        "source": "Case 30",
+        "also": [
+          "10",
+          "43"
+        ]
+      },
+      {
+        "id": "r12-q4",
+        "prompt": {
+          "fi": "A:n spinnaakkeri on lepattanut hallitsemattomana mastonhuipusta koko osuuden ajan. B, joka on selvästi A:n perässä samalla halssilla, laskee, ja sen takila koskettaa A:n spinnaakkeria. B väittää, ettei sen tarvinnut väistää varustetta, joka oli pois normaaliasennosta. Rikkoiko B sääntöä 12?",
+          "en": "A's spinnaker has been flying out of control from the top of her mast for the whole leg. B, clear astern of A on the same tack, bears away and her rigging touches A's spinnaker. B argues she did not have to avoid equipment that was out of its normal position. Did B break rule 12?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 100,
+              "rot": -60,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 205,
+              "y": 150,
+              "rot": -75,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: vain varusteet normaaliasennossa otetaan huomioon",
+              "en": "No: only equipment in its normal position counts"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: B:n pitää pysyä loitolla myös varusteista, jotka ovat olleet pois normaaliasennosta niin kauan, että ne on voitu nähdä ja väistää",
+              "en": "Yes: B must keep clear of equipment that has been out of its normal position long enough to be seen and avoided"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: A rikkoi sääntöä pitämällä varusteensa pois normaaliasennosta",
+              "en": "No: A broke the rule by keeping her equipment out of its normal position"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 91: kun B kosketti spinnaakkeria, veneet eivät olleet peitossa (B:n keula oli A:n rungon ja normaaliasennossa olevien varusteiden takana), joten sääntö 12 pätee. B:n piti pysyä loitolla A:n varusteista, myös epänormaalissa asennossa olevista, koska ne olivat olleet siinä niin kauan, että B:n miehistö oli ehtinyt nähdä ne.",
+          "en": "Case 91: when B touched the spinnaker the boats were not overlapped (B's bow was astern of A's hull and her equipment in normal position), so rule 12 applied. B had to keep clear of A's equipment even out of its normal position, because it had been out of position long enough for B's crew to see it."
+        },
+        "source": "Case 91",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "r12-q5",
+        "prompt": {
+          "fi": "B on selvästi A:n perässä samalla halssilla ja kulkee nopeammin. Hetken päästä B on A:n suojan puolella ja peitossa A:n kanssa. Mistä hetkestä alkaen B:n ei enää tarvitse pysyä loitolla säännön 12 perusteella?",
+          "en": "B is clear astern of A on the same tack and faster. A moment later B is to leeward of A and overlapped with her. From when does B no longer have to keep clear under rule 12?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 157,
+              "y": 176,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Vasta kun A on ehtinyt reagoida, koska sääntö 15 viivästyttää sääntöä 11",
+              "en": "Only when A has had time to respond, because rule 15 delays rule 11"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Heti peiton syntymisestä: silloin sääntö 11 koskee veneitä, ja B on suojan puolen vene",
+              "en": "From the moment the overlap begins: rule 11 then applies and B is the leeward boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasta kun B on selvästi A:n edessä",
+              "en": "Only when B is clear ahead of A"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 24: B:n velvollisuudet säännön 12 mukaan korvautuvat sen oikeuksilla suojan puolen veneenä säännön 11 mukaan hetkellä, jolloin veneet tulevat peittoon. B:n pitää kuitenkin antaa A:lle aluksi tilaa pysyä loitolla (15); se velvollisuus on vain tilapäinen eikä viivästytä sääntöä 11.",
+          "en": "Case 24: B's obligations under rule 12 are replaced by her rights as leeward boat under rule 11 at the moment the boats become overlapped. B must, however, at first give A room to keep clear (rule 15); that obligation is only temporary and does not delay rule 11."
+        },
+        "source": "Case 24",
+        "also": [
+          "11",
+          "15"
+        ]
+      },
+      {
+        "id": "r12-q6",
+        "prompt": {
+          "fi": "A ja B purjehtivat samalla halssilla kohti merkkiä. B pääsi lopulta selvästi A:n eteen, ja muutaman sekunnin päästä A, joka kulki nopeammin, osuu B:n perään. A oli aiemmin ollut B:n edessä. Minkä perussäännön A rikkoo?",
+          "en": "A and B were on the same tack approaching a mark. B eventually became clear ahead of A, and a few seconds later A, who was faster, hits B's transom. A had earlier been ahead of B. Which basic rule does A break?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "B",
+              "x": 150,
+              "y": 110,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 90,
+              "y": 170,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Sääntö 11: A on B:n tuulen puolella",
+              "en": "Rule 11: A is B's windward boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään: A oli ensin edessä, joten sillä oli kulkuoikeus",
+              "en": "None: A was ahead first, so she had right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntö 12: osumahetkellä B on selvästi edessä, eikä A pysy loitolla",
+              "en": "Rule 12: at the moment of contact B is clear ahead and A fails to keep clear"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 2: osumahetkellä B oli selvästi edessä ja A selvästi perässä, joten A:n piti pysyä loitolla (12). Aiemmalla asemalla ei ole merkitystä; velvollisuudet seuraavat veneiden senhetkistä asemaa. A rikkoi lisäksi sääntöjä 14(a) ja 18.2(a)(2).",
+          "en": "Case 2: at the moment of contact B was clear ahead and A clear astern, so A had to keep clear (12). Earlier positions do not matter; the obligations follow the boats' relationship at the time. A also broke rules 14(a) and 18.2(a)(2)."
+        },
+        "source": "Case 2",
+        "also": [
+          "14",
+          "18"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 13,
+    "section": "2A",
+    "title": {
+      "fi": "Vastakäännöstä tehdessä",
+      "sv": "Under stagvändning",
+      "en": "While Tacking"
+    },
+    "explain": {
+      "fi": "Sääntö 13 alkaa siitä, kun vene on vastakäännöksessä ohittanut tuulensilmän. Siitä hetkestä siihen asti, kun vene on tiukasti vastaisessa suunnassa, sen pitää pysyä loitolla kaikista muista veneistä. Tänä aikana säännöt 10, 11 ja 12 eivät päde. Koska vastakäännöstä tekevän veneen pitää pysyä loitolla, muilla veneillä on siihen nähden kulkuoikeus. Jos kaksi venettä on yhtä aikaa tämän säännön alaisena, vasemmalla (port) puolella tai perässä olevan pitää pysyä loitolla. Ennen tuulensilmän ohitusta sääntö 13 ei vielä päde.",
+      "en": "Rule 13 starts once a boat has passed head to wind while tacking. From that moment until she is on a close-hauled course she must keep clear of every other boat. During this time rules 10, 11 and 12 do not apply. Because the tacking boat must keep clear, the other boats have right of way over her. If two boats are subject to the rule at the same time, the one on the other's port side or the one astern must keep clear. Before the boat has passed head to wind, rule 13 does not yet apply."
+    },
+    "note": {
+      "fi": "Liitteet muuttavat sääntöä 13: liitteessä B (purjelautailu) se on voimassa, kunnes purje on täyttynyt; liitteessä C (parikilpailu) se koskee myös jiippiä (13.1–13.3); liitteessä F (leijalautailu) sääntö 13 on poistettu.",
+      "en": "Appendices change rule 13: in Appendix B (windsurfing) it lasts until the sail has filled; in Appendix C (match racing) it also covers gybing (13.1–13.3); in Appendix F (kiteboarding) rule 13 is deleted."
+    },
+    "source": "RRS 13, Part 2 Section A preamble, Appendices B2, C2.6, F2; Case 15, 17, 27",
+    "scene": {
+      "h": 260,
+      "track": [
+        [
+          95,
+          215
+        ],
+        [
+          125,
+          175
+        ],
+        [
+          138,
+          140
+        ],
+        [
+          135,
+          110
+        ],
+        [
+          120,
+          78
+        ]
+      ],
+      "boats": [
+        {
+          "n": "1",
+          "x": 95,
+          "y": 215,
+          "rot": 45,
+          "tack": "p",
+          "ghost": true
+        },
+        {
+          "n": "2",
+          "x": 135,
+          "y": 150,
+          "rot": 0,
+          "tack": "s",
+          "ghost": true
+        },
+        {
+          "n": "3",
+          "x": 122,
+          "y": 80,
+          "rot": -45,
+          "tack": "s"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "Esimerkki vastakäännöksestä (kulmat ovat vain suuntaa antavia). 1: tiukasti vastaisessa suunnassa vasemmalla halssilla; 2: tuulensilmässä; 3: tiukasti vastaisessa suunnassa oikealla halssilla. Sääntö 13 on voimassa siitä, kun vene ohittaa tuulensilmän (2), siihen asti, kun se on tiukasti vastaisessa suunnassa (3).",
+      "en": "An example of a tack (the angles are only indicative). 1: close-hauled on port tack; 2: head to wind; 3: close-hauled on starboard tack. Rule 13 applies from when the boat passes head to wind (2) until she is on a close-hauled course (3)."
+    },
+    "defs": [
+      "Keep Clear",
+      "Tack, Starboard or Port"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12"
+        ],
+        "note": {
+          "fi": "Näitä sääntöjä ei sovelleta vastakäännöksen aikana (tuulensilmän ohituksesta tiukasti vastaisessa suunnassa oloon).",
+          "en": "These rules do not apply during the tack (from passing head to wind until close-hauled)."
+        }
+      },
+      {
+        "rules": [
+          "14",
+          "15"
+        ],
+        "note": {
+          "fi": "Case 27: kulkuoikeuden saanut vene, jonka pitää antaa toiselle tilaa pysyä loitolla (15), ja kulkuun oikeutettu vene, jonka ei tarvitse välttää kosketusta ennen kuin on selvää, ettei toinen pysy loitolla (14).",
+          "en": "Case 27: a boat that has just acquired right of way must give the other room to keep clear (15), and a right-of-way boat need not act to avoid contact until it is clear the other is not keeping clear (14)."
+        }
+      },
+      {
+        "rules": [
+          "18.3"
+        ],
+        "note": {
+          "fi": "Sääntö 18.3 koskee vastakäännöstä merkin vyöhykkeessä.",
+          "en": "Rule 18.3 deals with tacking in the zone of a mark."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 27,
+        "title": {
+          "fi": "Vastakäännös toisen veneen eteen",
+          "en": "Tacking right in front of another boat"
+        },
+        "text": {
+          "fi": "Veneet A ja B purjehtivat vasemmalla halssilla kohti merkkiä. A oli rungon pituuden verran B:n edessä ja suojan puolella ja teki vastakäännöksen heti, kun pystyi purjehtimaan merkille oikealla halssilla. Pian sen jälkeen B törmäsi A:han kovassa vauhdissa. Protestilautakunta hylkäsi sekä A:n (sääntö 15) että B:n (sääntö 2, koska B tiesi A:n kääntyvän muttei tehnyt mitään).",
+          "en": "Boats A and B were sailing on port tack towards a mark. A was one hull length ahead of B and to leeward, and she tacked as soon as she could lay the mark on starboard tack. Soon afterwards B hit A at speed. The protest committee disqualified both A (rule 15) and B (rule 2, because B knew A was going to tack but did nothing)."
+        },
+        "answer": {
+          "fi": "Kun A ohitti tuulensilmän, B sai kulkuoikeuden säännöllä 13 ja piti sen, kunnes A oli tiukasti vastaisessa suunnassa oikealla halssilla. A rikkoi sääntöä 13, koska B:n olisi pitänyt joutua väistämään jo ennen kuin A oli laskenut tiukkaan vastaiseen suuntaan, jolloin B:llä oli vielä kulkuoikeus. Heti A:n saatua kulkuoikeuden säännöllä 10 sen olisi pitänyt antaa B:lle tilaa pysyä loitolla (15), ja se olisi voinut välttää kosketuksen kääntymällä takaisin vasemmalle halssille (14). B ei ollut velvollinen ennakoimaan A:n sääntörikkomusta eikä rikkonut sääntöä 2; sääntöä 10 se rikkoi, mutta vapautui siitä (43.1). Valitus hyväksyttiin: B palautettiin tuloksiin ja A:n hylkäys pysyi.",
+          "en": "When A passed head to wind, B gained right of way under rule 13 and kept it until A was close-hauled on starboard tack. A broke rule 13, because B would have needed to take avoiding action before A had borne away to close-hauled, when B still had right of way. Once A acquired right of way under rule 10 she had to give B room to keep clear (15), and she could have avoided contact by turning back to port tack (14). B was not required to anticipate that A would break a rule and did not break rule 2; she did break rule 10 but was exonerated (43.1). The appeal was upheld: B was reinstated and A's disqualification stood."
+        },
+        "also": [
+          "10",
+          "14",
+          "15",
+          "43"
+        ],
+        "source": "Case 27"
+      },
+      {
+        "case": 15,
+        "title": {
+          "fi": "Edessä oleva vene haluaisi tehdä vastakäännöksen",
+          "en": "The boat ahead wants to tack"
+        },
+        "text": {
+          "fi": "A ja B purjehtivat tiukasti vastaisessa suunnassa vasemmalla halssilla rinnakkaisilla kursseilla kohti ylämerkkiä, joka jätetään vasemmalle (port) puolelle. A on selvästi edessä ja odottaa B:n kääntyvän, kun se pystyy purjehtimaan merkille. B jatkaa kuitenkin suoraan ohi merkin.",
+          "en": "A and B are close-hauled on port tack on parallel courses towards a windward mark to be left to port. A is clear ahead and expects B to tack when she can lay the mark. B instead holds her course and sails on well past the mark."
+        },
+        "answer": {
+          "fi": "B saa toimia näin ja siten estää A:n vastakäännöksen. Niin kauan kuin A pysyy vasemmalla halssilla, B:n pitää pysyä loitolla (12) ja antaa A:lle merkkitilaa (18.2(a)(2)), koska A oli selvästi edessä saavuttaessaan vyöhykkeen; näitä noudattaen B voi valita minkä tahansa suunnan. Merkkitilavelvollisuus päättyy, kun A poistuu vyöhykkeeltä. Jos A ohittaa tuulensilmän, A menettää kulkuoikeutensa säännön 12 nojalla ja B:stä tulee kulkuun oikeutettu vene säännöllä 13.",
+          "en": "B may do this, and so prevents A from tacking. While A stays on port tack, B must keep clear (12) and give A mark-room (18.2(a)(2)), because A was clear ahead when she reached the zone; provided she does both, B may sail any course she likes. B's mark-room obligation ends when A leaves the zone. If A passes head to wind, A loses her right of way under rule 12 and B becomes the right-of-way boat under rule 13."
+        },
+        "also": [
+          "12",
+          "18"
+        ],
+        "source": "Case 15"
+      },
+      {
+        "case": 17,
+        "title": {
+          "fi": "Milloin sääntö 13 lakkaa?",
+          "en": "When does rule 13 stop applying?"
+        },
+        "text": {
+          "fi": "Sääntö 13 on voimassa, kunnes vene on tiukasti vastaisessa suunnassa, mutta se ei sano, pitääkö veneen samalla liikkua veden suhteen.",
+          "en": "Rule 13 applies until the boat is on a close-hauled course, but the rule does not say whether she must also be moving through the water."
+        },
+        "answer": {
+          "fi": "Sääntö 13 lakkaa heti, kun vene on tiukasti vastaisessa suunnassa, riippumatta siitä, liikkuuko se veden suhteen tai miten tiukalle sen purjeet on kiristetty.",
+          "en": "Rule 13 stops applying as soon as the boat is on a close-hauled course, whether or not she is moving through the water and however her sails are sheeted."
+        },
+        "also": [],
+        "source": "Case 17"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r13-q1",
+        "prompt": {
+          "fi": "Vene A on tehnyt vastakäännöksen vasemmalta halssilta oikealle ja on ohittanut tuulensilmän, mutta ei ole vielä tiukasti vastaisessa suunnassa. Vene B purjehtii tiukasti vastaisessa suunnassa vasemmalla halssilla ja lähestyy A:ta. Kenen pitää pysyä loitolla?",
+          "en": "Boat A is tacking from port to starboard and has passed head to wind, but is not yet close-hauled. Boat B is close-hauled on port tack and is approaching A. Who must keep clear?"
+        },
+        "scene": {
+          "boats": [
+            {
+              "n": "B",
+              "x": 80,
+              "y": 200,
+              "rot": 45,
+              "tack": "p"
+            },
+            {
+              "n": "A",
+              "x": 170,
+              "y": 120,
+              "rot": -20,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "A, koska se on vastakäännöksessä (sääntö 13)",
+              "en": "A, because she is tacking (rule 13)"
+            }
+          },
+          {
+            "t": {
+              "fi": "B, koska se on vasemmalla halssilla ja A:lla on jo oikea halssi (sääntö 10)",
+              "en": "B, because she is on port tack and A is already on starboard (rule 10)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kummankaan, koska säännöt 10–12 eivät päde vastakäännöksen aikana",
+              "en": "Neither, because rules 10–12 do not apply during a tack"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 13: kun vene on ohittanut tuulensilmän, sen pitää pysyä loitolla muista veneistä, kunnes se on tiukasti vastaisessa suunnassa. Säännöt 10, 11 ja 12 eivät päde tänä aikana, joten A ei saa kulkuoikeutta siitä, että sen halssi on jo vaihtunut. Vasta kun A on tiukasti vastaisessa suunnassa, sääntö 10 pätee taas.",
+          "en": "Rule 13: once a boat has passed head to wind she must keep clear of other boats until she is on a close-hauled course. Rules 10, 11 and 12 do not apply during this time, so A gains no right of way from the fact that her tack has already changed. Only when A is close-hauled does rule 10 apply again."
+        },
+        "source": "RRS 13",
+        "also": [
+          "10",
+          "15"
+        ]
+      },
+      {
+        "id": "r13-q2",
+        "prompt": {
+          "fi": "Veneet A ja B ovat molemmat ohittaneet tuulensilmän vastakäännöksessä, eikä kumpikaan ole vielä tiukasti vastaisessa suunnassa. Ne ovat rinnakkain, ja A on B:n vasemmalla (port) puolella. Kenen pitää pysyä loitolla?",
+          "en": "Boats A and B have both passed head to wind while tacking and neither is yet close-hauled. They are side by side, with A on B's port side. Who must keep clear?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 110,
+              "y": 150,
+              "rot": -15,
+              "tack": "s"
+            },
+            {
+              "n": "B",
+              "x": 190,
+              "y": 150,
+              "rot": -15,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B, koska se on tuulen puolen vene (sääntö 11)",
+              "en": "B, because she is the windward boat (rule 11)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A, koska se on B:n vasemmalla puolella",
+              "en": "A, because she is on B's port side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kummankaan, koska säännöt 10–12 eivät päde",
+              "en": "Neither, because rules 10–12 do not apply"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kun kaksi venettä on yhtä aikaa säännön 13 alaisena, vasemmalla (port) puolella tai perässä olevan pitää pysyä loitolla. Säännöt 10–12, myös sääntö 11, eivät päde tänä aikana. A on B:n vasemmalla puolella, joten A:n pitää pysyä loitolla.",
+          "en": "When two boats are subject to rule 13 at the same time, the one on the other's port side or the one astern must keep clear. Rules 10–12, rule 11 included, do not apply during this time. A is on B's port side, so A must keep clear."
+        },
+        "source": "RRS 13"
+      },
+      {
+        "id": "r13-q3",
+        "prompt": {
+          "fi": "Samanlainen tilanne, mutta A on suoraan B:n perässä. Kumpikin on ohittanut tuulensilmän vastakäännöksessä, eikä kumpikaan ole vielä tiukasti vastaisessa suunnassa. Kenen pitää pysyä loitolla?",
+          "en": "A similar situation, but A is directly astern of B. Both have passed head to wind while tacking and neither is yet close-hauled. Who must keep clear?"
+        },
+        "scene": {
+          "boats": [
+            {
+              "n": "B",
+              "x": 129,
+              "y": 120,
+              "rot": -15,
+              "tack": "s"
+            },
+            {
+              "n": "A",
+              "x": 150,
+              "y": 200,
+              "rot": -15,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B, koska se on edessä",
+              "en": "B, because she is ahead"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kummankaan, koska säännöt 10–12 eivät päde",
+              "en": "Neither, because rules 10–12 do not apply"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A, koska se on perässä",
+              "en": "A, because she is astern"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 13 sanoo, että kun kaksi venettä on yhtä aikaa sen alaisena, vasemmalla puolella tai perässä olevan pitää pysyä loitolla. Tässä A on perässä.",
+          "en": "Rule 13 says that when two boats are subject to it at the same time, the one on the other's port side or the one astern must keep clear. Here A is astern."
+        },
+        "source": "RRS 13"
+      },
+      {
+        "id": "r13-q4",
+        "prompt": {
+          "fi": "Vene A on päättänyt vastakäännöksen ja on nyt tiukasti vastaisessa suunnassa oikealla halssilla, mutta sen purjeet lepattavat vielä eikä vene liiku juuri veden suhteen. Onko A vielä säännön 13 alainen?",
+          "en": "Boat A has finished her tack and is now on a close-hauled course on starboard tack, but her sails are still luffing and she is hardly moving through the water. Is A still subject to rule 13?"
+        },
+        "scene": {
+          "h": 250,
+          "track": [
+            [
+              135,
+              215
+            ],
+            [
+              140,
+              175
+            ],
+            [
+              130,
+              135
+            ],
+            [
+              118,
+              100
+            ]
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 140,
+              "y": 185,
+              "rot": 0,
+              "tack": "s",
+              "ghost": true
+            },
+            {
+              "n": "A",
+              "x": 120,
+              "y": 105,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, kunnes purjeet on kiristetty",
+              "en": "Yes, until her sails are sheeted in"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntö 13 on lakannut, kun A on tiukasti vastaisessa suunnassa",
+              "en": "No: rule 13 stopped applying as soon as A was close-hauled"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kunnes A liikkuu veden suhteen normaalia vauhtia",
+              "en": "Yes, until she is moving through the water at normal speed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 17: vene ei ole enää säännön 13 alainen, kun se on tiukasti vastaisessa suunnassa, riippumatta siitä, liikkuuko se veden suhteen tai miten tiukalle purjeet on kiristetty.",
+          "en": "Case 17: a boat is no longer subject to rule 13 when she is on a close-hauled course, regardless of her movement through the water or the sheeting of her sails."
+        },
+        "source": "Case 17"
+      },
+      {
+        "id": "r13-q5",
+        "prompt": {
+          "fi": "Veneet A ja B purjehtivat vasemmalla halssilla kohti merkkiä. A on rungon pituuden verran B:n edessä ja suojan puolella ja tekee vastakäännöksen B:n eteen; B etenee kovaa vauhtia. B tietää, että A aikoo kääntyä. Onko B velvollinen ennakoimaan A:n sääntörikkomusta ja väistämään jo etukäteen?",
+          "en": "Boats A and B are sailing on port tack towards a mark. A is one hull length ahead of B and to leeward, and tacks in front of B; B is travelling fast. B knows that A is going to tack. Must B anticipate A's rule breach and take avoiding action in advance?"
+        },
+        "scene": {
+          "boats": [
+            {
+              "n": "B",
+              "x": 120,
+              "y": 175,
+              "rot": 45,
+              "tack": "p"
+            },
+            {
+              "n": "A",
+              "x": 168,
+              "y": 115,
+              "rot": 0,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: koska B tietää A:n aikeen, laiminlyönti on rangaistava säännön 2 mukaan",
+              "en": "Yes: because B knows A's intention, failing to act is penalized under rule 2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä: vastakäännöstä tekevää venettä pitää aina väistää",
+              "en": "Yes: a tacking boat must always be avoided"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: B ei ole velvollinen ennakoimaan sääntörikkomusta, eikä sen tarvitse toimia ennen kuin on selvää, ettei A pysy loitolla",
+              "en": "No: B is not required to anticipate a rule breach, and need not act until it is clear that A is not keeping clear"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 27: vene ei ole velvollinen ennakoimaan, että toinen vene rikkoo sääntöä. Kun A ohittaa tuulensilmän, B:llä on kulkuoikeus säännöllä 13, ja säännön 14 toisen virkkeen mukaan kulkuun oikeutetun veneen ei tarvitse toimia kosketuksen välttämiseksi ennen kuin on selvää, ettei toinen pysy loitolla.",
+          "en": "Case 27: a boat is not required to anticipate that another boat will break a rule. Once A passes head to wind B has right of way under rule 13, and under the second sentence of rule 14 a right-of-way boat need not act to avoid contact until it is clear that the other boat is not keeping clear."
+        },
+        "source": "Case 27; RRS 14",
+        "also": [
+          "2",
+          "14",
+          "15"
+        ]
+      },
+      {
+        "id": "r13-q6",
+        "prompt": {
+          "fi": "Vene A on vasemmalla halssilla ja kääntyy kohti tuulta, mutta ei ole vielä ohittanut tuulensilmää. Vene B lähestyy oikealla halssilla tiukasti vastaisessa suunnassa, ja veneet ovat törmäyskurssilla. Kenen pitää pysyä loitolla?",
+          "en": "Boat A is on port tack and turning towards the wind, but has not yet passed head to wind. Boat B is approaching close-hauled on starboard tack and the boats are on a collision course. Who must keep clear?"
+        },
+        "scene": {
+          "boats": [
+            {
+              "n": "A",
+              "x": 105,
+              "y": 185,
+              "rot": 20,
+              "tack": "p"
+            },
+            {
+              "n": "B",
+              "x": 215,
+              "y": 115,
+              "rot": -45,
+              "tack": "s"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B, koska A on jo vastakäännöksessä (sääntö 13)",
+              "en": "B, because A is already tacking (rule 13)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kummankaan, koska A tekee vastakäännöstä ja sääntö 10 ei päde",
+              "en": "Neither, because A is tacking and rule 10 does not apply"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A: sääntö 13 ei vielä päde, ja vasemmalla halssilla olevan pitää väistää (sääntö 10)",
+              "en": "A: rule 13 does not apply yet, and a port-tack boat must keep clear (rule 10)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 13 alkaa vasta, kun vene on ohittanut tuulensilmän. Ennen sitä A on vasemmalla halssilla, ja sääntö 10 velvoittaa sen pysymään loitolla oikealla halssilla olevasta B:stä.",
+          "en": "Rule 13 only starts once the boat has passed head to wind. Until then A is on port tack and rule 10 requires her to keep clear of B, who is on starboard tack."
+        },
+        "source": "RRS 13, 10"
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "section": "2B",
+    "title": {
+      "fi": "Kosketuksen välttäminen",
+      "sv": "Undvika kontakt",
+      "en": "Avoiding Contact"
+    },
+    "explain": {
+      "fi": "Sääntö 14 koskee jokaista venettä, myös kulkuun oikeutettua. Jos se on kohtuudella mahdollista, veneen pitää (a) välttää kosketusta toiseen veneeseen, (b) olla aiheuttamatta kosketusta kahden veneen välille ja (c) olla aiheuttamatta kosketusta veneen ja sellaisen kohteen välille, jota pitäisi välttää. Kulkuun oikeutettu vene ja vene, joka purjehtii sille kuuluvassa tilassa tai merkkitilassa, saa kuitenkin jatkaa kurssiaan siihen asti, kun on ilmeistä, ettei toinen vene pysy loitolla tai anna tilaa tai merkkitilaa. Siitä hetkestä alkaen sen pitää toimia. Toimiminen voi olla muutakin kuin suunnan tai nopeuden muutos, esimerkiksi huutaminen (Case 107). Jos tällainen vene rikkoo sääntöä 14 eikä kosketus aiheuta vahinkoa tai vammaa, se vapautetaan rikkomuksesta (43.1(c)). Jos vahinkoa tai vammaa syntyy, vapautusta ei ole. Loitolla pysyminen vaatii enemmän kuin kosketuksen välttämistä: vene voi rikkoa väistämissääntöä, vaikka kosketusta ei tule (Case 88).",
+      "en": "Rule 14 applies to every boat, including the right-of-way boat. If reasonably possible, a boat must (a) avoid contact with another boat, (b) not cause contact between two boats, and (c) not cause contact between a boat and an object that should be avoided. However, a right-of-way boat, or a boat sailing within the room or mark-room she is entitled to, may hold her course until it is clear that the other boat is not keeping clear or giving room or mark-room. From that moment she must act. Acting can mean more than changing course or speed, for example hailing (Case 107). If such a boat breaks rule 14 and the contact causes no damage or injury, she is exonerated (43.1(c)). If there is damage or injury, there is no exoneration. Keeping clear demands more than avoiding contact: a boat can break a right-of-way rule even without contact (Case 88)."
+    },
+    "note": {
+      "fi": "Jos vene on aiheuttanut vamman tai vakavan vahingon, sen rangaistus on keskeyttäminen; kahden kierroksen rangaistus ei riitä (44.1(b)). Liite F lisää leijalautojen osalta vapautuksen esteeksi myös sotkeutumisen (43.1(c)).",
+      "en": "If a boat caused injury or serious damage, her penalty is to retire; a Two-Turns Penalty is not enough (44.1(b)). For kiteboards, Appendix F adds a tangle to what prevents exoneration (43.1(c))."
+    },
+    "source": "RRS 14, 43.1(c), 44.1(b), Appendix F; Case 87, 88, 107, 123",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "P",
+          "x": 90,
+          "y": 185,
+          "rot": 45,
+          "tack": "p",
+          "c": "b"
+        },
+        {
+          "n": "S",
+          "x": 200,
+          "y": 150,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "P on vasemmalla halssilla ja S oikealla, ja niiden kurssit kohtaavat. P:n pitää pysyä loitolla (sääntö 10). Sääntö 14 koskee molempia, mutta S saa pitää kurssinsa siihen asti, kun on ilmeistä, ettei P pysy loitolla.",
+      "en": "P is on port tack and S on starboard, and their courses converge. P must keep clear (rule 10). Rule 14 applies to both, but S may hold her course until it is clear that P is not keeping clear."
+    },
+    "defs": [
+      "Keep Clear",
+      "Room",
+      "Mark-Room"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "note": {
+          "fi": "Väistämissäännön rikkonut vene rikkoo usein myös sääntöä 14(a), koska se olisi voinut välttää kosketuksen (Case 87, 123).",
+          "en": "A boat that breaks a right-of-way rule often breaks rule 14(a) as well, because she could have avoided the contact (Cases 87, 123)."
+        }
+      },
+      {
+        "rules": [
+          "43",
+          "44"
+        ],
+        "note": {
+          "fi": "Vapautus 43.1(c): kulkuun oikeutettu vene tai omassa tilassaan purjehtiva vene, jos ei vahinkoa tai vammaa. Vamma tai vakava vahinko: rangaistus on keskeyttäminen (44.1(b)).",
+          "en": "Exoneration 43.1(c): a right-of-way boat or one sailing within her room, if there is no damage or injury. Injury or serious damage: the penalty is to retire (44.1(b))."
+        }
+      },
+      {
+        "rules": [
+          "16"
+        ],
+        "note": {
+          "fi": "Kun kulkuun oikeutettu vene muuttaa suuntaa väistääkseen kosketuksen, se ei yleensä riko sääntöä 16; Case 88:ssa mahdollinen rikkomus olisi vapautettu säännöllä 43.1(a).",
+          "en": "When a right-of-way boat changes course to avoid contact she usually does not break rule 16; in Case 88 any breach would have been exonerated by rule 43.1(a)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 87,
+        "title": {
+          "fi": "Oikea halssi pitää kurssinsa",
+          "en": "Starboard holds her course"
+        },
+        "text": {
+          "fi": "Lähtölinjan kulman vuoksi oikealla halssilla tiukasti vastaisessa suunnassa purjehtiva vene pystyi juuri ja juuri ylittämään linjan, ja useimmat lähestyivät vasemmalla halssilla. S tuli oikealla halssilla linjan oikeasta päästä ja huusi lähestyville veneille ‘oikea halssi’. P1 ja P2 laskivat S:n alta, mutta P3 ei yrittänyt väistää ja osui S:n kylkeen suorassa kulmassa aiheuttaen huomattavan vahingon. Protestilautakunta hylkäsi P3:n säännön 10 ja S:n säännön 14 perusteella.",
+          "en": "Because of the angle of the starting line, a close-hauled boat on starboard tack could only just cross it, and most boats approached on port tack. S came on starboard tack from the right-hand end, hailing ‘Starboard’ to the approaching boats. P1 and P2 bore away below S, but P3 made no attempt to keep clear and hit S amidships at a right angle, causing considerable damage. The protest committee disqualified P3 under rule 10 and S under rule 14."
+        },
+        "answer": {
+          "fi": "S:n valitus hyväksyttiin. P3 rikkoi sääntöjä 10 ja 14. S sai purjehtia kurssiaan olettaen, että P3 pysyy loitolla. P3 olisi voinut väistää vielä aivan S:n läheltä, joten se hetki, jolloin kävi ilmeiseksi, ettei P3 väistä, tuli niin myöhään, ettei S ehtinyt välttää törmäystä. S ei rikkonut sääntöä 14, vaikka vahinkoa syntyi.",
+          "en": "S's appeal was upheld. P3 broke rules 10 and 14. S was entitled to sail her course expecting P3 to keep clear. P3 could have borne away even from very close to S, so the moment when it became clear that P3 would not keep clear came so late that S could not avoid the collision. S did not break rule 14, even though there was damage."
+        },
+        "also": [
+          "10"
+        ],
+        "source": "Case 87"
+      },
+      {
+        "case": 123,
+        "title": {
+          "fi": "Milloin oikean halssin pitää toimia?",
+          "en": "When must starboard act?"
+        },
+        "text": {
+          "fi": "Kaksi 5 metrin yksityyppijollaa purjehtii tiukasti vastaisessa suunnassa noin 5 m/s tuulessa, S oikealla ja P vasemmalla halssilla. Kumpikaan ei muuta suuntaa eikä nopeutta. S:n keula osuu P:n peräkulmaan noin 20 cm:n päässä perästä, ja syntyy vahinkoa. Kumpikaan ei ota rangaistusta. Muunnelmassa S laskee juuri ennen kosketusta hieman, mutta liian vähän ja liian myöhään.",
+          "en": "Two 5-metre one-design dinghies are close-hauled in about 5 m/s of wind, S on starboard and P on port tack. Neither changes course or speed. S's bow hits P's starboard quarter about 20 cm from her stern, causing damage. Neither takes a penalty. In a variation, S bears away slightly just before the contact, but too little and too late."
+        },
+        "answer": {
+          "fi": "P rikkoi sääntöjä 10 ja 14(a): se olisi voinut tehdä vastakäännöksen S:n suojan puolelle. Kun P:n keula ylitti S:n keulan linjan, osaavalle, vaikkei huippuasiantuntevalle, S:n perämiehelle olisi ollut selvää, että kosketuksen riski on huomattava. S:llä oli silloin vielä aikaa laskea riittävästi, joten se rikkoi sääntöä 14(a), myös muunnelmassa, jossa se laski liian vähän tai liian myöhään. Koska syntyi vahinkoa, 43.1(c) ei vapauta S:ää, ja molemmat hylätään.",
+          "en": "P broke rules 10 and 14(a): she could have tacked to leeward of S. When P's bow crossed ahead of S's bow, a competent but not expert helmsman on S would have seen a substantial risk of contact. S still had time to bear away enough, so she broke rule 14(a), also in the variation where she bore away too little or too late. Because there was damage, 43.1(c) does not exonerate S, and both boats are disqualified."
+        },
+        "also": [
+          "10",
+          "43"
+        ],
+        "source": "Case 123"
+      },
+      {
+        "case": 107,
+        "title": {
+          "fi": "Kukaan ei katsonut eteen",
+          "en": "Nobody was keeping a lookout"
+        },
+        "text": {
+          "fi": "Valmisteluviestin ja lähtöviestin välillä kaksi raskasta 10 metrin kölivenettä, Ephesian oikealla ja Jupa vasemmalla halssilla, lähestyi toisiaan keula keulaa vasten. Kummassakaan ei ollut ketään tähystämässä, koska keulamiehet käsittelivät genoaa. Ephesian liikkui hitaasti ja ohjautui huonosti. Veneet törmäsivät, Jupa vaurioitui vakavasti ja keskeytti. Lautakunta hylkäsi Jupan säännön 10 ja Ephesianin säännön 14 perusteella.",
+          "en": "Between the preparatory and starting signals two heavy 10-metre keelboats, Ephesian on starboard and Jupa on port tack, approached each other head-on. Nobody on either boat was keeping a lookout, as the foredeck crews were handling the genoas. Ephesian was moving slowly with limited manoeuvrability. They collided, Jupa was seriously damaged and retired. The committee disqualified Jupa under rule 10 and Ephesian under rule 14."
+        },
+        "answer": {
+          "fi": "Ephesianin hylkäys pysyi. Sääntö 14 edellyttää kaikkea, mitä veneeltä voi kohtuudella odottaa, ja lähtöalueella siihen kuuluu tähystys. Kun kävi ilmeiseksi, ettei Jupa väistä, Ephesianin olisi pitänyt toimia, ja huutaminen olisi ollut tällainen toimi, vaikka suunnan muutos ei olisi enää onnistunut. Vahingon vuoksi 43.1(c) ei vapauttanut sitä. Jupa rikkoi sääntöjä 10 ja 14(a), mutta se oli jo keskeyttänyt eli ottanut sääntöön 44.1(b) kuuluvan rangaistuksen, joten sen tulos muutettiin hylkäyksestä keskeytykseksi.",
+          "en": "Ephesian's disqualification stood. Rule 14 requires everything that can reasonably be expected of a boat, and in the starting area that includes a lookout. Once it was clear Jupa was not keeping clear, Ephesian had to act, and hailing would have been such an action even if a change of course was no longer possible. Because of the damage, 43.1(c) did not exonerate her. Jupa broke rules 10 and 14(a), but by retiring she had already taken the penalty under rule 44.1(b), so her score was changed from disqualified to retired."
+        },
+        "also": [
+          "10",
+          "44"
+        ],
+        "source": "Case 107"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r14-q1",
+        "prompt": {
+          "fi": "S purjehtii oikealla ja P vasemmalla halssilla kohti samaa pistettä. S huutaa ‘oikea halssi’, mutta P ei reagoi. Milloin sääntö 14 velvoittaa S:n toimimaan kosketuksen välttämiseksi?",
+          "en": "S on starboard and P on port tack are heading for the same point. S hails ‘Starboard’ but P does not respond. When does rule 14 require S to act to avoid contact?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 90,
+              "y": 185,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 200,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Heti, kun kurssit ovat törmäyskurssilla",
+              "en": "As soon as the courses are on a collision course"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun on ilmeistä, ettei P pysy loitolla",
+              "en": "When it is clear that P is not keeping clear"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan, koska S:llä on kulkuoikeus",
+              "en": "Never, because S has right of way"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 14 koskee myös kulkuun oikeutettua venettä, mutta sen toinen virke antaa S:n pitää kurssinsa siihen asti, kun on ilmeistä, ettei P pysy loitolla. Silloin S:n pitää toimia, jos kosketuksen välttäminen on kohtuudella mahdollista (Case 87, 123).",
+          "en": "Rule 14 applies to the right-of-way boat too, but its second sentence lets S hold her course until it is clear that P is not keeping clear. Then S must act if avoiding contact is reasonably possible (Cases 87, 123)."
+        },
+        "source": "RRS 14; Case 87, 123",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r14-q2",
+        "prompt": {
+          "fi": "Sama tilanne, mutta S olisi vielä ehtinyt laskea sen jälkeen, kun kävi ilmeiseksi, ettei P väistä. Veneet koskettavat, eikä vahinkoa tai vammaa synny. Mikä on S:n asema?",
+          "en": "Same situation, but S would still have had time to bear away after it became clear that P was not keeping clear. The boats touch, with no damage or injury. What is S's position?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 120,
+              "y": 160,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 168,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "S ei rikkonut sääntöä, koska sillä oli kulkuoikeus",
+              "en": "S broke no rule because she had right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "S rikkoi sääntöä 14(a), mutta se vapautetaan (43.1(c))",
+              "en": "S broke rule 14(a) but is exonerated (43.1(c))"
+            }
+          },
+          {
+            "t": {
+              "fi": "S rikkoi sääntöä 14(a) ja hylätään",
+              "en": "S broke rule 14(a) and is disqualified"
+            }
+          }
+        ],
+        "why": {
+          "fi": "S olisi voinut välttää kosketuksen, joten se rikkoi sääntöä 14(a). Sääntö 43.1(c) vapauttaa kulkuun oikeutetun veneen säännön 14 rikkomuksesta, jos kosketus ei aiheuta vahinkoa tai vammaa. P rikkoi sääntöjä 10 ja 14(a) eikä saa vapautusta (vrt. Case 105).",
+          "en": "S could have avoided the contact, so she broke rule 14(a). Rule 43.1(c) exonerates a right-of-way boat for breaking rule 14 if the contact causes no damage or injury. P broke rules 10 and 14(a) and is not exonerated (compare Case 105)."
+        },
+        "source": "RRS 14, 43.1(c); Case 105",
+        "also": [
+          "43"
+        ]
+      },
+      {
+        "id": "r14-q3",
+        "prompt": {
+          "fi": "Kuten edellä, mutta kosketus aiheuttaa P:n kylkeen vaurion. S olisi voinut välttää kosketuksen laskemalla, kun kävi ilmeiseksi, ettei P väistä. Vapautetaanko S?",
+          "en": "As before, but the contact damages P's topsides. S could have avoided the contact by bearing away once it was clear that P was not keeping clear. Is S exonerated?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 120,
+              "y": 160,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 168,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, kulkuun oikeutettu vene vapautetaan aina",
+              "en": "Yes, a right-of-way boat is always exonerated"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska vahinko syntyi P:lle eikä S:lle",
+              "en": "Yes, because the damage was to P, not to S"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 43.1(c) vapauttaa vain, jos vahinkoa tai vammaa ei synny",
+              "en": "No: 43.1(c) only exonerates when there is no damage or injury"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 43.1(c) edellyttää, ettei kosketuksesta synny vahinkoa tai vammaa; sääntö ei rajaa, kumman veneen vahingosta on kyse. Case 123:ssa oikean halssin vene hylättiin juuri tällaisessa tilanteessa.",
+          "en": "Rule 43.1(c) requires that the contact causes no damage or injury; it does not matter which boat is damaged. In Case 123 the starboard-tack boat was disqualified in exactly this situation."
+        },
+        "source": "RRS 43.1(c); Case 123",
+        "also": [
+          "43"
+        ]
+      },
+      {
+        "id": "r14-q4",
+        "prompt": {
+          "fi": "P lähestyy S:ää vasemmalla halssilla eikä reagoi huutoihin. Viime hetkellä S nousee jyrkästi ylemmäs ja P laskee täysillä; P menee S:n perän ohi alle 0,6 metrin päästä. Kosketusta ei tule. Rikkoiko P sääntöä 10?",
+          "en": "P approaches S on port tack and does not respond to hails. At the last moment S luffs sharply and P bears away hard; P passes less than 0.6 m from S's stern. There is no contact. Did P break rule 10?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 90,
+              "y": 185,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 200,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska kosketusta ei tullut",
+              "en": "No, because there was no contact"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: S ei voinut purjehtia kurssiaan ilman väistämistä",
+              "en": "Yes: S could not sail her course without taking avoiding action"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska S muutti suuntaa ja rikkoi sääntöä 16",
+              "en": "No, because S changed course and broke rule 16"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 88: pysyä loitolla tarkoittaa enemmän kuin kosketuksen välttämistä. Ratkaisevaa on, voiko kulkuun oikeutettu vene purjehtia kurssiaan ilman tarvetta väistää. Tässä törmäys oli lähes väistämätön, joten S:n oli pakko toimia, ja P rikkoi sääntöä 10. S:n väistöliike oli säännön 14 mukainen.",
+          "en": "Case 88: keeping clear means more than avoiding contact. The test is whether the right-of-way boat can sail her course with no need to take avoiding action. Here a collision was almost unavoidable, so S had to act, and P broke rule 10. S's avoiding action was what rule 14 required."
+        },
+        "source": "Case 88; Definition Keep Clear",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r14-q5",
+        "prompt": {
+          "fi": "L (suojan puoli) ja W (tuulen puoli) ovat samalla halssilla peitossa. L kääntyy hitaasti ylemmäs niin, että W:llä on tilaa väistää, mutta W ei reagoi. Veneet koskettavat ilman vahinkoa; kumpikin olisi voinut välttää kosketuksen. Kumpi vapautetaan säännön 14(a) rikkomuksesta?",
+          "en": "L (leeward) and W (windward) are overlapped on the same tack. L luffs slowly so that W has room to keep clear, but W does not respond. The boats touch without damage; either could have avoided the contact. Which boat is exonerated for breaking rule 14(a)?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 115,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Molemmat, koska vahinkoa ei syntynyt",
+              "en": "Both, because there was no damage"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain L",
+              "en": "Only L"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain W, koska L muutti suuntaa",
+              "en": "Only W, because L changed course"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpaakaan",
+              "en": "Neither"
+            }
+          }
+        ],
+        "why": {
+          "fi": "43.1(c) vapauttaa vain kulkuun oikeutetun veneen tai veneen, joka purjehtii sille kuuluvassa tilassa. L oli kulkuun oikeutettu (11). W ei purjehtinut säännön 16.1 mukaisessa tilassa, vaan jätti väistämättä, joten se rikkoi sääntöjä 11 ja 14(a) eikä saa vapautusta (Case 7, 14).",
+          "en": "43.1(c) only exonerates a right-of-way boat or a boat sailing within the room she is entitled to. L had right of way (11). W was not sailing within the room given under rule 16.1; she simply failed to keep clear, so she broke rules 11 and 14(a) and is not exonerated (Cases 7, 14)."
+        },
+        "source": "RRS 43.1(c); Case 7, 14",
+        "also": [
+          "11",
+          "16",
+          "43"
+        ]
+      },
+      {
+        "id": "r14-q6",
+        "prompt": {
+          "fi": "Vene rikkoo sääntöä 14 ja aiheuttaa toiselle veneelle vakavan vahingon. Riittääkö kahden kierroksen rangaistus?",
+          "en": "A boat breaks rule 14 and causes serious damage to another boat. Is a Two-Turns Penalty enough?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 120,
+              "y": 160,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 168,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, jos se tehdään heti",
+              "en": "Yes, if it is taken promptly"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: rangaistus on keskeyttäminen",
+              "en": "No: the penalty is to retire"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: vain protestilautakunta voi rangaista",
+              "en": "No: only the protest committee can penalize"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 44.1(b): jos vene aiheutti vamman tai vakavan vahingon, sen rangaistus on keskeyttää. Case 107:ssä keskeyttänyttä venettä ei enää hylätty samasta rikkomuksesta, koska se oli jo ottanut tämän rangaistuksen.",
+          "en": "Rule 44.1(b): if the boat caused injury or serious damage, her penalty is to retire. In Case 107 a boat that had retired was not then disqualified for the same breach, because she had already taken this penalty."
+        },
+        "source": "RRS 44.1(b); Case 107",
+        "also": [
+          "44"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 15,
+    "section": "2B",
+    "title": {
+      "fi": "Kulkuoikeuden saaminen",
+      "sv": "Erhålla rätt till fri väg",
+      "en": "Acquiring Right of Way"
+    },
+    "explain": {
+      "fi": "Kun vene saa kulkuoikeuden, sen pitää aluksi antaa toiselle veneelle tilaa pysyä loitolla. Tavallisia tilanteita ovat: selvästi perässä ollut vene saa peiton toisen suojan puolelle (11), vene jiippaa tai päättää vastakäännöksen oikealle halssille (10), tai vastakäännöksen tehnyt vene saavuttaa tiukasti vastaisen suunnan (13 lakkaa). Uusi väistämisvelvollinen saa ajan ja tilan reagoida, mutta sen pitää toimia viipymättä ja merenkulkutaidolla (määritelmä Tila). Velvollisuus on vain alkuhetken; sen jälkeen kulkuun oikeutetun veneen suunnanmuutoksia rajoittaa sääntö 16.1 (Case 7, 105). Sääntö 15 ei päde, jos vene saa kulkuoikeuden toisen veneen toimien seurauksena, esimerkiksi kun toinen vene tekee vastakäännöksen sen eteen (Case 81). Edessä olevan veneen ei myöskään tarvitse ennakoida peittoa ennen kuin se syntyy (Case 53).",
+      "en": "When a boat acquires right of way, she must initially give the other boat room to keep clear. Typical situations: a boat clear astern becomes overlapped to leeward of the other (11); a boat gybes or completes a tack onto starboard (10); or a tacking boat reaches a close-hauled course (13 ends). The newly obligated boat gets time and space to respond, but she must act promptly and in a seamanlike way (definition Room). The obligation is only initial; afterwards the right-of-way boat's course changes are limited by rule 16.1 (Cases 7, 105). Rule 15 does not apply if a boat acquires right of way because of the other boat's actions, for example when the other boat tacks in front of her (Case 81). A boat ahead also need not anticipate an overlap before it begins (Case 53)."
+    },
+    "note": {
+      "fi": "Liite F: leijalauta, joka rikkoo sääntöä 15 ilman kosketusta, vapautetaan (43.1(d)).",
+      "en": "Appendix F: a kiteboard that breaks rule 15 without contact is exonerated (43.1(d))."
+    },
+    "source": "RRS 15, 43.1(b), Definition Room, Appendix F; Case 24, 53, 81, 93",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "W",
+          "x": 165,
+          "y": 110,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        },
+        {
+          "n": "L",
+          "x": 115,
+          "y": 160,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ],
+      "track": [
+        [
+          170,
+          215
+        ],
+        [
+          130,
+          175
+        ]
+      ]
+    },
+    "caption": {
+      "fi": "L tuli selvästi W:n perästä ja sai juuri peiton W:n suojan puolelle. L sai kulkuoikeuden (11), joten sen pitää aluksi antaa W:lle tilaa pysyä loitolla (15).",
+      "en": "L came from clear astern of W and has just become overlapped to leeward of her. L has acquired right of way (11), so she must initially give W room to keep clear (15)."
+    },
+    "defs": [
+      "Room",
+      "Keep Clear",
+      "Clear Astern and Clear Ahead; Overlap"
+    ],
+    "links": [
+      {
+        "rules": [
+          "11",
+          "12"
+        ],
+        "note": {
+          "fi": "Kun peitto syntyy perästä suojan puolelle, sääntö 12 vaihtuu säännöksi 11 ja sääntö 15 alkaa (Case 24).",
+          "en": "When an overlap begins from astern to leeward, rule 12 gives way to rule 11 and rule 15 begins (Case 24)."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "13"
+        ],
+        "note": {
+          "fi": "Vastakäännöksen päätyttyä oikealle halssille vene saa kulkuoikeuden säännöllä 10 ja sen pitää antaa tilaa (Case 27). Jos taas toinen vene tekee vastakäännöksen, kulkuoikeus tulee sen toimien seurauksena eikä sääntö 15 päde (Case 81).",
+          "en": "After completing a tack onto starboard a boat acquires right of way under rule 10 and must give room (Case 27). If instead the other boat tacks, right of way comes from her actions and rule 15 does not apply (Case 81)."
+        }
+      },
+      {
+        "rules": [
+          "16",
+          "17"
+        ],
+        "note": {
+          "fi": "Säännön 15 velvollisuus on hetkellinen; sääntö 16.1 rajoittaa jatkuvasti, ja perästä peiton saanutta venettä rajoittaa myös sääntö 17 (Case 7, 93).",
+          "en": "The rule 15 obligation is brief; rule 16.1 limits the boat continuously, and a boat that became overlapped from astern is also limited by rule 17 (Cases 7, 93)."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "Jos väistävä vene rikkoo ryhmän A sääntöä purjehtiessaan tilassa, joka sille piti antaa, se vapautetaan (43.1(b), Case 24, 93).",
+          "en": "If the keep-clear boat breaks a Section A rule while sailing within the room she was entitled to, she is exonerated (43.1(b), Cases 24, 93)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 24,
+        "title": {
+          "fi": "Peitto syntyy aivan perän vieressä",
+          "en": "An overlap begins right at the stern"
+        },
+        "text": {
+          "fi": "A ja B purjehtivat kevyessä tuulessa leveällä sivutuulella oikealla halssilla kohti kaukana olevaa merkkiä, kumpikin oikeaa suuntaansa. B on suoraan A:n perässä mutta hieman nopeampi, ja se saa peiton A:n suojan puolelle aivan A:n perän vieressä. Milloin B:n velvollisuus (12) vaihtuu oikeudeksi (11)? Mitä B:n pitää tehdä, ja mitä A:n?",
+          "en": "A and B are on a broad reach on starboard tack in light wind towards a distant mark, each on her proper course. B is directly astern of A but slightly faster, and she becomes overlapped to leeward close to A's stern. When does B's obligation (12) turn into a right (11)? What must B do, and what must A do?"
+        },
+        "answer": {
+          "fi": "Vaihto tapahtuu sillä hetkellä, kun peitto syntyy. B:n pitää silloin antaa A:lle aikaa ja tilaa reagoida (15), mutta suoja on väliaikainen ja koskee A:ta vain, jos A toimii viipymättä. A:n pitää pysyä loitolla (11), tarvittaessa kääntymällä viipymättä ylemmäs. Jos kosketus syntyy, vaikka A toimi merenkulkutaidolla, B rikkoi sääntöä 15 ja A vapautetaan (43.1(b)). Jos A kääntyy tarpeettoman ylös ja aiheuttaa itse kosketuksen, vapautusta ei ole.",
+          "en": "The switch happens at the moment the overlap begins. B must then give A time and space to respond (15), but this protection is temporary and only helps A if she responds promptly. A must keep clear (11), luffing promptly if necessary. If contact occurs although A acted in a seamanlike way, B broke rule 15 and A is exonerated (43.1(b)). If A luffs more than needed and causes the contact herself, there is no exoneration."
+        },
+        "also": [
+          "11",
+          "12",
+          "43"
+        ],
+        "source": "Case 24"
+      },
+      {
+        "case": 93,
+        "title": {
+          "fi": "Ylös heti peiton synnyttyä",
+          "en": "Luffing the moment the overlap begins"
+        },
+        "text": {
+          "fi": "W ja L lähestyivät eri halsseilla tuulenpuoleista merkkiä, joka jätetään vasemmalle. W teki vastakäännöksen vyöhykkeellä niin paljon layline-linjan yläpuolella, että L mahtui W:n ja merkin väliin. L tuli suoraan W:n perästä, laski ja oli saamassa peiton W:n suojan puolelle. Heti peiton synnyttyä L kääntyi ylemmäs ja osui W:n vasempaan kylkeen. Lautakunta hylkäsi L:n säännön 16.1 perusteella.",
+          "en": "W and L approached a windward mark to be left to port on opposite tacks. W tacked in the zone far enough above the layline that L could fit between W and the mark. L came from directly astern of W, bore away and was about to become overlapped to leeward. Immediately when the overlap began, L luffed and hit W's port side. The committee disqualified L under rule 16.1."
+        },
+        "answer": {
+          "fi": "L:n valitus hylättiin. W antoi L:lle merkkitilaa, joten W ei rikkonut sääntöä 18.3. Peiton synnyttyä L sai kulkuoikeuden (11), ja sen piti aluksi antaa W:lle tilaa (15); lisäksi 16.1 koski sitä koko ajan. Koska L kääntyi ylös heti, W:llä ei ollut mitään merenkulkutaitoista keinoa väistää, joten L rikkoi sääntöjä 15 ja 16.1. W rikkoi sääntöä 11, mutta se vapautettiin (43.1(b)). L rikkoi myös sääntöä 14(a).",
+          "en": "L's appeal was dismissed. W gave L mark-room, so W did not break rule 18.3. When the overlap began L acquired right of way (11) and initially had to give W room (15); rule 16.1 also applied throughout. Because L luffed at once, W had no seamanlike way to keep clear, so L broke rules 15 and 16.1. W broke rule 11 but was exonerated (43.1(b)). L also broke rule 14(a)."
+        },
+        "also": [
+          "11",
+          "16",
+          "18",
+          "43"
+        ],
+        "source": "Case 93"
+      },
+      {
+        "case": 81,
+        "title": {
+          "fi": "Kulkuoikeus toisen veneen toimesta",
+          "en": "Right of way through the other boat's action"
+        },
+        "text": {
+          "fi": "A ja B purjehtivat tiukasti vastaisessa suunnassa oikealla halssilla kohti merkkiä, joka jätetään oikealle. A tuli vyöhykkeelle selvästi B:n edellä ja sen suojan puolella. Kiertääkseen merkin A teki vastakäännöksen vasemmalle halssille, ja oikealla halssilla jatkanut B osui siihen ilman vahinkoa. Lautakunta katsoi, ettei sääntö 18 enää päde, ja hylkäsi A:n säännön 10 perusteella.",
+          "en": "A and B were close-hauled on starboard tack approaching a mark to be left to starboard. A entered the zone clear ahead of B and to leeward of her track. To round the mark A tacked onto port, and B, still on starboard, hit her without damage. The committee decided rule 18 no longer applied and disqualified A under rule 10."
+        },
+        "answer": {
+          "fi": "A:n valitus hylättiin. Kun A ohitti tuulensilmän, B:n velvollisuus antaa merkkitilaa päättyi ja B sai kulkuoikeuden; A:n piti pysyä loitolla ensin säännön 13 ja tiukasti vastaisessa suunnassa säännön 10 perusteella. Sääntö 15 ei koskenut B:tä, koska se sai kulkuoikeuden A:n vastakäännöksen seurauksena. A rikkoi myös sääntöä 14(a). Jos B olisi rikkonut sääntöä 14, se olisi vapautettu (43.1(c)).",
+          "en": "A's appeal was dismissed. When A passed head to wind, B's obligation to give mark-room ended and B acquired right of way; A had to keep clear first under rule 13 and, once close-hauled, under rule 10. Rule 15 did not apply to B, because she acquired right of way as a result of A's tack. A also broke rule 14(a). Had B broken rule 14 she would have been exonerated (43.1(c))."
+        },
+        "also": [
+          "10",
+          "13",
+          "18"
+        ],
+        "source": "Case 81"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r15-q1",
+        "prompt": {
+          "fi": "30 sekuntia ennen lähtöviestiä W on lähes pysähdyksissä purjeet lepattaen. L lähestyy perästä ja huutaa jo kolmen rungonpituuden päästä ‘suojan puoli’. Pitääkö W:n tehdä jotain ennen kuin peitto syntyy?",
+          "en": "Thirty seconds before the starting signal W is nearly stationary with sails flapping. L approaches from astern and hails ‘Leeward boat’ from three hull lengths away. Must W do anything before the overlap begins?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 160,
+              "y": 100,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 150,
+              "y": 205,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, sen pitää kerätä vauhtia, jotta se voi väistää heti",
+              "en": "Yes, she must gather speed so she can keep clear at once"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: selvästi edessä olevan ei tarvitse toimia ennen peittoa",
+              "en": "No: a boat clear ahead need not act before the overlap begins"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska L huusi ajoissa",
+              "en": "Yes, because L hailed in good time"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 53: sääntö 15 sisältää ajatuksen, että uusi väistämisvelvollinen saa aikaa reagoida. Edessä olevan veneen ei tarvitse varautua etukäteen. Kun W peiton synnyttyä heti kiristi purjeet ja kääntyi ylemmäs, se täytti säännön 11. Jos L ei olisi laskenut, se olisi rikkonut sääntöä 15.",
+          "en": "Case 53: rule 15 embodies the idea that a newly obligated boat gets time to respond. The boat ahead need not prepare in advance. When W trimmed and luffed immediately after the overlap began, she complied with rule 11. Had L not borne away, she would have broken rule 15."
+        },
+        "source": "Case 53",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r15-q2",
+        "prompt": {
+          "fi": "L on saanut peiton W:n suojan puolelle selvästi perästä. Kuinka kauan säännön 15 velvollisuus antaa W:lle tilaa kestää?",
+          "en": "L has become overlapped to leeward of W from clear astern. How long does the rule 15 obligation to give W room last?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 115,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Niin kauan kuin veneet ovat peitossa",
+              "en": "As long as the boats remain overlapped"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain alussa: kunnes W:llä on ollut aikaa ja tilaa reagoida viipymättä",
+              "en": "Only initially: until W has had time and space to respond promptly"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden rungonpituuden ajan",
+              "en": "For two hull lengths"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 15 vaatii tilaa vain ‘aluksi’. Case 7: velvollisuus ei ollut jatkuva, ja kosketushetkellä peitto oli kestänyt pitkään. Sen jälkeen L:ää rajoittavat sääntö 16.1 suunnanmuutoksissa ja sääntö 17.",
+          "en": "Rule 15 only requires room ‘initially’. Case 7: the obligation was not a continuing one, and at the time of contact the overlap had existed for a long time. After that L is limited by rule 16.1 when changing course and by rule 17."
+        },
+        "source": "RRS 15; Case 7, 24",
+        "also": [
+          "16",
+          "17"
+        ]
+      },
+      {
+        "id": "r15-q3",
+        "prompt": {
+          "fi": "S ja P purjehtivat myötätuuleen rinnakkain vasemmalla halssilla. S jiippaa oikealle halssille aivan P:n vieressä. Mitä sääntö 15 vaatii S:ltä?",
+          "en": "S and P are running side by side on port tack. S gybes onto starboard right next to P. What does rule 15 require of S?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 125,
+              "y": 130,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 180,
+              "y": 130,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään; S:llä on heti täysi kulkuoikeus (10)",
+              "en": "Nothing; S immediately has full right of way (10)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "S:n pitää aluksi antaa P:lle tilaa pysyä loitolla",
+              "en": "S must initially give P room to keep clear"
+            }
+          },
+          {
+            "t": {
+              "fi": "S:n pitää pysyä loitolla, kunnes se on selvästi edessä",
+              "en": "S must keep clear until she is clear ahead"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Jiipin jälkeen S on oikealla halssilla ja saa kulkuoikeuden säännöllä 10 omien toimiensa seurauksena. Siksi sen pitää aluksi antaa P:lle tilaa pysyä loitolla (15). Case 105:ssä S jiippasi rikkomatta sääntöä 15.",
+          "en": "After the gybe S is on starboard and acquires right of way under rule 10 through her own action. She must therefore initially give P room to keep clear (15). In Case 105 S gybed without breaking rule 15."
+        },
+        "source": "RRS 15, 10; Case 105",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r15-q4",
+        "prompt": {
+          "fi": "Kaksi minuuttia jiipin jälkeen S kääntyy ylemmäs kohti P:tä. P ei reagoi, ja veneet koskettavat. Päteekö sääntö 15 vielä?",
+          "en": "Two minutes after her gybe S luffs towards P. P does not respond and the boats touch. Does rule 15 still apply?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 130,
+              "y": 130,
+              "rot": 160,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 180,
+              "y": 130,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska S sai kulkuoikeuden omalla jiipillään",
+              "en": "Yes, because S acquired right of way by her own gybe"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: nyt S:ää rajoittaa sääntö 16.1, ja P:n pitää reagoida viipymättä",
+              "en": "No: S is now limited by rule 16.1, and P must respond promptly"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, eikä mikään muukaan sääntö rajoita S:ää",
+              "en": "No, and no other rule limits S either"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 105: sääntö 15 pätee vain hetken kulkuoikeuden saamisen jälkeen. Sen jälkeen sääntö 16.1 vaatii S:ää antamaan tilaa, kun se muuttaa suuntaa. P:n pitää olla valmis reagoimaan, tarvittaessa jiippaamalla. P rikkoi sääntöjä 10 ja 14(a); S rikkoi sääntöä 14, mutta se vapautettiin, koska vahinkoa ei syntynyt.",
+          "en": "Case 105: rule 15 applies only briefly after right of way is acquired. After that, rule 16.1 requires S to give room when she changes course. P must be ready to respond, gybing if necessary. P broke rules 10 and 14(a); S broke rule 14 but was exonerated because there was no damage."
+        },
+        "source": "Case 105",
+        "also": [
+          "16",
+          "10"
+        ]
+      },
+      {
+        "id": "r15-q5",
+        "prompt": {
+          "fi": "B on selvästi A:n perässä samalla halssilla. B purjehtii A:n tuulen puolelle ja saa peiton siellä. A pitää kurssinsa. Pitääkö A:n aluksi antaa B:lle tilaa pysyä loitolla?",
+          "en": "B is clear astern of A on the same tack. B sails up to windward of A and becomes overlapped there. A holds her course. Must A initially give B room to keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 115,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ],
+          "track": [
+            [
+              215,
+              205
+            ],
+            [
+              180,
+              165
+            ]
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska A sai kulkuoikeuden säännöllä 11",
+              "en": "Yes, because A acquired right of way under rule 11"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: A sai kulkuoikeuden B:n toimien seurauksena",
+              "en": "No: A acquired right of way because of B's actions"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 15 ei päde, jos vene saa kulkuoikeuden toisen veneen toimien seurauksena. B synnytti peiton itse; A:lla oli kulkuoikeus jo ennen (12) ja sillä on se edelleen (11). B:n pitää pysyä loitolla koko ajan.",
+          "en": "Rule 15 does not apply if a boat acquires right of way because of the other boat's actions. B created the overlap herself; A had right of way before (12) and still has it (11). B must keep clear throughout."
+        },
+        "source": "RRS 15, 11, 12",
+        "also": [
+          "11",
+          "12"
+        ]
+      },
+      {
+        "id": "r15-q6",
+        "prompt": {
+          "fi": "B on suoraan W:n perässä, laskee ja saa peiton W:n suojan puolelle. Heti peiton synnyttyä B kääntyy ylemmäs niin, ettei W voi millään merenkulkutaitoisella liikkeellä väistää, ja veneet koskettavat. Kuka rikkoi mitä?",
+          "en": "B is directly astern of W, bears away and becomes overlapped to leeward of W. Immediately after the overlap begins B luffs so that W has no seamanlike way to keep clear, and the boats touch. Who broke what?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "B",
+              "x": 115,
+              "y": 160,
+              "rot": -25,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "W rikkoi sääntöä 11 ja hylätään",
+              "en": "W broke rule 11 and is disqualified"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "B rikkoi sääntöjä 15 ja 16.1; W rikkoi sääntöä 11, mutta vapautetaan",
+              "en": "B broke rules 15 and 16.1; W broke rule 11 but is exonerated"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan ei rikkonut sääntöä",
+              "en": "Neither broke a rule"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 93: B sai kulkuoikeuden peiton synnyttyä, mutta sen piti aluksi antaa W:lle tilaa (15) ja antaa tilaa myös suunnanmuutoksessa (16.1). W rikkoi sääntöä 11, mutta purjehti tilassa, joka sille kuului, joten se vapautetaan (43.1(b)). B rikkoi myös sääntöä 14(a).",
+          "en": "Case 93: B acquired right of way when the overlap began, but she initially had to give W room (15) and also give room when changing course (16.1). W broke rule 11 but was sailing within the room she was entitled to, so she is exonerated (43.1(b)). B also broke rule 14(a)."
+        },
+        "source": "Case 93",
+        "also": [
+          "16",
+          "11",
+          "43"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "section": "2B",
+    "title": {
+      "fi": "Suunnan muuttaminen",
+      "sv": "Ändra kurs",
+      "en": "Changing Course"
+    },
+    "explain": {
+      "fi": "16.1: Kun kulkuun oikeutettu vene muuttaa suuntaansa, sen pitää antaa toiselle veneelle tilaa pysyä loitolla. Tila tarkoittaa sitä, mitä väistävä vene tarvitsee vallitsevissa oloissa toimiessaan viipymättä ja merenkulkutaidolla, mukaan lukien tila noudattaa osan 2 sääntöjä ja sääntöä 31 (määritelmä Tila; Case 146). Toisin kuin sääntö 15, sääntö 16.1 pätee jokaisessa suunnanmuutoksessa niin kauan kuin vene on kulkuun oikeutettu. Se ei rajoita väistämisvelvollista venettä (Case 52). Jos kulkuun oikeutettu vene vie suunnanmuutoksellaan toiselta tilan, se voi antaa tilan takaisin uudella suunnanmuutoksella; jos väistävä vene sillä välin väistämättä rikkoo ryhmän A sääntöä, se vapautetaan (Case 147, 43.1(b)). 16.2: Kun veneet luovivat tuuleen ja vasemman halssin vene pysyy loitolla ohittamalla oikean halssin veneen sen suojan puolelta (perän takaa), oikean halssin vene ei saa laskea, jos vasemman halssin veneen pitäisi sen seurauksena heti muuttaa suuntaa pysyäkseen loitolla.",
+      "en": "16.1: When a right-of-way boat changes course, she must give the other boat room to keep clear. Room is what the keep-clear boat needs in the existing conditions while manoeuvring promptly and in a seamanlike way, including space to comply with the rules of Part 2 and rule 31 (definition Room; Case 146). Unlike rule 15, rule 16.1 applies to every course change for as long as the boat holds right of way. It does not restrict the keep-clear boat (Case 52). If a right-of-way boat takes away room with one course change, she can give it back with another; if the keep-clear boat unavoidably breaks a Section A rule meanwhile, she is exonerated (Case 147, 43.1(b)). 16.2: On a beat to windward, when a port-tack boat is keeping clear by passing to leeward (astern) of a starboard-tack boat, the starboard-tack boat must not bear away if as a result the port-tack boat would have to change course immediately to continue keeping clear."
+    },
+    "note": {
+      "fi": "Liitteissä B ja F sääntöön 16 lisätään varusteen tai leijan asennon muutos. Liitteessä C (matchipurjehdus) sääntö 16.2 korvataan toisella sanamuodolla.",
+      "en": "Appendices B and F extend rule 16 to changing the position of equipment or the kite. Appendix C (match racing) replaces rule 16.2 with a different wording."
+    },
+    "source": "RRS 16, Definition Room, 43.1(b), Appendices B, C, F; Case 52, 132, 146, 147",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "W",
+          "x": 165,
+          "y": 110,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        },
+        {
+          "n": "L",
+          "x": 115,
+          "y": 160,
+          "rot": -20,
+          "tack": "s",
+          "c": "a"
+        }
+      ],
+      "track": [
+        [
+          175,
+          230
+        ],
+        [
+          145,
+          200
+        ],
+        [
+          128,
+          182
+        ]
+      ]
+    },
+    "caption": {
+      "fi": "L on suojan puolen vene ja kulkuun oikeutettu (11). Kun L kääntyy ylemmäs (katkoviiva = sen kulkema reitti), sen pitää antaa W:lle tilaa pysyä loitolla (16.1).",
+      "en": "L is the leeward boat with right of way (11). When she luffs (dotted line = her track), she must give W room to keep clear (16.1)."
+    },
+    "defs": [
+      "Room",
+      "Keep Clear"
+    ],
+    "links": [
+      {
+        "rules": [
+          "15"
+        ],
+        "note": {
+          "fi": "Sääntö 15 koskee vain kulkuoikeuden saamisen alkua; sääntö 16.1 jatkuu koko ajan (Case 105).",
+          "en": "Rule 15 only covers the start of right of way; rule 16.1 continues throughout (Case 105)."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "11"
+        ],
+        "note": {
+          "fi": "Jos väistävällä veneellä oli tilaa eikä se reagoinut, se rikkoo väistämissääntöä (Case 46, 105).",
+          "en": "If the keep-clear boat had room and did not respond, she breaks the right-of-way rule (Cases 46, 105)."
+        }
+      },
+      {
+        "rules": [
+          "17"
+        ],
+        "note": {
+          "fi": "Perästä peiton saanutta suojan puolen venettä rajoittaa lisäksi sääntö 17: se saa kääntyä ylemmäs vain oikeaan suuntaansa asti.",
+          "en": "A leeward boat that became overlapped from astern is also limited by rule 17: she may luff only up to her proper course."
+        }
+      },
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "16.2 ja 18.1(a)(1) käyttävät samaa ilmausta ‘luovia tuuleen’; Case 132 määrittelee sen.",
+          "en": "16.2 and 18.1(a)(1) use the same phrase ‘on a beat to windward’; Case 132 defines it."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "43.1(b): väistävä vene, joka rikkoo ryhmän A sääntöä purjehtiessaan säännön 16.1 mukaisessa tilassa, vapautetaan (Case 146, 147).",
+          "en": "43.1(b): a keep-clear boat that breaks a Section A rule while sailing within the room due under rule 16.1 is exonerated (Cases 146, 147)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 147,
+        "title": {
+          "fi": "Tila annetaan takaisin",
+          "en": "Giving the room back"
+        },
+        "text": {
+          "fi": "Kolme J/105-venettä purjehti vastatuuleen: S oikealla, PA ja PB vasemmalla halssilla. S laski välttääkseen PA:n, joka otti rangaistuksen. Kun S sen jälkeen kääntyi ylemmäs, se oli törmäyskurssilla PB:n kanssa. PB ei ehtinyt väistää vastakäännöksellä eikä kurssiaan pitämällä. S laski heti, vältti kosketuksen ja huusi protestin. Lautakunta hylkäsi PB:n säännön 10 perusteella.",
+          "en": "Three J/105s were sailing upwind: S on starboard, PA and PB on port tack. S bore away to avoid PA, which took a penalty. When S then luffed, she was on a collision course with PB. PB could keep clear neither by tacking nor by holding her course. S bore away at once, avoided contact and hailed ‘Protest’. The committee disqualified PB under rule 10."
+        },
+        "answer": {
+          "fi": "PB:n valitus hyväksyttiin. Ennen S:n luffia PB pysyi loitolla. Kun S muutti suuntaa, sääntö 16.1 velvoitti sen antamaan PB:lle tilaa, ja laskemalla viipymättä S antoi tilan. PB rikkoi sääntöä 10, koska S:n piti muuttaa suuntaa välttääkseen sen, mutta PB purjehti säännön 16.1 mukaisessa tilassa, joten se vapautettiin (43.1(b)).",
+          "en": "PB's appeal was upheld. Before S luffed, PB was keeping clear. When S changed course, rule 16.1 required her to give PB room, and by promptly bearing away S gave that room. PB broke rule 10, because S had to change course to avoid her, but PB was sailing within the room due under rule 16.1, so she was exonerated (43.1(b))."
+        },
+        "also": [
+          "10",
+          "43"
+        ],
+        "source": "Case 147"
+      },
+      {
+        "case": 52,
+        "title": {
+          "fi": "Väistävä vene saa kiusata",
+          "en": "The keep-clear boat may harass"
+        },
+        "text": {
+          "fi": "Ennen lähtöviestiä A ja B purjehtivat sivutuulella poispäin lähtölinjasta. Nopeampi A ohitti B:n ja oli selvästi sen edellä. A nousi tiukasti vastaiseen suuntaan aikomuksenaan tehdä vastakäännös takaisin linjalle, mutta B oli noussut niin, että vastakäännös olisi johtanut heti törmäykseen. A laski jiipatakseen, mutta B oli laskenut samoin. Lopulta B jiippasi ja lähti linjalle jättäen A:n kauas taakse. A protestoi säännön 16.1 perusteella, ja lautakunta hylkäsi B:n.",
+          "en": "Before the starting signal A and B reached away from the starting line. A, faster, passed B and was clear ahead. A luffed to close-hauled intending to tack back to the line, but B had luffed so that a tack would have caused an immediate collision. A bore away to gybe, but B had borne away too. Finally B gybed and headed for the line, leaving A well astern. A protested under rule 16.1 and the committee disqualified B."
+        },
+        "answer": {
+          "fi": "B:n valitus hyväksyttiin. Sääntö 16.1 koskee vain kulkuun oikeutettua venettä, eikä B ollut sellainen kiistanalaisina hetkinä: ensin se oli selvästi perässä ja sitten tuulen puolen vene. A ei voinut tehdä vastakäännöstä rikkomatta sääntöä 13. Myöhemmin B:stä tuli suojan puolen vene ja kulkuun oikeutettu (11). Kumpikaan ei rikkonut sääntöä; liike on tunnettu matchi- ja joukkuepurjehduksen keino.",
+          "en": "B's appeal was upheld. Rule 16.1 applies only to a right-of-way boat, and B was not one at the disputed moments: first she was clear astern and then the windward boat. A could not tack without breaking rule 13. Later B became the leeward boat with right of way (11). Neither boat broke a rule; the manoeuvre is a well-known match and team racing tactic."
+        },
+        "also": [
+          "11",
+          "13"
+        ],
+        "source": "Case 52"
+      },
+      {
+        "case": 132,
+        "title": {
+          "fi": "Milloin veneet luovivat tuuleen?",
+          "en": "When are boats on a beat to windward?"
+        },
+        "text": {
+          "fi": "Sääntö 16.2 pätee, kun eri halsseilla olevat veneet luovivat tuuleen, ja sääntö 18.1(a)(1) jättää säännön 18 soveltamatta samassa tilanteessa. Milloin eri halsseilla olevat veneet luovivat tuuleen näiden sääntöjen tarkoittamassa mielessä?",
+          "en": "Rule 16.2 applies when boats on opposite tacks are on a beat to windward, and rule 18.1(a)(1) switches off rule 18 in the same situation. When are boats on opposite tacks ‘on a beat to windward’ for these rules?"
+        },
+        "answer": {
+          "fi": "Lähtöviestin jälkeen, kun (1) kummankin oma nopein suunta radan purjehtimiseen ilman muita veneitä on tiukasti vastainen suunta tai sitä ylempänä, tai (2) toinen tai molemmat ovat purjehtineet seuraavan merkin tiukasti vastaisen layline-linjan yli (overstanding). Myötätuulimerkin layline-linjan tuulen puolella oleva vene ei ole ylittänyt sitä, vaan on sen yläpuolella. Merkki voi olla kiertomerkki, ohitus- tai rajamerkki, portin merkki tai maalimerkki.",
+          "en": "After the starting signal, when (1) the course each would choose to sail the course as quickly as possible without other boats is close-hauled or above, or (2) one or both are overstanding the close-hauled layline to the next mark. A boat on the windward side of a close-hauled layline to a leeward mark is not overstanding it but is above it. The mark can be a rounding, passing or limit mark, a gate mark or a finishing mark."
+        },
+        "also": [
+          "18"
+        ],
+        "source": "Case 132"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r16-q1",
+        "prompt": {
+          "fi": "L on saanut peiton W:n suojan puolelle ja kääntyy hitaasti ylemmäs. W:llä olisi tilaa väistää, mutta se ei reagoi. L lopettaa ja laskee juuri ennen kosketusta. Kuka rikkoi sääntöä?",
+          "en": "L is overlapped to leeward of W and luffs slowly. W would have room to keep clear but does not respond. L stops and bears away just before contact. Who broke a rule?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 115,
+              "y": 160,
+              "rot": -20,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "L rikkoi sääntöä 16.1, koska se kääntyi kohti W:tä",
+              "en": "L broke rule 16.1 because she luffed towards W"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "W rikkoi sääntöä 11",
+              "en": "W broke rule 11"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei kumpikaan, koska kosketusta ei tullut",
+              "en": "Neither, because there was no contact"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 46: L antoi W:lle tilaa pysyä loitolla, joten se täytti säännön 16.1. Sillä hetkellä, kun L joutui lopettamaan ja laskemaan välttääkseen kosketuksen, W rikkoi sääntöä 11.",
+          "en": "Case 46: L gave W room to keep clear, so she complied with rule 16.1. At the moment L had to stop and bear away to avoid contact, W broke rule 11."
+        },
+        "source": "Case 46; RRS 16.1, 11",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r16-q2",
+        "prompt": {
+          "fi": "Ennen lähtöä B on selvästi A:n perässä. Aina kun A yrittää kääntyä takaisin linjalle, B muuttaa suuntaa ja estää sen. A protestoi säännön 16.1 perusteella. Rikkoiko B sääntöä 16.1?",
+          "en": "Before the start B is clear astern of A. Whenever A tries to turn back to the line, B changes course and blocks her. A protests under rule 16.1. Did B break rule 16.1?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 120,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "B",
+              "x": 175,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska B muutti suuntaa A:n lähellä",
+              "en": "Yes, because B changed course close to A"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntö 16.1 koskee vain kulkuun oikeutettua venettä",
+              "en": "No: rule 16.1 applies only to a right-of-way boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska sääntöjä ei sovelleta ennen lähtöviestiä",
+              "en": "No, because the rules do not apply before the starting signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 52: sääntö 16.1 ei rajoita väistämisvelvollisen veneen suuntaa. B oli selvästi perässä, joten se oli väistämisvelvollinen. Osan 2 säännöt pätevät myös ennen lähtöviestiä.",
+          "en": "Case 52: rule 16.1 does not restrict the course of a keep-clear boat. B was clear astern, so she was the keep-clear boat. The Part 2 rules do apply before the starting signal too."
+        },
+        "source": "Case 52",
+        "also": [
+          "12"
+        ]
+      },
+      {
+        "id": "r16-q3",
+        "prompt": {
+          "fi": "S (oikea halssi) kääntyy ylemmäs ja joutuu törmäyskurssille P:n kanssa, joka on vasemmalla halssilla eikä ehdi väistää. S laskee heti ja välttää kosketuksen. Mikä on lopputulos?",
+          "en": "S (starboard) luffs and ends up on a collision course with P on port tack, who cannot keep clear in time. S bears away at once and avoids contact. What is the outcome?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 105,
+              "y": 170,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 190,
+              "y": 130,
+              "rot": -25,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "S rikkoi sääntöä 16.1 ja hylätään",
+              "en": "S broke rule 16.1 and is disqualified"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "P rikkoi sääntöä 10, mutta vapautetaan; S antoi tilan laskemalla",
+              "en": "P broke rule 10 but is exonerated; S gave room by bearing away"
+            }
+          },
+          {
+            "t": {
+              "fi": "P rikkoi sääntöä 10 ja hylätään",
+              "en": "P broke rule 10 and is disqualified"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 147: kulkuun oikeutettu vene voi antaa säännön 16.1 vaatiman tilan uudella suunnanmuutoksella. P rikkoi sääntöä 10, koska S joutui väistämään, mutta P purjehti sille kuuluvassa tilassa, joten se vapautetaan (43.1(b)).",
+          "en": "Case 147: a right-of-way boat may give the room required by rule 16.1 with a further course change. P broke rule 10 because S had to take avoiding action, but P was sailing within the room she was entitled to, so she is exonerated (43.1(b))."
+        },
+        "source": "Case 147",
+        "also": [
+          "10",
+          "43"
+        ]
+      },
+      {
+        "id": "r16-q4",
+        "prompt": {
+          "fi": "Veneet luovivat tuuleen. P (vasen halssi) on ohittamassa S:n perän takaa. S laskee niin, että P:n pitää heti muuttaa suuntaansa pysyäkseen loitolla. Rikkoiko S sääntöä?",
+          "en": "The boats are on a beat to windward. P (port tack) is about to pass astern of S. S bears away so that P must immediately change course to keep clear. Did S break a rule?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 125,
+              "y": 90,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 90,
+              "y": 190,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska S:llä on kulkuoikeus",
+              "en": "No, because S has right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntöä 16.2",
+              "en": "Yes, rule 16.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain jos veneet koskettavat",
+              "en": "Only if the boats touch"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 16.2 kieltää oikean halssin venettä laskemasta, kun veneet luovivat tuuleen, jos sen seurauksena suojan puolelta (perän takaa) ohittavan vasemman halssin veneen pitää heti muuttaa suuntaa. Kosketusta ei tarvita.",
+          "en": "Rule 16.2 forbids the starboard-tack boat on a beat from bearing away if, as a result, the port-tack boat passing to leeward (astern) of her must immediately change course. No contact is needed."
+        },
+        "source": "RRS 16.2",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r16-q5",
+        "prompt": {
+          "fi": "Sama tilanne, mutta S laskee vain vähän. P voi pitää kurssinsa ja menee silti vapaasti S:n perän takaa. Rikkoiko S sääntöä 16.2?",
+          "en": "Same situation, but S bears away only slightly. P can hold her course and still passes astern of S freely. Did S break rule 16.2?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 125,
+              "y": 90,
+              "rot": -55,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 90,
+              "y": 190,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: oikean halssin vene ei saa laskea lainkaan",
+              "en": "Yes: the starboard-tack boat may not bear away at all"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: rikkomus edellyttää, että P:n pitää heti muuttaa suuntaa",
+              "en": "No: a breach requires that P must change course immediately"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 16.2 ei kiellä kaikkea laskemista, vaan vain sellaisen, jonka seurauksena vasemman halssin veneen pitää heti muuttaa suuntaa jatkaakseen loitolla pysymistä. Sääntö 16.1 pätee silti: S:n pitää antaa P:lle tilaa.",
+          "en": "Rule 16.2 does not forbid all bearing away, only bearing away that forces the port-tack boat to change course immediately to continue keeping clear. Rule 16.1 still applies: S must give P room."
+        },
+        "source": "RRS 16.2, 16.1"
+      },
+      {
+        "id": "r16-q6",
+        "prompt": {
+          "fi": "Lähtöviestin jälkeen P (vasen halssi) ja S (oikea halssi) purjehtivat myötätuuleen kohti alamerkkiä eri halsseilla. Kumpikaan ei purjehdi tiukasti vastaisessa suunnassa eikä ole ylittänyt layline-linjaa. S laskee. Mikä sääntö rajoittaa S:n suunnanmuutosta?",
+          "en": "After the starting signal P (port) and S (starboard) are running towards a leeward mark on opposite tacks. Neither is close-hauled or overstanding a layline. S bears away. Which rule limits S's course change?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "P",
+              "x": 90,
+              "y": 100,
+              "rot": 135,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 210,
+              "y": 105,
+              "rot": 225,
+              "tack": "s",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            150,
+            225
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Sääntö 16.2",
+              "en": "Rule 16.2"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntö 16.1, mutta ei 16.2",
+              "en": "Rule 16.1, but not 16.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mikään, koska S:llä on kulkuoikeus",
+              "en": "None, because S has right of way"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 132: veneet luovivat tuuleen vain, jos kummankin nopein suunta on tiukasti vastainen tai ylempänä tai jos jompikumpi on ylittänyt layline-linjan. Myötätuulessa kumpikaan ei täyty, joten 16.2 ei päde. Sääntö 16.1 koskee kaikkia kulkuun oikeutetun veneen suunnanmuutoksia.",
+          "en": "Case 132: boats are on a beat to windward only if each one's fastest course is close-hauled or above, or if one of them is overstanding a layline. On a run neither applies, so 16.2 does not. Rule 16.1 covers every course change by a right-of-way boat."
+        },
+        "source": "Case 132; RRS 16.1, 16.2",
+        "also": [
+          "10"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 17,
+    "section": "2B",
+    "title": {
+      "fi": "Samalla halssilla; oikea suunta",
+      "sv": "För samma halsar; rätt kurs",
+      "en": "On the Same Tack; Proper Course"
+    },
+    "explain": {
+      "fi": "Sääntö 17 koskee venettä, joka on ollut selvästi perässä ja saa peiton toisen samalla halssilla olevan veneen suojan puolelle enintään kahden oman rungonpituutensa etäisyydellä. Niin kauan kuin veneet pysyvät samalla halssilla ja peitossa tällä etäisyydellä, suojan puolen vene ei saa purjehtia oikeaa suuntaansa ylempänä, paitsi jos se samalla viipymättä purjehtii toisen veneen perän taakse. Se saa kääntyä ylemmäs oikeaan suuntaansa asti (Case 46), kunhan se antaa tilaa (16.1). Ratkaisee suojan puolen veneen oma oikea suunta; tuulen puolen veneen oikealla suunnalla ei ole merkitystä (Case 7). Oikea suunta riippuu vallitsevista oloista: tuulesta, puuskista, aallokosta, virrasta sekä veneen rungosta ja varusteista, myös siitä, mitkä purjeet ovat ylhäällä (Case 134). Lähekkäin purjehtivilla veneillä voi olla eri oikeat suunnat (Case 14). Ennen lähtöviestiä veneellä ei ole oikeaa suuntaa, joten sääntö 17 ei silloin rajoita sitä (määritelmä; Case 13). Jos peitto syntyy yli kahden rungonpituuden päässä tai muuten kuin selvästi perästä, sääntö 17 ei päde.",
+      "en": "Rule 17 applies to a boat that was clear astern and becomes overlapped to leeward of a boat on the same tack within two of her own hull lengths. While the boats remain on the same tack and overlapped within that distance, the leeward boat must not sail above her proper course, unless in doing so she promptly sails astern of the other boat. She may luff up to her proper course (Case 46), provided she gives room (16.1). What matters is the leeward boat's own proper course; the windward boat's proper course is irrelevant (Case 7). A proper course depends on the existing conditions: wind, gusts, waves, current and the boat's hull and equipment, including which sails she has set (Case 134). Boats sailing close together can have different proper courses (Case 14). Before her starting signal a boat has no proper course, so rule 17 does not limit her then (definition; Case 13). If the overlap begins more than two hull lengths away, or not from clear astern, rule 17 does not apply."
+    },
+    "note": {
+      "fi": "Liitteessä B sääntö 17 korvataan sivutuulilähtöä koskevalla säännöllä. Liitteissä C (matchipurjehdus) ja F (leijalautailu) sääntö 17 poistetaan.",
+      "en": "In Appendix B rule 17 is replaced by a rule for reaching starts. In Appendices C (match racing) and F (kiteboarding) rule 17 is deleted."
+    },
+    "source": "RRS 17, Definition Proper Course, Appendices B, C, F; Case 7, 13, 14, 46, 134",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "W",
+          "x": 115,
+          "y": 120,
+          "rot": 90,
+          "tack": "p",
+          "c": "b"
+        },
+        {
+          "n": "L",
+          "x": 75,
+          "y": 170,
+          "rot": 90,
+          "tack": "p",
+          "c": "a"
+        }
+      ],
+      "mark": [
+        270,
+        170
+      ]
+    },
+    "caption": {
+      "fi": "L tuli selvästi W:n perästä ja sai peiton W:n suojan puolelle alle kahden rungonpituuden päässä. L:n oikea suunta on suoraan merkille; sitä ylemmäs se ei saa purjehtia niin kauan kuin peitto jatkuu tällä etäisyydellä (17).",
+      "en": "L came from clear astern of W and became overlapped to leeward of her within two hull lengths. L's proper course is straight to the mark; she must not sail above it while the overlap continues within that distance (17)."
+    },
+    "defs": [
+      "Proper Course",
+      "Clear Astern and Clear Ahead; Overlap",
+      "Leeward and Windward"
+    ],
+    "links": [
+      {
+        "rules": [
+          "11",
+          "12"
+        ],
+        "note": {
+          "fi": "Peiton synnyttyä L saa kulkuoikeuden (11), mutta sääntö 17 rajoittaa sen suuntaa.",
+          "en": "When the overlap begins L acquires right of way (11), but rule 17 limits her course."
+        }
+      },
+      {
+        "rules": [
+          "15",
+          "16"
+        ],
+        "note": {
+          "fi": "L:n pitää lisäksi aluksi antaa tilaa (15) ja antaa tilaa aina kääntyessään (16.1).",
+          "en": "L must also initially give room (15) and give room whenever she changes course (16.1)."
+        }
+      },
+      {
+        "rules": [
+          "14",
+          "43"
+        ],
+        "note": {
+          "fi": "Jos tuulen puolen vene ei väistä L:n sallittua luffia ja veneet koskettavat, se rikkoo sääntöjä 11 ja 14(a) eikä saa vapautusta (Case 7, 14).",
+          "en": "If the windward boat fails to respond to L's permitted luff and the boats touch, she breaks rules 11 and 14(a) and is not exonerated (Cases 7, 14)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 14,
+        "title": {
+          "fi": "Kaksi eri oikeaa suuntaa",
+          "en": "Two different proper courses"
+        },
+        "text": {
+          "fi": "Tuulenpuoleisen merkin jälkeen kevyessä tuulessa laivue jakautui: osa suuntasi rantaan päin pois vastavirrasta, osa jäi ulommas paremman tuulen toivossa. L oli saanut peiton W:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä, ja ne kiersivät merkin peitossa. W halusi jäädä ulos; L alkoi kääntyä hitaasti ylemmäs ja kertoi menevänsä rantaan. W väitti, ettei L:llä ole oikeutta luffata. Keskustelu kesti pitkään, L jatkoi hidasta kääntymistä, eikä W kertaakaan sanonut, ettei voi väistää. Veneet koskettivat. Lautakunta hylkäsi L:n säännön 17 perusteella.",
+          "en": "After the windward mark in light wind the fleet split: some headed inshore out of the tide, others stayed offshore hoping for better wind. L had become overlapped to leeward of W from clear astern within two hull lengths, and they rounded the mark overlapped. W wanted to stay offshore; L started to luff slowly and said she was going inshore. W replied that L had no right to luff. The discussion went on, L kept luffing slowly, and W never said she could not keep clear. The boats touched. The committee disqualified L under rule 17."
+        },
+        "answer": {
+          "fi": "L:n valitus hyväksyttiin, L palautettiin ja W hylättiin sääntöjen 11 ja 14(a) perusteella. Saman osuuden veneillä voi olla eri oikeat suunnat, eikä nopeampaa voi ratkaista etukäteen. Tosiasiat eivät osoittaneet, että L purjehti oikeaa suuntaansa ylempänä, joten se ei rikkonut sääntöä 17. L kääntyi hitaasti, joten W:llä oli tilaa (16.1). L rikkoi sääntöä 14(a), mutta vapautettiin (43.1(c)). W ei purjehtinut säännön 16.1 mukaisessa tilassa, joten se ei saanut vapautusta.",
+          "en": "L's appeal was upheld, L was reinstated and W disqualified under rules 11 and 14(a). Boats on the same leg can have different proper courses, and which is faster cannot be decided in advance. The facts did not show that L sailed above her proper course, so she did not break rule 17. L luffed slowly, so W had room (16.1). L broke rule 14(a) but was exonerated (43.1(c)). W was not sailing within room under rule 16.1, so she was not exonerated."
+        },
+        "also": [
+          "11",
+          "14",
+          "16",
+          "43"
+        ],
+        "source": "Case 14"
+      },
+      {
+        "case": 46,
+        "title": {
+          "fi": "Luffi oikeaan suuntaan asti",
+          "en": "Luffing up to the proper course"
+        },
+        "text": {
+          "fi": "W purjehti lähes suoraan myötätuuleen kohti maalilinjan oikeaa päätä. L, joka oli ollut selvästi perässä, sai peiton W:n suojan puolelle alle kahden rungonpituuden päässä. Ilman W:tä L olisi purjehtinut ylempänä suoraan linjalle. L huusi W:tä nousemaan kahdesti ja kääntyi ylemmäs aivan W:n viereen, mutta W ei reagoinut. L lopetti ja laski juuri ennen kosketusta ja protestoi säännön 11 perusteella. Lautakunta hylkäsi protestin: perästä tullut vene ei voi pakottaa tuulen puolen venettä oikean suuntansa yläpuolelle.",
+          "en": "W was sailing almost dead downwind towards the starboard end of the finishing line. L, previously clear astern, became overlapped to leeward of W within two hull lengths. Without W, L would have sailed higher, straight at the line. L hailed W twice to come up and luffed close to W, but W did not respond. L stopped and bore away just before contact and protested under rule 11. The committee dismissed the protest, saying a boat from astern cannot force the windward boat above her proper course."
+        },
+        "answer": {
+          "fi": "L:n valitus hyväksyttiin ja W hylättiin säännön 11 perusteella. L:n oikea suunta oli suoraan linjalle: se oli lyhyempi ja nopeampi purjehduskulma. Sääntö 17 kieltää vain oikean suunnan ylittämisen, ei kääntymistä siihen. W:n oikealla suunnalla ei ollut merkitystä. L antoi W:lle tilaa (16.1), ja kun L joutui laskemaan välttääkseen kosketuksen, W rikkoi sääntöä 11.",
+          "en": "L's appeal was upheld and W disqualified under rule 11. L's proper course was straight to the line: it was shorter and a faster point of sailing. Rule 17 only forbids sailing above the proper course, not luffing up to it. W's proper course was irrelevant. L gave W room (16.1), and when L had to bear away to avoid contact, W broke rule 11."
+        },
+        "also": [
+          "11",
+          "16"
+        ],
+        "source": "Case 46"
+      },
+      {
+        "case": 134,
+        "title": {
+          "fi": "Keulapurje vai spinnaakkeri?",
+          "en": "Headsail or spinnaker?"
+        },
+        "text": {
+          "fi": "W ja L purjehtivat myötätuuleen samalla halssilla oloissa, joissa normaalisti käytettäisiin spinnaakkeria; seuraava merkki on suoraan alatuulessa. W:llä on ongelmia spinnaakkerin noston kanssa, ja nopeampi L saa peiton W:n suojan puolelle selvästi perästä. Taktisista syistä L jatkaa keulapurjeella eikä nosta spinnaakkeria ja purjehtii keulapurjeelle parhaan VMG:n suuntaa, joka on ylempänä kuin spinnaakkerilla paras suunta. L myöntää, että ilman W:tä se olisi nostanut spinnaakkerin ja purjehtinut alempana. W protestoi säännön 17 perusteella.",
+          "en": "W and L are running on the same tack in conditions where spinnakers would normally be used; the next mark is directly downwind. W has trouble hoisting her spinnaker, and the faster L becomes overlapped to leeward of her from clear astern. For tactical reasons L keeps sailing with her headsail instead of hoisting her spinnaker and sails the best-VMG course for a headsail, which is higher than her best course with a spinnaker. L admits that without W she would have hoisted and sailed lower. W protests under rule 17."
+        },
+        "answer": {
+          "fi": "L ei rikkonut sääntöä 17. Oikea suunta riippuu vallitsevista oloista, ja niihin kuuluvat veneen varusteet, myös ylhäällä olevat purjeet. Keulapurjeella L:n oikea suunta oli keulapurjeen parhaan VMG:n suunta, eikä L purjehtinut sitä ylempänä. Mikään sääntö ei vaadi nostamaan spinnaakkeria tiettyyn aikaan tai tulemaan maaliin mahdollisimman nopeasti.",
+          "en": "L did not break rule 17. A proper course depends on the existing conditions, which include the boat's equipment, including the sails set. With her headsail, L's proper course was the best-VMG course for that sail, and she did not sail above it. No rule requires a boat to hoist her spinnaker at any particular time or to finish as quickly as possible."
+        },
+        "source": "Case 134"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r17-q1",
+        "prompt": {
+          "fi": "L tuli selvästi W:n perästä ja sai peiton sen suojan puolelle puolen rungonpituuden päässä. L:n suorin ja nopein reitti merkille on hieman ylempänä kuin sen nykyinen suunta. Saako L kääntyä ylemmäs?",
+          "en": "L came from clear astern of W and became overlapped to leeward of her half a hull length away. L's straightest and fastest route to the mark is slightly higher than her present heading. May L luff?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 115,
+              "y": 120,
+              "rot": 90,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 75,
+              "y": 170,
+              "rot": 90,
+              "tack": "p",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            270,
+            140
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: perästä peiton saanut vene ei saa luffata lainkaan",
+              "en": "No: a boat that became overlapped from astern may not luff at all"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, oikeaan suuntaansa asti, kunhan antaa W:lle tilaa",
+              "en": "Yes, up to her proper course, provided she gives W room"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, vaikka tuulensilmään asti",
+              "en": "Yes, even up to head to wind"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 46 ja 7: sääntö 17 kieltää vain purjehtimasta oikeaa suuntaa ylempänä. L saa kääntyä oikeaan suuntaansa asti, mutta sen pitää antaa W:lle tilaa pysyä loitolla (16.1). W:n oikealla suunnalla ei ole merkitystä.",
+          "en": "Cases 46 and 7: rule 17 only forbids sailing above the proper course. L may luff up to her proper course, but she must give W room to keep clear (16.1). W's proper course is irrelevant."
+        },
+        "source": "Case 46, 7; RRS 17",
+        "also": [
+          "16"
+        ]
+      },
+      {
+        "id": "r17-q2",
+        "prompt": {
+          "fi": "Sama L jatkaa kääntymistä selvästi oikean suuntansa yli pakottaakseen W:n ylös. W väistää ajoissa, eikä kosketusta tule. Rikkoiko L sääntöä 17?",
+          "en": "The same L continues to luff well above her proper course to force W up. W keeps clear in time and there is no contact. Did L break rule 17?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 115,
+              "y": 120,
+              "rot": 90,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 75,
+              "y": 170,
+              "rot": 65,
+              "tack": "p",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            270,
+            170
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska W väisti ja kosketusta ei tullut",
+              "en": "No, because W kept clear and there was no contact"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: sääntö rikkoutuu jo, kun L purjehtii oikean suuntansa yli",
+              "en": "Yes: the rule is broken as soon as L sails above her proper course"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska L:llä on kulkuoikeus (11)",
+              "en": "No, because L has right of way (11)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 17 rajoittaa L:n suuntaa riippumatta siitä, mitä W tekee. Kun L purjehtii oikeaa suuntaansa ylempänä peiton jatkuessa kahden rungonpituuden sisällä, se rikkoo sääntöä, vaikka kosketusta ei tulisi.",
+          "en": "Rule 17 limits L's course regardless of what W does. When L sails above her proper course while the overlap continues within two hull lengths, she breaks the rule even without contact."
+        },
+        "source": "RRS 17",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r17-q3",
+        "prompt": {
+          "fi": "L tulee selvästi W:n perästä ja saa peiton W:n suojan puolelle noin kolmen rungonpituuden päässä. Rajoittaako sääntö 17 L:ää?",
+          "en": "L comes from clear astern of W and becomes overlapped to leeward of her about three hull lengths away. Does rule 17 limit L?"
+        },
+        "scene": {
+          "h": 300,
+          "boats": [
+            {
+              "n": "W",
+              "x": 115,
+              "y": 55,
+              "rot": 90,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 80,
+              "y": 250,
+              "rot": 90,
+              "tack": "p",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            275,
+            250
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se tuli perästä",
+              "en": "Yes, because she came from astern"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: peitto syntyi yli kahden rungonpituuden päässä",
+              "en": "No: the overlap began more than two hull lengths away"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 17 edellyttää, että peitto syntyy enintään kahden rungonpituuden etäisyydellä. Tässä L:llä on kulkuoikeus (11), ja sitä rajoittavat säännöt 15 ja 16.1, mutta ei sääntö 17.",
+          "en": "Rule 17 requires the overlap to begin within two hull lengths. Here L has right of way (11) and is limited by rules 15 and 16.1, but not by rule 17."
+        },
+        "source": "RRS 17",
+        "also": [
+          "11",
+          "16"
+        ]
+      },
+      {
+        "id": "r17-q4",
+        "prompt": {
+          "fi": "Ennen lähtöviestiä A saa peiton B:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä. A kääntyy tiukasti vastaiseen suuntaan ja pitää sen; B purjehtii hitaammin purjeet löysällä ja osuu A:han. Rikkoiko A sääntöä 17?",
+          "en": "Before the starting signal A becomes overlapped to leeward of B from clear astern within two hull lengths. A luffs to close-hauled and holds it; B sails slower with sheets eased and hits A. Did A break rule 17?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 115,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 165,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska tiukasti vastainen suunta on liian ylhäällä",
+              "en": "Yes, because close-hauled is too high"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: ennen lähtöviestiä veneellä ei ole oikeaa suuntaa",
+              "en": "No: a boat has no proper course before her starting signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 13: koska oikeaa suuntaa ei ole ennen lähtöviestiä, sääntö 17 ei rajoita A:ta. Se olisi saanut kääntyä jopa tuulensilmään asti, kunhan antaa B:lle tilaa (16.1). B rikkoi sääntöjä 11 ja 14(a).",
+          "en": "Case 13: since there is no proper course before the starting signal, rule 17 does not limit A. She could have luffed even to head to wind, provided she gave B room (16.1). B broke rules 11 and 14(a)."
+        },
+        "source": "Case 13; Definition Proper Course",
+        "also": [
+          "11",
+          "16"
+        ]
+      },
+      {
+        "id": "r17-q5",
+        "prompt": {
+          "fi": "Myötätuulessa L on saanut peiton W:n suojan puolelle selvästi perästä. L ei nosta spinnaakkeria vaan purjehtii keulapurjeella sen parhaan VMG:n suuntaa, joka on ylempänä kuin spinnaakkerilla. Rikkooko L sääntöä 17?",
+          "en": "On a run L has become overlapped to leeward of W from clear astern. L does not hoist her spinnaker but sails the best-VMG course for her headsail, which is higher than with a spinnaker. Does L break rule 17?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 115,
+              "y": 95,
+              "rot": 180,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 170,
+              "y": 135,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            150,
+            235
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska spinnaakkerilla se purjehtisi alempana",
+              "en": "Yes, because with a spinnaker she would sail lower"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: oikea suunta määräytyy niillä purjeilla, jotka ovat ylhäällä",
+              "en": "No: the proper course depends on the sails actually set"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 134: veneen varusteet, myös ylhäällä olevat purjeet, kuuluvat oloihin, joista oikea suunta riippuu. Mikään sääntö ei vaadi nostamaan spinnaakkeria tiettyyn aikaan.",
+          "en": "Case 134: the boat's equipment, including the sails set, is part of the conditions on which the proper course depends. No rule requires a spinnaker to be hoisted at any particular time."
+        },
+        "source": "Case 134; Definition Proper Course"
+      },
+      {
+        "id": "r17-q6",
+        "prompt": {
+          "fi": "L on saanut peiton W:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä. Onko tilannetta, jossa L saa purjehtia oikeaa suuntaansa ylempänä peiton aikana?",
+          "en": "L has become overlapped to leeward of W from clear astern within two hull lengths. Is there a situation in which L may sail above her proper course while overlapped?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 115,
+              "y": 120,
+              "rot": 90,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "L",
+              "x": 75,
+              "y": 170,
+              "rot": 90,
+              "tack": "p",
+              "c": "a"
+            }
+          ],
+          "mark": [
+            270,
+            170
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos se samalla viipymättä purjehtii W:n perän taakse",
+              "en": "Yes, if in doing so she promptly sails astern of W"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos W ei vastusta",
+              "en": "Yes, if W does not object"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 17 sallii oikean suunnan ylittämisen, jos L samalla viipymättä purjehtii toisen veneen perän taakse. Lisäksi rajoitus päättyy, kun veneet eivät enää ole peitossa kahden rungonpituuden sisällä tai samalla halssilla.",
+          "en": "Rule 17 allows sailing above the proper course if L in doing so promptly sails astern of the other boat. The limit also ends when the boats are no longer overlapped within two hull lengths or on the same tack."
+        },
+        "source": "RRS 17"
+      }
+    ]
+  }
+]

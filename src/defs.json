@@ -1,0 +1,820 @@
+[
+ {
+  "en": "Abandon",
+  "fi": "Mitätöidä",
+  "sv": "Annullera",
+  "rules": [
+   {
+    "n": 32,
+    "en": "Shortening or Abandoning After the Start",
+    "fi": "Lyhentäminen tai mitätöiminen lähdön jälkeen",
+    "sv": "Avkorta eller annullera efter starten"
+   },
+   {
+    "n": 35,
+    "en": "Race Time Limit and Scores",
+    "fi": "Kilpapurjehduksen enimmäisaika ja pisteet",
+    "sv": "Kappseglingens maxtid och resultat"
+   },
+   {
+    "n": 36,
+    "en": "Races Restarted or Resailed",
+    "fi": "Uudelleen lähetetyt tai purjehditut purjehdukset",
+    "sv": "Kappseglingar som startas på nytt eller seglas om"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Kilpailulautakunnan tai protestilautakunnan mitätöimä kilpapurjehdus on pätemätön, mutta se voidaan purjehtia uudelleen.",
+   "sv": "En kappsegling som kappseglingskommittén eller protestkommittén annullerar blir ogiltig, men den kan seglas om.",
+   "en": "A race that the race committee or the protest committee abandons is void, but it may be sailed again."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Clear Astern and Clear Ahead; Overlap",
+  "fi": "Selvästi perässä ja selvästi edessä; peittää",
+  "sv": "Klar akter om och klar för om; överlapp",
+  "rules": [
+   {
+    "n": 11,
+    "en": "On the Same Tack, Overlapped",
+    "fi": "Samalla halssilla, peitto",
+    "sv": "För samma halsar med överlapp"
+   },
+   {
+    "n": 12,
+    "en": "On the Same Tack, Not Overlapped",
+    "fi": "Samalla halssilla, ei peittoa",
+    "sv": "För samma halsar utan överlapp"
+   },
+   {
+    "n": 17,
+    "en": "On the Same Tack; Proper Course",
+    "fi": "Samalla halssilla; oikea suunta",
+    "sv": "För samma halsar, tillbörlig kurs"
+   },
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 19,
+    "en": "Room to Pass an Obstruction",
+    "fi": "Tila esteen ohittamiseen",
+    "sv": "Plats att passera ett hinder"
+   }
+  ],
+  "cases": [
+   12,
+   23,
+   33,
+   41,
+   43,
+   91,
+   150
+  ],
+  "explain": {
+   "fi": "Vene on selvästi perässä, kun sen runko ja varusteet normaaliasennossaan ovat kokonaan sen poikittaisviivan takana, joka kulkee toisen veneen rungon ja varusteiden normaaliasennossa perimmäisen kohdan kohdalta. Toinen vene on silloin selvästi edessä. Veneet ovat peitossa, kun kumpikaan ei ole selvästi perässä; ne ovat peitossa myös silloin, kun niiden välissä oleva vene on peitossa kummankin kanssa. Käsitteet koskevat aina samalla halssilla olevia veneitä. Eri halsseilla ne koskevat vain, kun sääntö 18 pätee veneiden välillä tai kun molemmat purjehtivat yli 90 astetta todellisesta tuulesta.",
+   "sv": "En båt är klar akter om när dess skrov och utrustning i normalt läge helt ligger bakom en tänkt linje tvärs genom den andra båtens aktersta punkt (skrov och utrustning i normalt läge). Den andra båten är då klar för om. Båtarna överlappar när ingen är klar akter om, och även när en båt mellan dem överlappar båda. Begreppen gäller alltid för båtar för samma halsar. För olika halsar gäller de bara när regel 18 gäller mellan båtarna eller när båda seglar mer än 90 grader från den sanna vinden.",
+   "en": "A boat is clear astern when her hull and equipment, in their normal position, lie entirely behind an imaginary line drawn abeam through the aftermost point of the other boat's hull and equipment in normal position. The other boat is then clear ahead. Boats overlap when neither is clear astern, and also when a boat between them overlaps both. These terms always apply to boats on the same tack. On opposite tacks they apply only when rule 18 applies between the boats, or when both are sailing more than 90 degrees from the true wind."
+  },
+  "source": "RRS Definitions; Case 12, 150"
+ },
+ {
+  "en": "Committee",
+  "fi": "Lautakunta",
+  "sv": "Kommitté",
+  "rules": [],
+  "cases": [],
+  "explain": {
+   "fi": "Protestilautakunta, kilpailulautakunta tai tekninen lautakunta.",
+   "sv": "Någon av tre organ: protestkommittén, kappseglingskommittén eller tekniska kommittén.",
+   "en": "Any one of three bodies: the protest committee, the race committee or the technical committee."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Conflict of Interest",
+  "fi": "Eturistiriita",
+  "sv": "Intressekonflikt",
+  "rules": [
+   {
+    "n": 63,
+    "en": "Conduct of Hearings",
+    "fi": "Tutkinnan järjestäminen",
+    "sv": "Genomföra förhandlingar"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Eturistiriita on olemassa, jos henkilö voi hyötyä tai kärsiä päätöksestä, johon hän osallistuu, jos hänellä voi perustellusti nähdä olevan henkilökohtainen tai taloudellinen etu, joka voi vaikuttaa hänen puolueettomuuteensa, tai jos hänellä on päätökseen läheinen henkilökohtainen intressi.",
+   "sv": "En person har en intressekonflikt om personen kan vinna eller förlora på ett beslut som personen medverkar i, rimligen kan anses ha ett personligt eller ekonomiskt intresse som kan påverka opartiskheten, eller har ett nära personligt intresse i beslutet.",
+   "en": "A person has a conflict of interest if they could gain or lose from a decision they take part in, could reasonably be seen to have a personal or financial interest that may affect their impartiality, or have a close personal interest in the decision."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Continuing Obstruction",
+  "fi": "Jatkuva este",
+  "sv": "Längsgående hinder",
+  "rules": [
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 19,
+    "en": "Room to Pass an Obstruction",
+    "fi": "Tila esteen ohittamiseen",
+    "sv": "Plats att passera ett hinder"
+   }
+  ],
+  "cases": [
+   23,
+   29,
+   30,
+   41,
+   117
+  ],
+  "explain": {
+   "fi": "Este on jatkuva, kun lyhimmän säännössä tarkoitetun veneen runko ohittaa sen vierestä vähintään kolmen rungonpituuden matkan. Jatkuva este ei ole liikkeellä oleva alus, kilpaileva vene eikä kilpailulautakunnan alus, joka on samalla merkki. Case 117: vierekkäin purjehtivien veneiden rivi ei koskaan ole jatkuva este.",
+   "sv": "Ett hinder är längsgående när båten med det kortaste skrovet av de båtar regeln avser passerar längs med det under minst tre skrovlängder. Ett fartyg under gång, en kappseglande båt och ett fartyg tillhörande kappseglingskommittén som också är ett märke är aldrig längsgående hinder. Case 117: en rad av båtar som seglar tätt intill varandra är aldrig ett längsgående hinder.",
+   "en": "An obstruction is continuing when the boat with the shortest hull among those the rule refers to would pass alongside it for at least three of her hull lengths. A vessel under way, a boat racing, and a race committee vessel that is also a mark are never continuing obstructions. Case 117: a row of boats sailing close together is never a continuing obstruction."
+  },
+  "source": "RRS Definitions; Case 117"
+ },
+ {
+  "en": "Fetching",
+  "fi": "Yltää",
+  "sv": "Ligga upp",
+  "rules": [
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 20,
+    "en": "Room to Tack at an Obstruction",
+    "fi": "Tila vastakäännökseen esteellä",
+    "sv": "Plats att stagvända vid ett hinder"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Vene yltää merkille, kun se voi ohittaa merkin tuulen puolelta ja jättää sen vaaditulle puolelle vaihtamatta halssia.",
+   "sv": "En båt ligger upp ett märke när den kan passera i lovart om märket och lämna det på föreskriven sida utan att byta halsar.",
+   "en": "A boat is fetching a mark when she can pass to windward of it and leave it on the required side without tacking."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Finish",
+  "fi": "Tulla maaliin",
+  "sv": "Gå i mål",
+  "rules": [
+   {
+    "n": 28,
+    "en": "Sailing the Course",
+    "fi": "Radan purjehtiminen",
+    "sv": "Segla banan"
+   },
+   {
+    "n": 31,
+    "en": "Touching a Mark",
+    "fi": "Merkin koskettaminen",
+    "sv": "Beröra ett märke"
+   },
+   {
+    "n": 44,
+    "en": "Penalties at the Time of an Incident",
+    "fi": "Tapahtuman aikana otettavat rangaistukset",
+    "sv": "Straff vid händelsen"
+   }
+  ],
+  "cases": [
+   32,
+   58,
+   82,
+   112,
+   128,
+   129,
+   148
+  ],
+  "explain": {
+   "fi": "Vene tulee maaliin, kun lähtöviestin jälkeen jokin osa sen rungosta ylittää maalilinjan kurssin puolelta. Se ei ole tullut maaliin, jos ylityksen jälkeen se suorittaa säännön 44.2 mukaisen rangaistuksen, korjaa maalilinjalla tekemänsä radan purjehdusvirheen tai jatkaa radan purjehtimista. Linjaa ei tarvitse ylittää kokonaan, ja purjehdusohjeet voivat muuttaa ylityssuuntaa. Case 32: ylityssuunnan muutos on mainittava purjehdusohjeissa.",
+   "sv": "En båt går i mål när någon del av skrovet efter startsignalen skär mållinjen från bansidan. Den har inte gått i mål om den efter skärningen tar ett straff enligt regel 44.2, rättar ett fel i banseglingen som gjordes vid linjen eller fortsätter segla banan. Linjen behöver inte passeras helt, och seglingsföreskrifterna kan ändra i vilken riktning den ska skäras. Case 32: en sådan ändring måste anges i seglingsföreskrifterna.",
+   "en": "A boat finishes when, after her starting signal, any part of her hull crosses the finishing line from the course side. She has not finished if, after crossing, she takes a rule 44.2 penalty, corrects an error in sailing the course made at the line, or continues to sail the course. She need not cross the line completely, and the sailing instructions may change the direction in which boats must cross it. Case 32: any such change must be stated in the sailing instructions."
+  },
+  "source": "RRS Definitions; Case 32"
+ },
+ {
+  "en": "Keep Clear",
+  "fi": "Pysyä loitolla",
+  "sv": "Hålla undan",
+  "rules": [
+   {
+    "n": 10,
+    "en": "On Opposite Tacks",
+    "fi": "Eri halsseilla",
+    "sv": "För olika halsar"
+   },
+   {
+    "n": 11,
+    "en": "On the Same Tack, Overlapped",
+    "fi": "Samalla halssilla, peitto",
+    "sv": "För samma halsar med överlapp"
+   },
+   {
+    "n": 12,
+    "en": "On the Same Tack, Not Overlapped",
+    "fi": "Samalla halssilla, ei peittoa",
+    "sv": "För samma halsar utan överlapp"
+   },
+   {
+    "n": 13,
+    "en": "While Tacking",
+    "fi": "Vastakäännöstä tehdessä",
+    "sv": "Under stagvändning"
+   },
+   {
+    "n": 16,
+    "en": "Changing Course",
+    "fi": "Suunnan muuttaminen",
+    "sv": "Ändra kurs"
+   },
+   {
+    "n": 19,
+    "en": "Room to Pass an Obstruction",
+    "fi": "Tila esteen ohittamiseen",
+    "sv": "Plats att passera ett hinder"
+   },
+   {
+    "n": 21,
+    "en": "Starting Errors; Taking Penalties; Backing a Sail",
+    "fi": "Lähtövirheet; rangaistuksen suorittaminen; purjeen pakittaminen",
+    "sv": "Fel vid starten, ta straff, bräcka med ett segel"
+   }
+  ],
+  "cases": [
+   30,
+   50,
+   77,
+   87,
+   88,
+   91,
+   135
+  ],
+  "explain": {
+   "fi": "Vene pysyy loitolla kulkuun oikeutetusta veneestä, jos (a) kulkuun oikeutettu vene voi purjehtia kurssiaan ilman tarvetta väistää ja (b) veneiden ollessa peitossa se voi lisäksi muuttaa suuntaansa kumpaankin suuntaan koskettamatta heti toista venettä.",
+   "sv": "En båt håller undan för en båt med rätt till väg om (a) båten med rätt till väg kan segla sin kurs utan att behöva göra någon undanmanöver och (b) när båtarna överlappar, båten med rätt till väg också kan ändra kurs åt båda hållen utan att det omedelbart blir kontakt.",
+   "en": "A boat keeps clear of a right-of-way boat if (a) the right-of-way boat can sail her course without having to take avoiding action and (b) when the boats are overlapped, the right-of-way boat can also change course in either direction without immediately making contact."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Leeward and Windward",
+  "fi": "Suojan puoli ja tuulen puoli",
+  "sv": "Lä och lovart",
+  "rules": [
+   {
+    "n": 11,
+    "en": "On the Same Tack, Overlapped",
+    "fi": "Samalla halssilla, peitto",
+    "sv": "För samma halsar med överlapp"
+   },
+   {
+    "n": 17,
+    "en": "On the Same Tack; Proper Course",
+    "fi": "Samalla halssilla; oikea suunta",
+    "sv": "För samma halsar, tillbörlig kurs"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Veneen suojan puoli on se puoli, joka on tai, kun vene on tuulensilmässä, oli poispäin tuulesta. Kun vene purjehtii täystuulessa tai tuulen ylitse, suojan puoli on se puoli, jolla isopurje on. Toinen puoli on tuulen puoli. Kun kaksi samalla halssilla olevaa venettä on peitossa, suojan puolella oleva on suojan puolen vene ja toinen tuulen puolen vene.",
+   "sv": "En båts läsida är den sida som är, eller när båten står i vindögat var, vänd från vinden. Vid segling över lä eller plattläns är läsidan den sida där storseglet står. Den andra sidan är lovartssidan. Av två överlappande båtar för samma halsar är den som ligger på den andras läsida läbåt och den andra lovartsbåt.",
+   "en": "A boat's leeward side is the side that is, or when she is head to wind was, away from the wind. When she is sailing by the lee or directly downwind, it is the side her mainsail is on. The other side is her windward side. Of two overlapped boats on the same tack, the one on the other's leeward side is the leeward boat and the other is the windward boat."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Mark",
+  "fi": "Merkki",
+  "sv": "Märke",
+  "rules": [
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 28,
+    "en": "Sailing the Course",
+    "fi": "Radan purjehtiminen",
+    "sv": "Segla banan"
+   },
+   {
+    "n": 31,
+    "en": "Touching a Mark",
+    "fi": "Merkin koskettaminen",
+    "sv": "Beröra ett märke"
+   }
+  ],
+  "cases": [
+   58
+  ],
+  "explain": {
+   "fi": "Merkki on kohde, jonka purjehdusohjeet vaativat jättämään tietylle puolelle, kilpailulautakunnan alus, jota ympäröi purjehduskelpoinen vesi ja josta lähtö- tai maalilinja alkaa, sekä kohteeseen tai alukseen tarkoituksella kiinnitetty esine. Ankkuriköysi ei ole osa merkkiä.",
+   "sv": "Ett märke är ett föremål som seglingsföreskrifterna kräver att båtarna lämnar på en föreskriven sida, en funktionärsbåt omgiven av segelbart vatten som start- eller mållinjen utgår från, eller något som avsiktligt fästs vid något av dessa. En ankarlina är inte en del av märket.",
+   "en": "A mark is an object the sailing instructions require boats to leave on a specified side, a race committee vessel surrounded by navigable water from which the starting or finishing line extends, or an object intentionally attached to either of these. An anchor line is not part of the mark."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Mark-Room",
+  "fi": "Merkkitila",
+  "sv": "Märkesplats",
+  "rules": [
+   {
+    "n": 14,
+    "en": "Avoiding Contact",
+    "fi": "Kosketuksen välttäminen",
+    "sv": "Undvika kontakt"
+   },
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 43,
+    "en": "Exoneration",
+    "fi": "Vapauttaminen",
+    "sv": "Frikännande"
+   }
+  ],
+  "cases": [
+   15,
+   21,
+   25,
+   63,
+   95,
+   114,
+   118
+  ],
+  "explain": {
+   "fi": "Merkkitila on tila veneelle (a) purjehtia merkille, kun sen oikea suunta on purjehtia sen lähelle, (b) kiertää tai ohittaa merkki vaaditulta puolelta ja (c) jättää se perään. Case 118: kohta (a) tarkoittaa tilaa purjehtia viipymättä ja merenkulkutaidolla oikeaoppisesti merkin lähelle sen vaaditulle puolelle.",
+   "sv": "Märkesplats är plats för en båt (a) att segla till märket när dess tillbörliga kurs är att segla nära det, (b) att runda eller passera märket på föreskriven sida och (c) att lämna det akter om sig. Case 118: i (a) betyder plats att segla till märket utrymme att utan dröjsmål och sjömansmässigt segla till ett läge nära märket på dess föreskrivna sida.",
+   "en": "Mark-room is room for a boat (a) to sail to the mark when her proper course is to sail close to it, (b) to round or pass the mark on the required side, and (c) to leave it astern. Case 118: in (a), 'room to sail to the mark' means space to sail promptly and in a seamanlike way to a position close to the mark on its required side."
+  },
+  "source": "RRS Definitions; Case 118"
+ },
+ {
+  "en": "Obstruction",
+  "fi": "Este",
+  "sv": "Hinder",
+  "rules": [
+   {
+    "n": 19,
+    "en": "Room to Pass an Obstruction",
+    "fi": "Tila esteen ohittamiseen",
+    "sv": "Plats att passera ett hinder"
+   },
+   {
+    "n": 20,
+    "en": "Room to Tack at an Obstruction",
+    "fi": "Tila vastakäännökseen esteellä",
+    "sv": "Plats att stagvända vid ett hinder"
+   },
+   {
+    "n": 22,
+    "en": "Capsized, Anchored or Aground; Rescuing",
+    "fi": "Kaatuneena, ankkurissa tai karilla; pelastustoimissa",
+    "sv": "Kantrad, ankrad, stå på grund, rädda någon i fara"
+   }
+  ],
+  "cases": [
+   11,
+   23,
+   29,
+   30,
+   41,
+   117,
+   125
+  ],
+  "explain": {
+   "fi": "Este on (a) kohde, jota vene ei voisi ohittaa muuttamatta suuntaansa olennaisesti, jos se purjehtisi suoraan sitä kohti yhden rungonpituuden päässä siitä, (b) kohde, joka voidaan turvallisesti ohittaa vain toiselta puolelta, tai (c) säännössä esteeksi nimetty kohde, alue tai linja. Kilpaileva vene ei ole este muille veneille, ellei niiden tarvitse pysyä loitolla siitä tai, kun sääntö 22 pätee, väistää sitä.",
+   "sv": "Ett hinder är (a) ett föremål som en båt inte kunde passera utan att väsentligt ändra kurs om hon seglade rakt mot det på en skrovlängds avstånd, (b) ett föremål som utan risk bara kan passeras på en sida, eller (c) ett föremål, område eller en linje som en regel anger som hinder. En kappseglande båt är inte ett hinder för andra båtar, om de inte måste hålla undan för henne eller, när regel 22 gäller, undvika henne.",
+   "en": "An obstruction is (a) an object a boat could not pass without changing course substantially if she were sailing straight at it one hull length away, (b) an object that can safely be passed on one side only, or (c) an object, area or line that a rule designates as one. A boat racing is not an obstruction to other boats unless they must keep clear of her or, when rule 22 applies, avoid her."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Party",
+  "fi": "Asianosainen",
+  "sv": "Part",
+  "rules": [
+   {
+    "n": 61,
+    "en": "Redress",
+    "fi": "Hyvitys",
+    "sv": "Gottgörelse"
+   },
+   {
+    "n": 63,
+    "en": "Conduct of Hearings",
+    "fi": "Tutkinnan järjestäminen",
+    "sv": "Genomföra förhandlingar"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Asianosainen on se, joka on mukana käsittelyssä. Protestikäsittelyssä asianosaisia ovat protestoija ja protestoitu. Hyvitysasiassa asianosaisia ovat hyvitystä pyytävä tai hyvityksen kohteena oleva vene, sääntö 61.1 mukaisesti käsittelyyn otettu vene sekä sääntöä 61.1 soveltava lautakunta; säännön 61.4(b)(1) tapauksessa myös elin, jonka väitetään toimineen tai jättäneensä toimimatta väärin. Lisäksi asianosaisia ovat henkilö, jota syytetään säännön 69.1(a) rikkomisesta, ja henkilö, joka esittää syytteen säännön 69.2(e)(1) nojalla, sekä tukihenkilö, jota säännön 62 tai 69 käsittely koskee, hänen tukemansa vene ja säännön 62.2 mukaiseen syytteen esittämiseen nimetty henkilö. Protestilautakunta ei ole koskaan asianosainen.",
+   "sv": "En part är den som deltar i en förhandling som huvudaktör. I en protestförhandling är parterna den protesterande och den svarande. I en förhandling om gottgörelse är parterna båten som ansöker om gottgörelse eller som gottgörelse söks för, en båt som kallats till förhandling enligt regel 61.1 och en kommitté som handlar enligt regel 61.1; enligt regel 61.4(b)(1) även den som påstås ha handlat felaktigt eller underlåtit något otillbörligt. Parter är också en person som anklagas för brott mot regel 69.1(a), en person som lägger fram en anklagelse enligt regel 69.2(e)(1), en stödperson som är föremål för en förhandling enligt regel 62 eller 69 samt båten personen stöder, och en person som utsetts att lägga fram en anklagelse enligt regel 62.2. Protestkommittén är aldrig part.",
+   "en": "A party is someone who takes part in a hearing as a principal. In a protest hearing the parties are the protestor and the protestee. In a redress hearing they are the boat requesting redress or the boat redress is requested for, a boat called to a hearing under rule 61.1, and a committee acting under rule 61.1; under rule 61.4(b)(1) also the body alleged to have acted or failed to act improperly. Also parties are a person accused of breaking rule 69.1(a), a person presenting an allegation under rule 69.2(e)(1), a support person who is the subject of a rule 62 or 69 hearing together with any boat that person supports, and a person appointed to present an allegation under rule 62.2. The protest committee is never a party."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Postpone",
+  "fi": "Lykätä",
+  "sv": "Uppskjuta",
+  "rules": [
+   {
+    "n": 27,
+    "en": "Other Race Committee Actions Before the Starting Signal",
+    "fi": "Muita lähtöviestiä edeltäviä kilpailulautakunnan tehtäviä",
+    "sv": "Andra åtgärder av kappseglingskommittén före startsignalen"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Lykätyn kilpapurjehduksen lähtöä siirretään ennen sen alkuperäistä lähtöaikaa. Purjehdus voidaan käynnistää tai mitätöidä myöhemmin.",
+   "sv": "En uppskjuten kappsegling har sin start framflyttad före den planerade starttiden. Den kan startas eller annulleras senare.",
+   "en": "A postponed race has its start delayed before the scheduled start time. It may be started or abandoned later."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Proper Course",
+  "fi": "Oikea suunta",
+  "sv": "Tillbörlig kurs",
+  "rules": [
+   {
+    "n": 17,
+    "en": "On the Same Tack; Proper Course",
+    "fi": "Samalla halssilla; oikea suunta",
+    "sv": "För samma halsar, tillbörlig kurs"
+   },
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 23,
+    "en": "Interfering with Another Boat",
+    "fi": "Toisen veneen häiritseminen",
+    "sv": "Störa andra båtar"
+   }
+  ],
+  "cases": [
+   9,
+   13,
+   14,
+   46,
+   75,
+   118,
+   134
+  ],
+  "explain": {
+   "fi": "Oikea suunta on se suunta, jonka vene valitsisi purjehtiakseen radan mahdollisimman nopeasti, kun säännössä mainittuja muita veneitä ei oteta huomioon. Veneellä ei ole oikeaa suuntaa ennen lähtöviestiään.",
+   "sv": "Tillbörlig kurs är den kurs en båt skulle välja för att segla banan så fort som möjligt, när man bortser från de andra båtar som regeln avser. Före sin startsignal har en båt ingen tillbörlig kurs.",
+   "en": "A proper course is the course a boat would choose to sail the course as fast as possible, disregarding the other boats the rule refers to. Before her starting signal a boat has no proper course."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Protest",
+  "fi": "Protesti",
+  "sv": "Protest",
+  "rules": [
+   {
+    "n": 60,
+    "en": "Protests",
+    "fi": "Protestit",
+    "sv": "Protester"
+   },
+   {
+    "n": 63,
+    "en": "Conduct of Hearings",
+    "fi": "Tutkinnan järjestäminen",
+    "sv": "Genomföra förhandlingar"
+   }
+  ],
+  "cases": [
+   22
+  ],
+  "explain": {
+   "fi": "Protesti on kilpailijan tai lautakunnan säännön 60 mukaisesti tekemä väite, että vene on rikkonut sääntöä.",
+   "sv": "En protest är ett påstående enligt regel 60, framfört av en båt eller en kommitté, att en båt har brutit mot en regel.",
+   "en": "A protest is an allegation, made under rule 60 by a boat or a committee, that a boat has broken a rule."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Racing",
+  "fi": "Kilpailla",
+  "sv": "Kappsegla",
+  "rules": [
+   {
+    "n": 23,
+    "en": "Interfering with Another Boat",
+    "fi": "Toisen veneen häiritseminen",
+    "sv": "Störa andra båtar"
+   },
+   {
+    "n": 44,
+    "en": "Penalties at the Time of an Incident",
+    "fi": "Tapahtuman aikana otettavat rangaistukset",
+    "sv": "Straff vid händelsen"
+   }
+  ],
+  "cases": [
+   5,
+   68,
+   127
+  ],
+  "explain": {
+   "fi": "Vene on kilpailemassa valmisteluviestistä siihen asti, kun se on tullut maaliin ja selvittänyt maalilinjan ja merkit tai keskeyttänyt. Kilpailu päättyy veneen osalta myös, kun kilpailulautakunta antaa yleisen takaisinkutsun, lykkäyksen tai mitätöinnin viestin.",
+   "sv": "En båt kappseglar från sin förberedelsesignal tills den har gått i mål och klarat mållinjen och målmärkena eller utgått. Kappseglingen upphör för båten också när kappseglingskommittén signalerar allmän återkallelse, uppskjutande eller annullering.",
+   "en": "A boat is racing from her preparatory signal until she has finished and cleared the finishing line and marks, or has retired. Racing also ends for her when the race committee signals a general recall, a postponement or an abandonment."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Room",
+  "fi": "Tila",
+  "sv": "Plats",
+  "rules": [
+   {
+    "n": 15,
+    "en": "Acquiring Right of Way",
+    "fi": "Kulkuoikeuden saaminen",
+    "sv": "Få rätt till väg"
+   },
+   {
+    "n": 16,
+    "en": "Changing Course",
+    "fi": "Suunnan muuttaminen",
+    "sv": "Ändra kurs"
+   },
+   {
+    "n": 19,
+    "en": "Room to Pass an Obstruction",
+    "fi": "Tila esteen ohittamiseen",
+    "sv": "Plats att passera ett hinder"
+   },
+   {
+    "n": 20,
+    "en": "Room to Tack at an Obstruction",
+    "fi": "Tila vastakäännökseen esteellä",
+    "sv": "Plats att stagvända vid ett hinder"
+   },
+   {
+    "n": 43,
+    "en": "Exoneration",
+    "fi": "Vapauttaminen",
+    "sv": "Frikännande"
+   }
+  ],
+  "cases": [
+   21,
+   24,
+   35,
+   93,
+   95,
+   103,
+   114,
+   118,
+   125,
+   146
+  ],
+  "explain": {
+   "fi": "Tila on se tila, jonka vene tarvitsee vallitsevissa olosuhteissa, mukaan lukien tila osan 2 ja säännön 31 velvoitteiden täyttämiseen, kun se liikkuu viipymättä ja merenkulkutaidolla.",
+   "sv": "Plats är det utrymme en båt behöver under rådande förhållanden, inklusive utrymme för att uppfylla sina skyldigheter enligt del 2 och regel 31, när hon manövrerar utan dröjsmål och sjömansmässigt.",
+   "en": "Room is the space a boat needs in the existing conditions, including space to meet her obligations under Part 2 and rule 31, while manoeuvring promptly and in a seamanlike way."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Rule",
+  "fi": "Sääntö",
+  "sv": "Regel",
+  "rules": [
+   {
+    "n": 85,
+    "en": "Changes to Rules",
+    "fi": "Muutokset sääntöihin",
+    "sv": "Ändring av regler"
+   },
+   {
+    "n": 86,
+    "en": "Changes to the Racing Rules",
+    "fi": "Muutokset kilpailusääntöihin",
+    "sv": "Ändring av kappseglingsregler"
+   }
+  ],
+  "cases": [
+   85,
+   98
+  ],
+  "explain": {
+   "fi": "Sääntöjä ovat (a) tämän kirjan säännöt eli määritelmät, kilpailuviestit, johdanto, johdantokappaleet ja asiaankuuluvien liitteiden säännöt, mutta ei perusperiaatteita eikä otsikoita; (b) World Sailingin määräykset, jotka World Sailing on nimennyt säännön asemassa oleviksi ja julkaissut verkkosivuillaan; (c) kansallisen lajiliiton määräykset, ellei kilpailukutsu tai purjehdusohjeet muuta niitä säännön 88.2 sallimalla tavalla; (d) luokkasäännöt (tasoitus- tai mittalukujärjestelmässä järjestelmän säännöt); (e) kilpailukutsu; (f) purjehdusohjeet; ja (g) muut tapahtumaa ohjaavat asiakirjat.",
+   "sv": "Regler är (a) reglerna i den här boken: Definitioner, Kappseglingssignaler, Introduktion, inledningar och reglerna i relevanta appendix, men inte Grundläggande Principer eller rubriker; (b) World Sailing Förordningar som World Sailing gett status som regel och publicerat på sin webbplats; (c) nationella myndighetens föreskrifter, om inte inbjudan eller seglingsföreskrifterna ändrar dem på det sätt regel 88.2 tillåter; (d) klassreglerna (för handikapp- eller respitsystem räknas systemets regler som klassregler); (e) inbjudan; (f) seglingsföreskrifterna; och (g) alla andra handlingar som styr tävlingen.",
+   "en": "The rules are (a) the rules in this book: the Definitions, Race Signals, Introduction, preambles and the rules of relevant appendices, but not the Basic Principles or titles; (b) World Sailing Regulations that World Sailing has given the status of a rule and published on its website; (c) national authority prescriptions, unless the notice of race or sailing instructions change them as rule 88.2 allows; (d) class rules (for a handicap or rating system, that system's rules count as class rules); (e) the notice of race; (f) the sailing instructions; and (g) any other documents governing the event."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Sail the Course",
+  "fi": "Purjehtia rata",
+  "sv": "Segla banan",
+  "rules": [
+   {
+    "n": 28,
+    "en": "Sailing the Course",
+    "fi": "Radan purjehtiminen",
+    "sv": "Segla banan"
+   }
+  ],
+  "cases": [
+   58,
+   90,
+   106,
+   108,
+   112,
+   128,
+   145,
+   148
+  ],
+  "explain": {
+   "fi": "Vene purjehtii radan, kun (a) se lähtee, (b) sen kulkemaa reittiä esittävä, kireäksi vedetty lanka maaliin tulemiseen asti ohittaa radan jokaisen merkin vaaditulla puolella ja oikeassa järjestyksessä lähtömerkit mukaan lukien, koskettaa jokaista purjehdusohjeissa kiertomerkiksi nimettyä merkkiä ja kulkee portin merkkien välistä edellisen merkin suunnasta, ja sen jälkeen (c) se tulee maaliin. Merkillä, joka ei aloita, rajaa tai päätä veneen purjehtimaa väliä, ei ole vaadittua puolta.",
+   "sv": "En båt seglar banan när (a) hon startar; (b) ett snöre som visar hennes väg tills hon går i mål, när det sträcks, passerar varje märke i banan på föreskriven sida och i rätt ordning (startmärken inräknade), berör varje märke som seglingsföreskrifterna anger som rundningsmärke och passerar mellan märkena i en gate i riktning från föregående märke; och sedan (c) hon går i mål. Ett märke som inte inleder, begränsar eller avslutar det banben som seglas har ingen föreskriven sida.",
+   "en": "A boat sails the course when (a) she starts; (b) a string showing her track until she finishes, drawn taut, passes each mark of the course on the required side and in the correct order (starting marks included), touches each mark the sailing instructions designate as a rounding mark, and passes between the marks of a gate from the direction of the previous mark; and then (c) she finishes. A mark that does not begin, bound or end the leg being sailed has no required side."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Start",
+  "fi": "Lähteä",
+  "sv": "Starta",
+  "rules": [
+   {
+    "n": 26,
+    "en": "Starting Races",
+    "fi": "Kilpapurjehdusten lähettäminen",
+    "sv": "Starta kappseglingar"
+   },
+   {
+    "n": 29,
+    "en": "Recalls",
+    "fi": "Palautukset",
+    "sv": "Återkallelser"
+   },
+   {
+    "n": 30,
+    "en": "Starting Penalties",
+    "fi": "Lähtörangaistukset",
+    "sv": "Straff vid starten"
+   }
+  ],
+  "cases": [
+   140
+  ],
+  "explain": {
+   "fi": "Vene lähtee, kun sen runko on ollut kokonaan lähtölinjan lähtöpuolella lähtöviestillä tai sen jälkeen, se on tarvittaessa noudattanut sääntöä 30.1 ja jokin osa sen rungosta ylittää lähtölinjan lähtöpuolelta kurssin puolelle.",
+   "sv": "En båt startar när någon del av skrovet skär startlinjen från startsidan till bansidan, efter att hela skrovet har varit på startsidan vid eller efter startsignalen och regel 30.1 har följts där den gäller.",
+   "en": "A boat starts when, having been entirely on the pre-start side of the starting line at or after her starting signal and having complied with rule 30.1 where it applies, any part of her hull crosses the starting line from the pre-start side to the course side."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Support Person",
+  "fi": "Tukihenkilö",
+  "sv": "Stödperson",
+  "rules": [
+   {
+    "n": 1,
+    "en": "Safety",
+    "fi": "Turvallisuus",
+    "sv": "Säkerhet"
+   },
+   {
+    "n": 4,
+    "en": "Acceptance of the Rules",
+    "fi": "Sääntöjen hyväksyminen",
+    "sv": "Godta reglerna"
+   },
+   {
+    "n": 62,
+    "en": "Support Persons",
+    "fi": "Tukihenkilöt",
+    "sv": "Stödpersoner"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Tukihenkilö on jokainen, joka (a) antaa tai voi antaa kilpailijalle fyysistä tai neuvonnallista tukea, esimerkiksi valmentaja, harjoittaja, joukkueen johtaja ja muu henkilöstö, lääkäri, ensihoitaja tai kuka tahansa muu kilpailijaa kilpailussa tai sitä varten auttava tai hoitava henkilö, tai (b) on kilpailijan vanhempi tai huoltaja.",
+   "sv": "En stödperson är var och en som (a) ger eller kan ge en tävlande fysiskt stöd eller rådgivning, till exempel coach, tränare, ledare, teampersonal, medicinsk eller sjukvårdande personal eller annan som arbetar med, behandlar eller hjälper den tävlande under tävlingen eller i förberedelserna inför den, eller (b) är en tävlandes förälder eller vårdnadshavare.",
+   "en": "A support person is anyone who (a) gives or may give a competitor physical or advisory support, such as a coach, trainer, manager, team staff, medic, paramedic or anyone else working with, treating or helping a competitor in or in preparing for the event, or (b) is a competitor's parent or guardian."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Tack, Starboard or Port",
+  "fi": "Halssi, oikea tai vasen",
+  "sv": "Halsar, styrbords eller babords",
+  "rules": [
+   {
+    "n": 10,
+    "en": "On Opposite Tacks",
+    "fi": "Eri halsseilla",
+    "sv": "För olika halsar"
+   },
+   {
+    "n": 11,
+    "en": "On the Same Tack, Overlapped",
+    "fi": "Samalla halssilla, peitto",
+    "sv": "För samma halsar med överlapp"
+   },
+   {
+    "n": 12,
+    "en": "On the Same Tack, Not Overlapped",
+    "fi": "Samalla halssilla, ei peittoa",
+    "sv": "För samma halsar utan överlapp"
+   },
+   {
+    "n": 13,
+    "en": "While Tacking",
+    "fi": "Vastakäännöstä tehdessä",
+    "sv": "Under stagvändning"
+   },
+   {
+    "n": 17,
+    "en": "On the Same Tack; Proper Course",
+    "fi": "Samalla halssilla; oikea suunta",
+    "sv": "För samma halsar, tillbörlig kurs"
+   },
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   },
+   {
+    "n": 20,
+    "en": "Room to Tack at an Obstruction",
+    "fi": "Tila vastakäännökseen esteellä",
+    "sv": "Plats att stagvända vid ett hinder"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Veneen halssi, oikea tai vasen, on se, joka vastaa sen tuulen puolta: tuulen puoli määrää halssin.",
+   "sv": "En båts halsar, styrbords eller babords, är de som motsvarar dess lovartssida: lovartssidan avgör halsen.",
+   "en": "A boat's tack, starboard or port, is the one that corresponds to her windward side: her windward side decides the tack."
+  },
+  "source": "RRS Definitions"
+ },
+ {
+  "en": "Zone",
+  "fi": "Vyöhyke",
+  "sv": "Zonen",
+  "rules": [
+   {
+    "n": 18,
+    "en": "Mark-Room",
+    "fi": "Merkkitila",
+    "sv": "Märkesplats"
+   }
+  ],
+  "cases": [],
+  "explain": {
+   "fi": "Vyöhyke on merkin ympärillä oleva alue, jonka etäisyys merkistä on kolme rungonpituutta sen veneen pituudella mitattuna, joka on lähempänä merkkiä. Vene on vyöhykkeellä, kun mikä tahansa osa sen rungosta on vyöhykkeellä.",
+   "sv": "Zonen är området runt ett märke inom tre skrovlängder av den båt som är närmare det. En båt är i zonen när någon del av skrovet är i zonen.",
+   "en": "The zone is the area around a mark within three hull lengths of the boat nearer to it. A boat is in the zone when any part of her hull is in it."
+  },
+  "source": "RRS Definitions"
+ }
+]

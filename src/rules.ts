@@ -1,0 +1,66 @@
+import rulesRaw from './rules.json';
+import defsRaw from './defs.json';
+import { LANGS, Lang, T, esc } from './i18n';
+import { Scene, sceneSvg } from './diagrams';
+import { State, pickNext } from './store';
+
+// sv is optional: until it is written, the English text is shown.
+type ML = Partial<Record<Lang, string>> & { fi: string; en: string };
+interface Opt { t: ML; ok?: boolean }
+interface Question { id: string; prompt: ML; scene: Scene; options: Opt[]; why: ML; source: string; also?: string[] }
+interface Scenario { case: number; title: ML; text: ML; answer: ML; also?: string[]; source: string }
+interface Rule {
+  n: number; title: Record<Lang, string>; explain: ML; note: ML; source: string; scene: Scene; caption: ML;
+  defs: string[]; links: { rules: string[]; note: ML }[]; scenarios: Scenario[]; questions: Question[];
+}
+export const rules = rulesRaw as unknown as Rule[];
+const defNames = defsRaw as unknown as Record<string, string>[];
+const tx = (m: ML, l: Lang) => m[l] ?? m.en;
+const fb = (l: Lang) => T.fallback[l] ? `<p class="mute">${T.fallback[l]}</p>` : '';
+const covered = (r: string) => rules.some(x => String(x.n) === r.split('.')[0]);
+// Rules with content become links; the others are grouped into one dashed "not yet covered" chip.
+const chips = (rs: string[], l: Lang) => {
+  const no = rs.filter(r => !covered(r));
+  return rs.filter(covered).map(r => `<span data-rule="${r.split('.')[0]}">${T.rule[l]} ${r}</span>`).join('')
+    + (no.length ? `<span class="soon">${no.length > 1 ? T.tabRules[l] : T.rule[l]} ${no.join(', ')} · ${T.notYet[l]}</span>` : '');
+};
+
+export function rulesView(l: Lang): string {
+  const rows = rules.map(r => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
+    <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`).join('');
+  return `<div class="list">${rows}</div><p class="mute">${T.moreRules[l]}</p>`;
+}
+
+export function ruleView(r: Rule, l: Lang): string {
+  const defs = r.defs.map(k => `<span data-open="${esc(k)}">${esc(defNames.find(d => d.en === k)?.[l] ?? k)}</span>`).join('');
+  const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${esc(tx(k.note, l))}</p>`).join('');
+  const scen = r.scenarios.map(s => `<div class="sc"><div class="chips"><span>Case ${s.case}</span>${chips(s.also ?? [], l)}</div>
+    <h4>${esc(tx(s.title, l))}</h4><p>${esc(tx(s.text, l))}</p><p><b>${T.outcome[l]}.</b> ${esc(tx(s.answer, l))}</p></div>`).join('');
+  return `<button class="btn" data-nav="rules">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l)}
+  <h3>${T.explain[l]}</h3><p>${esc(tx(r.explain, l))}</p><p class="mute">${T.source[l]}: ${esc(r.source)}</p>
+  <div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div><p class="mute">${esc(tx(r.note, l))}</p>
+  <h3>${T.related[l]}</h3><div class="chips">${defs}</div><h3>${T.links[l]}</h3>${links}
+  <h3>${T.scenarios[l]}</h3>${scen}<p><button class="btn" data-nav="practice">${T.tabPractice[l]}</button></p>`;
+}
+
+const all = rules.flatMap(r => r.questions);
+let cur: Question | null = null, opts: Opt[] = [], picked = -1;
+const shuffle = <A,>(a: A[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
+export function practiceNext(s: State) {
+  const id = pickNext(all.map(q => q.id), s.box, cur?.id ?? null);
+  cur = all.find(q => q.id === id)!;
+  opts = shuffle(cur.options); picked = -1;
+}
+export function practiceAnswer(i: number, s: State) {
+  if (picked >= 0 || !cur) return;
+  picked = i; s.box[cur.id] = opts[i].ok ? Math.min((s.box[cur.id] ?? 0) + 1, 2) : 0;
+}
+export function practiceView(s: State): string {
+  const l = s.lang;
+  if (!cur) practiceNext(s);
+  const q = cur!, done = all.filter(x => (s.box[x.id] ?? 0) >= 2).length;
+  const buttons = opts.map((o, i) => `<button class="btn opt${picked >= 0 ? (o.ok ? ' ok' : i === picked ? ' bad' : '') : ''}" data-ans="${i}"${picked >= 0 ? ' disabled' : ''}>${esc(tx(o.t, l))}</button>`).join('');
+  const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
+    <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
+  return `${fb(l)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p><div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div><p>${esc(tx(q.prompt, l))}</p>${buttons}${res}`;
+}
