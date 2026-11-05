@@ -6823,5 +6823,773 @@
         "source": "RRS 20.4; Case 54"
       }
     ]
+  },
+  {
+    "n": 43,
+    "section": "4",
+    "title": {
+      "fi": "Vapauttaminen",
+      "sv": "Frikännande",
+      "en": "Exoneration"
+    },
+    "explain": {
+      "fi": "Vapauttaminen tarkoittaa, että vene on rikkonut sääntöä, mutta sitä ei rangaista eikä sen tarvitse ottaa rangaistusta (43.2). Vapautus syntyy kolmella tavalla. (a) Jos toinen vene rikkoo sääntöä ja pakottaa sen seurauksena veneen rikkomaan sääntöä, pakotettu vene vapautetaan; pakottaminen voi ketjuuntua useamman veneen läpi (Case 51), ja se koskee myös muita kuin osan 2 sääntöjä, esimerkiksi merkin koskettamista (Case 28) tai lähtösääntöjä (Case 140). (b) Jos vene purjehtii tilassa tai merkkitilassa, johon sillä on oikeus, ja rikkoo tapahtumassa, jossa toisen veneen piti antaa sille tuo tila, jotakin ryhmän A sääntöä tai sääntöä 15, 16 tai 31, se vapautetaan. Vapautus edellyttää, että vene on nimenomaan tilan sisällä: tilan ulkopuolella, esimerkiksi tilaa liian alhaalla purjehtiva vene, ei vapaudu (Case 25). (c) Kulkuun oikeutettu vene tai tilassa tai merkkitilassa purjehtiva vene vapautetaan säännön 14 rikkomisesta, jos kosketuksesta ei seuraa vahinkoa eikä loukkaantumista; jos vahinkoa syntyy, se rangaistaan (Case 26). Kohta (b) ei koske sääntöä 14, eikä mikään kohta vapauta venettä, joka on itse valinnut ahtaan paikan ilman oikeutta tilaan (Case 146, ’barging’). Protestilautakunnan pitää todeta vapautus, kun edellytykset täyttyvät (Case 51).",
+      "en": "Exoneration means a boat has broken a rule but is not penalized and need not take a penalty (43.2). It arises in three ways. (a) If another boat breaks a rule and as a result compels a boat to break a rule, the compelled boat is exonerated; the compulsion can pass along a chain of boats (Case 51), and it also covers rules outside Part 2, such as touching a mark (Case 28) or starting rules (Case 140). (b) If a boat is sailing within the room or mark-room to which she is entitled and, in an incident with a boat required to give her that room, breaks a Section A rule or rule 15, 16 or 31, she is exonerated. She must actually be within that room: a boat outside it, for example sailing below the room she was given, is not exonerated (Case 25). (c) A right-of-way boat, or one sailing within the room or mark-room to which she is entitled, is exonerated for breaking rule 14 if the contact causes no damage or injury; if there is damage she is penalized (Case 26). Item (b) does not cover rule 14, and nothing exonerates a boat that chose a tight spot without any entitlement to room (Case 146, ‘barging’). A protest committee must find a boat exonerated when the conditions are met (Case 51)."
+    },
+    "note": {
+      "fi": "Kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sääntöä 43, eivätkä kansallisen järjestön määräykset (86.1(a), (b)). Liite F (leijalautailu): 43.1(c) kattaa myös sotkeutumisen, ja uusi kohta 43.1(d) vapauttaa leijalaudan säännön 15 rikkomisesta, jos kosketusta ei ole.",
+      "en": "The notice of race and sailing instructions may not change rule 43, nor may national authority prescriptions (86.1(a), (b)). Appendix F (kiteboarding): 43.1(c) also covers a tangle, and a new rule 43.1(d) exonerates a kiteboard for breaking rule 15 when there is no contact."
+    },
+    "source": "RRS 43, 86.1, Appendix F; Case 19, 25, 26, 28, 51, 63, 140, 146",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "L",
+          "x": 85,
+          "y": 210,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "ML",
+          "x": 120,
+          "y": 175,
+          "rot": -45,
+          "tack": "s",
+          "c": "c"
+        },
+        {
+          "n": "MW",
+          "x": 155,
+          "y": 140,
+          "rot": -45,
+          "tack": "s",
+          "c": "c"
+        },
+        {
+          "n": "W",
+          "x": 190,
+          "y": 105,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "Neljä venettä oikealla halssilla peitossa ennen lähtöä. W ei pysy loitolla, joten MW joutuu laskemaan, ja sen vuoksi myös ML ja L. MW ja ML rikkovat sääntöä 11, mutta W:n rikkomus pakotti ne siihen, joten ne vapautetaan (43.1(a); Case 51). Vain W rangaistaan.",
+      "en": "Four overlapped boats on starboard tack before the start. W does not keep clear, so MW must bear away, and so must ML and L. MW and ML break rule 11, but W's breach compelled them, so they are exonerated (43.1(a); Case 51). Only W is penalized."
+    },
+    "defs": [
+      "Room",
+      "Mark-Room",
+      "Keep Clear"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16"
+        ],
+        "note": {
+          "fi": "Kohta 43.1(b) vapauttaa näiden sääntöjen rikkomisesta, kun vene purjehtii tilassa tai merkkitilassa, johon sillä on oikeus (Case 146, 147).",
+          "en": "Rule 43.1(b) exonerates breaches of these rules when a boat is sailing within the room or mark-room to which she is entitled (Cases 146, 147)."
+        }
+      },
+      {
+        "rules": [
+          "14"
+        ],
+        "note": {
+          "fi": "Kohta 43.1(c): kulkuun oikeutettu tai tilassaan purjehtiva vene vapautuu säännöstä 14 vain, jos vahinkoa tai loukkaantumista ei synny (Case 25, 26).",
+          "en": "Rule 43.1(c): a right-of-way boat or one within her room is exonerated from rule 14 only when there is no damage or injury (Cases 25, 26)."
+        }
+      },
+      {
+        "rules": [
+          "15",
+          "16",
+          "18",
+          "19"
+        ],
+        "note": {
+          "fi": "Oikeus tilaan tai merkkitilaan syntyy näistä säännöistä; vain sen sisällä purjehtiva vene vapautuu kohdan 43.1(b) perusteella.",
+          "en": "Entitlement to room or mark-room comes from these rules; only a boat sailing within it is exonerated under 43.1(b)."
+        }
+      },
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "Merkin koskettaminen vapautetaan, jos toisen veneen rikkomus pakotti siihen (43.1(a); Case 28) tai jos vene purjehti merkkitilassaan (43.1(b)).",
+          "en": "Touching a mark is exonerated if another boat's breach compelled it (43.1(a); Case 28) or if the boat was sailing within her mark-room (43.1(b))."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Vapautetun veneen ei tarvitse ottaa rangaistusta (43.2).",
+          "en": "An exonerated boat need not take a penalty (43.2)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 51,
+        "title": {
+          "fi": "Ketju ennen lähtöä",
+          "en": "A chain before the start"
+        },
+        "text": {
+          "fi": "Neljä isoa venettä, L, ML, MW ja W, purjehti peitossa noin puoli minuuttia ennen lähtöviestiä. MW joutui laskemaan välttääkseen törmäyksen W:hen, ja heti perään ML ja L joutuivat laskemaan välttääkseen tuulen puolellaan olevan veneen. Kosketusta ei tullut. W olisi ylittänyt lähtölinjan liian aikaisin, jos se olisi pysynyt loitolla. Jokainen suojan puolen vene huusi ja protestoi tuulen puolellaan olevia. Lautakunta hylkäsi W:n, MW:n ja ML:n, koska muuten sen mielestä vain uloin tuulen puolen vene voisi koskaan tulla rangaistuksi.",
+          "en": "Four large boats, L, ML, MW and W, were overlapped about half a minute before the starting signal. MW had to bear away to avoid W, and immediately after that ML and L had to bear away to avoid the boat to windward of them. There was no contact. W would have crossed the starting line early had she kept clear. Each leeward boat hailed and protested the boats to windward. The committee disqualified W, MW and ML, reasoning that otherwise only the outermost windward boat could ever be penalized."
+        },
+        "answer": {
+          "fi": "MW:n ja ML:n valitukset hyväksyttiin, ja ne palautettiin tuloksiin. Kumpikin yritti huutamalla välttää laskemisen, eikä kumpikaan laskenut ennen kuin oli pakko välttääkseen kosketuksen; ne noudattivat sääntöä 14. Kumpikin rikkoi sääntöä 11, mutta W:n rikkomus pakotti ne siihen, joten ne vapautettiin kohdan 43.1(a) perusteella. Lautakunnan pitää todeta vapautus, kun pakottaminen on näytetty.",
+          "en": "MW's and ML's appeals were upheld and they were reinstated. Each tried by hailing to avoid having to bear away, and neither bore away before she had to in order to avoid contact; they complied with rule 14. Each broke rule 11, but W's breach compelled them, so they were exonerated under 43.1(a). The committee must find exoneration once compulsion is shown."
+        },
+        "also": [
+          "11",
+          "14"
+        ],
+        "source": "Case 51"
+      },
+      {
+        "case": 146,
+        "title": {
+          "fi": "Kilpailulautakunnan alus ja nousu",
+          "en": "The committee vessel and a luff"
+        },
+        "text": {
+          "fi": "L ja W lähestyivät kilpailulautakunnan alusta oikealla halssilla peitossa kymmenen sekuntia ennen lähtöviestiä. Kun W ohitti aluksen perää, L nousi. W nousi vähän, mutta ei voinut nousta enempää osumatta alukseen. L laski välttääkseen kosketuksen ja protestoi. Lautakunta hylkäsi W:n säännön 11 perusteella: sen mielestä W:n ei olisi pitänyt purjehtia L:n ja aluksen väliin.",
+          "en": "L and W were approaching the race committee vessel overlapped on starboard tack ten seconds before the starting signal. As W was passing astern of the vessel, L luffed. W luffed a little but could not respond further without hitting the vessel. L bore away to avoid contact and protested. The committee disqualified W under rule 11, saying she should not have sailed between L and the vessel."
+        },
+        "answer": {
+          "fi": "W:n valitus hyväksyttiin. Alus oli merkki ja este, mutta ryhmän C säännöt eivät päde, kun veneet lähestyvät purjehduskelpoisen veden ympäröimää lähtömerkkiä lähteäkseen, joten L:n ei tarvinnut antaa W:lle tilaa aluksen ohittamiseen. Ennen nousua W pysyi loitolla. Kun L nousi, sen piti antaa W:lle tilaa pysyä loitolla (16.1), ja tilaan kuuluu tila välttää kosketus ja olla koskettamatta alusta (31). L antoi tilan laskemalla. W rikkoi sääntöä 11, mutta tilassa, johon sillä oli oikeus säännön 16.1 perusteella, joten se vapautettiin (43.1(b)). Jos L olisi pitänyt kurssinsa ja W olisi itse valinnut ahtaan välin (’barging’), W ei olisi vapautunut.",
+          "en": "W's appeal was upheld. The vessel was a mark and an obstruction, but Section C rules do not apply while boats approach a starting mark surrounded by navigable water to start, so L did not have to give W room to pass the vessel. Before the luff W was keeping clear. When L luffed she had to give W room to keep clear (16.1), and that room includes space to avoid contact and not touch the vessel (31). L gave that room by bearing away. W broke rule 11 but within the room to which she was entitled under rule 16.1, so she was exonerated (43.1(b)). Had L held her course and W chosen the narrow gap herself (‘barging’), W would not have been exonerated."
+        },
+        "also": [
+          "11",
+          "16",
+          "31"
+        ],
+        "source": "Case 146"
+      },
+      {
+        "case": 26,
+        "title": {
+          "fi": "Vahinko poistaa vapautuksen",
+          "en": "Damage removes the exoneration"
+        },
+        "text": {
+          "fi": "Soling S ja 505 P olivat eri kilpailuissa ja lähestyivät samaa merkkiä eri halsseilla. P laski spinaakkeria ja nousi jättääkseen merkin vasemmalle; se ei tiennyt, että S:n piti jättää merkki oikealle. P huomasi S:n vasta aivan viime hetkellä. S:n keula osui P:n kylkeen maston takana, ja P vaurioitui. S ei muuttanut suuntaansa missään vaiheessa ja vetosi siihen, että suunnan muuttaminen olisi rikkonut sääntöä 16.1. Lautakunta hylkäsi P:n.",
+          "en": "A Soling, S, and a 505, P, in separate races, approached the same mark on opposite tacks. P was lowering her spinnaker and luffing to leave the mark to port; she did not know S had to leave it to starboard. P noticed S only at the last moment. S's bow struck P's side behind the mast, causing damage. S never changed course and argued that changing course would have broken rule 16.1. The committee disqualified P."
+        },
+        "answer": {
+          "fi": "P hylättiin oikein säännön 10 ja kohdan 14(a) perusteella: sen piti pitää tähystystä ja pysyä loitolla. Sääntö 18 ei pätenyt, koska veneiden ei tarvinnut jättää merkkiä samalle puolelle. Myös S hylättiin. Sen olisi pitänyt toimia kosketuksen välttämiseksi heti, kun oli selvää, ettei P pysy loitolla; nousu olisi antanut P:lle lisää tilaa eikä olisi rikkonut sääntöä 16.1. S rikkoi sääntöä 14, eikä kohta 43.1(c) vapauttanut sitä, koska kosketuksesta syntyi vahinkoa.",
+          "en": "P was correctly disqualified under rules 10 and 14(a): she had to keep a lookout and keep clear. Rule 18 did not apply because the boats were not required to leave the mark on the same side. S was disqualified too. She should have acted to avoid contact as soon as it was clear P was not keeping clear; luffing would have given P more room and would not have broken rule 16.1. S broke rule 14, and 43.1(c) did not exonerate her because the contact caused damage."
+        },
+        "also": [
+          "10",
+          "14",
+          "16",
+          "18"
+        ],
+        "source": "Case 26"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r43-q1",
+        "prompt": {
+          "fi": "W ei pysy loitolla. MW laskee välttääkseen W:n ja joutuu siksi ML:n päälle, ja ML joutuu laskemaan. Kuka rangaistaan säännön 11 rikkomisesta?",
+          "en": "W does not keep clear. MW bears away to avoid W and so closes on ML, and ML has to bear away. Who is penalized for breaking rule 11?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 85,
+              "y": 210,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "ML",
+              "x": 120,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "MW",
+              "x": 155,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "W",
+              "x": 190,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "W, MW ja ML",
+              "en": "W, MW and ML"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain W; MW ja ML vapautetaan",
+              "en": "Only W; MW and ML are exonerated"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei kukaan, koska kosketusta ei tullut",
+              "en": "Nobody, because there was no contact"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 51: MW ja ML rikkovat sääntöä 11, mutta W:n rikkomus pakotti ne siihen, joten ne vapautetaan (43.1(a)). Sääntöä 11 voi rikkoa ilman kosketusta: riittää, että kulkuun oikeutettu vene joutuu väistämään.",
+          "en": "Case 51: MW and ML break rule 11, but W's breach compelled them, so they are exonerated (43.1(a)). Rule 11 can be broken without contact: it is enough that the right-of-way boat has to take avoiding action."
+        },
+        "source": "Case 51; RRS 43.1(a)",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r43-q2",
+        "prompt": {
+          "fi": "Virta painaa veneitä lähtölinjan päätä kohti. P ei pysy loitolla oikean halssin S:stä ja ajaa lähtöviestin jälkeen merkin yli. Merkki pomppaa P:n alta ja osuu S:ään. S ei palaa lähtemään. Mitä S:lle tapahtuu?",
+          "en": "A current sets the boats towards the end of the starting line. P does not keep clear of S on starboard and, after the starting signal, sails over the mark. The mark springs out from under P and hits S. S does not go back to start. What happens to S?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            105
+          ],
+          "boats": [
+            {
+              "n": "S",
+              "x": 175,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 95,
+              "y": 170,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "S vapautetaan merkin koskettamisesta, mutta se ei lähtenyt ja saa DNS-tuloksen",
+              "en": "S is exonerated for touching the mark, but she did not start and is scored DNS"
+            }
+          },
+          {
+            "t": {
+              "fi": "S vapautetaan kaikesta, ja kilpailu pitää mitätöidä, koska merkki liikkui",
+              "en": "S is exonerated from everything, and the race must be abandoned because the mark moved"
+            }
+          },
+          {
+            "t": {
+              "fi": "S rangaistaan säännön 31 perusteella",
+              "en": "S is penalized under rule 31"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 28: P:n rikkomukset saivat merkin osumaan S:ään, joten S vapautetaan säännön 31 rikkomisesta (43.1(a)). Vapautus ei kuitenkaan poista velvollisuutta lähteä (28.1). Merkin liikkuminen ei yksinään oikeuta mitätöimään kilpailua.",
+          "en": "Case 28: P's breaches made the mark touch S, so S is exonerated for breaking rule 31 (43.1(a)). The exoneration does not remove her obligation to start (28.1). A moving mark alone does not justify abandoning the race."
+        },
+        "source": "Case 28",
+        "also": [
+          "10",
+          "31"
+        ]
+      },
+      {
+        "id": "r43-q3",
+        "prompt": {
+          "fi": "Lähdössä L pitää kurssinsa, joka vie juuri kilpailulautakunnan aluksen ohi. W tulee tuulen puolelta ja pyrkii L:n ja aluksen väliin. L joutuu laskemaan välttääkseen kosketuksen. Vapautetaanko W säännön 11 rikkomisesta?",
+          "en": "At the start L holds a course that just clears the committee vessel. W comes from windward and tries to squeeze between L and the vessel. L has to bear away to avoid contact. Is W exonerated for breaking rule 11?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 90,
+              "y": 40,
+              "w": 70,
+              "h": 26
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 150,
+              "y": 180,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 195,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska alus on merkki ja sääntö 18 antaa sille tilaa",
+              "en": "Yes, because the vessel is a mark and rule 18 gives her room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: ryhmä C ei päde lähdössä, eikä W:llä ollut oikeutta tilaan",
+              "en": "No: Section C does not apply at the start, and W had no entitlement to room"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 146: kun veneet lähestyvät purjehduskelpoisen veden ympäröimää lähtömerkkiä lähteäkseen, ryhmän C säännöt eivät päde. Jos L pitää kurssinsa, se ei muuta suuntaa eikä säännön 16.1 tilaa synny. W valitsi välin itse, joten se ei vapaudu kohtien 43.1(a) tai 43.1(b) perusteella.",
+          "en": "Case 146: while boats approach a starting mark surrounded by navigable water to start, Section C rules do not apply. If L holds her course she does not change course and no rule 16.1 room arises. W chose the gap herself, so she is not exonerated under 43.1(a) or 43.1(b)."
+        },
+        "source": "Case 146; RRS 43.1, Section C preamble",
+        "also": [
+          "11",
+          "16",
+          "18"
+        ]
+      },
+      {
+        "id": "r43-q4",
+        "prompt": {
+          "fi": "Merkin kierron jälkeen OL nousee kohti seuraavaa merkkiä. IW nousee hitaammin, ja sen puomi koskettaa OL:ää ilman vahinkoa. Molemmat olisivat voineet välttää kosketuksen. Kumpi vapautetaan säännön 14 rikkomisesta?",
+          "en": "After rounding a mark OL luffs towards the next mark. IW luffs more slowly and her boom touches OL without damage. Both could have avoided the contact. Which one is exonerated for breaking rule 14?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            105,
+            160
+          ],
+          "boats": [
+            {
+              "n": "IW",
+              "x": 135,
+              "y": 120,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "OL",
+              "x": 160,
+              "y": 145,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Molemmat, koska vahinkoa ei syntynyt",
+              "en": "Both, because there was no damage"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "OL kulkuun oikeutettuna veneenä; IW ei, koska se ei ollut tilassaan",
+              "en": "OL as the right-of-way boat; IW is not, as she was not within her room"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei kumpikaan",
+              "en": "Neither"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 25: merkkitila oli annettu, joten sääntö 18 ei enää pätenyt; IW:n piti pysyä loitolla (11). OL oli kulkuun oikeutettu vene, joten kohta 43.1(c) vapauttaa sen. IW purjehti tilan alapuolella, ei sen sisällä, eikä ollut kulkuun oikeutettu, joten se rikkoi sääntöjä 11 ja 14 ilman vapautusta.",
+          "en": "Case 25: mark-room had been given, so rule 18 no longer applied; IW had to keep clear (11). OL was the right-of-way boat, so 43.1(c) exonerates her. IW was sailing below, not within, her room and did not have right of way, so she broke rules 11 and 14 without exoneration."
+        },
+        "source": "Case 25; RRS 43.1(b), 43.1(c)",
+        "also": [
+          "11",
+          "14",
+          "16",
+          "18"
+        ]
+      },
+      {
+        "id": "r43-q5",
+        "prompt": {
+          "fi": "S on kulkuun oikeutettu ja olisi voinut välttää kosketuksen P:n kanssa. Kosketuksesta jää P:n kylkeen naarmu, joka ei heikennä veneen toimivuutta eikä arvoa. Vapautetaanko S säännön 14 rikkomisesta?",
+          "en": "S has right of way and could have avoided contact with P. The contact leaves a scratch on P's side that does not reduce the boat's function or value. Is S exonerated for breaking rule 14?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 160,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 128,
+              "y": 140,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei: mikä tahansa jälki on vahinkoa",
+              "en": "No: any mark on the boat is damage"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Todennäköisesti kyllä: vahinkoa arvioidaan sen mukaan, heikkeneekö arvo tai toimivuus",
+              "en": "Probably yes: damage is judged by whether value or function is impaired"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 19: säännöissä vahingolla ei ole erityismerkitystä. Arvioinnissa kysytään esimerkiksi, aleniko veneen tai sen osan markkina-arvo tai heikkenikö jonkin varusteen toimivuus. Jos ei, kohta 43.1(c) vapauttaa kulkuun oikeutetun veneen. Ratkaisu on protestilautakunnan tosiasiakysymys.",
+          "en": "Case 19: ‘damage’ has no special meaning in the rules. The questions are, for example, whether the market value of the boat or any part was reduced, or any item made less functional. If not, 43.1(c) exonerates the right-of-way boat. It is a question of fact for the protest committee."
+        },
+        "source": "Case 19; RRS 43.1(c)",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "r43-q6",
+        "prompt": {
+          "fi": "MW tietää, että W:n rikkomus pakotti sen rikkomaan sääntöä 11. Pitääkö sen silti tehdä kahden kierroksen rangaistus varmuuden vuoksi?",
+          "en": "MW knows W's breach compelled her to break rule 11. Must she still do a Two-Turns Penalty to be safe?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 85,
+              "y": 210,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "ML",
+              "x": 120,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "MW",
+              "x": 155,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "W",
+              "x": 190,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se rikkoi sääntöä",
+              "en": "Yes, because she broke a rule"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: vapautetun veneen ei tarvitse ottaa rangaistusta, eikä sitä rangaista",
+              "en": "No: an exonerated boat need not take a penalty and shall not be penalized"
+            }
+          }
+        ],
+        "why": {
+          "fi": "43.2: vapautettu vene ei ole velvollinen ottamaan rangaistusta, eikä sitä saa rangaista tuon säännön rikkomisesta. Case 51:n mukaan vapautus syntyy jo tapahtumahetkellä.",
+          "en": "43.2: an exonerated boat is not required to take a penalty and shall not be penalized for that breach. According to Case 51 the exoneration exists at the time of the incident."
+        },
+        "source": "RRS 43.2; Case 51",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "r43-q7",
+        "prompt": {
+          "fi": "A ja B kiertävät merkkiä peitossa, B ulompana, ja jättävät merkkiin ison välin. C tulee perästä ja purjehtii väliin, vaikka sillä ei ole oikeutta merkkitilaan. Jos B sulkee välin merkkitilansa puitteissa ja rikkoo samalla sääntöä 11 tai 16, mitä seuraa?",
+          "en": "A and B are rounding a mark overlapped, B outside, leaving a big gap at the mark. C comes from astern and sails into the gap although she is not entitled to mark-room. If B closes the gap within her mark-room and in doing so breaks rule 11 or 16, what follows?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            70,
+            80
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 120,
+              "rot": -90,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 150,
+              "y": 150,
+              "rot": -90,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "C",
+              "x": 225,
+              "y": 95,
+              "rot": -90,
+              "tack": "s",
+              "c": "c"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B rangaistaan, koska C oli jo välissä",
+              "en": "B is penalized, because C was already in the gap"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "B vapautetaan (43.1(b)); C käytti väliä omalla vastuullaan, ja B:tä rajoittaa vain sääntö 14",
+              "en": "B is exonerated (43.1(b)); C used the gap at her own risk, and only rule 14 limits B"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 63: kun tilaa jää vapaaksi veneelle, jolla ei ole siihen oikeutta, se saa käyttää tilaa omalla vastuullaan. Jos merkkitilaan oikeutettu vene sulkee välin merkkitilansa sisällä, se vapautetaan ryhmän A sääntöjen sekä sääntöjen 15 ja 16 rikkomisesta. Sääntö 14 rajoittaa nopeaa ja aggressiivista sulkemista.",
+          "en": "Case 63: when space is left open to a boat not entitled to it, she may use it at her own risk. If the boat entitled to mark-room closes the gap within her mark-room, she is exonerated for breaking Section A rules and rules 15 and 16. Rule 14 limits a rapid, aggressive closing."
+        },
+        "source": "Case 63; RRS 43.1(b)",
+        "also": [
+          "11",
+          "14",
+          "16",
+          "18"
+        ]
+      },
+      {
+        "id": "r43-q8",
+        "prompt": {
+          "fi": "U-lipun säännön ollessa voimassa B rikkoo osan 2 sääntöä ja pakottaa A:n lähtölinjan yli viimeisellä minuutilla. A jatkaa purjehtimista palaamatta lähtöpuolelle. Mikä on A:n tulos, kun B todetaan syylliseksi?",
+          "en": "With the U flag rule in force, B breaks a Part 2 rule and compels A across the starting line in the last minute. A carries on without returning to the pre-start side. What is A's score once B is found to have broken the rule?"
+        },
+        "scene": {
+          "h": 260,
+          "track": [
+            [
+              20,
+              95
+            ],
+            [
+              280,
+              95
+            ]
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 92,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 112,
+              "y": 128,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Maaliintulosija, koska A vapautetaan",
+              "en": "Her finishing place, because A is exonerated"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "OCS: A vapautetaan säännön 30.3 rikkomisesta, mutta se ei lähtenyt",
+              "en": "OCS: A is exonerated for breaking rule 30.3, but she did not start"
+            }
+          },
+          {
+            "t": {
+              "fi": "UFD jää voimaan",
+              "en": "UFD stands"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 140: B:n rikkomus pakotti A:n rikkomaan sääntöä 30.3, joten A vapautetaan siitä (43.1(a)). B ei kuitenkaan estänyt A:ta palaamasta ja lähtemästä määritelmän mukaisesti, joten A ei lähtenyt ja sen tulos on OCS. Jos A olisi palannut ja lähtenyt, sen olisi kuulunut saada maaliintulosijansa.",
+          "en": "Case 140: B's breach compelled A to break rule 30.3, so A is exonerated for it (43.1(a)). But B did not prevent A from returning and starting as defined, so A did not start and her score is OCS. Had A returned and started, she would have been entitled to her finishing place."
+        },
+        "source": "Case 140; Definition Start",
+        "also": [
+          "28",
+          "30"
+        ]
+      },
+      {
+        "id": "r43-q9",
+        "prompt": {
+          "fi": "Purjehdusohjeissa lukee: ”Sääntöä 43.1(c) ei sovelleta; jokainen kosketus rangaistaan.” Onko määräys pätevä?",
+          "en": "The sailing instructions say: ‘Rule 43.1(c) does not apply; every contact will be penalized.’ Is this valid?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "L",
+              "x": 85,
+              "y": 210,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "ML",
+              "x": 120,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "MW",
+              "x": 155,
+              "y": 140,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "W",
+              "x": 190,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, purjehdusohjeet voivat muuttaa kilpailusääntöjä",
+              "en": "Yes, sailing instructions may change racing rules"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntöä 43 ei saa muuttaa purjehdusohjeilla eikä kilpailukutsulla",
+              "en": "No: rule 43 may not be changed by the sailing instructions or the notice of race"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(a) luettelee säännöt, joita kansallisen järjestön määräykset eivät saa muuttaa, ja sääntö 43 on luettelossa. 86.1(b): kilpailukutsu tai purjehdusohjeet eivät saa muuttaa yhtäkään näistä säännöistä. Liitteet voivat silti muuttaa sääntöä, kuten liite F tekee.",
+          "en": "86.1(a) lists rules that national authority prescriptions may not change, and rule 43 is on the list. 86.1(b): the notice of race and sailing instructions may not change any of those rules. Appendices may still change it, as Appendix F does."
+        },
+        "source": "RRS 86.1(a), 86.1(b), Appendix F",
+        "also": [
+          "86"
+        ]
+      }
+    ]
   }
 ]

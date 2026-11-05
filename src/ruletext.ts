@@ -38,13 +38,14 @@ export function pageLines(all: Item[]): string[] {
   });
 }
 
-const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; furniture: RegExp; see: string[]; section: RegExp; marker: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*SECTION D$/],
-    furniture: /^\s*(DEFINITIONS|Part 2\s+WHEN BOATS MEET|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/, marker: /WHEN BOATS MEET/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^RYHMÄ D$/],
-    furniture: /^\s*(MÄÄRITELMÄT|Osa 2\s+KUN VENEET KOHTAAVAT|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/, marker: /KUN VENEET KOHTAAVAT/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^\s*AVDELNING D/],
-    furniture: /^\s*(DEFINITIONER|\s+DEL 2 – NÄR BÅTAR MÖTS|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/, marker: /NÄR BÅTAR MÖTS/ },
+// rules: single rules outside Part 2, from their heading line up to the next rule.
+const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*SECTION D$/], rules: [[/^43\s+EXONERATION$/, /^44\s+PENALTIES/]],
+    furniture: /^\s*(DEFINITIONS|Part [24]\s+(WHEN BOATS MEET|OTHER REQUIREMENTS WHEN RACING)|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^RYHMÄ D$/], rules: [[/^43\s+VAPAUTTAMINEN$/, /^44\s+TAPAHTUMAN/]],
+    furniture: /^\s*(MÄÄRITELMÄT|Osa [24]\s+(KUN VENEET KOHTAAVAT|MUUT VAATIMUKSET KILPAILTAESSA)|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^\s*AVDELNING D/], rules: [[/^43\s+FRIKÄNNANDE$/, /^44\s+STRAFF/]],
+    furniture: /^\s*(DEFINITIONER|\s+DEL 2 – NÄR BÅTAR MÖTS|\s+DEL 4 – ANDRA KRAV NÄR BÅTAR KAPPSEGLAR|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -126,12 +127,21 @@ function definitions(all: string[], lang: Lang): Record<string, Block[]> {
   return res;
 }
 
-function part2(all: string[], lang: Lang): { titles: Record<string, string>; blocks: Block[] } {
-  const cfg = CFG[lang], ls = cut(all, cfg.part), untitled = new Set(SKELETON.untitled);
-  const titles: Record<string, string> = {}, chunks: [string, string[], number][] = [];
-  let cur: [string, string[], number] = ['P2', [], -1];
-  let titleNext: string | null = lang === 'sv' ? null : 'P2';
-  if (lang === 'sv') titles.P2 = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
+function rules(all: string[], lang: Lang): { titles: Record<string, string>; blocks: Block[] } {
+  const titles: Record<string, string> = {};
+  const part = clauses(cut(all, CFG[lang].part), lang, titles, 'P2');
+  const extra = CFG[lang].rules.flatMap(([start, end]) => {
+    const s = all.findIndex(l => start.test(l)), e = all.findIndex((l, i) => i > s && end.test(l));
+    return s < 0 ? [] : clauses(all.slice(s, e < 0 ? undefined : e), lang, titles, '');
+  });
+  return { titles, blocks: [...part, ...extra] };
+}
+
+function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first: string): Block[] {
+  const cfg = CFG[lang], untitled = new Set(SKELETON.untitled), chunks: [string, string[], number][] = [];
+  let cur: [string, string[], number] = [first, [], -1];
+  let titleNext: string | null = lang === 'sv' || !first ? null : first;
+  if (lang === 'sv' && first) titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l);
     if (sm) {
@@ -142,18 +152,19 @@ function part2(all: string[], lang: Lang): { titles: Record<string, string>; blo
     } else if (cm && !ITEM.test(l)) {
       chunks.push(cur); cur = [cm[2], [], cm[1].length];
       let t = cm[3].trim();
+      if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && isUpper(ls[i + 1].trim()) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
       if (untitled.has(cur[0])) cur[1].push(cm[1] + ' '.repeat(cm[2].length + 2) + t); // e.g. 16.1: the heading line is body text
       else titles[cur[0]] = t.replace(/\s+/g, ' ');
     } else cur[1].push(l);
   }
   chunks.push(cur);
-  return { titles, blocks: chunks.flatMap(c => blocks(c[1], lang, c[0], c[2])) };
+  return chunks.flatMap(c => blocks(c[1], lang, c[0], c[2]));
 }
 
 // Parses one rulebook and checks it block by block against the clause-id list. Returns null with a reason on mismatch.
 export function parseBook(lines: string[], lang: Lang, file: string): { text: LangText } | { error: string } {
-  const p = part2(lines, lang), d = definitions(lines, lang);
+  const p = rules(lines, lang), d = definitions(lines, lang);
   const got: Block[] = [...p.blocks, ...DEFS.flatMap(x => d[x.en] ?? [])];
   const want = SKELETON.blocks;
   const bad = want.findIndex(([id, dd], i) => got[i]?.[0] !== id || got[i][1] !== dd);
@@ -171,3 +182,6 @@ export async function readPdf(pdfjs: { getDocument: (o: object) => { promise: Pr
   await task.destroy();
   return lines;
 }
+
+// For extending the scope: parse without the clause-id check (used by a local dump, not by the app).
+export const parseRaw = (lines: string[], lang: Lang) => ({ ...rules(lines, lang), defs: definitions(lines, lang) });

@@ -25,14 +25,14 @@ let current: Def | null = null;
 let currentRule: (typeof rules)[number] | null = null;
 let query = '';
 let flash = '';
-let text = loadText();
+let { text, stale } = loadText();
 let textMsg = '';
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
   const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' ? 'practice' : 'rules';
   const nav = (['list', 'rules', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', practice: 'tabPractice' }[v])}</button>`).join('');
-  const foot = `<footer><span class="mute">${Object.keys(text).length ? `${t('textLoaded')}: ${Object.keys(text).map(x => x.toUpperCase()).join(', ')}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".pdf,application/pdf" multiple hidden><p class="mute" id="timpmsg">${esc(textMsg)}</p>
+  const foot = `<footer><span class="mute">${Object.keys(text).length ? `${t('textLoaded')}: ${Object.keys(text).map(x => x.toUpperCase()).join(', ')}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".pdf,application/pdf" multiple hidden><p class="mute" id="timpmsg">${esc(textMsg || (stale ? t('textStale') : ''))}</p>
     <details class="help"><summary>${t('textHow')}</summary><p>${t('textIntro')}</p><ol>${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></details></footer>`;
   return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
 }
@@ -109,7 +109,7 @@ root.addEventListener('change', async e => {
       }
       if (!saveText(text)) msgs.push(t('textFull'));
     } catch (err) { msgs.push(`${t('textNotBook')} (${err instanceof Error ? err.message : err})`); }
-    textMsg = msgs.join(' · '); el.value = ''; render(); return;
+    textMsg = msgs.join(' · '); stale = false; el.value = ''; render(); return;
   }
   if (el.id !== 'imp' || !el.files?.[0]) return;
   const box = importBox(await el.files[0].text(), questionIds());

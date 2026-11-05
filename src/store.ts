@@ -33,10 +33,12 @@ export type { State };
 export type TextStore = Partial<Record<Lang, LangText & { sig: string }>>;
 const TK = 'sailrules.text.v2';
 export const textSig = () => (ids.blocks as [string, number][]).map(b => b[0]).join('|');
-export function loadText(): TextStore {
+// stale: languages imported before the app's clause list changed (they must be imported again).
+export function loadText(): { text: TextStore; stale: boolean } {
   try {
     const d = JSON.parse(localStorage.getItem(TK) || '{}') as TextStore, sig = textSig();
-    return Object.fromEntries(Object.entries(d).filter(([, v]) => v?.sig === sig));
-  } catch { return {}; }
+    const ok = Object.entries(d).filter(([, v]) => v?.sig === sig);
+    return { text: Object.fromEntries(ok), stale: ok.length < Object.keys(d).length };
+  } catch { return { text: {}, stale: false }; }
 }
 export function saveText(t: TextStore): boolean { try { localStorage.setItem(TK, JSON.stringify(t)); return true; } catch { return false; } }
