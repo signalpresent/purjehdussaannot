@@ -7,6 +7,13 @@ const ml = (m: any, where: string) => { assert.ok(m?.fi?.trim() && m?.en?.trim()
 const scene = (s: any, where: string) => {
   assert.ok(s?.boats?.length, `${where}: boats`);
   if (s.mark) assert.ok(s.mark[0] > 0 && s.mark[0] < 300 && s.mark[1] > 0 && s.mark[1] < (s.h ?? 260), `${where}: mark out of frame`);
+  if (s.zone) {
+    assert.ok(s.mark, `${where}: zone needs mark`);
+    const r = 180 * (s.k ?? 1);   // a clipped zone would mislead
+    assert.ok(s.mark[0] - r >= 0 && s.mark[0] + r <= 300 && s.mark[1] - r >= 0 && s.mark[1] + r <= (s.h ?? 260), `${where}: zone does not fit the frame`);
+  }
+  assert.ok((s.k ?? 1) > 0 && (s.k ?? 1) <= 1, `${where}: k`);
+  for (const o of s.obst ?? []) assert.ok(o.x >= 0 && o.y >= 0 && o.x + o.w <= 300 && o.y + o.h <= (s.h ?? 260), `${where}: obstruction out of frame`);
   for (const b of s.boats) { assert.ok(b.x >= 20 && b.x <= 280 && b.y >= 20 && b.y <= (s.h ?? 260) - 20, `${where}: boat ${b.n} out of frame`); assert.ok(['p', 's'].includes(b.tack), `${where}: tack`); }
 };
 const ids = new Set<string>();

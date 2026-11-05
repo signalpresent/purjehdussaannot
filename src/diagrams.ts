@@ -47,18 +47,25 @@ const boat = (cls: string, name: string, x: number, y: number, id = '') =>
   `<g${id ? ` id="${id}"` : ''} transform="translate(${x} ${y})"><path class="${cls}" d="${HULL}"/>${sailPath(false)}<text class="lb" x="4" y="40">${name}</text></g>`;
 
 export interface SceneBoat { n: string; x: number; y: number; rot: number; tack: 'p' | 's'; c?: 'a' | 'b' | 'c'; ghost?: boolean }
-export interface Scene { h?: number; boats: SceneBoat[]; track?: [number, number][]; mark?: [number, number] }
+export interface Obstruction { x: number; y: number; w: number; h: number }
+// k = boat scale (1 = hull length 60); with k < 1 labels sit beside the boat. zone: dashed zone (3 hull lengths) around the mark.
+export interface Scene { h?: number; k?: number; boats: SceneBoat[]; track?: [number, number][]; mark?: [number, number]; zone?: boolean; obst?: Obstruction[] }
+export const zoneRadius = (k = 1) => 3 * 60 * k;
 const colour: Record<string, string> = { A: 'a', B: 'b', C: 'c' };
 // Static scene: wind from the top, x/y = boat centre, rot in degrees clockwise (0 = bow up), tack p = port, s = starboard.
 export function sceneSvg(sc: Scene, label: string): string {
+  const k = sc.k ?? 1;
   const boats = sc.boats.map(b => {
     const dx = b.tack === 'p' ? -4 : 4;
-    return `<g${b.ghost ? ' class="ghost"' : ''}><g transform="translate(${b.x} ${b.y}) rotate(${b.rot}) translate(0 -30)"><path class="h-${b.c ?? colour[b.n] ?? 'a'}" d="${HULL}"/>${sailPath(b.tack === 'p')}` +
-      `<text class="lb" x="${dx}" y="35" transform="rotate(${-b.rot} ${dx} 35)" dominant-baseline="central">${b.n}</text></g></g>`;
+    const inside = k < 1 ? '' : `<text class="lb" x="${dx}" y="35" transform="rotate(${-b.rot} ${dx} 35)" dominant-baseline="central">${b.n}</text>`;
+    const beside = k < 1 ? `<text class="lo" x="${b.x + 16}" y="${b.y}" dominant-baseline="central">${b.n}</text>` : '';
+    return `<g${b.ghost ? ' class="ghost"' : ''}><g transform="translate(${b.x} ${b.y}) rotate(${b.rot}) scale(${k}) translate(0 -30)"><path class="h-${b.c ?? colour[b.n] ?? 'a'}" d="${HULL}"/>${sailPath(b.tack === 'p')}${inside}</g>${beside}</g>`;
   }).join('');
+  const obst = (sc.obst ?? []).map(o => `<rect class="ob" x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="4"/>`).join('');
+  const zone = sc.zone && sc.mark ? `<circle class="zn" cx="${sc.mark[0]}" cy="${sc.mark[1]}" r="${zoneRadius(k)}"/>` : '';
   const track = sc.track ? `<polyline class="trk" points="${sc.track.map(p => p.join(',')).join(' ')}"/>` : '';
   const mark = sc.mark ? `<circle class="mk" cx="${sc.mark[0]}" cy="${sc.mark[1]}" r="7"/>` : '';
-  return `<svg viewBox="0 0 300 ${sc.h ?? 260}" role="img" aria-label="${label.replace(/"/g, '&quot;')}"><line class="wind" x1="270" y1="8" x2="270" y2="32"/><polygon class="wind" points="270,40 264,30 276,30"/>${track}${mark}${boats}</svg>`;
+  return `<svg viewBox="0 0 300 ${sc.h ?? 260}" role="img" aria-label="${label.replace(/"/g, '&quot;')}"><line class="wind" x1="270" y1="8" x2="270" y2="32"/><polygon class="wind" points="270,40 264,30 276,30"/>${obst}${zone}${track}${mark}${boats}</svg>`;
 }
 
 const line = (y: number) => `<line class="aft" x1="0" x2="300" y1="${y}" y2="${y}"/>`;
