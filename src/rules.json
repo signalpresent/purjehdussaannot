@@ -4607,5 +4607,908 @@
         ]
       }
     ]
+  },
+  {
+    "n": "18.3",
+    "section": "2C",
+    "title": {
+      "fi": "Vastakäännös vyöhykkeessä",
+      "sv": "Stagvända i zonen",
+      "en": "Tacking in the Zone"
+    },
+    "explain": {
+      "fi": "Kohta 18.3 koskee yhtä tilannetta: merkki jätetään vasemmalle, ja vene tekee vyöhykkeellä vastakäännöksen vasemmalta oikealle halssille. Sen ja oikealla halssilla olevan, merkille yltävän veneen välillä sääntö 18.2 ei päde. Yltää tarkoittaa, että vene pystyy ohittamaan merkin tuulen puolelta oikealta puolelta vaihtamatta halssia (määritelmä). Jos oikean halssin vene on ollut oikealla halssilla vyöhykkeelle tulostaan asti, vastakäännöksen tehnyt vene (a) ei saa pakottaa sitä purjehtimaan tiukasti vastaista suuntaa ylemmäs välttääkseen kosketuksen ja (b) sen pitää antaa merkkitilaa, jos oikean halssin vene pääsee peittoon sen sisäpuolelle. Jos oikean halssin vene on tehnyt vastakäännöksen vasta vyöhykkeellä, (a) ja (b) eivät päde, ja jäljelle jäävät ryhmän A ja B säännöt. Vastakäännöksen tekijää koskee lisäksi sääntö 13, kunnes se on tiukasti vastaisessa suunnassa, ja sen jälkeen sääntö 15, jos se saa kulkuoikeuden.",
+      "en": "Rule 18.3 covers one situation: the mark is to be left to port, and a boat tacks from port to starboard in the zone. Between her and a starboard-tack boat that is fetching the mark, rule 18.2 does not apply. Fetching means the boat can pass to windward of the mark and leave it on the required side without changing tack (definition). If the starboard-tack boat has been on starboard since entering the zone, the boat that tacked (a) must not cause her to sail above close-hauled to avoid contact and (b) must give her mark-room if she becomes overlapped inside. If the starboard-tack boat only tacked in the zone, (a) and (b) do not apply and the Section A and B rules remain. The tacking boat is also bound by rule 13 until she is close-hauled, and then by rule 15 if she acquires right of way."
+    },
+    "note": {
+      "fi": "Liitteessä B (purjelautailu) kohta 18.3 poistetaan. Liitteissä C (matchipurjehdus) ja F (leijalautailu) sääntö 18 kirjoitetaan uudelleen, eikä tätä kohtaa ole niissä sellaisenaan.",
+      "en": "Appendix B (windsurfing) deletes 18.3. Appendices C (match racing) and F (kiteboarding) rewrite rule 18, and this provision does not appear in them as such."
+    },
+    "source": "RRS 18.3, 13, 15, Definition Fetching, Appendices B, C, F; Case 93, 95",
+    "scene": {
+      "h": 260,
+      "k": 0.5,
+      "mark": [
+        130,
+        110
+      ],
+      "zone": true,
+      "boats": [
+        {
+          "n": "S",
+          "x": 210,
+          "y": 175,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "P",
+          "x": 150,
+          "y": 150,
+          "rot": 0,
+          "tack": "p",
+          "c": "b"
+        }
+      ],
+      "track": [
+        [
+          95,
+          205
+        ],
+        [
+          140,
+          160
+        ]
+      ]
+    },
+    "caption": {
+      "fi": "P tuli vasemmalla halssilla ja tekee vastakäännöstä vyöhykkeellä (merkki jätetään vasemmalle). S on oikealla halssilla ja yltää merkille. Niiden välillä 18.2 ei päde. Jos S on ollut oikealla halssilla vyöhykkeelle tulostaan asti, P ei saa pakottaa S:ää tiukasti vastaista ylemmäs, ja sen pitää antaa S:lle merkkitilaa, jos S pääsee sen sisäpuolelle.",
+      "en": "P came on port tack and is tacking in the zone (mark to be left to port). S is on starboard and fetching the mark. Between them 18.2 does not apply. If S has been on starboard since entering the zone, P must not force S above close-hauled and must give S mark-room if S gets inside her."
+    },
+    "defs": [
+      "Fetching",
+      "Zone",
+      "Mark-Room"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18.2"
+        ],
+        "note": {
+          "fi": "Kohta 18.3 syrjäyttää 18.2:n vain tämän veneparin välillä.",
+          "en": "18.3 displaces 18.2 only between this pair of boats."
+        }
+      },
+      {
+        "rules": [
+          "13",
+          "15",
+          "10",
+          "11"
+        ],
+        "note": {
+          "fi": "Vastakäännöksen aikana pätee 13, sen jälkeen 15 ja tilanteen mukaan 10 tai 11 (Case 95).",
+          "en": "During the tack rule 13 applies, then 15, and then 10 or 11 as the case may be (Case 95)."
+        }
+      },
+      {
+        "rules": [
+          "43",
+          "31"
+        ],
+        "note": {
+          "fi": "Jos merkkitilaan oikeutettu vene joutuu koskettamaan merkkiä purjehtiessaan merkkitilassaan, se vapautetaan säännön 31 rikkomuksesta (43.1(b); Case 95).",
+          "en": "If a boat entitled to mark-room is compelled to touch the mark while sailing within it, she is exonerated for breaking rule 31 (43.1(b); Case 95)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 95,
+        "title": {
+          "fi": "Vastakäännös tuulen puolelle ja heiluva perä",
+          "en": "Tacking to windward and a swinging stern"
+        },
+        "text": {
+          "fi": "Jagga ja Freebird lähestyivät tuulenpuoleista merkkiä vasemmalla halssilla peitossa, Freebird yhdestä kahteen rungonpituutta Jaggan suojan puolella. Freebird teki vastakäännöksen ja tuli vyöhykkeelle oikealla halssilla. Jagga teki sen jälkeen vastakäännöksen Freebirdin tuulen puolelle. Jagga kääntyi ylemmäs niin, että sen heilahtava perä pakotti Freebirdin väistämään, ja Freebird kosketti merkkiä. Lautakunta hylkäsi Jaggan säännön 18.3 perusteella; Jagga vetosi siihen, että se oli tullut vyöhykkeelle sisäpuolisena veneenä.",
+          "en": "Jagga and Freebird approached the windward mark overlapped on port tack, Freebird one to two lengths to leeward. Freebird tacked and entered the zone on starboard. Jagga then tacked to windward of Freebird. Jagga luffed so that her swinging stern forced Freebird to take avoiding action, and Freebird touched the mark. The committee disqualified Jagga under 18.3; Jagga argued she had entered the zone as the inside boat."
+        },
+        "answer": {
+          "fi": "Valitus hylättiin. Jaggan merkkitila 18.2(a)(1):n perusteella päättyi, kun Freebird ohitti tuulensilmän, koska veneet olivat silloin eri halsseilla kryssillä (18.1(a)(1)). Kun Jagga ohitti tuulensilmän vyöhykkeellä Freebirdin yltäessä merkille, 18.3 alkoi. Freebird oli ollut oikealla halssilla vyöhykkeelle tulostaan asti ja jäi Jaggan sisäpuolelle, joten Jaggan piti antaa sille merkkitilaa (18.3(b)). Jagga rikkoi sääntöjä 18.3(b) ja 11. Freebird rikkoi sääntöä 31, mutta se vapautettiin (43.1(b)).",
+          "en": "The appeal was dismissed. Jagga's mark-room under 18.2(a)(1) ended when Freebird passed head to wind, as the boats were then on opposite tacks on a beat (18.1(a)(1)). When Jagga passed head to wind in the zone with Freebird fetching, 18.3 began. Freebird had been on starboard since entering the zone and was inside Jagga, so Jagga had to give her mark-room (18.3(b)). Jagga broke 18.3(b) and rule 11. Freebird broke rule 31 but was exonerated (43.1(b))."
+        },
+        "also": [
+          "11",
+          "31",
+          "43"
+        ],
+        "source": "Case 95"
+      },
+      {
+        "case": 93,
+        "title": {
+          "fi": "Tarpeeksi korkealla tehty vastakäännös",
+          "en": "A tack made high enough"
+        },
+        "text": {
+          "fi": "W ja L lähestyivät eri halsseilla tuulenpuoleista merkkiä, joka jätetään vasemmalle. W teki vastakäännöksen vyöhykkeellä niin paljon layline-linjan yläpuolella, että L mahtui sen ja merkin väliin. L tuli W:n perästä, sai peiton sen suojan puolelle ja kääntyi heti ylös osuen W:hen. L väitti valituksessaan, että W rikkoi kohtaa 18.3.",
+          "en": "W and L approached a windward mark to be left to port on opposite tacks. W tacked in the zone far enough above the layline that L could fit between her and the mark. L came from astern of W, became overlapped to leeward and luffed at once, hitting W. In her appeal L argued that W had broken 18.3."
+        },
+        "answer": {
+          "fi": "W ei rikkonut kohtaa 18.3. Kohta 18.3 alkoi, kun W ohitti tuulensilmän vyöhykkeellä, ja 18.3(b) olisi vaatinut W:tä antamaan L:lle merkkitilaa sen päästessä sisäpuolelle. W:n kurssi oli kuitenkin niin paljon layline-linjan yläpuolella, että L:llä oli tilaa purjehtia merkille ja kiertää se. L itse rikkoi sääntöjä 15 ja 16.1 kääntyessään ylös heti peiton synnyttyä (ks. sääntö 15).",
+          "en": "W did not break 18.3. It began when W passed head to wind in the zone, and 18.3(b) would have required W to give L mark-room once L got inside. But W's course was far enough above the layline that L had room to sail to the mark and round it. L herself broke rules 15 and 16.1 by luffing immediately after the overlap began (see rule 15)."
+        },
+        "also": [
+          "15",
+          "16"
+        ],
+        "source": "Case 93"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r183-q1",
+        "prompt": {
+          "fi": "Merkki jätetään vasemmalle. P tekee vyöhykkeellä vastakäännöksen vasemmalta oikealle halssille. S on oikealla halssilla ja yltää merkille. Päteekö 18.2 niiden välillä?",
+          "en": "The mark is to be left to port. P tacks from port to starboard in the zone. S is on starboard and fetching the mark. Does 18.2 apply between them?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 210,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 150,
+              "y": 150,
+              "rot": 0,
+              "tack": "p",
+              "c": "b"
+            }
+          ],
+          "track": [
+            [
+              95,
+              205
+            ],
+            [
+              140,
+              160
+            ]
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, sen mukaan, kumpi oli vyöhykkeellä ensin",
+              "en": "Yes, according to which boat was in the zone first"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 18.3 syrjäyttää 18.2:n tämän veneparin välillä",
+              "en": "No: 18.3 displaces 18.2 between this pair"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.3:n ensimmäinen virke: kun vene ohittaa tuulensilmän vasemmalta oikealle halssille vasemmalle jätettävän merkin vyöhykkeellä, 18.2 ei päde sen ja oikealla halssilla olevan, merkille yltävän veneen välillä.",
+          "en": "First sentence of 18.3: when a boat passes head to wind from port to starboard in the zone of a mark to be left to port, 18.2 does not apply between her and a starboard-tack boat fetching the mark."
+        },
+        "source": "RRS 18.3"
+      },
+      {
+        "id": "r183-q2",
+        "prompt": {
+          "fi": "S on ollut oikealla halssilla vyöhykkeelle tulostaan asti ja yltää merkille. P päättää vastakäännöksensä aivan S:n edessä, ja S joutuu nousemaan tiukasti vastaista suuntaa ylemmäs välttääkseen kosketuksen. Mitä P rikkoi?",
+          "en": "S has been on starboard since entering the zone and is fetching the mark. P completes her tack right ahead of S, and S has to luff above close-hauled to avoid contact. What did P break?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 192,
+              "y": 162,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 168,
+              "y": 138,
+              "rot": -40,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään, koska P sai kulkuoikeuden",
+              "en": "Nothing, because P acquired right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kohtaa 18.3(a)",
+              "en": "Rule 18.3(a)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain sääntöä 14",
+              "en": "Only rule 14"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.3(a): vastakäännöksen tehnyt vene ei saa aiheuttaa sitä, että koko ajan oikealla halssilla ollut vene joutuu purjehtimaan tiukasti vastaista ylemmäs kosketuksen välttämiseksi. Tilanteen mukaan P voi rikkoa myös sääntöä 13 tai 15.",
+          "en": "18.3(a): the tacking boat must not cause a boat that has been on starboard throughout to sail above close-hauled to avoid contact. Depending on timing, P may also break rule 13 or 15."
+        },
+        "source": "RRS 18.3(a)",
+        "also": [
+          "13",
+          "15"
+        ]
+      },
+      {
+        "id": "r183-q3",
+        "prompt": {
+          "fi": "P teki vastakäännöksen vyöhykkeellä S:n tuulen puolelle. S, joka on ollut oikealla halssilla vyöhykkeelle tulostaan asti ja yltää merkille, on nyt peitossa P:n sisäpuolella. Mitä P:n pitää tehdä?",
+          "en": "P tacked in the zone to windward of S. S, on starboard since entering the zone and fetching the mark, is now overlapped inside P. What must P do?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "P",
+              "x": 175,
+              "y": 135,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 150,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään: P on tuulen puolella ja voi kiertää ensin",
+              "en": "Nothing: P is to windward and may round first"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Antaa S:lle merkkitilaa (18.3(b)) ja pysyä loitolla (11)",
+              "en": "Give S mark-room (18.3(b)) and keep clear (11)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.3(b) ja Case 95: kun koko ajan oikealla halssilla ollut vene pääsee sisäpuolelle, vastakäännöksen tehneen veneen pitää antaa sille merkkitilaa. Tuulen puolen veneenä P:n pitää myös pysyä loitolla (11).",
+          "en": "18.3(b) and Case 95: when the boat that has been on starboard throughout gets inside, the tacking boat must give her mark-room. As the windward boat P must also keep clear (11)."
+        },
+        "source": "RRS 18.3(b); Case 95",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r183-q4",
+        "prompt": {
+          "fi": "S teki itse vastakäännöksen oikealle halssille vasta vyöhykkeellä ja yltää nyt merkille. Sen jälkeen P tekee vastakäännöksen vasemmalta oikealle halssille. Päteekö 18.3(a) tai (b)?",
+          "en": "S tacked onto starboard only inside the zone and is now fetching the mark. Then P tacks from port to starboard. Does 18.3(a) or (b) apply?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 210,
+              "y": 175,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 150,
+              "y": 150,
+              "rot": 0,
+              "tack": "p",
+              "c": "b"
+            }
+          ],
+          "track": [
+            [
+              95,
+              205
+            ],
+            [
+              140,
+              160
+            ]
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska S yltää merkille",
+              "en": "Yes, because S is fetching the mark"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: S ei ole ollut oikealla halssilla vyöhykkeelle tulostaan asti; ryhmän A ja B säännöt ratkaisevat",
+              "en": "No: S has not been on starboard since entering the zone; Sections A and B decide"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.3:n (a) ja (b) edellyttävät, että toinen vene on ollut oikealla halssilla vyöhykkeelle tulostaan asti. 18.2 ei silti päde heidän välillään (ensimmäinen virke), joten esimerkiksi säännöt 13 ja 15 ratkaisevat.",
+          "en": "18.3(a) and (b) require that the other boat has been on starboard since entering the zone. 18.2 still does not apply between them (first sentence), so rules such as 13 and 15 decide."
+        },
+        "source": "RRS 18.3",
+        "also": [
+          "13",
+          "15"
+        ]
+      },
+      {
+        "id": "r183-q5",
+        "prompt": {
+          "fi": "Merkki jätetään oikealle. Vene tekee vyöhykkeellä vastakäännöksen oikealta vasemmalle halssille. Päteekö 18.3?",
+          "en": "The mark is to be left to starboard. A boat tacks from starboard to port in the zone. Does 18.3 apply?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            170,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "A",
+              "x": 110,
+              "y": 160,
+              "rot": 0,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 68,
+              "y": 210,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, peilikuvana",
+              "en": "Yes, as a mirror image"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 18.3 koskee vain vasemmalle jätettävää merkkiä ja vastakäännöstä vasemmalta oikealle",
+              "en": "No: 18.3 only covers a mark to port and a tack from port to starboard"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kohdan 18.3 sanamuoto rajaa sen vasemmalle jätettävään merkkiin ja vastakäännökseen vasemmalta oikealle halssille. Muissa tilanteissa sovelletaan muita sääntöjä; esimerkiksi 18.2(a) lakkaa, jos merkkitilaan oikeutettu vene ohittaa tuulensilmän (18.2(b)).",
+          "en": "The wording of 18.3 limits it to a mark left to port and a tack from port to starboard. Other situations fall under other rules; for example, 18.2(a) stops applying if the boat entitled to mark-room passes head to wind (18.2(b))."
+        },
+        "source": "RRS 18.3, 18.2(b)",
+        "also": [
+          "18.2"
+        ]
+      },
+      {
+        "id": "r183-q6",
+        "prompt": {
+          "fi": "P tekee vastakäännöksen vasemmalle jätettävän merkin vyöhykkeellä. S on oikealla halssilla, mutta niin alhaalla, ettei se pysty ohittamaan merkkiä tekemättä vastakäännöstä. Päteekö 18.3 P:n ja S:n välillä?",
+          "en": "P tacks in the zone of a mark to be left to port. S is on starboard but so low that she cannot pass the mark without tacking. Does 18.3 apply between P and S?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            130,
+            110
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 175,
+              "y": 195,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 150,
+              "y": 150,
+              "rot": 0,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska S on oikealla halssilla vyöhykkeellä",
+              "en": "Yes, because S is on starboard in the zone"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: S ei yllä merkille",
+              "en": "No: S is not fetching the mark"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kohta 18.3 koskee vain oikean halssin venettä, joka yltää merkille eli pystyy ohittamaan sen tuulen puolelta oikealta puolelta vaihtamatta halssia (määritelmä Yltää). Muuten tilanne ratkeaa muilla säännöillä.",
+          "en": "18.3 only covers a starboard-tack boat that is fetching the mark, i.e. able to pass to windward of it on the required side without changing tack (definition Fetching). Otherwise other rules decide."
+        },
+        "source": "RRS 18.3; Definition Fetching"
+      }
+    ]
+  },
+  {
+    "n": "18.4",
+    "section": "2C",
+    "title": {
+      "fi": "Jiippaaminen vyöhykkeessä",
+      "sv": "Gippa i zonen",
+      "en": "Gybing in the Zone"
+    },
+    "explain": {
+      "fi": "Kohta 18.4 rajoittaa sisäpuolella peitossa olevaa, kulkuun oikeutettua venettä, jonka täytyy jiipata merkillä purjehtiakseen oikeaa suuntaansa. Ennen jiippiä se saa purjehtia merkistä enintään niin kaukana kuin tuon suunnan purjehtiminen vaatii. Säännön tarkoitus on estää sisäpuolista kulkuun oikeutettua venettä viemästä ulkopuolista venettä leveälle merkin ohi. Oikea suunta voi silti olla melko leveä kierto: Case 75:ssä sisäpuolinen vene sai nousta lähestyessään merkkiä, koska sujuva ja nopea kierto oli sen oikea suunta. Kääntyessään sen pitää antaa toiselle tilaa pysyä loitolla (16.1). Kohta 18.4 ei päde porttimerkillä.",
+      "en": "Rule 18.4 limits an inside overlapped right-of-way boat that must gybe at the mark to sail her proper course. Until she gybes, she may sail no farther from the mark than needed to sail that course. The purpose is to stop the inside right-of-way boat from carrying the outside boat wide past the mark. A proper course may still be a fairly wide rounding: in Case 75 the inside boat could luff on the approach, because a smooth, fast rounding was her proper course. When she changes course she must give the other boat room to keep clear (16.1). Rule 18.4 does not apply at a gate mark."
+    },
+    "note": {
+      "fi": "Liitteessä B kohta koskee myös kurssin laskemista. Liitteissä C (18.3(b)) ja F (18.3) vastaava rajoitus koskee halssin vaihtoa, eikä se päde myöskään maalimerkillä.",
+      "en": "In Appendix B the rule also covers bearing away. In Appendices C (18.3(b)) and F (18.3) the equivalent limit covers changing tack and does not apply at a finishing mark either."
+    },
+    "source": "RRS 18.4, 16.1, Definition Proper Course, Appendices B, C, F; Case 75",
+    "scene": {
+      "h": 260,
+      "k": 0.5,
+      "mark": [
+        175,
+        170
+      ],
+      "zone": true,
+      "boats": [
+        {
+          "n": "S",
+          "x": 150,
+          "y": 82,
+          "rot": 180,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "P",
+          "x": 112,
+          "y": 82,
+          "rot": 180,
+          "tack": "p",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "S on sisäpuolella oikealla halssilla ja kulkuun oikeutettu (10); P on ulkopuolella vasemmalla halssilla. Kiertääkseen merkin S:n täytyy jiipata. Ennen jiippiä S saa purjehtia merkistä vain niin kaukana kuin sen oikea suunta vaatii (18.4).",
+      "en": "S is inside on starboard with right of way (10); P is outside on port. To round the mark S must gybe. Until she gybes, S may sail no farther from the mark than her proper course requires (18.4)."
+    },
+    "defs": [
+      "Proper Course",
+      "Mark-Room",
+      "Zone"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18.2"
+        ],
+        "note": {
+          "fi": "Sisäpuolinen vene on merkkitilaan oikeutettu (18.2(a)(1)); 18.4 rajoittaa sitä, jos se on myös kulkuun oikeutettu.",
+          "en": "The inside boat is entitled to mark-room (18.2(a)(1)); 18.4 limits her if she also holds right of way."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "16"
+        ],
+        "note": {
+          "fi": "Ulkopuolisen vasemman halssin veneen pitää pysyä loitolla (10). Kun sisäpuolinen vene muuttaa suuntaa, sen pitää antaa tilaa (16.1; Case 75).",
+          "en": "The outside port-tack boat must keep clear (10). When the inside boat changes course she must give room (16.1; Case 75)."
+        }
+      },
+      {
+        "rules": [
+          "14",
+          "43"
+        ],
+        "note": {
+          "fi": "Case 75: molemmat rikkoivat sääntöä 14(a); kulkuun oikeutettu S vapautettiin, koska vahinkoa ei syntynyt.",
+          "en": "Case 75: both broke rule 14(a); S, the right-of-way boat, was exonerated because there was no damage."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 75,
+        "title": {
+          "fi": "Nousu ennen jiippiä",
+          "en": "A luff before the gybe"
+        },
+        "text": {
+          "fi": "S ja P purjehtivat suoraan myötätuuleen kohti alamerkkiä, joka jätetään vasemmalle. Ne olivat olleet peitossa useita rungonpituuksia, S sisäpuolella ja hieman edellä. Vyöhykkeelle tullessaan S nousi; kun sen keula tuli merkin kohdalle, se laski jiipatakseen. Veneet koskettivat ilman vahinkoa. P väitti antaneensa merkkitilaa ja S:n rikkoneen kohtaa 18.4.",
+          "en": "S and P were running directly downwind to a leeward mark to be left to port. They had been overlapped for several lengths, S inside and slightly ahead. As S entered the zone she luffed; when her bow came abreast of the mark she bore away to gybe. The boats touched without damage. P claimed she had given mark-room and that S had broken 18.4."
+        },
+        "answer": {
+          "fi": "P:n hylkäys pysyi. P:n piti antaa S:lle merkkitilaa (18.2(a)(1)) ja pysyä loitolla (10). S noudatti kohtaa 16.1: se nousi vähitellen noin 45 astetta noin kolmen rungonpituuden matkalla, ja P olisi ehtinyt väistää. S ei myöskään purjehtinut merkistä kauemmas kuin oikea suunta vaati; sen oikea suunta olisi voinut olla jopa leveämpi ja korkeampi sujuvan kierron vuoksi. Kumpikin rikkoi sääntöä 14(a), mutta S vapautettiin (43.1(c)).",
+          "en": "P's disqualification stood. P had to give S mark-room (18.2(a)(1)) and keep clear (10). S complied with 16.1: she luffed gradually about 45 degrees over about three lengths, and P would have had time to keep clear. Nor did S sail farther from the mark than her proper course required; her proper course might even have been wider and higher for a smooth rounding. Both broke rule 14(a), but S was exonerated (43.1(c))."
+        },
+        "also": [
+          "10",
+          "14",
+          "16"
+        ],
+        "source": "Case 75"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r184-q1",
+        "prompt": {
+          "fi": "Ketä kohta 18.4 rajoittaa?",
+          "en": "Whom does rule 18.4 limit?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 150,
+              "y": 82,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 112,
+              "y": 82,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ulkopuolista venettä, joka antaa merkkitilaa",
+              "en": "The outside boat giving mark-room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sisäpuolella peitossa olevaa kulkuun oikeutettua venettä, jonka täytyy jiipata merkillä",
+              "en": "An inside overlapped right-of-way boat that must gybe at the mark"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jokaista vyöhykkeellä jiippaavaa venettä",
+              "en": "Every boat gybing in the zone"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.4 koskee vain venettä, joka on sisäpuolella peitossa, kulkuun oikeutettu ja jonka täytyy jiipata merkillä purjehtiakseen oikeaa suuntaansa.",
+          "en": "18.4 only covers a boat that is inside, overlapped, holds right of way and must gybe at the mark to sail her proper course."
+        },
+        "source": "RRS 18.4"
+      },
+      {
+        "id": "r184-q2",
+        "prompt": {
+          "fi": "Sisäpuolinen oikean halssin S purjehtii tarkoituksella reilusti merkin ohi viedäkseen ulkopuolisen P:n kauas merkistä ja jiippaa vasta sitten. Mitä S rikkoi?",
+          "en": "S, inside on starboard, deliberately sails well past the mark to carry P, outside, away from it, and only then gybes. What did S break?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 160,
+              "y": 205,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 122,
+              "y": 205,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään, koska S:llä on kulkuoikeus",
+              "en": "Nothing, because S has right of way"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kohtaa 18.4",
+              "en": "Rule 18.4"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Ennen jiippiä S saa purjehtia merkistä vain niin kaukana kuin oikea suunta vaatii (18.4). Oikea suunta on se, jonka S valitsisi ilman P:tä; tarkoituksellinen P:n vieminen leveälle ei ole sitä.",
+          "en": "Until she gybes, S may sail no farther from the mark than her proper course requires (18.4). The proper course is what S would choose without P; deliberately carrying P wide is not."
+        },
+        "source": "RRS 18.4; Definition Proper Course"
+      },
+      {
+        "id": "r184-q3",
+        "prompt": {
+          "fi": "Sisäpuolinen S nousee vyöhykkeelle tullessaan vähitellen noin 45 astetta tehdäkseen sujuvan kierron. P ei reagoi, ja S joutuu laskemaan välttääkseen sen. Rikkoiko S kohtaa 18.4 tai 16.1?",
+          "en": "S, inside, luffs gradually about 45 degrees as she enters the zone to make a smooth rounding. P does not respond, and S has to bear away to avoid her. Did S break 18.4 or 16.1?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 150,
+              "y": 95,
+              "rot": 225,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 112,
+              "y": 85,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, kohtaa 18.4, koska se kääntyi merkistä poispäin",
+              "en": "Yes, 18.4, because she turned away from the mark"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei kumpaakaan: sujuva kierto oli sen oikea suunta, ja P:llä oli tilaa väistää",
+              "en": "Neither: a smooth rounding was her proper course, and P had room to keep clear"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 75: oikea suunta voi olla leveä ja korkea kierto. S antoi P:lle tilaa pysyä loitolla (16.1), mutta P ei käyttänyt sitä. P rikkoi sääntöä 10.",
+          "en": "Case 75: a proper course can be a wide, high rounding. S gave P room to keep clear (16.1), but P did not use it. P broke rule 10."
+        },
+        "source": "Case 75",
+        "also": [
+          "16",
+          "10"
+        ]
+      },
+      {
+        "id": "r184-q4",
+        "prompt": {
+          "fi": "Veneet kiertävät porttimerkkiä. Sisäpuolinen kulkuun oikeutettu vene purjehtii ennen jiippiään kauemmas kuin oikea suunta vaatisi. Rikkooko se kohtaa 18.4?",
+          "en": "The boats are rounding a gate mark. The inside right-of-way boat sails farther before her gybe than her proper course would require. Does she break 18.4?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 150,
+              "y": 82,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 112,
+              "y": 82,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 18.4 ei päde porttimerkillä",
+              "en": "No: 18.4 does not apply at a gate mark"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kohdan 18.4 viimeinen virke: sääntö ei päde porttimerkillä. Muut säännöt, kuten 16.1, pätevät silti.",
+          "en": "Last sentence of 18.4: it does not apply at a gate mark. Other rules, such as 16.1, still apply."
+        },
+        "source": "RRS 18.4",
+        "also": [
+          "16"
+        ]
+      },
+      {
+        "id": "r184-q5",
+        "prompt": {
+          "fi": "Sisäpuolinen vene on vasemmalla halssilla ja ulkopuolinen oikealla halssilla. Sisäpuolisen täytyy jiipata merkillä. Rajoittaako 18.4 sisäpuolista venettä?",
+          "en": "The inside boat is on port tack and the outside boat on starboard. The inside boat must gybe at the mark. Does 18.4 limit the inside boat?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "I",
+              "x": 150,
+              "y": 82,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "O",
+              "x": 100,
+              "y": 82,
+              "rot": 180,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se on sisäpuolella",
+              "en": "Yes, because she is inside"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 18.4 koskee vain kulkuun oikeutettua sisäpuolista venettä",
+              "en": "No: 18.4 only covers an inside boat with right of way"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.4 koskee vain kulkuun oikeutettua venettä. Tässä sisäpuolinen vene on vasemmalla halssilla, joten sen pitää pysyä loitolla (10), mutta sillä on oikeus merkkitilaan (18.2(a)(1)), ja ulkopuolisen pitää antaa se.",
+          "en": "18.4 only covers a right-of-way boat. Here the inside boat is on port and must keep clear under rule 10, but she is entitled to mark-room (18.2(a)(1)), which the outside boat must give."
+        },
+        "source": "RRS 18.4, 18.2(a)(1), 10",
+        "also": [
+          "10",
+          "18.2"
+        ]
+      }
+    ]
   }
 ]
