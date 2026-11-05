@@ -6825,6 +6825,1450 @@
     ]
   },
   {
+    "n": 21,
+    "section": "2D",
+    "title": {
+      "fi": "Lähtövirheet; rangaistuksen suorittaminen; purjeen pakittaminen",
+      "sv": "Fel vid starten, ta straff, bräcka med ett segel",
+      "en": "Starting Errors; Taking Penalties; Backing a Sail"
+    },
+    "explain": {
+      "fi": "Sääntö 21 asettaa väistämisvelvollisuuden kolmessa tilanteessa, joissa vene on muita heikommassa asemassa. Ryhmän D johdannon mukaan ryhmän A säännöt (10–13) eivät päde, kun sääntö 21 pätee kahden veneen välillä; ryhmien B ja C säännöt pätevät edelleen (Case 149). 21.1: kun vene lähtöviestinsä jälkeen purjehtii kohti lähtölinjan tai sen jatkeen lähtöpuolta lähteäkseen tai noudattaakseen I-lipun sääntöä (30.1), sen pitää pysyä loitolla veneistä, jotka eivät tee niin. Velvollisuus päättyy, kun runko on kokonaan lähtöpuolella. Jos vene sen jälkeen saa kulkuoikeuden, sen pitää aluksi antaa toiselle tilaa pysyä loitolla (15). 21.2: rangaistusta ottava vene pysyy loitolla veneistä, jotka eivät ota rangaistusta; velvollisuus alkaa, kun vene ryhtyy rangaistukseen (Case 149). 21.3: vene, joka liikkuu veteen nähden taaksepäin tai sivuttain tuulen puolelle pakittamalla purjetta, pysyy loitolla veneistä, jotka eivät tee niin. Säännön 21.1 alaista venettä suojaa lisäksi sääntö 23.2.",
+      "en": "Rule 21 places an obligation to keep clear on a boat in three situations where she is at a disadvantage. Under the Section D preamble, Section A rules (10–13) do not apply when rule 21 applies between two boats; Sections B and C still apply (Case 149). 21.1: after her starting signal, a boat sailing towards the pre-start side of the starting line or an extension to start, or to comply with the I flag rule (30.1), keeps clear of boats not doing so. The obligation ends when her hull is completely on the pre-start side. If she then acquires right of way, she must initially give the other boat room to keep clear (15). 21.2: a boat taking a penalty keeps clear of boats that are not; the obligation begins when she starts her penalty (Case 149). 21.3: a boat moving astern, or sideways to windward, through the water by backing a sail keeps clear of boats that are not. Rule 23.2 also protects a boat subject to rule 21.1."
+    },
+    "note": {
+      "fi": "Liite C (mätsikilpailu) poistaa kohdan 21.3. Liite F (leijalautailu) muuttaa ryhmän D johdantoa niin, että myöskään ryhmän C säännöt eivät päde, kun sääntö 21 tai 22 pätee; lisäksi kohta 21.3 koskee viimeisellä minuutilla pysähtyvää tai hidastavaa leijalautaa, ja uusi kohta 21.4 velvoittaa hyppäävän leijalaudan pysymään loitolla.",
+      "en": "Appendix C (match racing) deletes rule 21.3. Appendix F (kiteboarding) changes the Section D preamble so that Section C rules do not apply either when rule 21 or 22 applies; rule 21.3 there covers a kiteboard stopping or slowing in the last minute, and a new rule 21.4 makes a jumping kiteboard keep clear."
+    },
+    "source": "RRS Section D preamble, 21, 15, 23.2, 30.1, Appendices C, F; Case 149",
+    "scene": {
+      "h": 240,
+      "track": [
+        [
+          40,
+          120
+        ],
+        [
+          250,
+          120
+        ]
+      ],
+      "mark": [
+        250,
+        120
+      ],
+      "boats": [
+        {
+          "n": "X",
+          "x": 110,
+          "y": 80,
+          "rot": 170,
+          "tack": "s",
+          "c": "b"
+        },
+        {
+          "n": "A",
+          "x": 200,
+          "y": 65,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "X oli radan puolella lähtöviestin hetkellä ja palaa lähtöpuolelle. Se pysyy loitolla A:sta (21.1), vaikka molemmat ovat oikealla halssilla ja X on suojan puolella; ryhmän A säännöt eivät päde niiden välillä.",
+      "en": "X was on the course side at the starting signal and is returning to the pre-start side. She keeps clear of A (21.1) even though both are on starboard and X is to leeward; Section A rules do not apply between them."
+    },
+    "defs": [
+      "Start",
+      "Keep Clear",
+      "Room"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "note": {
+          "fi": "Ryhmän A säännöt eivät päde, kun sääntö 21 pätee veneiden välillä (ryhmän D johdanto).",
+          "en": "Section A rules do not apply when rule 21 applies between the boats (Section D preamble)."
+        }
+      },
+      {
+        "rules": [
+          "15",
+          "16"
+        ],
+        "note": {
+          "fi": "Kun sääntö 21 lakkaa ja vene saa kulkuoikeuden, sen pitää aluksi antaa tilaa (15). Suuntaa muuttavan kulkuun oikeutetun veneen pitää antaa tilaa myös rangaistusta ottavalle (16.1; Case 149).",
+          "en": "When rule 21 stops applying and a boat acquires right of way, she must initially give room (15). A right-of-way boat changing course must give room to a boat taking a penalty too (16.1; Case 149)."
+        }
+      },
+      {
+        "rules": [
+          "23"
+        ],
+        "note": {
+          "fi": "Venettä, joka ottaa rangaistusta tai on säännön 21.1 alainen, ei saa häiritä (23.2).",
+          "en": "A boat taking a penalty or subject to rule 21.1 must not be interfered with (23.2)."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Rangaistuskierrokset tehdään säännön 44.2 mukaan, ja sinä aikana pätee 21.2.",
+          "en": "Penalty turns are made under rule 44.2, and rule 21.2 applies meanwhile."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r21-q1",
+        "prompt": {
+          "fi": "Lähtöviestin jälkeen X palaa oikealla halssilla lähtöpuolelle. A on lähtenyt oikein ja purjehtii vasemmalla halssilla. Kumman pitää pysyä loitolla?",
+          "en": "After the starting signal X is returning to the pre-start side on starboard. A has started correctly and is on port. Which boat must keep clear?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "X",
+              "x": 110,
+              "y": 80,
+              "rot": 170,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 205,
+              "y": 65,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "A, koska se on vasemmalla halssilla",
+              "en": "A, because she is on port"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "X, koska se palaa lähtöpuolelle (21.1)",
+              "en": "X, because she is returning to the pre-start side (21.1)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.1 velvoittaa palaavan veneen pysymään loitolla. Ryhmän D johdannon mukaan sääntö 10 ei päde, kun sääntö 21 pätee veneiden välillä.",
+          "en": "Rule 21.1 makes the returning boat keep clear. Under the Section D preamble, rule 10 does not apply while rule 21 applies between the boats."
+        },
+        "source": "RRS 21.1; Section D preamble",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r21-q2",
+        "prompt": {
+          "fi": "X on nyt kokonaan lähtöpuolella ja kääntyy oikealle halssille lähteäkseen. Vasemman halssin A on aivan lähellä. Mitä X:n pitää huomioida?",
+          "en": "X is now completely on the pre-start side and turns onto starboard to start. A on port is very close. What must X bear in mind?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "X",
+              "x": 110,
+              "y": 165,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 190,
+              "y": 185,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään: X on nyt kulkuun oikeutettu, ja A väistää",
+              "en": "Nothing: X now has right of way and A keeps clear"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "X on kulkuun oikeutettu, mutta sen pitää aluksi antaa A:lle tilaa pysyä loitolla (15)",
+              "en": "X has right of way but must initially give A room to keep clear (15)"
+            }
+          },
+          {
+            "t": {
+              "fi": "X:n pitää edelleen pysyä loitolla, kunnes se on lähtenyt",
+              "en": "X must still keep clear until she has started"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.1 lakkaa, kun runko on kokonaan lähtöpuolella. Sen jälkeen pätee sääntö 10, mutta X sai kulkuoikeuden omalla toiminnallaan, joten sen pitää aluksi antaa tilaa (15).",
+          "en": "Rule 21.1 ends when the hull is completely on the pre-start side. Rule 10 then applies, but X acquired right of way by her own action, so she must initially give room (15)."
+        },
+        "source": "RRS 21.1, 15",
+        "also": [
+          "10",
+          "15"
+        ]
+      },
+      {
+        "id": "r21-q3",
+        "prompt": {
+          "fi": "I-lippu on nostettu. Viimeisellä minuutilla X:n keula oli linjan radan puolella. Lähtöviestin jälkeen X purjehtii linjan jatkeen kautta takaisin lähtöpuolelle. Mikä sääntö koskee X:ää palaamisen aikana muihin nähden?",
+          "en": "Flag I is displayed. In the last minute X's bow was on the course side of the line. After the starting signal X sails back round an extension to the pre-start side. Which rule governs X relative to the others while she returns?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              20,
+              120
+            ],
+            [
+              215,
+              120
+            ]
+          ],
+          "mark": [
+            215,
+            120
+          ],
+          "boats": [
+            {
+              "n": "X",
+              "x": 245,
+              "y": 100,
+              "rot": 170,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 150,
+              "y": 75,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "21.1: X pysyy loitolla, kunnes runko on kokonaan lähtöpuolella",
+              "en": "21.1: X keeps clear until her hull is completely on the pre-start side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ryhmän A säännöt tavalliseen tapaan",
+              "en": "Section A rules as usual"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.1 koskee myös venettä, joka palaa noudattaakseen I-lipun sääntöä (30.1), jonka mukaan paluu tehdään jatkeen kautta.",
+          "en": "Rule 21.1 also covers a boat returning to comply with the I flag rule (30.1), which requires her to return round an extension."
+        },
+        "source": "RRS 21.1, 30.1",
+        "also": [
+          "30"
+        ]
+      },
+      {
+        "id": "r21-q4",
+        "prompt": {
+          "fi": "B on aloittanut rangaistuskierrokset. A tekee vastakäännöksen B:n eteen oikealle halssille. Mitä säännöt vaativat kummaltakin?",
+          "en": "B has begun her penalty turns. A tacks onto starboard in front of B. What do the rules require of each?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 175,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 130,
+              "y": 150,
+              "rot": 100,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "B pysyy loitolla (21.2); suuntaa muuttaessaan A antaa B:lle tilaa pysyä loitolla (16.1)",
+              "en": "B keeps clear (21.2); when changing course A gives B room to keep clear (16.1)"
+            }
+          },
+          {
+            "t": {
+              "fi": "A pysyy loitolla, koska se tekee vastakäännöstä (13)",
+              "en": "A keeps clear because she is tacking (13)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan ei ole velvollinen mihinkään",
+              "en": "Neither has any obligation"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 149: rangaistusta ottava B pysyy loitolla (21.2), eikä ryhmän A sääntö 13 päde. Ryhmä B pätee, joten suuntaa muuttavan A:n pitää antaa tilaa (16.1). Jos A ei purjehtinut oikeaa suuntaansa, se lisäksi rikkoi sääntöä 23.2.",
+          "en": "Case 149: B, taking a penalty, keeps clear (21.2), and Section A rule 13 does not apply. Section B applies, so A changing course must give room (16.1). If A was not sailing her proper course, she also broke rule 23.2."
+        },
+        "source": "Case 149; RRS 21.2, 16.1",
+        "also": [
+          "13",
+          "16",
+          "23",
+          "44"
+        ]
+      },
+      {
+        "id": "r21-q5",
+        "prompt": {
+          "fi": "Ennen lähtöä L pakittaa genoaa ja liukuu taaksepäin W:tä kohti. W on L:n tuulen puolella samalla halssilla. Kumman pitää pysyä loitolla?",
+          "en": "Before the start L backs her genoa and drifts astern towards W. W is to windward of L on the same tack. Which boat must keep clear?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "L",
+              "x": 160,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 165,
+              "y": 165,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "W, koska se on tuulen puolella (11)",
+              "en": "W, because she is to windward (11)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "L, koska se liikkuu taaksepäin pakittamalla purjetta (21.3)",
+              "en": "L, because she is moving astern by backing a sail (21.3)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.3: purjetta pakittamalla taaksepäin tai sivuttain tuulen puolelle liikkuva vene pysyy loitolla. Ryhmän A sääntö 11 ei päde niin kauan kuin sääntö 21 pätee.",
+          "en": "21.3: a boat moving astern, or sideways to windward, by backing a sail keeps clear. Section A rule 11 does not apply while rule 21 applies."
+        },
+        "source": "RRS 21.3; Section D preamble",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r21-q6",
+        "prompt": {
+          "fi": "Milloin säännön 21.1 velvollisuus päättyy palaavalle veneelle?",
+          "en": "When does the rule 21.1 obligation end for a returning boat?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "X",
+              "x": 110,
+              "y": 80,
+              "rot": 170,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 200,
+              "y": 65,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kun keula ylittää linjan",
+              "en": "When her bow crosses the line"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun runko on kokonaan lähtöpuolella",
+              "en": "When her hull is completely on the pre-start side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun se on lähtenyt uudelleen",
+              "en": "When she has started again"
+            }
+          }
+        ],
+        "why": {
+          "fi": "21.1: velvollisuus kestää, kunnes rungon kaikki osat ovat lähtöpuolella. Sen jälkeen pätevät tavalliset säännöt, myös 15.",
+          "en": "21.1: the obligation lasts until the whole hull is on the pre-start side. The ordinary rules then apply, including rule 15."
+        },
+        "source": "RRS 21.1",
+        "also": [
+          "15"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 22,
+    "section": "2D",
+    "title": {
+      "fi": "Kaatuneena, ankkurissa tai karilla; pelastustoimissa",
+      "sv": "Kantrad, ankrad, stå på grund, rädda någon i fara",
+      "en": "Capsized, Anchored or Aground; Rescuing"
+    },
+    "explain": {
+      "fi": "Mikäli mahdollista, veneen pitää väistää venettä, joka on kaatunut tai ei ole vielä saanut hallintaa takaisin kaatumisen jälkeen, on ankkurissa tai karilla tai yrittää auttaa vaarassa olevaa ihmistä tai alusta. Velvollisuus on välttää venettä, ei ”pysyä loitolla” määritelmän mukaisesti. Vene on kaatunut, kun sen mastonhuippu on vedessä; pelkkä voimakas kallistus ei riitä. Ryhmän D johdannon mukaan ryhmän A säännöt eivät päde, kun sääntö 22 pätee kahden veneen välillä. Ankkuroitu vene kilpailee edelleen määritelmän mukaan, joten sääntö 22 suojaa sitä, mutta se on myös muiden sääntöjen alainen; esimerkiksi ankkuria ei saa nostaa niin, että vene samalla vedetään eteenpäin (Case 5; 42.1, 45). Auttamisvelvollisuus tulee säännöstä 1.1; auttanut vene voi saada hyvityksen, vaikka vaaraa ei jälkikäteen todettaisi olleen (Case 20; 61.4(b)(4)).",
+      "en": "If possible, a boat must avoid a boat that is capsized or has not regained control after capsizing, is anchored or aground, or is trying to help a person or vessel in danger. The obligation is to avoid the boat, not to ‘keep clear’ as defined. A boat is capsized when her masthead is in the water; heavy heeling alone is not enough. Under the Section D preamble, Section A rules do not apply when rule 22 applies between two boats. An anchored boat is still racing under the definition, so rule 22 protects her, but other rules govern her too; for example, she may not pull up her anchor in a way that propels her forward (Case 5; 42.1, 45). The duty to help comes from rule 1.1; a boat that helps may get redress even if it later turns out there was no danger (Case 20; 61.4(b)(4))."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu): ankkuroitumista ei mainita, ja kaatunut tai karilla oleva lauta ei saa mahdollisuuksien mukaan häiritä muita (22.2). Liite E (radio-ohjattavat veneet): sääntö 22 korvataan velvollisuudella välttää toimintakyvytöntä venettä, eli venettä, joka ei pysty jatkamaan erää. Liite F (leijalautailu): kaatunutta, karilla olevaa tai auttavaa leijalautaa vältetään, ja nousemassa oleva leijalauta pysyy loitolla muista (22.2).",
+      "en": "Appendix B (windsurfing): anchoring is not mentioned, and a capsized or aground board shall if possible not interfere with others (22.2). Appendix E (radio sailing): rule 22 is replaced by an obligation to avoid a disabled boat, that is one unable to continue in the heat. Appendix F (kiteboarding): a capsized, aground or helping kiteboard is to be avoided, and a recovering kiteboard keeps clear of others (22.2)."
+    },
+    "source": "RRS 22, Section D preamble, 1.1, 42.1, 45, Definition Racing, Appendices B, E, F; Case 5, 20",
+    "scene": {
+      "h": 240,
+      "boats": [
+        {
+          "n": "C",
+          "x": 140,
+          "y": 110,
+          "rot": 30,
+          "tack": "s",
+          "c": "c",
+          "ghost": true
+        },
+        {
+          "n": "A",
+          "x": 190,
+          "y": 170,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "C (haalea) on kaatunut, ja sen mastonhuippu on vedessä. A:n pitää mahdollisuuksien mukaan välttää C:tä; ryhmän A säännöt eivät päde niiden välillä.",
+      "en": "C (faded) is capsized with her masthead in the water. A must if possible avoid C; Section A rules do not apply between them."
+    },
+    "defs": [
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "note": {
+          "fi": "Ryhmän A säännöt eivät päde, kun sääntö 22 pätee veneiden välillä (ryhmän D johdanto).",
+          "en": "Section A rules do not apply when rule 22 applies between the boats (Section D preamble)."
+        }
+      },
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Velvollisuus auttaa vaarassa olevaa tulee säännöstä 1.1; sääntö 22 suojaa auttavaa venettä.",
+          "en": "The duty to help those in danger comes from rule 1.1; rule 22 protects the boat that helps."
+        }
+      },
+      {
+        "rules": [
+          "42",
+          "45"
+        ],
+        "note": {
+          "fi": "Ankkuroitu vene kilpailee yhä ja on näiden sääntöjen alainen (Case 5).",
+          "en": "An anchored boat is still racing and subject to these rules (Case 5)."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Auttanut vene voi saada hyvityksen (61.4(b)(4); Case 20).",
+          "en": "A boat that gave help may get redress (61.4(b)(4); Case 20)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 5,
+        "title": {
+          "fi": "Ankkurissa virtaa vastaan",
+          "en": "Anchored against the current"
+        },
+        "text": {
+          "fi": "Heikossa tuulessa ensimmäinen osuus on vastatuuleen vastavirtaan. Osa veneistä ankkuroi lähtölinjalle tai sen lähelle, jottei virta vie niitä taaksepäin. Kun tuuli voimistuu tai virta heikkenee, ne nostavat ankkurinsa ja lähtevät purjehtimaan. Kilpaileeko ankkuroitu vene, ja saako se nostaa ankkurin, vaikka köyden vetäminen liikuttaa venettä?",
+          "en": "In light wind the first leg is upwind against an adverse current. Some boats anchor at or near the starting line so the current does not carry them back. When the wind freshens or the current eases, they pull up their anchors and sail. Is an anchored boat racing, and may she recover her anchor even though hauling the line moves her?"
+        },
+        "answer": {
+          "fi": "Ankkuroitu vene kilpailee määritelmän mukaan, joten sääntö 22 suojaa sitä ja muut säännöt, kuten 42.1 ja 45, koskevat sitä. Sääntö 45 sallii ankkuroinnin, ja ankkurin nostaminen edellyttää ylimääräisen köyden vetämistä, mikä tuo veneen ankkurin kohdalle; tämä ei riko sääntöä 42.1. Jos köyttä kuitenkin vedetään niin voimakkaasti, että vene ankkurin irrottua on selvästi eri paikassa kuin ankkuria laskiessaan, se rikkoo sekä sääntöä 42.1 että 45.",
+          "en": "An anchored boat is racing under the definition, so rule 22 protects her and other rules such as 42.1 and 45 govern her. Rule 45 permits anchoring, and recovering the anchor requires hauling in the extra line, which brings the boat over the anchor; this does not break rule 42.1. But if the line is hauled so hard that, once the anchor is free, the boat is clearly in a different position from where the anchor was lowered, she breaks both rule 42.1 and rule 45."
+        },
+        "also": [
+          "42",
+          "45"
+        ],
+        "source": "Case 5"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r22-q1",
+        "prompt": {
+          "fi": "Puuskassa jolla kallistuu niin, että purje on vedessä, mutta mastonhuippu ei koske veteen. Onko se määritelmän mukaan kaatunut?",
+          "en": "In a gust a dinghy heels so far that the sail is in the water, but the masthead does not touch the water. Is she capsized as the rule defines it?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "C",
+              "x": 140,
+              "y": 110,
+              "rot": 30,
+              "tack": "s",
+              "c": "c",
+              "ghost": true
+            },
+            {
+              "n": "A",
+              "x": 190,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska purje on vedessä",
+              "en": "Yes, because the sail is in the water"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: vene on kaatunut vasta, kun mastonhuippu on vedessä",
+              "en": "No: a boat is capsized only when her masthead is in the water"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 22 määrittelee kaatumisen: mastonhuippu on vedessä. Sääntö suojaa kuitenkin myös venettä, joka ei ole vielä saanut hallintaa takaisin kaatumisen jälkeen.",
+          "en": "Rule 22 defines capsizing: the masthead is in the water. The rule also protects a boat that has not yet regained control after capsizing."
+        },
+        "source": "RRS 22",
+        "also": []
+      },
+      {
+        "id": "r22-q2",
+        "prompt": {
+          "fi": "Vasemman halssin P lähestyy oikean halssin S:ää, joka on kaatunut. Mikä sääntö ratkaisee P:n velvollisuuden?",
+          "en": "P on port approaches S on starboard, which is capsized. Which rule decides P's obligation?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 175,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "c",
+              "ghost": true
+            },
+            {
+              "n": "P",
+              "x": 120,
+              "y": 170,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Sääntö 10: P pysyy loitolla",
+              "en": "Rule 10: P keeps clear"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntö 22: P välttää S:ää, mikäli mahdollista; ryhmän A säännöt eivät päde",
+              "en": "Rule 22: P avoids S if possible; Section A rules do not apply"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Ryhmän D johdanto: kun sääntö 22 pätee veneiden välillä, ryhmän A säännöt eivät päde. Velvollisuus on välttää kaatunutta venettä, mikäli mahdollista. Halsseilla ei ole merkitystä.",
+          "en": "Section D preamble: when rule 22 applies between the boats, Section A rules do not. The obligation is to avoid the capsized boat if possible. The tacks do not matter."
+        },
+        "source": "RRS 22; Section D preamble",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r22-q3",
+        "prompt": {
+          "fi": "Vene on ankkuroinut lähtölinjan lähelle vastavirtaan. Kilpaileeko se?",
+          "en": "A boat has anchored near the starting line against the current. Is she racing?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 160,
+              "rot": 0,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, ankkuroitu vene on pois kilpailusta",
+              "en": "No, an anchored boat is out of the race"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: sääntö 22 suojaa sitä, ja kilpailusäännöt koskevat sitä",
+              "en": "Yes: rule 22 protects her and the racing rules govern her"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 5: määritelmä Racing ei mainitse ankkuroitua, karilla olevaa tai kaatunutta venettä, joten ankkuroitu vene kilpailee yhä. Sääntö 22 suojaa sitä, ja esimerkiksi säännöt 42.1 ja 45 koskevat sitä.",
+          "en": "Case 5: the definition Racing does not mention a boat that is anchored, aground or capsized, so an anchored boat is still racing. Rule 22 protects her and rules such as 42.1 and 45 govern her."
+        },
+        "source": "Case 5; Definition Racing",
+        "also": [
+          "42",
+          "45"
+        ]
+      },
+      {
+        "id": "r22-q4",
+        "prompt": {
+          "fi": "Tuulen voimistuessa ankkuroitu vene vetää ankkuriköyttä niin rivakasti, että se ankkurin irrottua on selvästi edempänä kuin ankkuria laskiessaan. Rikkooko se sääntöä?",
+          "en": "When the wind freshens, an anchored boat hauls in her anchor line so briskly that, once the anchor is free, she is clearly further ahead than where she lowered it. Does she break a rule?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 160,
+              "rot": 0,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, ankkurin nostaminen on aina sallittua",
+              "en": "No, recovering the anchor is always permitted"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntöjä 42.1 ja 45",
+              "en": "Yes, rules 42.1 and 45"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 5: köyden vetäminen, joka tuo veneen ankkurin kohdalle, on sallittua. Jos vene vedetään selvästi eri paikkaan kuin missä ankkuri laskettiin, se rikkoo sääntöjä 42.1 ja 45.",
+          "en": "Case 5: hauling the line to bring the boat over the anchor is permitted. If she is pulled to a clearly different position from where the anchor was lowered, she breaks rules 42.1 and 45."
+        },
+        "source": "Case 5; RRS 42.1, 45",
+        "also": [
+          "42",
+          "45"
+        ]
+      },
+      {
+        "id": "r22-q5",
+        "prompt": {
+          "fi": "B pysähtyy auttamaan kaatunutta jollaa ja menettää useita sijoja. Myöhemmin todetaan, ettei jollan miehistö ollut vaarassa. Voiko B saada hyvityksen?",
+          "en": "B stops to help a capsized dinghy and loses several places. It later turns out the dinghy's crew was not in danger. Can B get redress?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "C",
+              "x": 140,
+              "y": 110,
+              "rot": 30,
+              "tack": "s",
+              "c": "c",
+              "ghost": true
+            },
+            {
+              "n": "A",
+              "x": 190,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska vaaraa ei ollut",
+              "en": "No, because there was no danger"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: ratkaisevaa on, että vaara oli mahdollinen",
+              "en": "Yes: what matters is that danger was possible"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 20: veneen, joka voi auttaa mahdollisesti vaarassa olevaa, pitää tehdä niin (1.1). Hyvitys (61.4(b)(4)) ei riipu siitä, todetaanko vaara jälkikäteen todelliseksi tai pyydettiinkö apua.",
+          "en": "Case 20: a boat in a position to help one that may be in danger must do so (1.1). Redress (61.4(b)(4)) does not depend on whether the danger is later found to be real or whether help was requested."
+        },
+        "source": "Case 20; RRS 1.1, 61.4(b)(4)",
+        "also": [
+          "1",
+          "61"
+        ]
+      },
+      {
+        "id": "r22-q6",
+        "prompt": {
+          "fi": "Radio-ohjattavien veneiden erässä vene menettää peräsimensä eikä pysty jatkamaan. Mitä muiden pitää tehdä?",
+          "en": "In a radio sailing heat a boat loses her rudder and cannot continue. What must the others do?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "C",
+              "x": 140,
+              "y": 110,
+              "rot": 30,
+              "tack": "s",
+              "c": "c",
+              "ghost": true
+            },
+            {
+              "n": "A",
+              "x": 190,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Välttää sitä, mikäli mahdollista",
+              "en": "Avoid her if possible"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään erityistä, koska vene ei ole kaatunut",
+              "en": "Nothing special, because she is not capsized"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Liite E (E1.3(c)) korvaa säännön 22: muiden pitää mahdollisuuksien mukaan välttää toimintakyvytöntä venettä. Toimintakyvytön vene on liitteen E määritelmän mukaan vene, joka ei pysty jatkamaan erää.",
+          "en": "Appendix E (E1.3(c)) replaces rule 22: others must if possible avoid a disabled boat. Under Appendix E's definition, a disabled boat is one unable to continue in the heat."
+        },
+        "source": "RRS Appendix E1.1, E1.3(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 23,
+    "section": "2D",
+    "title": {
+      "fi": "Toisen veneen häiritseminen",
+      "sv": "Störa andra båtar",
+      "en": "Interfering with Another Boat"
+    },
+    "explain": {
+      "fi": "Sääntö 23 suojaa veneitä, joihin kulkuoikeussäännöt eivät tavallisesti ulotu. 23.1: vene, joka ei kilpaile, ei saa häiritä kilpailevaa venettä, jos se on kohtuudella vältettävissä. Vene kilpailee valmiusviestistään siihen asti, kun se on tullut maaliin ja selvittänyt maalilinjan ja merkit, tai vetäytyy, tai kunnes kilpailu yleisesti palautetaan, siirretään tai mitätöidään; esimerkiksi maaliin tullut ja linjasta selvinnyt vene tai toisen luokan vene ennen omaa valmiusviestiään ei kilpaile. 23.2: vene ei saa häiritä venettä, joka ottaa rangaistusta, purjehtii eri rataosuutta tai on säännön 21.1 alainen, jos se on kohtuudella vältettävissä. Lähtöviestin jälkeen 23.2 ei koske venettä, joka purjehtii oikeaa suuntaansa (Case 49, 149). Rataosuus määräytyy sen mukaan, mitä kurssia vene purjehti ennen tapahtumaa ja miksi: vene, joka ei tiedä virheestään, purjehtii sillä osuudella, jolla se luulee olevansa (Case 126). Häiritseminen ei vaadi kosketusta; riittää esimerkiksi, että toinen joutuu väistämään (Case 149). Muiden veneiden kilpailun tahallinen haittaaminen ilman omaa urheilullista hyötyä voi olla lisäksi säännön 2 rikkomus (Case 34, 78).",
+      "en": "Rule 23 protects boats that the right-of-way rules do not ordinarily reach. 23.1: a boat not racing shall not interfere with a boat that is racing if reasonably possible. A boat is racing from her preparatory signal until she finishes and clears the finishing line and marks, or retires, or until a general recall, postponement or abandonment is signalled; so a boat that has finished and cleared the line, or a boat of another class before her own preparatory signal, is not racing. 23.2: a boat shall not, if reasonably possible, interfere with a boat taking a penalty, sailing on another leg, or subject to rule 21.1. After the starting signal, 23.2 does not apply to a boat sailing her proper course (Cases 49, 149). The leg a boat is on follows from the course she sailed before the incident and her reasons for it: a boat unaware of her error is on the leg she believes she is on (Case 126). Interfering does not require contact; it is enough, for example, that the other boat has to take avoiding action (Case 149). Deliberately hindering another boat's race without any sporting benefit of her own may also break rule 2 (Cases 34, 78)."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu) lisää kohdan 23.3: viimeisellä minuutilla ennen lähtöviestiä purjeen pitää olla ylhäällä vedestä normaalissa asennossa, ellei lauta ole vahingossa kaatunut. Liite C (mätsikilpailu) lisää kohtaan 23.1 tuomarialuksen ja lisää kohdan 23.3: kun eri otteluiden veneet kohtaavat, suunnanmuutosten pitää palvella sääntöjen noudattamista tai oman ottelun voittamista. Liite D (joukkuekilpailu): maaliin tullut vene ei saa toimia häiritäkseen venettä, joka ei ole tullut maaliin, ja vastaava 23.3 eri kilpailujen veneille.",
+      "en": "Appendix B (windsurfing) adds rule 23.3: in the last minute before the starting signal the sail must be out of the water in a normal position unless the board has accidentally capsized. Appendix C (match racing) adds umpire boats to 23.1 and adds 23.3: when boats in different matches meet, any change of course must be consistent with complying with a rule or trying to win her own match. Appendix D (team racing): a boat that has finished shall not act to interfere with a boat that has not, and a similar 23.3 for boats in different races."
+    },
+    "source": "RRS 23, 21.1, Definition Racing, Definition Proper Course, Appendices B, C, D; Case 34, 49, 78, 126, 149",
+    "scene": {
+      "h": 240,
+      "boats": [
+        {
+          "n": "S",
+          "x": 175,
+          "y": 160,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "PW",
+          "x": 110,
+          "y": 110,
+          "rot": 135,
+          "tack": "p",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "S purjehtii vastatuuleen oikeaa suuntaansa, PW myötätuuleen toisella rataosuudella. Vaikka S häiritsee PW:tä, se ei riko sääntöä 23.2, koska se purjehtii oikeaa suuntaansa (Case 49). Veneiden välillä pätee sääntö 10.",
+      "en": "S is sailing upwind on her proper course, PW downwind on another leg. Even though S interferes with PW, she does not break rule 23.2, because she is sailing her proper course (Case 49). Rule 10 applies between them."
+    },
+    "defs": [
+      "Racing",
+      "Proper Course",
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "21"
+        ],
+        "note": {
+          "fi": "Rangaistusta ottava ja säännön 21.1 alainen vene pysyy itse loitolla, mutta muut eivät saa häiritä sitä (23.2).",
+          "en": "A boat taking a penalty or subject to rule 21.1 keeps clear herself, but others must not interfere with her (23.2)."
+        }
+      },
+      {
+        "rules": [
+          "2"
+        ],
+        "note": {
+          "fi": "Muiden haittaaminen ilman omaa urheilullista hyötyä voi rikkoa reilun purjehduksen sääntöä (Case 34, 78).",
+          "en": "Hindering others without any sporting benefit of her own may break the fair sailing rule (Cases 34, 78)."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "16"
+        ],
+        "note": {
+          "fi": "Eri rataosuuksilla purjehtivien veneiden välillä pätevät myös tavalliset kulkuoikeussäännöt (Case 49).",
+          "en": "The ordinary right-of-way rules also apply between boats on different legs (Case 49)."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Rangaistuskierroksia tekevää venettä ei saa häiritä, ellei purjehdi oikeaa suuntaansa lähtöviestin jälkeen (Case 149).",
+          "en": "A boat making penalty turns must not be interfered with unless the other boat is sailing her proper course after the starting signal (Case 149)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 126,
+        "title": {
+          "fi": "Millä rataosuudella vene on?",
+          "en": "Which leg is she on?"
+        },
+        "text": {
+          "fi": "Rata: vastatuuliosuus ylämerkille, lyhyt sivutuuliosuus väistömerkille ja myötätuuliosuus alamerkille. L ei kierrä väistömerkkiä, koska ei tiedä siitä, vaan purjehtii suoraan alamerkille. Osan matkaa purjehdittuaan L huomaa virheensä ja kääntyy takaisin kohti väistömerkkiä. Matkalla se kohtaa X:n, joka on kiertänyt kummankin merkin ja purjehtii myötätuuleen samalla halssilla. L poikkeaa oikeasta suunnastaan noustakseen X:ää. X protestoi sääntöön 23.2 vedoten.",
+          "en": "The course: a windward leg to the windward mark, a short reach to an offset mark, then a run to the leeward mark. L is unaware of the offset mark and sails straight for the leeward mark. Partway there she realises her mistake and turns back towards the offset mark. On the way she meets X, which has rounded both marks and is running on the same tack. L leaves her proper course to luff X. X protests under rule 23.2."
+        },
+        "answer": {
+          "fi": "L rikkoi sääntöä 23.2. Rataosuus määräytyy veneen tapahtumaa edeltävän kurssin ja sen syiden mukaan. Niin kauan kuin L ei tiennyt virheestään, se purjehti alamerkin osuutta, samaa kuin muut, eikä 23.2 olisi pätenyt. Kun L kääntyi kohti väistömerkkiä, se oli ylämerkiltä väistömerkille johtavalla osuudella, ja X oli eri osuudella. L ei purjehtinut oikeaa suuntaansa, joten se ei saanut häiritä X:ää.",
+          "en": "L broke rule 23.2. A boat's leg follows from her course before the incident and her reasons for it. While L was unaware of her error she was on the leg to the leeward mark, the same as the others, and 23.2 would not have applied. Once she turned towards the offset mark she was on the leg from the windward mark to the offset mark, and X was on a different leg. L was not sailing her proper course, so she must not interfere with X."
+        },
+        "also": [
+          "28"
+        ],
+        "source": "Case 126"
+      },
+      {
+        "case": 49,
+        "title": {
+          "fi": "Kaksi protestia samasta tapahtumasta",
+          "en": "Two protests from one incident"
+        },
+        "text": {
+          "fi": "Kovassa tuulessa ja aallokossa S purjehti tiukasti vastaiseen suuntaan oikealla halssilla oikeaa suuntaansa. PW ja PL purjehtivat peitossa vasemmalla halssilla myötäisessä sivutuulessa toisella rataosuudella. PW:n ja S:n takilat koskettivat, vaikka S nousi jyrkästi; vahinkoa ei syntynyt. PW hylättiin säännön 10 perusteella. Erillisessä käsittelyssä PL hylättiin, koska se ei antanut PW:lle tilaa S:n, esteen, ohittamiseen (19.2(b)).",
+          "en": "In a fresh breeze and rough sea S was close-hauled on starboard on her proper course. PW and PL were overlapped on port, broad reaching on another leg. The rigging of PW and S touched despite S luffing sharply; there was no damage. PW was disqualified under rule 10. In a separate hearing PL was disqualified for not giving PW room to pass S, an obstruction (19.2(b))."
+        },
+        "answer": {
+          "fi": "PW:n valitus hyväksyttiin. Protestit olisi pitänyt käsitellä yhdessä. PW ei voinut laskea, koska PL ei antanut sille tilaa, joten PW vapautetaan säännön 10 rikkomisesta (43.1(b)). PL rikkoi myös sääntöä 14(b). S ja PW eivät rikkoneet sääntöä 14(a), koska kosketus ei ollut niille kohtuudella vältettävissä. S häiritsi toisella osuudella purjehtivaa PW:tä, mutta se ei rikkonut sääntöä 23.2, koska se purjehti oikeaa suuntaansa.",
+          "en": "PW's appeal was upheld. The protests should have been heard together. PW could not bear away because PL did not give her room, so PW is exonerated for breaking rule 10 (43.1(b)). PL also broke rule 14(b). S and PW did not break rule 14(a), because the contact was not reasonably avoidable for them. S interfered with PW on another leg, but did not break rule 23.2 because she was sailing her proper course."
+        },
+        "also": [
+          "10",
+          "14",
+          "19",
+          "43"
+        ],
+        "source": "Case 49"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r23-q1",
+        "prompt": {
+          "fi": "A on tullut maaliin ja selvittänyt maalilinjan ja merkit. Satamaan palatessaan se purjehtii vielä kilpailevien veneiden tuulen puolelta ja varjostaa niitä. Mitä säännöt sanovat?",
+          "en": "A has finished and cleared the finishing line and marks. Returning to harbour she sails to windward of boats still racing and blankets them. What do the rules say?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 130,
+              "y": 90,
+              "rot": 150,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "B",
+              "x": 165,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään, koska A ei enää kilpaile",
+              "en": "Nothing, because A is no longer racing"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A ei saa häiritä kilpailevia veneitä, jos se on kohtuudella vältettävissä (23.1)",
+              "en": "A must not interfere with racing boats if reasonably possible (23.1)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Määritelmä Racing: vene lakkaa kilpailemasta, kun se on tullut maaliin ja selvittänyt maalilinjan ja merkit. 23.1 koskee juuri venettä, joka ei kilpaile.",
+          "en": "Definition Racing: a boat stops racing once she has finished and cleared the finishing line and marks. Rule 23.1 applies precisely to a boat that is not racing."
+        },
+        "source": "RRS 23.1; Definition Racing",
+        "also": []
+      },
+      {
+        "id": "r23-q2",
+        "prompt": {
+          "fi": "L ei tiedä saaneensa OCS-tuloksen ja purjehtii myötätuuliosuutta kuten muutkin. Se nousee W:tä, ja W väistää. Rikkooko L sääntöä 23.2?",
+          "en": "L does not know she has been scored OCS and sails the run like the others. She luffs W, and W keeps clear. Does L break rule 23.2?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "L",
+              "x": 115,
+              "y": 135,
+              "rot": 160,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 185,
+              "y": 95,
+              "rot": 160,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska L ei ole lähtenyt ja on siksi eri osuudella",
+              "en": "Yes, because L has not started and is on a different leg"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: L purjehtii samaa osuutta kuin W, joten 23.2 ei päde",
+              "en": "No: L is on the same leg as W, so 23.2 does not apply"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 126: rataosuus määräytyy veneen kurssin ja sen syiden mukaan. L ei tiennyt virheestään ja purjehti alamerkin osuutta, samaa kuin W.",
+          "en": "Case 126: the leg follows from the boat's course and her reasons for it. L was unaware of her error and was on the leg to the leeward mark, the same as W."
+        },
+        "source": "Case 126",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r23-q3",
+        "prompt": {
+          "fi": "S purjehtii vastatuuleen oikeaa suuntaansa. Toista rataosuutta myötätuuleen purjehtiva PW joutuu väistämään S:ää. Rikkooko S sääntöä 23.2?",
+          "en": "S is sailing upwind on her proper course. PW, running on another leg, has to keep clear of S. Does S break rule 23.2?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 175,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "PW",
+              "x": 110,
+              "y": 110,
+              "rot": 135,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se häiritsee toisella osuudella purjehtivaa venettä",
+              "en": "Yes, because she interferes with a boat on another leg"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: lähtöviestin jälkeen 23.2 ei koske oikeaa suuntaansa purjehtivaa venettä",
+              "en": "No: after the starting signal 23.2 does not apply to a boat sailing her proper course"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 49: S häiritsi PW:tä, mutta purjehti oikeaa suuntaansa, joten 23.2 ei koskenut sitä. Veneiden välillä pätee sääntö 10.",
+          "en": "Case 49: S interfered with PW but was sailing her proper course, so 23.2 did not apply to her. Rule 10 applies between them."
+        },
+        "source": "Case 49; RRS 23.2",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r23-q4",
+        "prompt": {
+          "fi": "B tekee rangaistuskierroksia. A tekee vastakäännöksen B:n eteen, vaikka sen oikea suunta olisi jatkaa vasemmalla halssilla, ja B joutuu nousemaan väistääkseen. Rikkooko A sääntöä?",
+          "en": "B is making penalty turns. A tacks in front of B although her proper course would be to continue on port, and B has to luff to keep clear. Does A break a rule?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 175,
+              "y": 105,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 130,
+              "y": 150,
+              "rot": 100,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska B:n pitää pysyä loitolla (21.2)",
+              "en": "No, because B must keep clear (21.2)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntöä 23.2, koska A ei purjehtinut oikeaa suuntaansa",
+              "en": "Yes, rule 23.2, because A was not sailing her proper course"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 149: B:n piti pysyä loitolla (21.2), mutta A häiritsi rangaistusta ottavaa venettä. Koska A ei purjehtinut oikeaa suuntaansa, 23.2 pätee ja A rikkoi sitä. Jos A olisi purjehtinut oikeaa suuntaansa, 23.2 ei olisi pätenyt.",
+          "en": "Case 149: B had to keep clear (21.2), but A interfered with a boat taking a penalty. Because A was not sailing her proper course, 23.2 applied and A broke it. Had A been sailing her proper course, 23.2 would not have applied."
+        },
+        "source": "Case 149; RRS 21.2, 23.2",
+        "also": [
+          "21",
+          "44"
+        ]
+      },
+      {
+        "id": "r23-q5",
+        "prompt": {
+          "fi": "Lähtöviestin jälkeen X palaa lähtöpuolelle. A, joka on lähtenyt oikein, ohjaa tarkoituksella X:n eteen estääkseen paluun, vaikka sen oikea suunta veisi muualle. Mitä A rikkoo?",
+          "en": "After the starting signal X is returning to the pre-start side. A, which started correctly, deliberately steers in front of X to block her return although her proper course lies elsewhere. What does A break?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "X",
+              "x": 110,
+              "y": 80,
+              "rot": 170,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "A",
+              "x": 200,
+              "y": 65,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei mitään: X:n pitää pysyä loitolla (21.1)",
+              "en": "Nothing: X must keep clear (21.1)"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntöä 23.2: säännön 21.1 alaista venettä ei saa häiritä",
+              "en": "Rule 23.2: a boat subject to rule 21.1 must not be interfered with"
+            }
+          }
+        ],
+        "why": {
+          "fi": "23.2 suojaa säännön 21.1 alaista venettä. Koska A ei purjehdi oikeaa suuntaansa, poikkeus ei koske sitä. X:n velvollisuus pysyä loitolla (21.1) säilyy silti.",
+          "en": "Rule 23.2 protects a boat subject to rule 21.1. Because A is not sailing her proper course, the exception does not cover her. X's obligation to keep clear (21.1) remains."
+        },
+        "source": "RRS 23.2, 21.1",
+        "also": [
+          "21"
+        ]
+      },
+      {
+        "id": "r23-q6",
+        "prompt": {
+          "fi": "Sarjan johtaja peittää ja haittaa kilpailijaa, jolla on mahdollisuus ohittaa se kokonaispisteissä. Johtaja ei riko yhtään kulkuoikeussääntöä. Onko tämä sallittua?",
+          "en": "The series leader covers and hinders a competitor who could overtake her on overall points. The leader breaks no right-of-way rule. Is this allowed?"
+        },
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 160,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 145,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos taktiikalla on kohtuullinen mahdollisuus parantaa johtajan omaa lopputulosta",
+              "en": "Yes, if the tactics have a reasonable chance of improving the leader's own final ranking"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan; toisen haittaaminen rikkoo aina sääntöä 2",
+              "en": "Never; hindering another always breaks rule 2"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 78: taktiikka, joka haittaa toista, on sallittua, jos sillä on kohtuullinen mahdollisuus parantaa veneen omaa lopputulosta tapahtumassa. Jos tarkoitus on esimerkiksi auttaa toista venettä tai vaikuttaa muuhun kuin tähän tapahtumaan, tai jos vene rikkoo tahallaan sääntöä, kyseessä on säännön 2 rikkomus.",
+          "en": "Case 78: tactics that hinder another boat are allowed if they have a reasonable chance of benefiting the boat's own final ranking in the event. If the aim is, for example, to help another boat or to affect something other than this event, or if the boat intentionally breaks a rule, it breaks rule 2."
+        },
+        "source": "Case 78; RRS 2",
+        "also": [
+          "2"
+        ]
+      },
+      {
+        "id": "r23-q7",
+        "prompt": {
+          "fi": "Sarjan viimeisessä lähdössä A kutsutaan takaisin varaslähdön vuoksi. Palatessaan se kohtaa B:n, joka voisi vielä viedä A:n palkinnon. A ei palaakaan, vaan peittää B:tä tiiviisti koko vastatuuliosuuden ja vetäytyy sitten. Mitä A rikkoi?",
+          "en": "In the last race of a series A is recalled for a premature start. While returning she meets B, which could still take A's prize. Instead of returning, A covers B closely for the whole windward leg and then retires. What did A break?"
+        },
+        "scene": {
+          "h": 240,
+          "track": [
+            [
+              40,
+              120
+            ],
+            [
+              250,
+              120
+            ]
+          ],
+          "mark": [
+            250,
+            120
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 140,
+              "y": 55,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "B",
+              "x": 205,
+              "y": 90,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Vain sääntöä 28.1, koska se ei lähtenyt",
+              "en": "Only rule 28.1, because she did not start"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntöä 2: hylkäys, jota ei voi jättää pois (DNE); B voi saada hyvityksen",
+              "en": "Rule 2: a non-excludable disqualification (DNE); B may get redress"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 34: A tiesi, ettei ollut lähtenyt, ja käytti kilpailua vain B:n haittaamiseen. Se on epäurheilijamaista ja rikkoo sääntöä 2; B voi saada hyvityksen (61.4(b)(5)), ja lautakunta voi toimia myös säännön 69 perusteella. Jos A olisi palannut, lähtenyt oikein ja vasta sitten ohittanut ja peittänyt B:n rikkomatta tahallaan sääntöjä, se ei olisi rikkonut sääntöä 2.",
+          "en": "Case 34: A knew she had not started and raced only to hinder B. That is unsportsmanlike and breaks rule 2; B may get redress (61.4(b)(5)), and the committee may also act under rule 69. Had A returned, started correctly and only then passed and covered B without intentionally breaking a rule, she would not have broken rule 2."
+        },
+        "source": "Case 34; RRS 2, 61.4(b)(5)",
+        "also": [
+          "2",
+          "28",
+          "61",
+          "69"
+        ]
+      }
+    ]
+  },
+  {
     "n": 43,
     "section": "4",
     "title": {

@@ -67,7 +67,7 @@ export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
   <h3>${T.explain[l]}</h3><p>${esc(tx(r.explain, l))}</p><p class="mute">${T.source[l]}: ${esc(r.source)}</p>
   <div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div><p class="mute">${esc(tx(r.note, l))}</p>
   <h3>${T.related[l]}</h3><div class="chips">${defs}</div><h3>${T.links[l]}</h3>${links}
-  <h3>${T.scenarios[l]}</h3>${scen}<p><button class="btn" data-nav="practice">${T.tabPractice[l]}</button></p>`;
+  ${scen ? `<h3>${T.scenarios[l]}</h3>${scen}` : ""}<p><button class="btn" data-nav="practice">${T.tabPractice[l]}</button></p>`;
 }
 
 const all = rules.flatMap(r => r.questions);
