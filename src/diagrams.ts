@@ -51,6 +51,11 @@ export interface Obstruction { x: number; y: number; w: number; h: number }
 // k = boat scale (1 = hull length 60); with k < 1 labels sit beside the boat. zone: dashed zone (3 hull lengths) around the mark.
 export interface Scene { h?: number; k?: number; boats: SceneBoat[]; track?: [number, number][]; mark?: [number, number]; zone?: boolean; obst?: Obstruction[] }
 export const zoneRadius = (k = 1) => 3 * 60 * k;
+// Boom angle from the centreline by point of sail (wind from the top): ~10° close-hauled, ~38° on a beam reach, 85° running.
+export function boomAngle(rot: number): number {
+  const off = Math.abs((((rot % 360) + 540) % 360) - 180);   // 0 = head to wind, 180 = dead downwind
+  return Math.round(Math.min(85, Math.max(5, (off - 40) * 0.6 + 8)));
+}
 const colour: Record<string, string> = { A: 'a', B: 'b', C: 'c' };
 // Static scene: wind from the top, x/y = boat centre, rot in degrees clockwise (0 = bow up), tack p = port, s = starboard.
 export function sceneSvg(sc: Scene, label: string): string {
@@ -58,8 +63,10 @@ export function sceneSvg(sc: Scene, label: string): string {
   const boats = sc.boats.map(b => {
     const dx = b.tack === 'p' ? -4 : 4;
     const inside = k < 1 ? '' : `<text class="lb" x="${dx}" y="35" transform="rotate(${-b.rot} ${dx} 35)" dominant-baseline="central">${b.n}</text>`;
-    const beside = k < 1 ? `<text class="lo" x="${b.x + 16}" y="${b.y}" dominant-baseline="central">${b.n}</text>` : '';
-    return `<g${b.ghost ? ' class="ghost"' : ''}><g transform="translate(${b.x} ${b.y}) rotate(${b.rot}) scale(${k}) translate(0 -30)"><path class="h-${b.c ?? colour[b.n] ?? 'a'}" d="${HULL}"/>${sailPath(b.tack === 'p')}${inside}</g>${beside}</g>`;
+    // Small boats: label just ahead of the bow, where the boom never is.
+    const a = b.rot * Math.PI / 180, d = 30 * k + 10;
+    const beside = k < 1 ? `<text class="lo" x="${(b.x + Math.sin(a) * d).toFixed(1)}" y="${(b.y - Math.cos(a) * d).toFixed(1)}" dominant-baseline="central">${b.n}</text>` : '';
+    return `<g${b.ghost ? ' class="ghost"' : ''}><g transform="translate(${b.x} ${b.y}) rotate(${b.rot}) scale(${k}) translate(0 -30)"><path class="h-${b.c ?? colour[b.n] ?? 'a'}" d="${HULL}"/><g transform="rotate(${b.tack === 'p' ? -boomAngle(b.rot) : boomAngle(b.rot)} 0 24)">${sailPath(b.tack === 'p')}</g>${inside}</g>${beside}</g>`;
   }).join('');
   const obst = (sc.obst ?? []).map(o => `<rect class="ob" x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="4"/>`).join('');
   const zone = sc.zone && sc.mark ? `<circle class="zn" cx="${sc.mark[0]}" cy="${sc.mark[1]}" r="${zoneRadius(k)}"/>` : '';

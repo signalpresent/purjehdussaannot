@@ -20,7 +20,7 @@ export const T: Record<string, Record<Lang, string>> = {
   outcome: { fi: 'Ratkaisu', sv: 'Avgörande', en: 'Outcome' },
   notYet: { fi: 'ei vielä sisällössä', sv: 'inte ännu med', en: 'not yet covered' },
   fallback: { fi: '', sv: 'Den svenska versionen saknas ännu; texten visas på engelska.', en: '' },
-  wind: { fi: 'Nuoli: tuulen suunta. Veneiden keula osoittaa ylöspäin kuvassa kulkusuuntaan.', sv: 'Pilen: vindriktning. Båtarnas för pekar i färdriktningen.', en: 'Arrow: wind direction. Each boat’s bow points in her direction of travel.' },
+  wind: { fi: 'Nuoli: tuulen suunta. Veneen terävä pää on keula, ja vene kulkee keulan suuntaan.', sv: 'Pilen: vindriktning. Båtens spetsiga ände är fören; båten seglar i förens riktning.', en: 'Arrow: wind direction. The pointed end of each boat is her bow; she sails in that direction.' },
   next: { fi: 'Seuraava', sv: 'Nästa', en: 'Next' },
   correct: { fi: 'Oikein', sv: 'Rätt', en: 'Correct' },
   wrong: { fi: 'Väärin', sv: 'Fel', en: 'Incorrect' },

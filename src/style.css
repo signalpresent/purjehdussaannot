@@ -24,7 +24,7 @@ input[type=search]{width:100%;padding:12px;border-radius:10px;border:1px solid #
 .fig .sail{fill:none;stroke:var(--ink);stroke-width:2}.fig .sail-o{fill:none;stroke:var(--bg);stroke-width:4.5;stroke-linecap:round}.fig .aft{stroke:var(--ink);stroke-width:1.5;stroke-dasharray:6 4}
 .fig .lb{font:700 13px system-ui,sans-serif;fill:#102;text-anchor:middle}.fig .wind{stroke:var(--mute);stroke-width:2;fill:var(--mute)}
 /* obstruction (land, anchored boat), zone, label beside a small boat */
-.fig .ob{fill:#7a6a47;stroke:#a89868;stroke-width:1.5}.fig .zn{fill:none;stroke:var(--mute);stroke-width:1.5;stroke-dasharray:5 4}.fig .lo{font:700 13px system-ui,sans-serif;fill:var(--ink)}
+.fig .ob{fill:#7a6a47;stroke:#a89868;stroke-width:1.5}.fig .zn{fill:none;stroke:var(--mute);stroke-width:1.5;stroke-dasharray:5 4}.fig .lo{font:700 13px system-ui,sans-serif;fill:var(--ink);text-anchor:middle}
 .fig .ghost{opacity:.4}.fig .trk{fill:none;stroke:var(--mute);stroke-width:1.5;stroke-dasharray:2 4}
 .sc{background:var(--card);border-radius:12px;padding:4px 14px 8px;margin:10px 0}.sc h4{margin:.4rem 0}
 .chips .soon{opacity:.65;border:1px dashed var(--mute);background:transparent}.chips [data-rule],.chips [data-open]{cursor:pointer}
