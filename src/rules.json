@@ -3991,8 +3991,8 @@
       "en": "Rule 18 applies when boats are required to leave a mark on the same side and at least one of them is in the zone, i.e. within three hull lengths (of the boat nearer to it) of the mark. It does not apply (18.1(a)): (1) between boats on opposite tacks on a beat to windward (Case 132), (2) between boats on opposite tacks when the proper course at the mark for only one of them is to tack, (3) between a boat approaching the mark and one leaving it, or (4) if the mark is a continuing obstruction; rule 19 then applies. The rule stops applying once mark-room has been given (18.1(b)). Who gives mark-room is fixed at the moment the first of the two boats reaches the zone (18.2(a)): if they are overlapped, the outside boat gives the inside boat mark-room; if not, the boat that has not yet reached the zone gives the other mark-room. The obligation continues even if an overlap is later broken or a new one begins, until the boat entitled to mark-room passes head to wind or leaves the zone (18.2(b)). After that the current overlap decides (18.2(c)). If an inside overlap was obtained from clear astern or by tacking to windward of the other boat, and the outside boat has been unable to give mark-room from the moment it began, 18.2(a) and (c) do not apply (18.2(d)). If there is reasonable doubt, the overlap is presumed not to have been obtained or broken in time (18.2(e)). Mark-room is room to sail to the mark when the proper course is to sail close to it, to round or pass it on the required side, and to leave it astern (definition). The rules of Sections A and B still apply (Case 75)."
     },
     "note": {
-      "fi": "Ryhmän C johdanto: ryhmän C säännöt eivät päde lähtömerkillä, jota ympäröi purjehduskelpoinen vesi, kun veneet lähestyvät sitä lähteäkseen. Vyöhyke on joukkuepurjehduksessa kaksi rungonpituutta (liite D) ja radio-ohjattavilla veneillä neljä (liite E). Liitteet B, C ja F muuttavat sääntöä 18.",
-      "en": "Section C preamble: Section C rules do not apply at a starting mark surrounded by navigable water while boats are approaching it to start. The zone is two hull lengths in team racing (Appendix D) and four for radio-controlled boats (Appendix E). Appendices B, C and F change rule 18."
+      "fi": "Ryhmän C johdanto: ryhmän C säännöt eivät päde lähtömerkillä, jota ympäröi purjehduskelpoinen vesi, kun veneet lähestyvät sitä lähteäkseen. Vyöhyke on joukkuepurjehduksessa kaksi rungonpituutta (liite D) ja radio-ohjattavilla veneillä neljä (liite E). Liite D muuttaa myös kohtaa 18.2(a) ja poistaa kohdan 18.4. Liitteet B, C ja F muuttavat sääntöä 18.",
+      "en": "Section C preamble: Section C rules do not apply at a starting mark surrounded by navigable water while boats are approaching it to start. The zone is two hull lengths in team racing (Appendix D) and four for radio-controlled boats (Appendix E). Appendix D also changes rule 18.2(a) and deletes rule 18.4. Appendices B, C and F change rule 18."
     },
     "source": "RRS 18.1, 18.2, Section C preamble, Definitions (Zone, Mark-Room, Room), Appendices B, C, D, E, F; Case 12, 25, 59, 75, 118, 132",
     "scene": {
@@ -5127,8 +5127,8 @@
       "en": "Rule 18.4 limits an inside overlapped right-of-way boat that must gybe at the mark to sail her proper course. Until she gybes, she may sail no farther from the mark than needed to sail that course. The purpose is to stop the inside right-of-way boat from carrying the outside boat wide past the mark. A proper course may still be a fairly wide rounding: in Case 75 the inside boat could luff on the approach, because a smooth, fast rounding was her proper course. When she changes course she must give the other boat room to keep clear (16.1). Rule 18.4 does not apply at a gate mark."
     },
     "note": {
-      "fi": "Liitteessä B kohta koskee myös kurssin laskemista. Liitteissä C (18.3(b)) ja F (18.3) vastaava rajoitus koskee halssin vaihtoa, eikä se päde myöskään maalimerkillä.",
-      "en": "In Appendix B the rule also covers bearing away. In Appendices C (18.3(b)) and F (18.3) the equivalent limit covers changing tack and does not apply at a finishing mark either."
+      "fi": "Liitteessä B kohta koskee myös kurssin laskemista. Liitteissä C (18.3(b)) ja F (18.3) vastaava rajoitus koskee halssin vaihtoa, eikä se päde myöskään maalimerkillä. Liitteessä D (joukkuepurjehdus) kohta 18.4 poistetaan.",
+      "en": "In Appendix B the rule also covers bearing away. In Appendices C (18.3(b)) and F (18.3) the equivalent limit covers changing tack and does not apply at a finishing mark either. Appendix D (team racing) deletes rule 18.4."
     },
     "source": "RRS 18.4, 16.1, Definition Proper Course, Appendices B, C, F; Case 75",
     "scene": {
@@ -5508,6 +5508,1319 @@
           "10",
           "18.2"
         ]
+      }
+    ]
+  },
+  {
+    "n": 19,
+    "section": "2C",
+    "title": {
+      "fi": "Tila esteen ohittamiseen",
+      "sv": "Plats att passera ett hinder",
+      "en": "Room to Pass an Obstruction"
+    },
+    "explain": {
+      "fi": "Este on kohde, jota vene ei voisi ohittaa muuttamatta suuntaansa huomattavasti, jos se purjehtisi suoraan sitä kohti rungonpituuden päässä; kohde, jonka voi ohittaa turvallisesti vain toiselta puolelta; tai säännössä esteeksi nimetty kohde. Kilpaileva vene on este vain niille, joiden pitää pysyä loitolla siitä (määritelmä Este). Jatkuva este on este, jonka ohi lyhyin vene purjehtii vähintään kolmen rungonpituutensa matkan; liikkuva alus tai kilpaileva vene ei ole koskaan jatkuva este. Sääntö 19 pätee kahden esteen äärellä olevan veneen välillä, paitsi kun sääntö 18 pätee niiden välillä ja este on merkki tai molempien kanssa peitossa oleva vene. Jatkuvalla esteellä 19 pätee aina eikä 18. Kulkuun oikeutettu vene saa valita, kummalta puolelta se ohittaa esteen, ja muuttaessaan suuntaa sen pitää antaa toiselle tilaa pysyä loitolla (19.2(a)). Peitossa olevista veneistä ulkopuolisen pitää antaa sisäpuoliselle tilaa itsensä ja esteen välistä, ellei se ole pystynyt siihen peiton alusta asti (19.2(b)). Jatkuvalla esteellä selvästi perässä ollut vene, joka tunkee väliin, kun tilaa ei peiton alkaessa ole, ei saa tilaa ja sen pitää pysyä loitolla; säännöt 10 ja 11 eivät silloin päde (19.2(c)). Tilaa ei tarvitse huutaa, mutta se on viisasta (Case 41).",
+      "en": "An obstruction is an object a boat could not pass without changing course substantially if she were sailing directly towards it and one hull length from it; an object that can be safely passed on only one side; or an object designated as one by a rule. A boat racing is an obstruction only to boats required to keep clear of her (definition Obstruction). A continuing obstruction is one the shortest boat will pass alongside for at least three of her hull lengths; a vessel under way or a boat racing is never one. Rule 19 applies between two boats at an obstruction, except when rule 18 applies between them and the obstruction is the mark or a boat overlapped with each of them. At a continuing obstruction 19 always applies and 18 does not. A right-of-way boat may choose which side to pass the obstruction, and when she changes course to do so she must give the other boat room to keep clear (19.2(a)). Between overlapped boats, the outside boat must give the inside boat room between her and the obstruction, unless she has been unable to do so from the time the overlap began (19.2(b)). At a continuing obstruction, a boat that was clear astern and squeezes in when there is no room at the moment the overlap begins gets no room and must keep clear; rules 10 and 11 then do not apply (19.2(c)). There is no requirement to hail for room, but it is prudent (Case 41)."
+    },
+    "note": {
+      "fi": "Liite F lisää kohtaan 19.2(a) leijan asennon muutoksen. Ryhmän C johdanto: ryhmän C säännöt eivät päde purjehduskelpoisen veden ympäröimällä lähtömerkillä tai sen ankkuriköydellä, kun veneet lähestyvät sitä lähteäkseen.",
+      "en": "Appendix F adds changing the kite position to 19.2(a). Section C preamble: Section C rules do not apply at a starting mark surrounded by navigable water or its anchor line while boats are approaching it to start."
+    },
+    "source": "RRS 19, Definitions (Obstruction, Continuing Obstruction, Room, Overlap), Appendix F; Case 11, 23, 29, 41, 43, 124, 125, 150",
+    "scene": {
+      "h": 260,
+      "boats": [
+        {
+          "n": "S",
+          "x": 205,
+          "y": 80,
+          "rot": -45,
+          "tack": "s",
+          "c": "c"
+        },
+        {
+          "n": "PW",
+          "x": 95,
+          "y": 175,
+          "rot": 45,
+          "tack": "p",
+          "c": "b"
+        },
+        {
+          "n": "PL",
+          "x": 135,
+          "y": 210,
+          "rot": 45,
+          "tack": "p",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "PW ja PL ovat vasemmalla halssilla peitossa, S oikealla halssilla. Koska molempien pitää pysyä loitolla S:stä, S on este niille. Kulkuun oikeutettu PL valitsee ohittaa S:n perän takaa, joten sen pitää antaa sisäpuoliselle PW:lle tilaa itsensä ja S:n välistä (19.2(b)).",
+      "en": "PW and PL are overlapped on port tack, S is on starboard. Since both must keep clear of S, S is an obstruction to them. PL, with right of way, chooses to pass astern of S, so she must give PW, inside, room between her and S (19.2(b))."
+    },
+    "defs": [
+      "Obstruction",
+      "Continuing Obstruction",
+      "Room",
+      "Clear Astern and Clear Ahead; Overlap"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "Merkillä sääntö 18 syrjäyttää säännön 19 merkin osalta; jatkuvalla esteellä pätee aina 19 (19.1).",
+          "en": "At a mark, rule 18 displaces rule 19 as regards the mark; at a continuing obstruction 19 always applies (19.1)."
+        }
+      },
+      {
+        "rules": [
+          "20"
+        ],
+        "note": {
+          "fi": "Kulkuun oikeutettu vene voi valita esteen ohittamisen sijaan tilan vastakäännökseen huutamalla (Case 3).",
+          "en": "Instead of passing the obstruction, a right-of-way boat may choose to hail for room to tack (Case 3)."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "11",
+          "15",
+          "16"
+        ],
+        "note": {
+          "fi": "Kulkuoikeus ei siirry tilaan oikeutetulle veneelle. Kun peitto syntyy, kulkuoikeus voi vaihtua (Case 41, 124), ja sääntö 15 pätee.",
+          "en": "Right of way does not pass to the boat entitled to room. When an overlap begins, right of way may change (Cases 41, 124), and rule 15 applies."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "Tilassaan purjehtiva sisäpuolinen vene vapautetaan ryhmän A sääntöjen rikkomuksesta (43.1(b); Case 11, 125).",
+          "en": "An inside boat sailing within her room is exonerated for breaking a Section A rule (43.1(b); Cases 11, 125)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 11,
+        "title": {
+          "fi": "Oikean halssin vene esteenä",
+          "en": "A starboard-tack boat as an obstruction"
+        },
+        "text": {
+          "fi": "PW ja PL luovivat tuuleen vasemmalla halssilla peitossa kohti oikean halssin S:ää. PL olisi päässyt turvallisesti S:n perän takaa, mutta PW oli törmäyskurssilla. Noin kolmen rungonpituuden päässä PW huusi PL:lle tilaa ohittaakseen S:n perän takaa. PL ei välittänyt huudosta. Kun PW laski väistääkseen S:ää, PW ja PL koskettivat kyljittäin ilman vahinkoa. Lautakunta katsoi, että PW olisi voinut tehdä vastakäännöksen vapaaseen veteen, ja hylkäsi sen säännön 11 perusteella.",
+          "en": "PW and PL were beating on port tack, overlapped, towards S on starboard. PL could pass safely astern of S, but PW was on a collision course. About three hull lengths away PW hailed PL for room to pass astern of S. PL ignored the hail. When PW bore away to avoid S, PW and PL touched side to side without damage. The committee held that PW could have tacked into open water and disqualified her under rule 11."
+        },
+        "answer": {
+          "fi": "PW:n valitus hyväksyttiin ja PL hylättiin. S oli este molemmille: kumpikin olisi joutunut muuttamaan suuntaa huomattavasti, ja molempien piti pysyä loitolla S:stä. Kulkuun oikeutettu PL valitsi ohittaa S:n suojan puolelta, joten sen piti antaa PW:lle tilaa itsensä ja S:n perän välistä (19.2(b)); näin olisi ollut huutamattakin. PW rikkoi sääntöä 11, mutta tilassaan, joten se vapautettiin (43.1(b)). PL:n olisi pitänyt huutaa tilaa vastakäännökseen, jos se olisi halunnut PW:n kääntyvän, mutta sillä ei olisi ollut siihen oikeutta, koska sen ei tarvinnut muuttaa suuntaa (20.1(a)).",
+          "en": "PW's appeal was upheld and PL disqualified. S was an obstruction to both: each would have had to change course substantially, and both had to keep clear of S. PL, with right of way, chose to pass to leeward of S, so she had to give PW room between herself and S's stern (19.2(b)); this would be so even without a hail. PW broke rule 11 but within her room, so she was exonerated (43.1(b)). For PW to have to tack, PL would have needed to hail for room to tack, but she was not entitled to, since she did not need to change course (20.1(a))."
+        },
+        "also": [
+          "10",
+          "11",
+          "20",
+          "43"
+        ],
+        "source": "Case 11"
+      },
+      {
+        "case": 150,
+        "title": {
+          "fi": "Kumpi on sisäpuolella?",
+          "en": "Which boat is inside?"
+        },
+        "text": {
+          "fi": "W purjehtii myötätuuleen oikealla halssilla aallonmurtajan suuntaisesti, noin rungonpituuden päässä siitä. L on oikealla halssilla W:n suojan puolella, peitossa, ja lähestyy aallonmurtajaa; veneet ovat törmäyskurssilla. Mitä tarkoittaa ’esteen äärellä’, ja kumpi vene on sisäpuolinen, kun L (a) purjehtii leveää sivutuulta, (b) on tiukasti vastaisessa suunnassa tai (c) kulkee suoraan kohti aallonmurtajaa?",
+          "en": "W is running on starboard tack parallel to a breakwater about one hull length away. L, on starboard tack to leeward and overlapped, is approaching the breakwater; the boats are on a collision course. What does ‘at’ an obstruction mean, and which boat is inside when L is (a) broad reaching, (b) close-hauled, or (c) heading straight at the breakwater?"
+        },
+        "answer": {
+          "fi": "Veneet ovat esteen äärellä, kun ne ovat sen lähellä ja este vaikuttaa ainakin toisen kurssiin. Kulkuun oikeutettu L ratkaisee valinnallaan, kumpi on sisäpuolinen: (a) kun L laskee ohittaakseen esteen oikealta puoleltaan, W on sisäpuolinen ja saa tilaa (19.2(b)); (b) kun L nousee ohittaakseen sen vasemmalta puoleltaan, L on sisäpuolinen, ja W:n pitää antaa tilaa ja pysyä loitolla (11); (c) niin kauan kuin L kulkee suoraan kohti estettä, sisä- ja ulkopuolista ei voi määrittää, eikä sääntö 19 velvoita kumpaakaan; sääntö 11 pätee. Jos W on vasemmalla halssilla, kohdissa (b) ja (c) veneet eivät ole peitossa, ja sääntö 10 ratkaisee.",
+          "en": "Boats are ‘at’ an obstruction when they are near it and it is influencing the course of at least one of them. L, the right-of-way boat, decides by her choice which boat is inside: (a) when L bears away to pass the obstruction on her starboard side, W is inside and entitled to room (19.2(b)); (b) when L luffs to pass it on her port side, L is inside, and W must give room and keep clear (11); (c) while L heads straight at it, inside and outside cannot be determined and rule 19 creates no obligations; rule 11 applies. If W is on port tack, in (b) and (c) the boats are not overlapped, and rule 10 decides."
+        },
+        "also": [
+          "11",
+          "10"
+        ],
+        "source": "Case 150"
+      },
+      {
+        "case": 29,
+        "title": {
+          "fi": "Kolmas vene kahden väliin",
+          "en": "A third boat between two"
+        },
+        "text": {
+          "fi": "Myötätuuliosuudella W sai peiton L:n kanssa lähes kahden rungonpituuden päässä sen tuulen puolella. Sen jälkeen M purjehti L:n ja W:n väliin. Kaikki pitivät kurssinsa, väli ei kaventunut eikä kosketusta tullut. W protestoi M:ää siitä, että se otti tilaa, johon sillä ei ollut oikeutta.",
+          "en": "On a downwind leg W became overlapped with L almost two hull lengths to windward of her. M then sailed into the space between L and W. All three held their courses, the gap did not narrow and there was no contact. W protested M for taking room she was not entitled to."
+        },
+        "answer": {
+          "fi": "Valitus hylättiin. Koska W:n ja M:n piti pysyä loitolla L:stä, L oli este niille, mutta ei jatkuva este, koska kilpaileva vene ei koskaan ole sellainen. Kun M sai peiton W:n kanssa, 19.2(b) alkoi: W:n piti antaa M:lle tilaa itsensä ja L:n välistä, koska se pystyi siihen peiton alusta asti, ja se antoi. Kohta 19.2(c) ei päde, koska este ei ollut jatkuva. M ei rikkonut sääntöä.",
+          "en": "The appeal was dismissed. As W and M had to keep clear of L, L was an obstruction to them, but not a continuing obstruction, since a boat racing never is. When M became overlapped with W, 19.2(b) began: W had to give M room between herself and L, as she was able to from the start of the overlap, and she did. 19.2(c) did not apply because the obstruction was not continuing. M broke no rule."
+        },
+        "also": [
+          "11",
+          "12"
+        ],
+        "source": "Case 29"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r19-q1",
+        "prompt": {
+          "fi": "AW on niukasti selvästi BL:n edellä, ja molemmat lähestyvät estettä, jonka voi ohittaa kummaltakin puolelta. Hetkeä myöhemmin veneet ovat peitossa, AW tuulen puolella. Kumpi saa valita ohituspuolen?",
+          "en": "AW is just clear ahead of BL, and both are approaching an obstruction that can be passed on either side. A moment later they are overlapped, AW to windward. Which boat may choose the side?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 30,
+              "y": 20,
+              "w": 40,
+              "h": 40
+            }
+          ],
+          "boats": [
+            {
+              "n": "AW",
+              "x": 160,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            },
+            {
+              "n": "BL",
+              "x": 135,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "AW, koska se oli edellä ensin",
+              "en": "AW, because she was ahead first"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kulloinkin kulkuun oikeutettu vene: ensin AW, peiton synnyttyä BL",
+              "en": "Whichever boat has right of way at the time: first AW, then BL once overlapped"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 124: valintaoikeus on aina sillä veneellä, jolla on kulkuoikeus kyseisellä hetkellä. Kun peitto syntyy, BL saa kulkuoikeuden (11) ja valintaoikeuden. Valintaansa toteuttaessaan sen pitää antaa toiselle tilaa pysyä loitolla ja noudattaa ryhmän B sääntöjä.",
+          "en": "Case 124: the right to choose belongs to the boat that holds right of way at that moment. When the overlap begins, BL acquires right of way (11) and the choice. Carrying out her choice she must give the other boat room to keep clear and comply with Section B."
+        },
+        "source": "Case 124; RRS 19.2(a)",
+        "also": [
+          "11",
+          "15",
+          "16"
+        ]
+      },
+      {
+        "id": "r19-q2",
+        "prompt": {
+          "fi": "Kolme vasemman halssin venettä (PW, PM, PL) on peitossa ja ohittaa oikean halssin S:n perän takaa. PL antaa juuri sen verran tilaa, että PM:n pitää laskea, jotta PW mahtuu S:n taakse; PM ja PL koskettavat. Rikkoiko PL sääntöä 19.2(b)?",
+          "en": "Three overlapped port-tack boats (PW, PM, PL) are passing astern of S on starboard. PL gives only enough space that PM has to bear away for PW to clear S; PM and PL touch. Did PL break 19.2(b)?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 215,
+              "y": 70,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "PW",
+              "x": 80,
+              "y": 160,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "PM",
+              "x": 112,
+              "y": 190,
+              "rot": 45,
+              "tack": "p",
+              "c": "c"
+            },
+            {
+              "n": "PL",
+              "x": 145,
+              "y": 220,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska PW ja PM pääsivät S:n ohi",
+              "en": "No, because PW and PM got past S"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: tilan pitää riittää kaikille sisäpuolisille ja niiden velvoitteille",
+              "en": "Yes: the room must suffice for all inside boats and their obligations"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 125: ulkopuolisen veneen antaman tilan pitää riittää siihen, että PM voi antaa PW:lle tilaa ja pysyä loitolla PL:stä ja että PW voi pysyä loitolla S:stä ja PM:stä. PL rikkoi sääntöä 19.2(b). PM rikkoi sääntöä 11, mutta vapautettiin (43.1(b)).",
+          "en": "Case 125: the room the outside boat gives must let PM give PW room and keep clear of PL, and let PW keep clear of S and PM. PL broke 19.2(b). PM broke rule 11 but was exonerated (43.1(b))."
+        },
+        "source": "Case 125; Definition Room",
+        "also": [
+          "11",
+          "43"
+        ]
+      },
+      {
+        "id": "r19-q3",
+        "prompt": {
+          "fi": "Veneet purjehtivat pitkän laiturin vierellä. B on selvästi A:n perässä ja tunkee A:n ja laiturin väliin, vaikka tilaa ei peiton alkaessa ole. Saako B tilaa?",
+          "en": "Boats are sailing along a long pier. B is clear astern of A and pushes in between A and the pier, although there is no room when the overlap begins. Is B entitled to room?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 45,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 100,
+              "y": 110,
+              "rot": 0,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 72,
+              "y": 185,
+              "rot": 0,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, sisäpuolisena veneenä (19.2(b))",
+              "en": "Yes, as the inside boat (19.2(b))"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: B:n pitää pysyä loitolla, eivätkä säännöt 10 ja 11 päde (19.2(c))",
+              "en": "No: B must keep clear, and rules 10 and 11 do not apply (19.2(c))"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Laituri on jatkuva este. 19.2(c): jos selvästi perässä ollut vene joutuu peittoon toisen ja jatkuvan esteen väliin eikä tilaa ole peiton alkaessa, se ei saa tilaa 19.2(b):n perusteella, ja peiton jatkuessa sen pitää pysyä loitolla; säännöt 10 ja 11 eivät päde.",
+          "en": "The pier is a continuing obstruction. 19.2(c): if a boat that was clear astern becomes overlapped between the other boat and a continuing obstruction with no room at the moment the overlap begins, she is not entitled to room under 19.2(b), and while overlapped she must keep clear; rules 10 and 11 do not apply."
+        },
+        "source": "RRS 19.2(c); Definition Continuing Obstruction",
+        "also": [
+          "10",
+          "11"
+        ]
+      },
+      {
+        "id": "r19-q4",
+        "prompt": {
+          "fi": "Myötätuulessa M purjehtii kahden peitossa olevan veneen, L:n ja W:n, väliin. W väittää, että L on jatkuva este ja M:llä ei siksi ole oikeutta tilaan (19.2(c)). Pitääkö väite paikkansa?",
+          "en": "On a run M sails between two overlapped boats, L and W. W claims L is a continuing obstruction, so M is not entitled to room (19.2(c)). Is she right?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "W",
+              "x": 75,
+              "y": 90,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "M",
+              "x": 150,
+              "y": 70,
+              "rot": 180,
+              "tack": "p",
+              "c": "c"
+            },
+            {
+              "n": "L",
+              "x": 225,
+              "y": 110,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, jos L on pitkä vene",
+              "en": "Yes, if L is a long boat"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: kilpaileva vene ei ole koskaan jatkuva este",
+              "en": "No: a boat racing is never a continuing obstruction"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Määritelmä Jatkuva este ja Case 29: kilpaileva vene voi olla este, mutta ei koskaan jatkuva este, joten 19.2(c) ei päde. W:n pitää antaa M:lle tilaa (19.2(b)), jos se pystyy siihen peiton alusta asti.",
+          "en": "Definition Continuing Obstruction and Case 29: a boat racing can be an obstruction but never a continuing one, so 19.2(c) does not apply. W must give M room (19.2(b)) if she is able to from the start of the overlap."
+        },
+        "source": "Case 29, 23; Definition Continuing Obstruction"
+      },
+      {
+        "id": "r19-q5",
+        "prompt": {
+          "fi": "Sisäpuolisella veneellä on oikeus tilaan esteellä 19.2(b):n perusteella. Pitääkö sen huutaa tilaa saadakseen sen?",
+          "en": "An inside boat is entitled to room at an obstruction under 19.2(b). Must she hail for it?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, muuten ulkopuolisen ei tarvitse antaa tilaa",
+              "en": "Yes, otherwise the outside boat need not give room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, mutta se on viisasta väärinkäsitysten välttämiseksi",
+              "en": "No, but it is prudent to avoid misunderstandings"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 41: säännöt eivät vaadi huutamaan tilaa esteellä, mutta huuto on järkevä. Myös Case 11:ssä tilaa olisi pitänyt antaa ilman huutoakin.",
+          "en": "Case 41: the rules do not require a hail for room at an obstruction, but a hail is sensible. In Case 11, too, room had to be given even without a hail."
+        },
+        "source": "Case 41, 11"
+      },
+      {
+        "id": "r19-q6",
+        "prompt": {
+          "fi": "P purjehtii jokea ylös tiukasti vastaisessa suunnassa vasemmalla halssilla aivan rannan vieressä ja sen suuntaisesti. S tekee vastakäännöksen oikealle halssille ja tulee P:tä kohti. P ei voi nousta osumatta rantaan eikä laskea osumatta S:ään ja huutaa tilaa. Pitääkö S:n antaa tilaa säännön 19.2(b) tai 20 perusteella?",
+          "en": "P is sailing up-river close-hauled on port tack, right next to and parallel to the bank. S tacks onto starboard and approaches P. P cannot luff without hitting the bank or bear away without hitting S, and hails for room. Must S give room under 19.2(b) or rule 20?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 50,
+              "h": 260
+            },
+            {
+              "x": 50,
+              "y": 0,
+              "w": 50,
+              "h": 210
+            },
+            {
+              "x": 100,
+              "y": 0,
+              "w": 50,
+              "h": 160
+            },
+            {
+              "x": 150,
+              "y": 0,
+              "w": 50,
+              "h": 110
+            },
+            {
+              "x": 200,
+              "y": 0,
+              "w": 50,
+              "h": 60
+            }
+          ],
+          "boats": [
+            {
+              "n": "P",
+              "x": 125,
+              "y": 220,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "S",
+              "x": 215,
+              "y": 190,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, 19.2(b):n perusteella",
+              "en": "Yes, under 19.2(b)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, säännön 20 perusteella",
+              "en": "Yes, under rule 20"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: veneet eivät ole peitossa eivätkä samalla halssilla; P:n pitää pysyä loitolla (10)",
+              "en": "No: the boats are neither overlapped nor on the same tack; P must keep clear (10)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 43: eri halsseilla olevat veneet ovat peitossa vain, jos molemmat purjehtivat yli 90 asteen kulmassa tosituuleen, joten 19.2(b) ei päde. Sääntö 20 koskee vain samalla halssilla olevia. S:n pitää noudattaa sääntöjä 13 ja 15, ja kun on selvää, ettei P pysy loitolla, myös sääntöä 14.",
+          "en": "Case 43: boats on opposite tacks are overlapped only if both are sailing more than 90 degrees from the true wind, so 19.2(b) does not apply. Rule 20 only covers boats on the same tack. S must comply with rules 13 and 15, and once it is clear P is not keeping clear, with rule 14."
+        },
+        "source": "Case 43; Definition Clear Astern and Clear Ahead; Overlap",
+        "also": [
+          "10",
+          "13",
+          "14",
+          "15",
+          "20"
+        ]
+      },
+      {
+        "id": "r19-q7",
+        "prompt": {
+          "fi": "Kaksi venettä kiertää tavallista poijua, ja sääntö 18 pätee niiden välillä. Antaako sääntö 19 lisäksi sisäpuoliselle tilaa poijun ohittamiseen?",
+          "en": "Two boats are rounding an ordinary buoy, and rule 18 applies between them. Does rule 19 additionally give the inside boat room to pass the buoy?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "I",
+              "x": 150,
+              "y": 105,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "O",
+              "x": 112,
+              "y": 105,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, molemmat säännöt pätevät rinnakkain",
+              "en": "Yes, both rules apply side by side"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: kun 18 pätee ja este on merkki, 19 ei päde",
+              "en": "No: when 18 applies and the obstruction is the mark, 19 does not"
+            }
+          }
+        ],
+        "why": {
+          "fi": "19.1(a): sääntö 19 ei päde veneiden välillä, kun sääntö 18 pätee niiden välillä ja este on merkki. Jos merkki on jatkuva este, tilanne on päinvastainen: 19 pätee ja 18 ei.",
+          "en": "19.1(a): rule 19 does not apply between boats when rule 18 applies between them and the obstruction is the mark. If the mark is a continuing obstruction it is the other way round: 19 applies and 18 does not."
+        },
+        "source": "RRS 19.1, 18.1(a)(4)",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "r19-q8",
+        "prompt": {
+          "fi": "Lähtöä odottaa rivi oikean halssin veneitä tiiviisti vierekkäin. L ja W tulevat perästä. Voiko tällainen veneiden rivi olla jatkuva este?",
+          "en": "A row of starboard-tack boats is waiting close together before the start. L and W come from astern. Can such a row of boats be a continuing obstruction?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "A",
+              "x": 60,
+              "y": 80,
+              "rot": -60,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "B",
+              "x": 120,
+              "y": 80,
+              "rot": -60,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "C",
+              "x": 180,
+              "y": 80,
+              "rot": -60,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "L",
+              "x": 120,
+              "y": 200,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 165,
+              "y": 160,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, jos rivi on yli kolmen rungonpituuden mittainen",
+              "en": "Yes, if the row is longer than three hull lengths"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 117: kilpailevista veneistä muodostuva rivi ei ole koskaan jatkuva este. Kun L saa peiton rivin veneen suojan puolelle, se saa kulkuoikeuden siihen nähden, eikä se vene ole enää este L:lle ja W:lle.",
+          "en": "Case 117: a row of racing boats is never a continuing obstruction. When L becomes overlapped to leeward of a boat in the row, she gains right of way over it, and that boat is no longer an obstruction to L and W."
+        },
+        "source": "Case 117; Definition Continuing Obstruction",
+        "also": [
+          "11",
+          "15"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "section": "2C",
+    "title": {
+      "fi": "Tila vastakäännökseen esteellä",
+      "sv": "Plats att stagvända vid ett hinder",
+      "en": "Room to Tack at an Obstruction"
+    },
+    "explain": {
+      "fi": "Vene voi huutaa ”tilaa vastakäännökseen” välttääkseen samalla halssilla olevan veneen, mutta vain jos (a) se lähestyy estettä ja sen pitää pian muuttaa suuntaansa huomattavasti välttääkseen sen turvallisesti ja (b) se purjehtii tiukasti vastaisessa suunnassa tai ylempänä. Se ei saa huutaa, jos este on merkki ja merkille yltävä vene joutuisi huudon vuoksi muuttamaan kurssiaan (20.1). Huutajan pitää antaa huudetulle aikaa reagoida. Huudetun pitää reagoida, vaikka huuto rikkoisi kohtaa 20.1: joko tekemällä vastakäännöksen niin pian kuin mahdollista tai vastaamalla heti ”käännä itse” ja antamalla huutajalle tilaa vastakäännökseen ja itsensä välttämiseen. Kun huudettu reagoi, huutajan pitää tehdä vastakäännös niin pian kuin mahdollista. Huudosta siihen asti, kun huutaja on kääntynyt ja välttänyt huudetun, sääntö 18.2 ei päde niiden välillä (20.2). Huudettu, joka aikoo kääntyä, voi välittää huudon seuraavalle samalla halssilla olevalle veneelle, vaikka 20.1:n ehdot eivät täyttyisi (20.3). Jos huuto voi jäädä kuulematta, pitää käyttää myös selvää merkkiä (20.4). Tila ei anna kulkuoikeutta: tilaan oikeutettu vene ei saa kulkuoikeutta sen vuoksi (Case 101).",
+      "en": "A boat may hail ‘Room to tack’ to avoid a boat on the same tack, but only if (a) she is approaching an obstruction and will soon need to make a substantial course change to avoid it safely and (b) she is sailing close-hauled or above. She may not hail if the obstruction is a mark and a boat fetching it would have to change course because of the hail (20.1). The hailing boat must give the hailed boat time to respond. The hailed boat must respond even if the hail breaks 20.1: either by tacking as soon as possible, or by immediately replying ‘You tack’ and giving the hailing boat room to tack and avoid her. When the hailed boat responds, the hailing boat must tack as soon as possible. From the hail until the hailing boat has tacked and avoided the hailed boat, rule 18.2 does not apply between them (20.2). A hailed boat that intends to tack may pass the hail on to another boat on the same tack, even if 20.1's conditions are not met (20.3). If a hail may not be heard, a clear signal must also be made (20.4). Room does not bring right of way: the boat entitled to room does not gain right of way because of it (Case 101)."
+    },
+    "note": {
+      "fi": "Liitteet C ja D (tietyin ehdoin) sekä F vaativat huudon lisäksi käsimerkit. Liitteessä E huutoon kuuluu huutavan veneen purjenumero. Kilpailukutsu voi määrätä muun viestintätavan (20.4(b)).",
+      "en": "Appendices C, D (when stated) and F require arm signals in addition to hails. In Appendix E the hail includes the hailing boat's sail number. The notice of race may specify another means of communication (20.4(b))."
+    },
+    "source": "RRS 20, Appendices C, D, E, F; Case 3, 10, 33, 35, 54, 101, 113",
+    "scene": {
+      "h": 260,
+      "obst": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 40,
+          "h": 260
+        }
+      ],
+      "boats": [
+        {
+          "n": "L",
+          "x": 110,
+          "y": 150,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "W",
+          "x": 148,
+          "y": 112,
+          "rot": -45,
+          "tack": "s",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "L ja W purjehtivat tiukasti vastaisessa suunnassa oikealla halssilla kohti rantaa. L:n pitää pian muuttaa suuntaansa huomattavasti, joten se saa huutaa W:lle ”tilaa vastakäännökseen”. W:n pitää joko kääntyä niin pian kuin mahdollista tai vastata heti ”käännä itse” ja antaa L:lle tilaa.",
+      "en": "L and W are close-hauled on starboard tack heading for the shore. L will soon need to change course substantially, so she may hail ‘Room to tack’ to W. W must either tack as soon as possible or reply ‘You tack’ at once and give L room."
+    },
+    "defs": [
+      "Obstruction",
+      "Room",
+      "Fetching"
+    ],
+    "links": [
+      {
+        "rules": [
+          "19"
+        ],
+        "note": {
+          "fi": "Kulkuun oikeutettu vene voi valita esteen ohittamisen tai huudon tilasta vastakäännökseen (Case 3).",
+          "en": "A right-of-way boat may choose between passing the obstruction and hailing for room to tack (Case 3)."
+        }
+      },
+      {
+        "rules": [
+          "18.2"
+        ],
+        "note": {
+          "fi": "Huudosta vastakäännöksen ja välttämisen loppuun 18.2 ei päde veneiden välillä (20.2(e)).",
+          "en": "From the hail until the tack and avoidance are complete, 18.2 does not apply between the boats (20.2(e))."
+        }
+      },
+      {
+        "rules": [
+          "10",
+          "13"
+        ],
+        "note": {
+          "fi": "”Käännä itse” -vastauksen jälkeen huutaja on vasemmalla halssilla ja sen pitää pysyä loitolla (10); huudettu antaa vain tilaa (Case 101).",
+          "en": "After a ‘You tack’ reply the hailing boat is on port and must keep clear (10); the hailed boat only gives room (Case 101)."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "Jos huudettu ei reagoi ja huutaja joutuu siksi rikkomaan sääntöä, huutaja vapautetaan (43.1(a); Case 3).",
+          "en": "If the hailed boat fails to respond and the hailing boat is compelled to break a rule as a result, she is exonerated (43.1(a); Case 3)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 3,
+        "title": {
+          "fi": "Huutoon ei vastattu",
+          "en": "The hail was not answered"
+        },
+        "text": {
+          "fi": "S huusi PL:lle, kun jollat lähestyivät toisiaan törmäyskurssilla. PL huusi kahdesti tuulen puolellaan olevalle PW:lle ”tilaa vastakäännökseen”, mutta PW ei reagoinut. Kun PL ei enää pystynyt pysymään loitolla S:stä, se huusi kolmannen kerran, ja PW alkoi kääntyä. S, joka oli silloin alle metrin päässä PL:stä, joutui laskemaan jyrkästi. PW keskeytti. Lautakunta hylkäsi PL:n: sen olisi pitänyt luffata ja pakottaa PW kääntymään.",
+          "en": "S hailed PL as the dinghies approached each other on collision courses. PL twice hailed PW, to windward of her, ‘Room to tack’, but PW did not respond. When PL could no longer keep clear of S, she hailed a third time, and PW began to tack. S, then within 1 m of PL, had to bear away sharply. PW retired. The committee disqualified PL, saying she should have luffed and forced PW to tack."
+        },
+        "answer": {
+          "fi": "PL:n valitus hyväksyttiin. S oli este PL:lle ja PW:lle, joten kulkuun oikeutettu PL sai valita laskemisen ja tilan huutamisen välillä. Huudettuaan se sai odottaa PW:n reagoivan (20.2(b), (c)), eikä sen tarvinnut ennakoida PW:n rikkomusta. PL rikkoi sääntöä 10, mutta se vapautettiin, koska PW:n rikkomus pakotti siihen (43.1(a)).",
+          "en": "PL's appeal was upheld. S was an obstruction to PL and PW, so PL, with right of way, could choose between bearing away and hailing for room to tack. Having hailed, she was entitled to expect PW to respond (20.2(b), (c)) and need not anticipate PW's breach. PL broke rule 10 but was exonerated because PW's breach compelled it (43.1(a))."
+        },
+        "also": [
+          "10",
+          "19",
+          "43"
+        ],
+        "source": "Case 3"
+      },
+      {
+        "case": 101,
+        "title": {
+          "fi": "”Käännä itse” ei anna kulkuoikeutta",
+          "en": "‘You tack’ does not give right of way"
+        },
+        "text": {
+          "fi": "Kaksi Dragonia lähestyi rantaa oikealla halssilla, A selvästi edellä ja B:n suojan puolella. A huusi ”tilaa vastakäännökseen”, B vastasi ”käännä itse”. A teki vastakäännöksen, B piti kurssinsa. A oli nyt törmäyskurssilla B:n kanssa ja teki uuden vastakäännöksen; molemmat käännökset tehtiin normaalisti. Sen jälkeen A oli peitossa B:n suojan puolella. A protestoi, ettei B antanut tilaa, ja lautakunta hylkäsi B:n, koska se ei pysynyt loitolla.",
+          "en": "Two Dragons approached the shore on starboard tack, A clear ahead and to leeward of B. A hailed ‘Room to tack’, B replied ‘You tack’. A tacked, B held her course. A was then on a collision course with B and tacked again; both tacks were normal. A was then overlapped to leeward of B. A protested that B had not given room, and the committee disqualified B for not keeping clear."
+        },
+        "answer": {
+          "fi": "B:n valitus hyväksyttiin. A pystyi kääntymään ja välttämään B:n merenkulkutaidolla, joten B antoi kohdan 20.2(c) vaatiman tilan. Velvollisuus antaa tilaa ei ole velvollisuus pysyä loitolla: vastakäännöksen jälkeen A oli vasemmalla halssilla, ja sen piti pysyä loitolla B:stä (10).",
+          "en": "B's appeal was upheld. A was able to tack and avoid B in a seamanlike way, so B gave the room required by 20.2(c). A duty to give room is not a duty to keep clear: after tacking A was on port and had to keep clear of B (10)."
+        },
+        "also": [
+          "10"
+        ],
+        "source": "Case 101"
+      },
+      {
+        "case": 113,
+        "title": {
+          "fi": "Kolme venettä ja yksi huuto",
+          "en": "Three boats and one hail"
+        },
+        "text": {
+          "fi": "L, M ja W purjehtivat tiukasti vastaisessa suunnassa oikealla halssilla kohti estettä, joka ei ole merkki. L ei voi välttää estettä turvallisesti ilman suurta suunnanmuutosta ja huutaa ”tilaa vastakäännökseen” niin kovaa, että sekä M että W kuulevat. L pääsee kääntymään vain, jos sekä M että W kääntyvät, eikä M voi kääntyä W:n vuoksi.",
+          "en": "L, M and W are close-hauled on starboard tack approaching an obstruction that is not a mark. L cannot avoid it safely without a substantial course change and hails ‘Room to tack’ loudly enough for both M and W to hear. L can only tack if both M and W tack, and M cannot tack because of W."
+        },
+        "answer": {
+          "fi": "W:n pitää reagoida: vene, joka kuulee huudon ja jonka pitää reagoida ennen kuin huutaja voi kääntyä, on huudettu vene. Jos W ei jo reagoi, M:n pitää heti huutaa W:lle tilaa vastakäännökseen; 20.3 sallii sen, vaikka M ei muuten vielä tarvitsisi tilaa. ”Käännä itse” ei ole M:lle vaihtoehto. Jos M ei huuda ja siksi ei pysty kääntymään niin pian kuin mahdollista, se rikkoo kohtaa 20.2(c). Muut sanat kuin ”tilaa vastakäännökseen” eivät kelpaa.",
+          "en": "W must respond: a boat that hears the hail and must respond before the hailing boat can tack is a hailed boat. If W is not already responding, M must immediately hail W for room to tack; 20.3 allows this even if M would not otherwise yet need room. Replying ‘You tack’ is not an option for M. If M fails to hail and so cannot tack as soon as possible, she breaks 20.2(c). Words other than ‘Room to tack’ do not count."
+        },
+        "source": "Case 113"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r20-q1",
+        "prompt": {
+          "fi": "Milloin vene saa huutaa ”tilaa vastakäännökseen”?",
+          "en": "When may a boat hail ‘Room to tack’?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Aina, kun samalla halssilla oleva vene estää sitä kääntymästä",
+              "en": "Whenever a boat on the same tack prevents her from tacking"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun se lähestyy estettä, sen pitää pian muuttaa suuntaa huomattavasti ja se purjehtii tiukasti vastaisessa suunnassa tai ylempänä",
+              "en": "When she is approaching an obstruction, will soon need a substantial course change, and is sailing close-hauled or above"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun se on vyöhykkeellä",
+              "en": "When she is in the zone"
+            }
+          }
+        ],
+        "why": {
+          "fi": "20.1(a) ja (b) asettavat molemmat ehdot. Lisäksi merkillä ei saa huutaa, jos merkille yltävä vene joutuisi huudon vuoksi muuttamaan kurssiaan.",
+          "en": "20.1(a) and (b) set both conditions. In addition, at a mark a boat may not hail if a boat fetching it would have to change course because of the hail."
+        },
+        "source": "RRS 20.1"
+      },
+      {
+        "id": "r20-q2",
+        "prompt": {
+          "fi": "L ja W purjehtivat sivutuulta vasemmalla halssilla lähtölinjaa pitkin. L on törmäyskurssilla oikean halssin S:n kanssa ja huutaa W:lle ”tilaa vastakäännökseen”. Pitääkö W:n reagoida?",
+          "en": "L and W are reaching along the starting line on port tack. L is on a collision course with S on starboard and hails W ‘Room to tack’. Must W respond?"
+        },
+        "scene": {
+          "h": 260,
+          "boats": [
+            {
+              "n": "S",
+              "x": 215,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "c"
+            },
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": 90,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 90,
+              "y": 105,
+              "rot": 90,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska L ei purjehdi tiukasti vastaisessa suunnassa",
+              "en": "No, because L is not close-hauled"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: huudettu reagoi aina; L kuitenkin rikkoo kohtaa 20.1(b)",
+              "en": "Yes: the hailed boat always responds; L, however, breaks 20.1(b)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 10: S on este L:lle ja W:lle, mutta sivutuulessa purjehtiva L ei saa huutaa (20.1(b)). Huudetun pitää silti reagoida (20.2(b)). Jos L ei sen jälkeen käänny vaan esimerkiksi menee S:n perän takaa, se rikkoo myös kohtaa 20.2(d).",
+          "en": "Case 10: S is an obstruction to L and W, but L, reaching, may not hail (20.1(b)). The hailed boat must still respond (20.2(b)). If L then does not tack but, for example, passes astern of S, she also breaks 20.2(d)."
+        },
+        "source": "Case 10; RRS 20.1(b), 20.2(b), 20.2(d)"
+      },
+      {
+        "id": "r20-q3",
+        "prompt": {
+          "fi": "Luovittaessa aallonmurtajien välissä SL huutaa ”tilaa vastakäännökseen” jo ennen kuin sen pitäisi aloittaa kääntymisprosessi välttääkseen seuraavan aallonmurtajan turvallisesti. Mitä seuraa?",
+          "en": "Beating between breakwaters, SL hails ‘Room to tack’ before the time she needs to start the process to avoid the next breakwater safely. What follows?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Huuto on mitätön, eikä SW:n tarvitse reagoida",
+              "en": "The hail is void and SW need not respond"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "SL rikkoo kohtaa 20.1(a), mutta SW:n pitää silti reagoida",
+              "en": "SL breaks 20.1(a), but SW must still respond"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 33: liian aikainen huuto rikkoo kohtaa 20.1(a), mutta huudetun pitää reagoida (20.2(b), (c)). Oikea hetki on, kun huutajan pitää aloittaa koko prosessi (huuto, odotus, vastakäännös) välttääkseen esteen turvallisesti (Case 54).",
+          "en": "Case 33: a hail made too early breaks 20.1(a), but the hailed boat must respond (20.2(b), (c)). The right moment is when the hailing boat needs to begin the whole process (hail, wait, tack) to avoid the obstruction safely (Case 54)."
+        },
+        "source": "Case 33, 54"
+      },
+      {
+        "id": "r20-q4",
+        "prompt": {
+          "fi": "W vastaa L:n huutoon heti ”käännä itse”. Mitä L:n pitää tehdä, ja mitä W:n?",
+          "en": "W replies at once ‘You tack’ to L's hail. What must L do, and what must W do?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "L:n pitää kääntyä niin pian kuin mahdollista; W:n pitää antaa L:lle tilaa kääntyä ja välttää se",
+              "en": "L must tack as soon as possible; W must give L room to tack and avoid her"
+            }
+          },
+          {
+            "t": {
+              "fi": "L saa valita, kääntyykö se; W:n pitää pysyä loitolla",
+              "en": "L may choose whether to tack; W must keep clear"
+            }
+          },
+          {
+            "t": {
+              "fi": "Molempien pitää kääntyä",
+              "en": "Both must tack"
+            }
+          }
+        ],
+        "why": {
+          "fi": "20.2(c) ja (d): huudettu voi vastata ”käännä itse” ja antaa tilaa; huudetun reagoitua huutajan pitää kääntyä niin pian kuin mahdollista. Case 35: jos L pystyy kääntymään ja välttämään W:n merenkulkutaidolla, W on antanut tilan.",
+          "en": "20.2(c) and (d): the hailed boat may reply ‘You tack’ and give room; once she responds, the hailing boat must tack as soon as possible. Case 35: if L can tack and avoid W in a seamanlike way, W has given the room."
+        },
+        "source": "RRS 20.2(c), 20.2(d); Case 35"
+      },
+      {
+        "id": "r20-q5",
+        "prompt": {
+          "fi": "A huusi tilaa vastakäännökseen, B vastasi ”käännä itse” ja piti kurssinsa. A:n vastakäännöksen jälkeen veneet ovat törmäyskurssilla. Kumman pitää pysyä loitolla?",
+          "en": "A hailed for room to tack, B replied ‘You tack’ and held her course. After A's tack the boats are on a collision course. Which must keep clear?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "A",
+              "x": 100,
+              "y": 150,
+              "rot": 45,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 150,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B, koska se lupasi antaa tilaa",
+              "en": "B, because she undertook to give room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "A, vasemman halssin veneenä (10); B:n pitää vain antaa tilaa kääntyä ja välttää se",
+              "en": "A, as the port-tack boat (10); B only has to give room to tack and avoid her"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 101: kun kulkuun oikeutetun veneen pitää antaa toiselle tilaa, kulkuoikeus ei siirry. A:n pitää pysyä loitolla (10). Jos A pystyy välttämään B:n merenkulkutaidolla, esimerkiksi uudella vastakäännöksellä, B on antanut tilan.",
+          "en": "Case 101: when a right-of-way boat must give another boat room, right of way does not transfer. A must keep clear (10). If A can avoid B in a seamanlike way, for example by tacking again, B has given the room."
+        },
+        "source": "Case 101",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r20-q6",
+        "prompt": {
+          "fi": "Este on merkki. L haluaa huutaa tilaa vastakäännökseen, mutta W yltää merkille ja joutuisi huudon vuoksi muuttamaan kurssiaan. Saako L huutaa?",
+          "en": "The obstruction is a mark. L wants to hail for room to tack, but W is fetching the mark and would have to change course because of the hail. May L hail?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            120,
+            100
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "L",
+              "x": 150,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 172,
+              "y": 128,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, jos ehdot (a) ja (b) täyttyvät",
+              "en": "Yes, if conditions (a) and (b) are met"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "20.1:n viimeinen virke: jos este on merkki ja merkille yltävä vene joutuisi huudon vuoksi muuttamaan kurssiaan, ei saa huutaa. Jos L silti huutaa, W:n pitää reagoida (20.2(b)).",
+          "en": "Last sentence of 20.1: if the obstruction is a mark and a boat fetching it would have to change course because of the hail, the hail is not allowed. If L hails anyway, W must respond (20.2(b))."
+        },
+        "source": "RRS 20.1, 20.2(b)",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "r20-q7",
+        "prompt": {
+          "fi": "L huutaa ajoissa ”tilaa vastakäännökseen”, mutta W ei reagoi lainkaan. Mitä L:n pitäisi tehdä?",
+          "en": "L hails ‘Room to tack’ in time, but W does not respond at all. What should L do?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Pitää kurssinsa, koska W:n velvollisuus on reagoida",
+              "en": "Hold her course, because W is obliged to respond"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Toistaa huuto, jos aikaa on, välttää este turvallisimmalla tavalla ja protestoida",
+              "en": "Repeat the hail if time allows, avoid the obstruction in the safest way and protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 54: sääntö vaatii yhden huudon (ja tarvittaessa merkin), mutta toistaminen on järkevää. Vastauksen puute ei tarkoita, että L:n pitäisi pitää kurssinsa; se voi esimerkiksi nousta tuulensilmään tai jiipata ja protestoida W:tä kohdan 20.2(c) rikkomisesta.",
+          "en": "Case 54: the rule requires one hail (and a signal if needed), but repeating it is sensible. The lack of a response does not mean L must hold her course; she may for example luff to head to wind or gybe, and then protest W under 20.2(c)."
+        },
+        "source": "Case 54; RRS 20.2(c)",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "r20-q8",
+        "prompt": {
+          "fi": "Kova tuuli ja aallokko: L:n huuto voi jäädä kuulematta. Mitä sääntö 20 vaatii?",
+          "en": "Strong wind and waves: L's hail may not be heard. What does rule 20 require?"
+        },
+        "scene": {
+          "h": 260,
+          "obst": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 40,
+              "h": 260
+            }
+          ],
+          "boats": [
+            {
+              "n": "L",
+              "x": 110,
+              "y": 150,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 148,
+              "y": 112,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Riittää, että L huutaa",
+              "en": "It is enough for L to hail"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "L:n pitää lisäksi antaa merkki, joka selvästi osoittaa tarpeen tilaan vastakäännökseen",
+              "en": "L must also make a signal that clearly indicates her need for room to tack"
+            }
+          }
+        ],
+        "why": {
+          "fi": "20.4(a): kun huuto voi jäädä kuulematta, pitää käyttää myös selvää merkkiä; sama koskee vastausta. Case 54 mainitsee esimerkkeinä eleet, pillin tai äänimerkin ja pimeällä valomerkin. Kilpailukutsu voi määrätä muun viestintätavan (20.4(b)).",
+          "en": "20.4(a): when a hail may not be heard, a clear signal must also be made; the same applies to the reply. Case 54 gives gestures, a whistle or horn, or a light at night as examples. The notice of race may specify another means (20.4(b))."
+        },
+        "source": "RRS 20.4; Case 54"
       }
     ]
   }
