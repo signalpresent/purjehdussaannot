@@ -14,4 +14,15 @@ export function pickNext(ids: string[], box: Record<string, number>, last: strin
   const c = pool.filter(i => (box[i] ?? 0) === low);
   return c[Math.floor(rnd() * c.length)];
 }
+// Progress file: only the Leitner boxes, versioned. Import keeps known question ids and clamps to 0..2.
+export const exportBox = (s: State) => JSON.stringify({ app: 'sailrules', v: 1, box: s.box }, null, 1);
+export function importBox(text: string, ids: string[]): Record<string, number> | null {
+  try {
+    const d = JSON.parse(text);
+    if (d?.app !== 'sailrules' || d.v !== 1 || typeof d.box !== 'object' || !d.box) return null;
+    const out: Record<string, number> = {};
+    for (const id of ids) { const n = d.box[id]; if (Number.isInteger(n)) out[id] = Math.min(Math.max(n, 0), 2); }
+    return out;
+  } catch { return null; }
+}
 export type { State };

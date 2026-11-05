@@ -29,3 +29,4 @@ input[type=search]{width:100%;padding:12px;border-radius:10px;border:1px solid #
 .opt{display:block;width:100%;text-align:left;margin:8px 0}.opt:disabled{color:var(--ink);opacity:1}.btn.ok{border-color:var(--ok)}.btn.bad{border-color:var(--bad)}
 .st{font-weight:600}
 .fig .mk{fill:#e8864a;stroke:var(--ink);stroke-width:1.5}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:1.2rem}

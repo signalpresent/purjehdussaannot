@@ -2,9 +2,9 @@ import './style.css';
 import { registerSW } from 'virtual:pwa-register';
 import defsRaw from './defs.json';
 import { LANGS, Lang, T, esc } from './i18n';
-import { load, save, State } from './store';
+import { load, save, State, exportBox, importBox } from './store';
 import { diagrams, overlapMove } from './diagrams';
-import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer } from './rules';
+import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -23,6 +23,7 @@ let backTo: View = 'list';
 let current: Def | null = null;
 let currentRule: (typeof rules)[number] | null = null;
 let query = '';
+let flash = '';
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
@@ -54,13 +55,22 @@ function render() {
     : view === 'rules' ? rulesView(state.lang) : view === 'practice' ? practiceView(state) : listView();
   const hadFocus = document.activeElement?.id === 'q';
   root.innerHTML = shell(inner);
+  const m = document.getElementById('impmsg'); if (m) m.textContent = flash;
   if (hadFocus) { const q = document.getElementById('q') as HTMLInputElement; q.focus(); q.setSelectionRange(query.length, query.length); }
 }
 
 root.addEventListener('click', e => {
-  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next]') as HTMLElement | null;
+  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next],[data-export],[data-import]') as HTMLElement | null;
   if (!el) return;
   const ds = el.dataset;
+  flash = '';
+  if (ds.import) { (document.getElementById('imp') as HTMLInputElement).click(); return; }
+  if (ds.export) {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([exportBox(state)], { type: 'application/json' }));
+    a.download = `purjehdussaannot-edistyminen-${new Date().toISOString().slice(0, 10)}.json`; a.click(); URL.revokeObjectURL(a.href);
+    return;
+  }
   if (ds.lang) { state.lang = ds.lang as Lang; save(state); }
   else if (ds.nav) view = ds.nav as View;
   else if (ds.rule) { currentRule = rules.find(r => String(r.n) === ds.rule) ?? null; view = currentRule ? 'rule' : 'rules'; window.scrollTo(0, 0); }
@@ -74,5 +84,12 @@ root.addEventListener('input', e => {
   const el = e.target as HTMLInputElement;
   if (el.id === 'q') { query = el.value; render(); }
   if (el.id === 'ov') overlapMove(el, state.lang);
+});
+root.addEventListener('change', async e => {
+  const el = e.target as HTMLInputElement;
+  if (el.id !== 'imp' || !el.files?.[0]) return;
+  const box = importBox(await el.files[0].text(), questionIds());
+  if (box) { state.box = box; save(state); flash = `${t('imported')}: ${Object.keys(box).length}`; } else flash = t('importFail');
+  render();
 });
 render();

@@ -10,9 +10,10 @@ interface Opt { t: ML; ok?: boolean }
 interface Question { id: string; prompt: ML; scene: Scene; options: Opt[]; why: ML; source: string; also?: string[] }
 interface Scenario { case: number; title: ML; text: ML; answer: ML; also?: string[]; source: string }
 interface Rule {
-  n: number; title: Record<Lang, string>; explain: ML; note: ML; source: string; scene: Scene; caption: ML;
+  n: number; section: string; title: Record<Lang, string>; explain: ML; note: ML; source: string; scene: Scene; caption: ML;
   defs: string[]; links: { rules: string[]; note: ML }[]; scenarios: Scenario[]; questions: Question[];
 }
+export const questionIds = () => all.map(q => q.id);
 export const rules = rulesRaw as unknown as Rule[];
 const defNames = defsRaw as unknown as Record<string, string>[];
 const tx = (m: ML, l: Lang) => m[l] ?? m.en;
@@ -26,9 +27,11 @@ const chips = (rs: string[], l: Lang) => {
 };
 
 export function rulesView(l: Lang): string {
-  const rows = rules.map(r => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
-    <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`).join('');
-  return `<div class="list">${rows}</div><p class="mute">${T.moreRules[l]}</p>`;
+  const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
+    <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
+  const groups = [...new Set(rules.map(r => r.section))];
+  return groups.map(g => `<h3>${T['group' + g][l]}</h3><div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
+    + `<p class="mute">${T.moreRules[l]}</p>`;
 }
 
 export function ruleView(r: Rule, l: Lang): string {
@@ -62,5 +65,5 @@ export function practiceView(s: State): string {
   const buttons = opts.map((o, i) => `<button class="btn opt${picked >= 0 ? (o.ok ? ' ok' : i === picked ? ' bad' : '') : ''}" data-ans="${i}"${picked >= 0 ? ' disabled' : ''}>${esc(tx(o.t, l))}</button>`).join('');
   const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
     <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
-  return `${fb(l)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p><div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div><p>${esc(tx(q.prompt, l))}</p>${buttons}${res}`;
+  return `${fb(l)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p><div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div><p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
 }

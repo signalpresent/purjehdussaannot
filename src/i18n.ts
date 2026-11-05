@@ -25,5 +25,13 @@ export const T: Record<string, Record<Lang, string>> = {
   correct: { fi: 'Oikein', sv: 'Rätt', en: 'Correct' },
   wrong: { fi: 'Väärin', sv: 'Fel', en: 'Incorrect' },
   mastered: { fi: 'Hallittu', sv: 'Behärskade', en: 'Mastered' },
+  group2A: { fi: 'Ryhmä A · Kulkuoikeus', sv: 'Avdelning A · Rätt till väg', en: 'Section A · Right of Way' },
+  group2B: { fi: 'Ryhmä B · Yleiset rajoitukset', sv: 'Avdelning B · Allmänna begränsningar', en: 'Section B · General Limitations' },
+  group2C: { fi: 'Ryhmä C · Merkeillä ja esteillä', sv: 'Avdelning C · Vid märken och hinder', en: 'Section C · At Marks and Obstructions' },
+  group2D: { fi: 'Ryhmä D · Muut säännöt', sv: 'Avdelning D · Andra regler', en: 'Section D · Other Rules' },
+  export: { fi: 'Vie edistyminen', sv: 'Exportera framsteg', en: 'Export progress' },
+  import: { fi: 'Tuo edistyminen', sv: 'Importera framsteg', en: 'Import progress' },
+  imported: { fi: 'Tuotu kysymystä', sv: 'Importerade frågor', en: 'Imported questions' },
+  importFail: { fi: 'Tuonti epäonnistui: tiedosto ei ole edistymistiedosto.', sv: 'Importen misslyckades: filen är ingen framstegsfil.', en: 'Import failed: the file is not a progress file.' },
   none: { fi: 'Ei hakutuloksia', sv: 'Inga träffar', en: 'No results' },
 };
