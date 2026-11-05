@@ -1,4 +1,6 @@
 import type { Lang } from './i18n';
+import type { LangText } from './ruletext';
+import ids from './ruletext-ids.json' with { type: 'json' };
 const K = 'sailrules.v1';
 // box: question id -> Leitner box 0..2 (2 = mastered)
 interface State { lang: Lang; box: Record<string, number> }
@@ -26,18 +28,15 @@ export function importBox(text: string, ids: string[]): Record<string, number> |
   } catch { return null; }
 }
 export type { State };
-// Official rule text: built locally from the user's own PDFs (scripts/build_text.py), imported on the device, never bundled.
-export interface RuleText { edition: string; titles: Record<string, Record<Lang, string>>; blocks: { id: string; d: number; t: Record<Lang, string> }[] }
-const TK = 'sailrules.text.v1';
-const isML = (m: unknown) => !!m && (['fi', 'sv', 'en'] as const).every(l => typeof (m as Record<string, unknown>)[l] === 'string');
-export function parseText(s: string): RuleText | null {
+// Official rule text per language, parsed on the device from the user's own PDFs (src/ruletext.ts).
+// A language whose clause-id list differs from the app's (after an app update) is dropped and must be re-imported.
+export type TextStore = Partial<Record<Lang, LangText & { sig: string }>>;
+const TK = 'sailrules.text.v2';
+export const textSig = () => (ids.blocks as [string, number][]).map(b => b[0]).join('|');
+export function loadText(): TextStore {
   try {
-    const d = JSON.parse(s);
-    if (d?.app !== 'sailrules-text' || d.v !== 1 || !Array.isArray(d.blocks) || typeof d.titles !== 'object' || !d.titles) return null;
-    if (!d.blocks.every((b: RuleText['blocks'][number]) => typeof b?.id === 'string' && Number.isInteger(b.d) && isML(b.t))) return null;
-    if (!Object.values(d.titles).every(isML)) return null;
-    return { edition: String(d.edition ?? ''), titles: d.titles, blocks: d.blocks };
-  } catch { return null; }
+    const d = JSON.parse(localStorage.getItem(TK) || '{}') as TextStore, sig = textSig();
+    return Object.fromEntries(Object.entries(d).filter(([, v]) => v?.sig === sig));
+  } catch { return {}; }
 }
-export const loadText = () => { try { return parseText(localStorage.getItem(TK) || ''); } catch { return null; } };
-export function saveText(s: string): boolean { try { localStorage.setItem(TK, s); return true; } catch { return false; } }
+export function saveText(t: TextStore): boolean { try { localStorage.setItem(TK, JSON.stringify(t)); return true; } catch { return false; } }

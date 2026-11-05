@@ -10,6 +10,6 @@ export default defineConfig({
       start_url: './', display: 'standalone', background_color: '#0b2a3d', theme_color: '#0b2a3d',
       icons: [{ src: 'icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }]
     },
-    workbox: { globPatterns: ['**/*.{js,css,html,svg,json}'] }
+    workbox: { globPatterns: ['**/*.{js,mjs,css,html,svg,json}'] }
   })]
 });

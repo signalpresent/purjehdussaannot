@@ -2,7 +2,8 @@ import './style.css';
 import { registerSW } from 'virtual:pwa-register';
 import defsRaw from './defs.json';
 import { LANGS, Lang, T, esc } from './i18n';
-import { load, save, State, exportBox, importBox, loadText, parseText, saveText } from './store';
+import { load, save, State, exportBox, importBox, loadText, saveText, textSig } from './store';
+import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
 import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
 
@@ -25,12 +26,13 @@ let currentRule: (typeof rules)[number] | null = null;
 let query = '';
 let flash = '';
 let text = loadText();
+let textMsg = '';
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
   const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' ? 'practice' : 'rules';
   const nav = (['list', 'rules', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', practice: 'tabPractice' }[v])}</button>`).join('');
-  const foot = `<footer><span class="mute">${text ? `${t('textLoaded')} · ${esc(text.edition)}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".json,application/json" hidden><p class="mute" id="timpmsg"></p>
+  const foot = `<footer><span class="mute">${Object.keys(text).length ? `${t('textLoaded')}: ${Object.keys(text).map(x => x.toUpperCase()).join(', ')}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".pdf,application/pdf" multiple hidden><p class="mute" id="timpmsg">${esc(textMsg)}</p>
     <details class="help"><summary>${t('textHow')}</summary><p>${t('textIntro')}</p><ol>${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></details></footer>`;
   return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
 }
@@ -91,10 +93,23 @@ root.addEventListener('input', e => {
 });
 root.addEventListener('change', async e => {
   const el = e.target as HTMLInputElement;
-  if (el.id === 'timp' && el.files?.[0]) {
-    const raw = await el.files[0].text(), parsed = parseText(raw), ok = !!parsed && saveText(raw);
-    if (ok) text = parsed;
-    render(); if (!ok) document.getElementById('timpmsg')!.textContent = t('textFail'); return;
+  if (el.id === 'timp' && el.files?.length) {
+    const files = Array.from(el.files), msgs: string[] = [];
+    textMsg = t('textReading'); render();
+    try {
+      // pdf.js is loaded only here, so it does not slow down the app itself.
+      const [pdfjs, worker] = await Promise.all([import('pdfjs-dist'), import('pdfjs-dist/build/pdf.worker.min.mjs?url')]);
+      pdfjs.GlobalWorkerOptions.workerSrc = worker.default;
+      for (const f of files) {
+        const lines = await readPdf(pdfjs, new Uint8Array(await f.arrayBuffer())), lang = detectLang(lines);
+        const r = lang ? parseBook(lines, lang, f.name) : null;
+        if (!lang || !r) msgs.push(`${f.name}: ${t('textNotBook')}`);
+        else if ('error' in r) msgs.push(`${f.name}: ${t('textMismatch')} ${r.error}`);
+        else { text[lang] = { ...r.text, sig: textSig() }; msgs.push(`${lang.toUpperCase()}: ${t('textOk')}`); }
+      }
+      if (!saveText(text)) msgs.push(t('textFull'));
+    } catch (err) { msgs.push(`${t('textNotBook')} (${err instanceof Error ? err.message : err})`); }
+    textMsg = msgs.join(' · '); el.value = ''; render(); return;
   }
   if (el.id !== 'imp' || !el.files?.[0]) return;
   const box = importBox(await el.files[0].text(), questionIds());

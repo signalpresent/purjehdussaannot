@@ -2,7 +2,8 @@ import rulesRaw from './rules.json';
 import defsRaw from './defs.json';
 import { LANGS, Lang, T, esc } from './i18n';
 import { Scene, sceneSvg } from './diagrams';
-import { State, pickNext, RuleText } from './store';
+import { State, pickNext, TextStore } from './store';
+import { SKELETON } from './ruletext';
 
 // sv is optional: until it is written, the English text is shown.
 type ML = Partial<Record<Lang, string>> & { fi: string; en: string };
@@ -29,23 +30,27 @@ const chips = (rs: string[], l: Lang) => {
 };
 
 // Official text blocks, e.g. '18.2(a)(1)'; base = clause without item letters. Headings are shown when the clause changes.
+// Falls back to another imported language (marked) when the current one has not been imported.
 const base = (id: string) => id.split('(')[0];
-export function official(txt: RuleText | null, l: Lang, keep: (base: string) => boolean, skipHead = ''): string {
-  if (!txt) return '';
-  const bs = txt.blocks.filter(b => keep(base(b.id)));
-  if (!bs.length) return '';
-  const seen = new Set<string>(); let prevBase = '';
-  const body = bs.map(b => {
-    const bb = base(b.id), lab = !seen.has(b.id) && b.d ? b.id.match(/\(([^)]+)\)$/)![1] : '';
-    const h = bb !== prevBase && bb !== skipHead && !bb.startsWith('def:') && /\./.test(bb) ? `<p class="ot-h">${esc(`${bb} ${txt.titles[bb]?.[l] ?? ''}`.trim())}</p>` : '';
-    seen.add(b.id); prevBase = bb;
-    return `${h}<p class="ot d${b.d}">${lab ? (l === 'sv' ? `${lab}) ` : `(${lab}) `) : ''}${esc(b.t[l])}</p>`;
+export function official(txt: TextStore, l: Lang, keep: (base: string) => boolean, skipHead = ''): string {
+  const tl = txt[l] ? l : (['en', 'fi', 'sv'] as Lang[]).find(x => txt[x]);
+  if (!tl) return '';
+  const lt = txt[tl]!, seen = new Set<string>();
+  let prevBase = '';
+  const body = SKELETON.blocks.map(([id, d], i) => {
+    const bb = base(id);
+    if (!keep(bb)) return '';
+    const lab = !seen.has(id) && d ? id.match(/\(([^)]+)\)$/)![1] : '';
+    const h = bb !== prevBase && bb !== skipHead && !bb.startsWith('def:') && /\./.test(bb) ? `<p class="ot-h">${esc(`${bb} ${lt.titles[bb] ?? ''}`.trim())}</p>` : '';
+    seen.add(id); prevBase = bb;
+    return `${h}<p class="ot d${d}">${lab ? (tl === 'sv' ? `${lab}) ` : `(${lab}) `) : ''}${esc(lt.blocks[i])}</p>`;
   }).join('');
-  return `<details class="official"><summary>${T.official[l]}</summary>${body}<p class="mute">${esc(txt.edition)}</p></details>`;
+  if (!body) return '';
+  return `<details class="official"><summary>${T.official[l]}${tl !== l ? ` (${tl.toUpperCase()})` : ''}</summary>${body}<p class="mute">${esc(lt.file)}</p></details>`;
 }
 const mine = (r: Rule) => (b: string) => { const n = String(r.n); return b === n || (r.covers ? r.covers.includes(b) : b.startsWith(n + '.')); };
 
-export function rulesView(l: Lang, txt: RuleText | null = null): string {
+export function rulesView(l: Lang, txt: TextStore = {}): string {
   const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
     <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
   const groups = [...new Set(rules.map(r => r.section))];
@@ -53,7 +58,7 @@ export function rulesView(l: Lang, txt: RuleText | null = null): string {
     + `<p class="mute">${T.moreRules[l]}</p>`;
 }
 
-export function ruleView(r: Rule, l: Lang, txt: RuleText | null = null): string {
+export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
   const defs = r.defs.map(k => `<span data-open="${esc(k)}">${esc(defNames.find(d => d.en === k)?.[l] ?? k)}</span>`).join('');
   const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${esc(tx(k.note, l))}</p>`).join('');
   const scen = r.scenarios.map(s => `<div class="sc"><div class="chips"><span>Case ${s.case}</span>${chips(s.also ?? [], l)}</div>
