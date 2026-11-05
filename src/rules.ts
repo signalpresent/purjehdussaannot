@@ -10,7 +10,7 @@ interface Opt { t: ML; ok?: boolean }
 interface Question { id: string; prompt: ML; scene: Scene; options: Opt[]; why: ML; source: string; also?: string[] }
 interface Scenario { case: number; title: ML; text: ML; answer: ML; also?: string[]; source: string }
 interface Rule {
-  n: number; section: string; title: Record<Lang, string>; explain: ML; note: ML; source: string; scene: Scene; caption: ML;
+  n: number | string; section: string; covers?: string[]; title: Record<Lang, string>; explain: ML; note: ML; source: string; scene: Scene; caption: ML;
   defs: string[]; links: { rules: string[]; note: ML }[]; scenarios: Scenario[]; questions: Question[];
 }
 export const questionIds = () => all.map(q => q.id);
@@ -18,11 +18,13 @@ export const rules = rulesRaw as unknown as Rule[];
 const defNames = defsRaw as unknown as Record<string, string>[];
 const tx = (m: ML, l: Lang) => m[l] ?? m.en;
 const fb = (l: Lang) => T.fallback[l] ? `<p class="mute">${T.fallback[l]}</p>` : '';
-const covered = (r: string) => rules.some(x => String(x.n) === r.split('.')[0]);
+// Page for a rule reference: exact page ('18.3') first, else the parent page ('18.2' -> '18') if it covers that part.
+const page = (r: string) => rules.find(x => String(x.n) === r)
+  ?? rules.find(x => String(x.n) === r.split('.')[0] && (!x.covers || x.covers.some(c => r.startsWith(c))));
 // Rules with content become links; the others are grouped into one dashed "not yet covered" chip.
 const chips = (rs: string[], l: Lang) => {
-  const no = rs.filter(r => !covered(r));
-  return rs.filter(covered).map(r => `<span data-rule="${r.split('.')[0]}">${T.rule[l]} ${r}</span>`).join('')
+  const no = rs.filter(r => !page(r));
+  return rs.filter(r => page(r)).map(r => `<span data-rule="${page(r)!.n}">${T.rule[l]} ${r}</span>`).join('')
     + (no.length ? `<span class="soon">${no.length > 1 ? T.tabRules[l] : T.rule[l]} ${no.join(', ')} · ${T.notYet[l]}</span>` : '');
 };
 

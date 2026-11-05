@@ -19,7 +19,8 @@ const scene = (s: any, where: string) => {
 const ids = new Set<string>();
 for (const r of rules) {
   const w = `rule ${r.n}`;
-  assert.ok(map.rules[String(r.n)], `${w} not in content-map`);
+  const base = String(r.n).split('.')[0];
+  assert.ok(map.rules[base], `${w} not in content-map`);
   for (const k of ['explain', 'note', 'caption']) ml(r[k], `${w}.${k}`);
   scene(r.scene, w);
   for (const d of r.defs) assert.ok(defs.some((x: any) => x.en === d), `${w}: unknown definition ${d}`);
@@ -28,7 +29,7 @@ for (const r of rules) {
     ml(s.title, `${w} case ${s.case}`); ml(s.text, `${w} case ${s.case}`); ml(s.answer, `${w} case ${s.case}`);
     assert.ok(map.cases[String(s.case)], `case ${s.case} missing`);
     assert.ok(!map.meta.case_deleted_or_withdrawn.includes(s.case), `case ${s.case} is deleted or withdrawn`);
-    assert.ok(map.cases[String(s.case)].rules.includes(String(r.n)), `case ${s.case} does not cite rule ${r.n}`);
+    assert.ok(map.cases[String(s.case)].rules.includes(base), `case ${s.case} does not cite rule ${r.n}`);
   }
   for (const q of r.questions) {
     assert.ok(!ids.has(q.id), `duplicate id ${q.id}`); ids.add(q.id);

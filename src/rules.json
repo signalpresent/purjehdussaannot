@@ -3973,5 +3973,639 @@
         "source": "RRS 17"
       }
     ]
+  },
+  {
+    "n": "18",
+    "section": "2C",
+    "covers": [
+      "18.1",
+      "18.2"
+    ],
+    "title": {
+      "fi": "Merkkitila: milloin sääntö 18 pätee · merkkitilan antaminen",
+      "sv": "Märkesplats: när regel 18 gäller · ge märkesplats",
+      "en": "Mark-Room: When Rule 18 Applies · Giving Mark-Room"
+    },
+    "explain": {
+      "fi": "Sääntö 18 pätee, kun veneiden on jätettävä merkki samalle puolelle ja ainakin toinen niistä on vyöhykkeellä eli kolmen rungonpituuden (merkkiä lähempänä olevan veneen pituudella) etäisyydellä merkistä. Se ei päde (18.1(a)): (1) eri halsseilla tuuleen luovivien veneiden välillä (Case 132), (2) eri halsseilla olevien veneiden välillä, kun vain toisen oikea suunta merkillä on tehdä vastakäännös, (3) merkkiä lähestyvän ja siltä poistuvan veneen välillä eikä (4) jos merkki on jatkuva este; silloin pätee sääntö 19. Sääntö lakkaa, kun merkkitila on annettu (18.1(b)). Kuka antaa merkkitilaa, ratkeaa sillä hetkellä, kun ensimmäinen veneistä saavuttaa vyöhykkeen (18.2(a)): jos veneet ovat peitossa, ulkopuolinen antaa sisäpuoliselle; jos eivät, vene joka ei vielä ole vyöhykkeellä antaa toiselle. Velvollisuus jatkuu, vaikka peitto myöhemmin lakkaa tai uusi syntyy, kunnes merkkitilaan oikeutettu vene ohittaa tuulensilmän tai poistuu vyöhykkeeltä (18.2(b)). Sen jälkeen ratkaisee senhetkinen peitto (18.2(c)). Jos sisäpuolinen peitto syntyi selvästi perästä tai vastakäännöksellä toisen tuulen puolelle eikä ulkopuolinen ole pystynyt antamaan merkkitilaa peiton alusta asti, 18.2(a) ja (c) eivät päde (18.2(d)). Epäselvässä tilanteessa oletetaan, ettei peitto syntynyt tai lakannut ajoissa (18.2(e)). Merkkitila on tilaa purjehtia merkille, kun oikea suunta vie sen läheltä, kiertää tai ohittaa merkki oikealta puolelta ja jättää se taakse (määritelmä). Ryhmien A ja B säännöt pätevät edelleen (Case 75).",
+      "en": "Rule 18 applies when boats are required to leave a mark on the same side and at least one of them is in the zone, i.e. within three hull lengths (of the boat nearer to it) of the mark. It does not apply (18.1(a)): (1) between boats on opposite tacks on a beat to windward (Case 132), (2) between boats on opposite tacks when the proper course at the mark for only one of them is to tack, (3) between a boat approaching the mark and one leaving it, or (4) if the mark is a continuing obstruction; rule 19 then applies. The rule stops applying once mark-room has been given (18.1(b)). Who gives mark-room is fixed at the moment the first of the two boats reaches the zone (18.2(a)): if they are overlapped, the outside boat gives the inside boat mark-room; if not, the boat that has not yet reached the zone gives the other mark-room. The obligation continues even if an overlap is later broken or a new one begins, until the boat entitled to mark-room passes head to wind or leaves the zone (18.2(b)). After that the current overlap decides (18.2(c)). If an inside overlap was obtained from clear astern or by tacking to windward of the other boat, and the outside boat has been unable to give mark-room from the moment it began, 18.2(a) and (c) do not apply (18.2(d)). If there is reasonable doubt, the overlap is presumed not to have been obtained or broken in time (18.2(e)). Mark-room is room to sail to the mark when the proper course is to sail close to it, to round or pass it on the required side, and to leave it astern (definition). The rules of Sections A and B still apply (Case 75)."
+    },
+    "note": {
+      "fi": "Ryhmän C johdanto: ryhmän C säännöt eivät päde lähtömerkillä, jota ympäröi purjehduskelpoinen vesi, kun veneet lähestyvät sitä lähteäkseen. Vyöhyke on joukkuepurjehduksessa kaksi rungonpituutta (liite D) ja radio-ohjattavilla veneillä neljä (liite E). Liitteet B, C ja F muuttavat sääntöä 18.",
+      "en": "Section C preamble: Section C rules do not apply at a starting mark surrounded by navigable water while boats are approaching it to start. The zone is two hull lengths in team racing (Appendix D) and four for radio-controlled boats (Appendix E). Appendices B, C and F change rule 18."
+    },
+    "source": "RRS 18.1, 18.2, Section C preamble, Definitions (Zone, Mark-Room, Room), Appendices B, C, D, E, F; Case 12, 25, 59, 75, 118, 132",
+    "scene": {
+      "h": 260,
+      "k": 0.5,
+      "mark": [
+        175,
+        170
+      ],
+      "zone": true,
+      "boats": [
+        {
+          "n": "I",
+          "x": 150,
+          "y": 78,
+          "rot": 180,
+          "tack": "p",
+          "c": "a"
+        },
+        {
+          "n": "O",
+          "x": 110,
+          "y": 78,
+          "rot": 180,
+          "tack": "p",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "Veneet purjehtivat myötätuuleen kohti alamerkkiä, joka jätetään vasemmalle. I saavuttaa vyöhykkeen (katkoviivaympyrä) ensimmäisenä, ja veneet ovat silloin peitossa. Ulkopuolisen O:n pitää antaa sisäpuoliselle I:lle merkkitilaa (18.2(a)(1)).",
+      "en": "The boats are running towards a leeward mark to be left to port. I reaches the zone (dashed circle) first, and the boats are overlapped at that moment. O, outside, must give I, inside, mark-room (18.2(a)(1))."
+    },
+    "defs": [
+      "Zone",
+      "Mark-Room",
+      "Mark",
+      "Room",
+      "Clear Astern and Clear Ahead; Overlap"
+    ],
+    "links": [
+      {
+        "rules": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "note": {
+          "fi": "Kulkuoikeussäännöt pätevät myös merkillä; sääntö 18 rajoittaa niitä. Kun merkkitila on annettu, jäljelle jää vain ryhmä A (Case 25).",
+          "en": "The right-of-way rules apply at marks too; rule 18 limits them. Once mark-room has been given, only Section A remains (Case 25)."
+        }
+      },
+      {
+        "rules": [
+          "18.3",
+          "18.4"
+        ],
+        "note": {
+          "fi": "Vastakäännös ja jiippi vyöhykkeellä on käsitelty omina sivuinaan.",
+          "en": "Tacking and gybing in the zone are covered on their own pages."
+        }
+      },
+      {
+        "rules": [
+          "19"
+        ],
+        "note": {
+          "fi": "Jos merkki on jatkuva este, pätee sääntö 19 eikä 18 (18.1(a)(4)).",
+          "en": "If the mark is a continuing obstruction, rule 19 applies instead of 18 (18.1(a)(4))."
+        }
+      },
+      {
+        "rules": [
+          "43",
+          "31"
+        ],
+        "note": {
+          "fi": "Merkkitilassaan purjehtiva vene vapautetaan ryhmän A, sääntöjen 15, 16 ja 31 rikkomuksista, jos rikkomus johtuu veneestä, jonka piti antaa sille merkkitilaa (43.1(b); Case 12, 95).",
+          "en": "A boat sailing within her mark-room is exonerated for breaking a Section A rule or rule 15, 16 or 31 when it results from an incident with the boat that had to give her mark-room (43.1(b); Cases 12, 95)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 12,
+        "title": {
+          "fi": "Peitto, vaikka suunnat eroavat 90 astetta",
+          "en": "Overlapped despite a 90-degree difference in heading"
+        },
+        "text": {
+          "fi": "Kaksi jollaa lähestyi kevyessä tuulessa merkkiä, joka jätetään oikealle; virta (noin 1 m/s) kulki tuulen suuntaan. IW oli purjehtinut korkealta virran vuoksi ja tuli merkille virran mukana lähes myötätuuleen. OL oli ajautunut alas ja nousi noin kolmen rungonpituuden päässä merkistä hitaasti tiukasti vastaisessa suunnassa virtaa vastaan. IW huusi kahdesti tilaa, ja OL kieltäytyi. Viime hetkellä IW kääntyi ylemmäs kiertääkseen merkin, OL yritti antaa tilaa, ja veneet koskettivat ilman vahinkoa. OL väitti, ettei 90 asteen kulmassa purjehtivia veneitä voi pitää peitossa olevina.",
+          "en": "Two dinghies approached a mark to be left to starboard in light wind, with a current of about 1 m/s flowing with the wind. IW had sailed high to allow for the current and came to the mark with the current, almost on a run. OL had been set to leeward and, about three hull lengths from the mark, was sailing slowly close-hauled against the current. IW twice asked for room; OL refused. At the last moment IW luffed to round the mark, OL tried to give room, and the boats touched without damage. OL argued that boats on headings 90 degrees apart cannot be overlapped."
+        },
+        "answer": {
+          "fi": "OL:n hylkäys pysyi. Veneet olivat samalla halssilla ja niiden piti jättää merkki samalle puolelle, joten sääntö 18 alkoi, kun OL saavutti vyöhykkeen. Kumpikaan ei ollut selvästi toisen perässä, joten ne olivat peitossa suuntien erosta riippumatta. Ulkopuolisen OL:n piti antaa merkkitilaa (18.2(a)(1)), eikä se antanut. IW rikkoi sääntöä 11, mutta merkkitilassaan, joten se vapautettiin (43.1(b)). Kumpikin rikkoi sääntöä 14(a), mutta ne vapautettiin, koska vahinkoa ei syntynyt (43.1(c)).",
+          "en": "OL's disqualification stood. The boats were on the same tack and had to leave the mark on the same side, so rule 18 began when OL reached the zone. Neither was clear astern of the other, so they were overlapped whatever their headings. OL, outside, had to give mark-room (18.2(a)(1)) and did not. IW broke rule 11 but within her mark-room, so she was exonerated (43.1(b)). Both broke rule 14(a) but were exonerated because there was no damage (43.1(c))."
+        },
+        "also": [
+          "11",
+          "14",
+          "43"
+        ],
+        "source": "Case 12"
+      },
+      {
+        "case": 59,
+        "title": {
+          "fi": "Vyöhykkeen ulkopuolella kääntyvä vene",
+          "en": "A boat turning outside the zone"
+        },
+        "text": {
+          "fi": "Viisi venettä purjehti suoraan myötätuuleen kohti alamerkkiä, joka jätetään vasemmalle. Neljä oli peitossa rivissä, A lähimpänä merkkiä. Viides, E, oli selvästi A:n, B:n ja C:n perässä, kun ne saavuttivat vyöhykkeen. Kun E saavutti vyöhykkeen, D oli vielä vyöhykkeen ulkopuolella ja selvästi E:n edellä. Kun D tuli merkin kohdalle ja kääntyi kiertämään, E pääsi peittoon sen sisäpuolelle. E kiersi A:n, B:n ja C:n takaa mutta D:n sisäpuolelta. D pystyi antamaan tilan.",
+          "en": "Five boats were running directly downwind to a leeward mark to be left to port. Four were overlapped in a line, A nearest the mark. The fifth, E, was clear astern of A, B and C when they reached the zone. When E reached the zone, D was still outside it and clear ahead of E. When D came abeam of the mark and turned to round it, E became overlapped inside her. E rounded behind A, B and C but inside D. D was able to give the room."
+        },
+        "answer": {
+          "fi": "E oli oikeutettu merkkitilaan. D:n ja E:n välillä ensimmäisenä vyöhykkeen saavutti E, ja silloin veneet eivät olleet peitossa. Vyöhykkeellä ollut E sai merkkitilan vyöhykkeen ulkopuolella olleelta D:ltä (18.2(a)(2)). Ei ole merkitystä, että D:n etäisyys merkistä johtui tilan antamisesta sisäpuolisille veneille.",
+          "en": "E was entitled to mark-room. Between D and E, E reached the zone first, and they were not overlapped at that moment. E, in the zone, was entitled to mark-room from D, still outside the zone (18.2(a)(2)). It does not matter that D's distance from the mark was caused by giving room to the inside boats."
+        },
+        "source": "Case 59"
+      },
+      {
+        "case": 118,
+        "title": {
+          "fi": "Mitä on ’tila purjehtia merkille’?",
+          "en": "What is ‘room to sail to the mark’?"
+        },
+        "text": {
+          "fi": "UM8 ja UM10 lähestyivät vasemmalla halssilla peitossa alamerkkiä, joka jätetään vasemmalle, UM8 sisäpuolella. Seuraava osuus oli kryssi. Tuuli oli kohtalainen, aallokkoa ei juuri ollut. UM8 protestoi, ettei UM10 antanut sille tilaa purjehtia merkille ja kiertää sitä.",
+          "en": "UM8 and UM10, overlapped on port tack with UM8 inside, approached a leeward mark to be left to port. The next leg was a beat. The wind was moderate and the sea negligible. UM8 protested that UM10 did not give her room to sail to the mark and round it."
+        },
+        "answer": {
+          "fi": "Valitus hylättiin. UM8:n piti kiertäessään kääntyä leveältä sivutuulelta tiukasti vastaiseen suuntaan, joten sen oikea suunta kulki jossain vaiheessa merkin läheltä. ’Tila purjehtia merkille’ tarkoittaa tilaa purjehtia viipymättä ja merenkulkutaidolla merkin lähelle ja sen oikealle puolelle. Kun merkki oli UM8:n keulan kohdalla sivulla, se oli purjehtinut merkille; sen jälkeen sillä oli oikeus tilaan kääntyä tiukasti vastaiseen suuntaan ja jättää merkki taakse. UM10 antoi tämän kaiken.",
+          "en": "The appeal was dismissed. When rounding, UM8 had to turn from a broad reach to close-hauled, so at some point her proper course was close to the mark. ‘Room to sail to the mark’ means space to sail promptly in a seamanlike way to a position close to, and on the required side of, the mark. When the mark was abeam of UM8's bow she had sailed to it; from then on she was entitled to room to turn to close-hauled and leave the mark astern. UM10 gave all of this."
+        },
+        "source": "Case 118"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r18-q1",
+        "prompt": {
+          "fi": "I ja O lähestyvät alamerkkiä, joka jätetään vasemmalle. Kun I saavuttaa vyöhykkeen ensimmäisenä, veneet ovat peitossa, I lähempänä merkkiä. Kumman pitää antaa merkkitilaa?",
+          "en": "I and O are approaching a leeward mark to be left to port. When I reaches the zone first, the boats are overlapped, with I nearer the mark. Which boat must give mark-room?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "I",
+              "x": 150,
+              "y": 78,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "O",
+              "x": 110,
+              "y": 78,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "O:n pitää antaa I:lle",
+              "en": "O must give it to I"
+            }
+          },
+          {
+            "t": {
+              "fi": "I:n pitää antaa O:lle, koska I on tuulen puolella",
+              "en": "I must give it to O, because I is to windward"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei kummankaan, koska ne ovat peitossa",
+              "en": "Neither, because they are overlapped"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.2(a)(1): jos veneet ovat peitossa sillä hetkellä, kun ensimmäinen saavuttaa vyöhykkeen, ulkopuolisen pitää antaa sisäpuoliselle merkkitilaa. Tuulen puolella oleminen ei vaikuta merkkitilaan, mutta kulkuoikeussäännöt pätevät rinnalla.",
+          "en": "18.2(a)(1): if the boats are overlapped when the first of them reaches the zone, the outside boat must give the inside boat mark-room. Being to windward does not affect mark-room, though the right-of-way rules apply alongside."
+        },
+        "source": "RRS 18.2(a)(1)"
+      },
+      {
+        "id": "r18-q2",
+        "prompt": {
+          "fi": "A saavuttaa vyöhykkeen selvästi B:n edellä; B on vielä vyöhykkeen ulkopuolella. Kumman pitää antaa merkkitilaa?",
+          "en": "A reaches the zone clear ahead of B; B is still outside the zone. Which boat must give mark-room?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "A",
+              "x": 150,
+              "y": 92,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 150,
+              "y": 30,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "A:n, koska se on edellä",
+              "en": "A, because she is ahead"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "B:n, koska se ei ole vielä saavuttanut vyöhykettä",
+              "en": "B, because she has not yet reached the zone"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei kummankaan ennen kuin B on vyöhykkeellä",
+              "en": "Neither until B is in the zone"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.2(a)(2): jos veneet eivät ole peitossa, kun ensimmäinen saavuttaa vyöhykkeen, se vene, joka ei sillä hetkellä ole vyöhykkeellä, antaa toiselle merkkitilaa. Sääntö 18 pätee jo, koska ainakin toinen veneistä on vyöhykkeellä (18.1(a)).",
+          "en": "18.2(a)(2): if the boats are not overlapped when the first reaches the zone, the boat that is not in the zone at that moment gives the other mark-room. Rule 18 already applies, since at least one boat is in the zone (18.1(a))."
+        },
+        "source": "RRS 18.2(a)(2), 18.1(a)"
+      },
+      {
+        "id": "r18-q3",
+        "prompt": {
+          "fi": "O:n piti antaa I:lle merkkitilaa, koska veneet olivat peitossa I:n saavuttaessa vyöhykkeen. Vyöhykkeellä O kiihdyttää ja pääsee selvästi I:n edelle. Loppuuko O:n velvollisuus?",
+          "en": "O had to give I mark-room because they were overlapped when I reached the zone. In the zone, O speeds up and gets clear ahead of I. Does O's obligation end?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "I",
+              "x": 150,
+              "y": 92,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "O",
+              "x": 120,
+              "y": 128,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska peitto loppui",
+              "en": "Yes, because the overlap ended"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: velvollisuus jatkuu niin kauan kuin 18.2(a) pätee",
+              "en": "No: the obligation continues for as long as 18.2(a) applies"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.2(a):n viimeinen virke: velvollisuus jatkuu, vaikka peitto myöhemmin lakkaa tai uusi syntyy. Se päättyy, kun I ohittaa tuulensilmän tai poistuu vyöhykkeeltä (18.2(b)) tai kun merkkitila on annettu (18.1(b)).",
+          "en": "Last sentence of 18.2(a): the obligation continues even if the overlap is later broken or a new one begins. It ends when I passes head to wind or leaves the zone (18.2(b)), or when mark-room has been given (18.1(b))."
+        },
+        "source": "RRS 18.2(a), 18.2(b), 18.1(b)"
+      },
+      {
+        "id": "r18-q4",
+        "prompt": {
+          "fi": "Lähestyttäessä merkkiä toinen vene purjehtii lähes myötätuuleen ja toinen hitaasti tiukasti vastaisessa suunnassa, kulmaero noin 90 astetta. Kumpikaan ei ole selvästi toisen perässä, kun ensimmäinen saavuttaa vyöhykkeen. Ovatko ne peitossa?",
+          "en": "Approaching a mark, one boat is almost running and the other is sailing slowly close-hauled, about 90 degrees apart. Neither is clear astern of the other when the first reaches the zone. Are they overlapped?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            150
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "IW",
+              "x": 120,
+              "y": 70,
+              "rot": 160,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "OL",
+              "x": 115,
+              "y": 140,
+              "rot": 60,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei, koska suunnat eroavat liikaa",
+              "en": "No, because their headings differ too much"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: peitto ratkeaa määritelmän mukaan suunnista riippumatta",
+              "en": "Yes: overlap follows the definition whatever the headings"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 12: suuntien erolla ei ole merkitystä. Kun kumpikaan ei ole selvästi toisen perässä, veneet ovat peitossa, ja ulkopuolisen pitää antaa sisäpuoliselle merkkitilaa (18.2(a)(1)).",
+          "en": "Case 12: the difference in heading is irrelevant. When neither is clear astern of the other, they are overlapped, and the outside boat must give the inside boat mark-room (18.2(a)(1))."
+        },
+        "source": "Case 12; Definition Clear Astern and Clear Ahead; Overlap",
+        "also": [
+          "11"
+        ]
+      },
+      {
+        "id": "r18-q5",
+        "prompt": {
+          "fi": "S (oikea halssi) ja P (vasen halssi) kohtaavat tiukasti vastaisessa suunnassa yläpuolen merkillä, joka jätetään oikealle. S voisi tehdä vastakäännöksen ja kiertää merkin, mutta jatkaa kurssiaan pakottaakseen P:n kääntymään. Voiko P vaatia merkkitilaa tai vedota siihen, että S purjehtii ohi oikean suuntansa?",
+          "en": "S (starboard) and P (port), both close-hauled, meet at a windward mark to be left to starboard. S could tack and round the mark, but holds her course to force P to tack. Can P claim mark-room or argue that S is sailing beyond her proper course?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            150,
+            95
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "S",
+              "x": 205,
+              "y": 165,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 100,
+              "y": 170,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska molemmat ovat vyöhykkeellä",
+              "en": "Yes, because both are in the zone"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntö 18 ei päde, P:n pitää pysyä loitolla (10)",
+              "en": "No: rule 18 does not apply, and P must keep clear (10)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 9: veneet luovivat tuuleen eri halsseilla (18.1(a)(1)) ja vain S:n oikea suunta merkillä on vastakäännös (18.1(a)(2)), joten sääntö 18 ei päde. Sääntö 10 pätee. Mikään sääntö ei velvoita purjehtimaan oikeaa suuntaa.",
+          "en": "Case 9: the boats are on opposite tacks on a beat (18.1(a)(1)) and only S's proper course at the mark is to tack (18.1(a)(2)), so rule 18 does not apply. Rule 10 applies. No rule requires a boat to sail her proper course."
+        },
+        "source": "Case 9; RRS 18.1(a)",
+        "also": [
+          "10"
+        ]
+      },
+      {
+        "id": "r18-q6",
+        "prompt": {
+          "fi": "B tulee A:n perästä ja väittää saaneensa sisäpuolisen peiton juuri ennen kuin A saavutti vyöhykkeen. A:n mukaan peitto syntyi vasta myöhemmin. Lautakunnalle jää kohtuullinen epäilys. Miten ratkaistaan?",
+          "en": "B comes from astern of A and claims she obtained an inside overlap just before A reached the zone. A says the overlap began later. The protest committee is left with reasonable doubt. How is it decided?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "A",
+              "x": 140,
+              "y": 92,
+              "rot": 180,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 163,
+              "y": 65,
+              "rot": 180,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "B:n eduksi, koska se on sisäpuolella",
+              "en": "In B's favour, because she is inside"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Oletetaan, ettei B saanut peittoa ajoissa; B:n pitää antaa A:lle merkkitilaa",
+              "en": "It is presumed B did not obtain the overlap in time; B must give A mark-room"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikaan ei ole oikeutettu merkkitilaan",
+              "en": "Neither is entitled to mark-room"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18.2(e): kohtuullisen epäilyn vallitessa oletetaan, ettei vene saanut peittoa (tai päässyt siitä) ajoissa. Silloin B oli selvästi perässä, kun A saavutti vyöhykkeen, ja sen pitää antaa A:lle merkkitilaa (18.2(a)(2)).",
+          "en": "18.2(e): when there is reasonable doubt, the overlap is presumed not to have been obtained (or broken) in time. B was then clear astern when A reached the zone and must give A mark-room (18.2(a)(2))."
+        },
+        "source": "RRS 18.2(e), 18.2(a)(2)"
+      },
+      {
+        "id": "r18-q7",
+        "prompt": {
+          "fi": "A ja B kiertävät merkkiä peitossa, B ulkopuolella; molemmat kulkevat noin rungonpituuden päästä merkistä. Selvästi perässä tullut C, jolla ei ole oikeutta merkkitilaan, purjehtii B:n ja merkin väliin. B ei pysty sulkemaan väliä, eikä kosketusta tule. Rikkoiko C sääntöä?",
+          "en": "A and B are rounding a mark overlapped, B outside, both about a hull length from the mark. C, previously clear astern and not entitled to mark-room, sails between B and the mark. B cannot close the gap, and there is no contact. Did C break a rule?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            175,
+            170
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "A",
+              "x": 138,
+              "y": 130,
+              "rot": 150,
+              "tack": "p",
+              "c": "a"
+            },
+            {
+              "n": "B",
+              "x": 95,
+              "y": 100,
+              "rot": 150,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "C",
+              "x": 155,
+              "y": 70,
+              "rot": 180,
+              "tack": "p",
+              "c": "c"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä: C ei ollut oikeutettu merkkitilaan",
+              "en": "Yes: C was not entitled to mark-room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: C sai käyttää tarjolla olevaa tilaa omalla riskillään",
+              "en": "No: C may use the available space at her own risk"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 63: kun merkin ja veneen väliin jää tilaa, jota toinen ei ole oikeutettu saamaan, se voi käyttää tilaa omalla riskillään. Riski on, että merkkitilaan oikeutettu vene sulkee välin purjehtiessaan merkkitilassaan; silloin se vapautetaan 43.1(b):n perusteella, ja sitä rajoittaa vain sääntö 14.",
+          "en": "Case 63: when space opens between a boat and the mark that another boat is not entitled to, she may take it at her own risk. The risk is that the boat entitled to mark-room closes the gap while sailing within it; she is then exonerated under 43.1(b), and only rule 14 limits her."
+        },
+        "source": "Case 63",
+        "also": [
+          "11",
+          "12",
+          "43"
+        ]
+      },
+      {
+        "id": "r18-q8",
+        "prompt": {
+          "fi": "IW kiersi alamerkin sisäpuolella, ja OL antoi sille tilaa purjehtia merkille, kiertää se ja jättää se taakse. Rungonpituuden päässä merkistä OL kääntyy ylemmäs kohti seuraavaa merkkiä, ja IW:n puomi koskettaa OL:ää. Mikä sääntö ratkaisee?",
+          "en": "IW rounded the leeward mark inside, and OL gave her room to sail to the mark, round it and leave it astern. A hull length past the mark OL luffs towards the next mark, and IW's boom touches OL. Which rule decides?"
+        },
+        "scene": {
+          "h": 260,
+          "k": 0.5,
+          "mark": [
+            150,
+            150
+          ],
+          "zone": true,
+          "boats": [
+            {
+              "n": "IW",
+              "x": 178,
+              "y": 165,
+              "rot": 30,
+              "tack": "p",
+              "c": "b"
+            },
+            {
+              "n": "OL",
+              "x": 205,
+              "y": 182,
+              "rot": 40,
+              "tack": "p",
+              "c": "a"
+            }
+          ]
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Sääntö 18: IW:llä on yhä oikeus merkkitilaan",
+              "en": "Rule 18: IW is still entitled to mark-room"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntö 11: merkkitila on annettu, joten tuulen puolen IW:n pitää pysyä loitolla",
+              "en": "Rule 11: mark-room has been given, so IW, to windward, must keep clear"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 25: kun merkkitila on annettu ja merkki jätetty taakse, sääntö 18 lakkaa (18.1(b)). Sääntö 11 on pätenyt koko ajan. OL sai kääntyä ylemmäs, kunhan antoi tilaa (16.1). IW rikkoi sääntöjä 11 ja 14(a) eikä saanut vapautusta.",
+          "en": "Case 25: once mark-room has been given and the mark left astern, rule 18 stops applying (18.1(b)). Rule 11 applied throughout. OL could luff provided she gave room (16.1). IW broke rules 11 and 14(a) and was not exonerated."
+        },
+        "source": "Case 25; RRS 18.1(b)",
+        "also": [
+          "11",
+          "16",
+          "14"
+        ]
+      }
+    ]
   }
 ]
