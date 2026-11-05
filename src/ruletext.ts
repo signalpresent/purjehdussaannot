@@ -8,7 +8,7 @@ import defsRaw from './defs.json' with { type: 'json' };
 interface Item { str: string; transform: number[]; width: number }
 export interface LangText { file: string; titles: Record<string, string>; blocks: string[] }
 const DEFS = defsRaw as unknown as Record<Lang, string>[];
-export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[] };
+export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[]; lists: string[] };
 
 // One page of pdf.js items -> text lines, like `pdftotext -layout`: indentation in character columns,
 // a wide gap becomes at least two spaces ('18   MARK-ROOM'), explicit space items become one space.
@@ -34,19 +34,19 @@ export function pageLines(all: Item[]): string[] {
       else if (x - end > cw) s += ' '.repeat(Math.max(2, col - s.length));
       s += it.str; end = x + it.width;
     }
-    // pdf.js drops the soft hyphen in the Swedish 44.2 title (pdftotext keeps it).
-    return s.replace(/\u00ad/g, '-').replace('Ensv\u00e4ngs och', 'Ensv\u00e4ngs- och').trimEnd();
+    // pdf.js drops the soft hyphen in the Swedish 44.2 title (pdftotext keeps it); U+F0B7 is the Symbol-font bullet (FI 6.1).
+    return s.replace(/\u00ad/g, '-').replace(/\uf0b7/g, '●').replace('Ensv\u00e4ngs och', 'Ensv\u00e4ngs- och').trimEnd();
   });
 }
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^43\s+EXONERATION$/, /^45\s+HAULING/]],
-    furniture: /^\s*(DEFINITIONS|Part [24]\s+(WHEN BOATS MEET|OTHER REQUIREMENTS WHEN RACING)|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
-    furniture: /^\s*(MÄÄRITELMÄT|Osa [24]\s+(KUN VENEET KOHTAAVAT|MUUT VAATIMUKSET KILPAILTAESSA)|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
-    furniture: /^\s*(DEFINITIONER|\s+DEL 2 – NÄR BÅTAR MÖTS|\s+DEL 4 – ANDRA KRAV NÄR BÅTAR KAPPSEGLAR|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^43\s+EXONERATION$/, /^45\s+HAULING/]],
+    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
+    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
+    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -78,11 +78,12 @@ function join(parts: string[], lang: Lang): string {
 type Block = [string, number, string];
 // Open blocks are tracked as (marker column, id, depth); a continuation line belongs to the deepest block it is indented under.
 function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Block[] {
+  const lists = new Set(SKELETON.lists);
   const out: [string, number, string[]][] = [[baseId, 0, []]];
   const stack: [number, string, number][] = [[firstCol, baseId, 0]];
   for (const l of lines) {
     if (!l.trim() || CFG[lang].furniture.test(l)) continue;
-    const col = indent(l), m = ITEM.exec(l) ?? SUB.exec(l);
+    const col = indent(l), m = lists.has(baseId) ? null : ITEM.exec(l) ?? SUB.exec(l); // 6.1: bullets in EN, a)-e) in SV
     if (m) {
       const d = ITEM.test(l) ? 1 : 2;
       while (stack.length > d) stack.pop();

@@ -1,5 +1,1286 @@
 [
   {
+    "n": 1,
+    "section": "1",
+    "title": {
+      "fi": "Turvallisuus",
+      "sv": "Säkerhet",
+      "en": "Safety"
+    },
+    "explain": {
+      "fi": "1.1: veneen, kilpailijan ja tukihenkilön pitää antaa kaikki mahdollinen apu jokaiselle vaarassa olevalle ihmiselle tai alukselle. Velvollisuus koskee myös muita kuin kilpailijoita. Ratkaisevaa on, että vaara on mahdollinen: auttanut vene voi saada hyvityksen, vaikka vaaraa ei jälkikäteen todettaisi tai apua ei pyydetty (Case 20; 61.4(b)(4)). 1.2: veneessä pitää olla riittävät hengenpelastusvälineet kaikille, ja yhden niistä pitää olla heti käytettävissä, elleivät luokkasäännöt määrää toisin. Jokainen kilpailija vastaa itse siitä, että hänellä on päällään olosuhteisiin riittävä henkilökohtainen kelluntaväline. Kilpailulautakunta voi lisäksi vaatia kelluntavälineiden käyttöä viestillä (lippu Y, Race Signals).",
+      "en": "1.1: a boat, competitor and support person must give all possible help to any person or vessel in danger. The duty covers non-competitors too. What matters is that danger is possible: a boat that helped may get redress even if no danger is later found or help was not asked for (Case 20; 61.4(b)(4)). 1.2: a boat must carry adequate life-saving equipment for everyone aboard, with one item ready for immediate use, unless her class rules provide otherwise. Each competitor is personally responsible for wearing a personal flotation device adequate for the conditions. The race committee may also require flotation devices by signal (flag Y, Race Signals)."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa sääntöä 1, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)). Liite E (radio-ohjattavat veneet) poistaa kohdan 1.2. Ryhmän D sääntö 22 suojaa auttavaa venettä.",
+      "en": "National authority prescriptions may not change rule 1, nor may the notice of race or sailing instructions (86.1(a), (b)). Appendix E (radio sailing) deletes rule 1.2. Section D rule 22 protects a boat that is helping."
+    },
+    "source": "RRS 1, 22, 61.4(b)(4), 86.1, Race Signals, Appendix E; Case 20",
+    "defs": [
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "22"
+        ],
+        "note": {
+          "fi": "Vaarassa olevaa auttavaa venettä pitää välttää, mikäli mahdollista (22).",
+          "en": "A boat helping someone in danger must be avoided if possible (22)."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Auttanut vene voi saada hyvityksen (61.4(b)(4); Case 20).",
+          "en": "A boat that helped may get redress (61.4(b)(4); Case 20)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 20,
+        "title": {
+          "fi": "Apu, jota ei pyydetty",
+          "en": "Help that was not asked for"
+        },
+        "text": {
+          "fi": "Jolla A kaatui kilpailun aikana. Jolla B purjehti sen luo ja tarjosi apua; A hyväksyi sen. B otti A:n kaksi purjehtijaa kyytiin, ja kaikki yrittivät useita minuutteja oikaista A:ta, jonka masto oli juuttunut mutaan. B pyysi hyvitystä. Lautakunta hylkäsi pyynnön, koska A:n perämies oli kokenut, tuuli oli heikko, nouseva vesi olisi pian irrottanut maston eikä A ollut pyytänyt apua.",
+          "en": "Dinghy A capsized during a race. Dinghy B sailed over and offered help, and A accepted. B took A's crew of two aboard, and everyone worked for several minutes to right A, whose mast was stuck in the mud. B requested redress. The committee refused, because A's helmsman was experienced, the wind was light, the rising tide would soon have freed the mast, and A had not asked for help."
+        },
+        "answer": {
+          "fi": "B:n valitus hyväksyttiin. Veneen, joka voi auttaa mahdollisesti vaarassa olevaa, pitää tehdä niin (1.1). Ei ole merkitystä, että lautakunta myöhemmin katsoo vaaraa ei olleen tai ettei apua pyydetty. B on oikeutettu hyvitykseen (61.4(b)(4)), ja lautakunnan piti avata käsittely uudelleen ja sopia hyvityksestä.",
+          "en": "B's appeal was upheld. A boat in a position to help another that may be in danger must do so (1.1). It does not matter that the committee later decides there was no danger or that help was not asked for. B is entitled to redress (61.4(b)(4)), and the committee had to reopen the hearing and decide on redress."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 20"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r1-q1",
+        "prompt": {
+          "fi": "Kenen vastuulla on, että kilpailijalla on päällään olosuhteisiin sopiva kelluntaliivi?",
+          "en": "Whose responsibility is it that a competitor wears a personal flotation device suited to the conditions?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Veneen omistajan",
+              "en": "The boat owner's"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailijan itsensä",
+              "en": "The competitor's own"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunnan",
+              "en": "The race committee's"
+            }
+          }
+        ],
+        "why": {
+          "fi": "1.2: jokainen kilpailija vastaa itse kelluntavälineen käytöstä. Veneen pitää lisäksi kuljettaa riittävät hengenpelastusvälineet kaikille.",
+          "en": "1.2: each competitor is personally responsible for wearing a flotation device. The boat must also carry adequate life-saving equipment for everyone."
+        },
+        "source": "RRS 1.2",
+        "also": []
+      },
+      {
+        "id": "r1-q2",
+        "prompt": {
+          "fi": "Veneessä on hengenpelastusvälineet kaikille, mutta ne ovat kaikki lukitussa kaapissa. Riittääkö se?",
+          "en": "A boat carries life-saving equipment for everyone, but it is all in a locked locker. Is that enough?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, kunhan välineitä on tarpeeksi",
+              "en": "Yes, as long as there is enough"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: yhden välineen pitää olla heti käytettävissä, elleivät luokkasäännöt määrää toisin",
+              "en": "No: one item must be ready for immediate use, unless class rules provide otherwise"
+            }
+          }
+        ],
+        "why": {
+          "fi": "1.2 vaatii, että yksi väline on heti käytettävissä. Luokkasäännöt voivat määrätä toisin.",
+          "en": "Rule 1.2 requires one item ready for immediate use. Class rules may provide otherwise."
+        },
+        "source": "RRS 1.2",
+        "also": []
+      },
+      {
+        "id": "r1-q3",
+        "prompt": {
+          "fi": "Vene pysähtyy auttamaan kaatunutta jollaa, ja jälkikäteen selviää, ettei kukaan ollut vaarassa. Rikkoiko vene jotain tai menettääkö se oikeutensa hyvitykseen?",
+          "en": "A boat stops to help a capsized dinghy, and it later turns out nobody was in danger. Did the boat break anything, or does she lose her right to redress?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei kumpaakaan: ratkaisevaa on, että vaara oli mahdollinen",
+              "en": "Neither: what matters is that danger was possible"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hän menettää hyvityksen, koska vaaraa ei ollut",
+              "en": "She loses redress because there was no danger"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 20: veneen, joka voi auttaa mahdollisesti vaarassa olevaa, pitää tehdä niin, eikä hyvitys riipu jälkikäteen tehdystä arviosta.",
+          "en": "Case 20: a boat able to help one that may be in danger must do so, and redress does not depend on a later assessment."
+        },
+        "source": "Case 20; RRS 1.1, 61.4(b)(4)",
+        "also": [
+          "61"
+        ],
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "A",
+              "x": 140,
+              "y": 110,
+              "rot": 30,
+              "tack": "s",
+              "c": "c",
+              "ghost": true
+            },
+            {
+              "n": "B",
+              "x": 190,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r1-q4",
+        "prompt": {
+          "fi": "Purjehdusohjeissa lukee: ”Sääntö 1.1 ei koske tätä kilpailua.” Onko määräys pätevä?",
+          "en": "The sailing instructions say: ‘Rule 1.1 does not apply in this race.’ Is this valid?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntöä 1 ei saa muuttaa purjehdusohjeilla",
+              "en": "No: rule 1 may not be changed by the sailing instructions"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(a) luettelee säännön 1 niiden joukossa, joita ei saa muuttaa, ja 86.1(b) kieltää kilpailukutsua ja purjehdusohjeita muuttamasta niitä.",
+          "en": "Rule 86.1(a) lists rule 1 among those that may not be changed, and 86.1(b) forbids the notice of race and sailing instructions to change them."
+        },
+        "source": "RRS 86.1(a), 86.1(b)",
+        "also": [
+          "86"
+        ]
+      }
+    ],
+    "scene": {
+      "h": 240,
+      "boats": [
+        {
+          "n": "A",
+          "x": 140,
+          "y": 110,
+          "rot": 30,
+          "tack": "s",
+          "c": "c",
+          "ghost": true
+        },
+        {
+          "n": "B",
+          "x": 190,
+          "y": 170,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "A (haalea) on kaatunut. B:n pitää antaa kaikki mahdollinen apu, jos A:n miehistö voi olla vaarassa (1.1).",
+      "en": "A (faded) has capsized. B must give all possible help if A's crew may be in danger (1.1)."
+    }
+  },
+  {
+    "n": 2,
+    "section": "1",
+    "title": {
+      "fi": "Rehti purjehdus",
+      "sv": "Ärlig segling",
+      "en": "Fair Sailing"
+    },
+    "explain": {
+      "fi": "Veneen ja sen omistajan pitää kilpailla urheiluhengen ja reilun pelin tunnustettujen periaatteiden mukaisesti. Rangaistus edellyttää, että periaatteiden loukkaus on selvästi näytetty toteen, ja rangaistus on aina hylkäys, jota ei saa jättää pois kokonaispisteistä (DNE). Tyypillisiä rikkomuksia ovat tahallinen sääntörikkomus (Case 78), tieten tahtoen väärä huuto (Case 47), toisen veneen tahallinen koskettaminen protestin aikaansaamiseksi (Case 73) ja kilpailun jatkaminen pelkästään toisen haittaamiseksi, kun vene tietää jo rikkoneensa lähtösääntöä (Case 34, 65). Myös rangaistuksen ottamatta jättäminen, kun vene tietää rikkoneensa sääntöä, rikkoo perusperiaatetta (Case 138). Tavallinen arviointivirhe ei ole epäreilua (Case 138), eikä pelkkä istumatapa ilman tahallisuutta (Case 74). Toisen haittaaminen taktisesti on sallittua, jos sillä on kohtuullinen mahdollisuus parantaa veneen omaa lopputulosta tapahtumassa (Case 78). Toimintaa, joka ei vaikuta suoraan kilpailuun, käsitellään säännön 69 mukaan (Case 138).",
+      "en": "A boat and her owner must compete in compliance with recognized principles of sportsmanship and fair play. A penalty requires that a breach of those principles is clearly established, and the penalty is always a disqualification that is not excludable (DNE). Typical breaches are intentionally breaking a rule (Case 78), knowingly hailing falsely (Case 47), deliberately touching another boat to get her protested out (Case 73), and continuing to race only to hinder another boat when she already knows she broke a starting rule (Cases 34, 65). Failing to take a penalty when a boat knows she broke a rule also breaches the Basic Principle (Case 138). An ordinary misjudgment is not unfair (Case 138), nor is a sitting position without deliberate misuse (Case 74). Tactically hindering another boat is allowed if it has a reasonable chance of benefiting the boat's own final ranking in the event (Case 78). Conduct that does not directly affect the competition is dealt with under rule 69 (Case 138)."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa sääntöä 2, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)). Liite C (mätsikilpailu) lisää sääntöön 2, ettei veneen tarvitse kilpaillessaan ottaa rangaistusta, ellei tuomari anna siitä viestiä. Liite D (joukkuekilpailu) voi vähentää säännön 1 tai 2 rikkomisesta joukkueen voittoja (D3.3).",
+      "en": "National authority prescriptions may not change rule 2, nor may the notice of race or sailing instructions (86.1(a), (b)). Appendix C (match racing) adds to rule 2 that a boat need not take a penalty while racing unless signalled by an umpire. Appendix D (team racing) may deduct race wins from the team for breaking rule 1 or 2 (D3.3)."
+    },
+    "source": "RRS 2, Basic Principles, 69, 86.1, Appendices C, D; Case 27, 31, 34, 47, 65, 73, 74, 78, 138",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "69"
+        ],
+        "note": {
+          "fi": "Kilpailuun suoraan vaikuttava toiminta käsitellään yleensä säännön 2 mukaan, muu sopimaton käytös säännön 69 mukaan; molemmat ovat mahdollisia (Case 138).",
+          "en": "Conduct directly affecting the competition is usually dealt with under rule 2, other misconduct under rule 69; both are possible (Case 138)."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Perusperiaatteen mukaan vene, joka rikkoo sääntöä eikä vapaudu, ottaa viipymättä asianmukaisen rangaistuksen.",
+          "en": "Under the Basic Principle, a boat that breaks a rule and is not exonerated promptly takes an appropriate penalty."
+        }
+      },
+      {
+        "rules": [
+          "23"
+        ],
+        "note": {
+          "fi": "Toisen haittaaminen ilman omaa urheilullista hyötyä voi rikkoa sääntöä 2, vaikka sääntö 23 ei päde (Case 34, 78).",
+          "en": "Hindering another boat without sporting benefit may break rule 2 even when rule 23 does not apply (Cases 34, 78)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 47,
+        "title": {
+          "fi": "Väärä huuto",
+          "en": "A false hail"
+        },
+        "text": {
+          "fi": "Kokenut perämies vasemmalla halssilla huutaa ”Oikea!” aloittelijalle, joka on oikealla halssilla. Aloittelija ei ole varma itsestään ja pelkää törmäystä, joten hän tekee vastakäännöksen. Kukaan ei protestoi. Onko vasemman halssin vene rikkonut sääntöjen 10 lisäksi myös sääntöä 2?",
+          "en": "An experienced helmsman on port hails ‘Starboard’ to a beginner who is on starboard. Unsure and afraid of being holed, the beginner tacks onto port. Nobody protests. Besides rule 10, has the port-tack boat broken rule 2?"
+        },
+        "answer": {
+          "fi": "Kyllä. Vene, joka tietoisesti huutaa olevansa oikealla halssilla, vaikka tietää olevansa vasemmalla, ei toimi reilusti ja rikkoo sääntöä 2. Lautakunta voi harkita myös toimia säännön 69 perusteella.",
+          "en": "Yes. A boat that deliberately hails ‘Starboard’ knowing she is on port has not acted fairly and breaks rule 2. The committee might also consider action under rule 69."
+        },
+        "also": [
+          "10",
+          "69"
+        ],
+        "source": "Case 47"
+      },
+      {
+        "case": 73,
+        "title": {
+          "fi": "Tahallinen kosketus",
+          "en": "Deliberate contact"
+        },
+        "text": {
+          "fi": "W ja L luovivat peitossa oikealla halssilla. L:n trapetsissa oleva miehistön jäsen kurottaa ja koskettaa kädellään tarkoituksella W:n kantta ja huutaa, että W:n pitää vetäytyä. L protestoi, ja lautakunta hylkää W:n säännön 11 perusteella.",
+          "en": "W and L are beating overlapped on starboard. L's crew, on the trapeze, reaches out and deliberately touches W's deck by hand, hailing that W should retire. L protests, and the committee disqualifies W under rule 11."
+        },
+        "answer": {
+          "fi": "W:n valitus hyväksyttiin. L pystyi purjehtimaan kurssiaan väistämättä, eikä kosketuksen vaaraa ollut, vaikka L olisi muuttanut suuntaa, joten W pysyi loitolla eikä rikkonut sääntöä 11. L:n miehistön teko, jolla ei voinut olla muuta tarkoitusta kuin saada W hylätyksi, rikkoi sääntöä 2, ja L sai hylkäyksen, jota ei voi jättää pois.",
+          "en": "W's appeal was upheld. L could sail her course with no need to take avoiding action, and there was no risk of immediate contact had L changed course, so W was keeping clear and did not break rule 11. L's crew's action, which could have had no other aim than to get W disqualified, broke rule 2, and L received a non-excludable disqualification."
+        },
+        "also": [
+          "11"
+        ],
+        "source": "Case 73"
+      },
+      {
+        "case": 65,
+        "title": {
+          "fi": "Mustan lipun jälkeen",
+          "en": "After the black flag"
+        },
+        "text": {
+          "fi": "Lähdössä A oli selvästi 3–4 rungon mittaa radan puolella, ja mustan lipun sääntö (30.4) oli voimassa, joten kilpailulautakunta hylkäsi A:n ilman käsittelyä. A tiesi olleensa linjan yli, mutta jatkoi purjehtimista ja peitti B:tä ensimmäisen vastatuuliosuuden alkuosan. B protestoi A:ta sääntöön 2 vedoten.",
+          "en": "At the start A was clearly three to four hull lengths on the course side, and the black flag rule (30.4) was in force, so the race committee disqualified A without a hearing. A knew she had been over but kept sailing and covered B for the first part of the first beat. B protested A under rule 2."
+        },
+        "answer": {
+          "fi": "A:n valitus hylättiin. Kilpailija, joka tietää veneensä olevan jo hylätty ja haittaa tahallaan toista venettä, rikkoo urheiluhenkeä ja sääntöä 2, joten hylkäys muuttui sellaiseksi, jota ei voi jättää pois. Lautakunta toimi oikein myös säännön 69 mukaan: perämies suljettiin pois ja A hylättiin sarjan kaikista lähdöistä. B:lle voitiin harkita hyvitystä.",
+          "en": "A's appeal was dismissed. A competitor who knows her boat is already disqualified and deliberately hinders another boat breaches sportsmanship and rule 2, so the disqualification became non-excludable. The committee also acted properly under rule 69: the helmsman was excluded and A disqualified from all races of the series. Redress could be considered for B."
+        },
+        "also": [
+          "30",
+          "69",
+          "61"
+        ],
+        "source": "Case 65"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r2-q1",
+        "prompt": {
+          "fi": "L:n perämies istuu kovassa tuulessa poikkeuksellisen pitkällä ulkona, ja hänen selkänsä koskettaa W:tä, joka ohittaa tuulen puolelta. Tahallisuudesta ei ole näyttöä. Rikkooko L sääntöä 2?",
+          "en": "L's helmsman is hiking unusually far out, and the helmsman's back touches W, which is overtaking to windward. There is no evidence of deliberate intent. Does L break rule 2?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska istuma-asento oli poikkeuksellinen",
+              "en": "Yes, because the sitting position was unusual"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: mikään sääntö ei määrää istumatapaa, ja W rikkoi sääntöä 11",
+              "en": "No: no rule dictates how to sit, and W broke rule 11"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 74: istumatapaa ei säädellä. Ilman asennon tahallista väärinkäyttöä sääntöä 2 ei rikota, ja kosketus osoittaa, ettei tuulen puolen vene pysynyt loitolla.",
+          "en": "Case 74: no rule dictates how to sit. Without deliberate misuse of position there is no breach of rule 2, and the contact shows the windward boat did not keep clear."
+        },
+        "source": "Case 74",
+        "also": [
+          "11"
+        ],
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "L",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 160,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r2-q2",
+        "prompt": {
+          "fi": "Vasemman halssin vene arvioi väärin, ehtiikö se oikean halssin veneen editse, eikä pysy loitolla. Onko kyse epäreilusta purjehduksesta?",
+          "en": "A port-tack boat misjudges whether she can cross ahead of a starboard-tack boat and fails to keep clear. Is this unfair sailing?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se rikkoi sääntöä",
+              "en": "Yes, because she broke a rule"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, kunhan se ottaa rangaistuksen huomattuaan rikkomuksen",
+              "en": "No, provided she takes a penalty once she realizes the breach"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 138: tavallinen arviointivirhe ei ole epäreilua. Kun vene huomaa rikkoneensa sääntöä, sen pitää ottaa rangaistus; muuten se rikkoo urheiluhengen perusperiaatetta.",
+          "en": "Case 138: an ordinary misjudgment is not unfair. Once the boat realizes she broke a rule, she must take a penalty; otherwise she breaches the Basic Principle of sportsmanship."
+        },
+        "source": "Case 138; Basic Principles",
+        "also": [
+          "10",
+          "44"
+        ],
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "S",
+              "x": 175,
+              "y": 110,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "P",
+              "x": 125,
+              "y": 150,
+              "rot": 45,
+              "tack": "p",
+              "c": "b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r2-q3",
+        "prompt": {
+          "fi": "Sarjan johtaja peittää toista venettä taktisesti, jotta tämä ei ohita sitä kokonaispisteissä. Onko se sallittua?",
+          "en": "The series leader tactically covers another boat so it cannot overtake her on points. Is this allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos taktiikalla on kohtuullinen mahdollisuus parantaa johtajan omaa lopputulosta",
+              "en": "Yes, if it has a reasonable chance of benefiting the leader's own final ranking"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 78: taktiikka on sallittua, jos se voi parantaa veneen omaa sijoitusta tapahtumassa. Jos tarkoitus on auttaa toista venettä, edistää valintaa muuhun tapahtumaan tai haitata ilman urheilullista syytä, tai jos vene rikkoo tahallaan sääntöä, se rikkoo sääntöä 2.",
+          "en": "Case 78: such tactics are allowed if they may benefit the boat's own ranking in the event. If the aim is to help another boat, gain selection for something else, or hinder without sporting reason, or if the boat intentionally breaks a rule, she breaks rule 2."
+        },
+        "source": "Case 78",
+        "also": [
+          "23"
+        ],
+        "scene": {
+          "h": 240,
+          "boats": [
+            {
+              "n": "L",
+              "x": 150,
+              "y": 120,
+              "rot": -45,
+              "tack": "s",
+              "c": "a"
+            },
+            {
+              "n": "W",
+              "x": 160,
+              "y": 170,
+              "rot": -45,
+              "tack": "s",
+              "c": "b"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r2-q4",
+        "prompt": {
+          "fi": "Mikä on säännön 2 rikkomisen rangaistus?",
+          "en": "What is the penalty for breaking rule 2?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kahden kierroksen rangaistus",
+              "en": "A Two-Turns Penalty"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Hylkäys, jota ei saa jättää pois kokonaispisteistä (DNE)",
+              "en": "A disqualification that is not excludable (DNE)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lautakunnan harkinnan mukaan",
+              "en": "At the committee's discretion"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 2 määrää rangaistukseksi hylkäyksen, jota ei voi jättää pois, ja rangaistus edellyttää, että rikkomus on selvästi näytetty toteen.",
+          "en": "Rule 2 sets the penalty as a non-excludable disqualification, and requires that the breach be clearly established."
+        },
+        "source": "RRS 2",
+        "also": []
+      },
+      {
+        "id": "r2-q5",
+        "prompt": {
+          "fi": "Yksittäisen palautuksen äänimerkki jäi antamatta, mutta X-lippu nostettiin oikein. Vene A ei huomannut lippua, mutta tietää itse olleensa linjan yli. Mitä sen pitää tehdä?",
+          "en": "The sound signal for an individual recall was omitted, but flag X was correctly displayed. Boat A did not see the flag but knows she was over the line. What must she do?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Jatkaa ja pyytää hyvitystä puuttuvan äänimerkin vuoksi",
+              "en": "Carry on and request redress because of the missing sound signal"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Palata ja lähteä oikein; muuten se rikkoo myös sääntöä 2",
+              "en": "Return and start correctly; otherwise she also breaks rule 2"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 31: vene, joka ei tiedä olleensa yli, voi saada hyvityksen puuttuvan äänimerkin vuoksi. Vene, joka tietää olleensa yli, ei ole oikeutettu hyvitykseen, ja sen pitää palata (28.1); jos se ei palaa, se rikkoo myös perusperiaatetta ja sääntöä 2.",
+          "en": "Case 31: a boat unaware she was over may get redress for the missing sound signal. A boat that knows she was over is not entitled to redress and must return (28.1); if she does not, she also breaches the Basic Principle and rule 2."
+        },
+        "source": "Case 31",
+        "also": [
+          "28",
+          "29",
+          "61"
+        ]
+      },
+      {
+        "id": "r2-q6",
+        "prompt": {
+          "fi": "Vene osuu merkkiin kovassa paikassa ja sen perämies ajattelee: ”Kukaan ei nähnyt.” Se ei ota rangaistusta. Mitä sääntöä se rikkoo merkin koskettamisen lisäksi?",
+          "en": "A boat touches a mark in a tight spot and her helmsman thinks: ‘Nobody saw.’ She takes no penalty. Which rule does she break besides touching the mark?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei muuta",
+              "en": "Nothing else"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntöä 2, koska se tietää rikkoneensa sääntöä eikä ota rangaistusta",
+              "en": "Rule 2, because she knows she broke a rule and takes no penalty"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 138: rangaistuksen ottamatta jättäminen, kun kilpailija tietää rikkoneensa sääntöä, kuuluu yleensä säännön 2 piiriin. Perusperiaatteen mukaan rikkonut vene ottaa viipymättä asianmukaisen rangaistuksen.",
+          "en": "Case 138: failing to take an appropriate penalty when aware of breaking a rule is generally a matter for rule 2. Under the Basic Principle a boat that breaks a rule promptly takes an appropriate penalty."
+        },
+        "source": "Case 138; Basic Principles",
+        "also": [
+          "31",
+          "44"
+        ]
+      }
+    ],
+    "scene": {
+      "h": 240,
+      "boats": [
+        {
+          "n": "S",
+          "x": 175,
+          "y": 110,
+          "rot": -45,
+          "tack": "s",
+          "c": "a"
+        },
+        {
+          "n": "P",
+          "x": 125,
+          "y": 150,
+          "rot": 45,
+          "tack": "p",
+          "c": "b"
+        }
+      ]
+    },
+    "caption": {
+      "fi": "P huutaa ”Oikea!”, vaikka tietää olevansa vasemmalla halssilla. S väistää. P rikkoo sääntöä 10 ja myös sääntöä 2 (Case 47).",
+      "en": "P hails ‘Starboard’ knowing she is on port. S gets out of the way. P breaks rule 10 and also rule 2 (Case 47)."
+    }
+  },
+  {
+    "n": 3,
+    "section": "1",
+    "title": {
+      "fi": "Päätös kilpailla",
+      "sv": "Beslut att kappsegla",
+      "en": "Decision to Race"
+    },
+    "explain": {
+      "fi": "Veneellä yksin on vastuu päätöksestä osallistua kilpapurjehdukseen tai jatkaa kilpailemista. Kilpailulautakunnan päätös aloittaa tai jatkaa kilpailua ei siirrä tätä vastuuta lautakunnalle: jokainen vene arvioi itse, ovatko olosuhteet sille ja miehistölle sopivat, ja voi aina jättää lähtemättä tai vetäytyä.",
+      "en": "The responsibility for a boat's decision to take part in a race or to continue racing is hers alone. The race committee's decision to start or continue a race does not shift that responsibility to the committee: each boat judges for herself whether the conditions suit her and her crew, and she may always decide not to start or to retire."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa tätä sääntöä, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)).",
+      "en": "National authority prescriptions may not change this rule, nor may the notice of race or sailing instructions (86.1(a), (b))."
+    },
+    "source": "RRS 3, 86.1",
+    "defs": [
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Turvallisuus (1) ja päätös kilpailla (3) ovat osan 1 perussääntöjä.",
+          "en": "Safety (1) and the decision to race (3) are fundamental rules of Part 1."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r3-q1",
+        "prompt": {
+          "fi": "Tuuli on voimistunut ennen lähtöä, mutta kilpailulautakunta antaa lähtöviestit normaalisti. Kenen vastuulla on päätös lähteä?",
+          "en": "The wind has freshened before the start, but the race committee gives the starting signals as normal. Whose responsibility is the decision to start?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kilpailulautakunnan, koska se aloitti kilpailun",
+              "en": "The race committee's, because it started the race"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneen yksin",
+              "en": "The boat's alone"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 3: veneellä yksin on vastuu päätöksestä osallistua tai jatkaa kilpailemista.",
+          "en": "Rule 3: the responsibility for the decision to take part or continue racing is the boat's alone."
+        },
+        "source": "RRS 3",
+        "also": []
+      },
+      {
+        "id": "r3-q2",
+        "prompt": {
+          "fi": "Kesken kilpailun miehistö huomaa, että olosuhteet ylittävät sen taidot. Mitä säännöt sanovat?",
+          "en": "Mid-race the crew realizes the conditions exceed its abilities. What do the rules say?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vene saa aina vetäytyä; päätös jatkaa on sen omalla vastuulla",
+              "en": "The boat may always retire; the decision to continue is her own responsibility"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vene ei saa vetäytyä ilman kilpailulautakunnan lupaa",
+              "en": "The boat may not retire without race committee permission"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 3 koskee sekä osallistumista että kilpailemisen jatkamista.",
+          "en": "Rule 3 covers both taking part and continuing to race."
+        },
+        "source": "RRS 3",
+        "also": []
+      },
+      {
+        "id": "r3-q3",
+        "prompt": {
+          "fi": "Voiko purjehdusohjeissa siirtää päätöksen kilpailla kilpailulautakunnalle?",
+          "en": "Can the sailing instructions transfer the decision to race to the race committee?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntöä 3 ei saa muuttaa purjehdusohjeilla",
+              "en": "No: rule 3 may not be changed by the sailing instructions"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 3 on 86.1(a):n luettelossa, joten kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sitä (86.1(b)).",
+          "en": "Rule 3 is listed in 86.1(a), so the notice of race or sailing instructions may not change it (86.1(b))."
+        },
+        "source": "RRS 86.1(a), 86.1(b)",
+        "also": [
+          "86"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "section": "1",
+    "title": {
+      "fi": "Sääntöjen hyväksyminen",
+      "sv": "Godta reglerna",
+      "en": "Acceptance of the Rules"
+    },
+    "explain": {
+      "fi": "Osallistumalla tai aikomalla osallistua sääntöjen alaiseen kilpailuun kilpailija ja veneen omistaja hyväksyvät säännöt; tukihenkilö hyväksyy ne tukea antaessaan, ja vanhempi tai huoltaja antaessaan lapsensa ilmoittautua (4.1). Kilpailija ja omistaja sitoutuvat myös siihen, että säännöt sitovat heidän tukihenkilöitään, ja huolehtivat, että nämä tuntevat säännöt (4.2, 4.3(d)). Hyväksyminen tarkoittaa sääntöjen noudattamista, rangaistusten ja muiden toimien hyväksymistä lopullisena ratkaisuna sääntöjen muutoksenhakumenettelyjen puitteissa ja sitä, ettei asiaa viedä tuomioistuimeen, jota säännöt eivät mainitse (4.3). Veneen vastuuhenkilö huolehtii, että miehistö ja omistaja tuntevat velvollisuutensa (4.4). ’Säännöt’ tarkoittaa määritelmän Rule mukaisia sääntöjä: kilpailusäännöt, säännön asemaan nostetut World Sailingin määräykset, kansallisen järjestön määräykset, luokkasäännöt, kilpailukutsu ja purjehdusohjeet pätevät, vaikka kilpailukutsu ei mainitsisi niitä; muut kilpailua koskevat asiakirjat pätevät, jos kilpailukutsu luettelee ne (Case 98).",
+      "en": "By participating or intending to participate in an event under the rules, a competitor and boat owner accept the rules; a support person does so by providing support, and a parent or guardian by permitting their child to enter (4.1). Competitors and owners also agree that their support persons are bound by the rules and ensure they are aware of them (4.2, 4.3(d)). Acceptance means being governed by the rules, accepting penalties and other actions as final subject to the rules' appeal and review procedures, and not going to a court or tribunal not provided for in the rules (4.3). The person in charge ensures the crew and owner are aware of their responsibilities (4.4). ‘Rules’ means rules as defined: the racing rules, World Sailing Regulations with the status of a rule, national authority prescriptions, class rules, the notice of race and sailing instructions apply even if the notice of race does not mention them; other documents governing the event apply if the notice of race lists them (Case 98)."
+    },
+    "note": {
+      "fi": "Kilpailupaikan kansallisen järjestön määräys voi muuttaa sääntöä 4 (4.5), mutta kilpailukutsu tai purjehdusohjeet eivät (86.1(b)).",
+      "en": "A prescription of the national authority of the venue may change rule 4 (4.5), but the notice of race or sailing instructions may not (86.1(b))."
+    },
+    "source": "RRS 4, 86.1, Definition Rule; Case 98",
+    "defs": [
+      "Rule",
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "5"
+        ],
+        "note": {
+          "fi": "Säännöt sitovat myös järjestäjää ja toimitsijoita (5; Case 98).",
+          "en": "The rules also bind the organizing authority and officials (5; Case 98)."
+        }
+      },
+      {
+        "rules": [
+          "70",
+          "71"
+        ],
+        "note": {
+          "fi": "Hyväksyminen on lopullista sääntöjen muutoksenhakumenettelyjen puitteissa (4.3(b)).",
+          "en": "Acceptance is final subject to the rules' appeal procedures (4.3(b))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 98,
+        "title": {
+          "fi": "Mitkä säännöt pätevät?",
+          "en": "Which rules apply?"
+        },
+        "text": {
+          "fi": "Kilpailukutsussa luki vain, että kilpailussa noudatetaan purjehduksen kilpailusääntöjä. Kansallisen järjestön määräyksiä, purjehdusohjeita, luokkasääntöjä tai muita asiakirjoja ei mainittu. Tasoitusluokassa kilpaileva J/24-vene protestoitiin J/24-luokkasäännön rikkomisesta.",
+          "en": "The notice of race said only that the Racing Rules of Sailing would apply. It did not mention national prescriptions, sailing instructions, class rules or other documents. A J/24 racing in the handicap class was protested for breaking a J/24 class rule."
+        },
+        "answer": {
+          "fi": "Kansallisen järjestön määräykset, luokkasäännöt sekä kilpailukutsun ja purjehdusohjeiden säännöt pätevät, koska ne kuuluvat määritelmän Rule piiriin ja säännöt 4.1(a) ja 4.3(a) sitovat kilpailijat niihin; sääntö 5 sitoo vastaavasti järjestäjän ja lautakunnat. Muut asiakirjat pätevät vain, jos kilpailukutsu luettelee ne. Tasoitusluokassa veneeseen pätevät tasoitusjärjestelmän säännöt; J/24-luokkasäännöt pätevät vain, jos tasoitus perustuu niiden noudattamiseen. Jos kilpailukutsu ja purjehdusohjeet ovat ristiriidassa, kumpikaan ei ole ensisijainen.",
+          "en": "National prescriptions, class rules and the rules in the notice of race and sailing instructions all apply, because they fall within the definition Rule and rules 4.1(a) and 4.3(a) bind competitors to them; rule 5 likewise binds the organizers and committees. Other documents apply only if listed in the notice of race. In the handicap class the handicap system's rules apply; J/24 class rules apply only if the handicap assumes compliance with them. If the notice of race and sailing instructions conflict, neither takes precedence."
+        },
+        "also": [
+          "5",
+          "63",
+          "85",
+          "87",
+          "88",
+          "89",
+          "90"
+        ],
+        "source": "Case 98"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r4-q1",
+        "prompt": {
+          "fi": "Kuka hyväksyy säännöt antamalla alaikäisen lapsensa ilmoittautua kilpailuun?",
+          "en": "Who accepts the rules by permitting their under-age child to enter an event?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ei kukaan, vain kilpailija itse",
+              "en": "Nobody, only the competitor"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vanhempi tai huoltaja",
+              "en": "The parent or guardian"
+            }
+          }
+        ],
+        "why": {
+          "fi": "4.1(b): vanhempi tai huoltaja hyväksyy säännöt antaessaan lapsensa ilmoittautua; tukihenkilö hyväksyy ne tukea antaessaan.",
+          "en": "4.1(b): a parent or guardian accepts the rules by permitting their child to enter; a support person does so by providing support."
+        },
+        "source": "RRS 4.1(b)",
+        "also": []
+      },
+      {
+        "id": "r4-q2",
+        "prompt": {
+          "fi": "Kilpailija on tyytymätön protestilautakunnan päätökseen ja haluaa viedä asian käräjäoikeuteen. Mitä hän on hyväksynyt osallistuessaan?",
+          "en": "A competitor is unhappy with a protest committee decision and wants to take it to a civil court. What did she agree to by participating?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ettei hän käänny tuomioistuimen puoleen, jota säännöt eivät mainitse",
+              "en": "Not to resort to a court or tribunal not provided for in the rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, sillä säännöt eivät rajoita tätä",
+              "en": "Nothing; the rules do not restrict this"
+            }
+          }
+        ],
+        "why": {
+          "fi": "4.3(c): sääntöjen hyväksyminen sisältää sitoumuksen olla kääntymättä sääntöjen ulkopuolisen tuomioistuimen puoleen; muutoksenhaku tehdään sääntöjen menettelyin (4.3(b)).",
+          "en": "4.3(c): accepting the rules includes agreeing not to resort to a court or tribunal outside the rules; appeals use the rules' procedures (4.3(b))."
+        },
+        "source": "RRS 4.3(b), 4.3(c)",
+        "also": [
+          "70"
+        ]
+      },
+      {
+        "id": "r4-q3",
+        "prompt": {
+          "fi": "Kilpailukutsu ei mainitse luokkasääntöjä. Pätevätkö ne yksityyppiluokassa?",
+          "en": "The notice of race does not mention class rules. Do they apply in a one-design class?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, koska ne kuuluvat määritelmän Rule piiriin",
+              "en": "Yes, because they fall within the definition Rule"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ellei kilpailukutsu niin sano",
+              "en": "No, unless the notice of race says so"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 98: määritelmän Rule luettelemat asiakirjat pätevät, vaikka kilpailukutsu ei mainitse niitä; kilpailijat hyväksyvät ne säännön 4 perusteella.",
+          "en": "Case 98: the documents listed in the definition Rule apply even if the notice of race does not mention them; competitors accept them under rule 4."
+        },
+        "source": "Case 98; Definition Rule",
+        "also": [
+          "87"
+        ]
+      },
+      {
+        "id": "r4-q4",
+        "prompt": {
+          "fi": "Kuka huolehtii siitä, että veneen kaikki miehistön jäsenet ja omistaja tietävät sääntöjen hyväksymiseen liittyvät velvollisuutensa?",
+          "en": "Who ensures that all the crew and the owner are aware of their responsibilities under the acceptance rule?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneen vastuuhenkilö",
+              "en": "The person in charge of the boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailun järjestäjä",
+              "en": "The organizing authority"
+            }
+          }
+        ],
+        "why": {
+          "fi": "4.4: veneen vastuuhenkilön velvollisuus.",
+          "en": "4.4: the duty of the person in charge."
+        },
+        "source": "RRS 4.4",
+        "also": []
+      },
+      {
+        "id": "r4-q5",
+        "prompt": {
+          "fi": "Voiko sääntöä 4 muuttaa?",
+          "en": "Can rule 4 be changed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kilpailupaikan kansallisen järjestön määräyksellä, mutta ei kilpailukutsulla tai purjehdusohjeilla",
+              "en": "Yes, by a prescription of the venue's national authority, but not by the notice of race or sailing instructions"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, purjehdusohjeilla",
+              "en": "Yes, by the sailing instructions"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitenkään",
+              "en": "Not at all"
+            }
+          }
+        ],
+        "why": {
+          "fi": "4.5 sallii kansallisen järjestön määräyksen; 86.1(b) kieltää kilpailukutsua ja purjehdusohjeita muuttamasta sääntöä 4.",
+          "en": "4.5 allows a national authority prescription; 86.1(b) forbids the notice of race and sailing instructions to change rule 4."
+        },
+        "source": "RRS 4.5, 86.1(b)",
+        "also": [
+          "86"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "section": "1",
+    "title": {
+      "fi": "Kilpailun järjestäjiä ja toimitsijoita koskevat säännöt",
+      "sv": "Regler som styr arrangörer och funktionärer",
+      "en": "Rules Governing Organizing Authorities and Officials"
+    },
+    "explain": {
+      "fi": "Kilpailun järjestäjä, lautakunnat ja muut kilpailutoimihenkilöt toimivat sääntöjen alaisina järjestäessään ja tuomitessaan kilpailua. Säännöt tarkoittavat tässä samoja määritelmän Rule mukaisia asiakirjoja, jotka sitovat kilpailijoita (Case 98). Kilpailulautakuntaa ei kuitenkaan voi protestoida eikä rangaista; jos se toimii virheellisesti, vene voi pyytää hyvitystä (61.4(b)(1)), ja protestilautakunta käsittelee virheellisen ”protestin” hyvityspyyntönä, jos se täyttää pyynnön vaatimukset (Case 44).",
+      "en": "The organizing authority, committees and other race officials are governed by the rules in conducting and judging the event. ‘Rules’ here means the same documents under the definition Rule that bind competitors (Case 98). The race committee cannot, however, be protested or penalized; if it acts improperly, a boat may request redress (61.4(b)(1)), and the protest committee treats an invalid ‘protest’ as a request for redress if it meets the requirements (Case 44)."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa tätä sääntöä, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)).",
+      "en": "National authority prescriptions may not change this rule, nor may the notice of race or sailing instructions (86.1(a), (b))."
+    },
+    "source": "RRS 5, 61.4(b)(1), 63.2(c), 86.1; Case 44, 98",
+    "defs": [
+      "Rule",
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Lautakunnan virheeseen haetaan oikeutta hyvityspyynnöllä, ei protestilla (Case 44).",
+          "en": "A committee's error is addressed by a request for redress, not a protest (Case 44)."
+        }
+      },
+      {
+        "rules": [
+          "4"
+        ],
+        "note": {
+          "fi": "Samat säännöt sitovat kilpailijoita (4) ja toimitsijoita (5) (Case 98).",
+          "en": "The same rules bind competitors (4) and officials (5) (Case 98)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 44,
+        "title": {
+          "fi": "Protesti kilpailulautakuntaa vastaan",
+          "en": "A protest against the race committee"
+        },
+        "text": {
+          "fi": "Purjehdusohjeiden mukaan ensimmäisen osuuden piti olla vastatuuleen. Kun yksi luokka oli lähtenyt, tuuli kääntyi noin 55 astetta. Seuraavan luokan merkkiä ei voinut siirtää, koska edellinen luokka purjehti vielä sitä kohti. Finnit lähtivät, eikä kukaan päässyt merkille yhdellä halssilla. Vene A ”protestoi kilpailulautakuntaa” sääntöön 5 ja purjehdusohjeisiin vedoten. Protestilautakunta totesi, ettei osuus ollut vastatuuliosuus, mutta ei löytänyt näyttöä siitä, että A:n tulos olisi huonontunut, ja tulokset jäivät voimaan.",
+          "en": "The sailing instructions required the first leg to be to windward. After one class had started, the wind backed about 55 degrees. The next class's mark could not be moved, as the previous class was still sailing to it. The Finns started, and none could fetch the mark on one tack. Boat A ‘protested the race committee’ under rule 5 and the sailing instructions. The protest committee found the leg was not a windward leg, but found no evidence that A's score had been made worse, and the results stood."
+        },
+        "answer": {
+          "fi": "A:n valitus hylättiin. Säännöt eivät salli kilpailulautakunnan protestoimista tai rangaistusta. Protestilautakunta toimi oikein käsitellessään A:n virheellisen ”protestin” hyvityspyyntönä, koska se täytti pyynnön vaatimukset (63.2(c)). Hyvitys edellyttää, että veneen tulos huononi ilman omaa syytä, eikä siitä ollut näyttöä.",
+          "en": "A's appeal was dismissed. The rules do not allow a race committee to be protested or penalized. The protest committee rightly treated A's invalid ‘protest’ as a request for redress, as it met the requirements (63.2(c)). Redress requires that the boat's score was made worse through no fault of her own, and there was no evidence of that."
+        },
+        "also": [
+          "61",
+          "63"
+        ],
+        "source": "Case 44"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r5-q1",
+        "prompt": {
+          "fi": "Kilpailulautakunta asettaa radan purjehdusohjeiden vastaisesti. Voiko vene protestoida kilpailulautakuntaa?",
+          "en": "The race committee sets the course contrary to the sailing instructions. Can a boat protest the race committee?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, sääntö 5 sitoo lautakuntaa",
+              "en": "Yes, rule 5 binds the committee"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, mutta se voi pyytää hyvitystä, jos sen tulos huononi ilman omaa syytä",
+              "en": "No, but she may request redress if her score was made worse through no fault of her own"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 44: kilpailulautakuntaa ei voi protestoida eikä rangaista. Oikea keino on hyvityspyyntö (61.4(b)(1)), ja virheellinen protesti käsitellään hyvityspyyntönä, jos se täyttää vaatimukset (63.2(c)).",
+          "en": "Case 44: a race committee cannot be protested or penalized. The proper route is a request for redress (61.4(b)(1)), and an invalid protest is treated as one if it meets the requirements (63.2(c))."
+        },
+        "source": "Case 44; RRS 61.4(b)(1), 63.2(c)",
+        "also": [
+          "61",
+          "63"
+        ]
+      },
+      {
+        "id": "r5-q2",
+        "prompt": {
+          "fi": "Sitovatko purjehdusohjeet myös protestilautakuntaa?",
+          "en": "Do the sailing instructions bind the protest committee too?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: järjestäjä, lautakunnat ja toimitsijat toimivat sääntöjen alaisina",
+              "en": "Yes: the organizing authority, committees and officials are governed by the rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ne koskevat vain kilpailijoita",
+              "en": "No, they bind only competitors"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 5 ja määritelmä Rule: purjehdusohjeet ovat sääntöjä, ja ne sitovat myös toimitsijoita (Case 98).",
+          "en": "Rule 5 and the definition Rule: sailing instructions are rules and bind officials as well (Case 98)."
+        },
+        "source": "RRS 5; Case 98",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "r5-q3",
+        "prompt": {
+          "fi": "Saako kilpailukutsu vapauttaa kilpailulautakunnan säännöistä?",
+          "en": "May the notice of race exempt the race committee from the rules?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntöä 5 ei saa muuttaa kilpailukutsulla tai purjehdusohjeilla",
+              "en": "No: rule 5 may not be changed by the notice of race or sailing instructions"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 5 on 86.1(a):n luettelossa, joten 86.1(b) kieltää muuttamasta sitä.",
+          "en": "Rule 5 is listed in 86.1(a), so 86.1(b) forbids changing it."
+        },
+        "source": "RRS 86.1(a), 86.1(b)",
+        "also": [
+          "86"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "section": "1",
+    "title": {
+      "fi": "World Sailingin määräykset",
+      "sv": "World Sailing förordningar",
+      "en": "World Sailing Regulations"
+    },
+    "explain": {
+      "fi": "Kilpailijan, veneen omistajan ja tukihenkilön pitää noudattaa niitä World Sailingin määräyksiä, joille World Sailing on antanut säännön aseman (6.1). Sääntökirjan mukaan 30.6.2024 näitä ovat mainos-, antidoping-, eettinen, kelpoisuus- ja purjehtijoiden luokittelusäännöstö. Osan 5 säännöt (protestit ja käsittelyt) pätevät näiden määräysten rikkomuksiin vain, jos kyseinen määräys sallii protestit (6.2). Esimerkiksi kelpoisuus- ja eettisen säännöstön kannalta voi olla merkitystä, onko kilpailun järjestäjä kansalliseen järjestöön liittynyt (Case 143).",
+      "en": "Competitors, boat owners and support persons must comply with the World Sailing Regulations designated as having the status of a rule (6.1). According to the rulebook, as of 30 June 2024 these are the Advertising, Anti-Doping, Ethics, Eligibility and Sailor Categorization Codes. The rules of Part 5 (protests and hearings) apply to breaches of these Regulations only if the Regulation permits protests (6.2). For example, under the Eligibility Code and Code of Ethics it can matter whether the organizing authority is affiliated to a national authority (Case 143)."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa sääntöä 6 eikä World Sailingin säännöstöjä, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)).",
+      "en": "National authority prescriptions may not change rule 6 or the World Sailing Codes, nor may the notice of race or sailing instructions (86.1(a), (b))."
+    },
+    "source": "RRS 6, 86.1, 89.1; Case 143",
+    "defs": [
+      "Rule",
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "75",
+          "89"
+        ],
+        "note": {
+          "fi": "Ilmoittautujan ja järjestäjän pitää kuulua kansalliseen järjestöön tai siihen liittyneeseen seuraan (75, 89.1; Case 143).",
+          "en": "The entrant and the organizing authority must belong to or be affiliated with a national authority (75, 89.1; Case 143)."
+        }
+      },
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Osan 5 säännöt pätevät määräysten rikkomuksiin vain, jos määräys sallii protestit (6.2).",
+          "en": "Part 5 applies to breaches of the Regulations only if the Regulation permits protests (6.2)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 143,
+        "title": {
+          "fi": "Järjestäjä ilman liittoa",
+          "en": "An unaffiliated organizer"
+        },
+        "text": {
+          "fi": "Kilpailun järjestäjänä oli seura, joka ei ollut kilpailupaikan kansallisen järjestön jäsen eikä muuten yhteydessä siihen. Kilpailukutsun mukaan kilpailussa noudatettiin purjehduksen kilpailusääntöjä. A protestoi B:tä osan 2 säännön perusteella ja valitti sitten protestilautakunnan päätöksestä kansalliselle järjestölle.",
+          "en": "The organizing authority was a club that was not a member of, or otherwise connected with, the national authority of the venue. The notice of race said the Racing Rules of Sailing would apply. A protested B under a Part 2 rule and then appealed the protest committee's decision to the national authority."
+        },
+        "answer": {
+          "fi": "Valitusta ei käsitelty. Seura ei ollut sääntö 89.1:n mukainen järjestäjä, eikä ollut kansallista järjestöä, jolle valitus olisi voitu tehdä säännön 70.4 mukaan. Lisäksi: sääntö 75 edellyttää, että ilmoittautuja kuuluu kansalliseen järjestöön tai siihen liittyneeseen seuraan, ja sääntö 6.1 velvoittaa noudattamaan eettistä säännöstöä; liittymättömän järjestäjän kilpailuun osallistuminen voi vaikuttaa purjehtijan kilpailukelpoisuuteen.",
+          "en": "The appeal was not considered. The club was not a valid organizing authority under rule 89.1, and there was no national authority to which an appeal could be sent under rule 70.4. In addition, rule 75 requires the entrant to belong to a national authority or an affiliated club, and rule 6.1 requires compliance with the Code of Ethics; taking part in an event run by an unaffiliated organizer may affect a sailor's eligibility."
+        },
+        "also": [
+          "70",
+          "75",
+          "89"
+        ],
+        "source": "Case 143"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r6-q1",
+        "prompt": {
+          "fi": "Kilpailija epäilee toisen rikkoneen mainossäännöstöä. Voiko hän protestoida osan 5 mukaan?",
+          "en": "A competitor suspects another of breaking the Advertising Code. Can she protest under Part 5?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Aina",
+              "en": "Always"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain, jos kyseinen määräys sallii protestit",
+              "en": "Only if that Regulation permits protests"
+            }
+          }
+        ],
+        "why": {
+          "fi": "6.2: osan 5 säännöt eivät päde, ellei protesteja ole sallittu määräyksessä, jota väitetään rikotun.",
+          "en": "6.2: the rules of Part 5 do not apply unless protests are permitted in the Regulation alleged to have been broken."
+        },
+        "source": "RRS 6.2",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "r6-q2",
+        "prompt": {
+          "fi": "Ketä sääntö 6.1 velvoittaa noudattamaan World Sailingin määräyksiä?",
+          "en": "Whom does rule 6.1 require to comply with the World Sailing Regulations?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Vain kilpailijoita",
+              "en": "Only competitors"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailijoita, veneiden omistajia ja tukihenkilöitä",
+              "en": "Competitors, boat owners and support persons"
+            }
+          }
+        ],
+        "why": {
+          "fi": "6.1 mainitsee kaikki kolme.",
+          "en": "Rule 6.1 names all three."
+        },
+        "source": "RRS 6.1",
+        "also": []
+      },
+      {
+        "id": "r6-q3",
+        "prompt": {
+          "fi": "Kilpailun järjestää seura, joka ei kuulu kansalliseen järjestöön. Mitä seuraa, jos protestilautakunnan päätöksestä halutaan valittaa?",
+          "en": "An event is run by a club not affiliated to the national authority. What follows if someone wants to appeal a protest committee decision?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Valitus tehdään kilpailupaikan kansalliselle järjestölle normaalisti",
+              "en": "The appeal goes to the venue's national authority as usual"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Valitusmahdollisuutta ei ole, koska järjestäjä ei ole sääntöjen mukainen",
+              "en": "There is no appeal, because the organizer is not valid under the rules"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 143: järjestäjä ei täyttänyt sääntöä 89.1, joten säännön 70.4 mukaista kansallista järjestöä ei ollut eikä valitusta voitu käsitellä.",
+          "en": "Case 143: the organizer did not meet rule 89.1, so there was no national authority under rule 70.4 and the appeal could not be considered."
+        },
+        "source": "Case 143; RRS 70.4, 89.1",
+        "also": [
+          "70",
+          "89"
+        ]
+      }
+    ]
+  },
+  {
     "n": 10,
     "section": "2A",
     "title": {

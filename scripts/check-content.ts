@@ -21,8 +21,8 @@ for (const r of rules) {
   const w = `rule ${r.n}`;
   const base = String(r.n).split('.')[0];
   assert.ok(map.rules[base], `${w} not in content-map`);
-  for (const k of ['explain', 'note', 'caption']) ml(r[k], `${w}.${k}`);
-  scene(r.scene, w);
+  for (const k of ['explain', 'note']) ml(r[k], `${w}.${k}`);
+  if (r.scene) { scene(r.scene, w); ml(r.caption, `${w}.caption`); } // procedural rules have no diagram
   for (const d of r.defs) assert.ok(defs.some((x: any) => x.en === d), `${w}: unknown definition ${d}`);
   for (const l of r.links) { ml(l.note, `${w}.link`); assert.ok(l.rules.length); }
   for (const s of r.scenarios) {
@@ -33,7 +33,7 @@ for (const r of rules) {
   }
   for (const q of r.questions) {
     assert.ok(!ids.has(q.id), `duplicate id ${q.id}`); ids.add(q.id);
-    ml(q.prompt, q.id); ml(q.why, q.id); scene(q.scene, q.id);
+    ml(q.prompt, q.id); ml(q.why, q.id); if (q.scene) scene(q.scene, q.id);
     assert.ok(q.options.length >= 2, `${q.id}: options`);
     assert.equal(q.options.filter((o: any) => o.ok).length, 1, `${q.id}: exactly one correct option`);
     for (const o of q.options) ml(o.t, q.id);
