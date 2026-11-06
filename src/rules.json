@@ -15916,5 +15916,1999 @@
         "also": []
       }
     ]
+  },
+  {
+    "n": 60,
+    "section": "5",
+    "title": {
+      "fi": "Protestit",
+      "sv": "Protester",
+      "en": "Protests"
+    },
+    "explain": {
+      "fi": "60.1: vene tai lautakunta voi protestoida venettä. 60.2: jos protestoija näki tapahtuman kilpailualueella, veneen pitää huutaa \"Protest\" ja, jos rungon pituus on yli 6 m, nostaa punainen lippu selvästi näkyviin, molemmat ensimmäisen kohtuullisen tilaisuuden tullen; lippu pidetään ylhäällä, kunnes vene ei enää kilpaile. Lautakunnan pitää ilmoittaa aikeestaan veneelle kilpapurjehduksen jälkeen protestiajan kuluessa. Pelkkä ilmoitus ensimmäisen kohtuullisen tilaisuuden tullen riittää, jos protestin kohde ei ollut huutoetäisyydellä, kyse on radan purjehtimisen virheestä, protestoija ei nähnyt tapahtumaa kilpailualueella tai protestilautakunta protestoi kohdan 60.4(c) perusteella. Jos tapahtumassa on ilmeistä vaaraa, loukkaantuminen tai vakava vahinko, riittää yritys ilmoittaa protestiajan kuluessa. Lautakunta voi ilmoittaa aikeestaan virallisella ilmoitustaululla. 60.3: protesti on kirjallinen, ja siitä ilmenevät protestoija, protestin kohde ja tapahtuma; se jätetään kilpailutoimistoon protestiajan kuluessa: kilpailualueella nähdyistä tapahtumista kaksi tuntia viimeisen veneen maaliintulosta, muista kaksi tuntia siitä, kun protestoija sai olennaisen tiedon, ellei purjehdusohjeissa ole muuta aikaa. Protestilautakunta voi pidentää aikaa hyvästä syystä. 60.4: protesti on pätemätön, jos se ei täytä edellä olevaa, jos osan 2 tai säännön 31 rikkomisesta protestoi vene, joka ei ollut tapahtumassa osallisena eikä nähnyt sitä, tai jos se koskee sääntöä 69 tai säännössä 6 mainittua säännöstöä (ellei säännöstö salli). Lautakunnan protesti on pätemätön, jos se perustuu hyvityspyyntöön, pätemättömään protestiin tai eturistiriitaisen henkilön ilmoitukseen (muun kuin oman veneen edustajan), paitsi kun kyse on mahdollisesta loukkaantumisesta tai vakavasta vahingosta, toisesta tutkinnassa paljastuneesta veneestä tai teknisen lautakunnan tarkastuksesta. 60.5: protesti ratkaistaan tutkinnassa (63). Venettä saa rangaista vain tutkinnassa, jossa se on asianosainen, sääntöjen 62.4, 64 tai 69 perusteella tai säännön nimenomaan salliessa rangaistuksen ilman tutkintaa. Rikkonut vene hylätään, mainittiinpa sääntö protestissa tai ei, ellei se ole vapautettu, ellei toista rangaistusta päde, ellei se ole jo ottanut sopivaa rangaistusta tai ellei kilpapurjehdusta käynnistetä uudelleen tai purjehdita uudelleen (36). Luokkasääntöjen rikkomisessa vauriosta tai normaalista kulumisesta johtuva, suorituskykyä parantamaton poikkeama ei johda rangaistukseen, ja vene voi jatkaa kilpailua muuttamatta venettä vain ilmoittamalla kirjallisesti aikovansa hakea muutosta.",
+      "en": "60.1: a boat or a committee may protest a boat. 60.2: if the protestor saw the incident in the racing area, a boat must hail 'Protest' and, if her hull is longer than 6 m, conspicuously display a red flag, both at the first reasonable opportunity; the flag stays up until she is no longer racing. A committee must inform the boat after the race within the protest time limit. Informing at the first reasonable opportunity is enough if the protestee was not within hailing distance, the incident was an error in sailing the course, the protestor did not see it in the racing area, or the protest committee protests under rule 60.4(c). If danger, injury or serious damage is obvious, it is enough to try to inform within the protest time limit. A committee may inform by a notice on the official notice board. 60.3: a protest is in writing and identifies the protestor, the protestee and the incident; it is delivered to the race office within the protest time limit: for incidents seen in the racing area, two hours after the last boat finishes, otherwise two hours after the protestor received the relevant information, unless the sailing instructions state another limit. The protest committee may extend it for good reason. 60.4: a protest is invalid if it does not meet the above, if a boat alleging a breach of Part 2 or rule 31 was neither involved in nor saw the incident, or if it alleges a breach of rule 69 or a code listed in rule 6 (unless the code allows it). A committee's protest is invalid if based on a redress request, an invalid protest or a report from a person with a conflict of interest (other than the boat's own representative), except for possible injury or serious damage, another boat revealed during a hearing, or a technical committee inspection. 60.5: a protest is decided in a hearing (63). A boat may be penalized only in a hearing where she is a party, under rules 62.4, 64 or 69, or under a rule that expressly allows a penalty without a hearing. A boat that broke a rule is disqualified, whether or not the rule was named in the protest, unless she is exonerated, another penalty applies, she already took an appropriate penalty, or the race is restarted or resailed (36). For class rules, a deviation caused by damage or normal wear that did not improve performance is not penalized, and the boat may keep racing unaltered only if she states in writing that she will appeal."
+    },
+    "note": {
+      "fi": "Ruotsinkielinen teksti sanoo kohdassa 60.4(a)(2) \"varken var inblandad i eller såg\" (ei osallisena eikä nähnyt); englanninkielinen sanamuoto on \"was not involved in it or did not see the incident\" ja suomenkielinen samoin \"tai ei nähnyt\". Liite B (purjelautailu) poistaa sanat \"or did not see\", joten lautailijan pitää olla osallisena. Liite B ei myöskään vaadi lippua, vaan ilmoituksen kilpailulautakunnalle maaliintulon jälkeen. Liite D (joukkuekilpailu) sallii lipun laskemisen näkyvästi nostamisen jälkeen ja muuttaa kohtaa 60.4(a)(2). Liite E (radio-ohjattavat) muuttaa huudon muotoon \"(oma purjenumero) protest (toisen purjenumero)\" ja lyhentää määräajan kymmeneen minuuttiin. Liite F (leijalautailu) poistaa lippuvaatimuksen ja lisää kohdan 60.5(e) sotkeutumisista. Liite C (mätsikilpailu) rajoittaa sääntöä 60.1.",
+      "en": "The Swedish text of 60.4(a)(2) says 'varken var inblandad i eller såg' (neither involved nor saw); the English wording is 'was not involved in it or did not see the incident', and the Finnish one matches the English. Appendix B (windsurfing) deletes 'or did not see', so the board must have been involved. Appendix B also needs no flag, but informing the race committee after finishing. Appendix D (team racing) allows the red flag to be removed after it has been conspicuously displayed and changes 60.4(a)(2). Appendix E (radio sailing) changes the hail to '(own sail number) protest (other sail number)' and shortens the time limit to ten minutes. Appendix F (kiteboarding) removes the flag requirement and adds 60.5(e) on tangles. Appendix C (match racing) limits rule 60.1."
+    },
+    "source": "RRS 60, definitions Protest and Party, Appendices B5, C8.1, D1.2, E6, F5; Case 1, 22, 39, 72, 85, 141",
+    "defs": [
+      "Protest",
+      "Party",
+      "Conflict of Interest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Sopiva rangaistus tapahtumahetkellä (44) estää myöhemmän rangaistuksen samasta rikkeestä (60.5(c)(2)).",
+          "en": "An appropriate penalty at the time of the incident (44) prevents a later penalty for the same breach (60.5(c)(2))."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Protesti ratkaistaan aina tutkinnassa säännön 63 mukaisesti (60.5(a)).",
+          "en": "A protest is always decided in a hearing under rule 63 (60.5(a))."
+        }
+      },
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Luokkasäännöt eivät saa muuttaa sääntöä 60; purjehdusohjeet saavat (Case 85; 86.1).",
+          "en": "Class rules may not change rule 60; sailing instructions may (Case 85; 86.1)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 22,
+        "title": {
+          "fi": "Väärä sääntönumero protestissa",
+          "en": "The wrong rule number in a protest"
+        },
+        "text": {
+          "fi": "Merkin lähellä tapahtuneen törmäyksen jälkeen S huusi \"Protest\" ja nosti punaisen lipun. Protestiajan kuluessa jätetyssä kirjallisessa protestissa olivat protestoija, protestin kohde ja tapahtuma, ja S väitti P:n rikkoneen sääntöä 18. Protestilautakunta totesi protestin pätemättömäksi, koska sen mukaan oikea sääntö olisi ollut 10. Oliko ratkaisu oikea?",
+          "en": "After a collision near a mark, S hailed 'Protest' and displayed a red flag. The written protest delivered within the time limit identified the protestor, the protestee and the incident, and alleged that P broke rule 18. The protest committee held the protest invalid because, in its view, the right rule was 10. Was that correct?"
+        },
+        "answer": {
+          "fi": "Ei. Protesti täytti kohdat 60.2 ja 60.3(a), joten se oli pätevä. Mikään sääntö ei vaadi protestia nimeämään rikottua sääntöä, ja 60.5(c):n mukaan ei ole merkitystä, mainittiinko lautakunnan soveltama sääntö protestissa. Tutkinta piti avata uudelleen ja käsitellä asia.",
+          "en": "No. The protest met rules 60.2 and 60.3(a), so it was valid. No rule requires a protest to name the rule broken, and under 60.5(c) it does not matter whether the rule the committee applies was named in the protest. The hearing had to be reopened and the case heard."
+        },
+        "also": [
+          "63"
+        ],
+        "source": "Case 22"
+      },
+      {
+        "case": 85,
+        "title": {
+          "fi": "Luokkasääntö ilman lippua",
+          "en": "A class rule without a flag"
+        },
+        "text": {
+          "fi": "Luokan veneet ovat yli 6 m pitkiä. Luokkasääntöjen mukaan punaista lippua ei tarvita, elleivät purjehdusohjeet sitä vaadi. A protestoi B:tä ja C:tä nostamatta lippua. Protestilautakunta piti protestia pätevänä luokkasääntöön vedoten ja hylkäsi B:n ja C:n, vaikka B vastusti. B haki muutosta.",
+          "en": "The class's boats are longer than 6 m. The class rules say no red flag is needed unless the sailing instructions require it. A protested B and C without a flag. Relying on the class rule, the protest committee held the protest valid and disqualified B and C despite B's objection. B appealed."
+        },
+        "answer": {
+          "fi": "B:n muutoshakemus hyväksyttiin. Luokkasäännöt saavat muuttaa vain säännössä 86.1(c) lueteltuja sääntöjä, eikä sääntö 60 ole niiden joukossa, joten luokkasääntö oli tältä osin pätemätön. Purjehdusohjeet olisivat voineet muuttaa kohtaa 60.2(a)(1), mutta eivät muuttaneet. A:n protesti oli pätemätön, ja B ja C palautettiin tuloksiin.",
+          "en": "B's appeal was upheld. Class rules may change only the rules listed in 86.1(c), and rule 60 is not one of them, so the class rule was invalid on this point. The sailing instructions could have changed 60.2(a)(1) but did not. A's protest was invalid, and B and C were reinstated."
+        },
+        "also": [
+          "86"
+        ],
+        "source": "Case 85"
+      },
+      {
+        "case": 39,
+        "title": {
+          "fi": "Eikö kilpailulautakunnan olisi pitänyt protestoida?",
+          "en": "Should the race committee have protested?"
+        },
+        "text": {
+          "fi": "Viiden lähdön sarjassa A purjehti kolmen hengen miehistöllä, vaikka luokkasäännöt sallivat kaksi. Viimeisen lähdön jälkeen B ja muut protestoivat yhdessä, mutta yksikään yli 6-metrinen vene ei ollut nostanut punaista lippua. Protesti todettiin pätemättömäksi. Muutosta haettiin sillä perusteella, että kilpailulautakunnan olisi pitänyt itse protestoida A:ta joka lähdössä.",
+          "en": "In a five-race series A sailed with a crew of three although the class rules allowed two. After the last race B and others protested jointly, but none of the boats, all over 6 m, had displayed a red flag. The protest was held invalid. The appeal argued that the race committee should have protested A itself in every race."
+        },
+        "answer": {
+          "fi": "Muutoshakemus hylättiin. Protesti oli pätemätön lipun puuttumisen vuoksi. Sääntö 60.1 sanoo, että lautakunta voi protestoida; velvollisuutta ei ole, eikä kilpailulautakunnan tarvitse tuntea ja valvoa kunkin luokan sääntöjä. Perusperiaatteen mukaan sääntöjen noudattamisen valvonta kuuluu ensisijaisesti kilpailijoille.",
+          "en": "The appeal was dismissed. The protest was invalid for lack of a flag. Rule 60.1 says a committee may protest; there is no duty, and a race committee is not expected to know and enforce each class's rules. Under the Basic Principle, enforcing the rules is primarily the competitors' responsibility."
+        },
+        "also": [],
+        "source": "Case 39"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r60-q1",
+        "prompt": {
+          "fi": "Kölivene, rungon pituus 9 m, joutuu tilanteeseen ja haluaa protestoida. Mitä sen pitää tehdä vesillä?",
+          "en": "A 9 m keelboat is in an incident and wants to protest. What must she do on the water?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huutaa \"Protest\" ja nostaa punainen lippu ensimmäisen kohtuullisen tilaisuuden tullen",
+              "en": "Hail 'Protest' and display a red flag at the first reasonable opportunity"
+            }
+          },
+          {
+            "t": {
+              "fi": "Riittää huutaa \"Protest\"",
+              "en": "Hailing 'Protest' is enough"
+            }
+          },
+          {
+            "t": {
+              "fi": "Riittää jättää kirjallinen protesti",
+              "en": "Delivering a written protest is enough"
+            }
+          }
+        ],
+        "why": {
+          "fi": "60.2(a)(1): yli 6 m:n veneeltä vaaditaan sekä huuto että punainen lippu, ja lippu pidetään ylhäällä, kunnes vene ei enää kilpaile.",
+          "en": "Rule 60.2(a)(1): a boat over 6 m needs both the hail and the red flag, kept up until she is no longer racing."
+        },
+        "source": "RRS 60.2(a)(1)",
+        "also": []
+      },
+      {
+        "id": "r60-q2",
+        "prompt": {
+          "fi": "Mikä on protestiaika kilpailualueella nähdylle tapahtumalle, jos purjehdusohjeissa ei sanota muuta?",
+          "en": "What is the protest time limit for an incident seen in the racing area, if the sailing instructions say nothing else?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaksi tuntia siitä, kun kilpapurjehduksen viimeinen vene tuli maaliin",
+              "en": "Two hours after the last boat in the race finishes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaksi tuntia oman maaliintulon jälkeen",
+              "en": "Two hours after you finish"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yksi tunti viimeisen veneen maaliintulosta",
+              "en": "One hour after the last boat finishes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "60.3(b)(1). Protestilautakunta voi pidentää aikaa hyvästä syystä.",
+          "en": "Rule 60.3(b)(1). The protest committee may extend it for good reason."
+        },
+        "source": "RRS 60.3(b)",
+        "also": []
+      },
+      {
+        "id": "r60-q3",
+        "prompt": {
+          "fi": "B rikkoi sääntöä A:ta vastaan eikä ottanut rangaistusta. Myöhemmin samassa kilpapurjehduksessa B protestoi C:tä. B hylätään A:n protestin perusteella. Onko B:n protesti C:tä vastaan nyt pätemätön?",
+          "en": "B broke a rule against A and took no penalty. Later in the same race B protested C. B is disqualified on A's protest. Is B's protest against C now invalid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: B:n oikeudet säilyivät, kun se jatkoi kilpailua, ja protesti käsitellään",
+              "en": "No: B kept her rights while she continued racing, and the protest is heard"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, hylätty vene ei voi protestoida",
+              "en": "Yes, a disqualified boat cannot protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 1: kilpailua jatkavan veneen oikeudet ja velvollisuudet eivät muutu. Jos C rikkoi sääntöä, myös C:tä rangaistaan.",
+          "en": "Case 1: a boat that continues racing keeps her rights and obligations. If C broke a rule, C is penalized too."
+        },
+        "source": "Case 1; RRS 60.1, 60.5",
+        "also": []
+      },
+      {
+        "id": "r60-q4",
+        "prompt": {
+          "fi": "Vene näyttää protestilippuna punaista pelastusliiviä. Kelpaako se?",
+          "en": "A boat uses a red life jacket as her protest flag. Does it qualify?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain jos muut veneet ymmärtävät sen varmasti protestiaikeen merkiksi; lippu pitää tunnistaa ensisijaisesti lipuksi",
+              "en": "Only if other boats will clearly understand it as a signal of intent to protest; a flag must be seen primarily as a flag"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kaikki punainen kelpaa",
+              "en": "Yes, anything red will do"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 72: lippu viestii aikeesta protestoida, ja esineen pitää välittää se viesti ilman sekaannuksen vaaraa. Pelastusliivi tuskin tunnistuu lipuksi. (Esimerkin soveltaminen on oma.)",
+          "en": "Case 72: a flag communicates the intention to protest, and the object must carry that message with little chance of confusion. A life jacket is unlikely to be seen as a flag. (The application to this example is our own.)"
+        },
+        "source": "Case 72; RRS 60.2(a)(1)",
+        "also": []
+      },
+      {
+        "id": "r60-q5",
+        "prompt": {
+          "fi": "Kilpailulautakunta kuulee rannalla valmentajalta, että vene ohitti merkin väärältä puolelta. Valmentajalla on eturistiriita. Voiko lautakunta protestoida tämän tiedon perusteella?",
+          "en": "The race committee hears ashore from a coach that a boat passed a mark on the wrong side. The coach has a conflict of interest. May the committee protest on this information?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: lautakunnan protesti on pätemätön, jos se perustuu eturistiriitaisen henkilön ilmoitukseen",
+              "en": "No: a committee protest is invalid if based on a report from a person with a conflict of interest"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, lautakunta voi aina protestoida",
+              "en": "Yes, a committee may always protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "60.4(b)(3). Poikkeukset (60.4(c)) koskevat loukkaantumista tai vakavaa vahinkoa, tutkinnassa paljastuvaa veneen osuutta ja teknisen lautakunnan tarkastusta.",
+          "en": "Rule 60.4(b)(3). The exceptions (60.4(c)) cover injury or serious damage, a boat revealed in a hearing, and a technical committee inspection."
+        },
+        "source": "RRS 60.4(b), 60.4(c)",
+        "also": []
+      },
+      {
+        "id": "r60-q6",
+        "prompt": {
+          "fi": "Mikä tekee vahingosta \"vakavan\" säännöissä?",
+          "en": "What makes damage 'serious' in the rules?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Termiä ei ole määritelty; se ymmärretään yleiskielen mukaan, esim. vaikutus turvallisuuteen, purjehdusominaisuuksiin tai korjauskuluihin veneen arvoon nähden",
+              "en": "It is not defined; it has its ordinary meaning, e.g. effect on safety, sailing performance, or repair cost relative to the boat's value"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vahinko on vakava, jos korjaus maksaa yli 500 euroa",
+              "en": "Damage is serious if repairs cost over 500 euros"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 141 (vakava) ja Case 19 (vahinko): kumpaakaan ei ole määritelty, vaan ne ymmärretään tavanomaisessa merkityksessä.",
+          "en": "Case 141 (serious) and Case 19 (damage): neither is defined; both have their ordinary meaning."
+        },
+        "source": "Case 19, 141; RRS 60.2(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 61,
+    "section": "5",
+    "title": {
+      "fi": "Hyvitys",
+      "sv": "Gottgörelse",
+      "en": "Redress"
+    },
+    "explain": {
+      "fi": "61.1: vene voi pyytää hyvitystä; kilpailulautakunta tai tekninen lautakunta voi pyytää sitä veneelle; protestilautakunta voi itse järjestää tutkinnan hyvityksen harkitsemiseksi. 61.2: pyyntö on kirjallinen ja kertoo syyn. Kilpailualueella sattuneesta tapahtumasta pyyntö jätetään protestiajan kuluessa tai kahden tunnin kuluessa tapahtumasta sen mukaan, kumpi on myöhempi; protestilautakunnan viimeisen kilpailupäivän päätöksestä 30 minuutin kuluessa päätöksen julkaisemisesta; muut niin pian kuin kohtuudella mahdollista olennaisen tiedon saamisen jälkeen. Hyvästä syystä aikaa pidennetään. Vaatimukset täyttämätön pyyntö on pätemätön (61.3). 61.4: hyvitys ratkaistaan tutkinnassa. Vene on oikeutettu hyvitykseen, jos sen pisteet tai sijoitus kilpapurjehduksessa tai sarjassa on huonontunut tai voi huonontua merkittävästi ilman sen omaa syytä (1) lautakunnan tai järjestävän tahon virheellisen toimen tai laiminlyönnin vuoksi (ei kuitenkaan protestilautakunnan päätöksen vuoksi, jos vene oli asianosainen), (2) loukkaantumisen tai fyysisen vahingon vuoksi, jonka aiheutti osan 2 sääntöä rikkonut vene, joka otti sopivan rangaistuksen tai sai rangaistuksen, (3) loukkaantumisen tai fyysisen vahingon vuoksi, jonka aiheutti kilpailun ulkopuolinen alus, jonka piti väistää meriteiden sääntöjen tai viranomaisen väistämissäännön mukaan tai joka todetaan syylliseksi, (4) avun antamisen vuoksi säännön 1.1 mukaisesti (ei itselle tai omalle miehistölle) tai (5) toisen veneen, sen miehistön tai tukihenkilön toiminnan vuoksi, josta seurasi rangaistus säännön 2 perusteella tai rangaistus tai varoitus säännön 69 perusteella. Hyvityksen pitää olla mahdollisimman tasapuolinen kaikille veneille, joihin se vaikuttaa, pyysivät ne hyvitystä tai eivät: pisteiden tai maaliintuloaikojen muutos (esimerkkejä liitteessä A9), kilpapurjehduksen mitätöiminen, tulosten jättäminen ennalleen tai muu ratkaisu. Epäselvissä asioissa näyttöä hankitaan, erityisesti ennen mitätöimistä. Vahingon itsensä pitää olla huonontanut tulosta; väistöliikkeen aiheuttama sijoitusten menetys ei yksin riitä, mutta kosketusta ei tarvita (Case 110).",
+      "en": "61.1: a boat may request redress; the race committee or technical committee may request it for a boat; the protest committee may itself call a hearing to consider redress. 61.2: the request is in writing and gives the reason. For an incident in the racing area it is delivered within the protest time limit or two hours after the incident, whichever is later; for a protest committee decision on the last day, within 30 minutes of the decision being posted; others as soon as reasonably possible after the relevant information is available. The time is extended for good reason. A request not meeting these is invalid (61.3). 61.4: redress is decided in a hearing. A boat is entitled to redress if her score or place in a race or series has been, or may be, made significantly worse through no fault of her own by (1) an improper action or omission of a committee or the organizing authority (but not a protest committee decision when the boat was a party), (2) injury or physical damage caused by a boat that broke a rule of Part 2 and took an appropriate penalty or was penalized, (3) injury or physical damage caused by a vessel not racing that was required to keep clear under the IRPCAS or a government right-of-way rule or is found at fault, (4) giving help under rule 1.1 (not to herself or her own crew), or (5) an action by another boat, her crew or support person that resulted in a penalty under rule 2 or a penalty or warning under rule 69. Redress must be as fair as possible to all boats affected, whether or not they asked: changing scores or finishing times (examples in A9), abandoning the race, letting results stand, or another arrangement. Where facts are in doubt, evidence is taken, especially before abandoning. The damage itself must have worsened the result; places lost by avoiding action alone are not enough, but contact is not needed (Case 110)."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu) lisää kohtiin 61.4(b)(2) ja (3) kaatumisen; liite E lisää toimintakyvyttömäksi joutumisen, radiohäiriön (61.4(b)(6)) ja korjausajan enintään 30 minuuttia. Liite C (mätsikilpailu) kieltää hyvitykset tuomareiden ratkaisuista. Liite D kieltää hyvityksen saman joukkueen veneen aiheuttamasta vahingosta. Hyvityksen esimerkit: liite A9.",
+      "en": "Appendix B (windsurfing) adds capsize to 61.4(b)(2) and (3); Appendix E adds becoming disabled, radio interference (61.4(b)(6)) and up to 30 minutes for repairs. Appendix C (match racing) bars redress for umpire decisions. Appendix D bars redress for damage caused by a boat on the same team. Examples of redress: Appendix A9."
+    },
+    "source": "RRS 61, Appendices A9, B5, C9, D1.2, E6.6; Case 68, 82, 102, 110, 116, 119, 135",
+    "defs": [
+      "Party",
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Avun antaminen säännön 1.1 mukaisesti voi oikeuttaa hyvitykseen (61.4(b)(4)).",
+          "en": "Giving help under rule 1.1 may entitle a boat to redress (61.4(b)(4))."
+        }
+      },
+      {
+        "rules": [
+          "2"
+        ],
+        "note": {
+          "fi": "Säännön 2 perusteella rangaistun veneen toiminta voi oikeuttaa toisen veneen hyvitykseen (61.4(b)(5); Case 34).",
+          "en": "An action penalized under rule 2 may entitle another boat to redress (61.4(b)(5); Case 34)."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Hyvitys loukkaantumisesta tai vahingosta edellyttää, että osan 2 sääntöä rikkonut vene otti sopivan rangaistuksen tai sai rangaistuksen (61.4(b)(2); Case 135).",
+          "en": "Redress for injury or damage requires that the boat that broke a rule of Part 2 took an appropriate penalty or was penalized (61.4(b)(2); Case 135)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 82,
+        "title": {
+          "fi": "Maalilinja radan suuntaisesti",
+          "en": "A finishing line in line with the leg"
+        },
+        "text": {
+          "fi": "Maalilinja oli lähes viimeisen osuuden suuntainen, ja komiteavene heilui ankkurissa puolelta toiselle. A ylitti linjan siltä puolelta, jota piti oikeana, ja kirjasi ajan. Äänimerkkiä ei tullut, joten A kiersi ja ylitti linjan toiseen suuntaan; vasta silloin aika kirjattiin. A pyysi hyvitystä ensimmäisen ylityksen ajan perusteella, mutta pyyntö hylättiin.",
+          "en": "The finishing line was almost in line with the last leg, and the committee boat was swinging back and forth at anchor. A crossed the line from the side she believed was correct and noted the time. No sound signal came, so she sailed round and crossed in the other direction; only then was she recorded. A requested redress based on her first crossing, but was refused."
+        },
+        "answer": {
+          "fi": "A:n muutoshakemus hyväksyttiin. Linjan asettaminen niin, ettei oikeaa ylityssuuntaa voi kohtuudella päätellä, on kilpailulautakunnan virheellinen toimi (61.4(b)(1)). Tällöin vene saa tulla maaliin kumpaan suuntaan tahansa, ja A sai sijoituksen oman ensimmäisen aikansa mukaan. Mikään sääntö ei vaadi äänimerkkiä maaliintulossa; se on kohteliaisuus.",
+          "en": "A's appeal was upheld. Laying a line so that the correct direction cannot reasonably be worked out is an improper action of the race committee (61.4(b)(1)). A boat may then finish in either direction, and A was placed by her own first time. No rule requires a sound signal at the finish; it is a courtesy."
+        },
+        "also": [],
+        "source": "Case 82"
+      },
+      {
+        "case": 110,
+        "title": {
+          "fi": "Vahinko, joka ei hidastanut",
+          "en": "Damage that did not slow her"
+        },
+        "text": {
+          "fi": "B:n piti väistää A:ta, mutta se törmäsi A:han ja käänsi sen 180 astetta. A menetti viisi sijaa ja pyysi hyvitystä kohdan 61.4(b)(2) perusteella. B rangaistiin. A:ssa oli fyysistä vahinkoa, mutta se ei vaikuttanut A:n nopeuteen. Saako A hyvitystä? Entä jos A olisi välttänyt törmäyksen kääntymällä ja menettänyt samat viisi sijaa?",
+          "en": "B was required to keep clear of A but hit her, turning her 180 degrees. A lost five places and requested redress under 61.4(b)(2). B was penalized. A had physical damage, but it did not affect her speed. Is A entitled to redress? And if A had avoided the collision by turning and lost the same five places?"
+        },
+        "answer": {
+          "fi": "Ei kummassakaan tapauksessa. Kohdassa 61.4(b)(2) itse vahingon pitää huonontaa tulosta merkittävästi, eikä tässä niin käynyt. Väistöliikkeen aiheuttama sijojen menetys ei ole loukkaantumista eikä vahinkoa; loukkaantuminen tarkoittaa ihmisen ruumiinvammaa ja vahinko veneen tai sen varusteiden fyysistä vahinkoa. Kosketusta ei kuitenkaan vaadita: väistöliikkeessä syntynyt vahinko voi oikeuttaa hyvitykseen. Sama pätee kilpailun ulkopuoliseen alukseen kohdan 61.4(b)(3) perusteella.",
+          "en": "No in both cases. Under 61.4(b)(2) the damage itself must make the result significantly worse, and here it did not. Places lost by an avoiding manoeuvre are neither injury nor damage; injury means bodily injury to a person and damage means physical damage to the boat or her equipment. Contact is not required, though: damage suffered while avoiding may qualify. The same applies to a vessel not racing under 61.4(b)(3)."
+        },
+        "also": [],
+        "source": "Case 110"
+      },
+      {
+        "case": 102,
+        "title": {
+          "fi": "Hyvitys sarjan lopussa",
+          "en": "Redress at the end of the series"
+        },
+        "text": {
+          "fi": "Kahdeksan lähdön sarjan päätyttyä vene pyysi hyvitystä kolme viikkoa aiemmin purjehditun viidennen lähdön tapahtumasta. Se perusteli myöhäistä pyyntöä sillä, että vasta sarjan tuloksista näki tapahtuman vaikuttaneen kokonaistulokseen.",
+          "en": "After an eight-race series a boat requested redress for an incident in race 5, sailed three weeks earlier. She argued that only the series results showed that the incident had affected her overall score."
+        },
+        "answer": {
+          "fi": "Pyyntö oli pätemätön. Tapahtuma vaikutti sarjaan vain lähdön 5 tuloksen kautta, joten määräaika oli lähdön 5 määräaika (61.2(b)), ei sarjan tulosten julkaisuun perustuva aika.",
+          "en": "The request was invalid. The incident affected the series only through race 5, so the time limit was the one for race 5 (61.2(b)), not one based on posting the series results."
+        },
+        "also": [],
+        "source": "Case 102"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r61-q1",
+        "prompt": {
+          "fi": "Kilpailualueella tapahtui jotain, mistä haluat hyvitystä. Mikä on määräaika?",
+          "en": "Something happened in the racing area for which you want redress. What is the time limit?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Protestiaika tai kaksi tuntia tapahtumasta, kumpi on myöhempi",
+              "en": "The protest time limit or two hours after the incident, whichever is later"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina 30 minuuttia maaliintulosta",
+              "en": "Always 30 minutes after finishing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sarjan loppuun asti",
+              "en": "Until the end of the series"
+            }
+          }
+        ],
+        "why": {
+          "fi": "61.2(b)(1). Protestilautakunta pidentää aikaa hyvästä syystä.",
+          "en": "Rule 61.2(b)(1). The protest committee extends it for good reason."
+        },
+        "source": "RRS 61.2(b)",
+        "also": []
+      },
+      {
+        "id": "r61-q2",
+        "prompt": {
+          "fi": "Viimeisenä kilpailupäivänä protestilautakunta julkaisee päätöksen, joka vaikuttaa tulokseesi, vaikka et ollut asianosainen. Mihin mennessä hyvityspyyntö pitää jättää?",
+          "en": "On the last day the protest committee posts a decision that affects your result, though you were not a party. By when must you request redress?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "30 minuutin kuluessa päätöksen julkaisemisesta",
+              "en": "Within 30 minutes of the decision being posted"
+            }
+          },
+          {
+            "t": {
+              "fi": "24 tunnin kuluessa",
+              "en": "Within 24 hours"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seitsemän vuorokauden kuluessa",
+              "en": "Within seven days"
+            }
+          }
+        ],
+        "why": {
+          "fi": "61.2(b)(2).",
+          "en": "Rule 61.2(b)(2)."
+        },
+        "source": "RRS 61.2(b)(2)",
+        "also": []
+      },
+      {
+        "id": "r61-q3",
+        "prompt": {
+          "fi": "Pysähdyit auttamaan kaatunutta jollaa, jonka miehistö oli vaarassa, ja menetit sijoja. Voitko saada hyvitystä?",
+          "en": "You stopped to help a capsized dinghy whose crew was in danger and lost places. Can you get redress?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kohdan 61.4(b)(4) perusteella, jos tulos huononi merkittävästi",
+              "en": "Yes, under 61.4(b)(4), if your result was made significantly worse"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, auttaminen on oma valinta",
+              "en": "No, helping is your own choice"
+            }
+          }
+        ],
+        "why": {
+          "fi": "61.4(b)(4): avun antaminen säännön 1.1 mukaisesti, ei kuitenkaan itselle tai omalle miehistölle.",
+          "en": "Rule 61.4(b)(4): giving help under rule 1.1, but not to herself or her own crew."
+        },
+        "source": "RRS 61.4(b)(4), 1.1",
+        "also": []
+      },
+      {
+        "id": "r61-q4",
+        "prompt": {
+          "fi": "Vene vahingoittuu sarjan alussa niin, ettei voi jatkaa, ja saa hyvitykseksi keskiarvopisteet puoleen laskettavista lähdöistä. Se voittaa sarjan purjehdittuaan kaksi lähtöä viidestä. Onko hyvitys sopiva?",
+          "en": "A boat is damaged early in a series, cannot continue, and is given average points for half of the counting races. She wins having sailed two of five races. Is the redress appropriate?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: alle puolet laskettavista tuloksista saisi perustua keskiarvopisteisiin",
+              "en": "No: fewer than half of the counting scores should be based on average points"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, keskiarvo on aina tasapuolinen",
+              "en": "Yes, an average is always fair"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 116: hyvitys ei ollut tasapuolisin ratkaisu muiden veneiden kannalta (61.4(c)). Yksi vaihtoehto olisi ollut antaa hyvitys vain törmäyslähdöstä.",
+          "en": "Case 116: the redress was not the fairest arrangement for the other boats (61.4(c)). One option would have been redress only for the race of the collision."
+        },
+        "source": "Case 116; RRS 61.4(c), A9",
+        "also": []
+      },
+      {
+        "id": "r61-q5",
+        "prompt": {
+          "fi": "Viikkoja kilpailun jälkeen tasoitusjärjestö muuttaa veneen tasoitusta omasta aloitteestaan, ja kilpailulautakunta laskee tulokset uudelleen. Onko se oikein?",
+          "en": "Weeks after a race, the rating authority changes a boat's rating on its own initiative, and the race committee rescores. Is that right?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: tulokset lasketaan kilpailuhetkellä voimassa olleella tasoituksella",
+              "en": "No: scoring uses the rating in effect when the race was sailed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, uusin tasoitus on aina oikea",
+              "en": "Yes, the latest rating is always correct"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 119: uudelleenlaskenta oli kilpailulautakunnan virheellinen toimi, ja veneen alkuperäinen tulos palautettiin hyvityksenä (61.4(b)(1)).",
+          "en": "Case 119: rescoring was an improper action of the race committee, and the original score was restored as redress (61.4(b)(1))."
+        },
+        "source": "Case 119; RRS 61.4(b)(1), A3",
+        "also": []
+      },
+      {
+        "id": "r61-q6",
+        "prompt": {
+          "fi": "P ei väistä. S tekee kovassa tuulessa nopean vastakäännöksen välttääkseen P:n, kaatuu ja rikkoo ohjaimen eikä voi jatkaa. Mitä hyvitys edellyttää?",
+          "en": "P fails to keep clear. In a strong wind S tacks quickly to avoid her, capsizes, breaks the tiller and cannot continue. What does redress require?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Että P keskeytti tai sai rangaistuksen, ja että kaatuminen ja vahinko johtuivat P:stä eivätkä S:n huonosta merimiestaidosta tai ohjaimen aiemmasta kunnosta",
+              "en": "That P retired or was penalized, and that the capsize and damage resulted from P, not from S's poor seamanship or the tiller's earlier condition"
+            }
+          },
+          {
+            "t": {
+              "fi": "Että veneet koskettivat ja kosketus rikkoi ohjaimen",
+              "en": "That the boats touched and the contact broke the tiller"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 135: vahingon ei tarvitse olla rikkovan veneen suoraan aiheuttama; riittää, että se oli rikkomisen todennäköinen seuraus. Vahinko oli vakava, joten P:n sopiva rangaistus olisi ollut keskeyttää (44.1(b)).",
+          "en": "Case 135: the damage need not be caused directly by the breaking boat; it is enough that it was a probable consequence. The damage was serious, so P's appropriate penalty was to retire (44.1(b))."
+        },
+        "source": "Case 135; RRS 61.4(b)(2), 44.1(b)",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "r61-q7",
+        "prompt": {
+          "fi": "Vene kilpaili, vaikka sen tasoitustodistus oli vanhentunut, ja protestoi toista venettä osan 2 perusteella. Hylätty vene pyytää hyvitystä: kilpailulautakunnan olisi pitänyt huomata todistus, eikä protestoija siksi kilpaillut. Saako se hyvitystä?",
+          "en": "A boat raced with an expired rating certificate and protested another boat under Part 2. The disqualified boat asks for redress: the race committee should have noticed the certificate, so the protestor was not racing. Is redress given?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: protestoija kilpaili määritelmän mukaan ja säilytti oikeutensa, eikä laiminlyönti huonontanut pyytäjän tulosta",
+              "en": "No: the protestor was racing under the definition and kept her rights, and the omission did not worsen the requester's result"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, vanhentunut todistus mitätöi protestin",
+              "en": "Yes, the expired certificate voids the protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 68: osan 2 säännöt koskevat kaikkia kilpailevia veneitä, vaikka jokin niistä hylättäisiin myöhemmin.",
+          "en": "Case 68: the rules of Part 2 govern all racing boats, even if one is later disqualified."
+        },
+        "source": "Case 68; RRS 61.4(b)(1)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 62,
+    "section": "5",
+    "title": {
+      "fi": "Tukihenkilöt",
+      "sv": "Stödpersoner",
+      "en": "Support Persons"
+    },
+    "explain": {
+      "fi": "62.1: veneen tai lautakunnan ilmoituksen, omien havaintojen tai muun tiedon (myös tutkinnassa saadun näytön) perusteella protestilautakunta voi järjestää tutkinnan siitä, onko tukihenkilö rikkonut sääntöä. 62.2: tutkinta järjestetään säännön 63 mukaan, ja lautakunta voi nimetä henkilön esittämään syytöksen. 62.3: jos asianosainen tukihenkilö on rikkonut sääntöä, lautakunta voi antaa varoituksen, sulkea hänet pois kilpailusta tai kilpailupaikalta tai poistaa etuoikeuksia, tai ryhtyä muuhun toimivaltaansa kuuluvaan toimeen. 62.4: lisäksi lautakunta voi rangaista asianosaista venettä muuttamalla sen pisteitä yhdessä kilpapurjehduksessa, hylkäämiseen asti, jos vene on voinut saada kilpailuetua tukihenkilön rikkeestä tai jos tukihenkilö rikkoi uudelleen sen jälkeen, kun vene oli aiemman tutkinnan jälkeen kirjallisesti varoitettu mahdollisesta rangaistuksesta. Tukihenkilö ei voi protestoida eikä häntä protestoida; asia käsitellään tällä menettelyllä. (Viimeinen virke on oma yhteenveto säännöistä 60.1 ja 62.1.)",
+      "en": "62.1: on a report from a boat or a committee, its own observation or other information (including evidence in a hearing), the protest committee may call a hearing to decide whether a support person has broken a rule. 62.2: the hearing follows rule 63, and the committee may appoint a person to present the allegation. 62.3: if a support person who is a party has broken a rule, the committee may issue a warning, exclude the person from the event or venue or remove privileges, or take other action within its jurisdiction. 62.4: in addition, the committee may penalize a boat that is a party by changing her score in a single race, up to disqualification, if the boat may have gained a competitive advantage from the breach, or if the support person broke a rule again after the boat had been warned in writing, after an earlier hearing, that a penalty may be imposed. A support person is neither a protestor nor a protestee; the matter is handled by this procedure. (The last sentence is our own summary of rules 60.1 and 62.1.)"
+    },
+    "note": {
+      "fi": "Määritelmän mukaan asianosaisia ovat myös tukihenkilö ja jokainen vene, jota hän tukee. Säännön 69 rikkomisesta tukihenkilöön sovelletaan sääntöjä 62.3 ja 62.4 (69.2(i)).",
+      "en": "Under the definition, parties also include the support person and any boat that person supports. For a breach of rule 69 by a support person, rules 62.3 and 62.4 apply (69.2(i))."
+    },
+    "source": "RRS 62, definitions Support Person and Party, 69.2(i)",
+    "defs": [
+      "Support Person",
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "69"
+        ],
+        "note": {
+          "fi": "Tukihenkilön sopimaton käytös: sovelletaan sääntöjä 62.3 ja 62.4 (69.2(i)).",
+          "en": "Misconduct by a support person: rules 62.3 and 62.4 apply (69.2(i))."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Tukihenkilön tutkinta järjestetään säännön 63 mukaan (62.2).",
+          "en": "A support person hearing follows rule 63 (62.2)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r62-q1",
+        "prompt": {
+          "fi": "Valmentajan vene ajaa toistuvasti kilpailijoiden edestä aallokkoa nostaen. Mitä protestilautakunta voi tehdä?",
+          "en": "A coach boat repeatedly motors in front of competitors, making waves. What can the protest committee do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Järjestää tutkinnan säännön 62 mukaan ja esimerkiksi varoittaa valmentajaa tai sulkea hänet pois",
+              "en": "Call a hearing under rule 62 and, for example, warn or exclude the coach"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään: valmentaja ei ole kilpailija",
+              "en": "Nothing: a coach is not a competitor"
+            }
+          }
+        ],
+        "why": {
+          "fi": "62.1 ja 62.3. Valmentaja on tukihenkilö määritelmän mukaan.",
+          "en": "Rules 62.1 and 62.3. A coach is a support person under the definition."
+        },
+        "source": "RRS 62.1, 62.3",
+        "also": []
+      },
+      {
+        "id": "r62-q2",
+        "prompt": {
+          "fi": "Milloin tukihenkilön rikkeestä voidaan rangaista myös venettä?",
+          "en": "When can a boat also be penalized for a support person's breach?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun vene on voinut saada kilpailuetua tai kun tukihenkilö rikkoi uudelleen kirjallisen varoituksen jälkeen",
+              "en": "When the boat may have gained a competitive advantage, or the support person broke a rule again after a written warning"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina, kun tukihenkilö rikkoo sääntöä",
+              "en": "Whenever the support person breaks a rule"
+            }
+          }
+        ],
+        "why": {
+          "fi": "62.4(a) ja (b). Rangaistus on pisteiden muutos yhdessä kilpapurjehduksessa, hylkäämiseen asti.",
+          "en": "Rule 62.4(a) and (b). The penalty is a score change in a single race, up to disqualification."
+        },
+        "source": "RRS 62.4",
+        "also": []
+      },
+      {
+        "id": "r62-q3",
+        "prompt": {
+          "fi": "Kuinka suuren rangaistuksen vene voi enintään saada säännön 62.4 perusteella?",
+          "en": "What is the largest penalty a boat can receive under rule 62.4?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pisteiden muutos yhdessä kilpapurjehduksessa, hylkäämiseen asti",
+              "en": "A score change in a single race, up to disqualification"
+            }
+          },
+          {
+            "t": {
+              "fi": "Poissulkeminen koko kilpailusta",
+              "en": "Exclusion from the whole event"
+            }
+          }
+        ],
+        "why": {
+          "fi": "62.4: \"in a single race\".",
+          "en": "Rule 62.4: 'in a single race'."
+        },
+        "source": "RRS 62.4",
+        "also": []
+      },
+      {
+        "id": "r62-q4",
+        "prompt": {
+          "fi": "Onko tutkinnan kohteena oleva tukihenkilö tutkinnan asianosainen?",
+          "en": "Is the support person subject to the hearing a party to it?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, ja samoin jokainen vene, jota hän tukee",
+              "en": "Yes, and so is any boat that person supports"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain veneet ovat asianosaisia",
+              "en": "No, only boats are parties"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Määritelmä Asianosainen, kohta (e).",
+          "en": "Definition Party, item (e)."
+        },
+        "source": "RRS Definitions, Party",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 63,
+    "section": "5",
+    "title": {
+      "fi": "Tutkinnan järjestäminen",
+      "sv": "Genomföra förhandlingar",
+      "en": "Conduct of Hearings"
+    },
+    "explain": {
+      "fi": "63.1: jokaiselle asianosaiselle ilmoitetaan tutkinnan aika ja paikka, hänelle annetaan protesti, hyvityspyyntö tai ilmoitus nähtäväksi ja kohtuullinen aika valmistautua, ja hän saa olla edustettuna koko näytön ajan; osien 2, 3 ja 4 rikkomisissa edustajan pitää olla ollut veneessä tapahtuman aikaan, ellei lautakunta hyvästä syystä päätä muuta. Poissaolevasta huolimatta tutkinta voi jatkua. 63.2: jokainen protesti ja pyyntö käsitellään, ellei lautakunta salli peruuttamista. Samaa tai läheisesti liittyviä tapahtumia koskevat tutkinnat voi yhdistää, mutta säännön 69 tutkintaa ei. Pätevyysvaatimusten täyttyessä tapauksen tyyppiä voi muuttaa. Jos lautakunta päättää protestoida tutkinnassa paljastunutta venettä (60.4(c)(2)), se päättää tutkinnan, jättää protestin ja käsittelee molemmat yhdessä. 63.3: eturistiriita ilmoitetaan heti, kun siitä tietää, ja asianosainen vastustaa heti. Eturistiriitainen jäsen ei osallistu, elleivät kaikki asianosaiset suostu tai lautakunta päätä ristiriidan olevan vähäinen; World Sailingin suurtapahtumissa tai kansallisen järjestön niin määrätessä hän ei osallistu koskaan. Merkittävyyttä arvioitaessa huomioidaan asianosaisten näkemykset, ristiriidan aste, kilpailun taso, merkitys kullekin asianosaiselle ja yleinen oikeudenmukaisuuden vaikutelma. 63.4: ensin tutkitaan pätevyys; tutkinta päättyy, jos protesti tai pyyntö on pätemätön. Näyttöä otetaan asianosaisilta, todistajilta ja muualta tarpeen mukaan, kuulopuhe sallitaan, ja asianosainen voi kysyä todistajilta. Tapahtuman nähnyt lautakunnan jäsen kertoo siitä. Todistaja on paikalla vain todistaessaan, ellei hän ole asianosainen tai lautakunnan jäsen. 63.5: tosiasiat todetaan todennäköisyyspunninnalla, ellei sääntö vaadi muuta, ja niihin sovelletaan sääntöjä. Päätökset tehdään yksinkertaisella enemmistöllä. Kilpailukutsun, purjehdusohjeiden tai muiden asiakirjojen ristiriitaisista säännöistä valitaan oikeudenmukaisin. Luokkasäännön merkityksestä kysytään tulkinnasta vastaavalta taholta, jonka vastaus sitoo. 63.6: asianosaisille ilmoitetaan tosiasiat, säännöt, päätös perusteluineen sekä rangaistukset ja hyvitykset; kirjallisena seitsemän vuorokauden kuluessa pyydettäessä. 63.7: tutkinta voidaan avata uudelleen, jos asianosainen ei voinut välttää poissaoloa, lautakunta on voinut tehdä merkittävän virheen tai merkittävää uutta näyttöä on tullut kohtuullisessa ajassa; pyyntö 24 tunnin kuluessa, viimeisenä päivänä protestiajan kuluessa (jos päätöksestä ilmoitettiin edellisenä päivänä) tai 30 minuutin kuluessa (jos samana päivänä).",
+      "en": "63.1: each party is told the time and place, is given the protest, request or report, has reasonable time to prepare, and may have a representative present while all evidence is taken; for breaches of Parts 2, 3 and 4 the representative must have been on board at the time, unless the committee decides otherwise for good reason. A hearing may proceed without an absent party. 63.2: every protest and request is heard unless withdrawal is allowed. Hearings about the same or closely related incidents may be combined, but a rule 69 hearing may not. If validity is met, the type of case may be changed. If the committee decides to protest a boat revealed in a hearing (60.4(c)(2)), it closes the hearing, lodges the protest and hears both together. 63.3: a conflict of interest is declared as soon as known, and a party objects as soon as possible. A conflicted member does not take part unless all parties consent or the committee decides the conflict is not significant; at World Sailing major events, or where the national authority prescribes, such a person never takes part. Significance is weighed by the parties' views, the degree of conflict, the level of the event, the importance to each party and the overall perception of fairness. 63.4: validity is decided first; the hearing closes if the protest or request is invalid. Evidence is taken from the parties, witnesses and other sources as needed, hearsay is admitted, and a party may question witnesses. A member who saw the incident says so. A witness is present only while giving evidence, unless also a party or a committee member. 63.5: facts are found on the balance of probabilities unless a rule requires otherwise, and the rules are applied to them. Decisions are by simple majority. Between conflicting rules in the notice of race, sailing instructions or other documents, the fairest is applied. Questions on the meaning of a class rule go to the authority responsible, whose reply binds. 63.6: parties are told the facts, the rules, the decision with its grounds, and penalties and redress; in writing on request within seven days. 63.7: a hearing may be reopened if a party could not avoid being absent, the committee may have made a significant error, or significant new evidence became available within a reasonable time; the request is due within 24 hours, or on the last day within the protest time limit (if told the previous day) or within 30 minutes (if told that day)."
+    },
+    "note": {
+      "fi": "Käännösero: englanninkielinen 63.5(b) sanoo, että tasatilanteessa puheenjohtaja voi antaa lisä-äänen (\"may cast an additional vote\"); suomen- ja ruotsinkielinen teksti antaa puheenjohtajalle ratkaisevan äänen. Englanninkielinen teksti on auktoriteetti. Liite M antaa käytännön ohjeet tutkinnan kulusta. Liitteet B, E ja F muuttavat sääntöä 63 (mm. karsintasarjoissa suulliset protestit, liitteessä E todistajan pitää olla ollut ohjausalueella).",
+      "en": "Translation difference: English 63.5(b) says that when there is a tie the chair 'may cast an additional vote'; the Finnish and Swedish texts give the chair the deciding vote. The English text is the authority. Appendix M gives practical guidance on running a hearing. Appendices B, E and F change rule 63 (e.g. oral protests in elimination series; in Appendix E a witness must have been in the control area)."
+    },
+    "source": "RRS 63, definitions Party and Conflict of Interest, Appendices B5, C9, E6.7–E6.8, F5, M; Case 48, 104, 115, 137",
+    "defs": [
+      "Party",
+      "Conflict of Interest",
+      "Protest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Protesti ratkaistaan tämän säännön mukaisessa tutkinnassa (60.5(a)).",
+          "en": "A protest is decided in a hearing under this rule (60.5(a))."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Hyvityskin ratkaistaan tutkinnassa (61.4(a)).",
+          "en": "Redress is also decided in a hearing (61.4(a))."
+        }
+      },
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Muutosta voi hakea päätöksestä tai menettelystä, mutta ei todetuista tosiasioista (70.1).",
+          "en": "A decision or procedure can be appealed, but not the facts found (70.1)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 48,
+        "title": {
+          "fi": "Valmistautuminen omalla vastuulla",
+          "en": "Preparing is your own job"
+        },
+        "text": {
+          "fi": "X protestoi Y:tä. Tutkinnan aika oli ilmoitustaululla, protesti oli ollut kilpailutoimistossa luettavana yli tunnin, ja X:n edustaja oli kertonut siitä Y:n edustajalle. Y:n edustaja ei valmistautunut, ja hänet haettiin ruokasalista, kun lautakunta, vastapuoli ja todistajat odottivat. Hän sai lukea protestin vasta tutkinnassa. Y hylättiin ja haki muutosta: hänen mukaansa kohtaa 63.1(a) rikottiin.",
+          "en": "X protested Y. The hearing time was on the notice board, the protest had been available in the race office for over an hour, and X's representative had told Y's. Y's representative did not prepare and had to be fetched from the dining room while the committee, the other party and the witnesses waited. He read the protest only in the hearing. Y was disqualified and appealed, claiming a breach of 63.1(a)."
+        },
+        "answer": {
+          "fi": "Muutoshakemus hylättiin. Osa 5 suojaa venettä epäreilulta kohtelulta, mutta ei tarjoa porsaanreikiä. Y:n edustaja tiesi protestista, ja hänen piti itse hakea protesti luettavaksi ja käyttää aikaa valmistautumiseen.",
+          "en": "The appeal was dismissed. Part 5 protects a boat from unfair treatment but does not offer loopholes. Y's representative knew of the protest and had to seek it out, read it and use the time to prepare."
+        },
+        "also": [],
+        "source": "Case 48"
+      },
+      {
+        "case": 137,
+        "title": {
+          "fi": "Vanhempi lautakunnassa",
+          "en": "A parent on the committee"
+        },
+        "text": {
+          "fi": "Protestilautakunnan jäsen ilmoittaa eturistiriidasta, ja yksi asianosaisista ei hyväksy hänen jatkamistaan. Miten lautakunta ratkaisee, onko ristiriita merkittävä?",
+          "en": "A protest committee member declares a conflict of interest, and one party does not consent to the member staying on. How does the committee decide whether the conflict is significant?"
+        },
+        "answer": {
+          "fi": "Asianomainen jäsen ei ole läsnä päätöstä tehtäessä. Muut arvioivat ristiriidan asteen: vanhempi ja lapsi tai työnantaja ja työntekijä ovat lähes varmasti vahva ristiriita, kaukaisemmat suhteet heikompia. Kilpailun taso vaikuttaa: pienessä kilpailussa ristiriidattomia jäseniä ei aina löydy, ja ristiriitoja voi tasapainottaa. Lisäksi arvioidaan, palveleeko oikeudenmukaisuuden vaikutelmaa paremmin suurempi lautakunta vai jäsenen poisjättäminen, ja otetaan huomioon asianosaisten näkemysten voimakkuus (63.3(d)).",
+          "en": "The member concerned is not present for the decision. The others assess the degree of conflict: parent and child or employer and employee are almost certainly a high degree, more distant relations less. The level of the event matters: at a small event unconflicted members may not be available, and conflicts can be balanced. The committee also asks whether fairness is better served by a larger panel or by leaving the member out, and weighs how strongly the parties feel (63.3(d))."
+        },
+        "also": [],
+        "source": "Case 137"
+      },
+      {
+        "case": 115,
+        "title": {
+          "fi": "Mikä on uutta näyttöä?",
+          "en": "What is new evidence?"
+        },
+        "text": {
+          "fi": "Asianosainen pyytää tutkinnan uudelleenavaamista, koska hänellä on nyt valokuva, jota ei ollut alkuperäisessä tutkinnassa. Milloin näyttö on \"uutta\" kohdan 63.7(a)(3) mielessä?",
+          "en": "A party asks for a reopening because she now has a photograph that was not in the original hearing. When is evidence 'new' under 63.7(a)(3)?"
+        },
+        "answer": {
+          "fi": "Näyttö on uutta, jos pyytäjä ei kohtuudella olisi voinut löytää sitä ennen tutkintaa, jos lautakunta on vakuuttunut, että pyytäjä etsi sitä huolellisesti mutta tuloksetta, tai jos lautakunta saa mistä tahansa tiedon, ettei näyttö ollut asianosaisten saatavilla tutkinnan aikaan. Pelkkä myöhemmin esiin kaivettu kuva ei riitä, jos sen olisi saanut ajoissa.",
+          "en": "Evidence is new if the requester could not reasonably have found it before the hearing, if the committee is satisfied it was diligently but unsuccessfully sought, or if the committee learns from any source that it was not available to the parties at the time. A photo dug out later is not enough if it could have been had in time."
+        },
+        "also": [],
+        "source": "Case 115"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r63-q1",
+        "prompt": {
+          "fi": "Protestissa on kyse säännön 11 rikkomisesta. Saako veneen edustajana tutkinnassa olla valmentaja, joka seurasi rannalta?",
+          "en": "The protest alleges a breach of rule 11. May the boat be represented by a coach who watched from shore?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei tavallisesti: osien 2–4 rikkomisissa edustajan pitää olla ollut veneessä, ellei lautakunta hyvästä syystä päätä muuta",
+              "en": "Not normally: for Parts 2–4 the representative must have been on board, unless the committee decides otherwise for good reason"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kuka tahansa saa edustaa",
+              "en": "Yes, anyone may represent"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.1(a)(4). Valmentaja voi silti olla todistaja.",
+          "en": "Rule 63.1(a)(4). The coach may still be a witness."
+        },
+        "source": "RRS 63.1(a)(4)",
+        "also": []
+      },
+      {
+        "id": "r63-q2",
+        "prompt": {
+          "fi": "Mitä protestilautakunta tutkii ensimmäiseksi?",
+          "en": "What does the protest committee decide first?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Protestin tai pyynnön pätevyyden",
+              "en": "Whether the protest or request is valid"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpi vene oli kulkuun oikeutettu",
+              "en": "Which boat had right of way"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rangaistuksen",
+              "en": "The penalty"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.4(a): ensin pätevyys; tutkinta päättyy, jos protesti tai pyyntö on pätemätön.",
+          "en": "Rule 63.4(a): validity first; the hearing closes if the protest or request is invalid."
+        },
+        "source": "RRS 63.4(a)",
+        "also": []
+      },
+      {
+        "id": "r63-q3",
+        "prompt": {
+          "fi": "Onko kuulopuhe sallittua näyttöä tutkinnassa?",
+          "en": "Is hearsay admissible in a hearing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, mutta lautakunta päättää, kuinka paljon painoa sille annetaan",
+              "en": "Yes, but the committee decides how much weight to give it"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.4(b) sallii kuulopuheen; 63.5(a): lautakunta punnitsee näytön painon.",
+          "en": "Rule 63.4(b) admits hearsay; 63.5(a): the committee weighs the evidence."
+        },
+        "source": "RRS 63.4(b), 63.5(a)",
+        "also": []
+      },
+      {
+        "id": "r63-q4",
+        "prompt": {
+          "fi": "Millä näytön tasolla tavallisessa protestitutkinnassa todetaan tosiasiat?",
+          "en": "On what standard are facts found in an ordinary protest hearing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Todennäköisyyspunninnalla: mikä on todennäköisempää kuin ei",
+              "en": "On the balance of probabilities: what is more likely than not"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ilman kohtuullista epäilystä",
+              "en": "Beyond reasonable doubt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.5(a), ellei sovellettava sääntö vaadi muuta (esim. 69.2(g)).",
+          "en": "Rule 63.5(a), unless an applicable rule requires otherwise (e.g. 69.2(g))."
+        },
+        "source": "RRS 63.5(a)",
+        "also": [
+          "69"
+        ]
+      },
+      {
+        "id": "r63-q5",
+        "prompt": {
+          "fi": "Protestilautakunnan jäsen näki itse tapahtuman. Mitä hänen pitää tehdä?",
+          "en": "A protest committee member saw the incident. What must she do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kertoa siitä asianosaisille tutkinnassa niin pian kuin mahdollista",
+              "en": "Tell the parties at the hearing as soon as possible"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jäävätä itsensä aina",
+              "en": "Always step down"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pitää havainto omana tietonaan",
+              "en": "Keep it to herself"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.4(d). Todistajista poiketen lautakunnan jäsen saa olla läsnä koko tutkinnan ajan (63.4(e)).",
+          "en": "Rule 63.4(d). As a committee member she need not leave like a witness (63.4(e))."
+        },
+        "source": "RRS 63.4(d), 63.4(e)",
+        "also": []
+      },
+      {
+        "id": "r63-q6",
+        "prompt": {
+          "fi": "Sait päätöksen tiedoksi kilpailun toiseksi viimeisenä päivänä klo 18. Viimeisenä päivänä huomaat uutta näyttöä. Mihin mennessä uudelleenavaamista pitää pyytää?",
+          "en": "You were told of a decision at 18:00 on the second-to-last day. On the last day you find new evidence. By when must you ask for a reopening?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Viimeisen päivän protestiajan kuluessa",
+              "en": "Within the protest time limit on the last day"
+            }
+          },
+          {
+            "t": {
+              "fi": "24 tunnin kuluessa eli seuraavana päivänä klo 18",
+              "en": "Within 24 hours, i.e. 18:00 the next day"
+            }
+          },
+          {
+            "t": {
+              "fi": "30 minuutin kuluessa uuden näytön löytymisestä",
+              "en": "Within 30 minutes of finding the evidence"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.7(b)(1): viimeisenä aikataulun mukaisena kilpailupäivänä pyyntö jätetään protestiajan kuluessa, jos päätöksestä ilmoitettiin edellisenä päivänä.",
+          "en": "Rule 63.7(b)(1): on the last scheduled day, the request is delivered within the protest time limit if the party was told the previous day."
+        },
+        "source": "RRS 63.7(b)",
+        "also": []
+      },
+      {
+        "id": "r63-q7",
+        "prompt": {
+          "fi": "Kuinka nopeasti asianosaisen pitää pyytää päätös kirjallisena?",
+          "en": "How soon must a party ask for the decision in writing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Seitsemän vuorokauden kuluessa päätöksestä ilmoittamisesta",
+              "en": "Within seven days of being informed of the decision"
+            }
+          },
+          {
+            "t": {
+              "fi": "30 minuutin kuluessa",
+              "en": "Within 30 minutes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ennen palkintojenjakoa",
+              "en": "Before the prize-giving"
+            }
+          }
+        ],
+        "why": {
+          "fi": "63.6(b).",
+          "en": "Rule 63.6(b)."
+        },
+        "source": "RRS 63.6(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "section": "5",
+    "title": {
+      "fi": "Harkinnanvaraiset rangaistukset",
+      "sv": "Proportionerliga straff",
+      "en": "Discretionary Penalties"
+    },
+    "explain": {
+      "fi": "Kun vene ilmoittaa protestiajan kuluessa rikkoneensa sääntöä, josta voi antaa harkinnanvaraisen rangaistuksen, protestilautakunta päättää sopivan rangaistuksen harkitsemansa näytön perusteella. Tutkintaa ei tarvita. Harkinnanvarainen rangaistus on merkitty sääntöihin merkinnällä [DP]: rangaistus voi olla lievempi kuin hylkääminen. Säännön tarkoitus on antaa veneelle tapa toimia urheiluhengen mukaisesti ja ilmoittaa itse rikkeestään (liite M5). Tuloslyhenne on DPI.",
+      "en": "When a boat reports within the protest time limit that she has broken a rule subject to a discretionary penalty, the protest committee decides the appropriate penalty after considering the evidence it thinks fit. No hearing is required. Such rules are marked [DP]: the penalty may be less than disqualification. The rule gives a boat a way to act in the spirit of sportsmanship by reporting her own breach (Appendix M5). The scoring abbreviation is DPI."
+    },
+    "note": {
+      "fi": "Jos ilmoituksessa ei ole tarpeeksi tietoa, lautakunta voi kysyä veneen edustajalta ja todistajilta (M5). World Sailingin verkkosivuilla on ohjeet harkinnanvaraisista rangaistuksista.",
+      "en": "If the report lacks enough facts, the committee may question the boat's representative and witnesses (M5). World Sailing publishes guidelines for discretionary penalties on its website."
+    },
+    "source": "RRS 64, Introduction (Notation [DP]), Appendices A10, M5; Case 138",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "2"
+        ],
+        "note": {
+          "fi": "Rikkeen itse ilmoittaminen on urheiluhengen mukaista; jos vene tietää rikkoneensa eikä ota rangaistusta, se rikkoo urheiluhengen periaatetta (Case 138).",
+          "en": "Reporting one's own breach is sportsmanlike; a boat that knows she broke a rule and takes no penalty breaks the principle of sportsmanship (Case 138)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r64-q1",
+        "prompt": {
+          "fi": "Huomaat maissa rikkoneesi [DP]-merkittyä sääntöä. Mitä voit tehdä?",
+          "en": "Ashore you realize you broke a rule marked [DP]. What can you do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ilmoittaa siitä protestiajan kuluessa, jolloin lautakunta päättää rangaistuksen ilman tutkintaa",
+              "en": "Report it within the protest time limit, and the committee decides the penalty without a hearing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, ennen kuin joku protestoi",
+              "en": "Nothing until someone protests"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 64.",
+          "en": "Rule 64."
+        },
+        "source": "RRS 64",
+        "also": []
+      },
+      {
+        "id": "r64-q2",
+        "prompt": {
+          "fi": "Mitä [DP] tarkoittaa säännön perässä?",
+          "en": "What does [DP] after a rule mean?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Rangaistus voi lautakunnan harkinnan mukaan olla lievempi kuin hylkääminen",
+              "en": "The penalty may, at the committee's discretion, be less than disqualification"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sääntöä ei voi rikkoa",
+              "en": "The rule cannot be broken"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rangaistus on aina kaksi kierrosta",
+              "en": "The penalty is always two turns"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Johdanto, merkintä [DP].",
+          "en": "Introduction, Notation [DP]."
+        },
+        "source": "RRS Introduction",
+        "also": []
+      },
+      {
+        "id": "r64-q3",
+        "prompt": {
+          "fi": "Tarvitaanko säännön 64 mukaisessa menettelyssä tutkintaa?",
+          "en": "Is a hearing needed under rule 64?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always"
+            }
+          }
+        ],
+        "why": {
+          "fi": "64: \"There is no requirement to hold a hearing.\" Lautakunta voi silti kysyä veneeltä ja todistajilta (M5).",
+          "en": "Rule 64: no hearing is required. The committee may still question the boat and witnesses (M5)."
+        },
+        "source": "RRS 64; Appendix M5",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 65,
+    "section": "5",
+    "title": {
+      "fi": "Juridinen vastuu ja kulut",
+      "sv": "Rättsligt ansvar och kostnader",
+      "en": "Legal Liability and Costs"
+    },
+    "explain": {
+      "fi": "65.1: sääntöjen rikkomisesta syntyvät juridiset vastuukysymykset, myös vahingonkorvausvaatimukset, ratkaistaan kansallisen järjestön määräysten mukaan, jos sellaisia on. 65.2: luokkasääntöön liittyvästä protestista syntyvät mittauskulut maksaa hävinnyt asianosainen, ellei protestilautakunta päätä toisin. Sääntöjä 66–68 ei ole.",
+      "en": "65.1: questions of legal liability arising from a breach of the rules, including claims for damages, are governed by the national authority's prescriptions, if any. 65.2: measurement costs arising from a protest involving a class rule are paid by the losing party, unless the protest committee decides otherwise. There are no rules 66–68."
+    },
+    "note": {
+      "fi": "Protestilautakunta ei ratkaise korvauksia; se toteaa vain sääntöjen rikkomisen. (Päätelmä säännön 65.1 sanamuodosta.) Suomen kansallisia määräyksiä ei ole tarkistettu tähän.",
+      "en": "The protest committee does not decide compensation; it only finds whether rules were broken. (Inferred from the wording of 65.1.) Finnish national prescriptions have not been checked here."
+    },
+    "source": "RRS 65",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "3"
+        ],
+        "note": {
+          "fi": "Kilpailemaan lähtemisen päätös on veneen omalla vastuulla (3).",
+          "en": "The decision to race is the boat's own responsibility (3)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r65-q1",
+        "prompt": {
+          "fi": "Törmäyksen jälkeen vene vaatii protestitutkinnassa korjauskulujen korvaamista. Mitä sääntöjen mukaan tapahtuu?",
+          "en": "After a collision a boat asks the protest hearing to award repair costs. What do the rules say?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Korvausvaatimukset ratkaistaan kansallisen järjestön määräysten mukaan, jos niitä on",
+              "en": "Damage claims are governed by the national authority's prescriptions, if any"
+            }
+          },
+          {
+            "t": {
+              "fi": "Protestilautakunta määrää korvauksen",
+              "en": "The protest committee orders compensation"
+            }
+          }
+        ],
+        "why": {
+          "fi": "65.1.",
+          "en": "Rule 65.1."
+        },
+        "source": "RRS 65.1",
+        "also": []
+      },
+      {
+        "id": "r65-q2",
+        "prompt": {
+          "fi": "Protesti luokkasäännön rikkomisesta hylätään, kun mittaus osoittaa veneen olevan sääntöjen mukainen. Kuka maksaa mittauskulut?",
+          "en": "A class rule protest is dismissed when measurement shows the boat complies. Who pays the measurement costs?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Protestoija hävinneenä asianosaisena, ellei lautakunta päätä toisin",
+              "en": "The protestor as the losing party, unless the committee decides otherwise"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailun järjestäjä",
+              "en": "The organizing authority"
+            }
+          },
+          {
+            "t": {
+              "fi": "Mitattu vene",
+              "en": "The measured boat"
+            }
+          }
+        ],
+        "why": {
+          "fi": "65.2.",
+          "en": "Rule 65.2."
+        },
+        "source": "RRS 65.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 69,
+    "section": "5",
+    "title": {
+      "fi": "Sopimaton käytös",
+      "sv": "Olämpligt beteende",
+      "en": "Misconduct"
+    },
+    "explain": {
+      "fi": "69.1: kilpailija, veneen omistaja tai tukihenkilö ei saa käyttäytyä sopimattomasti. Sopimatonta käytöstä on hyvien tapojen tai urheiluhengen rikkominen tai epäeettinen käytös sekä käytös, joka saattaa tai voi saattaa lajin huonoon maineeseen. Väitteet käsitellään säännön 69 mukaan, eivät protestina. 69.2: lautakunnassa on vähintään kolme jäsentä. Kun lautakunta omien havaintojensa tai mistä tahansa saadun tiedon perusteella uskoo, että sääntöä 69.1(a) on voitu rikkoa, sen pitää päättää, järjestääkö se tutkinnan; tarvittaessa se harkitsee tutkijan nimeämistä, joka ei saa olla lautakunnan jäsen ja jonka koko aineisto (puoltava ja vastustava) annetaan lautakunnalle ja asianosaisille. Asianomaiselle ilmoitetaan kirjallisesti väite sekä tutkinnan aika ja paikka; hänellä on oikeus neuvonantajaan ja edustajaan. Jos hän esittää hyvän syyn poissaololle, tutkinta siirretään; muuten se voidaan pitää ilman häntä. Näytön taso: lautakunnan pitää olla tyytyväinen näyttöön suhteessa väitteen vakavuuteen (englanniksi \"comfortable satisfaction\"). Kilpailijalle tai omistajalle lautakunta voi antaa varoituksen, muuttaa veneen pisteitä yhdessä tai useammassa kilpapurjehduksessa (myös hylkäys, joka ei ole tai on vähennettävissä), sulkea pois kilpailusta tai kilpailupaikalta tai poistaa etuoikeuksia, tai ryhtyä muuhun toimeen; tukihenkilöön sovelletaan sääntöjä 62.3 ja 62.4. Jos rangaistus on suurempi kuin yksi DNE, henkilö suljetaan pois tai lautakunta katsoo sen aiheelliseksi, se ilmoittaa asiasta henkilön kansalliselle järjestölle tai tietyissä kansainvälisissä kilpailuissa World Sailingille. 69.3: kansallisen järjestön ja World Sailingin toimivalta on World Sailingin eettisessä säännöstössä (Code of Ethics), ja ne voivat antaa lisärangaistuksia, myös kilpailukiellon.",
+      "en": "69.1: a competitor, boat owner or support person shall not commit an act of misconduct: a breach of good manners or sportsmanship, unethical behaviour, or conduct that brings or may bring the sport into disrepute. Allegations are resolved under rule 69, not by protest. 69.2: the committee has at least three members. When, from its own observation or information from any source, it believes rule 69.1(a) may have been broken, it shall decide whether to call a hearing; if needed it considers appointing an investigator, who may not be a committee member and whose full findings (favourable and unfavourable) go to the committee and the parties. The person is told in writing of the allegation and the time and place, and may bring an advisor and a representative. If the person gives good reason for absence, the hearing is rescheduled; otherwise it may proceed without them. Standard of proof: the comfortable satisfaction of the committee, bearing in mind the seriousness of the alleged misconduct. For a competitor or owner the committee may warn, change the boat's score in one or more races (including excludable or non-excludable disqualification), exclude from the event or venue or remove privileges, or take other action; for a support person rules 62.3 and 62.4 apply. If the penalty is greater than one DNE, the person is excluded, or the committee finds it appropriate, it reports to the person's national authority or, at certain international events, World Sailing. 69.3: the powers of national authorities and World Sailing are in the World Sailing Code of Ethics, and they may impose further penalties, including suspension."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöä 69 (86.1). Säännön 69 rikkomisesta ei voi protestoida (60.4(a)(3)), eikä tutkintaa yhdistetä muihin (63.2(b)). Näytön taso on tiukempi kuin todennäköisyyspunninta (63.5(a)) mutta lievempi kuin \"ilman kohtuullista epäilystä\" (Case 122). Kansallinen järjestö voi World Sailingin luvalla muuttaa näytön tasoa, jos se on ristiriidassa maan lain kanssa (69.2(g)). Säännön 2 ja 69 raja: kilpailuun suoraan vaikuttava teko käsitellään yleensä sääntönä 2, muu sopimaton käytös säännön 69 mukaan; joskus molemmat (Case 138). Liitteet M6 ja N4 antavat menettelyohjeita.",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 69 (86.1). A breach of rule 69 cannot be protested (60.4(a)(3)), and the hearing is not combined with others (63.2(b)). The standard of proof is stricter than the balance of probabilities (63.5(a)) but less strict than beyond reasonable doubt (Case 122). A national authority may, with World Sailing's approval, change the standard if it conflicts with national law (69.2(g)). The line between rules 2 and 69: an act directly affecting the competition is usually a rule 2 matter, other misconduct a rule 69 matter; sometimes both (Case 138). Appendices M6 and N4 give procedural guidance."
+    },
+    "source": "RRS 69, 60.4(a)(3), 63.2(b), 63.5(a), Appendices M6, N4; Case 34, 67, 122, 138, 139",
+    "defs": [
+      "Support Person",
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "2"
+        ],
+        "note": {
+          "fi": "Kilpailuun suoraan vaikuttava epäreilu teko käsitellään yleensä sääntönä 2, muu sopimaton käytös säännön 69 mukaan (Case 138).",
+          "en": "An unfair act directly affecting the competition is usually a rule 2 matter, other misconduct a rule 69 matter (Case 138)."
+        }
+      },
+      {
+        "rules": [
+          "62"
+        ],
+        "note": {
+          "fi": "Tukihenkilön sopimattomaan käytökseen sovelletaan sääntöjä 62.3 ja 62.4 (69.2(i)).",
+          "en": "For misconduct by a support person, rules 62.3 and 62.4 apply (69.2(i))."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Säännön 69 perusteella rangaistu tai varoitettu teko voi oikeuttaa toisen veneen hyvitykseen (61.4(b)(5)).",
+          "en": "An act penalized or warned under rule 69 may entitle another boat to redress (61.4(b)(5))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 34,
+        "title": {
+          "fi": "Kilpailija, joka jäi radalle vain haitatakseen",
+          "en": "A boat that stayed only to hinder"
+        },
+        "text": {
+          "fi": "Mestaruussarjan viimeisessä lähdössä A saattoi menettää palkinnon vain, jos B tulisi kolmen parhaan joukkoon A:n edelle. A lähti varaslähtöön ja kutsuttiin takaisin. Palatessaan se kohtasi oikein lähteneen B:n, kääntyi ja peitti tätä tiiviisti koko vastatuuliosuuden ajan, vaikka kilpailulautakunta huusi uudelleen, että A oli yhä linjan yläpuolella. Ylämerkillä A keskeytti; B tuli lopulta 22:nneksi. Kilpailulautakunta protestoi A:ta säännön 2 perusteella, ja A sai DNE:n.",
+          "en": "In the last race of a championship A could lose the prize only if B finished in the top three ahead of her. A started early and was recalled. Returning, she met B, which had started correctly, turned and covered her closely the whole windward leg, though the race committee hailed again that A was still over the line. At the windward mark A retired; B finished 22nd. The race committee protested A under rule 2, and A was scored DNE."
+        },
+        "answer": {
+          "fi": "Päätös pysyi. A tiesi, ettei ollut lähtenyt oikein, ja jatkoi vain haitatakseen B:tä, mikä rikkoo urheiluhenkeä ja sääntöä 2. B olisi voinut saada hyvitystä kohdan 61.4(b)(5) perusteella. Lautakunta olisi voinut myös järjestää tutkinnan säännön 69 mukaan ja esimerkiksi hylätä A:n koko sarjasta. Jos A olisi palannut, lähtenyt oikein ja sitten sääntöjä rikkomatta ohittanut B:n ja peittänyt sitä, sääntöä 2 ei olisi rikottu.",
+          "en": "The decision stood. A knew she had not started correctly and continued only to hinder B, a breach of sportsmanship and rule 2. B could have been given redress under 61.4(b)(5). The committee could also have called a rule 69 hearing and, for example, disqualified A from the whole series. Had A returned, started correctly and then, without breaking a rule, passed and covered B, rule 2 would not have been broken."
+        },
+        "also": [
+          "2",
+          "61"
+        ],
+        "source": "Case 34"
+      },
+      {
+        "case": 67,
+        "title": {
+          "fi": "Tahallinen törmäys ulkopuoliseen veneeseen",
+          "en": "Deliberately hitting a boat not racing"
+        },
+        "text": {
+          "fi": "Kilpaileva W oli meriteiden sääntöjen mukaan velvollinen väistämään suojan puolella purjehtivaa L:ää, joka ei kilpaillut. W halusi purjehtia alempaa, huusi L:lle, ja kun L ei reagoinut, W tönäisi puomillaan L:ää useita kertoja ja aiheutti vahinkoa. Kilpailulautakunta protestoi, ja W hylättiin sääntöjen 11 ja 14 perusteella. W haki muutosta: kilpailusääntöjä ei sen mukaan sovellettu.",
+          "en": "W, racing, was required under the collision regulations to keep clear of L, a sailing vessel to leeward that was not racing. W wanted to sail lower, hailed L, and when L did not respond, W bumped L several times with her boom, causing damage. The race committee protested, and W was disqualified under rules 11 and 14. W appealed, saying the racing rules did not apply."
+        },
+        "answer": {
+          "fi": "Muutoshakemus hylättiin, mutta peruste korjattiin: W hylättiin sovellettavien meriteiden sääntöjen eikä sääntöjen 11 ja 14 perusteella, koska osa 2 koskee vain veneitä, jotka kaikki kilpailevat tai aikovat kilpailla (osan 2 johdanto). Muut kilpailusäännöt koskivat W:tä. Tahallinen törmäys oli peränpitäjän sopimatonta käytöstä (69.1(b)), ja lautakunnan olisi ollut aiheellista järjestää tutkinta säännön 69 mukaan.",
+          "en": "The appeal was dismissed, but the basis was corrected: W was disqualified under the applicable collision regulations, not rules 11 and 14, because Part 2 applies only between boats that are all racing or intending to race (Part 2 preamble). The other racing rules did apply to W. The deliberate hitting was misconduct by her helmsman (69.1(b)), and a rule 69 hearing would have been appropriate."
+        },
+        "also": [
+          "56"
+        ],
+        "source": "Case 67"
+      },
+      {
+        "case": 122,
+        "title": {
+          "fi": "Kadonnut korjauspaino",
+          "en": "The missing corrector weight"
+        },
+        "text": {
+          "fi": "Veneen korjauspaino oli mittauksessa ruuvattu lattialaudan alle. Kilpailun aikana tehdyssä tarkastuksessa paino puuttui. Vene hylättiin teknisen lautakunnan protestin perusteella (78.1 ja 2), minkä jälkeen protestilautakunta järjesti säännön 69 tutkinnan. Peränpitäjä ja miehistö kiistivät tietävänsä asiasta: vene oli öisin lukitsematta. Painon irrottaminen vaati työkaluja ja toi etua, eikä sitä olisi helposti huomattu. Millä näytön tasolla lautakunta ratkaisee?",
+          "en": "A boat's corrector weight had been screwed under a floorboard at measurement. In a spot check during the event it was missing. The boat was disqualified on the technical committee's protest (78.1 and 2), after which the protest committee called a rule 69 hearing. The helmsman and crew denied knowledge: the boat was left unlocked at night. Removing the weight needed tools and gave an advantage, and it was unlikely to be noticed. On what standard does the committee decide?"
+        },
+        "answer": {
+          "fi": "Lautakunnan pitää olla tyytyväinen näyttöön suhteessa väitteen vakavuuteen (69.2(g)). Taso on tiukempi kuin todennäköisyyspunninta mutta lievempi kuin \"ilman kohtuullista epäilystä\", ja mitä vakavampi väite, sitä vahvempaa näyttöä tarvitaan; henkilöä pidetään syyttömänä, kunnes väite on näytetty. Lautakunnan pitää olla tyytyväinen sekä siihen, että teko tapahtui, että siihen, että se oli riittävän vakava. Koska lähes kaikki näyttö puolsi väitettä, lautakunta oli tyytyväinen ja vene sai DNE:n kaikista kilpailun lähdöistä. Ilman kohtuullista epäilystä -tasolla tulos olisi voinut olla toinen, koska joku muu olisi periaatteessa voinut irrottaa painon.",
+          "en": "The committee must be comfortably satisfied, bearing in mind the seriousness of the allegation (69.2(g)). The standard is stricter than the balance of probabilities but less strict than beyond reasonable doubt, and the more serious the allegation, the stronger the evidence needed; the person is presumed innocent until it is proven. The committee must be satisfied both that the act occurred and that it was serious enough. As nearly all the evidence supported the allegation, the committee was satisfied and the boat was scored DNE in all races. On a beyond-reasonable-doubt standard the outcome might have differed, since someone else could in principle have removed the weight."
+        },
+        "also": [
+          "63"
+        ],
+        "source": "Case 122"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r69-q1",
+        "prompt": {
+          "fi": "Kilpailija haluaa protestoida toista kilpailijaa, joka kiroili hänelle rannalla. Onko protesti pätevä?",
+          "en": "A competitor wants to protest another competitor who swore at him ashore. Is the protest valid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: säännön 69 rikkomisesta ei voi protestoida, mutta ilmoituksen voi antaa protestilautakunnalle",
+              "en": "No: a breach of rule 69 cannot be protested, but a report can be made to the protest committee"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "69.1(c) ja 60.4(a)(3). Lautakunta päättää itse, järjestääkö tutkinnan (69.2(b)).",
+          "en": "Rules 69.1(c) and 60.4(a)(3). The committee decides itself whether to call a hearing (69.2(b))."
+        },
+        "source": "RRS 69.1(c), 60.4(a)(3), 69.2(b)",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "r69-q2",
+        "prompt": {
+          "fi": "Montako jäsentä protestilautakunnassa pitää olla säännön 69 tutkinnassa?",
+          "en": "How many members must the protest committee have for a rule 69 hearing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vähintään kolme",
+              "en": "At least three"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yksi riittää",
+              "en": "One is enough"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vähintään viisi",
+              "en": "At least five"
+            }
+          }
+        ],
+        "why": {
+          "fi": "69.2(a).",
+          "en": "Rule 69.2(a)."
+        },
+        "source": "RRS 69.2(a)",
+        "also": []
+      },
+      {
+        "id": "r69-q3",
+        "prompt": {
+          "fi": "Paapuurin halssin vene arvioi risteämisen väärin eikä pysy loitolla. Onko se sopimatonta käytöstä?",
+          "en": "A port-tack boat misjudges a crossing and fails to keep clear. Is that misconduct?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, väärä arvio ei ole sopimatonta käytöstä, mutta rikkeen huomattuaan veneen pitää ottaa rangaistus",
+              "en": "No, a misjudgment is not misconduct, but once aware of the breach the boat must take a penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jokainen tahallinen tai tahaton rike on sopimatonta käytöstä",
+              "en": "Yes, every breach is misconduct"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 138: tarvitaan näyttöä siitä, että vene tiesi tai sen olisi pitänyt tietää, ettei se ehdi, ja yritti silti. Jos vene ei ota rangaistusta tietäen rikkoneensa, se rikkoo urheiluhengen periaatetta.",
+          "en": "Case 138: there must be evidence that the boat knew or should have known she would not make it and tried anyway. If she knowingly takes no penalty, she breaks the principle of sportsmanship."
+        },
+        "source": "Case 138; RRS 69, 2",
+        "also": [
+          "2"
+        ]
+      },
+      {
+        "id": "r69-q4",
+        "prompt": {
+          "fi": "Lautakunta antaa kilpailijalle säännön 69 perusteella DNE:n kahdesta lähdöstä. Pitääkö asiasta ilmoittaa eteenpäin?",
+          "en": "The committee scores a competitor DNE in two races under rule 69. Must it report this?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, rangaistus on suurempi kuin yksi DNE, joten ilmoitus henkilön kansalliselle järjestölle (tai tietyissä kilpailuissa World Sailingille)",
+              "en": "Yes, the penalty is greater than one DNE, so a report goes to the person's national authority (or World Sailing at certain events)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ilmoitus tehdään vain poissulkemisesta",
+              "en": "No, only exclusion is reported"
+            }
+          }
+        ],
+        "why": {
+          "fi": "69.2(j)(1). Ilmoitus menee henkilön kansalliselle järjestölle, ei välttämättä veneen tai kilpailupaikan (Case 139).",
+          "en": "Rule 69.2(j)(1). The report goes to the person's national authority, not necessarily the boat's or the venue's (Case 139)."
+        },
+        "source": "RRS 69.2(j); Case 139",
+        "also": []
+      },
+      {
+        "id": "r69-q5",
+        "prompt": {
+          "fi": "Tukihenkilö loukkaa kilpailun viimeisenä päivänä tuomaria. Poissulkeminen kilpailupaikalta olisi tehoton. Mitä lautakunta voi tehdä lisäksi?",
+          "en": "On the last day of an event a support person abuses an official. Exclusion from the venue would be pointless. What else can the committee do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ilmoittaa asiasta henkilön kansalliselle järjestölle, koska se on aiheellista",
+              "en": "Report it to the person's national authority, as appropriate"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään",
+              "en": "Nothing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 139: tämä on yksi esimerkki tilanteesta, jossa ilmoitus on kohdan 69.2(j)(3) mukaan aiheellinen.",
+          "en": "Case 139: this is one example where a report is appropriate under 69.2(j)(3)."
+        },
+        "source": "Case 139; RRS 69.2(j)(3)",
+        "also": [
+          "62"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 70,
+    "section": "5",
+    "title": {
+      "fi": "Muutoksenhaku ja kansalliselle järjestölle osoitetut pyynnöt",
+      "sv": "Överklagande och begäran till en nationell myndighet",
+      "en": "Appeals and Requests to a National Authority"
+    },
+    "explain": {
+      "fi": "70.1: ellei muutoksenhakuoikeutta ole poistettu kohdan 70.3 mukaan, tutkinnan asianosainen voi hakea kansalliselta järjestöltä muutosta protestilautakunnan päätökseen tai menettelyyn, mutta ei todettuihin tosiasioihin. Muutosta voi hakea myös, jos lautakunta ei järjestänyt tutkintaa tai ei tehnyt päätöstä. 70.2: protestilautakunta voi itse pyytää kansalliselta järjestöltä päätöksensä vahvistamista tai korjaamista. 70.3: muutosta ei voi hakea (a) liitteen N mukaan kootun kansainvälisen juryn päätöksistä, (b) kun tulos on saatava nopeasti, koska kilpapurjehdus oikeuttaa osallistumaan kilpailun myöhempään vaiheeseen tai myöhempään kilpailuun (kansallinen järjestö voi vaatia luvan), (c) kilpailussa, johon voivat osallistua vain kansallisen järjestön jäsenjärjestön, sen jäsenen tai kansallisen järjestön jäsenen ilmoittamat veneet, jos kansallinen järjestö on antanut luvan, tai (d) liitteen N mukaisen lautakunnan päätöksistä, kun vain kaksi jäsentä on kansainvälisiä tuomareita ja kansallinen järjestö on World Sailingia kuultuaan antanut luvan. Kohdat (b)–(d) pätevät vain, jos niistä on kerrottu kilpailukutsussa tai purjehdusohjeissa. 70.4: kansallinen järjestö on se, johon järjestävä taho kuuluu (89.1); jos veneet purjehtivat usean kansallisen järjestön vesillä, se, jonka alueella maalilinja on, elleivät purjehdusohjeet sano muuta. 70.5: menettely on liitteessä R.",
+      "en": "70.1: unless the right of appeal has been denied under 70.3, a party to a hearing may appeal a protest committee's decision or its procedures, but not the facts found, to the national authority. A party may also appeal when the committee did not hold a hearing or make a decision. 70.2: a protest committee may itself ask the national authority to confirm or correct its decision. 70.3: there is no appeal (a) from decisions of an international jury constituted under Appendix N, (b) when a result must be determined promptly because the race qualifies a boat for a later stage or a subsequent event (the national authority may require its permission), (c) at an event open only to boats entered by an organization affiliated to the national authority, a member of one, or a member of the national authority, if the national authority has given permission, or (d) from a protest committee constituted as required by Appendix N except that only two members are International Judges, if the national authority has given permission after consulting World Sailing. Items (b)–(d) apply only if stated in the notice of race or sailing instructions. 70.4: the national authority is the one the organizing authority is associated with (89.1); if boats pass through the waters of more than one, the one where the finishing line is, unless the sailing instructions say otherwise. 70.5: the procedure is in Appendix R."
+    },
+    "note": {
+      "fi": "Liitteet B ja F lisäävät karsintasarjoja koskevia poikkeuksia (F: ei muutoksenhakua karsintamuotoisissa lajeissa). Liite C (mätsikilpailu) kieltää muutoksenhaun tuomareiden ratkaisuista. Suomessa kansallinen järjestö on Suomen Purjehdus ja Veneily. (Säännöt 70–72 eivät nimeä järjestöä; nimi on suomenkielisen sääntökirjan julkaisijatiedoista.) Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöjä 70–72 (86.1).",
+      "en": "Appendices B and F add exceptions for elimination series (F: no appeals in formats with elimination series). Appendix C (match racing) bars appeals from umpire decisions. In Finland the national authority is the Finnish Sailing and Boating Federation. (Rules 70–72 do not name it; the name is from the Finnish rulebook's publisher details.) National authority prescriptions, the notice of race and sailing instructions may not change rules 70–72 (86.1)."
+    },
+    "source": "RRS 70, 89.1, Appendices B5, C9, F5, N, R; Case 104",
+    "defs": [
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Muutoksenhaku ei koske tutkinnassa todettuja tosiasioita (70.1; 63.5(a)).",
+          "en": "An appeal does not cover the facts found in the hearing (70.1; 63.5(a))."
+        }
+      },
+      {
+        "rules": [
+          "71"
+        ],
+        "note": {
+          "fi": "Kansallisen järjestön toimivalta muutoksenhaussa: sääntö 71.",
+          "en": "The national authority's powers on appeal: rule 71."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 104,
+        "title": {
+          "fi": "Tosiasia vai johtopäätös?",
+          "en": "Fact or conclusion?"
+        },
+        "text": {
+          "fi": "Lautakunnan päätöksessä todetaan: \"A nosti lipun ensimmäisen kohtuullisen tilaisuuden tullen.\" Toisessa päätöksessä: \"Tuuli oli liian kova turvalliseen kilpailuun.\" Voiko kansallinen järjestö muuttaa näitä muutoksenhaussa, ja miten se suhtautuu ristiriitaan kirjoitettujen tosiasioiden ja kaavion välillä?",
+          "en": "One decision states: 'A displayed her flag at the first reasonable opportunity.' Another: 'The wind was too strong for safe racing.' Can the national authority change these on appeal, and how does it treat a conflict between the written facts and the diagram?"
+        },
+        "answer": {
+          "fi": "Kyllä, molempia voi muuttaa. Raja ei kulje tosiasian ja johtopäätöksen välillä, koska ne menevät päällekkäin, vaan siinä, onko toteamus puhtaasti tosiasiallinen. Ensimmäinen sisältää tulkinnan sanoista \"ensimmäisen kohtuullisen tilaisuuden\", toinen arvion; kumpikaan ei ole pelkkä tosiasia. Kansallinen järjestö voi muuttaa kaikkea muuta kuin todettuja tosiasioita, ja se voi johtaa niistä loogisesti lisää tosiasioita. Kaavio ja kirjoitetut tosiasiat ovat samanarvoisia; ristiriidan selvittämiseksi kansallinen järjestö voi vaatia lautakunnalta tarkennetut tosiasiat (R5).",
+          "en": "Yes, both can be changed. The line is not between fact and conclusion, since they overlap, but whether a finding is purely factual. The first contains an interpretation of 'first reasonable opportunity', the second a judgment; neither is a pure fact. The national authority can change anything except findings of fact, and may logically derive further facts from them. The diagram and the written facts have equal standing; to resolve a conflict the national authority can require revised facts from the committee (R5)."
+        },
+        "also": [
+          "63",
+          "71"
+        ],
+        "source": "Case 104"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r70-q1",
+        "prompt": {
+          "fi": "Voitko hakea muutosta siihen, millä nopeudella lautakunta totesi veneesi kulkeneen?",
+          "en": "Can you appeal the speed at which the committee found your boat was sailing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: todetut tosiasiat eivät ole muutoksenhaun kohteena",
+              "en": "No: facts found are not subject to appeal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos on videota",
+              "en": "Yes, if there is video"
+            }
+          }
+        ],
+        "why": {
+          "fi": "70.1. Uusi näyttö voi kuitenkin olla peruste uudelleenavaamiselle (63.7).",
+          "en": "Rule 70.1. New evidence may, however, be grounds for reopening (63.7)."
+        },
+        "source": "RRS 70.1, 63.7",
+        "also": [
+          "63"
+        ]
+      },
+      {
+        "id": "r70-q2",
+        "prompt": {
+          "fi": "Purjehdusohjeiden mukaan kilpailussa on kansainvälinen jury liitteen N mukaan. Voiko sen päätöksestä hakea muutosta?",
+          "en": "The sailing instructions say there is an international jury under Appendix N. Can its decisions be appealed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kansalliselta järjestöltä",
+              "en": "Yes, to the national authority"
+            }
+          }
+        ],
+        "why": {
+          "fi": "70.3(a).",
+          "en": "Rule 70.3(a)."
+        },
+        "source": "RRS 70.3(a)",
+        "also": []
+      },
+      {
+        "id": "r70-q3",
+        "prompt": {
+          "fi": "Purjehdusohjeissa ei mainita muutoksenhaun rajoittamista. Voiko karsintakilpailun päätöksestä silti hakea muutosta, vaikka 70.3(b) sen sallisi?",
+          "en": "The sailing instructions say nothing about limiting appeals. Can a qualifying race's decision be appealed even though 70.3(b) would allow denial?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: kohdat 70.3(b)–(d) pätevät vain, jos niistä kerrotaan kilpailukutsussa tai purjehdusohjeissa",
+              "en": "Yes: 70.3(b)–(d) apply only if stated in the notice of race or sailing instructions"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, karsinnoista ei koskaan voi hakea muutosta",
+              "en": "No, qualifiers can never be appealed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "70.3, viimeinen virke.",
+          "en": "Rule 70.3, last sentence."
+        },
+        "source": "RRS 70.3",
+        "also": []
+      },
+      {
+        "id": "r70-q4",
+        "prompt": {
+          "fi": "Avomerikilpailu alkaa Suomesta ja päättyy Ruotsiin. Kumman maan kansalliselle järjestölle muutoshakemus tehdään, jos purjehdusohjeet eivät muuta sano?",
+          "en": "An offshore race starts in Finland and finishes in Sweden. To which national authority does an appeal go, if the sailing instructions say nothing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ruotsin, koska maalilinja on siellä",
+              "en": "Sweden's, because the finishing line is there"
+            }
+          },
+          {
+            "t": {
+              "fi": "Suomen, koska lähtö oli siellä",
+              "en": "Finland's, because the start was there"
+            }
+          }
+        ],
+        "why": {
+          "fi": "70.4: usean kansallisen järjestön vesillä purjehdittaessa ratkaisee maalilinjan sijainti.",
+          "en": "Rule 70.4: when boats pass through the waters of several national authorities, the finishing line decides."
+        },
+        "source": "RRS 70.4",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 71,
+    "section": "5",
+    "title": {
+      "fi": "Kansallisen järjestön päätökset",
+      "sv": "Beslut av den nationella myndigheten",
+      "en": "National Authority Decisions"
+    },
+    "explain": {
+      "fi": "71.1: eturistiriitainen henkilö tai protestilautakunnan jäsen ei osallistu muutoshakemuksen tai vahvistuspyynnön käsittelyyn eikä päätökseen. 71.2: kansallisen järjestön pitää hyväksyä protestilautakunnan toteamat tosiasiat, ellei sääntö R5 päde. 71.3: kansallinen järjestö voi vahvistaa, muuttaa tai kumota lautakunnan päätöksen (myös pätevyyttä tai sääntöä 69 koskevan), määrätä tutkinnan avattavaksi uudelleen tai määrätä uuden tutkinnan samalle tai toiselle lautakunnalle. 71.4: uudelleenavatun tutkinnan voi rajata olennaisiin kysymyksiin. 71.5: jos protestitutkinnan asianosainen vene on rikkonut sääntöä eikä ole vapautettu, kansallinen järjestö rankaisee sitä riippumatta siitä, mainittiinko vene tai sääntö lautakunnan päätöksessä. 71.6: kansallisen järjestön päätös on lopullinen; se lähetetään kirjallisena kaikille asianosaisille ja lautakunnalle, jonka pitää noudattaa sitä. Lopputulokset ja palkinnot korjataan vastaavasti (Case 61).",
+      "en": "71.1: a person with a conflict of interest or who was on the protest committee takes no part in the discussion or decision of an appeal or request for confirmation. 71.2: the national authority accepts the protest committee's findings of fact, unless rule R5 applies. 71.3: it may uphold, change or reverse the decision (including one on validity or under rule 69), order the hearing reopened, or order a new hearing by the same or a different committee. 71.4: a reopened hearing may be limited to the relevant matters. 71.5: if a boat that was a party to a protest hearing broke a rule and is not exonerated, the national authority penalizes her whether or not the boat or the rule was mentioned in the committee's decision. 71.6: the national authority's decision is final; it is sent in writing to all parties and the committee, which must comply. Final standings and awards are corrected accordingly (Case 61)."
+    },
+    "note": {
+      "fi": "Sääntö 71 kuuluu niihin sääntöihin, joita kilpailukutsu tai purjehdusohjeet eivät saa muuttaa (86.1; Case 61).",
+      "en": "Rule 71 is among the rules the notice of race or sailing instructions may not change (86.1; Case 61)."
+    },
+    "source": "RRS 71, 86.1, Appendix R; Case 61",
+    "defs": [
+      "Conflict of Interest",
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Muutoksenhakuoikeus ja sen rajoitukset: sääntö 70.",
+          "en": "The right of appeal and its limits: rule 70."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Kansallinen järjestö voi määrätä tutkinnan avattavaksi uudelleen (71.3(b); 63.7(a)).",
+          "en": "The national authority may order a hearing reopened (71.3(b); 63.7(a))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 61,
+        "title": {
+          "fi": "Palkinnot jaettu jo",
+          "en": "Prizes already awarded"
+        },
+        "text": {
+          "fi": "Purjehdusohjeissa lukee: muutoksenhakuoikeutta ei poisteta, mutta muutoksenhaun ratkaisut eivät vaikuta lopputuloksiin eikä palkintoihin. Onko tällainen määräys sallittu?",
+          "en": "The sailing instructions say: the right of appeal is not denied, but appeal decisions will not affect final standings or prizes. Is such a provision allowed?"
+        },
+        "answer": {
+          "fi": "Ei. Kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöjä 70 ja 71 (86.1). Muutoksenhaussa ratkaistaan sääntökysymyksen lisäksi tulokset: kansallisen järjestön päätös on lopullinen (71.6), ja kun päätös muuttuu, lopputulokset ja palkinnot pitää korjata vastaavasti.",
+          "en": "No. The notice of race and sailing instructions may not change rules 70 and 71 (86.1). An appeal settles the results as well as the rule question: the national authority's decision is final (71.6), and when the decision changes, final standings and prizes must be corrected accordingly."
+        },
+        "also": [
+          "86",
+          "70"
+        ],
+        "source": "Case 61"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r71-q1",
+        "prompt": {
+          "fi": "Kansallinen järjestö toteaa, että protestitutkinnan asianosainen vene rikkoi sääntöä, jota lautakunnan päätöksessä ei mainittu. Mitä tapahtuu?",
+          "en": "The national authority finds that a boat that was a party to the protest hearing broke a rule not mentioned in the committee's decision. What happens?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vene rangaistaan, ellei se ole vapautettu",
+              "en": "The boat is penalized, unless exonerated"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, koska sääntöä ei mainittu",
+              "en": "Nothing, because the rule was not mentioned"
+            }
+          }
+        ],
+        "why": {
+          "fi": "71.5.",
+          "en": "Rule 71.5."
+        },
+        "source": "RRS 71.5",
+        "also": []
+      },
+      {
+        "id": "r71-q2",
+        "prompt": {
+          "fi": "Saako protestilautakunnan jäsen osallistua kansallisessa järjestössä saman tapauksen muutoshakemuksen käsittelyyn?",
+          "en": "May a member of the protest committee take part in the national authority's handling of the same appeal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos hän on kansallisen järjestön jäsen",
+              "en": "Yes, if he is a member of the national authority"
+            }
+          }
+        ],
+        "why": {
+          "fi": "71.1.",
+          "en": "Rule 71.1."
+        },
+        "source": "RRS 71.1",
+        "also": []
+      },
+      {
+        "id": "r71-q3",
+        "prompt": {
+          "fi": "Mitä kansallinen järjestö voi tehdä, jos lautakunnan tosiasiat ovat puutteelliset?",
+          "en": "What can the national authority do if the committee's facts are inadequate?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pyytää lisää tai tarkennettuja tosiasioita tai määrätä tutkinnan avattavaksi uudelleen",
+              "en": "Ask for more or revised facts, or order the hearing reopened"
+            }
+          },
+          {
+            "t": {
+              "fi": "Todeta tosiasiat itse uudelleen kuulematta lautakuntaa",
+              "en": "Find the facts afresh itself without the committee"
+            }
+          }
+        ],
+        "why": {
+          "fi": "71.2 ja 71.3(b); liitteen R kohta R5. Tosiasiat hyväksytään, ellei R5 päde.",
+          "en": "Rules 71.2 and 71.3(b); Appendix R, R5. The facts are accepted unless R5 applies."
+        },
+        "source": "RRS 71.2, 71.3; R5",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 72,
+    "section": "5",
+    "title": {
+      "fi": "Tulkinnat",
+      "sv": "Tolkningar",
+      "en": "Interpretations"
+    },
+    "explain": {
+      "fi": "Kansalliseen järjestöön kuuluva seura tai muu järjestö voi pyytää siltä sääntöjen tulkintaa, kunhan pyyntö ei koske protestilautakunnan päätöstä, josta voi hakea muutosta. Tulkintaa ei voi käyttää aiemman protestilautakunnan päätöksen muuttamiseen.",
+      "en": "A club or other organization affiliated to a national authority may ask it for an interpretation of the rules, provided the request does not concern a protest committee decision that may be appealed. An interpretation may not be used to change a previous protest committee decision."
+    },
+    "note": {
+      "fi": "Tulkintapyyntö on eri asia kuin muutoksenhaku (70) ja protestilautakunnan vahvistuspyyntö (70.2). Menettely on liitteessä R.",
+      "en": "A request for an interpretation is different from an appeal (70) and a protest committee's request for confirmation (70.2). The procedure is in Appendix R."
+    },
+    "source": "RRS 72, Appendix R",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Muutoksenhakukelpoisesta päätöksestä ei pyydetä tulkintaa vaan haetaan muutosta (70.1).",
+          "en": "A decision that can be appealed is appealed (70.1), not interpreted."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r72-q1",
+        "prompt": {
+          "fi": "Seura haluaa tietää, miten sääntöä 18 sovelletaan sen omassa ratatyypissä, eikä asiasta ole vireillä protestia. Mitä se voi tehdä?",
+          "en": "A club wants to know how rule 18 applies on its own type of course, with no protest pending. What can it do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pyytää tulkintaa kansalliselta järjestöltä",
+              "en": "Ask its national authority for an interpretation"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hakea muutosta",
+              "en": "Appeal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "72.",
+          "en": "Rule 72."
+        },
+        "source": "RRS 72",
+        "also": []
+      },
+      {
+        "id": "r72-q2",
+        "prompt": {
+          "fi": "Voiko seura saada tulkinnalla muutettua viime kuun protestipäätöksen?",
+          "en": "Can a club use an interpretation to change last month's protest decision?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "72: tulkintaa ei voi käyttää aiemman päätöksen muuttamiseen.",
+          "en": "Rule 72: an interpretation may not change a previous decision."
+        },
+        "source": "RRS 72",
+        "also": []
+      }
+    ]
   }
 ]
