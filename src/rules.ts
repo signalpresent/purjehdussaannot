@@ -5,6 +5,7 @@ import { Scene, sceneSvg } from './diagrams';
 import { State, pickNext, TextStore } from './store';
 import { SKELETON } from './ruletext';
 import { signalsFor, signalQuestions } from './flags';
+import { N, B, Node as TNode, ttx } from './tree';
 
 // sv is optional: until it is written, the English text is shown.
 type ML = Partial<Record<Lang, string>> & { fi: string; en: string };
@@ -56,7 +57,7 @@ export function rulesView(l: Lang, txt: TextStore = {}): string {
   const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
     <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
   const groups = [...new Set(rules.map(r => r.section))];
-  return groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g)}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
+  return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g)}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
     + `<p class="mute">${T.moreRules[l]}</p>`;
 }
 
@@ -92,4 +93,29 @@ export function practiceView(s: State): string {
   const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
     <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
   return `${fb(l)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
+}
+
+// "Who keeps clear?" decision tree; path = chosen option per step.
+let path: number[] = [];
+export const treeAnswer = (i: number) => { path.push(i); };
+export const treeBack = (k: number) => { path = path.slice(0, k); };
+export const treeReset = () => { path = []; };
+const tchips = (rs: string[]) => `<div class="chips">${rs.map(r => `<span data-rule="${r === '18.3' || r === '18.4' ? r : r.split('.')[0]}">${r}</span>`).join('')}</div>`;
+
+export function treeView(l: Lang): string {
+  let id: string | undefined = 'start';
+  const steps: string[] = [], found: string[] = [];
+  for (const [k, i] of path.entries()) {
+    const n: TNode = N[id!], o = n.opts[i];
+    steps.push(`<li><button class="lnk" data-tback="${k}">${esc(ttx(n.q, l))}</button> <b>${esc(ttx(o.a, l))}</b></li>`);
+    if (o.f) found.push(`<div class="sc"><p>${esc(ttx(o.f.t, l))}</p>${tchips(o.f.rules)}</div>`);
+    id = o.next;
+  }
+  const cur = id ? N[id] : null;
+  if (!cur && path[0] === 0) found.push(`<div class="sc"><p>${esc(ttx(B.t, l))}</p>${tchips(B.rules)}</div>`);
+  return `<button class="btn" data-nav="rules">${T.back[l]}</button><h2>${T.treeTitle[l]}</h2><p class="mute">${T.treeIntro[l]}</p>
+    ${steps.length ? `<ol class="steps">${steps.join('')}</ol>` : ''}
+    ${cur ? `<p class="st">${esc(ttx(cur.q, l))}</p>${cur.opts.map((o, i) => `<button class="btn opt" data-tans="${i}">${esc(ttx(o.a, l))}</button>`).join('')}` : ''}
+    ${found.length ? `<h3>${T.treeFound[l]}</h3>${found.join('')}` : ''}
+    ${path.length ? `<p><button class="btn" data-treset="1">${T.treeReset[l]}</button></p>` : ''}`;
 }

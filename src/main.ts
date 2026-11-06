@@ -6,7 +6,7 @@ import { load, save, State, exportBox, importBox, loadText, saveText, textSig } 
 import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
 import { signalsView } from './flags';
-import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
+import { rules, rulesView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -19,7 +19,7 @@ const t = (k: string) => T[k][state.lang];
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const key = (d: Def) => d.en;
 
-type View = 'list' | 'detail' | 'rules' | 'rule' | 'practice' | 'signals';
+type View = 'list' | 'detail' | 'rules' | 'rule' | 'practice' | 'signals' | 'tree';
 let view: View = 'list';
 let backTo: View = 'list';
 let current: Def | null = null;
@@ -58,7 +58,7 @@ function detailView(d: Def): string {
 
 function render() {
   const inner = view === 'detail' && current ? detailView(current) : view === 'rule' && currentRule ? ruleView(currentRule, state.lang, text)
-    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : view === 'signals' ? signalsView(state.lang) : listView();
+    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : view === 'signals' ? signalsView(state.lang) : view === 'tree' ? treeView(state.lang) : listView();
   const hadFocus = document.activeElement?.id === 'q';
   root.innerHTML = shell(inner);
   const m = document.getElementById('impmsg'); if (m) m.textContent = flash;
@@ -66,7 +66,7 @@ function render() {
 }
 
 root.addEventListener('click', e => {
-  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next],[data-export],[data-import],[data-timport]') as HTMLElement | null;
+  const el = (e.target as HTMLElement).closest('[data-lang],[data-nav],[data-open],[data-rule],[data-ans],[data-next],[data-export],[data-import],[data-timport],[data-tans],[data-tback],[data-treset]') as HTMLElement | null;
   if (!el) return;
   const ds = el.dataset;
   flash = '';
@@ -81,6 +81,9 @@ root.addEventListener('click', e => {
   if (ds.lang) { state.lang = ds.lang as Lang; save(state); }
   else if (ds.nav) view = ds.nav as View;
   else if (ds.rule) { currentRule = rules.find(r => String(r.n) === ds.rule) ?? null; view = currentRule ? 'rule' : 'rules'; window.scrollTo(0, 0); }
+  else if (ds.tans) treeAnswer(+ds.tans);
+  else if (ds.tback) treeBack(+ds.tback);
+  else if (ds.treset) treeReset();
   else if (ds.ans) { practiceAnswer(+ds.ans, state); save(state); }
   else if (ds.next) practiceNext(state);
   else if (ds.open) { backTo = view === 'rule' ? 'rule' : 'list'; current = defs.find(d => key(d) === ds.open) || null; view = 'detail'; window.scrollTo(0, 0); }

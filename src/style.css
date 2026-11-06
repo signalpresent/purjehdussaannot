@@ -42,3 +42,4 @@ nav button{flex:1;padding:10px 4px;font-size:.92rem}
 .snd{color:var(--mute);white-space:nowrap;margin-left:6px}.shps{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.88rem}.shp{display:flex;align-items:center;gap:4px}
 .sigq{display:flex;justify-content:center;margin:12px 0}.sigq .fl{width:120px;height:80px}.sigq .pn{width:180px;height:60px}.sigq .flags{width:auto;align-items:center}
 .opt .flags{width:auto;align-items:center;margin:0 auto}
+.steps{padding-left:20px}.steps li{margin:6px 0}.lnk{background:none;border:0;padding:0;color:var(--mute);text-align:left;font:inherit;cursor:pointer;text-decoration:underline dotted}
