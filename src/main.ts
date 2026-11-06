@@ -5,6 +5,7 @@ import { LANGS, Lang, T, esc } from './i18n';
 import { load, save, State, exportBox, importBox, loadText, saveText, textSig } from './store';
 import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
+import { signalsView } from './flags';
 import { rules, rulesView, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
@@ -18,7 +19,7 @@ const t = (k: string) => T[k][state.lang];
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const key = (d: Def) => d.en;
 
-type View = 'list' | 'detail' | 'rules' | 'rule' | 'practice';
+type View = 'list' | 'detail' | 'rules' | 'rule' | 'practice' | 'signals';
 let view: View = 'list';
 let backTo: View = 'list';
 let current: Def | null = null;
@@ -30,8 +31,8 @@ let textMsg = '';
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
-  const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' ? 'practice' : 'rules';
-  const nav = (['list', 'rules', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', practice: 'tabPractice' }[v])}</button>`).join('');
+  const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' || view === 'signals' ? view : 'rules';
+  const nav = (['list', 'rules', 'signals', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', signals: 'tabSignals', practice: 'tabPractice' }[v])}</button>`).join('');
   const foot = `<footer><span class="mute">${Object.keys(text).length ? `${t('textLoaded')}: ${Object.keys(text).map(x => x.toUpperCase()).join(', ')}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".pdf,application/pdf" multiple hidden><p class="mute" id="timpmsg">${esc(textMsg || (stale ? t('textStale') : ''))}</p>
     <details class="help"><summary>${t('textHow')}</summary><p>${t('textIntro')}</p><ol>${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></details></footer>`;
   return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
@@ -57,7 +58,7 @@ function detailView(d: Def): string {
 
 function render() {
   const inner = view === 'detail' && current ? detailView(current) : view === 'rule' && currentRule ? ruleView(currentRule, state.lang, text)
-    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : listView();
+    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : view === 'signals' ? signalsView(state.lang) : listView();
   const hadFocus = document.activeElement?.id === 'q';
   root.innerHTML = shell(inner);
   const m = document.getElementById('impmsg'); if (m) m.textContent = flash;

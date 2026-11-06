@@ -11,6 +11,7 @@ export const T: Record<string, Record<Lang, string>> = {
   back: { fi: '← Takaisin', sv: '← Tillbaka', en: '← Back' },
   tabDefs: { fi: 'Määritelmät', sv: 'Definitioner', en: 'Definitions' },
   tabRules: { fi: 'Säännöt', sv: 'Regler', en: 'Rules' },
+  tabSignals: { fi: 'Viestit', sv: 'Signaler', en: 'Signals' },
   tabPractice: { fi: 'Harjoittele', sv: 'Öva', en: 'Practice' },
   rule: { fi: 'Sääntö', sv: 'Regel', en: 'Rule' },
   moreRules: { fi: 'Lisää sääntöjä tulossa.', sv: 'Fler regler kommer.', en: 'More rules to come.' },
