@@ -21812,6 +21812,1754 @@
     ]
   },
   {
+    "n": "A1",
+    "section": "A",
+    "title": {
+      "fi": "Purjehdusten lukumäärä",
+      "sv": "Antal kappseglingar",
+      "en": "Number of Races"
+    },
+    "explain": {
+      "fi": "Kilpailukutsussa tai purjehdusohjeissa pitää kertoa, montako purjehdusta ohjelmassa on ja montako niistä pitää saada pisteytettyä, jotta sarja on pätevä. Säännön 90.3(a) mukaan purjehdus pisteytetään, jos sitä ei ole mitätöity ja jos edes yksi vene purjehtii radan mahdollisen aikarajan kuluessa, vaikka se vetäytyisi maaliin tulon jälkeen tai hylättäisiin.",
+      "en": "The notice of race or sailing instructions must state how many races are scheduled and how many must be scored for the series to count. Under rule 90.3(a) a race is scored if it is not abandoned and at least one boat sails the course within any time limit, even if she then retires after finishing or is disqualified.",
+      "sv": "Inbjudan eller seglingsföreskrifterna ska ange hur många kappseglingar som planeras och hur många som måste poängsättas för att serien ska gälla. Enligt regel 90.3a poängsätts en kappsegling om den inte annulleras och minst en båt seglar banan inom en eventuell maxtid, även om den sedan utgår efter att ha gått i mål eller diskvalificeras."
+    },
+    "note": {
+      "fi": "Liitteet B (purjelautailu) ja F (leijalautailu) lisäävät: jos tapahtumassa on useampi laji tai kilpailumuoto, kilpailukutsussa tai purjehdusohjeissa pitää kertoa, miten kokonaistulokset lasketaan.",
+      "en": "Appendices B (windsurfing) and F (kiteboarding) add: if an event has more than one discipline or format, the notice of race or sailing instructions must state how overall scores are calculated.",
+      "sv": "Appendix B (vindsurfing) och F (kiteboarding) lägger till: om ett evenemang har mer än en disciplin eller ett format ska inbjudan eller seglingsföreskrifterna ange hur totalresultatet beräknas."
+    },
+    "source": "RRS A1, 90.3(a), B8, F8",
+    "defs": [
+      "Abandon",
+      "Sail the Course"
+    ],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "Pistelaskun perusta: liitettä A käytetään, ellei kilpailukutsu tai purjehdusohjeet määrää muuta järjestelmää (90.3(a)).",
+          "en": "The basis of scoring: Appendix A applies unless the notice of race or sailing instructions specify another system (90.3(a)).",
+          "sv": "Grunden för poängberäkningen: appendix A gäller om inte inbjudan eller seglingsföreskrifterna anger ett annat system (90.3a)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA1-q1",
+        "prompt": {
+          "fi": "Mistä purjehtija näkee, montako purjehdusta sarjaan vaaditaan?",
+          "en": "Where does a sailor find how many races are needed for a series?",
+          "sv": "Var ser en seglare hur många kappseglingar som krävs för en serie?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailukutsusta tai purjehdusohjeista",
+              "en": "In the notice of race or sailing instructions",
+              "sv": "I inbjudan eller seglingsföreskrifterna"
+            }
+          },
+          {
+            "t": {
+              "fi": "Liitteestä A: aina kolme",
+              "en": "In Appendix A: always three",
+              "sv": "I appendix A: alltid tre"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunta päättää paikan päällä",
+              "en": "The race committee decides on site",
+              "sv": "Kappseglingskommittén bestämmer på plats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A1 ei anna lukua itse vaan vaatii, että se ilmoitetaan kilpailukutsussa tai purjehdusohjeissa.",
+          "en": "A1 gives no number itself; it requires the number to be stated in the notice of race or sailing instructions.",
+          "sv": "A1 anger inget antal själv utan kräver att antalet anges i inbjudan eller seglingsföreskrifterna."
+        },
+        "source": "RRS A1",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "rA1-q2",
+        "prompt": {
+          "fi": "Vain yksi vene purjehtii radan aikarajassa, ja sekin hylätään myöhemmin. Pisteytetäänkö purjehdus?",
+          "en": "Only one boat sails the course within the time limit, and she is later disqualified. Is the race scored?",
+          "sv": "Bara en båt seglar banan inom maxtiden, och den diskvalificeras senare. Poängsätts kappseglingen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska kukaan ei saanut tulosta",
+              "en": "No, because nobody got a result",
+              "sv": "Nej, eftersom ingen fick något resultat"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(a): yksi radan aikarajassa purjehtinut vene riittää, vaikka se vetäytyisi maaliin tulon jälkeen tai hylättäisiin.",
+          "en": "90.3(a): one boat sailing the course within the time limit is enough, even if she retires after finishing or is disqualified.",
+          "sv": "90.3a: det räcker att en båt seglar banan inom maxtiden, även om den utgår efter att ha gått i mål eller diskvalificeras."
+        },
+        "source": "RRS 90.3(a)",
+        "also": [
+          "90"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A2",
+    "section": "A",
+    "title": {
+      "fi": "Kokonaispistemäärät",
+      "sv": "Poängberäkning i en serie",
+      "en": "Series Scores"
+    },
+    "explain": {
+      "fi": "A2.1: veneen kokonaispistemäärä on sen purjehduksista saamien pisteiden summa, josta jätetään pois huonoin tulos. Kilpailukutsu tai purjehdusohjeet voivat määrätä toisin: esimerkiksi ettei mitään jätetä pois, että pois jätetään kaksi tai useampia tai että pois jätetään tietty määrä, kun tietty määrä purjehduksia on pisteytetty. Jos huonoimpia samansuuruisia tuloksia on useita, pois jätetään aikaisimmin purjehditun purjehduksen tulos. Pienin kokonaispistemäärä voittaa. Säännön 90.3(b) mukaan DNE-tulosta (hylkäys, jota ei voi jättää pois) ei saa jättää pois. A2.2: vene, joka on ilmoittautunut yhteenkin sarjan purjehdukseen, saa tuloksen koko sarjasta.",
+      "en": "A2.1: a boat's series score is the total of her race scores minus her worst score. The notice of race or sailing instructions may say otherwise: for example that nothing is excluded, that two or more are excluded, or that a set number is excluded once a set number of races has been scored. If a boat has several equal worst scores, the one from the earliest race is excluded. The lowest series score wins. Under rule 90.3(b) a DNE (disqualification that is not excludable) cannot be excluded. A2.2: a boat that has entered any race of a series is scored for the whole series.",
+      "sv": "A2.1: en båts slutpoäng i serien är summan av dess poäng i kappseglingarna minus det sämsta resultatet. Inbjudan eller seglingsföreskrifterna kan ange något annat, t.ex. att inga resultat räknas bort, att två eller fler räknas bort eller att ett visst antal räknas bort när ett visst antal kappseglingar har poängsatts. Om en båt har flera lika sämsta resultat räknas resultatet från den tidigaste kappseglingen bort. Lägst slutpoäng vinner. Enligt regel 90.3b får ett DNE (diskvalificering som inte får räknas bort) inte räknas bort. A2.2: en båt som har anmält sig till någon kappsegling i en serie ges resultat i hela serien."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu): pois jätetään huonoin tulos, kun pisteytettyjä purjehduksia on 5–11, ja kaksi huonointa, kun niitä on 12 tai enemmän, ellei kilpailukutsu tai purjehdusohjeet määrää toisin.",
+      "en": "Appendix B (windsurfing): the worst score is excluded when 5–11 races have been scored, and the two worst when 12 or more have been scored, unless the notice of race or sailing instructions say otherwise.",
+      "sv": "Appendix B (vindsurfing): det sämsta resultatet räknas bort när 5–11 kappseglingar har poängsatts och de två sämsta när 12 eller fler har poängsatts, om inte inbjudan eller seglingsföreskrifterna anger annat."
+    },
+    "source": "RRS A2, 90.3(b), B8",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "DNE lasketaan aina mukaan (90.3(b)).",
+          "en": "A DNE always counts (90.3(b)).",
+          "sv": "Ett DNE räknas alltid med (90.3b)."
+        }
+      },
+      {
+        "rules": [
+          "2",
+          "69"
+        ],
+        "note": {
+          "fi": "Säännön 2 rikkomisen rangaistus on DNE (Case 34), ja säännön 69 mukainen hylkäys voi olla pois jätettävä tai ei (69.2(h)(2)).",
+          "en": "The penalty for breaking rule 2 is DNE (Case 34), and a disqualification under rule 69 may or may not be excludable (69.2(h)(2)).",
+          "sv": "Straffet för brott mot regel 2 är DNE (fall 34), och en diskvalificering enligt regel 69 kan vara möjlig att räkna bort eller inte (69.2h2)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA2-q1",
+        "prompt": {
+          "fi": "Sarjaan on ilmoittautunut 8 venettä, ja huonoin tulos jätetään pois. Veneen tulokset ovat 3, 1, DNF ja 2. Mikä on sen kokonaispistemäärä?",
+          "en": "Eight boats entered the series and the worst score is excluded. A boat's results are 3, 1, DNF and 2. What is her series score?",
+          "sv": "Åtta båtar är anmälda till serien och det sämsta resultatet räknas bort. En båts resultat är 3, 1, DNF och 2. Vilken är dess slutpoäng?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "6",
+              "en": "6",
+              "sv": "6"
+            }
+          },
+          {
+            "t": {
+              "fi": "15",
+              "en": "15",
+              "sv": "15"
+            }
+          },
+          {
+            "t": {
+              "fi": "5",
+              "en": "5",
+              "sv": "5"
+            }
+          }
+        ],
+        "why": {
+          "fi": "DNF on 9 pistettä (ilmoittautuneet + 1, A5.2). Summa 3 + 1 + 9 + 2 = 15, ja huonoin (9) jätetään pois: 6.",
+          "en": "DNF scores 9 points (entries + 1, A5.2). The total 3 + 1 + 9 + 2 = 15, minus the worst (9): 6.",
+          "sv": "DNF ger 9 poäng (anmälda + 1, A5.2). Summan 3 + 1 + 9 + 2 = 15, minus det sämsta (9): 6."
+        },
+        "source": "RRS A2.1, A5.2",
+        "also": [
+          "A5"
+        ]
+      },
+      {
+        "id": "rA2-q2",
+        "prompt": {
+          "fi": "Veneen huonoin tulos, 7 pistettä, on sekä 2. että 5. purjehduksessa. Kumpi jätetään pois?",
+          "en": "A boat's worst score, 7 points, is in both race 2 and race 5. Which is excluded?",
+          "sv": "En båts sämsta resultat, 7 poäng, finns både i kappsegling 2 och 5. Vilket räknas bort?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "2. purjehduksen",
+              "en": "Race 2's",
+              "sv": "Kappsegling 2"
+            }
+          },
+          {
+            "t": {
+              "fi": "5. purjehduksen",
+              "en": "Race 5's",
+              "sv": "Kappsegling 5"
+            }
+          },
+          {
+            "t": {
+              "fi": "Molemmat",
+              "en": "Both",
+              "sv": "Båda"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A2.1: samansuuruisista huonoimmista jätetään pois aikaisimmin purjehditun tulos. Vain yksi jätetään pois, jos pois jätetään yksi.",
+          "en": "A2.1: of equal worst scores, the one from the earliest race is excluded. Only one is excluded when one is to be excluded.",
+          "sv": "A2.1: av lika sämsta resultat räknas resultatet från den tidigaste kappseglingen bort. Bara ett räknas bort när ett ska räknas bort."
+        },
+        "source": "RRS A2.1",
+        "also": []
+      },
+      {
+        "id": "rA2-q3",
+        "prompt": {
+          "fi": "Veneellä on yhdessä purjehduksessa DNE ja sarjassa yksi pois jätettävä tulos. Saako se jättää DNE:n pois?",
+          "en": "A boat has a DNE in one race and the series has one exclusion. May she exclude the DNE?",
+          "sv": "En båt har ett DNE i en kappsegling och serien har ett borträknat resultat. Får den räkna bort DNE?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: DNE lasketaan aina mukaan, ja pois jätetään seuraavaksi huonoin",
+              "en": "No: a DNE always counts, and the next worst is excluded",
+              "sv": "Nej: ett DNE räknas alltid med, och det näst sämsta räknas bort"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska se on huonoin",
+              "en": "Yes, because it is the worst",
+              "sv": "Ja, eftersom det är det sämsta"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(b): DNE-tulos sisällytetään kokonaispistemäärään, vaikka pistelasku sallisi tulosten pois jättämisen.",
+          "en": "90.3(b): a DNE score is included in the series score even when the scoring system allows exclusions.",
+          "sv": "90.3b: ett DNE ingår i slutpoängen även när poängsystemet tillåter borträkning."
+        },
+        "source": "RRS 90.3(b), A2.1, A10",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "rA2-q4",
+        "prompt": {
+          "fi": "Vene ilmoittautui viikonlopun sarjaan, mutta purjehti vain lauantaina. Saako se tuloksen sunnuntain purjehduksista?",
+          "en": "A boat entered a weekend series but sailed only on Saturday. Is she scored for Sunday's races?",
+          "sv": "En båt anmälde sig till en helgserie men seglade bara på lördagen. Får den resultat i söndagens kappseglingar?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: ilmoittautunut vene saa tuloksen koko sarjasta (esim. DNC)",
+              "en": "Yes: an entered boat is scored for the whole series (e.g. DNC)",
+              "sv": "Ja: en anmäld båt ges resultat i hela serien (t.ex. DNC)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, se jätetään sunnuntain tuloksista pois",
+              "en": "No, she is left out of Sunday's results",
+              "sv": "Nej, den lämnas utanför söndagens resultat"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A2.2. Purjehdus, jonka lähtöalueelle vene ei tullut, kirjataan DNC (A10).",
+          "en": "A2.2. A race whose starting area the boat did not come to is recorded DNC (A10).",
+          "sv": "A2.2. En kappsegling där båten inte kom till startområdet noteras DNC (A10)."
+        },
+        "source": "RRS A2.2, A10",
+        "also": [
+          "A10"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A3",
+    "section": "A",
+    "title": {
+      "fi": "Lähtöajat ja sijat",
+      "sv": "Starttider och placeringar",
+      "en": "Starting Times and Finishing Places"
+    },
+    "explain": {
+      "fi": "Veneen lähtöaika on sen lähtöviestin aika, ja sijat määräytyvät maaliin tulon järjestyksestä. Kun käytetään tasoitus- tai mittalukujärjestelmää, sijan ratkaisee veneen tasoitettu aika. Tasoituksessa käytetään sitä mittalukua, joka veneellä oli purjehduksen aikana; jos mittalukuviranomainen myöhemmin omasta aloitteestaan muuttaa sitä, tulosta ei muuteta (Case 119).",
+      "en": "A boat's starting time is the time of her starting signal, and finishing places follow the order in which boats finish. When a handicap or rating system is used, her corrected time decides her place. The rating used is the one the boat had when the race was sailed; if the rating authority later changes it on its own initiative, her score is not changed (Case 119).",
+      "sv": "En båts starttid är tiden för dess startsignal, och placeringarna följer den ordning i vilken båtarna går i mål. När ett handikapp- eller respitsystem används bestämmer den korrigerade tiden placeringen. Det tal som används är det båten hade när kappseglingen seglades; om utfärdaren senare på eget initiativ ändrar det ändras inte resultatet (fall 119)."
+    },
+    "note": {
+      "fi": "Lähtöaika lasketaan lähtöviestistä silloinkin, kun vene ylittää lähtölinjan myöhemmin.",
+      "en": "The starting time runs from the starting signal even when the boat crosses the starting line later.",
+      "sv": "Starttiden räknas från startsignalen även när båten korsar startlinjen senare."
+    },
+    "source": "RRS A3; Case 119",
+    "defs": [
+      "Start",
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Väärin pisteytetty vene voi pyytää hyvitystä kilpailulautakunnan virheellisen toimen perusteella (61.4(b)(1); Case 119).",
+          "en": "A boat scored wrongly may request redress for an improper action of the race committee (61.4(b)(1); Case 119).",
+          "sv": "En båt som har fått fel resultat kan begära gottgörelse för en felaktig åtgärd av kappseglingskommittén (61.4b1; fall 119)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 119,
+        "title": {
+          "fi": "Mittaluku muuttui jälkikäteen",
+          "en": "The rating changed afterwards",
+          "sv": "Respittalet ändrades i efterhand"
+        },
+        "text": {
+          "fi": "A purjehti kiertopalkintokilpailun, ja se pisteytettiin purjehduksen aikaan voimassa olleella suorituskykyyn perustuvalla tasoitusluvulla. Kukaan ei protestoinut eikä pyytänyt hyvitystä. Viikkoja myöhemmin mittalukuviranomainen muutti omasta aloitteestaan A:n lukua, vaikka venettä tai varusteita ei ollut muutettu. Kilpailulautakunta laski tulokset uudelleen, ja A:n tulos huononi selvästi. A pyysi hyvitystä.",
+          "en": "A sailed a race for a perpetual trophy and was scored with the performance-handicap rating in force at the time. Nobody protested or requested redress. Weeks later the rating authority, on its own initiative, changed A's rating although her hull and equipment were unchanged. The race committee rescored the race, and A's score became clearly worse. A requested redress.",
+          "sv": "A seglade en kappsegling om ett vandringspris och poängsattes med det prestationsbaserade respittal som gällde då. Ingen protesterade eller begärde gottgörelse. Några veckor senare ändrade utfärdaren på eget initiativ A:s respittal, fast skrov och utrustning inte hade ändrats. Kappseglingskommittén räknade om resultaten och A:s resultat blev klart sämre. A begärde gottgörelse."
+        },
+        "answer": {
+          "fi": "Uudelleenlaskenta oli kilpailulautakunnan virheellinen toimi. Tasoitettu aika lasketaan purjehduksen aikaisella mittaluvulla (A3); suorituskykyyn perustuvat luvut muuttuvat ajan mittaan aiempien tulosten mukaan. Protestilautakunta toimi oikein palauttaessaan alkuperäisen tuloksen hyvityksenä.",
+          "en": "Rescoring was an improper action of the race committee. The corrected time is calculated with the rating in force when the race was sailed (A3); performance ratings change over time with past results. The protest committee was right to restore the original score as redress.",
+          "sv": "Omräkningen var en felaktig åtgärd av kappseglingskommittén. Den korrigerade tiden räknas med det respittal som gällde när kappseglingen seglades (A3); prestationsbaserade tal ändras med tiden efter tidigare resultat. Protestkommittén gjorde rätt när den återställde det ursprungliga resultatet som gottgörelse."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 119"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rA3-q1",
+        "prompt": {
+          "fi": "Lähtöviesti annetaan klo 12.00, ja vene ylittää lähtölinjan klo 12.02. Mikä on sen lähtöaika?",
+          "en": "The starting signal is at 12:00 and a boat crosses the starting line at 12:02. What is her starting time?",
+          "sv": "Startsignalen ges kl. 12.00 och en båt korsar startlinjen kl. 12.02. Vilken är dess starttid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "12.00",
+              "en": "12:00",
+              "sv": "12.00"
+            }
+          },
+          {
+            "t": {
+              "fi": "12.02",
+              "en": "12:02",
+              "sv": "12.02"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A3: lähtöaika on veneen lähtöviestin aika.",
+          "en": "A3: the starting time is the time of the boat's starting signal.",
+          "sv": "A3: starttiden är tiden för båtens startsignal."
+        },
+        "source": "RRS A3",
+        "also": []
+      },
+      {
+        "id": "rA3-q2",
+        "prompt": {
+          "fi": "Tasoituskilpailussa vene tulee maaliin ensimmäisenä, mutta sen tasoitettu aika on kolmanneksi paras. Mikä on sen sija?",
+          "en": "In a handicap race a boat finishes first on the water, but her corrected time is the third best. What is her place?",
+          "sv": "I en kappsegling med respit går en båt i mål först, men dess korrigerade tid är den tredje bästa. Vilken är dess placering?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kolmas",
+              "en": "Third",
+              "sv": "Trea"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ensimmäinen",
+              "en": "First",
+              "sv": "Etta"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A3: kun käytetään tasoitus- tai mittalukujärjestelmää, sijan ratkaisee tasoitettu aika.",
+          "en": "A3: when a handicap or rating system is used, the corrected time decides the place.",
+          "sv": "A3: när ett handikapp- eller respitsystem används bestämmer den korrigerade tiden placeringen."
+        },
+        "source": "RRS A3",
+        "also": []
+      },
+      {
+        "id": "rA3-q3",
+        "prompt": {
+          "fi": "Kuukausi purjehduksen jälkeen mittalukuviranomainen muuttaa omasta aloitteestaan veneen lukua. Pitääkö tulokset laskea uudelleen?",
+          "en": "A month after the race the rating authority changes a boat's rating on its own initiative. Must the race be rescored?",
+          "sv": "En månad efter kappseglingen ändrar utfärdaren på eget initiativ en båts respittal. Måste resultaten räknas om?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: käytetään purjehduksen aikaista lukua",
+              "en": "No: the rating at the time of the race is used",
+              "sv": "Nej: respittalet vid kappseglingen används"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, uudella luvulla",
+              "en": "Yes, with the new rating",
+              "sv": "Ja, med det nya talet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 119: uudelleenlaskenta olisi kilpailulautakunnan virheellinen toimi, josta vene voi saada hyvitystä.",
+          "en": "Case 119: rescoring would be an improper action of the race committee, for which the boat can get redress.",
+          "sv": "Fall 119: en omräkning vore en felaktig åtgärd av kappseglingskommittén, och båten kan få gottgörelse för den."
+        },
+        "source": "Case 119; RRS A3",
+        "also": [
+          "61"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A4",
+    "section": "A",
+    "title": {
+      "fi": "Pistelaskujärjestelmä",
+      "sv": "Poängsystem",
+      "en": "Scoring System"
+    },
+    "explain": {
+      "fi": "Liitteen A järjestelmä on sijalukujärjestelmä (low point), jota käytetään, ellei kilpailukutsu tai purjehdusohjeet määrää muuta. Maaliin tullut vene, joka ei sen jälkeen vetäydy, saa rangaistusta tai hyvitystä, saa sijansa mukaiset pisteet: ensimmäinen 1, toinen 2 ja niin edelleen, yksi piste lisää jokaista sijaa kohden. Jos kilpailulautakunta näkee veneen koskettavan merkkiä tullessaan maaliin, se pisteyttää veneen maaliin tulon mukaan; merkin koskettamisesta voi protestoida (Case 128). Jos vene ylittää maalilinjan kahdesti ja toinen ylitys on sen maaliin tulo, se pisteytetään toisen ylityksen mukaan (Case 148).",
+      "en": "The Appendix A system is a Low Point System, used unless the notice of race or sailing instructions specify another. A boat that finishes and does not then retire, get penalized or get redress scores points for her place: first 1, second 2 and so on, one more point for each place. If the race committee sees a boat touch a mark as she finishes, it scores her by her finish; the touch can be protested (Case 128). If a boat crosses the finishing line twice and the second crossing is her finish, she is scored by the second crossing (Case 148).",
+      "sv": "Systemet i appendix A är ett lågpoängsystem som gäller om inte inbjudan eller seglingsföreskrifterna anger ett annat. En båt som går i mål och inte därefter utgår, straffas eller ges gottgörelse får poäng efter sin placering: etta 1, tvåa 2 och så vidare, en poäng mer för varje placering. Om kappseglingskommittén ser en båt röra ett märke när den går i mål ger den båten poäng efter målgången; beröringen kan protesteras (fall 128). Om en båt korsar mållinjen två gånger och den andra gången är dess målgång, får den poäng efter den andra (fall 148)."
+    },
+    "note": {
+      "fi": "Toisesta pistelaskujärjestelmästä ilmoitetaan kilpailukutsussa (90.3(a), J1.3(5)).",
+      "en": "Another scoring system is stated in the notice of race (90.3(a), J1.3(5)).",
+      "sv": "Ett annat poängsystem anges i inbjudan (90.3a, J1.3(5))."
+    },
+    "source": "RRS A4; Case 128, 148",
+    "defs": [
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "Merkin koskettaminen maaliin tultaessa ei muuta kilpailulautakunnan pisteytystä; asia ratkaistaan protestilla (Case 128).",
+          "en": "Touching a mark while finishing does not change the race committee's scoring; it is decided by protest (Case 128).",
+          "sv": "Att röra ett märke vid målgången ändrar inte kappseglingskommitténs poängsättning; frågan avgörs genom protest (fall 128)."
+        }
+      },
+      {
+        "rules": [
+          "28"
+        ],
+        "note": {
+          "fi": "Ratavirheen korjannut vene saa sijan korjauksen jälkeisen maaliin tulon mukaan (Case 148).",
+          "en": "A boat that corrected a course error is placed by her finish after the correction (Case 148).",
+          "sv": "En båt som har rättat ett fel i att segla banan placeras efter sin målgång efter rättelsen (fall 148)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA4-q1",
+        "prompt": {
+          "fi": "Vene on maalissa 12. eikä sitä rangaista. Montako pistettä se saa?",
+          "en": "A boat finishes 12th and is not penalized. How many points does she score?",
+          "sv": "En båt går i mål som tolva och straffas inte. Hur många poäng får den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "12",
+              "en": "12",
+              "sv": "12"
+            }
+          },
+          {
+            "t": {
+              "fi": "11",
+              "en": "11",
+              "sv": "11"
+            }
+          },
+          {
+            "t": {
+              "fi": "13",
+              "en": "13",
+              "sv": "13"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A4: sija = pisteet; seitsemännen jälkeen jokaisesta sijasta lisätään piste.",
+          "en": "A4: place = points; after seventh, one point is added for each place.",
+          "sv": "A4: placering = poäng; efter sjunde placeringen läggs en poäng till för varje placering."
+        },
+        "source": "RRS A4",
+        "also": []
+      },
+      {
+        "id": "rA4-q2",
+        "prompt": {
+          "fi": "Kilpailulautakunta näkee veneen koskettavan maalimerkkiä tullessaan maaliin. Miten lautakunta pisteyttää sen?",
+          "en": "The race committee sees a boat touch a finishing mark as she finishes. How does it score her?",
+          "sv": "Kappseglingskommittén ser en båt röra ett mållinjemärke när den går i mål. Hur poängsätter kommittén den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Maaliin tulon mukaan; lautakunta tai toinen vene voi protestoida säännön 31 perusteella",
+              "en": "By her finish; the committee or another boat may protest under rule 31",
+              "sv": "Efter målgången; kommittén eller en annan båt får protestera enligt regel 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "DSQ ilman tutkintaa",
+              "en": "DSQ without a hearing",
+              "sv": "DSQ utan förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNF",
+              "en": "DNF",
+              "sv": "DNF"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 128: kilpailulautakunnan on pisteytettävä vene sen maaliin tulon mukaan (A4). Sääntö 60.1 sallii protestin kilpailulautakunnalta, protestilautakunnalta, tekniseltä lautakunnalta tai veneeltä.",
+          "en": "Case 128: the race committee must score the boat by her finish (A4). Rule 60.1 allows a protest by the race committee, protest committee, technical committee or a boat.",
+          "sv": "Fall 128: kappseglingskommittén ska ge båten poäng efter målgången (A4). Regel 60.1 tillåter protest av kappseglingskommittén, protestkommittén, tekniska kommittén eller en båt."
+        },
+        "source": "Case 128; RRS A4, 31, 60.1",
+        "also": [
+          "31",
+          "60"
+        ]
+      },
+      {
+        "id": "rA4-q3",
+        "prompt": {
+          "fi": "Vene ohitti merkin väärältä puolelta, ylitti maalilinjan, palasi kiertämään merkin oikein ja ylitti linjan uudelleen. Sen toiminta oli koko ajan johdonmukaista radan purjehtimisen kanssa. Minkä mukaan se pisteytetään?",
+          "en": "A boat passed a mark on the wrong side, crossed the finishing line, went back to round the mark correctly and crossed the line again. Her actions were consistent with sailing the course throughout. How is she scored?",
+          "sv": "En båt passerade ett märke på fel sida, korsade mållinjen, gick tillbaka och rundade märket rätt och korsade linjen igen. Dess agerande stämde hela tiden med att segla banan. Hur poängsätts den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Toisen ylityksen sijan mukaan",
+              "en": "By her place at the second crossing",
+              "sv": "Efter placeringen vid den andra passagen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ensimmäisen ylityksen sijan mukaan",
+              "en": "By her place at the first crossing",
+              "sv": "Efter placeringen vid den första passagen"
+            }
+          },
+          {
+            "t": {
+              "fi": "DSQ",
+              "en": "DSQ",
+              "sv": "DSQ"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 148: toinen ylitys on maaliin tulo, ja vene korjasi virheensä (28.2). Jos se olisi pysähtynyt luullen jo tulleensa maaliin, ensimmäinen ylitys olisi ollut maaliin tulo ja vene olisi protestin perusteella hylätty (sääntö 28.1).",
+          "en": "Case 148: the second crossing is her finish, and she corrected her error (28.2). Had she stopped thinking she had finished, the first crossing would have been her finish and she would have been disqualified on the protest (rule 28.1).",
+          "sv": "Fall 148: den andra passagen är målgången, och båten rättade sitt fel (28.2). Om den hade stannat i tron att den redan gått i mål hade den första passagen varit målgången och båten hade diskvalificerats på protesten (regel 28.1)."
+        },
+        "source": "Case 148; RRS A4, 28",
+        "also": [
+          "28"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A5",
+    "section": "A",
+    "title": {
+      "fi": "Kilpailulautakunnan määrittämät pisteet",
+      "sv": "Resultat som bestäms av kappseglingskommittén",
+      "en": "Scores Determined by the Race Committee"
+    },
+    "explain": {
+      "fi": "A5.1: kilpailulautakunta pisteyttää veneen ilman tutkintaa, kun se toteaa veneen jättäneen radan purjehtimatta, rikkoneen sääntöä 30.2, 30.3, 30.4 tai 78.2, vetäytyneen tai ottaneen pisterangaistuksen (44.3(a)). Muut veneen tulosta huonontavat toimet kuuluvat vain protestilautakunnalle. A5.2: rataa purjehtimaton, vetäytynyt tai hylätty vene saa pisteet, jotka ovat sarjaan ilmoittautuneiden veneiden määrä plus yksi. Z-lipun rangaistus (30.2) ja pisterangaistus lasketaan säännön 44.3(c) mukaan: ellei muuta ole määrätty, rangaistus on 20 % DNF-pisteistä pyöristettynä kymmenykseen (0,05 ylöspäin), eikä tulos saa olla DNF:ää huonompi. A5.3 (vain jos kilpailukutsu tai purjehdusohjeet niin sanovat): lähtöalueelle tullut, mutta rataa purjehtimaton, vetäytynyt tai hylätty vene saa lähtöalueelle tulleiden määrän plus yksi; lähtöalueelle tulematon saa yhä ilmoittautuneiden määrän plus yksi.",
+      "en": "A5.1: the race committee scores a boat without a hearing when it determines that she did not sail the course, broke rule 30.2, 30.3, 30.4 or 78.2, retired, or took a Scoring Penalty (44.3(a)). Any other action that worsens a boat's score belongs to the protest committee only. A5.2: a boat that did not sail the course, retired or was disqualified scores the number of boats entered in the series plus one. A Z flag penalty (30.2) and a Scoring Penalty are calculated under rule 44.3(c): unless stated otherwise, the penalty is 20% of the DNF score rounded to a tenth (0.05 upward), and the score may not be worse than DNF. A5.3 (only if the notice of race or sailing instructions say so): a boat that came to the starting area but did not sail the course, retired or was disqualified scores the number of boats that came to the starting area plus one; a boat that did not come to the starting area still scores entries plus one.",
+      "sv": "A5.1: kappseglingskommittén ger en båt poäng utan förhandling när den fastställer att båten inte seglade banan, bröt mot regel 30.2, 30.3, 30.4 eller 78.2, utgick eller tog ett poängstraff (44.3a). Andra åtgärder som försämrar en båts poäng får bara protestkommittén vidta. A5.2: en båt som inte seglade banan, utgick eller diskvalificerades får poäng som är antalet båtar anmälda till serien plus en. Z-flaggstraff (30.2) och poängstraff beräknas enligt regel 44.3c: om inget annat anges är straffet 20 % av poängen för DNF avrundat till en tiondel (0,05 uppåt), och resultatet får inte bli sämre än DNF. A5.3 (bara om inbjudan eller seglingsföreskrifterna anger det): en båt som kom till startområdet men inte seglade banan, utgick eller diskvalificerades får antalet båtar som kom till startområdet plus en; en båt som inte kom till startområdet får fortfarande antalet anmälda plus en."
+    },
+    "note": {
+      "fi": "Liite B lisää A5.4:n: karsintasarjan purjehduksessa rataa purjehtimaton, vetäytynyt tai hylätty lauta saa purjehdukseen sallittujen lautojen määrän mukaiset pisteet. Liite F: karsintasarjan purjehduksessa pisteet määräytyvät erän leijalautojen määrän mukaan. Liite J (J1.3(5)): kilpailukutsussa voidaan ilmoittaa, että A5.3 on voimassa, jos lähtijöiden määrä vaihtelee paljon.",
+      "en": "Appendix B adds A5.4: in an elimination series race, a board that did not sail the course, retired or was disqualified scores the number of boards permitted to sail in that race. Appendix F: in an elimination series race, the score depends on the number of kiteboards in the heat. Appendix J (J1.3(5)): the notice of race may state that A5.3 applies when the number of starters may vary a lot.",
+      "sv": "Appendix B lägger till A5.4: i en kappsegling i en utslagningsserie får en bräda som inte seglade banan, utgick eller diskvalificerades poäng lika med antalet brädor som får segla i den kappseglingen. Appendix F: i en kappsegling i en utslagningsserie beror poängen på antalet kiteboards i heatet. Appendix J (J1.3(5)): inbjudan kan ange att A5.3 gäller när antalet startande kan variera mycket."
+    },
+    "source": "RRS A5, 30, 44.3(c), 78.2, B8, F8, J1.3(5); Case 28, 128, 131, 140",
+    "defs": [
+      "Sail the Course",
+      "Start"
+    ],
+    "links": [
+      {
+        "rules": [
+          "30"
+        ],
+        "note": {
+          "fi": "Lähtörangaistukset ZFP, UFD ja BFD pisteytetään ilman tutkintaa.",
+          "en": "The starting penalties ZFP, UFD and BFD are scored without a hearing.",
+          "sv": "Startstraffen ZFP, UFD och BFD poängsätts utan förhandling."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Pisterangaistuksen laskutapa on 44.3(c):ssä.",
+          "en": "The Scoring Penalty calculation is in 44.3(c).",
+          "sv": "Beräkningen av poängstraff finns i 44.3c."
+        }
+      },
+      {
+        "rules": [
+          "78"
+        ],
+        "note": {
+          "fi": "Puuttuva mittakirja: DSQ kaikista purjehduksista ilman tutkintaa (Case 131).",
+          "en": "Missing certificate: DSQ in all races without a hearing (Case 131).",
+          "sv": "Saknat mätbrev: DSQ i alla kappseglingar utan förhandling (fall 131)."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Muut tulosta huonontavat ratkaisut vaativat protestilautakunnan tutkinnan.",
+          "en": "Other decisions that worsen a score need a protest committee hearing.",
+          "sv": "Andra beslut som försämrar ett resultat kräver förhandling i protestkommittén."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA5-q1",
+        "prompt": {
+          "fi": "Sarjaan on ilmoittautunut 20 venettä. Vene ottaa Z-lipun rangaistuksen ja tulee maaliin viidentenä. Montako pistettä se saa, kun muuta ei ole määrätty?",
+          "en": "Twenty boats entered the series. A boat gets a Z flag penalty and finishes fifth. How many points does she score when nothing else is stated?",
+          "sv": "Tjugo båtar är anmälda till serien. En båt får Z-flaggstraff och går i mål som femma. Hur många poäng får den när inget annat anges?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "9,2",
+              "en": "9.2",
+              "sv": "9,2"
+            }
+          },
+          {
+            "t": {
+              "fi": "6",
+              "en": "6",
+              "sv": "6"
+            }
+          },
+          {
+            "t": {
+              "fi": "21",
+              "en": "21",
+              "sv": "21"
+            }
+          }
+        ],
+        "why": {
+          "fi": "DNF on 21 pistettä; 20 % siitä on 4,2. 5 + 4,2 = 9,2 (44.3(c)). Muiden veneiden pisteitä ei muuteta.",
+          "en": "DNF is 21 points; 20% of that is 4.2. 5 + 4.2 = 9.2 (44.3(c)). The other boats' scores are not changed.",
+          "sv": "DNF ger 21 poäng; 20 % av det är 4,2. 5 + 4,2 = 9,2 (44.3c). De andra båtarnas poäng ändras inte."
+        },
+        "source": "RRS A5.2, 30.2, 44.3(c)",
+        "also": [
+          "30",
+          "44"
+        ]
+      },
+      {
+        "id": "rA5-q2",
+        "prompt": {
+          "fi": "Sama 20 veneen sarja: vene saa Z-lipun rangaistuksen ja tulee maaliin 18:ntena. Montako pistettä se saa?",
+          "en": "Same 20-boat series: a boat gets a Z flag penalty and finishes 18th. How many points does she score?",
+          "sv": "Samma serie med 20 båtar: en båt får Z-flaggstraff och går i mål som artonde. Hur många poäng får den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "21",
+              "en": "21",
+              "sv": "21"
+            }
+          },
+          {
+            "t": {
+              "fi": "22,2",
+              "en": "22.2",
+              "sv": "22,2"
+            }
+          },
+          {
+            "t": {
+              "fi": "18",
+              "en": "18",
+              "sv": "18"
+            }
+          }
+        ],
+        "why": {
+          "fi": "18 + 4,2 = 22,2, mutta rangaistus ei saa tehdä tuloksesta DNF:ää (21) huonompaa (44.3(c)).",
+          "en": "18 + 4.2 = 22.2, but the penalty may not make the score worse than DNF (21) (44.3(c)).",
+          "sv": "18 + 4,2 = 22,2, men straffet får inte göra resultatet sämre än DNF (21) (44.3c)."
+        },
+        "source": "RRS 44.3(c), A5.2",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rA5-q3",
+        "prompt": {
+          "fi": "Kilpailukutsun mukaan A5.3 on voimassa. Ilmoittautuneita on 30, lähtöalueelle tulee 22. Paljonko saa lähtöalueelle tullut mutta vetäytynyt vene ja paljonko lähtöalueelle tulematon?",
+          "en": "The notice of race says A5.3 applies. 30 boats entered, 22 came to the starting area. What does a boat that came but retired score, and one that did not come?",
+          "sv": "Inbjudan anger att A5.3 gäller. 30 båtar är anmälda och 22 kommer till startområdet. Vad får en båt som kom men utgick, och en som inte kom?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "23 ja 31",
+              "en": "23 and 31",
+              "sv": "23 och 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "31 ja 31",
+              "en": "31 and 31",
+              "sv": "31 och 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "23 ja 23",
+              "en": "23 and 23",
+              "sv": "23 och 23"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A5.3: lähtöalueelle tulleet + 1 = 23; tulematon saa ilmoittautuneet + 1 = 31.",
+          "en": "A5.3: boats that came + 1 = 23; a boat that did not come scores entries + 1 = 31.",
+          "sv": "A5.3: båtar som kom + 1 = 23; en båt som inte kom får anmälda + 1 = 31."
+        },
+        "source": "RRS A5.3",
+        "also": []
+      },
+      {
+        "id": "rA5-q4",
+        "prompt": {
+          "fi": "Kilpailulautakunta näkee veneen ohittavan merkin väärältä puolelta, eikä vene korjaa virhettään. Mitä lautakunnan pitää tehdä?",
+          "en": "The race committee sees a boat pass a mark on the wrong side, and she does not correct the error. What must the committee do?",
+          "sv": "Kappseglingskommittén ser en båt passera ett märke på fel sida, och båten rättar inte felet. Vad ska kommittén göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pisteyttää vene NSC ilman tutkintaa",
+              "en": "Score her NSC without a hearing",
+              "sv": "Notera den NSC utan förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Protestoida ja odottaa tutkintaa",
+              "en": "Protest her and wait for a hearing",
+              "sv": "Protestera mot den och vänta på förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, ellei joku protestoi",
+              "en": "Nothing unless someone protests",
+              "sv": "Ingenting om ingen protesterar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 128: A5.1 ja A5.2 velvoittavat pisteyttämään rataa purjehtimattoman veneen; lyhenne on NSC (A10).",
+          "en": "Case 128: A5.1 and A5.2 require the committee to score a boat that did not sail the course; the abbreviation is NSC (A10).",
+          "sv": "Fall 128: A5.1 och A5.2 kräver att kommittén poängsätter en båt som inte seglade banan; förkortningen är NSC (A10)."
+        },
+        "source": "Case 128; RRS A5.1, A5.2, A10",
+        "also": [
+          "28",
+          "A10"
+        ]
+      },
+      {
+        "id": "rA5-q5",
+        "prompt": {
+          "fi": "Purjehdusohjeiden mukaan mittakirja on esitettävä ennen purjehdusta. Vene antaa vain allekirjoitetun vakuutuksen, eikä mittakirjaa ole esitetty tai tarkistettu viimeisen päivän alkuun mennessä. Mitä kilpailulautakunta tekee?",
+          "en": "The sailing instructions require a certificate to be produced before racing. A boat gives only a signed statement, and the certificate has not been produced or verified by the start of the last day. What does the race committee do?",
+          "sv": "Seglingsföreskrifterna kräver att mätbrevet visas upp före kappseglingen. En båt lämnar bara en undertecknad försäkran, och mätbrevet har varken visats upp eller kontrollerats när sista dagen börjar. Vad gör kappseglingskommittén?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pisteyttää veneen DSQ kaikista purjehduksista ilman tutkintaa",
+              "en": "Scores her DSQ in all races without a hearing",
+              "sv": "Ger båten DSQ i alla kappseglingar utan förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Protestoi venettä",
+              "en": "Protests her",
+              "sv": "Protesterar mot den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, vakuutus riittää",
+              "en": "Nothing; the statement is enough",
+              "sv": "Ingenting; försäkran räcker"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 131: sääntö 78.2 ja A5.1.",
+          "en": "Case 131: rules 78.2 and A5.1.",
+          "sv": "Fall 131: reglerna 78.2 och A5.1."
+        },
+        "source": "Case 131; RRS 78.2, A5.1",
+        "also": [
+          "78"
+        ]
+      },
+      {
+        "id": "rA5-q6",
+        "prompt": {
+          "fi": "U-lippulähdössä toinen vene pakottaa A:n lähtölinjan yli viimeisellä minuutilla osan 2 sääntöä rikkoen. A ei palaa, vaan purjehtii radan. Se vapautetaan säännön 30.3 rikkomisesta. Mikä tulos sille kirjataan?",
+          "en": "In a U flag start another boat, breaking a rule of Part 2, forces A over the line in the last minute. A does not return but sails the course. She is exonerated for breaking rule 30.3. What is her score?",
+          "sv": "I en start med U-flagg tvingar en annan båt, som bryter mot en regel i del 2, A över linjen under sista minuten. A återvänder inte utan seglar banan. A frias för brottet mot regel 30.3. Vilket resultat får den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "OCS: se ei lähtenyt, vaikka olisi voinut palata",
+              "en": "OCS: she did not start although she could have returned",
+              "sv": "OCS: den startade inte fast den hade kunnat återvända"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sija maaliin tulon mukaan",
+              "en": "Her finishing place",
+              "sv": "Sin placering i mål"
+            }
+          },
+          {
+            "t": {
+              "fi": "UFD",
+              "en": "UFD",
+              "sv": "UFD"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 140: rikkomus ei estänyt A:ta palaamasta ja lähtemästä. Kilpailulautakunnan oli pisteytettävä se OCS (A5.1). Jos A olisi palannut ja lähtenyt, se olisi saanut sijansa.",
+          "en": "Case 140: the breach did not prevent A from returning and starting. The race committee had to score her OCS (A5.1). Had she returned and started, she would have got her place.",
+          "sv": "Fall 140: regelbrottet hindrade inte A från att återvända och starta. Kappseglingskommittén skulle ge den OCS (A5.1). Om A hade återvänt och startat hade den fått sin placering."
+        },
+        "source": "Case 140; RRS A5.1, 30.3, 43.1(a)",
+        "also": [
+          "30",
+          "43"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A6",
+    "section": "A",
+    "title": {
+      "fi": "Muutokset muiden veneiden sijoihin ja pisteisiin",
+      "sv": "Ändring av placeringar och poäng för andra båtar",
+      "en": "Changes in Places and Scores of Other Boats"
+    },
+    "explain": {
+      "fi": "A6.1: kun vene hylätään, vetäytyy maaliin tulon jälkeen tai saa tuloksen NSC, jokainen sen takana maaliin tullut vene nousee yhden sijan. A6.2: kun protestilautakunta antaa hyvitystä muuttamalla veneen pisteitä, muiden veneiden pisteet eivät muutu, ellei lautakunta toisin päätä. Pisterangaistus ja Z-lipun rangaistus eivät siirrä muita veneitä (44.3(c)), joten kahdella veneellä voi olla sama tulos. Jos vapautettu vene palautetaan maaliin tulon mukaiselle sijalle, sen takana olleet siirtyvät sijan alaspäin (Case 140).",
+      "en": "A6.1: when a boat is disqualified, retires after finishing or is scored NSC, every boat that finished behind her moves up one place. A6.2: when the protest committee gives redress by changing a boat's score, other boats' scores are not changed unless the committee decides otherwise. A Scoring Penalty or a Z flag penalty does not move other boats (44.3(c)), so two boats may get the same score. If an exonerated boat is reinstated in her finishing place, the boats behind her move down one place (Case 140).",
+      "sv": "A6.1: när en båt diskvalificeras, utgår efter att ha gått i mål eller får NSC flyttas varje båt som gick i mål efter den upp en placering. A6.2: när protestkommittén ger gottgörelse genom att ändra en båts poäng ändras inte andra båtars poäng om inte kommittén beslutar annat. Poängstraff och Z-flaggstraff flyttar inte andra båtar (44.3c), så två båtar kan få samma poäng. Om en friad båt återfår sin placering i mål flyttas båtarna bakom den ned en placering (fall 140)."
+    },
+    "note": {
+      "fi": "Kilpailulautakunta korjaa itse huomaamansa pistelaskuvirheet (90.3(c)) ja toteuttaa protestilautakunnan määräämät muutokset (90.3(d)).",
+      "en": "The race committee corrects scoring errors it finds itself (90.3(c)) and implements changes directed by the protest committee (90.3(d)).",
+      "sv": "Kappseglingskommittén rättar själv fel i poängberäkningen som den upptäcker (90.3c) och genomför ändringar som protestkommittén beslutar (90.3d)."
+    },
+    "source": "RRS A6, 44.3(c); Case 140",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Pisterangaistus ei muuta muiden pisteitä (44.3(c)).",
+          "en": "A Scoring Penalty does not change other boats' scores (44.3(c)).",
+          "sv": "Poängstraff ändrar inte andra båtars poäng (44.3c)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA6-q1",
+        "prompt": {
+          "fi": "Kolmanneksi maaliin tullut vene hylätään. Mitä tapahtuu neljänneksi tulleelle?",
+          "en": "The boat that finished third is disqualified. What happens to the boat that finished fourth?",
+          "sv": "Båten som gick i mål som trea diskvalificeras. Vad händer med båten som gick i mål som fyra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Se nousee kolmanneksi ja saa 3 pistettä",
+              "en": "She moves up to third and scores 3 points",
+              "sv": "Den flyttas upp till tredje plats och får 3 poäng"
+            }
+          },
+          {
+            "t": {
+              "fi": "Se pysyy neljäntenä",
+              "en": "She stays fourth",
+              "sv": "Den förblir fyra"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A6.1.",
+          "en": "A6.1.",
+          "sv": "A6.1."
+        },
+        "source": "RRS A6.1",
+        "also": []
+      },
+      {
+        "id": "rA6-q2",
+        "prompt": {
+          "fi": "Viidenneksi tullut vene saa pisterangaistuksen. Muuttuvatko kuudennen pisteet?",
+          "en": "The boat that finished fifth takes a Scoring Penalty. Do the sixth boat's points change?",
+          "sv": "Båten som gick i mål som femma tar ett poängstraff. Ändras sexans poäng?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, se nousee viidenneksi",
+              "en": "Yes, she moves up to fifth",
+              "sv": "Ja, den flyttas upp till femte plats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "44.3(c): muiden pisteitä ei muuteta, joten kaksi venettä voi saada saman tuloksen. A6.1 koskee vain hylkäystä, vetäytymistä maaliin tulon jälkeen ja NSC:tä.",
+          "en": "44.3(c): other scores are not changed, so two boats may score the same. A6.1 covers only disqualification, retiring after finishing and NSC.",
+          "sv": "44.3c: andra båtars poäng ändras inte, så två båtar kan få samma poäng. A6.1 gäller bara diskvalificering, att utgå efter målgång och NSC."
+        },
+        "source": "RRS 44.3(c), A6.1",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rA6-q3",
+        "prompt": {
+          "fi": "Protestilautakunta antaa veneelle hyvitykseksi sijan 4. Siirtyvätkö muut veneet?",
+          "en": "The protest committee gives a boat 4th place as redress. Do other boats move?",
+          "sv": "Protestkommittén ger en båt fjärde plats som gottgörelse. Flyttas andra båtar?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, ellei lautakunta niin päätä",
+              "en": "No, unless the committee decides so",
+              "sv": "Nej, om inte kommittén beslutar det"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kaikki sen takana siirtyvät sijan alaspäin",
+              "en": "Yes, everyone behind moves down a place",
+              "sv": "Ja, alla bakom flyttas ned en placering"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A6.2.",
+          "en": "A6.2.",
+          "sv": "A6.2."
+        },
+        "source": "RRS A6.2",
+        "also": [
+          "61"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A7",
+    "section": "A",
+    "title": {
+      "fi": "Kilpapurjehduksen tasasijat",
+      "sv": "Lika placering i en kappsegling",
+      "en": "Race Ties"
+    },
+    "explain": {
+      "fi": "Jos veneet tulevat maaliin tasan tai niiden tasoitetut ajat ovat samat, tasasijan ja sitä seuraavien sijojen pisteet lasketaan yhteen ja jaetaan tasan. Esimerkiksi kaksi venettä tasan toisena saa kumpikin (2 + 3) / 2 = 2,5 pistettä, ja seuraava vene on neljäs. Tasan palkintosijalla olevat jakavat palkinnon tai saavat samanarvoiset palkinnot.",
+      "en": "If boats tie at the finishing line or have equal corrected times, the points for the tied place and the place(s) just below are added and shared equally. For example, two boats tied for second each score (2 + 3) / 2 = 2.5, and the next boat is fourth. Boats tied for a race prize share it or get equal prizes.",
+      "sv": "Om båtar får lika placering i mål eller samma korrigerade tid läggs poängen för den delade placeringen och placeringen eller placeringarna närmast under ihop och delas lika. Till exempel får två båtar som delar andra plats (2 + 3) / 2 = 2,5 poäng var, och nästa båt är fyra. Båtar som delar en prisplacering i kappseglingen delar priset eller får likvärdiga priser."
+    },
+    "note": {
+      "fi": "Tasasija määräytyy tasoitetuista ajoista samalla tavalla kuin maaliin tulosta (A3).",
+      "en": "A tie on corrected times is handled the same way as a tie at the finish (A3).",
+      "sv": "Lika korrigerad tid behandlas på samma sätt som lika placering i mål (A3)."
+    },
+    "source": "RRS A7",
+    "defs": [
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "A8"
+        ],
+        "note": {
+          "fi": "Sarjan tasapisteet ratkaistaan A8:n mukaan.",
+          "en": "Series ties are broken under A8.",
+          "sv": "Lika placering i en serie avgörs enligt A8."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA7-q1",
+        "prompt": {
+          "fi": "Kolme venettä tulee maaliin tasan neljäntenä. Montako pistettä kukin saa?",
+          "en": "Three boats tie for fourth. How many points does each score?",
+          "sv": "Tre båtar delar fjärde plats. Hur många poäng får var och en?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "5",
+              "en": "5",
+              "sv": "5"
+            }
+          },
+          {
+            "t": {
+              "fi": "4",
+              "en": "4",
+              "sv": "4"
+            }
+          },
+          {
+            "t": {
+              "fi": "4,5",
+              "en": "4.5",
+              "sv": "4,5"
+            }
+          }
+        ],
+        "why": {
+          "fi": "(4 + 5 + 6) / 3 = 5. Seuraava vene on seitsemäs.",
+          "en": "(4 + 5 + 6) / 3 = 5. The next boat is seventh.",
+          "sv": "(4 + 5 + 6) / 3 = 5. Nästa båt är sjua."
+        },
+        "source": "RRS A7",
+        "also": []
+      },
+      {
+        "id": "rA7-q2",
+        "prompt": {
+          "fi": "Kaksi venettä tulee maaliin tasan ensimmäisenä, ja purjehduksesta jaetaan palkinto voittajalle. Mitä palkinnolle tehdään?",
+          "en": "Two boats tie for first, and the race has a prize for the winner. What happens to the prize?",
+          "sv": "Två båtar delar första plats, och kappseglingen har ett pris för segraren. Vad händer med priset?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneet jakavat sen tai saavat samanarvoiset palkinnot",
+              "en": "They share it or get equal prizes",
+              "sv": "De delar det eller får likvärdiga priser"
+            }
+          },
+          {
+            "t": {
+              "fi": "Arvotaan",
+              "en": "It is drawn by lot",
+              "sv": "Det lottas"
+            }
+          },
+          {
+            "t": {
+              "fi": "Palkinto annetaan paremman sarjasijoituksen veneelle",
+              "en": "It goes to the boat higher in the series",
+              "sv": "Det går till båten som ligger bäst till i serien"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A7:n viimeinen virke.",
+          "en": "The last sentence of A7.",
+          "sv": "Sista meningen i A7."
+        },
+        "source": "RRS A7",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "A8",
+    "section": "A",
+    "title": {
+      "fi": "Sarjan tasasijat",
+      "sv": "Lika placering i en serie",
+      "en": "Series Ties"
+    },
+    "explain": {
+      "fi": "A8.1: jos veneillä on sama kokonaispistemäärä, kunkin veneen tulokset listataan parhaasta huonoimpaan ilman pois jätettyjä tuloksia, ja tasapeli ratkeaa ensimmäisessä kohdassa, jossa listat eroavat, paremman tuloksen veneen hyväksi. A8.2: jos tasapeli jatkuu, ratkaisee viimeisen purjehduksen tulos, sitten toiseksi viimeisen ja niin edelleen. Tässä vaiheessa käytetään myös pois jätettyjä tuloksia.",
+      "en": "A8.1: if boats have the same series score, each boat's race scores are listed best to worst without excluded scores, and the tie is broken at the first point where the lists differ, in favour of the better score. A8.2: if the tie remains, the score in the last race decides, then the next-to-last, and so on. At this stage excluded scores are used too.",
+      "sv": "A8.1: om båtar har samma slutpoäng listas varje båts resultat från bästa till sämsta utan borträknade resultat, och den båt som har det bättre resultatet första gången listorna skiljer sig placeras före. A8.2: om de fortfarande ligger lika avgör resultatet i sista kappseglingen, sedan i den näst sista och så vidare. I det här skedet används även borträknade resultat."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu) muuttaa A8:n: ensin verrataan pois jätettyjä tuloksia parhaasta huonoimpaan, sitten kaikkia tuloksia, ja vasta sitten viimeistä purjehdusta.",
+      "en": "Appendix B (windsurfing) changes A8: first the excluded scores are compared best to worst, then all scores, and only then the last race.",
+      "sv": "Appendix B (vindsurfing) ändrar A8: först jämförs de borträknade resultaten från bästa till sämsta, sedan alla resultat och först därefter sista kappseglingen."
+    },
+    "source": "RRS A8, B8",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "A2"
+        ],
+        "note": {
+          "fi": "Pois jätettävät tulokset: A2.1.",
+          "en": "Excluded scores: A2.1.",
+          "sv": "Borträknade resultat: A2.1."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA8-q1",
+        "prompt": {
+          "fi": "Huonoin tulos jätetään pois. X:n tulokset ovat 1, 4, 3, 2, 6 ja Y:n 2, 2, 3, 3, 5. Kumpi on edellä?",
+          "en": "The worst score is excluded. X's scores are 1, 4, 3, 2, 6 and Y's are 2, 2, 3, 3, 5. Which is ahead?",
+          "sv": "Det sämsta resultatet räknas bort. X:s resultat är 1, 4, 3, 2, 6 och Y:s 2, 2, 3, 3, 5. Vilken ligger före?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "X",
+              "en": "X",
+              "sv": "X"
+            }
+          },
+          {
+            "t": {
+              "fi": "Y",
+              "en": "Y",
+              "sv": "Y"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tasan, ratkaistaan arvalla",
+              "en": "Tied, decided by lot",
+              "sv": "Lika, avgörs med lottning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Molemmilla on 10 pistettä. Listat ilman pois jätettyjä: X 1, 2, 3, 4 ja Y 2, 2, 3, 3. Ensimmäinen ero on heti alussa: 1 on parempi kuin 2 (A8.1).",
+          "en": "Both have 10 points. The lists without excluded scores: X 1, 2, 3, 4 and Y 2, 2, 3, 3. The first difference is right at the start: 1 beats 2 (A8.1).",
+          "sv": "Båda har 10 poäng. Listorna utan borträknade resultat: X 1, 2, 3, 4 och Y 2, 2, 3, 3. Den första skillnaden kommer direkt: 1 är bättre än 2 (A8.1)."
+        },
+        "source": "RRS A8.1",
+        "also": []
+      },
+      {
+        "id": "rA8-q2",
+        "prompt": {
+          "fi": "Huonoin tulos jätetään pois. X:n tulokset ovat 3, 1, 2, 5 ja Y:n 1, 2, 3, 6. Kumpi on edellä?",
+          "en": "The worst score is excluded. X's scores are 3, 1, 2, 5 and Y's are 1, 2, 3, 6. Which is ahead?",
+          "sv": "Det sämsta resultatet räknas bort. X:s resultat är 3, 1, 2, 5 och Y:s 1, 2, 3, 6. Vilken ligger före?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "X, koska se oli viimeisessä purjehduksessa parempi",
+              "en": "X, because she was better in the last race",
+              "sv": "X, eftersom den var bättre i sista kappseglingen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Y, koska se voitti ensimmäisen purjehduksen",
+              "en": "Y, because she won the first race",
+              "sv": "Y, eftersom den vann första kappseglingen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tasan",
+              "en": "Tied",
+              "sv": "Lika"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Molemmilla on 6 pistettä, ja listat 1, 2, 3 ovat samat (A8.1). A8.2: viimeisessä purjehduksessa X 5 ja Y 6, joten X on edellä. Pois jätetyt tulokset käytetään tässä vaiheessa.",
+          "en": "Both have 6 points and the lists 1, 2, 3 are identical (A8.1). A8.2: in the last race X scored 5 and Y 6, so X is ahead. Excluded scores are used at this stage.",
+          "sv": "Båda har 6 poäng och listorna 1, 2, 3 är lika (A8.1). A8.2: i sista kappseglingen fick X 5 och Y 6, så X ligger före. Borträknade resultat används i det här skedet."
+        },
+        "source": "RRS A8.1, A8.2",
+        "also": []
+      },
+      {
+        "id": "rA8-q3",
+        "prompt": {
+          "fi": "Käytetäänkö A8.1:n vertailussa pois jätettyjä tuloksia?",
+          "en": "Are excluded scores used in the A8.1 comparison?",
+          "sv": "Används borträknade resultat i jämförelsen enligt A8.1?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; vasta A8.2:ssa",
+              "en": "No; only in A8.2",
+              "sv": "Nej; först i A8.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A8.1:n viimeinen virke ja A8.2:n viimeinen virke.",
+          "en": "The last sentences of A8.1 and A8.2.",
+          "sv": "Sista meningarna i A8.1 och A8.2."
+        },
+        "source": "RRS A8",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "A9",
+    "section": "A",
+    "title": {
+      "fi": "Hyvitysohjeita",
+      "sv": "Rekommendationer vid gottgörelse",
+      "en": "Guidance on Redress"
+    },
+    "explain": {
+      "fi": "Kun protestilautakunta antaa hyvitystä muuttamalla veneen pisteitä purjehduksesta, sen kannattaa harkita (a) veneen kaikkien muiden sarjan purjehdusten pisteiden keskiarvoa, (b) ennen kyseistä purjehdusta saatujen pisteiden keskiarvoa tai (c) pisteitä, jotka perustuvat veneen sijaintiin purjehduksessa hyvitykseen johtaneen tapahtuman hetkellä. Keskiarvot pyöristetään kymmenykseen, 0,05 ylöspäin. Kohdat ovat ohjeita, eivät velvoitteita; hyvityksen pitää olla mahdollisimman oikeudenmukainen kaikille veneille (61.4(c)). Case 116: kokonaispistemäärään laskettavista tuloksista alle puolet saa perustua keskiarvoon.",
+      "en": "When the protest committee gives redress by changing a boat's points for a race, it is advised to consider (a) the average of her points in all other races of the series, (b) the average of her points in the races before that race, or (c) points based on her position in the race when the incident happened. Averages are rounded to a tenth, 0.05 upward. These are guidance, not requirements; redress must be as fair as possible to all boats affected (61.4(c)). Case 116: fewer than half of the scores counted in the series score may be based on averages.",
+      "sv": "När protestkommittén ger gottgörelse genom att ändra en båts poäng i en kappsegling bör den överväga a) medeltalet av båtens poäng i alla andra kappseglingar i serien, b) medeltalet av poängen i kappseglingarna före den aktuella eller c) poäng baserade på båtens placering i kappseglingen när händelsen inträffade. Medeltalen avrundas till en tiondel, 0,05 uppåt. Det är rekommendationer, inte krav; gottgörelsen ska vara så rättvis som möjligt för alla berörda båtar (61.4c). Fall 116: färre än hälften av de resultat som räknas i slutpoängen får grunda sig på medeltal."
+    },
+    "note": {
+      "fi": "Hyvitys kirjataan lyhenteellä RDG (A10).",
+      "en": "Redress is recorded as RDG (A10).",
+      "sv": "Gottgörelse noteras RDG (A10)."
+    },
+    "source": "RRS A9, 61.4(c); Case 116",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Hyvityksen perusteet ja ratkaisut: sääntö 61.4.",
+          "en": "Grounds and decisions for redress: rule 61.4.",
+          "sv": "Grunder och beslut om gottgörelse: regel 61.4."
+        }
+      },
+      {
+        "rules": [
+          "A6"
+        ],
+        "note": {
+          "fi": "Hyvitys ei muuta muiden pisteitä, ellei lautakunta niin päätä (A6.2).",
+          "en": "Redress does not change other scores unless the committee decides so (A6.2).",
+          "sv": "Gottgörelse ändrar inte andra båtars poäng om inte kommittén beslutar det (A6.2)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 116,
+        "title": {
+          "fi": "Kaksi purjehdusta riitti voittoon",
+          "en": "Two races were enough to win",
+          "sv": "Två kappseglingar räckte till seger"
+        },
+        "text": {
+          "fi": "Kaksipäiväisessä kilpailussa oli viisi purjehdusta, ja huonoin jätettiin pois. A oli ensimmäisessä purjehduksessa toinen ja toisessa viides. Ennen kolmatta purjehdusta B törmäsi A:han, ja vauriot estivät A:ta jatkamasta. A sai hyvitystä: protestilautakunta antoi sille kohtien A9(b) mukaan purjehduksista 3 ja 4 kahden ensimmäisen keskiarvon. Viidennen purjehduksen DNC jätettiin pois, ja A voitti kilpailun.",
+          "en": "A two-day event had five races, with the worst excluded. A was second in race 1 and fifth in race 2. Before race 3, B collided with A, and the damage stopped A from continuing. A got redress: the protest committee gave her the average of her first two races for races 3 and 4 under A9(b). Her DNC in race 5 was excluded, and A won the event.",
+          "sv": "Ett tvådagarsevenemang hade fem kappseglingar och det sämsta resultatet räknades bort. A var tvåa i första kappseglingen och femma i andra. Före tredje kappseglingen kolliderade B med A, och skadorna hindrade A från att fortsätta. A fick gottgörelse: protestkommittén gav den medeltalet av de två första kappseglingarna i kappsegling 3 och 4 enligt A9b. DNC i femte kappseglingen räknades bort, och A vann evenemanget."
+        },
+        "answer": {
+          "fi": "Lautakunta ei rikkonut sääntöä, mutta ratkaisu ei ollut oikeudenmukaisin kaikille veneille (61.4(c)). Kun neljästä lasketusta tuloksesta kaksi oli keskiarvoja, se oli muille epäreilua. Lasketuista tuloksista alle puolet saa perustua keskiarvoon. Yksi vaihtoehto olisi ollut antaa hyvitystä vain törmäyspurjehduksesta.",
+          "en": "The committee broke no rule, but the decision was not the fairest for all boats (61.4(c)). With two of the four counted scores being averages, it was unfair to the others. Fewer than half of the counted scores may be based on averages. One option would have been to give redress only for the race of the collision.",
+          "sv": "Kommittén bröt inte mot någon regel, men beslutet var inte det rättvisaste för alla båtar (61.4c). När två av de fyra resultat som räknades var medeltal blev det orättvist mot de andra. Färre än hälften av de resultat som räknas får grunda sig på medeltal. Ett alternativ hade varit att ge gottgörelse bara för kappseglingen med kollisionen."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 116"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rA9-q1",
+        "prompt": {
+          "fi": "Veneen tulokset ovat 2, 5, (hyvitettävä purjehdus), 1 ja 1. Mikä on A9(a):n mukainen keskiarvo?",
+          "en": "A boat's scores are 2, 5, (race given redress), 1 and 1. What is the average under A9(a)?",
+          "sv": "En båts resultat är 2, 5, (kappsegling med gottgörelse), 1 och 1. Vilket är medeltalet enligt A9a?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "2,3",
+              "en": "2.3",
+              "sv": "2,3"
+            }
+          },
+          {
+            "t": {
+              "fi": "2,2",
+              "en": "2.2",
+              "sv": "2,2"
+            }
+          },
+          {
+            "t": {
+              "fi": "3,5",
+              "en": "3.5",
+              "sv": "3,5"
+            }
+          }
+        ],
+        "why": {
+          "fi": "(2 + 5 + 1 + 1) / 4 = 2,25, joka pyöristetään ylöspäin: 2,3. A9(b) antaisi ennen kyseistä purjehdusta saatujen keskiarvon (2 + 5) / 2 = 3,5.",
+          "en": "(2 + 5 + 1 + 1) / 4 = 2.25, rounded upward: 2.3. A9(b) would give the average before that race, (2 + 5) / 2 = 3.5.",
+          "sv": "(2 + 5 + 1 + 1) / 4 = 2,25, avrundat uppåt: 2,3. A9b skulle ge medeltalet före den aktuella kappseglingen, (2 + 5) / 2 = 3,5."
+        },
+        "source": "RRS A9(a), A9(b)",
+        "also": []
+      },
+      {
+        "id": "rA9-q2",
+        "prompt": {
+          "fi": "Onko protestilautakunnan pakko käyttää jotakin A9:n vaihtoehdoista?",
+          "en": "Must the protest committee use one of the A9 options?",
+          "sv": "Måste protestkommittén använda något av alternativen i A9?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: ne ovat ohjeita, ja ratkaisun pitää olla mahdollisimman oikeudenmukainen kaikille",
+              "en": "No: they are guidance, and the decision must be as fair as possible to all",
+              "sv": "Nej: de är rekommendationer, och beslutet ska vara så rättvist som möjligt för alla"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Englanninkielinen A9 neuvoo harkitsemaan vaihtoehtoja (”is advised to consider”); suomenkielinen kirja sanoo ”pitää harkita”. Harkittava ei ole pakollinen. Sääntö 61.4(c) vaatii mahdollisimman oikeudenmukaisen järjestelyn kaikille veneille.",
+          "en": "A9 uses the word 'advised'. Rule 61.4(c) requires the fairest possible arrangement for all boats.",
+          "sv": "A9 säger att kommittén ”bör överväga” alternativen. Regel 61.4c kräver den rättvisaste möjliga lösningen för alla båtar."
+        },
+        "source": "RRS A9, 61.4(c)",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "rA9-q3",
+        "prompt": {
+          "fi": "Sarjassa on viisi purjehdusta, ja huonoin jätetään pois. Vene vaurioituu toisen veneen virheestä ensimmäisenä päivänä eikä voi jatkaa. Monenko lasketun tuloksen saa enintään perustua keskiarvoon?",
+          "en": "A series has five races with the worst excluded. A boat is damaged by another boat's breach on the first day and cannot continue. At most how many counted scores may be based on averages?",
+          "sv": "En serie har fem kappseglingar och det sämsta resultatet räknas bort. En båt skadas genom en annan båts regelbrott första dagen och kan inte fortsätta. Hur många av de resultat som räknas får högst grunda sig på medeltal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden",
+              "en": "One",
+              "sv": "En"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden",
+              "en": "Two",
+              "sv": "Två"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaikkien puuttuvien",
+              "en": "All the missing ones",
+              "sv": "Alla som saknas"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Lasketaan neljä tulosta, ja alle puolet niistä saa perustua keskiarvoon, eli enintään yksi (Case 116).",
+          "en": "Four scores count, and fewer than half may be averages, so at most one (Case 116).",
+          "sv": "Fyra resultat räknas, och färre än hälften får vara medeltal, alltså högst ett (fall 116)."
+        },
+        "source": "Case 116; RRS A9, 61.4(c)",
+        "also": [
+          "61"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "A10",
+    "section": "A",
+    "title": {
+      "fi": "Pistelaskulyhenteet",
+      "sv": "Förkortningar vid poängberäkning",
+      "en": "Scoring Abbreviations"
+    },
+    "explain": {
+      "fi": "Tulosluetteloon kirjataan nämä lyhenteet. Lähtemättä jääneet: DNC ei tullut lähtöalueelle, DNS ei lähtenyt muusta syystä, OCS oli lähtöviestin hetkellä radan puolella eikä lähtenyt tai rikkoi sääntöä 30.1. Lähtörangaistukset: ZFP 20 %:n rangaistus säännön 30.2 mukaan, UFD hylkäys säännön 30.3 mukaan, BFD hylkäys säännön 30.4 mukaan. Muut: SCP pisterangaistus, NSC ei purjehtinut rataa (muu kuin DNC, DNS, OCS tai DNF), DNF ei tullut maaliin, RET vetäytyi, DSQ hylkäys, DNE hylkäys, jota ei voi jättää pois, RDG hyvitys ja DPI harkinnanvarainen rangaistus.",
+      "en": "These abbreviations are used in results. Did not start: DNC did not come to the starting area, DNS did not start for another reason, OCS was on the course side at her starting signal and did not start, or broke rule 30.1. Starting penalties: ZFP 20% penalty under rule 30.2, UFD disqualification under rule 30.3, BFD disqualification under rule 30.4. Others: SCP Scoring Penalty, NSC did not sail the course (other than DNC, DNS, OCS or DNF), DNF did not finish, RET retired, DSQ disqualification, DNE disqualification that is not excludable, RDG redress given and DPI discretionary penalty imposed.",
+      "sv": "De här förkortningarna används i resultatlistan. Startade inte: DNC kom inte till startområdet, DNS startade inte av annan anledning, OCS var på bansidan vid sin startsignal och startade inte eller bröt mot regel 30.1. Startstraff: ZFP 20 % straff enligt regel 30.2, UFD diskvalificerad enligt regel 30.3, BFD diskvalificerad enligt regel 30.4. Övriga: SCP poängstraff, NSC inte seglat banan (annat än DNC, DNS, OCS eller DNF), DNF inte gått i mål, RET utgick, DSQ diskvalificerad, DNE diskvalificering som inte får räknas bort, RDG fått gottgörelse och DPI proportionerligt straff utdelat."
+    },
+    "note": {
+      "fi": "Liite F (leijalautailu) lisää lyhenteen DCT: hylkäys sotkun aiheuttamisesta. Harkinnanvaraisen rangaistuksen (DPI) päättää protestilautakunta (64).",
+      "en": "Appendix F (kiteboarding) adds DCT: disqualified after causing a tangle. The protest committee decides a discretionary penalty (DPI) (64).",
+      "sv": "Appendix F (kiteboarding) lägger till DCT: diskvalificerad efter att ha orsakat en trassling. Protestkommittén beslutar om ett proportionerligt straff (DPI) (64)."
+    },
+    "source": "RRS A10, 30, 64, 90.3(b), F8",
+    "defs": [
+      "Start",
+      "Finish",
+      "Sail the Course"
+    ],
+    "links": [
+      {
+        "rules": [
+          "30"
+        ],
+        "note": {
+          "fi": "Lähtörangaistusten lyhenteet: ZFP, UFD, BFD ja OCS (30.1).",
+          "en": "Starting penalty abbreviations: ZFP, UFD, BFD and OCS (30.1).",
+          "sv": "Förkortningar för startstraff: ZFP, UFD, BFD och OCS (30.1)."
+        }
+      },
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "DNE:tä ei voi jättää pois (90.3(b)).",
+          "en": "A DNE cannot be excluded (90.3(b)).",
+          "sv": "Ett DNE får inte räknas bort (90.3b)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rA10-q1",
+        "prompt": {
+          "fi": "Vene jäi satamaan eikä tullut lähtöalueelle. Mikä lyhenne?",
+          "en": "A boat stayed in harbour and did not come to the starting area. Which abbreviation?",
+          "sv": "En båt stannade i hamnen och kom inte till startområdet. Vilken förkortning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "DNC",
+              "en": "DNC",
+              "sv": "DNC"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNS",
+              "en": "DNS",
+              "sv": "DNS"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNF",
+              "en": "DNF",
+              "sv": "DNF"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A10: DNC = ei tullut lähtöalueelle; DNS = lähtöalueella, mutta ei lähtenyt muusta syystä.",
+          "en": "A10: DNC = did not come to the starting area; DNS = came but did not start for another reason.",
+          "sv": "A10: DNC = kom inte till startområdet; DNS = kom men startade inte av annan anledning."
+        },
+        "source": "RRS A10",
+        "also": []
+      },
+      {
+        "id": "rA10-q2",
+        "prompt": {
+          "fi": "Vene oli radan puolella lähtöviestin hetkellä eikä palannut. Lähdössä ei ollut lähtörangaistuslippua. Mikä lyhenne?",
+          "en": "A boat was on the course side at her starting signal and did not return. No starting penalty flag was displayed. Which abbreviation?",
+          "sv": "En båt var på bansidan vid sin startsignal och återvände inte. Ingen startstraffsflagga visades. Vilken förkortning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "OCS",
+              "en": "OCS",
+              "sv": "OCS"
+            }
+          },
+          {
+            "t": {
+              "fi": "UFD",
+              "en": "UFD",
+              "sv": "UFD"
+            }
+          },
+          {
+            "t": {
+              "fi": "BFD",
+              "en": "BFD",
+              "sv": "BFD"
+            }
+          }
+        ],
+        "why": {
+          "fi": "UFD ja BFD koskevat vain U- ja mustan lipun lähtöjä (30.3, 30.4).",
+          "en": "UFD and BFD apply only to U flag and black flag starts (30.3, 30.4).",
+          "sv": "UFD och BFD gäller bara starter med U-flagg och svart flagg (30.3, 30.4)."
+        },
+        "source": "RRS A10",
+        "also": [
+          "30"
+        ]
+      },
+      {
+        "id": "rA10-q3",
+        "prompt": {
+          "fi": "Mikä lyhenne tarkoittaa hylkäystä, jota ei saa jättää pois kokonaispisteistä?",
+          "en": "Which abbreviation means a disqualification that may not be excluded from the series score?",
+          "sv": "Vilken förkortning betyder en diskvalificering som inte får räknas bort från slutpoängen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "DNE",
+              "en": "DNE",
+              "sv": "DNE"
+            }
+          },
+          {
+            "t": {
+              "fi": "DSQ",
+              "en": "DSQ",
+              "sv": "DSQ"
+            }
+          },
+          {
+            "t": {
+              "fi": "DPI",
+              "en": "DPI",
+              "sv": "DPI"
+            }
+          }
+        ],
+        "why": {
+          "fi": "A10 ja 90.3(b).",
+          "en": "A10 and 90.3(b).",
+          "sv": "A10 och 90.3b."
+        },
+        "source": "RRS A10, 90.3(b)",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "rA10-q4",
+        "prompt": {
+          "fi": "Vene ohitti merkin väärältä puolelta, tuli maaliin eikä korjannut virhettään. Kilpailulautakunta näki sen. Mikä lyhenne?",
+          "en": "A boat passed a mark on the wrong side, finished and did not correct her error. The race committee saw it. Which abbreviation?",
+          "sv": "En båt passerade ett märke på fel sida, gick i mål och rättade inte felet. Kappseglingskommittén såg det. Vilken förkortning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "NSC",
+              "en": "NSC",
+              "sv": "NSC"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNF",
+              "en": "DNF",
+              "sv": "DNF"
+            }
+          },
+          {
+            "t": {
+              "fi": "DSQ",
+              "en": "DSQ",
+              "sv": "DSQ"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 128 ja A10.",
+          "en": "Case 128 and A10.",
+          "sv": "Fall 128 och A10."
+        },
+        "source": "Case 128; RRS A10, A5.1",
+        "also": [
+          "A5"
+        ]
+      }
+    ]
+  },
+  {
     "n": "E1",
     "section": "E",
     "title": {

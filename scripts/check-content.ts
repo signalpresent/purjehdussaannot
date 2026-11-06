@@ -29,7 +29,7 @@ for (const r of rules) {
     ml(s.title, `${w} case ${s.case}`); ml(s.text, `${w} case ${s.case}`); ml(s.answer, `${w} case ${s.case}`);
     assert.ok(map.cases[String(s.case)], `case ${s.case} missing`);
     assert.ok(!map.meta.case_deleted_or_withdrawn.includes(s.case), `case ${s.case} is deleted or withdrawn`);
-    assert.ok(map.cases[String(s.case)].rules.includes(base), `case ${s.case} does not cite rule ${r.n}`);
+    assert.ok(map.cases[String(s.case)].rules.some((x: string) => x === base || x.startsWith(`Rule ${base},`)), `case ${s.case} does not cite rule ${r.n}`);
   }
   for (const q of r.questions) {
     assert.ok(!ids.has(q.id), `duplicate id ${q.id}`); ids.add(q.id);
