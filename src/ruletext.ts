@@ -8,7 +8,7 @@ import defsRaw from './defs.json' with { type: 'json' };
 interface Item { str: string; transform: number[]; width: number }
 export interface LangText { file: string; titles: Record<string, string>; blocks: string[] }
 const DEFS = defsRaw as unknown as Record<Lang, string>[];
-export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[]; lists: string[] };
+export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[]; lists: string[]; tables: string[] };
 
 // One page of pdf.js items -> text lines, like `pdftotext -layout`: indentation in character columns,
 // a wide gap becomes at least two spaces ('18   MARK-ROOM'), explicit space items become one space.
@@ -35,17 +35,17 @@ export function pageLines(all: Item[]): string[] {
       s += it.str; end = x + it.width;
     }
     // pdf.js drops the soft hyphen in the Swedish 44.2 title (pdftotext keeps it); U+F0B7 is the Symbol-font bullet (FI 6.1).
-    return s.replace(/\u00ad/g, '-').replace(/\uf0b7/g, '●').replace('Ensv\u00e4ngs och', 'Ensv\u00e4ngs- och').trimEnd();
+    return s.replace(/\u00ad/g, '-').replace(/\uf0b7/g, '●').replace('Ensv\u00e4ngs och', 'Ensv\u00e4ngs- och').replace(/S\u00d6K\s+OCH/, 'S\u00d6K- OCH').trimEnd();
   });
 }
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^43\s+EXONERATION$/, /^45\s+HAULING/]],
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^43\s+EXONERATION$/, /^45\s+HAULING/]],
     furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
     furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
@@ -64,20 +64,26 @@ function cut(ls: string[], [start, end]: [RegExp, RegExp]): string[] {
   return ls.slice(s + 1, e < 0 ? undefined : e);
 }
 
-// Finnish and Swedish line-end hyphens are hyphenation and are dropped; English ones are compound hyphens ('mark-room').
+// Swedish words split at a line end where pdf.js and pdftotext both lose the hyphen (27 title, 32.3).
+const glue = (s: string) => s.replace('KAPPSEGLINGS KOMMITTÉN', 'KAPPSEGLINGSKOMMITTÉN').replace('kappseglings kommittén', 'kappseglingskommittén');
+// Finnish and Swedish line-end hyphens are hyphenation and are dropped ('sök- och' keeps it); English ones are compound hyphens ('mark-room').
 function join(parts: string[], lang: Lang): string {
   let out = '';
   for (const raw of parts) {
     const p = raw.trim();
-    if (out.endsWith('-') && letter(out[out.length - 2]) && letter(p[0])) out = (lang === 'en' ? out : out.slice(0, -1)) + p;
+    if (out.endsWith('-') && letter(out[out.length - 2]) && letter(p[0]) && !/^(och|eller|ja|tai) /.test(p)) out = (lang === 'en' ? out : out.slice(0, -1)) + p;
     else out += (out ? ' ' : '') + p;
   }
-  return out.replace(/\s+/g, ' ').replace(/ ([,.;:)])/g, '$1').trim();
+  return glue(out.replace(/\s+/g, ' ').replace(/ ([,.;:)])/g, '$1').trim());
 }
 
 type Block = [string, number, string];
 // Open blocks are tracked as (marker column, id, depth); a continuation line belongs to the deepest block it is indented under.
 function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Block[] {
+  if (SKELETON.tables.includes(baseId)) { // 26: the signal table keeps its layout (shown preformatted)
+    const ls = lines.filter(l => l.trim() && !CFG[lang].furniture.test(l)), cut = Math.min(...ls.map(indent));
+    return [[baseId, 0, ls.map(l => l.slice(cut)).join('\n')]];
+  }
   const lists = new Set(SKELETON.lists);
   const out: [string, number, string[]][] = [[baseId, 0, []]];
   const stack: [number, string, number][] = [[firstCol, baseId, 0]];
@@ -140,7 +146,7 @@ function rules(all: string[], lang: Lang): { titles: Record<string, string>; blo
 }
 
 function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first: string): Block[] {
-  const cfg = CFG[lang], untitled = new Set(SKELETON.untitled), chunks: [string, string[], number][] = [];
+  const cfg = CFG[lang], untitled = new Set(SKELETON.untitled), tables = new Set(SKELETON.tables), chunks: [string, string[], number][] = [];
   let cur: [string, string[], number] = [first, [], -1];
   let titleNext: string | null = lang === 'sv' || !first ? null : first;
   if (lang === 'sv' && first) titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
@@ -151,13 +157,13 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       if (lang === 'sv') titles[cur[0]] = sm[2].trim().replace(/\s+/g, ' '); else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
-    } else if (cm && !ITEM.test(l)) {
+    } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0])) { // table rows ('4  P, I, Z') are not clauses
       chunks.push(cur); cur = [cm[2], [], cm[1].length];
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && isUpper(ls[i + 1].trim()) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
       if (untitled.has(cur[0])) cur[1].push(cm[1] + ' '.repeat(cm[2].length + 2) + t); // e.g. 16.1: the heading line is body text
-      else titles[cur[0]] = t.replace(/\s+/g, ' ');
+      else titles[cur[0]] = glue(t.replace(/\s+/g, ' '));
     } else cur[1].push(l);
   }
   chunks.push(cur);

@@ -33,6 +33,6 @@ input[type=search]{width:100%;padding:12px;border-radius:10px;border:1px solid #
 .fig .mk{fill:#e8864a;stroke:var(--ink);stroke-width:1.5}
 .tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:1.2rem}
 details.official{background:var(--card);border-radius:12px;padding:8px 14px;margin:10px 0}details.official summary{cursor:pointer;font-weight:600}
-.ot{margin:.4rem 0}.ot.d1{margin-left:1.2rem}.ot.d2{margin-left:2.4rem}.ot-h{font-weight:600;margin:.8rem 0 .2rem}
+.ot{margin:.4rem 0}.ot.d1{margin-left:1.2rem}.ot.d2{margin-left:2.4rem}.ot.tbl{overflow-x:auto;font-size:.75rem;white-space:pre}.ot-h{font-weight:600;margin:.8rem 0 .2rem}
 footer{margin:2rem 0 1rem;border-top:1px solid var(--card);padding-top:1rem}
 details.help summary{cursor:pointer;color:var(--mute)}details.help li{margin:.3rem 0;overflow-wrap:anywhere}

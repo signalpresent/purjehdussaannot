@@ -43,6 +43,7 @@ export function official(txt: TextStore, l: Lang, keep: (base: string) => boolea
     const lab = !seen.has(id) && d ? id.match(/\(([^)]+)\)$/)![1] : '';
     const h = bb !== prevBase && bb !== skipHead && !bb.startsWith('def:') && /\./.test(bb) ? `<p class="ot-h">${esc(`${bb} ${lt.titles[bb] ?? ''}`.trim())}</p>` : '';
     seen.add(id); prevBase = bb;
+    if (lt.blocks[i].includes('\n')) return `${h}<pre class="ot tbl">${esc(lt.blocks[i])}</pre>`; // table (26)
     return `${h}<p class="ot d${d}">${lab ? (tl === 'sv' ? `${lab}) ` : `(${lab}) `) : ''}${esc(lt.blocks[i])}</p>`;
   }).join('');
   if (!body) return '';
