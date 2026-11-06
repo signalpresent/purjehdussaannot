@@ -31449,6 +31449,900 @@
     ]
   },
   {
+    "n": "J1",
+    "section": "J",
+    "title": {
+      "fi": "Kilpailukutsun pakolliset tiedot",
+      "sv": "Obligatoriskt innehåll i inbjudan",
+      "en": "Mandatory Notice of Race Contents"
+    },
+    "explain": {
+      "fi": "Kilpailukutsun pitää aina sisältää: kilpailun nimi, paikka ja päivämäärät sekä järjestäjän nimi; maininta siitä, että kilpailua noudatetaan Purjehduksen kilpailusääntöjen mukaisesti; luettelo muista kilpailua sääntelevistä asiakirjoista (esimerkiksi kalustosäännöt, siltä osin kuin niitä sovelletaan) ja tieto siitä, mistä tai miten kukin asiakirja tai sen sähköinen kopio on saatavilla; kilpailuluokat, mahdollinen tasoitus- tai mittalukujärjestelmä ja sen alaiset luokat, osallistumisehdot ja mahdolliset osallistumisrajoitukset; ilmoittautumismenettely ja -ajat, mukaan lukien maksut ja takarajat; sekä mahdollisen harjoituskilpapurjehduksen ja ensimmäisen kilpapurjehduksen varoitusviestin aika, ja seuraavien kilpapurjehdusten ajat, jos ne tiedetään (J1.1).",
+      "en": "The notice of race must always include: the event's title, place and dates and the organizing authority's name; a statement that the event is governed by The Racing Rules of Sailing; a list of other documents governing the event (for example the Equipment Rules, to the extent they apply) and where or how each, or an electronic copy, can be obtained; the classes racing, any handicap or rating system and the classes it applies to, conditions of entry and any restrictions; the registration or entry procedure and timing, including fees and closing dates; and the warning signal times for the practice race, if any, and the first race, and later races if known (J1.1).",
+      "sv": "Inbjudan ska alltid innehålla: tävlingens namn, plats och datum samt arrangörens namn; ett uttalande om att tävlingen genomförs enligt Kappseglingsreglerna; en lista över andra dokument som styr tävlingen (till exempel Redskapsreglerna, i den utsträckning de gäller) och var eller hur vart och ett, eller en elektronisk kopia, kan erhållas; klasserna som tävlar, eventuellt handikapp- eller respitsystem och vilka klasser det gäller, villkor för anmälan och eventuella begränsningar; proceduren och tiderna för anmälan, inklusive avgifter och sista anmälningsdag; samt tiderna för varningssignalen för en eventuell träningskappsegling och den första kappseglingen, och senare kappseglingar om de är kända (J1.1)."
+    },
+    "note": {
+      "fi": "Liitteessä J käsite ”kilpailu” kattaa sekä yksittäisen kilpapurjehduksen että sarjan. Kilpailukutsussa olevaa sääntöä ei tarvitse toistaa purjehdusohjeissa, mutta kaikkien kilpailua sääntelevien asiakirjojen on oltava keskenään ristiriidattomia. Case Bookissa ei ole liitettä J koskevia tapauksia.",
+      "en": "In Appendix J, 'event' covers both a single race and a series. A rule in the notice of race need not be repeated in the sailing instructions, but all documents governing the event must be free of conflicts with each other. The Case Book has no cases on Appendix J.",
+      "sv": "I bilaga J omfattar ”tävling” både en enskild kappsegling och en serie. En regel i inbjudan behöver inte upprepas i seglingsföreskrifterna, men alla dokument som styr tävlingen måste vara fria från inbördes motsägelser. Case Book har inga fall om bilaga J."
+    },
+    "source": "RRS J1.1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "89"
+        ],
+        "note": {
+          "fi": "Liite J tarkentaa, mitä kilpailun järjestäjän säännön 89.2 mukaan julkaisema kilpailukutsu käytännössä sisältää.",
+          "en": "Appendix J spells out what the notice of race the organizing authority publishes under rule 89.2 actually contains.",
+          "sv": "Bilaga J anger vad inbjudan, som arrangören publicerar enligt regel 89.2, faktiskt ska innehålla."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rJ1-q1",
+        "prompt": {
+          "fi": "Tarvitseeko kilpailukutsussa olevaa sääntöä toistaa purjehdusohjeissa?",
+          "en": "Must a rule in the notice of race be repeated in the sailing instructions?",
+          "sv": "Måste en regel i inbjudan upprepas i seglingsföreskrifterna?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Liitteen J johdanto.",
+          "en": "Appendix J preamble.",
+          "sv": "Bilaga J:s inledning."
+        },
+        "source": "RRS J (preamble)",
+        "also": []
+      },
+      {
+        "id": "rJ1-q2",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää aina kertoa muista kilpailua sääntelevistä asiakirjoista?",
+          "en": "What must the notice of race always say about other documents governing the event?",
+          "sv": "Vad måste inbjudan alltid säga om andra dokument som styr tävlingen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Luettelo niistä ja mistä tai miten ne saa",
+              "en": "A list of them and where or how to get them",
+              "sv": "En lista över dem och var eller hur man får tag i dem"
+            }
+          },
+          {
+            "t": {
+              "fi": "Niiden koko sisältö kopioituna kutsuun",
+              "en": "Their full content copied into the notice",
+              "sv": "Hela deras innehåll kopierat in i inbjudan"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.1(3).",
+          "en": "J1.1(3).",
+          "sv": "J1.1(3)."
+        },
+        "source": "RRS J1.1(3)",
+        "also": []
+      },
+      {
+        "id": "rJ1-q3",
+        "prompt": {
+          "fi": "Pitääkö kilpailukutsun kertoa kaikkien tulevien kilpapurjehdusten varoitusviestien ajat?",
+          "en": "Must the notice of race give the warning signal times for every race to come?",
+          "sv": "Måste inbjudan ange varningssignalens tid för varje kommande kappsegling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain harjoituskilpapurjehduksen ja ensimmäisen kilpapurjehduksen, sekä seuraavien jos ne tiedetään",
+              "en": "Only the practice race's and the first race's, and later ones if known",
+              "sv": "Bara för en eventuell träningskappsegling och den första kappseglingen, och senare om de är kända"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koko kilpailun aikataulu on oltava valmiina kilpailukutsussa",
+              "en": "Yes, the whole event schedule must be ready in the notice",
+              "sv": "Ja, hela tävlingens tidsprogram måste vara klart i inbjudan"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.1(6).",
+          "en": "J1.1(6).",
+          "sv": "J1.1(6)."
+        },
+        "source": "RRS J1.1(6)",
+        "also": []
+      },
+      {
+        "id": "rJ1-q4",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää kertoa ilmoittautumisesta (J1.1(5))?",
+          "en": "What must the notice of race say about entry (J1.1(5))?",
+          "sv": "Vad måste inbjudan säga om anmälan (J1.1(5))?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Menettelyn ja ajat, mukaan lukien maksut ja takarajat",
+              "en": "The procedure and timing, including fees and closing dates",
+              "sv": "Proceduren och tiderna, inklusive avgifter och sista anmälningsdag"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain ilmoittautumisen hinnan",
+              "en": "Only the entry fee",
+              "sv": "Bara anmälningsavgiften"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.1(5).",
+          "en": "J1.1(5).",
+          "sv": "J1.1(5)."
+        },
+        "source": "RRS J1.1(5)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "J2",
+    "section": "J",
+    "title": {
+      "fi": "Kilpailukutsun ehdolliset tiedot",
+      "sv": "Villkorat innehåll i inbjudan",
+      "en": "Notice of Race Contents When Applicable"
+    },
+    "explain": {
+      "fi": "Kilpailukutsussa pitää kertoa kaikki soveltuvat seuraavista: varusteiden tarkastuksen tai kilpailun mittauksen ajat ja menettelyt sekä mittaus- tai mittalukutodistusvaatimukset; World Sailingin säännön 86.2 nojalla sallimat kilpailusääntöjen muutokset ja säännön 87 sallimat luokkasääntöjen muutokset, kumpikin viitaten nimenomaisesti kuhunkin sääntöön ja ilmoittaen muutoksen (ensimmäisessä myös World Sailingin myöntämä lupa); kilpailijaluokitusvaatimukset, kuten purjehtijaluokittelu tai Para World Sailing -toimintakykyluokitus; vaadittu mainonta ja siihen liittyvät tiedot; säännön 90.3(e) soveltaminen ja sen 24 tunnin aikarajan mahdolliset muutokset; ulkomaisten osallistujien edellyttämät kansalliset määräykset ja useamman kansallisen järjestön vesillä purjehtimista koskevat määräykset; huutojen sijaan vaadittu vaihtoehtoinen kommunikaatio säännön 20 nojalla; säännön 50.1(b) sallimat painorajan muutokset; tietosuojalainsäädännön noudattamiseksi tarvittavat vaatimukset; veneen omistajan tai edustajan allekirjoitettava ilmoittautumislomake, jossa sitoudutaan noudattamaan sääntöjä; sekä osan 2 sääntöjen mahdollinen korvaaminen meriteiden säännöillä tai muilla virallisilla kulkuoikeussäännöillä, niiden voimassaoloajat tai -paikat ja mahdolliset yöviestit (J1.2).",
+      "en": "The notice of race must give all of the following that apply: times and procedures for equipment inspection or measurement, and requirements for measurement or rating certificates; changes to the racing rules permitted by World Sailing under rule 86.2, and changes to class rules permitted under rule 87, each referring specifically to the rule and stating the change (the first also including World Sailing's authorization); sailor categorization requirements, such as the Sailor Categorization Code or Para World Sailing functional classification; required advertising and related information; whether rule 90.3(e) applies and any change to its 24-hour limit; national prescriptions needed when entries from abroad are expected, and prescriptions for racing in more than one national authority's waters; an alternative to hailing required under rule 20; changes to the weight limit rule 50.1(b) allows; requirements needed to comply with data protection legislation; an entry form, signed by the owner or their representative, committing to follow the rules; and any replacement of Part 2 with the right-of-way rules of the International Regulations for Preventing Collisions at Sea or other official right-of-way rules, when and where they apply, and any night signals (J1.2).",
+      "sv": "Inbjudan ska ange allt av det följande som är tillämpligt: tider och procedurer för besiktning av utrustning eller mätning, och krav på mätbrev; ändringar av kappseglingsreglerna som World Sailing tillåtit enligt regel 86.2, och ändringar av klassregler tillåtna enligt regel 87, båda med särskild hänvisning till regeln och angiven ändring (den första även med World Sailings godkännande); krav på kategorisering av seglare, som Sailor Categorization Code eller Para World Sailings funktionsklassificering; påkrävd reklam och relaterad information; om regel 90.3e gäller och eventuell ändring av dess 24-timmarsgräns; nationella föreskrifter som behövs när anmälningar väntas utifrån, och föreskrifter för kappsegling på flera nationella myndigheters farvatten; ett alternativ till anrop enligt regel 20; ändringar av viktgränsen i regel 50.1b; krav som behövs för att följa dataskyddslagstiftning; en anmälningsblankett, undertecknad av ägaren eller dennes representant, med ett åtagande att följa reglerna; samt eventuellt byte av del 2 mot internationella sjövägsreglernas eller andra officiella regler om rätt till väg, när och var de gäller, och eventuella mörkersignaler (J1.2)."
+    },
+    "note": {
+      "fi": "Liitteessä J käsite ”kilpailu” kattaa sekä yksittäisen kilpapurjehduksen että sarjan. Kilpailukutsussa olevaa sääntöä ei tarvitse toistaa purjehdusohjeissa, mutta kaikkien kilpailua sääntelevien asiakirjojen on oltava keskenään ristiriidattomia. Case Bookissa ei ole liitettä J koskevia tapauksia.",
+      "en": "In Appendix J, 'event' covers both a single race and a series. A rule in the notice of race need not be repeated in the sailing instructions, but all documents governing the event must be free of conflicts with each other. The Case Book has no cases on Appendix J.",
+      "sv": "I bilaga J omfattar ”tävling” både en enskild kappsegling och en serie. En regel i inbjudan behöver inte upprepas i seglingsföreskrifterna, men alla dokument som styr tävlingen måste vara fria från inbördes motsägelser. Case Book har inga fall om bilaga J."
+    },
+    "source": "RRS J1.2",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "J1.2(2) ja (3) vaativat viittaamaan nimenomaisesti kuhunkin sääntöön 86.2:n tai 87:n nojalla muutettuun sääntöön — pelkkä yleinen maininta ei riitä.",
+          "en": "J1.2(2) and (3) require specifically referring to each rule changed under 86.2 or 87 — a general mention alone is not enough.",
+          "sv": "J1.2.2 och .3 kräver särskild hänvisning till varje regel som ändrats enligt 86.2 eller 87 — en allmän anmärkning räcker inte."
+        }
+      },
+      {
+        "rules": [
+          "50"
+        ],
+        "note": {
+          "fi": "J1.2(10): kilpailukutsu voi muuttaa säännön 50.1(b) painorajaa.",
+          "en": "J1.2(10): the notice of race may change the weight limit in rule 50.1(b).",
+          "sv": "J1.2.10: inbjudan får ändra viktgränsen i regel 50.1b."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rJ2-q1",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää kertoa, jos World Sailing on sallinut kilpailusääntöjen muutoksen säännön 86.2 nojalla?",
+          "en": "What must the notice of race say if World Sailing has permitted a rule change under rule 86.2?",
+          "sv": "Vad måste inbjudan säga om World Sailing har tillåtit en regeländring enligt regel 86.2?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Viitattava nimenomaisesti kuhunkin sääntöön, ilmoitettava muutos ja sisällytettävä World Sailingin myöntämä lupa",
+              "en": "Refer specifically to each rule, state the change, and include World Sailing's authorization",
+              "sv": "Hänvisa särskilt till varje regel, ange ändringen, och inkludera World Sailings godkännande"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkkä yleinen maininta sääntömuutoksista riittää",
+              "en": "A general mention that rules have changed is enough",
+              "sv": "En allmän anmärkning om att regler har ändrats räcker"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.2(2).",
+          "en": "J1.2(2).",
+          "sv": "J1.2.2."
+        },
+        "source": "RRS J1.2(2)",
+        "also": []
+      },
+      {
+        "id": "rJ2-q2",
+        "prompt": {
+          "fi": "Minkä kahden tyyppisen luokitusvaatimuksen esimerkit liite J mainitsee (J1.2(4))?",
+          "en": "What two kinds of categorization requirement does Appendix J give as examples (J1.2(4))?",
+          "sv": "Vilka två typer av kategoriseringskrav ger bilaga J som exempel (J1.2.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Purjehtijaluokittelu ja Para World Sailing -toimintakykyluokitus",
+              "en": "Sailor categorization and Para World Sailing functional classification",
+              "sv": "Kategorisering av seglare och Para World Sailings funktionsklassificering"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ikäluokittelu ja painoluokittelu",
+              "en": "Age classification and weight classification",
+              "sv": "Åldersklassificering och viktklassificering"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.2(4).",
+          "en": "J1.2(4).",
+          "sv": "J1.2.4."
+        },
+        "source": "RRS J1.2(4)",
+        "also": []
+      },
+      {
+        "id": "rJ2-q3",
+        "prompt": {
+          "fi": "Mitä ilmoittautumislomakkeen pitää sisältää (J1.2(12))?",
+          "en": "What must the entry form include (J1.2(12))?",
+          "sv": "Vad måste anmälningsblanketten innehålla (J1.2.12)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneen omistajan tai edustajan allekirjoittaman sitoumuksen noudattaa sääntöjä",
+              "en": "The owner's or their representative's signed commitment to follow the rules",
+              "sv": "Ägarens eller dennes representants undertecknade åtagande att följa reglerna"
+            }
+          },
+          {
+            "t": {
+              "fi": "Veneen mittaustodistuksen kokonaisuudessaan",
+              "en": "The boat's full measurement certificate",
+              "sv": "Båtens fullständiga mätbrev"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.2(12).",
+          "en": "J1.2(12).",
+          "sv": "J1.2.12."
+        },
+        "source": "RRS J1.2(12)",
+        "also": []
+      },
+      {
+        "id": "rJ2-q4",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää kertoa, jos osan 2 säännöt korvataan meriteiden säännöillä (J1.2(13))?",
+          "en": "What must the notice of race say if Part 2 is replaced by right-of-way rules such as the collision regulations (J1.2(13))?",
+          "sv": "Vad måste inbjudan säga om del 2 ersätts med regler om rätt till väg, som sjövägsreglerna (J1.2.13)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Milloin ja missä niitä sovelletaan, sekä mahdolliset yöviestit",
+              "en": "When and where they apply, and any night signals",
+              "sv": "När och var de gäller, och eventuella mörkersignaler"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkästään sen, että niitä käytetään",
+              "en": "Only that they are used",
+              "sv": "Bara att de används"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.2(13).",
+          "en": "J1.2(13).",
+          "sv": "J1.2.13."
+        },
+        "source": "RRS J1.2(13)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "J3",
+    "section": "J",
+    "title": {
+      "fi": "Kilpailukutsun muut hyödylliset tiedot",
+      "sv": "Annan nyttig information i inbjudan",
+      "en": "Other Useful Notice of Race Contents"
+    },
+    "explain": {
+      "fi": "Kilpailukutsussa pitää lisäksi kertoa kaikki soveltuvat seuraavista — tiedot, jotka auttavat kilpailijaa päättämään osallistumisesta tai joita hän tarvitsee ennen purjehdusohjeiden saatavuutta: säännön 86.1 sallimat kilpailusääntöjen muutokset, viitaten nimenomaisesti kuhunkin sääntöön; kansallisten määräysten muutokset; purjehdusohjeiden jakoaika ja -paikka; radan yleiskuvaus tai purjehdittavien ratojen tyyppi; pistelaskujärjestelmä, jos se poikkeaa liitteen A järjestelmästä — mukaan lukien kilpapurjehdusten suunniteltu lukumäärä ja sarjan pätevyyteen vaadittava vähimmäismäärä, sekä tarvittaessa maininta säännön A5.3 soveltamisesta vaihtelevalla lähtijämäärällä; muu rangaistus kuin kahden kierroksen rangaistus osan 2 säännön rikkomisesta; kellonaika, jonka jälkeen viimeisenä kilpailupäivänä ei enää anneta varoitusviestiä; muutoksenhakuoikeuden mahdollinen kieltäminen säännön 70.3 mukaisesti; onko liitteen G sääntö G3 (vuokratut tai lainatut veneet) voimassa; sekä palkinnot (J1.3).",
+      "en": "The notice of race must further give all of the following that apply — information helping a competitor decide whether to attend, or that they need before the sailing instructions are available: changes to the racing rules permitted by rule 86.1, referring specifically to each rule; changes to national prescriptions; when and where the sailing instructions will be available; a general description of the course or types of courses; the scoring system, if it differs from Appendix A — including the number of races scheduled and the minimum needed to constitute a series, and, where relevant, that rule A5.3 applies for a widely varying number of starters; a penalty other than the Two-Turns Penalty for a Part 2 breach; the time after which no warning signal will be made on the last scheduled day; any denial of the right of appeal under rule 70.3; whether Appendix G's rule G3 (chartered or loaned boats) applies; and prizes (J1.3).",
+      "sv": "Inbjudan ska dessutom ge allt av det följande som är tillämpligt — information som hjälper en tävlande att bestämma sig för att delta, eller som behövs innan seglingsföreskrifterna är tillgängliga: ändringar av kappseglingsreglerna tillåtna enligt regel 86.1, med särskild hänvisning till varje regel; ändringar av nationella föreskrifter; när och var seglingsföreskrifterna blir tillgängliga; en allmän beskrivning av banan eller typer av banor; poängberäkningssystemet, om det skiljer sig från bilaga A — inklusive antalet planerade kappseglingar och minsta antal för att en serie ska gälla, och, när det är relevant, att regel A5.3 gäller vid kraftigt varierande antal startande; ett annat straff än tvåvarvsstraffet för brott mot del 2; tiden efter vilken ingen varningssignal ges den sista planerade dagen; eventuell förvägran av rätten att överklaga enligt regel 70.3; om bilaga G:s regel G3 (hyrda eller lånade båtar) gäller; samt priser (J1.3)."
+    },
+    "note": {
+      "fi": "Liitteessä J käsite ”kilpailu” kattaa sekä yksittäisen kilpapurjehduksen että sarjan. Kilpailukutsussa olevaa sääntöä ei tarvitse toistaa purjehdusohjeissa, mutta kaikkien kilpailua sääntelevien asiakirjojen on oltava keskenään ristiriidattomia. Case Bookissa ei ole liitettä J koskevia tapauksia.",
+      "en": "In Appendix J, 'event' covers both a single race and a series. A rule in the notice of race need not be repeated in the sailing instructions, but all documents governing the event must be free of conflicts with each other. The Case Book has no cases on Appendix J.",
+      "sv": "I bilaga J omfattar ”tävling” både en enskild kappsegling och en serie. En regel i inbjudan behöver inte upprepas i seglingsföreskrifterna, men alla dokument som styr tävlingen måste vara fria från inbördes motsägelser. Case Book har inga fall om bilaga J."
+    },
+    "source": "RRS J1.3",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "J1.3(8): kilpailukutsun on kerrottava etukäteen, jos muutoksenhakuoikeus kielletään säännön 70.3 nojalla.",
+          "en": "J1.3(8): the notice of race must announce in advance if the right of appeal is denied under rule 70.3.",
+          "sv": "J1.3.8: inbjudan måste i förväg meddela om rätten att överklaga förvägras enligt regel 70.3."
+        }
+      },
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "J1.3(5) liittyy säännön A1:een ja 90.3:een: kilpailukutsun pitää kertoa purjehdusten suunniteltu lukumäärä ja pätevyysvaatimus, jos pistelasku poikkeaa liitteestä A.",
+          "en": "J1.3(5) ties to rule A1 and 90.3: the notice of race must state the planned number of races and the qualifying minimum if scoring departs from Appendix A.",
+          "sv": "J1.3.5 knyter an till regel A1 och 90.3: inbjudan måste ange planerat antal kappseglingar och minsta antal för att serien ska gälla, om poängberäkningen avviker från bilaga A."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rJ3-q1",
+        "prompt": {
+          "fi": "Milloin kilpailukutsussa pitää kertoa pistelaskujärjestelmästä tarkemmin (J1.3(5))?",
+          "en": "When must the notice of race describe the scoring system in detail (J1.3(5))?",
+          "sv": "När måste inbjudan beskriva poängberäkningssystemet i detalj (J1.3.5)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun se poikkeaa liitteen A järjestelmästä",
+              "en": "When it differs from the Appendix A system",
+              "sv": "När det skiljer sig från bilaga A:s system"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina, vaikka se olisi liitteen A mukainen",
+              "en": "Always, even if it follows Appendix A",
+              "sv": "Alltid, även om det följer bilaga A"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.3(5).",
+          "en": "J1.3(5).",
+          "sv": "J1.3.5."
+        },
+        "source": "RRS J1.3(5)",
+        "also": []
+      },
+      {
+        "id": "rJ3-q2",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää kertoa, jos viimeisenä kilpailupäivänä ei enää anneta varoitusviestiä tietyn kellonajan jälkeen (J1.3(7))?",
+          "en": "What must the notice of race state if no warning signal will be made after a certain time on the last scheduled day (J1.3(7))?",
+          "sv": "Vad måste inbjudan ange om ingen varningssignal ges efter en viss tid den sista planerade dagen (J1.3.7)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sen kellonajan",
+              "en": "That time",
+              "sv": "Den tiden"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain sen, että kilpailu päättyy jonain päivänä",
+              "en": "Only that the event ends some day",
+              "sv": "Bara att tävlingen tar slut någon dag"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.3(7).",
+          "en": "J1.3(7).",
+          "sv": "J1.3.7."
+        },
+        "source": "RRS J1.3(7)",
+        "also": []
+      },
+      {
+        "id": "rJ3-q3",
+        "prompt": {
+          "fi": "Minkä säännön nojalla muutoksenhakuoikeuden kieltäminen tehdään, ja mistä siitä kerrotaan etukäteen (J1.3(8))?",
+          "en": "Under which rule is the right of appeal denied, and where is this announced in advance (J1.3(8))?",
+          "sv": "Enligt vilken regel förvägras rätten att överklaga, och var meddelas det i förväg (J1.3.8)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Säännön 70.3 nojalla, kilpailukutsussa",
+              "en": "Under rule 70.3, in the notice of race",
+              "sv": "Enligt regel 70.3, i inbjudan"
+            }
+          },
+          {
+            "t": {
+              "fi": "Säännön 63.7 nojalla, vasta tutkinnassa",
+              "en": "Under rule 63.7, only at the hearing",
+              "sv": "Enligt regel 63.7, bara vid förhandlingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.3(8).",
+          "en": "J1.3(8).",
+          "sv": "J1.3.8."
+        },
+        "source": "RRS J1.3(8)",
+        "also": [
+          "70"
+        ]
+      },
+      {
+        "id": "rJ3-q4",
+        "prompt": {
+          "fi": "Mitä kilpailukutsun pitää kertoa vuokratuista tai lainatuista veneistä (J1.3(9))?",
+          "en": "What must the notice of race say about chartered or loaned boats (J1.3(9))?",
+          "sv": "Vad måste inbjudan säga om hyrda eller lånade båtar (J1.3.9)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Onko liitteen G sääntö G3 voimassa",
+              "en": "Whether Appendix G's rule G3 applies",
+              "sv": "Om bilaga G:s regel G3 gäller"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaikkien vuokraveneiden hinnat",
+              "en": "The price of every charter boat",
+              "sv": "Priset på varje hyrbåt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J1.3(9).",
+          "en": "J1.3(9).",
+          "sv": "J1.3.9."
+        },
+        "source": "RRS J1.3(9)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "J4",
+    "section": "J",
+    "title": {
+      "fi": "Purjehdusohjeiden pakolliset tiedot",
+      "sv": "Obligatoriskt innehåll i seglingsföreskrifterna",
+      "en": "Mandatory Sailing Instruction Contents"
+    },
+    "explain": {
+      "fi": "Ellei kilpailukutsu jo sisällä niitä, purjehdusohjeiden pitää aina kertoa: J1.3:n kohdissa (1), (2) ja (5) mainitut tiedot, ja soveltuvin osin myös kohdissa (6)-(10) mainitut; kilpailun aikataulu ja kunkin luokan varoitusviestien ajat; täydellinen kuvaus purjehdittavasta radasta tai radoista, tai luettelo merkeistä joista rata valitaan, sekä tarvittaessa ratojen viestittämistapa ja mahdolliset muutokset maaliin tulon vaadittuun suuntaan; merkkien — myös lähtö- ja maalimerkkien — kuvaus, ohitusjärjestys, puoli jolle kukin jätetään, ja kääntömerkkien tunnistus; lähtö- ja maalilinjojen, luokkalippujen ja mahdollisten erityisviestien kuvaukset; mahdollinen enimmäisaika, jonka kuluessa ensimmäisen veneen on purjehdittava rata; sekä virallisten tai verkossa olevien ilmoitustaulujen ja kilpailutoimiston sijainti (J2.1).",
+      "en": "Unless included in the notice of race, the sailing instructions must always give: the information in J1.3(1), (2) and (5), and, where applicable, (6)-(10) too; the race schedule and each class's warning signal times; a complete description of the course or courses, or a list of marks from which the course will be chosen, and, where relevant, how courses will be signalled and any change to the required finishing direction; descriptions of marks — including starting and finishing marks — their order, which side to leave each on, and which are rounding marks; descriptions of the starting and finishing lines, class flags and any special signals; any time limit for the first boat to sail the course; and the location of official or online notice boards and the race office (J2.1).",
+      "sv": "Om det inte anges i inbjudan ska seglingsföreskrifterna alltid ange: informationen i J1.3.1, 2 och 5, och, när det är tillämpligt, även 6-10; tävlingens tidsprogram och varje klass varningssignaltider; en fullständig beskrivning av banan eller banorna, eller en förteckning över märken som banan väljs från, och, när det är relevant, hur banor signaleras och eventuell ändring av den föreskrivna riktningen för att gå i mål; beskrivning av märken — inklusive start- och målmärken — i vilken ordning de passeras, på vilken sida vart och ett lämnas, och vilka som är rundningsmärken; beskrivning av start- och mållinjer, klassflaggor och eventuella särskilda signaler; eventuell tidsgräns för den första båten att segla banan; samt placeringen av officiella eller webbaserade anslagstavlor och tävlingsexpeditionen (J2.1)."
+    },
+    "note": {
+      "fi": "Liitteessä J käsite ”kilpailu” kattaa sekä yksittäisen kilpapurjehduksen että sarjan. Kilpailukutsussa olevaa sääntöä ei tarvitse toistaa purjehdusohjeissa, mutta kaikkien kilpailua sääntelevien asiakirjojen on oltava keskenään ristiriidattomia. Case Bookissa ei ole liitettä J koskevia tapauksia.",
+      "en": "In Appendix J, 'event' covers both a single race and a series. A rule in the notice of race need not be repeated in the sailing instructions, but all documents governing the event must be free of conflicts with each other. The Case Book has no cases on Appendix J.",
+      "sv": "I bilaga J omfattar ”tävling” både en enskild kappsegling och en serie. En regel i inbjudan behöver inte upprepas i seglingsföreskrifterna, men alla dokument som styr tävlingen måste vara fria från inbördes motsägelser. Case Book har inga fall om bilaga J."
+    },
+    "source": "RRS J2.1",
+    "defs": [
+      "Sail the Course"
+    ],
+    "links": [
+      {
+        "rules": [
+          "35"
+        ],
+        "note": {
+          "fi": "J2.1(6) liittyy säännön 35 purjehdusaikarajaan: purjehdusohjeiden on kerrottava, jos sellainen on asetettu.",
+          "en": "J2.1(6) ties to rule 35's time limit: the sailing instructions must state one if it is set.",
+          "sv": "J2.1.6 knyter an till regel 35:s tidsgräns: seglingsföreskrifterna måste ange en sådan om den gäller."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rJ4-q1",
+        "prompt": {
+          "fi": "Mitä purjehdusohjeiden pitää aina sisältää ratakuvauksesta (J2.1(3))?",
+          "en": "What must the sailing instructions always include about the course (J2.1(3))?",
+          "sv": "Vad måste seglingsföreskrifterna alltid innehålla om banan (J2.1.3)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Täydellinen ratakuvaus tai luettelo merkeistä, joista rata valitaan, sekä mahdolliset maaliin tulon suunnan muutokset",
+              "en": "A complete course description or a list of marks from which it will be chosen, and any changes to the required finishing direction",
+              "sv": "En fullständig banbeskrivning eller en förteckning över märken den väljs från, och eventuella ändringar av den föreskrivna målgångsriktningen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkän radan nimen",
+              "en": "Just the course's name",
+              "sv": "Bara banans namn"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.1(3).",
+          "en": "J2.1(3).",
+          "sv": "J2.1.3."
+        },
+        "source": "RRS J2.1(3)",
+        "also": []
+      },
+      {
+        "id": "rJ4-q2",
+        "prompt": {
+          "fi": "Mitä merkkien kuvauksen pitää kertoa (J2.1(4))?",
+          "en": "What must the description of marks say (J2.1(4))?",
+          "sv": "Vad måste beskrivningen av märken ange (J2.1.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ohitusjärjestyksen, kummalta puolelta kukin jätetään, ja mitkä ovat kääntömerkkejä",
+              "en": "The order to pass them, which side to leave each on, and which are rounding marks",
+              "sv": "Ordningen de passeras i, på vilken sida vart och ett lämnas, och vilka som är rundningsmärken"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain merkkien värin",
+              "en": "Only the marks' colour",
+              "sv": "Bara märkenas färg"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.1(4).",
+          "en": "J2.1(4).",
+          "sv": "J2.1.4."
+        },
+        "source": "RRS J2.1(4)",
+        "also": [
+          "Sail the Course"
+        ]
+      },
+      {
+        "id": "rJ4-q3",
+        "prompt": {
+          "fi": "Jos kilpailukutsu jo sisältää J2.1:n tiedon, tarvitseeko se toistaa purjehdusohjeissa?",
+          "en": "If the notice of race already includes J2.1 information, must it be repeated in the sailing instructions?",
+          "sv": "Om inbjudan redan innehåller informationen i J2.1, måste den upprepas i seglingsföreskrifterna?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina molemmissa",
+              "en": "Yes, always in both",
+              "sv": "Nej"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.1.",
+          "en": "J2.1.",
+          "sv": "J2.1."
+        },
+        "source": "RRS J2.1",
+        "also": []
+      },
+      {
+        "id": "rJ4-q4",
+        "prompt": {
+          "fi": "Mitä purjehdusohjeiden pitää kertoa mahdollisesta purjehduksen enimmäisajasta (J2.1(6))?",
+          "en": "What must the sailing instructions say about a possible race time limit (J2.1(6))?",
+          "sv": "Vad måste seglingsföreskrifterna ange om en eventuell tidsgräns för kappseglingen (J2.1.6)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ajan, jonka kuluessa ensimmäisen veneen on purjehdittava rata",
+              "en": "The time within which the first boat must sail the course",
+              "sv": "Tiden inom vilken den första båten måste segla banan"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ajan, jonka kuluessa viimeisen veneen on tultava maaliin",
+              "en": "The time within which the last boat must finish",
+              "sv": "Tiden inom vilken den sista båten måste gå i mål"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.1(6).",
+          "en": "J2.1(6).",
+          "sv": "J2.1.6."
+        },
+        "source": "RRS J2.1(6)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "J5",
+    "section": "J",
+    "title": {
+      "fi": "Purjehdusohjeiden ehdolliset tiedot",
+      "sv": "Villkorat innehåll i seglingsföreskrifterna",
+      "en": "Sailing Instruction Contents When Applicable"
+    },
+    "explain": {
+      "fi": "Ellei kilpailukutsu jo sisällä niitä, purjehdusohjeiden pitää kertoa kaikki soveltuvat seuraavista teemoista (J2.2, 29 kohtaa): menettelyt — onko liite P voimassa, ulkomaisille osallistujille englanninkieliset kansalliset määräykset, purjehdusohjeiden kirjallinen muutosmenettely ja menettely suullisille muutoksille vesillä (sääntö 90.2(c)); turvallisuus ja käytännön järjestelyt — henkilökohtaisia kelluntavälineitä koskevat vaatimukset ja ilmoittautumisvelvollisuus lähtöalueella sekä maista lähdettäessä ja palattaessa, maissa annettavat viestit ja niiden paikka, järjestäjän toimittamien veneiden muutosrajoitukset, säännön 42.3(i) mukaisen kuljettamisen salliminen, sekä tukihenkilöveneiden, muovialtaiden, radioiden ja jätteiden käsittelyn rajoitukset ja ulkopuolisen avun rajoitukset kilpailemattomalle veneelle; kilpailualue ja rata — kilpailualueen kuvaus (kartta suositellaan), lähtöalueen sijainti ja rajoitukset, yksittäisen tai yleisen palautuksen erityismenettelyt, radan ja luoviosuuksien likimääräiset pituudet, rataosuuden muutosmenettely, esteiksi määrättyjen kohteiden tai alueiden kuvaus ja niihin liittyvät rajoitukset, merkkien paikkaa osoittavat veneet, sekä radan lyhentämisen erityismenettelyt; aikarajat ja pisteet — muiden kuin ensimmäisen veneen enimmäisaika ja muut aikarajat tai tavoiteajat, raportointivaatimukset ja aikahyvitykset; tutkinnat ja hallinto — määräajat ja tutkintojen paikka sekä erityismenettelyt protesteille, hyvityspyynnöille ja uusimispyynnöille, kansallisen järjestön hyväksyntä kansainväliselle tuomaristolle (sääntö 91(b)), säännön N1.4(b) tutkintapyynnön määräaika, jos se ei ole 30 minuuttia, sekä säännön 70.4 vaatiessa se kansallinen järjestö, jolle muutoksenhaut lähetetään; ja muut — kilpailijoiden vaihtaminen, lähtöalueelle vaadittu vähimmäismäärä veneitä purjehduksen lähettämiseksi, lykättyjen tai mitätöityjen purjehdusten uusintapäivä ja -paikka, vuorovedet ja virrat, sekä muut kilpailulautakunnan sitoumukset ja veneiden velvoitteet.",
+      "en": "Unless already in the notice of race, the sailing instructions must give all of the following themes that apply (J2.2, 29 points): procedures — whether Appendix P applies, English national prescriptions for foreign entries, the written procedure for changing the sailing instructions and the procedure for oral changes on the water (rule 90.2(c)); safety and logistics — personal flotation device requirements and checking in at the starting area and ashore, signals made ashore and their location, restrictions on changing organizer-supplied boats, when propulsion under rule 42.3(i) is allowed, and restrictions on support vessels, plastic pools, radios, trash disposal and outside assistance to a boat not racing; racing area and course — a description of the racing area (a chart is recommended), the starting area's location and restrictions, special procedures for individual or general recall, approximate course and beat lengths, the procedure for changing a leg, descriptions of objects or areas designated obstructions and related restrictions, boats marking mark locations, and special procedures for shortening the course; time limits and scoring — the time limit for boats other than the first to finish and other limits or target times, declaration requirements, and time allowances; hearings and administration — time limits and the place for hearings and special procedures for protests, redress requests and reopening requests, national authority approval for an international jury (rule 91(b)), the time limit to request a hearing under rule N1.4(b) if not 30 minutes, and, when rule 70.4 requires it, the national authority appeals and requests are sent to; and other matters — substitution of competitors, the minimum number of boats needed in the starting area to start a race, when and where postponed or abandoned races will be resailed, tides and currents, and other commitments of the race committee and obligations of boats.",
+      "sv": "Om det inte redan anges i inbjudan ska seglingsföreskrifterna ange allt av följande teman som är tillämpliga (J2.2, 29 punkter): procedurer — om bilaga P gäller, engelska nationella föreskrifter för utländska anmälningar, den skriftliga proceduren för att ändra seglingsföreskrifterna och proceduren för muntliga ändringar på vattnet (regel 90.2c); säkerhet och logistik — krav på personlig flytutrustning och incheckning vid startområdet och i land, signaler i land och deras placering, begränsningar för att ändra arrangörens båtar, när framdrivning enligt regel 42.3i är tillåten, samt begränsningar för stödpersoners farkoster, plastbassänger, radio, avfallshantering och utomstående hjälp till en båt som inte kappseglar; kappseglingsområde och bana — en beskrivning av området (sjökort rekommenderas), startområdets placering och begränsningar, särskilda procedurer för enskild eller allmän återkallelse, ungefärliga ban- och kryssbenslängder, proceduren för att ändra ett banben, beskrivningar av föremål eller områden angivna som hinder och tillhörande begränsningar, båtar som anger märkens placering, och särskilda procedurer för att avkorta banan; tidsgränser och poängberäkning — tidsgränsen för andra båtar än den första att gå i mål och andra gränser eller förväntade tider, krav på rorsmansförklaring, och tidsgottgörelse; förhandlingar och administration — tidsgränser och plats för förhandlingar samt särskilda procedurer för protester, ansökningar om gottgörelse och återupptagande, nationell myndighets godkännande för en internationell jury (regel 91b), tidsgränsen för att begära en förhandling enligt regel N1.4b om den inte är 30 minuter, och, när regel 70.4 kräver det, den nationella myndighet dit överklaganden och ansökningar skickas; samt övrigt — byte av tävlande, minsta antal båtar som behövs i startområdet för att starta en kappsegling, när och var uppskjutna eller annullerade kappseglingar seglas om, tidvatten och strömmar, samt andra åtaganden från kappseglingskommittén och skyldigheter för båtarna."
+    },
+    "note": {
+      "fi": "Liitteessä J käsite ”kilpailu” kattaa sekä yksittäisen kilpapurjehduksen että sarjan. Kilpailukutsussa olevaa sääntöä ei tarvitse toistaa purjehdusohjeissa, mutta kaikkien kilpailua sääntelevien asiakirjojen on oltava keskenään ristiriidattomia. Case Bookissa ei ole liitettä J koskevia tapauksia.",
+      "en": "In Appendix J, 'event' covers both a single race and a series. A rule in the notice of race need not be repeated in the sailing instructions, but all documents governing the event must be free of conflicts with each other. The Case Book has no cases on Appendix J.",
+      "sv": "I bilaga J omfattar ”tävling” både en enskild kappsegling och en serie. En regel i inbjudan behöver inte upprepas i seglingsföreskrifterna, men alla dokument som styr tävlingen måste vara fria från inbördes motsägelser. Case Book har inga fall om bilaga J."
+    },
+    "source": "RRS J2.2",
+    "defs": [
+      "Obstruction"
+    ],
+    "links": [
+      {
+        "rules": [
+          "33"
+        ],
+        "note": {
+          "fi": "J2.2(14) edellyttää kertomaan rataosuuden muutosmenettelystä, kun sääntö 33 sallii sen.",
+          "en": "J2.2(14) requires stating the procedure for changing a leg, which rule 33 allows.",
+          "sv": "J2.2.14 kräver att ange proceduren för att ändra ett banben, vilket regel 33 tillåter."
+        }
+      },
+      {
+        "rules": [
+          "91"
+        ],
+        "note": {
+          "fi": "J2.2(22): kansallisen järjestön hyväksyntä kansainväliselle tuomaristolle kerrotaan purjehdusohjeissa, kun sääntö 91(b) vaatii sitä.",
+          "en": "J2.2(22): national authority approval for an international jury is stated in the sailing instructions when rule 91(b) requires it.",
+          "sv": "J2.2.22: nationell myndighets godkännande för en internationell jury anges i seglingsföreskrifterna när regel 91b kräver det."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rJ5-q1",
+        "prompt": {
+          "fi": "Mistä purjehdusohjeiden pitää kertoa, jos niihin tehdään suullisia muutoksia vesillä (J2.2(4))?",
+          "en": "What must the sailing instructions state if oral changes are given on the water (J2.2(4))?",
+          "sv": "Vad måste seglingsföreskrifterna ange om muntliga ändringar ges på vattnet (J2.2.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Menettelytavasta, viitaten sääntöön 90.2(c)",
+              "en": "The procedure, referring to rule 90.2(c)",
+              "sv": "Proceduren, med hänvisning till regel 90.2c"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei tarvitse kertoa mitään etukäteen",
+              "en": "Nothing needs to be stated in advance",
+              "sv": "Inget behöver anges i förväg"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.2(4).",
+          "en": "J2.2(4).",
+          "sv": "J2.2.4."
+        },
+        "source": "RRS J2.2(4)",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "rJ5-q2",
+        "prompt": {
+          "fi": "Mitä purjehdusohjeiden pitää kertoa säännössä esteiksi määrätyistä kohteista tai alueista (J2.2(15))?",
+          "en": "What must the sailing instructions say about objects or areas a rule designates as obstructions (J2.2(15))?",
+          "sv": "Vad måste seglingsföreskrifterna säga om föremål eller områden som en regel anger som hinder (J2.2.15)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kuvauksen niistä sekä rajoitukset niihin menemisestä tai niiden ylittämisestä",
+              "en": "A description of them and any restriction on entering or crossing them",
+              "sv": "En beskrivning av dem och eventuella begränsningar för att gå in i eller korsa dem"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; määritelmä riittää",
+              "en": "Nothing; the definition alone is enough",
+              "sv": "Ingenting; definitionen räcker"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.2(15).",
+          "en": "J2.2(15).",
+          "sv": "J2.2.15."
+        },
+        "source": "RRS J2.2(15)",
+        "also": [
+          "Obstruction"
+        ]
+      },
+      {
+        "id": "rJ5-q3",
+        "prompt": {
+          "fi": "Missä ajassa tutkintaa on pyydettävä säännön N1.4(b) nojalla, ellei purjehdusohjeissa kerrota muuta (J2.2(23))?",
+          "en": "Within what time must a hearing be requested under rule N1.4(b), unless the sailing instructions say otherwise (J2.2(23))?",
+          "sv": "Inom vilken tid måste en förhandling begäras enligt regel N1.4b, om inte seglingsföreskrifterna anger annat (J2.2.23)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "30 minuutin kuluessa",
+              "en": "Within 30 minutes",
+              "sv": "Inom 30 minuter"
+            }
+          },
+          {
+            "t": {
+              "fi": "24 tunnin kuluessa",
+              "en": "Within 24 hours",
+              "sv": "Inom 24 timmar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.2(23).",
+          "en": "J2.2(23).",
+          "sv": "J2.2.23."
+        },
+        "source": "RRS J2.2(23)",
+        "also": []
+      },
+      {
+        "id": "rJ5-q4",
+        "prompt": {
+          "fi": "Mitä purjehdusohjeiden pitää kertoa lähtöalueelle vaadittavasta vähimmäismäärästä veneitä (J2.2(26))?",
+          "en": "What must the sailing instructions say about the minimum number of boats needed in the starting area (J2.2(26))?",
+          "sv": "Vad måste seglingsföreskrifterna ange om minsta antal båtar som behövs i startområdet (J2.2.26)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pienimmän veneiden määrän, joka vaaditaan lähtöalueella purjehduksen lähettämiseksi",
+              "en": "The smallest number of boats required in the starting area for a race to be started",
+              "sv": "Det minsta antal båtar som krävs i startområdet för att en kappsegling ska startas"
+            }
+          },
+          {
+            "t": {
+              "fi": "Suurimman sallitun osallistujamäärän",
+              "en": "The maximum number of entries allowed",
+              "sv": "Det maximala antalet tillåtna anmälningar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.2(26).",
+          "en": "J2.2(26).",
+          "sv": "J2.2.26."
+        },
+        "source": "RRS J2.2(26)",
+        "also": []
+      },
+      {
+        "id": "rJ5-q5",
+        "prompt": {
+          "fi": "Kattaako J2.2 myös aikahyvitykset ja raportointivaatimukset?",
+          "en": "Does J2.2 also cover time allowances and declaration requirements?",
+          "sv": "Omfattar J2.2 även tidsgottgörelse och krav på rorsmansförklaring?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ne kuuluvat vain kilpailukutsuun",
+              "en": "No, those belong only in the notice of race",
+              "sv": "Nej, det hör bara hemma i inbjudan"
+            }
+          }
+        ],
+        "why": {
+          "fi": "J2.2(19), (20).",
+          "en": "J2.2(19), (20).",
+          "sv": "J2.2.19, 20."
+        },
+        "source": "RRS J2.2(19), J2.2(20)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "M1",
     "section": "M",
     "title": {
