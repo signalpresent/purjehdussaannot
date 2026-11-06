@@ -1,6 +1,6 @@
 import rulesRaw from './rules.json';
 import defsRaw from './defs.json';
-import { LANGS, Lang, T, esc } from './i18n';
+import { LANGS, Lang, T, esc, APPX } from './i18n';
 import { Scene, sceneSvg } from './diagrams';
 import { State, pickNext, TextStore } from './store';
 import { SKELETON } from './ruletext';
@@ -54,12 +54,23 @@ export function official(txt: TextStore, l: Lang, keep: (base: string) => boolea
 }
 const mine = (r: Rule) => (b: string) => { const n = String(r.n); return b === n || (r.covers ? r.covers.includes(b) : b.startsWith(n + '.')); };
 
-export function rulesView(l: Lang, txt: TextStore = {}): string {
-  const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
+const rowOf = (l: Lang) => (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
     <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
-  const groups = [...new Set(rules.map(r => r.section))];
+export function rulesView(l: Lang, txt: TextStore = {}): string {
+  const row = rowOf(l);
+  const groups = [...new Set(rules.map(r => r.section))].filter(g => !isAppx(g));
   return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g && /[A-Z]/.test(b[1]))}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
     + `<p class="mute">${T.moreRules[l]}</p>`;
+}
+
+const isAppx = (g: string) => /^[A-Z]$/.test(g);
+// Appendices tab: every appendix of the book; those with pages list them, the rest are marked not yet covered.
+export function appxView(l: Lang, txt: TextStore = {}): string {
+  return `<p class="mute">${T.appxIntro[l]}</p>` + APPX.map(([k, title]) => {
+    const pages = rules.filter(r => r.section === k), head = `<h3>${T.appendix[l]} ${k} · ${esc(title[l])}</h3>`;
+    if (!pages.length) return `${head}<p class="mute soonrow">${T.notYet[l]}</p>`;
+    return `${head}${official(txt, l, b => b === k)}<div class="list">${pages.map(rowOf(l)).join('')}</div>`;
+  }).join('');
 }
 
 export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
@@ -67,7 +78,7 @@ export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
   const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${esc(tx(k.note, l))}</p>`).join('');
   const scen = r.scenarios.map(s => `<div class="sc"><div class="chips"><span>Case ${s.case}</span>${chips(s.also ?? [], l)}</div>
     <h4>${esc(tx(s.title, l))}</h4><p>${esc(tx(s.text, l))}</p><p><b>${T.outcome[l]}.</b> ${esc(tx(s.answer, l))}</p></div>`).join('');
-  return `<button class="btn" data-nav="rules">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l, r.explain)}${official(txt, l, mine(r), String(r.n))}${signalsFor(String(r.n), l)}
+  return `<button class="btn" data-nav="${isAppx(r.section) ? 'appx' : 'rules'}">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l, r.explain)}${official(txt, l, mine(r), String(r.n))}${signalsFor(String(r.n), l)}
   <h3>${T.explain[l]}</h3><p>${esc(tx(r.explain, l))}</p><p class="mute">${T.source[l]}: ${esc(r.source)}</p>
   ${r.scene && r.caption ? `<div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div>` : ''}<p class="mute">${esc(tx(r.note, l))}</p>
   <h3>${T.related[l]}</h3><div class="chips">${defs}</div><h3>${T.links[l]}</h3>${links}

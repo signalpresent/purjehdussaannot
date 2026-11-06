@@ -6,7 +6,7 @@ import { load, save, State, exportBox, importBox, loadText, saveText, textSig } 
 import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
 import { signalsView } from './flags';
-import { rules, rulesView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
+import { rules, rulesView, appxView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -19,8 +19,8 @@ const t = (k: string) => T[k][state.lang];
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const key = (d: Def) => d.en;
 
-type View = 'list' | 'detail' | 'rules' | 'rule' | 'practice' | 'signals' | 'tree';
-let view: View = 'list';
+type View = 'home' | 'list' | 'detail' | 'rules' | 'rule' | 'appx' | 'practice' | 'signals' | 'tree';
+let view: View;
 let backTo: View = 'list';
 let current: Def | null = null;
 let currentRule: (typeof rules)[number] | null = null;
@@ -28,14 +28,29 @@ let query = '';
 let flash = '';
 let { text, stale } = loadText();
 let textMsg = '';
+view = Object.keys(text).length ? 'list' : 'home'; // first visit (no rulebook yet): start on the home page
 
 function shell(inner: string): string {
   const seg = LANGS.map(l => `<button data-lang="${l}" class="${l === state.lang ? 'on' : ''}">${l.toUpperCase()}</button>`).join('');
-  const tab = view === 'detail' || view === 'list' ? 'list' : view === 'practice' || view === 'signals' ? view : 'rules';
-  const nav = (['list', 'rules', 'signals', 'practice'] as const).map(v => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t({ list: 'tabDefs', rules: 'tabRules', signals: 'tabSignals', practice: 'tabPractice' }[v])}</button>`).join('');
+  const tab = view === 'detail' ? 'list' : view === 'rule' ? (/^[A-Z]$/.test(currentRule?.section ?? '') ? 'appx' : 'rules') : view === 'tree' ? 'rules' : view;
+  const nav = TABS.map(([v, k]) => `<button data-nav="${v}" class="${v === tab ? 'on' : ''}">${t(k)}</button>`).join('');
   const foot = `<footer><span class="mute">${Object.keys(text).length ? `${t('textLoaded')}: ${Object.keys(text).map(x => x.toUpperCase()).join(', ')}` : t('textNone')}</span> <button class="btn" data-timport="1">${t('textImport')}</button><input type="file" id="timp" accept=".pdf,application/pdf" multiple hidden><p class="mute" id="timpmsg">${esc(textMsg || (stale ? t('textStale') : ''))}</p>
     <details class="help"><summary>${t('textHow')}</summary><p>${t('textIntro')}</p><ol>${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></details></footer>`;
-  return `<div class="wrap"><header><h1>${esc(t('title'))}</h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
+  return `<div class="wrap"><header><h1><button class="home" data-nav="home" title="${esc(t('home'))}">${esc(t('title'))}</button></h1><div class="seg">${seg}</div></header><nav>${nav}</nav>${inner}${foot}</div>`;
+}
+
+const TABS = [['list', 'tabDefs'], ['rules', 'tabRules'], ['appx', 'tabAppx'], ['signals', 'tabSignals'], ['practice', 'tabPractice']] as const;
+
+function homeView(): string {
+  const loaded = Object.keys(text).map(x => x.toUpperCase());
+  const card = (v: string, k: string, d: string) => `<div class="item" tabindex="0" data-nav="${v}"><div class="t">${t(k)}</div><div class="s">${t(d)}</div></div>`;
+  return `<p>${t('homeIntro')}</p>
+  <div class="sc"><h3>${t('homeImportH')}</h3><p>${t('homeImportP')}</p>
+    <p><button class="btn big" data-timport="1">${t('textImport')}</button></p>
+    <p class="${loaded.length ? 'okt' : 'mute'}">${loaded.length ? `${t('textLoaded')}: ${loaded.join(', ')}` : t('textNone')}</p>
+    <ol class="steps">${t('textSteps').split('|').map(x => `<li>${esc(x)}</li>`).join('')}</ol><p class="mute">${t('textWarn')}</p></div>
+  <h3>${t('homeUseH')}</h3><div class="list">${card('list', 'tabDefs', 'homeDefs')}${card('rules', 'tabRules', 'homeRules')}${card('appx', 'tabAppx', 'homeAppx')}${card('signals', 'tabSignals', 'homeSignals')}${card('practice', 'tabPractice', 'homePractice')}</div>
+  <h3>${t('homeInstallH')}</h3><p>${t('homeInstall')}</p>`;
 }
 
 function listView(): string {
@@ -58,7 +73,7 @@ function detailView(d: Def): string {
 
 function render() {
   const inner = view === 'detail' && current ? detailView(current) : view === 'rule' && currentRule ? ruleView(currentRule, state.lang, text)
-    : view === 'rules' ? rulesView(state.lang, text) : view === 'practice' ? practiceView(state) : view === 'signals' ? signalsView(state.lang) : view === 'tree' ? treeView(state.lang) : listView();
+    : view === 'rules' ? rulesView(state.lang, text) : view === 'appx' ? appxView(state.lang, text) : view === 'home' ? homeView() : view === 'practice' ? practiceView(state) : view === 'signals' ? signalsView(state.lang) : view === 'tree' ? treeView(state.lang) : listView();
   const hadFocus = document.activeElement?.id === 'q';
   root.innerHTML = shell(inner);
   const m = document.getElementById('impmsg'); if (m) m.textContent = flash;
@@ -79,7 +94,7 @@ root.addEventListener('click', e => {
     return;
   }
   if (ds.lang) { state.lang = ds.lang as Lang; save(state); }
-  else if (ds.nav) view = ds.nav as View;
+  else if (ds.nav) { view = ds.nav as View; window.scrollTo(0, 0); }
   else if (ds.rule) { currentRule = rules.find(r => String(r.n) === ds.rule) ?? null; view = currentRule ? 'rule' : 'rules'; window.scrollTo(0, 0); }
   else if (ds.tans) treeAnswer(+ds.tans);
   else if (ds.tback) treeBack(+ds.tback);
@@ -89,7 +104,7 @@ root.addEventListener('click', e => {
   else if (ds.open) { backTo = view === 'rule' ? 'rule' : 'list'; current = defs.find(d => key(d) === ds.open) || null; view = 'detail'; window.scrollTo(0, 0); }
   render();
 });
-root.addEventListener('keydown', e => { const el = e.target as HTMLElement; if (e.key === 'Enter' && (el.dataset.open || el.dataset.rule)) el.click(); });
+root.addEventListener('keydown', e => { const el = e.target as HTMLElement; if (e.key === 'Enter' && (el.dataset.open || el.dataset.rule || el.classList.contains('item'))) el.click(); });
 root.addEventListener('input', e => {
   const el = e.target as HTMLInputElement;
   if (el.id === 'q') { query = el.value; render(); }
