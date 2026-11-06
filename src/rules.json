@@ -25609,6 +25609,984 @@
     ]
   },
   {
+    "n": "C6",
+    "section": "C",
+    "title": {
+      "fi": "Rangaistusjärjestelmä",
+      "sv": "Straffsystem",
+      "en": "Penalty System"
+    },
+    "explain": {
+      "fi": "Sääntö 44 poistetaan kokonaan (C7.1) ja korvataan liitteen omalla rangaistusjärjestelmällä. Rangaistuksen saanut vene voi lykätä sen suorittamista C7.3:n rajoituksin, ja suorittaa sen jiippaamalla ja nousemalla niin pian kuin kohtuudella mahdollista tiukasti vastaiseen suuntaan luovimerkille vievällä rataosuudella, tai tekemällä vastakäännöksen ja laskemalla myötätuulisuuntaan myötätuulimerkille tai maalilinjalle vievällä rataosuudella (C7.2(a)). Sääntöön 2 lisätään, että kilpaileva vene voi odottaa erotuomarien päätöstä ennen rangaistuksen suorittamista (C7.2(b)). Vene päättää rataosuuden, kun sen rungon osa ylittää edelliseltä merkiltä piirretyn linjan jatkeen tai se tulee maaliin viimeisellä rataosuudella (C7.2(c)). Rangaistuksen saanutta venettä ei kirjata maaliin tulleeksi ennen kuin se on suorittanut rangaistuksensa ja runko on kokonaan radan puolella, ellei rangaistus kumoudu ennen tai jälkeen maalilinjan ylityksen (C7.2(d)). Jos veneellä on yksi tai kaksi suorittamatonta rangaistusta ja ottelun toinen vene saa rangaistuksen, kummaltakin kumoutuu yksi rangaistus, paitsi että punaisen lipun rangaistus ei kumoudu eikä kumoa muuta rangaistusta (C7.2(e)). Jos yksi vene on tullut maaliin eikä enää kilpaile ja toisella on suorittamaton rangaistus, erotuomarit voivat peruuttaa sen (C7.2(f)). Rajoitukset (C7.3): vastakäännöksen sisältävässä rangaistuksessa spinaakkerin nostinkulman on oltava isopuomin nivelen alapuolella tuulensilmän ohituksesta tiukkaan vastaiseen suuntaan asti; mitään rangaistuksen osaa ei saa suorittaa kääntömerkin vyöhykkeessä, kun merkki aloittaa, rajaa tai päättää veneen rataosuuden; yhden suorittamattoman rangaistuksen vene voi suorittaa sen milloin tahansa lähdön ja maaliintulon välillä, mutta kahden rangaistuksen vene suorittaa yhden niin pian kuin kohtuudella mahdollista, ei ennen lähtöä; punaisen lipun rangaistus on suoritettava niin pian kuin kohtuudella mahdollista, ei ennen lähtöä. Suorittaminen (C7.4): vene suorittaa rangaistusta, kun se jiippaa luovimerkille vievällä rataosuudella tai ohittaa tuulensilmän myötätuulimerkille tai maalilinjalle vievällä rataosuudella; virheellinen tai keskeytetty suoritus lopettaa rangaistuksen suorittamisen, ja erotuomarit viestivät tästä säännön C5.6 mukaisesti; erotuomarivene näyttää lippuja tai kuvioita suorittamattomien rangaistusten lukumäärän mukaan, ja yksi poistetaan äänimerkillä, kun rangaistus suoritetaan tai kumoutuu — virheellinen viestintä ei muuta todellista rangaistusten lukumäärää.",
+      "en": "Rule 44 is deleted entirely (C7.1) and replaced by the appendix's own penalty system. A penalized boat may delay taking it within the limits of C7.3, and takes it by gybing and, as soon as reasonably possible, luffing to close-hauled on a leg to a windward mark, or by tacking and bearing away downwind on a leg to a leeward mark or the finishing line (C7.2(a)). An addition to rule 2 lets a racing boat wait for the umpires' decision before taking a penalty (C7.2(b)). A boat completes a leg when part of her hull crosses the extension of the line from the previous mark, or finishes on the last leg (C7.2(c)). A penalized boat is not recorded as finished until she has taken her penalty and her hull is completely on the course side, unless the penalty is cancelled before or after crossing the line (C7.2(d)). If a boat has one or two outstanding penalties and the other boat in the match is penalized, one penalty for each is cancelled, except that a red-flag penalty neither cancels nor is cancelled by another (C7.2(e)). If one boat has finished and is no longer racing while the other has an outstanding penalty, the umpires may cancel it (C7.2(f)). Limitations (C7.3): a penalty including a tack requires the spinnaker head below the boom gooseneck from passing head to wind until close-hauled; no part of a penalty may be taken in the zone of a mark that begins, bounds or ends the boat's leg; with one outstanding penalty a boat may take it any time between starting and finishing, but with two she must take one as soon as reasonably possible, not before starting; a red-flag penalty must be taken as soon as reasonably possible, not before starting. Taking and completing (C7.4): a boat is taking a penalty when she gybes on a leg to a windward mark or passes head to wind on a leg to a leeward mark or the finishing line; an incorrect or incomplete attempt ends the penalty, which the umpires signal under rule C5.6; the umpire boat displays flags or shapes for each outstanding penalty, removing one with a sound when a penalty is taken or cancelled — incorrect signalling does not change the real number outstanding.",
+      "sv": "Regel 44 stryks helt (C7.1) och ersätts av appendixets eget straffsystem. En straffad båt får vänta med att ta straffet inom gränserna i C7.3, och tar det genom att gippa och, så snart det finns en rimlig möjlighet, lova till kurs dikt bidevind på ett banben mot ett kryssmärke, eller genom att stagvända och falla undan på ett banben mot ett länsmärke eller mållinjen (C7.2a). Ett tillägg till regel 2 låter en kappseglande båt vänta på matchdomarnas beslut innan den tar ett straff (C7.2b). En båt avslutar ett banben när en del av skrovet skär förlängningen av linjen från föregående märke, eller går i mål på sista banbenet (C7.2c). En straffad båt noteras inte ha gått i mål förrän den har tagit sitt straff och skrovet är helt på bansidan, om inte straffet kvittas före eller efter att den skär linjen (C7.2d). Om en båt har ett eller två utestående straff och den andra båten i matchen straffas, kvittas ett straff för vardera båten, men ett rödflaggsstraff kvittar eller kvittas inte mot ett annat (C7.2e). Om en båt har gått i mål och inte längre kappseglar medan den andra har ett utestående straff, får matchdomarna ta bort det (C7.2f). Begränsningar (C7.3): ett straff som innefattar en stagvändning kräver att spinnakerns fallhorn är nedanför bommens mastbeslag från det att båten passerar vindögat tills den ligger dikt bidevind; ingen del av ett straff får tas i zonen runt ett märke som inleder, begränsar eller avslutar båtens banben; med ett utestående straff får båten ta det när som helst mellan start och mål, men med två måste den ta ett så snart det finns en rimlig möjlighet, dock efter start; ett rödflaggsstraff måste tas så snart det finns en rimlig möjlighet, efter start. Att ta och fullborda (C7.4): en båt tar ett straff när den gippar på ett banben mot ett kryssmärke eller passerar vindögat på ett banben mot ett länsmärke eller mållinjen; ett felaktigt eller ofullständigt försök avslutar straffet, vilket matchdomarna signalerar enligt regel C5.6; domarbåten visar flaggor eller figurer för varje utestående straff och tar ner en med en ljudsignal när ett straff tas eller kvittas — felaktig signalering ändrar inte det verkliga antalet utestående."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C7.1, C7.2, C7.3, C7.4",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Liite C poistaa säännön 44 kokonaan; sen kahden kierroksen rangaistuksen tilalla on oma vastakäännös/jiippi-rangaistus, jonka vain erotuomarit käynnistävät.",
+          "en": "Appendix C deletes rule 44 entirely; in place of its Two-Turns Penalty is its own tack-or-gybe penalty, triggered only by the umpires.",
+          "sv": "Bilaga C stryker regel 44 helt; i stället för tvåvarvsstraffet finns ett eget stagvändnings- eller gippningsstraff, som bara matchdomarna kan utlösa."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC6-q1",
+        "prompt": {
+          "fi": "Mitä liite C tekee säännölle 44?",
+          "en": "What does Appendix C do to rule 44?",
+          "sv": "Vad gör bilaga C med regel 44?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistaa sen kokonaan ja korvaa omalla rangaistusjärjestelmällä",
+              "en": "Deletes it entirely and replaces it with its own penalty system",
+              "sv": "Stryker den helt och ersätter den med ett eget straffsystem"
+            }
+          },
+          {
+            "t": {
+              "fi": "Muuttaa vain rangaistuksen suuruutta",
+              "en": "Only changes the size of the penalty",
+              "sv": "Ändrar bara straffets storlek"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C7.1.",
+          "en": "C7.1.",
+          "sv": "C7.1."
+        },
+        "source": "RRS C7.1",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rC6-q2",
+        "prompt": {
+          "fi": "Miten vene suorittaa rangaistuksen luovimerkille vievällä rataosuudella (C7.2(a))?",
+          "en": "How does a boat take her penalty on a leg to a windward mark (C7.2(a))?",
+          "sv": "Hur tar en båt sitt straff på ett banben mot ett kryssmärke (C7.2a)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Jiippaamalla ja nousemalla niin pian kuin kohtuudella mahdollista tiukasti vastaiseen suuntaan",
+              "en": "By gybing and, as soon as reasonably possible, luffing to close-hauled",
+              "sv": "Genom att gippa och, så snart det finns en rimlig möjlighet, lova till kurs dikt bidevind"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tekemällä vastakäännöksen ja laskemalla myötätuuleen",
+              "en": "By tacking and bearing away downwind",
+              "sv": "Genom att stagvända och falla undan"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C7.2(a)(1).",
+          "en": "C7.2(a)(1).",
+          "sv": "C7.2a1."
+        },
+        "source": "RRS C7.2(a)",
+        "also": []
+      },
+      {
+        "id": "rC6-q3",
+        "prompt": {
+          "fi": "Veneellä on kaksi suorittamatonta rangaistusta. Milloin sen on suoritettava ainakin yksi niistä?",
+          "en": "A boat has two outstanding penalties. When must she take at least one of them?",
+          "sv": "En båt har två utestående straff. När måste den ta minst ett av dem?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Niin pian kuin kohtuudella mahdollista, mutta ei ennen lähtöä",
+              "en": "As soon as reasonably possible, but not before starting",
+              "sv": "Så snart det finns en rimlig möjlighet, men inte före start"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasta lähestyessään maalilinjaa",
+              "en": "Only as she approaches the finishing line",
+              "sv": "Först när den närmar sig mållinjen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C7.3(c).",
+          "en": "C7.3(c).",
+          "sv": "C7.3c."
+        },
+        "source": "RRS C7.3(c)",
+        "also": []
+      },
+      {
+        "id": "rC6-q4",
+        "prompt": {
+          "fi": "Veneellä on yksi suorittamaton rangaistus, ja ottelun toinen vene saa rangaistuksen. Mitä tapahtuu?",
+          "en": "A boat has one outstanding penalty, and the other boat in the match is penalized. What happens?",
+          "sv": "En båt har ett utestående straff, och den andra båten i matchen straffas. Vad händer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kummaltakin veneeltä kumoutuu yksi rangaistus, paitsi punaisen lipun rangaistus ei kumoudu näin",
+              "en": "One penalty is cancelled for each boat, except a red-flag penalty is not cancelled this way",
+              "sv": "Ett straff kvittas för vardera båten, men ett rödflaggsstraff kvittas inte på det sättet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; rangaistukset pysyvät ennallaan",
+              "en": "Nothing; the penalties stay as they are",
+              "sv": "Inget; straffen förblir oförändrade"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C7.2(e).",
+          "en": "C7.2(e).",
+          "sv": "C7.2e."
+        },
+        "source": "RRS C7.2(e)",
+        "also": []
+      },
+      {
+        "id": "rC6-q5",
+        "prompt": {
+          "fi": "Missä rangaistusta ei saa suorittaa miltään osin (C7.3(b))?",
+          "en": "Where may no part of a penalty be taken (C7.3(b))?",
+          "sv": "Var får ingen del av ett straff tas (C7.3b)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kääntömerkin vyöhykkeessä, kun merkki aloittaa, rajaa tai päättää veneen rataosuuden",
+              "en": "In the zone of a rounding mark that begins, bounds or ends the boat's leg",
+              "sv": "I zonen runt ett rundningsmärke som inleder, begränsar eller avslutar båtens banben"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lähtölinjan lähellä",
+              "en": "Near the starting line",
+              "sv": "Nära startlinjen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C7.3(b).",
+          "en": "C7.3(b).",
+          "sv": "C7.3b."
+        },
+        "source": "RRS C7.3(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C7",
+    "section": "C",
+    "title": {
+      "fi": "Erotuomarien oma-aloitteiset rangaistukset",
+      "sv": "Straff initierade av matchdomare",
+      "en": "Penalties Initiated by Umpires"
+    },
+    "explain": {
+      "fi": "Sääntö 60.1 ei päde kilpailulautakunnan tai teknisen lautakunnan protesteihin säännöistä, joiden rikkomisesta erotuomarit voivat itse rangaista (C8.1). Kun erotuomarit päättävät veneen rikkoneen sääntöä 31, 42, C4, C7.3(c) tai C7.3(d), he rankaisevat sitä viestillä C5.2 tai C5.3; jos vene rangaistaan osan 2 säännön rikkomisesta ja se samassa tapahtumassa rikkoo myös sääntöä 31, siitä ei rangaista erikseen; väärän lipun näyttäminen tai oikean lipun näyttämättä jättäminen johtaa ensin suulliseen varoitukseen ja tilaisuuteen korjata virhe ennen rankaisemista (C8.2). Erotuomarit rankaisevat venettä myös, jos se on rangaistuksesta huolimatta saanut etua rikkomuksestaan, rikkonut sääntöä tahallaan, tai tehnyt urheiluhenkeä vastaisen rikkomuksen (C8.3). Jos erotuomarit tai lautakunnan jäsenet päättävät veneen saattaneen rikkoa muuta kuin C6.1(a):ssa tai C6.2:ssa lueteltua sääntöä, he ilmoittavat asiasta protestilautakunnalle, joka toimii säännön 60.1 ja tarvittaessa säännön C6.6 mukaisesti (C8.4). Kun toinen vene on lähtenyt ja erotuomarit ovat vakuuttuneita, ettei toinen lähde, he voivat viestittää säännön C5.4 mukaisesti yksilöiden lähtemättömän veneen (C8.5); kun vene vetäytyy molempien lähdettyä, erotuomarit voivat samoin viestittää vetäytymisen (C8.6). Jos ottelun erotuomarit yhdessä ainakin yhden toisen erotuomarin kanssa päättävät veneen rikkoneen sääntöä 14 vahingon aiheutuessa, he voivat antaa pisterangaistuksen ilman tutkintaa; kilpailijalle ilmoitetaan rangaistuksesta mahdollisimman pian, ja hän voi tällöin pyytää tutkintaa, jolloin protestilautakunta toimii säännön C6.6 mukaan ja voi langettaa suuremman rangaistuksen; jos erotuomarit katsovat tarvittavan yli yhden pisteen rangaistuksen, he toimivat säännön C8.4 mukaisesti (C8.7).",
+      "en": "Rule 60.1 does not apply to protests by the race committee or technical committee under rules the umpires may themselves penalize (C8.1). When the umpires decide a boat broke rule 31, 42, C4, C7.3(c) or C7.3(d), they penalize her by signalling under C5.2 or C5.3; if she is penalized for a Part 2 rule and also breaks rule 31 in the same incident, she is not penalized separately for that; displaying an incorrect flag or failing to display the right one first gets an oral warning and a chance to correct it before any penalty (C8.2). The umpires also penalize a boat that, despite a penalty, still gained an advantage from her breach, broke a rule deliberately, or committed a breach of sportsmanship (C8.3). If the umpires or protest committee members decide a boat may have broken a rule not listed in C6.1(a) or C6.2, they inform the protest committee, which acts under rule 60.1 and C6.6 when appropriate (C8.4). When one boat has started and the umpires are satisfied the other will not, they may signal under C5.4, identifying the boat that has not started (C8.5); when a boat retires after both have started, the umpires may likewise signal her retirement (C8.6). If a match's umpires, with at least one other umpire, decide a boat broke rule 14 and damage resulted, they may impose a points penalty without a hearing; the competitor is informed as soon as practicable and may then request a hearing, after which the protest committee acts under C6.6 and may impose a larger penalty; if the umpires think a penalty greater than one point is needed, they act under C8.4 (C8.7).",
+      "sv": "Regel 60.1 gäller inte protester från kappseglingskommittén eller tekniska kommittén enligt regler som matchdomarna själva kan straffa (C8.1). När matchdomarna finner att en båt har brutit mot regel 31, 42, C4, C7.3c eller C7.3d, straffar de den genom att signalera enligt C5.2 eller C5.3; om den straffas för en regel i del 2 och bryter mot regel 31 i samma händelse, straffas den inte separat för det; att visa fel flagga eller inte visa rätt flagga först ger en muntlig varning och en chans att rätta felet innan något straff ges (C8.2). Matchdomarna straffar också en båt som trots ett straff ändå fått en fördel genom regelbrottet, avsiktligt brutit mot en regel, eller visat brist på sportsmannaanda (C8.3). Om matchdomarna eller medlemmar i protestkommittén finner att en båt kan ha brutit mot en regel som inte är listad i C6.1a eller C6.2, informerar de protestkommittén, som agerar enligt regel 60.1 och C6.6 när det är lämpligt (C8.4). När en båt har startat och matchdomarna är övertygade om att den andra inte kommer att starta, får de signalera enligt C5.4 och identifiera båten som inte startat (C8.5); när en båt utgår efter att båda har startat, får matchdomarna på samma sätt signalera dess utgång (C8.6). Om en matchs domare, tillsammans med minst en annan matchdomare, finner att en båt brutit mot regel 14 och det uppstått skada, får de ge ett poängstraff utan förhandling; den tävlande informeras så snart som praktiskt möjligt och kan då begära en förhandling, varefter protestkommittén agerar enligt C6.6 och kan ge ett större straff; om matchdomarna anser att ett straff större än en poäng behövs, agerar de enligt C8.4 (C8.7)."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C8.1-C8.7, 60.1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "C8.1 vapauttaa kilpailu- ja teknisen lautakunnan protestit säännön 60.1 kirjallisuusvaatimuksesta niissä asioissa, joita erotuomarit muuten valvovat.",
+          "en": "C8.1 frees race and technical committee protests from rule 60.1's requirements for matters the umpires otherwise police.",
+          "sv": "C8.1 befriar kappseglings- och tekniska kommitténs protester från regel 60.1:s krav i frågor som matchdomarna annars övervakar."
+        }
+      },
+      {
+        "rules": [
+          "14"
+        ],
+        "note": {
+          "fi": "C8.7 antaa erotuomareille oikeuden rangaista säännön 14 (välttäminen) rikkomuksesta ilman tutkintaa, kun vahinkoa on aiheutunut.",
+          "en": "C8.7 lets the umpires penalize a rule 14 (avoiding contact) breach without a hearing when damage has resulted.",
+          "sv": "C8.7 låter matchdomarna straffa ett brott mot regel 14 (undvika kontakt) utan förhandling när skada har uppstått."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC7-q1",
+        "prompt": {
+          "fi": "Mitä sääntö 60.1 ei koske liitteen C mukaan?",
+          "en": "What does rule 60.1 not apply to under Appendix C?",
+          "sv": "Vad gäller inte regel 60.1 för enligt bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailulautakunnan tai teknisen lautakunnan protesteja säännöistä, joiden rikkomisesta erotuomarit voivat itse rangaista",
+              "en": "Protests by the race or technical committee under rules the umpires may themselves penalize",
+              "sv": "Protester från kappseglings- eller tekniska kommittén enligt regler som matchdomarna själva kan straffa"
+            }
+          },
+          {
+            "t": {
+              "fi": "Mitään; sääntö 60.1 pätee aina sellaisenaan",
+              "en": "Nothing; rule 60.1 always applies as it stands",
+              "sv": "Ingenting; regel 60.1 gäller alltid som den är"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C8.1.",
+          "en": "C8.1.",
+          "sv": "C8.1."
+        },
+        "source": "RRS C8.1",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "rC7-q2",
+        "prompt": {
+          "fi": "Vene rikkoo samassa tapahtumassa osan 2 sääntöä ja sääntöä 31. Rangaistaanko siitä kahdesti?",
+          "en": "A boat breaks a Part 2 rule and rule 31 in the same incident. Is she penalized twice?",
+          "sv": "En båt bryter mot en regel i del 2 och mot regel 31 i samma händelse. Straffas den två gånger?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; säännön 31 rikkomisesta ei rangaista erikseen",
+              "en": "No; she is not penalized separately for breaking rule 31",
+              "sv": "Nej; den straffas inte separat för brottet mot regel 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kummastakin erikseen",
+              "en": "Yes, separately for each",
+              "sv": "Ja, separat för vartdera"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C8.2.",
+          "en": "C8.2.",
+          "sv": "C8.2."
+        },
+        "source": "RRS C8.2",
+        "also": []
+      },
+      {
+        "id": "rC7-q3",
+        "prompt": {
+          "fi": "Vene näyttää väärää lippua. Mitä erotuomarien pitää tehdä ennen rankaisemista?",
+          "en": "A boat displays the wrong flag. What must the umpires do before penalizing her?",
+          "sv": "En båt visar fel flagga. Vad måste matchdomarna göra innan de straffar den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Varoittaa häntä suullisesti ja antaa tilaisuus korjata virhe",
+              "en": "Warn her orally and give her a chance to correct the error",
+              "sv": "Varna den muntligt och ge den en chans att rätta felet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rangaista heti ilman varoitusta",
+              "en": "Penalize her immediately without warning",
+              "sv": "Straffa den omedelbart utan varning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C8.2.",
+          "en": "C8.2.",
+          "sv": "C8.2."
+        },
+        "source": "RRS C8.2",
+        "also": []
+      },
+      {
+        "id": "rC7-q4",
+        "prompt": {
+          "fi": "Milloin erotuomarit saavat antaa pisterangaistuksen ilman tutkintaa (C8.7)?",
+          "en": "When may umpires impose a points penalty without a hearing (C8.7)?",
+          "sv": "När får matchdomare ge ett poängstraff utan förhandling (C8.7)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun ottelun erotuomarit yhdessä ainakin yhden muun erotuomarin kanssa päättävät veneen rikkoneen sääntöä 14 ja vahinkoa on aiheutunut",
+              "en": "When the match's umpires, with at least one other umpire, decide a boat broke rule 14 and damage resulted",
+              "sv": "När matchens domare, tillsammans med minst en annan matchdomare, finner att en båt brutit mot regel 14 och skada uppstått"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina kun he näkevät minkä tahansa rikkomuksen",
+              "en": "Whenever they see any breach at all",
+              "sv": "Närhelst de ser något regelbrott alls"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C8.7.",
+          "en": "C8.7.",
+          "sv": "C8.7."
+        },
+        "source": "RRS C8.7",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "rC7-q5",
+        "prompt": {
+          "fi": "Erotuomarit havaitsevat veneen saattaneen rikkoa sääntöä, jota ei ole lueteltu C6.1(a):ssa tai C6.2:ssa. Mitä he tekevät?",
+          "en": "The umpires notice a boat may have broken a rule not listed in C6.1(a) or C6.2. What do they do?",
+          "sv": "Matchdomarna märker att en båt kan ha brutit mot en regel som inte är listad i C6.1a eller C6.2. Vad gör de?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ilmoittavat asiasta protestilautakunnalle",
+              "en": "They inform the protest committee",
+              "sv": "De informerar protestkommittén"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rankaisevat venettä suoraan itse",
+              "en": "They penalize the boat directly themselves",
+              "sv": "De straffar båten direkt själva"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C8.4.",
+          "en": "C8.4.",
+          "sv": "C8.4."
+        },
+        "source": "RRS C8.4",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C8",
+    "section": "C",
+    "title": {
+      "fi": "Hyvityspyynnöt, muutoksenhaku ja muut toimenpiteet",
+      "sv": "Ansökan om gottgörelse, överklaganden och andra åtgärder",
+      "en": "Requests for Redress, Appeals and Other Proceedings"
+    },
+    "explain": {
+      "fi": "Säännön C5, C6, C7 tai C8 nojalla tehdystä päätöksestä ei voi pyytää hyvitystä eikä hakea muutosta; sääntöä 63.7(b) muutetaan niin, ettei tutkinnan asianosainen voi pyytää tutkinnan uudelleenavaamista (C9.1). Kilpailija ei voi perustaa hyvityspyyntöä väitteeseen, että toimitsijavene — myös erotuomarivene — toimi virheellisesti, paitsi jos protestilautakunta katsoo, että toimitsijavene on saattanut vakavasti häiritä kilpailevaa venettä (C9.2). Mihinkään toimenpiteisiin ei saa ryhtyä erotuomarien toiminnan tai toimimattomuuden johdosta, paitsi C9.2:n sallimassa tilanteessa (C9.3).",
+      "en": "There is no request for redress or appeal from a decision made under rule C5, C6, C7 or C8; rule 63.7(b) changes so a party to a hearing may not ask for it to be reopened (C9.1). A competitor may not base a redress request on a claim that an official boat — including an umpire boat — acted improperly, unless the protest committee believes it may have seriously interfered with a racing boat (C9.2). No proceedings of any kind may be taken over the umpires' action or inaction, except as C9.2 allows (C9.3).",
+      "sv": "Det går inte att ansöka om gottgörelse eller överklaga ett beslut fattat enligt regel C5, C6, C7 eller C8; regel 63.7b ändras så att en part i en förhandling inte får be om att den återupptas (C9.1). En tävlande får inte grunda en ansökan om gottgörelse på ett påstående att en arrangörsbåt — även en domarbåt — handlat felaktigt, om inte protestkommittén tror att den allvarligt kan ha stört en kappseglande båt (C9.2). Inga åtgärder av något slag får vidtas på grund av matchdomarnas agerande eller brist på agerande, förutom som C9.2 tillåter (C9.3)."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C9.1, C9.2, C9.3, 63.7(b)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "C9.1 kaventaa säännön 63.7(b) uudelleenavaamisoikeuden pois kokonaan otteluissa.",
+          "en": "C9.1 removes the rule 63.7(b) right to ask for reopening entirely in matches.",
+          "sv": "C9.1 tar bort regel 63.7b:s rätt att be om återupptagande helt i matcher."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "C9.2 kaventaa hyvityksen yleisiä perusteita (61.4(b)) huomattavasti: toimitsijaveneen virhe ei yksinään riitä.",
+          "en": "C9.2 narrows the general grounds for redress (61.4(b)) considerably: an official boat's fault alone is not enough.",
+          "sv": "C9.2 begränsar de allmänna grunderna för gottgörelse (61.4b) betydligt: en arrangörsbåts fel räcker inte ensamt."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC8-q1",
+        "prompt": {
+          "fi": "Voiko vene pyytää hyvitystä erotuomarien säännön C5-C8 mukaisesta päätöksestä?",
+          "en": "May a boat request redress for a decision made under rules C5-C8?",
+          "sv": "Får en båt ansöka om gottgörelse för ett beslut fattat enligt reglerna C5-C8?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, mutta vain kirjallisesti",
+              "en": "Yes, but only in writing",
+              "sv": "Ja, men bara skriftligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C9.1.",
+          "en": "C9.1.",
+          "sv": "C9.1."
+        },
+        "source": "RRS C9.1",
+        "also": []
+      },
+      {
+        "id": "rC8-q2",
+        "prompt": {
+          "fi": "Voiko tutkinnan asianosainen pyytää tutkinnan uudelleenavaamista liitteen C mukaan?",
+          "en": "May a party to a hearing ask for it to be reopened under Appendix C?",
+          "sv": "Får en part i en förhandling be om att den återupptas enligt bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; sääntöä 63.7(b) on muutettu niin, ettei se ole mahdollista",
+              "en": "No; rule 63.7(b) is changed so it is not possible",
+              "sv": "Nej; regel 63.7b är ändrad så att det inte är möjligt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, samoin kuin tavallisessa tutkinnassa",
+              "en": "Yes, the same as in an ordinary hearing",
+              "sv": "Ja, precis som i en vanlig förhandling"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C9.1.",
+          "en": "C9.1.",
+          "sv": "C9.1."
+        },
+        "source": "RRS C9.1",
+        "also": [
+          "63"
+        ]
+      },
+      {
+        "id": "rC8-q3",
+        "prompt": {
+          "fi": "Milloin kilpailija voi perustaa hyvityspyynnön toimitsijaveneen toimintaan?",
+          "en": "When may a competitor base a redress request on an official boat's action?",
+          "sv": "När får en tävlande grunda en ansökan om gottgörelse på en arrangörsbåts agerande?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain jos protestilautakunta katsoo toimitsijaveneen, myös erotuomarivene, saattaneen vakavasti häiritä kilpailevaa venettä",
+              "en": "Only if the protest committee believes the official boat, including an umpire boat, may have seriously interfered with a racing boat",
+              "sv": "Bara om protestkommittén tror att arrangörsbåten, även en domarbåt, allvarligt kan ha stört en kappseglande båt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina kun toimitsijavene on lähellä kilpailevaa venettä",
+              "en": "Whenever an official boat is near a racing boat",
+              "sv": "Närhelst en arrangörsbåt är nära en kappseglande båt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C9.2.",
+          "en": "C9.2.",
+          "sv": "C9.2."
+        },
+        "source": "RRS C9.2",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "rC8-q4",
+        "prompt": {
+          "fi": "Saako mihinkään toimenpiteisiin ryhtyä erotuomarien toimimattomuuden vuoksi?",
+          "en": "May any proceedings be taken over the umpires' inaction?",
+          "sv": "Får några åtgärder vidtas på grund av matchdomarnas brist på agerande?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, paitsi säännön C9.2 sallimassa tilanteessa",
+              "en": "No, except as rule C9.2 allows",
+              "sv": "Nej, förutom som regel C9.2 tillåter"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina protestilla",
+              "en": "Yes, always by protest",
+              "sv": "Ja, alltid genom protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C9.3.",
+          "en": "C9.3.",
+          "sv": "C9.3."
+        },
+        "source": "RRS C9.3",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C9",
+    "section": "C",
+    "title": {
+      "fi": "Pistelasku",
+      "sv": "Poängberäkning",
+      "en": "Scoring"
+    },
+    "explain": {
+      "fi": "Ottelun voittaja saa yhden pisteen (tasapelissä puoli pistettä molemmille), häviäjä ei saa pisteitä (C10.1). Kun kilpailija jää pois osasta kilpailua, suoritettujen kilpapurjehdusten tulokset jäävät voimaan (C10.2). Jos yksittäinen runkosarja keskeytyy vaillinaisena, tai moninkertaisen runkosarjan ensimmäinen kierros keskeytyy, kilpailijan pistemäärä on hänen purjehtimiensa otteluiden pisteiden keskiarvo; jos joku kilpailijoista on purjehtinut alle kolmasosan otteluistaan, koko runkosarja jätetään huomiotta ja tarvittaessa kilpailu mitätöidään; säännön C11.1(a) tasasijoja ratkaistaessa käytetään tasoissa olevien kilpailijoiden keskinäisten otteluiden pisteiden keskiarvoa (C10.3). Jos moninkertainen runkosarja keskeytyy vaillinaisena toteutuneeseen kierrokseen, kahden kilpailijan välisistä otteluista jaetaan yhteensä vain yksi piste voitosta: yksi ottelu antaa yhden pisteen, kaksi ottelua puoli pistettä kumpikin, kolme ottelua kolmasosan ja niin edelleen (C10.4). Runkosarjassa kilpailijat sijoitetaan kokonaispisteiden mukaan, suurin ensin; ottelun voittaja, joka hylätään toisessa ottelussa tehdyn rikkomuksen vuoksi, menettää voitosta saamansa pisteen, eikä hävinnyt kilpailija saa sitä; eri ryhmissä purjehtineiden kilpailijoiden lopullinen keskinäinen järjestys ratkeaa korkeimman pistemäärän mukaan (C10.5). Pudotussarjassa purjehdusohjeet määräävät sarjavoittoon vaadittavan vähimmäispistemäärän, ja sarjan keskeytyessä voittaa suuremman pistemäärän saanut kilpailija (C10.6). Jos vain yksi ottelun vene ei purjehdi rataa oikein, se saa nolla pistettä ilman tutkintaa (C10.7).",
+      "en": "The winner of each match scores one point (half a point each for a dead heat), the loser scores none (C10.1). When a competitor withdraws from part of an event, the scores of completed races stand (C10.2). If a single round robin is terminated incomplete, or a multiple round robin's first round is terminated, a competitor's score is the average points per match sailed; if any competitor has sailed less than a third of their matches, the whole round robin is disregarded and the event may be voided; for breaking ties under rule C11.1(a), the average points between the tied competitors' own matches is used (C10.3). If the last of several round robins is terminated incomplete, only one point in total is shared between any two competitors' matches: one match played gives one point, two give half a point each, three a third each, and so on (C10.4). In a round robin, competitors rank by total score, highest first; a competitor who won a match but is disqualified for a breach in another match loses the point for that win, and the loser of that match does not get it; the final ranking between competitors who sailed in different groups goes by the highest score (C10.5). In a knockout series, the sailing instructions state the minimum points needed to win, and if the series is terminated the competitor with the higher score wins (C10.6). When only one boat in a match fails to sail the course correctly, she scores no points, without a hearing (C10.7).",
+      "sv": "Vinnaren i varje match får en poäng (en halv poäng var vid dött lopp), förloraren får ingen (C10.1). När en tävlande utgår ur en del av en tävling, kvarstår resultaten i genomförda kappseglingar (C10.2). Om en singel round robin avbryts ofullständig, eller den första omgången i en multipel round robin avbryts, är en tävlandes poäng medeltalet av poängen per match som seglats; om någon tävlande har seglat färre än en tredjedel av sina matcher, strykas hela round robin och tävlingen kan förklaras ogiltig; för att skilja lika resultat enligt regel C11.1a används medeltalet av poängen mellan de lika tävlandes egna matcher (C10.3). Om den sista av flera round robins avbryts ofullständig, delas bara en poäng totalt mellan två tävlandes matcher: en seglad match ger en poäng, två ger en halv poäng vardera, tre en tredjedel vardera, och så vidare (C10.4). I en round robin placeras tävlande efter totalpoäng, högst först; en tävlande som vunnit en match men diskvalificeras för ett regelbrott i en annan match förlorar poängen för den vinsten, och förloraren i den matchen får den inte; den slutliga placeringen mellan tävlande som seglat i olika grupper avgörs av högsta poäng (C10.5). I en utslagsserie anger seglingsföreskrifterna minsta poäng som krävs för att vinna, och om serien avbryts vinner den tävlande med högst poäng (C10.6). När bara en båt i en match misslyckas med att segla banan rätt, får den inga poäng, utan förhandling (C10.7)."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C10.1-C10.7",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "Pistelasku poikkeaa liitteen A järjestelmästä kokonaan: parikilpailussa pisteet lasketaan otteluvoitoista, ei sijoituksista purjehduksissa.",
+          "en": "Scoring departs entirely from the Appendix A system: in match racing, points come from winning matches, not from finishing positions in races.",
+          "sv": "Poängberäkningen skiljer sig helt från bilaga A:s system: i matchracing kommer poängen från att vinna matcher, inte från placeringar i kappseglingar."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC9-q1",
+        "prompt": {
+          "fi": "Montako pistettä ottelun voittaja saa (C10.1)?",
+          "en": "How many points does a match winner score (C10.1)?",
+          "sv": "Hur många poäng får en matchvinnare (C10.1)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden pisteen (tasapelissä puoli pistettä molemmille)",
+              "en": "One point (half a point each for a dead heat)",
+              "sv": "En poäng (en halv poäng var vid dött lopp)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme pistettä",
+              "en": "Three points",
+              "sv": "Tre poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C10.1.",
+          "en": "C10.1.",
+          "sv": "C10.1."
+        },
+        "source": "RRS C10.1",
+        "also": []
+      },
+      {
+        "id": "rC9-q2",
+        "prompt": {
+          "fi": "Yksi kilpailijoista on purjehtinut alle kolmasosan runkosarjan otteluistaan, kun sarja keskeytyy. Mitä tapahtuu?",
+          "en": "A competitor has sailed less than a third of their round-robin matches when it is terminated. What happens?",
+          "sv": "En tävlande har seglat färre än en tredjedel av sina matcher i en round robin när den avbryts. Vad händer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koko runkosarja jätetään huomiotta, ja tarvittaessa kilpailu mitätöidään",
+              "en": "The whole round robin is disregarded, and the event may be voided if necessary",
+              "sv": "Hela round robin strykas, och tävlingen kan förklaras ogiltig om det behövs"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain hänen omat tuloksensa jätetään huomiotta",
+              "en": "Only his own results are disregarded",
+              "sv": "Bara hans egna resultat strykas"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C10.3.",
+          "en": "C10.3.",
+          "sv": "C10.3."
+        },
+        "source": "RRS C10.3",
+        "also": []
+      },
+      {
+        "id": "rC9-q3",
+        "prompt": {
+          "fi": "Kaksi kilpailijaa on purjehtinut toisiaan vastaan kaksi ottelua, kun moninkertainen runkosarja keskeytyy vaillinaisena. Montako pistettä kummastakin voitosta annetaan?",
+          "en": "Two competitors have sailed two matches against each other when a multiple round robin is terminated incomplete. How many points does each win give?",
+          "sv": "Två tävlande har seglat två matcher mot varandra när en multipel round robin avbryts ofullständig. Hur många poäng ger varje vinst?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Puoli pistettä",
+              "en": "Half a point",
+              "sv": "En halv poäng"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhden pisteen, kuten tavallisesti",
+              "en": "One point, as usual",
+              "sv": "En poäng, som vanligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C10.4.",
+          "en": "C10.4.",
+          "sv": "C10.4."
+        },
+        "source": "RRS C10.4",
+        "also": []
+      },
+      {
+        "id": "rC9-q4",
+        "prompt": {
+          "fi": "Kilpailija voittaa ottelun, mutta hänen purjehduksensa hylätään toisessa ottelussa tehdyn rikkomuksen vuoksi. Mitä tapahtuu voitosta saatuun pisteeseen?",
+          "en": "A competitor wins a match, but is disqualified for a breach in another match. What happens to the point for that win?",
+          "sv": "En tävlande vinner en match men diskvalificeras för ett regelbrott i en annan match. Vad händer med poängen för den vinsten?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Hän menettää sen, eikä hävinnyt kilpailija saa sitä",
+              "en": "He loses it, and the loser of that match does not get it",
+              "sv": "Han förlorar den, och förloraren i den matchen får den inte"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hävinnyt kilpailija saa sen sen sijaan",
+              "en": "The loser of that match gets it instead",
+              "sv": "Förloraren i den matchen får den i stället"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C10.5(b).",
+          "en": "C10.5(b).",
+          "sv": "C10.5b."
+        },
+        "source": "RRS C10.5(b)",
+        "also": []
+      },
+      {
+        "id": "rC9-q5",
+        "prompt": {
+          "fi": "Ottelussa vain yksi vene ei purjehdi rataa oikein. Mitä seuraa?",
+          "en": "In a match, only one boat fails to sail the course correctly. What follows?",
+          "sv": "I en match misslyckas bara en båt med att segla banan rätt. Vad blir följden?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Se saa nolla pistettä ilman tutkintaa",
+              "en": "She scores no points, without a hearing",
+              "sv": "Den får inga poäng, utan förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Molemmat veneet saavat puoli pistettä",
+              "en": "Both boats score half a point",
+              "sv": "Båda båtarna får en halv poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C10.7.",
+          "en": "C10.7.",
+          "sv": "C10.7."
+        },
+        "source": "RRS C10.7",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C10",
+    "section": "C",
+    "title": {
+      "fi": "Tasasijat",
+      "sv": "Lika placering",
+      "en": "Ties"
+    },
+    "explain": {
+      "fi": "Runkosarjan tasasijat ratkaistaan järjestyksessä, kunnes kaikki ratkeavat: (a) suurin pistemäärä tasoissa olevien kilpailijoiden keskinäisistä otteluista; (b) moninkertaisessa runkosarjassa kahden kilpailijan tasapelissä viimeisimmän keskinäisen ottelun voittaja; (c) useimmat pisteet parhaiten sijoittunutta, tai tarvittaessa seuraavaksi parhaiten sijoittunutta, kilpailijaa vastaan, kunnes tasasija ratkeaa — kun kaksi tasasijaa riippuu toisistaan, parempi sijoitus ratkaistaan ensin, ja huonomman tasasijan kilpailijoita käsitellään yhtenä kilpailijana; (d) säännön C10.5(c) soveltamisen jälkeen parhain sija omassa ryhmässä riippumatta ryhmän koosta; (e) parhain sija kilpailun viimeksi purjehditussa vaiheessa (C11.1). Pudotussarjan tasasijat, myös 0-0, ratkeavat: (a) parhain sija viimeksi purjehditussa runkosarjassa, tarvittaessa sääntöä C11.1 käyttäen; (b) viimeksi purjehditun keskinäisen ottelun voitto (C11.2). Jos sääntö C11.1 tai C11.2 ei ratkaise tasasijaa: myöhempää vaihetta varten ratkaistava tasasija puretaan ratkaisupurjehduksella, jos se on käytännössä mahdollista; muuten jätetään pois ensin ensimmäisen, sitten toisen ja niin edelleen kilpapurjehduksen pisteet, kunnes tasasija ratkeaa; kilpailun voittajan tai karsiutuneiden lopullisen järjestyksen ratkaisemiseksi voidaan käyttää ratkaisupurjehdusta, muttei arpaa; jos tasasija ei ratkea ollenkaan, rahapalkinnot tai rankingpisteet lasketaan yhteen ja jaetaan tasan tasoissa olevien kilpailijoiden kesken (C11.3).",
+      "en": "Round-robin ties are broken in order until all are settled: (a) the highest score in matches between the tied competitors; (b) in a multiple round robin, between two tied competitors, whoever won their most recent match against each other; (c) the most points against the highest-placed (or, if needed, next highest-placed) competitor, until the tie breaks — when two ties depend on each other, the higher one is resolved first, and the competitors in the lower tie are treated as a single competitor; (d) after applying C10.5(c), the best place in their own group regardless of group size; (e) the best place in the event's most recent stage (C11.1). Knockout-series ties, including 0-0, break by: (a) the best place in the most recent round robin, using C11.1 if needed; (b) winning the most recent match sailed between the tied competitors (C11.2). If C11.1 or C11.2 does not break a tie: one needed for a later stage is broken by a sail-off if practicable; otherwise the first race's score is excluded for each tied competitor, then the second, and so on until it breaks; a sail-off, but not a draw, may be used to decide an event's winner or the final order among those eliminated; if a tie still is not broken, any money prizes or ranking points are added together and shared equally (C11.3).",
+      "sv": "Lika placering i en round robin särskiljs i ordning tills alla är skilda: a) högst poäng i matcher mellan de lika tävlande; b) i en multipel round robin, mellan två lika tävlande, vem som vann deras senaste inbördes match; c) flest poäng mot den bäst placerade (eller, om det behövs, näst bäst placerade) tävlande, tills placeringen är skild — när två lika placeringar beror på varandra, löses den högre först, och de lägre tävlande behandlas som en enda tävlande; d) efter att ha använt C10.5c, bäst placering i den egna gruppen oavsett gruppens storlek; e) bäst placering i tävlingens senaste steg (C11.1). Lika placering i en utslagsserie, inklusive 0-0, särskiljs genom: a) bäst placering i den senaste round robin, med C11.1 om det behövs; b) att ha vunnit den senast seglade inbördes matchen (C11.2). Om C11.1 eller C11.2 inte skiljer de lika tävlande: en som behöver lösas för ett senare steg avgörs genom utslagsgivande match om det är praktiskt möjligt; annars räknas den första kappseglingens resultat bort för varje lika tävlande, sedan den andra, och så vidare tills det är skilt; en utslagsgivande match, men inte lottning, får användas för att avgöra tävlingens vinnare eller den slutliga ordningen bland de utslagna; om en lika placering ändå inte skiljs, läggs eventuella prispengar eller rankingpoäng samman och delas lika (C11.3)."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C11.1, C11.2, C11.3",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "Tasasijajärjestelmä muistuttaa liitteen A perusideaa (eri vaiheet järjestyksessä), mutta perustuu otteluiden keskinäisiin tuloksiin eikä sijoituksiin.",
+          "en": "The tie-break system echoes Appendix A's basic idea (ordered stages), but rests on head-to-head match results rather than finishing positions.",
+          "sv": "Systemet för att skilja lika placeringar påminner om bilaga A:s grundidé (steg i ordning), men bygger på inbördes matchresultat i stället för placeringar."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC10-q1",
+        "prompt": {
+          "fi": "Mikä ratkaisee runkosarjan tasasijan ensimmäisenä (C11.1(a))?",
+          "en": "What breaks a round-robin tie first (C11.1(a))?",
+          "sv": "Vad skiljer en lika placering i en round robin först (C11.1a)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Suurin pistemäärä tasoissa olevien kilpailijoiden keskinäisistä otteluista",
+              "en": "The highest score in matches between the tied competitors",
+              "sv": "Högst poäng i matcher mellan de lika tävlande"
+            }
+          },
+          {
+            "t": {
+              "fi": "Arvonta",
+              "en": "A draw",
+              "sv": "Lottning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C11.1(a).",
+          "en": "C11.1(a).",
+          "sv": "C11.1a."
+        },
+        "source": "RRS C11.1(a)",
+        "also": []
+      },
+      {
+        "id": "rC10-q2",
+        "prompt": {
+          "fi": "Kahden kilpailijan moninkertaisessa runkosarjassa syntyvä tasapeli ratkeaa toisena perusteena (C11.1(b)) minkä mukaan?",
+          "en": "In a multiple round robin, a tie between two competitors breaks on what second ground (C11.1(b))?",
+          "sv": "I en multipel round robin, på vilken andra grund (C11.1b) skiljs en lika placering mellan två tävlande?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Heidän viimeisimmän keskinäisen ottelunsa voittajan hyväksi",
+              "en": "In favour of whoever won their most recent match against each other",
+              "sv": "Till förmån för den som vann deras senaste inbördes match"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailun kokonaisvoittajan valinnan mukaan",
+              "en": "According to the overall event winner's choice",
+              "sv": "Enligt tävlingens övergripande vinnares val"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C11.1(b).",
+          "en": "C11.1(b).",
+          "sv": "C11.1b."
+        },
+        "source": "RRS C11.1(b)",
+        "also": []
+      },
+      {
+        "id": "rC10-q3",
+        "prompt": {
+          "fi": "Pudotussarjan tasasija (myös 0-0) ratkeaa ensin minkä perusteella (C11.2(a))?",
+          "en": "A knockout-series tie (including 0-0) breaks first on what ground (C11.2(a))?",
+          "sv": "På vilken grund skiljs en lika placering i en utslagsserie (inklusive 0-0) först (C11.2a)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Parhaan sijan perusteella viimeksi purjehditussa runkosarjassa",
+              "en": "The best place in the most recent round robin",
+              "sv": "Bäst placering i den senaste round robin"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailijoiden ikäjärjestyksen perusteella",
+              "en": "The competitors' order of age",
+              "sv": "De tävlandes åldersordning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C11.2(a).",
+          "en": "C11.2(a).",
+          "sv": "C11.2a."
+        },
+        "source": "RRS C11.2(a)",
+        "also": []
+      },
+      {
+        "id": "rC10-q4",
+        "prompt": {
+          "fi": "Jäljellä oleva tasasija koskee kilpailun myöhempää vaihetta, eikä ratkaisupurjehdus ole käytännössä mahdollinen. Mitä tehdään?",
+          "en": "A remaining tie needs resolving for a later stage, and a sail-off is not practicable. What is done?",
+          "sv": "En kvarstående lika placering måste lösas för ett senare steg, och en utslagsgivande match är inte praktiskt möjlig. Vad görs?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Jätetään pois ensin ensimmäisen, sitten toisen jne. kilpapurjehduksen pisteet, kunnes tasasija ratkeaa",
+              "en": "The first race's score is excluded, then the second, and so on, until the tie breaks",
+              "sv": "Den första kappseglingens resultat räknas bort, sedan den andra, och så vidare, tills placeringen är skild"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tasasija jää pysyvästi ratkaisematta",
+              "en": "The tie is left permanently unresolved",
+              "sv": "Den lika placeringen lämnas permanent olöst"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C11.3(a).",
+          "en": "C11.3(a).",
+          "sv": "C11.3a."
+        },
+        "source": "RRS C11.3(a)",
+        "also": []
+      },
+      {
+        "id": "rC10-q5",
+        "prompt": {
+          "fi": "Jos tasasija ei ratkea ollenkaan, mitä tehdään rahapalkinnoille tai rankingpisteille?",
+          "en": "If a tie is never broken, what happens to any money prizes or ranking points?",
+          "sv": "Om en lika placering aldrig skiljs, vad händer med eventuella prispengar eller rankingpoäng?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ne lasketaan yhteen ja jaetaan tasan tasoissa olevien kilpailijoiden kesken",
+              "en": "They are added together and shared equally among the tied competitors",
+              "sv": "De läggs samman och delas lika mellan de lika tävlande"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ne annetaan sille, joka pyytää niitä ensin",
+              "en": "They go to whichever competitor asks for them first",
+              "sv": "De går till den tävlande som begär dem först"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C11.3(c).",
+          "en": "C11.3(c).",
+          "sv": "C11.3c."
+        },
+        "source": "RRS C11.3(c)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "E1",
     "section": "E",
     "title": {
