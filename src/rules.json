@@ -26847,6 +26847,492 @@
     ]
   },
   {
+    "n": "N1",
+    "section": "N",
+    "title": {
+      "fi": "Kokoonpano, nimittäminen ja järjestäytyminen",
+      "sv": "Sammansättning, tillsättning och organisation",
+      "en": "Composition, Appointment and Organization"
+    },
+    "explain": {
+      "fi": "Kansainvälisen tuomariston jäsenten pitää olla kokeneita purjehtijoita, joilla on erinomaiset sääntötiedot ja laaja protestilautakuntakokemus; tuomaristo on riippumaton kilpailu- ja teknisestä lautakunnasta, ja sen nimittää kilpailun järjestäjä, tarvittaessa kansallisen järjestön hyväksymänä, tai World Sailing. Tuomaristoon kuuluu puheenjohtaja, halutessa varapuheenjohtaja, ja muita jäseniä niin, että jäseniä on vähintään viisi ja enemmistö on kansainvälisiä tuomareita (N1.2); samasta kansallisesta järjestöstä saa olla enintään kaksi jäsentä, paitsi ryhmissä M, N ja Q kolme (N1.3). Puheenjohtaja voi nimittää osatuomaristoja, joissa on vähintään kolme jäsentä, enemmistö kansainvälisiä tuomareita ja jäsenet vähintään kolmesta eri kansallisesta järjestöstä (kahdesta ryhmissä M, N ja Q); osatuomariston päätökseen tyytymätön asianosainen voi pyytää — paitsi todettujen tosiasioiden osalta — uuden tutkinnan täyden kokoonpanon tuomaristolta 30 minuutin kuluessa tai purjehdusohjeiden määräajassa päätöksestä tiedon saamisesta (N1.4). Jos jäseniä on sairauden tai hätätilanteen vuoksi vähemmän kuin viisi eikä pätevää varajäsentä ole saatavilla, tuomaristo pysyy toimivaltaisena vähintään kolmella jäsenellä, joista vähintään kaksi on kansainvälisiä tuomareita (N1.5); sama koskee tilannetta, jossa jotkut jäsenet jäävät pois esimerkiksi eturistiriidan vuoksi (N1.6). World Sailing voi poikkeuksellisesti hyväksyä kolmijäsenisen tuomariston, jonka kaikki jäsenet ovat kansainvälisiä tuomareita kolmesta (kahdesta ryhmissä M, N ja Q) eri kansallisesta järjestöstä; lupa ilmoitetaan kirjeellä järjestäjälle sekä kilpailukutsussa tai purjehdusohjeissa ja pannaan ilmoitustaululle (N1.7). Kansallisen järjestön hyväksyntä ilmoitetaan purjehdusohjeissa tai ilmoitustaululla (N1.8). Jos tuomaristo tai osatuomaristo toimii kokoonpanoltaan virheellisenä, sen päätöksiin voi hakea muutosta (N1.9).",
+      "en": "An international jury's members must be experienced sailors with excellent knowledge of the rules and extensive protest committee experience; the jury is independent of the race and technical committees, and is appointed by the organizing authority, subject to national authority approval when required, or by World Sailing. The jury has a chair, a vice chair if wanted, and other members so that there are at least five, a majority being International Judges (N1.2); no more than two members may be from the same national authority, except three in Groups M, N and Q (N1.3). The chair may appoint panels of at least three members, a majority International Judges, from at least three different national authorities (two in Groups M, N and Q); a party dissatisfied with a panel's decision may ask — except as to the facts found — for a new hearing before a full jury composed under N1.1-N1.3, within 30 minutes or the sailing instructions' time limit after being told of the decision (N1.4). If illness or an emergency leaves fewer than five members and no qualified replacement is available, the jury stays properly constituted with at least three members, at least two of them International Judges (N1.5); the same applies when some members step aside, for example for a conflict of interest (N1.6). World Sailing may in limited circumstances allow a three-member jury, all International Judges, from three (two in Groups M, N and Q) different national authorities; the authorization is given by letter to the organizing authority and stated in the notice of race or sailing instructions and posted on the notice board (N1.7). A required national authority approval is stated in the sailing instructions or posted on the notice board (N1.8). If a jury or panel acts while not properly constituted, its decisions may be appealed (N1.9).",
+      "sv": "En internationell jurys medlemmar ska vara erfarna seglare med utmärkta kunskaper i reglerna och omfattande erfarenhet av protestkommittéarbete; juryn är fristående från kappseglings- och tekniska kommittén, och utses av arrangören, med godkännande av den nationella myndigheten när det krävs, eller av World Sailing. Juryn har en ordförande, vid behov en vice ordförande, och andra medlemmar så att det blir minst fem, en majoritet internationella domare (N1.2); högst två medlemmar får vara från samma nationella myndighet, utom tre i grupp M, N och Q (N1.3). Ordföranden kan utse paneler med minst tre medlemmar, majoriteten internationella domare, från minst tre olika nationella myndigheter (två i grupp M, N och Q); en part som är missnöjd med en panels beslut kan, utom vad gäller fastställda fakta, begära en ny förhandling inför en fullständig jury sammansatt enligt N1.1-N1.3, inom 30 minuter eller seglingsföreskrifternas tidsgräns efter att ha blivit informerad om beslutet (N1.4). Om sjukdom eller en nödsituation lämnar färre än fem medlemmar och ingen kvalificerad ersättare finns, förblir juryn behörigt sammansatt med minst tre medlemmar, varav minst två internationella domare (N1.5); detsamma gäller när några medlemmar träder åt sidan, till exempel vid en intressekonflikt (N1.6). World Sailing kan under begränsade omständigheter tillåta en tremannajury, alla internationella domare, från tre (två i grupp M, N och Q) olika nationella myndigheter; tillståndet ges genom brev till arrangören och anges i inbjudan eller seglingsföreskrifterna samt anslås på anslagstavlan (N1.7). Ett krävt godkännande från den nationella myndigheten anges i seglingsföreskrifterna eller anslås på anslagstavlan (N1.8). Om en jury eller panel handlar utan att vara behörigt sammansatt, får dess beslut överklagas (N1.9)."
+    },
+    "note": {
+      "fi": "Suomenkielinen N1.1 sanoo ”World Sailing säännön 89.2(b) mukaisesti”, mutta englannin- ja ruotsinkielinen kirja sanovat 89.2(c); sääntö 89.2(c) koskee kilpailulautakunnan, protestilautakunnan ja tuomareiden nimittämistä, kun 89.2(b) koskee kilpailukutsun muuttamista, niin suomenkielinen kohta vaikuttaa painovirheeltä. Liite N koskee vain kansainvälisiä tuomaristoja (sääntö 91(b)); sitä ei saa muuttaa kilpailukutsulla, purjehdusohjeilla tai kansallisilla määräyksillä. Case Bookissa ei ole liitettä N koskevia tapauksia.",
+      "en": "The Finnish N1.1 says 'in accordance with World Sailing rule 89.2(b)', but the English and Swedish books say 89.2(c); rule 89.2(c) concerns appointing the race committee, protest committee and umpires, while 89.2(b) concerns changing the notice of race, so the Finnish reference looks like a misprint. Appendix N applies only to international juries (rule 91(b)); it may not be changed by the notice of race, sailing instructions or national prescriptions. The Case Book has no cases on Appendix N.",
+      "sv": "Den finska N1.1 säger \"i enlighet med World Sailing-regel 89.2b\", men den engelska och svenska boken säger 89.2c; regel 89.2c gäller att utse kappseglingskommitté, protestkommitté och domare, medan 89.2b gäller att ändra inbjudan, så den finska hänvisningen verkar vara en felskrivning. Bilaga N gäller bara internationella juryer (regel 91b); den får inte ändras av inbjudan, seglingsföreskrifter eller nationella föreskrifter. Case Book har inga fall om bilaga N."
+    },
+    "source": "RRS N1, 89.2(c), 91(b)",
+    "defs": [
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "91"
+        ],
+        "note": {
+          "fi": "N1 täsmentää, miten sääntö 91(b):n tarkoittama kansainvälinen tuomaristo kootaan protestilautakunnaksi.",
+          "en": "N1 spells out how the international jury that rule 91(b) refers to is put together as a protest committee.",
+          "sv": "N1 förklarar hur den internationella jury som regel 91b avser sätts samman som protestkommitté."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Osatuomariston päätöksen tyytymättömyys ei koske todettuja tosiasioita; ks. säännön 63.5(a) tosiasioiden toteaminen.",
+          "en": "Dissatisfaction with a panel's decision does not extend to the facts found; compare rule 63.5(a) on finding facts.",
+          "sv": "Missnöje med en panels beslut gäller inte de fastställda fakta; jämför regel 63.5a om att fastställa fakta."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rN1-q1",
+        "prompt": {
+          "fi": "Kuinka monta jäsentä kansainvälisessä tuomaristossa pitää vähintään olla, ja mikä osuus heistä on kansainvälisiä tuomareita?",
+          "en": "What is the minimum size of an international jury, and what share must be International Judges?",
+          "sv": "Vad är en internationell jurys minsta storlek, och hur stor andel måste vara internationella domare?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vähintään viisi, enemmistö kansainvälisiä tuomareita",
+              "en": "At least five, a majority International Judges",
+              "sv": "Minst fem, en majoritet internationella domare"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vähintään kolme, kaikki kansainvälisiä tuomareita",
+              "en": "At least three, all International Judges",
+              "sv": "Minst tre, alla internationella domare"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vähintään seitsemän, enemmistö kansainvälisiä tuomareita",
+              "en": "At least seven, a majority International Judges",
+              "sv": "Minst sju, en majoritet internationella domare"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N1.2.",
+          "en": "N1.2.",
+          "sv": "N1.2."
+        },
+        "source": "RRS N1.2",
+        "also": []
+      },
+      {
+        "id": "rN1-q2",
+        "prompt": {
+          "fi": "Asianosainen on tyytymätön osatuomariston päätökseen. Mitä hän voi pyytää uudelleen täydeltä tuomaristolta, ja missä ajassa?",
+          "en": "A party is dissatisfied with a panel's decision. What may they ask a full jury to hear again, and within what time?",
+          "sv": "En part är missnöjd med en panels beslut. Vad kan parten begära att en fullständig jury prövar på nytt, och inom vilken tid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaiken paitsi todetut tosiasiat, 30 minuutin kuluessa tai purjehdusohjeiden määräajassa",
+              "en": "Everything except the facts found, within 30 minutes or the sailing instructions' time limit",
+              "sv": "Allt utom de fastställda fakta, inom 30 minuter eller seglingsföreskrifternas tidsgräns"
+            }
+          },
+          {
+            "t": {
+              "fi": "Myös todetut tosiasiat, rajattomassa ajassa",
+              "en": "The facts found too, with no time limit",
+              "sv": "Även de fastställda fakta, utan tidsgräns"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N1.4(b).",
+          "en": "N1.4(b).",
+          "sv": "N1.4b."
+        },
+        "source": "RRS N1.4(b)",
+        "also": []
+      },
+      {
+        "id": "rN1-q3",
+        "prompt": {
+          "fi": "Täysi viisijäseninen tuomaristo menettää hätätilanteessa kaksi jäsentä. Jäljellä on kolme jäsentä, joista kaksi on kansainvälisiä tuomareita. Pysyykö tuomaristo toimivaltaisena?",
+          "en": "An emergency leaves a full five-member jury with only three members, two of them International Judges. Does it stay properly constituted?",
+          "sv": "En nödsituation lämnar en full femmannajury med bara tre medlemmar, två av dem internationella domare. Förblir juryn behörigt sammansatt?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska alle viisi jäsentä ei riitä",
+              "en": "No, because fewer than five is not enough",
+              "sv": "Nej, för färre än fem räcker inte"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N1.5.",
+          "en": "N1.5.",
+          "sv": "N1.5."
+        },
+        "source": "RRS N1.5",
+        "also": []
+      },
+      {
+        "id": "rN1-q4",
+        "prompt": {
+          "fi": "Missä World Sailingin poikkeusluvalla toimivan kolmijäsenisen tuomariston lupa pitää ilmoittaa?",
+          "en": "Where must the authorization for a three-member jury under World Sailing's exception be stated?",
+          "sv": "Var måste tillståndet för en tremannajury enligt World Sailings undantag anges?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kirjeessä järjestäjälle, kilpailukutsussa tai purjehdusohjeissa ja ilmoitustaululla",
+              "en": "In a letter to the organizing authority, in the notice of race or sailing instructions, and on the notice board",
+              "sv": "I ett brev till arrangören, i inbjudan eller seglingsföreskrifterna, och på anslagstavlan"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain suullisesti avauskokouksessa",
+              "en": "Only orally at the opening meeting",
+              "sv": "Bara muntligt vid öppningsmötet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N1.7.",
+          "en": "N1.7.",
+          "sv": "N1.7."
+        },
+        "source": "RRS N1.7",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "N2",
+    "section": "N",
+    "title": {
+      "fi": "Velvollisuudet ja menettelytavat",
+      "sv": "Ansvar och arbetssätt",
+      "en": "Responsibilities and Procedures"
+    },
+    "explain": {
+      "fi": "Kansainvälinen tuomaristo tutkii ja ratkaisee kaikki protestit, hyvityspyynnöt ja muut osan 5 sääntöjen mukaiset kysymykset, ja neuvoo ja auttaa järjestäjää, kilpailulautakuntaa tai teknistä lautakuntaa pyydettäessä asioissa, jotka suoraan vaikuttavat kilpailun oikeudenmukaisuuteen (N2.1). Ellei järjestäjä määrää toisin, tuomaristo päättää kelpoisuutta, mittausta tai mittalukutodistuksia koskevat kysymykset sekä sen, hyväksytäänkö kilpailijoiden, veneiden tai varusteiden vaihtaminen, kun sääntö vaatii tällaisen päätöksen (N2.2); se päättää myös muut sille alistetut asiat (N2.3). Jäsenten kansallisuutta, seurajäsenyyttä tai vastaavaa ei pidetä itsessään merkittävänä eturistiriitana; kun eturistiriitaa muuten harkitaan säännön 63.3 mukaisesti, painoarvoa annetaan sille, että kansainvälisen tuomariston päätökseen ei voi hakea muutosta — tämä voi laskea kynnystä, jolla ristiriita katsotaan merkittäväksi. Epäselvissä tapauksissa tutkinta voi jatkua N1.6:n sallimalla pienemmällä kokoonpanolla (N3.1). Jos osatuomaristo ei pääse yksimielisyyteen päätöksestä, se voi lykätä käsittelyä ja siirtää asian mahdollisimman suurelle toimivaltaiselle kokoonpanolle, joka voi olla koko tuomaristo (N3.2).",
+      "en": "An international jury hears and decides all protests, redress requests and other matters arising under the Part 5 rules, and advises and assists the organizing authority, race committee or technical committee on request in matters directly affecting the fairness of the competition (N2.1). Unless the organizing authority directs otherwise, the jury decides questions of eligibility, measurement or rating certificates, and whether to authorize substituting competitors, boats or equipment when a rule requires that decision (N2.2); it also decides other matters referred to it (N2.3). Members' nationality, club membership or similar is not itself treated as a significant conflict of interest; when a conflict of interest is otherwise weighed under rule 63.3, considerable weight goes to the fact that an international jury's decision cannot be appealed — this may lower the level at which a conflict counts as significant. In doubtful cases the hearing may proceed with the smaller composition N1.6 allows (N3.1). If a panel cannot agree on a decision, it may adjourn and refer the matter to the largest properly constituted panel available, which may be the full jury (N3.2).",
+      "sv": "En internationell jury förhandlar och avgör alla protester, ansökningar om gottgörelse och andra ärenden som uppstår enligt reglerna i del 5, och råder och hjälper på begäran arrangören, kappseglingskommittén eller tekniska kommittén i ärenden som direkt påverkar tävlingens rättvisa (N2.1). Om inte arrangören föreskriver något annat avgör juryn frågor om behörighet, mätning eller mätbrev, och om byte av tävlande, båtar eller utrustning ska godkännas när en regel kräver det beslutet (N2.2); den avgör också andra ärenden som hänskjuts till den (N2.3). Medlemmars nationalitet, klubbmedlemskap eller liknande betraktas inte i sig som en betydande intressekonflikt; när en intressekonflikt annars bedöms enligt regel 63.3, ges stor vikt åt att en internationell jurys beslut inte kan överklagas — det kan sänka nivån för vad som räknas som en betydande konflikt. I tveksamma fall kan förhandlingen fortsätta med den mindre sammansättning N1.6 tillåter (N3.1). Om en panel inte kan enas om ett beslut, kan den skjuta upp det och hänskjuta ärendet till den största behörigt sammansatta panel som finns tillgänglig, vilket kan vara hela juryn (N3.2)."
+    },
+    "note": {
+      "fi": "Liite N koskee vain kansainvälisiä tuomaristoja (sääntö 91(b)); sitä ei saa muuttaa kilpailukutsulla, purjehdusohjeilla tai kansallisilla määräyksillä. Case Bookissa ei ole liitettä N koskevia tapauksia.",
+      "en": "Appendix N applies only to international juries (rule 91(b)); it may not be changed by the notice of race, sailing instructions or national prescriptions. The Case Book has no cases on Appendix N.",
+      "sv": "Bilaga N gäller bara internationella juryer (regel 91b); den får inte ändras av inbjudan, seglingsföreskrifter eller nationella föreskrifter. Case Book har inga fall om bilaga N."
+    },
+    "source": "RRS N2, N3, 63.3",
+    "defs": [
+      "Committee",
+      "Conflict of Interest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "N3.1 täydentää säännön 63.3 eturistiriitaharkintaa kansainvälisen tuomariston erityispiirteellä: sen päätökseen ei voi hakea muutosta.",
+          "en": "N3.1 supplements rule 63.3's conflict-of-interest test with the international jury's special feature: its decision cannot be appealed.",
+          "sv": "N3.1 kompletterar regel 63.3:s intressekonflikttest med den internationella juryns särdrag: dess beslut kan inte överklagas."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rN2-q1",
+        "prompt": {
+          "fi": "Mitä kansainvälinen tuomaristo päättää oletuksena, ellei järjestäjä määrää toisin?",
+          "en": "What does an international jury decide by default, unless the organizing authority directs otherwise?",
+          "sv": "Vad avgör en internationell jury som standard, om inte arrangören föreskriver något annat?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kelpoisuutta, mittausta ja mittalukutodistuksia koskevat kysymykset sekä kilpailijan, veneen tai varusteen vaihtamisen hyväksynnän",
+              "en": "Questions of eligibility, measurement or rating certificates, and whether to authorize substituting a competitor, boat or equipment",
+              "sv": "Frågor om behörighet, mätning eller mätbrev, och om byte av en tävlande, båt eller utrustning ska godkännas"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaikki kilpailun pistelaskuun liittyvät asiat",
+              "en": "Everything related to scoring the event",
+              "sv": "Allt som rör tävlingens poängberäkning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N2.2.",
+          "en": "N2.2.",
+          "sv": "N2.2."
+        },
+        "source": "RRS N2.2",
+        "also": []
+      },
+      {
+        "id": "rN2-q2",
+        "prompt": {
+          "fi": "Tuomariston jäsen on samasta kansallisesta järjestöstä kuin asianosainen kilpailija. Onko tämä yksin merkittävä eturistiriita?",
+          "en": "A jury member is from the same national authority as a party. Is that alone a significant conflict of interest?",
+          "sv": "En jurymedlem är från samma nationella myndighet som en part. Är det ensamt en betydande intressekonflikt?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N3.1.",
+          "en": "N3.1.",
+          "sv": "N3.1."
+        },
+        "source": "RRS N3.1",
+        "also": [
+          "Conflict of Interest"
+        ]
+      },
+      {
+        "id": "rN2-q3",
+        "prompt": {
+          "fi": "Miksi eturistiriidan kynnys voi olla kansainvälisessä tuomaristossa matalampi kuin tavallisessa protestilautakunnassa?",
+          "en": "Why can the threshold for a conflict of interest be lower for an international jury than for an ordinary protest committee?",
+          "sv": "Varför kan tröskeln för en intressekonflikt vara lägre i en internationell jury än i en vanlig protestkommitté?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koska sen päätökseen ei voi hakea muutosta, mikä voi vaikuttaa mielikuvaan oikeudenmukaisuudesta",
+              "en": "Because its decision cannot be appealed, which can affect the perception of fairness",
+              "sv": "Eftersom dess beslut inte kan överklagas, vilket kan påverka uppfattningen om rättvisa"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koska kansainvälisissä tuomaristoissa jäseniä on enemmän",
+              "en": "Because international juries have more members",
+              "sv": "Eftersom internationella juryer har fler medlemmar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N3.1.",
+          "en": "N3.1.",
+          "sv": "N3.1."
+        },
+        "source": "RRS N3.1",
+        "also": []
+      },
+      {
+        "id": "rN2-q4",
+        "prompt": {
+          "fi": "Osatuomaristo ei pääse yksimielisyyteen päätöksestä. Mitä se voi tehdä?",
+          "en": "A panel cannot agree on a decision. What may it do?",
+          "sv": "En panel kan inte enas om ett beslut. Vad kan den göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lykätä käsittelyä ja siirtää asian mahdollisimman suurelle toimivaltaiselle kokoonpanolle",
+              "en": "Adjourn and refer the matter to the largest properly constituted panel available",
+              "sv": "Skjuta upp det och hänskjuta ärendet till den största behörigt sammansatta panel som finns tillgänglig"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ratkaista asian äänten enemmistöllä, vaikka yksi jäsen jäisi vähemmistöön",
+              "en": "Decide by majority vote, even leaving one member in the minority",
+              "sv": "Avgöra med majoritetsröstning, även om en medlem hamnar i minoritet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N3.2.",
+          "en": "N3.2.",
+          "sv": "N3.2."
+        },
+        "source": "RRS N3.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "N3",
+    "section": "N",
+    "title": {
+      "fi": "Sopimaton käytös",
+      "sv": "Olämpligt beteende",
+      "en": "Misconduct"
+    },
+    "explain": {
+      "fi": "World Sailingin Eettinen säännöstö voi sisältää tutkijan nimittämistä koskevia menettelyjä, jotka pätevät tietyissä kansainvälisissä tapahtumissa ja ohittavat tämän liitteen ristiriitaiset kohdat (N4.1). Jokaiselle säännön 69 nojalla esitetylle sopimattoman käytöksen väitteelle on nimitettävä henkilö, joka esittelee sen osatuomaristolle; tämä henkilö ei saa olla tutkivan osatuomariston jäsen, mutta voi olla tuomariston muu jäsen, ja hänen on tuotava kaikki tutkimuksessa kerätty materiaali kokonaan julki väitteen kohteelle (N4.2). Ennen tutkintaa tutkiva osatuomaristo pyrkii, mikäli käytännössä mahdollista, olemaan toimimatta itse väitteiden tutkijana, mutta tutkinnan aikana sillä on oikeus esittää tarpeelliseksi katsomiaan tutkivia kysymyksiä (N4.3). Jos osatuomaristo päättää kutsua tutkinnan koolle, kaikki tätä päätöstä varten sille esitetty materiaali on esitettävä myös väitteen kohteelle ennen tutkinnan alkua (N4.4).",
+      "en": "The World Sailing Code of Ethics may contain procedures for appointing an investigator that apply to specific international events and override any conflicting part of this appendix (N4.1). Every rule 69 misconduct allegation needs a person appointed to present it to the panel; that person may not be a member of the panel hearing it, though they may be another member of the jury, and they must fully disclose to the person accused all material gathered during the investigation (N4.2). Before the hearing, the hearing panel, so far as practically possible, avoids acting as investigator of the allegations itself, but during the hearing it may ask any investigative questions it sees fit (N4.3). If the panel decides to call a hearing, all material disclosed to it for that decision must also be disclosed to the person accused before the hearing begins (N4.4).",
+      "sv": "World Sailing Code of Ethics kan innehålla procedurer för att utse en utredare som gäller för särskilda internationella tävlingar och går före varje motsägande del av detta appendix (N4.1). Varje anklagelse om olämpligt beteende enligt regel 69 behöver en person utsedd att lägga fram den för panelen; den personen får inte vara medlem i panelen som förhandlar den, men kan vara en annan medlem av juryn, och personen måste fullständigt redovisa för den anklagade allt material som samlats in under utredningen (N4.2). Före förhandlingen undviker panelen, så långt det är praktiskt möjligt, att själv agera som utredare av anklagelserna, men under förhandlingen får den ställa de utredande frågor den anser lämpliga (N4.3). Om panelen beslutar att kalla till förhandling, måste allt material som panelen fått för att fatta det beslutet också redovisas för den anklagade innan förhandlingen börjar (N4.4)."
+    },
+    "note": {
+      "fi": "Liite N koskee vain kansainvälisiä tuomaristoja (sääntö 91(b)); sitä ei saa muuttaa kilpailukutsulla, purjehdusohjeilla tai kansallisilla määräyksillä. Case Bookissa ei ole liitettä N koskevia tapauksia.",
+      "en": "Appendix N applies only to international juries (rule 91(b)); it may not be changed by the notice of race, sailing instructions or national prescriptions. The Case Book has no cases on Appendix N.",
+      "sv": "Bilaga N gäller bara internationella juryer (regel 91b); den får inte ändras av inbjudan, seglingsföreskrifter eller nationella föreskrifter. Case Book har inga fall om bilaga N."
+    },
+    "source": "RRS N4, 69",
+    "defs": [
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "69"
+        ],
+        "note": {
+          "fi": "N4 täydentää säännön 69 tutkintaa kansainvälisessä tuomaristossa: kuka esittää väitteen ja miten tutkiva osatuomaristo pysyy erillään esitutkinnasta.",
+          "en": "N4 supplements a rule 69 hearing within an international jury: who presents the allegation and how the hearing panel stays apart from the pre-hearing investigation.",
+          "sv": "N4 kompletterar en förhandling enligt regel 69 inom en internationell jury: vem som lägger fram anklagelsen och hur panelen hålls åtskild från förutredningen."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rN3-q1",
+        "prompt": {
+          "fi": "Voiko säännön 69 väitteen esittäjä olla sama henkilö kuin tutkivan osatuomariston jäsen?",
+          "en": "May the person presenting a rule 69 allegation be a member of the panel hearing it?",
+          "sv": "Får personen som lägger fram en anklagelse enligt regel 69 vara medlem i panelen som förhandlar den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, mutta hän voi olla tuomariston muu jäsen",
+              "en": "No, but they may be another member of the jury",
+              "sv": "Nej, men personen kan vara en annan medlem av juryn"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos hän ei äänestä",
+              "en": "Yes, as long as they do not vote",
+              "sv": "Ja, så länge hon inte röstar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N4.2.",
+          "en": "N4.2.",
+          "sv": "N4.2."
+        },
+        "source": "RRS N4.2",
+        "also": []
+      },
+      {
+        "id": "rN3-q2",
+        "prompt": {
+          "fi": "Mitä väitteen esittäjän pitää tehdä kaiken tutkimuksessa kerätyn materiaalin kanssa?",
+          "en": "What must the person presenting the allegation do with all the material gathered during the investigation?",
+          "sv": "Vad måste personen som lägger fram anklagelsen göra med allt material som samlats in under utredningen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Tuoda se kokonaan julki väitteen kohteelle",
+              "en": "Fully disclose it to the person accused",
+              "sv": "Fullständigt redovisa det för den anklagade"
+            }
+          },
+          {
+            "t": {
+              "fi": "Esittää vain itselleen edullisen osan siitä",
+              "en": "Present only the part that favours their case",
+              "sv": "Bara lägga fram den del som gynnar egna sidan"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N4.2.",
+          "en": "N4.2.",
+          "sv": "N4.2."
+        },
+        "source": "RRS N4.2",
+        "also": []
+      },
+      {
+        "id": "rN3-q3",
+        "prompt": {
+          "fi": "Saako tutkiva osatuomaristo esittää tutkivia kysymyksiä itse tutkinnan aikana?",
+          "en": "May the hearing panel itself ask investigative questions during the hearing?",
+          "sv": "Får panelen själv ställa utredande frågor under förhandlingen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, vaikka se pyrkii ennen tutkintaa olemaan toimimatta tutkijana",
+              "en": "Yes, even though before the hearing it avoids acting as investigator",
+              "sv": "Ja, även om den före förhandlingen undviker att agera som utredare"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei missään vaiheessa",
+              "en": "No, at no stage",
+              "sv": "Nej, i inget skede"
+            }
+          }
+        ],
+        "why": {
+          "fi": "N4.3.",
+          "en": "N4.3.",
+          "sv": "N4.3."
+        },
+        "source": "RRS N4.3",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "P1",
     "section": "P",
     "title": {
