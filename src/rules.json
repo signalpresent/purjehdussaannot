@@ -272,7 +272,7 @@
       "sv": "En båt och dess ägare ska tävla i enlighet med erkända principer för god sportsmannaanda och rent spel. Ett straff kräver att det är klart fastställt att dessa principer har brutits, och straffet är alltid en diskvalificering som inte får räknas bort (DNE). Typiska brott är att avsiktligt bryta mot en regel (fall 78), att medvetet anropa falskt (fall 47), att avsiktligt röra vid en annan båt för att få den bortprotesterad (fall 73) och att fortsätta kappsegla bara för att hindra en annan båt när man redan vet att man har brutit mot en startregel (fall 34, 65). Att inte ta ett straff när en båt vet att den har brutit mot en regel strider också mot grundprincipen (fall 138). Ett vanligt felbedömande är inte ojust (fall 138), inte heller en sittställning utan avsiktligt missbruk (fall 74). Att taktiskt hindra en annan båt är tillåtet om det har rimlig möjlighet att gynna båtens egen slutplacering i tävlingen (fall 78). Uppträdande som inte direkt påverkar tävlingen behandlas enligt regel 69 (fall 138)."
     },
     "note": {
-      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa sääntöä 2, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)). Liite C (mätsikilpailu) lisää sääntöön 2, ettei veneen tarvitse kilpaillessaan ottaa rangaistusta, ellei tuomari anna siitä viestiä. Liite D (joukkuekilpailu) voi vähentää säännön 1 tai 2 rikkomisesta joukkueen voittoja (D3.3).",
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa sääntöä 2, eivätkä kilpailukutsu tai purjehdusohjeet (86.1(a), (b)). Liite C (parikilpailu) lisää sääntöön 2, ettei veneen tarvitse kilpaillessaan ottaa rangaistusta, ellei tuomari anna siitä viestiä. Liite D (joukkuekilpailu) voi vähentää säännön 1 tai 2 rikkomisesta joukkueen voittoja (D3.3).",
       "en": "National authority prescriptions may not change rule 2, nor may the notice of race or sailing instructions (86.1(a), (b)). Appendix C (match racing) adds to rule 2 that a boat need not take a penalty while racing unless signalled by an umpire. Appendix D (team racing) may deduct race wins from the team for breaking rule 1 or 2 (D3.3).",
       "sv": "Den nationella myndighetens föreskrifter får inte ändra regel 2, och det får inte heller inbjudan eller seglingsföreskrifterna (86.1a, b). Appendix C (matchracing) lägger till i regel 2 att en båt inte behöver ta ett straff under kappseglingen om inte en domare signalerar det. Appendix D (lagkappsegling) kan dra av kappseglingsvinster från laget för brott mot regel 1 eller 2 (D3.3)."
     },
@@ -8841,7 +8841,7 @@
       "sv": "Regel 21 lägger skyldigheten att hålla undan på en båt i tre situationer där den är i underläge. Enligt inledningen till avdelning D gäller inte reglerna i avdelning A (10–13) när regel 21 gäller mellan två båtar; avdelning B och C gäller fortfarande (fall 149). 21.1: efter sin startsignal håller en båt som seglar mot startsidan av startlinjen eller någon av dess förlängningar för att starta, eller för att rätta sig efter I-flaggregeln (30.1), undan för båtar som inte gör det. Skyldigheten upphör när dess skrov är helt på startsidan. Om den då får rätt till väg ska den till en början ge den andra båten plats att hålla undan (15). 21.2: en båt som tar ett straff håller undan för båtar som inte gör det; skyldigheten börjar när den påbörjar sitt straff (fall 149). 21.3: en båt som rör sig bakåt, eller åt sidan mot lovart, genom vattnet genom att bräcka med ett segel håller undan för båtar som inte gör det. Regel 23.2 skyddar också en båt som regel 21.1 gäller för."
     },
     "note": {
-      "fi": "Liite C (mätsikilpailu) poistaa kohdan 21.3. Liite F (leijalautailu) muuttaa ryhmän D johdantoa niin, että myöskään ryhmän C säännöt eivät päde, kun sääntö 21 tai 22 pätee; lisäksi kohta 21.3 koskee viimeisellä minuutilla pysähtyvää tai hidastavaa leijalautaa, ja uusi kohta 21.4 velvoittaa hyppäävän leijalaudan pysymään loitolla.",
+      "fi": "Liite C (parikilpailu) poistaa kohdan 21.3. Liite F (leijalautailu) muuttaa ryhmän D johdantoa niin, että myöskään ryhmän C säännöt eivät päde, kun sääntö 21 tai 22 pätee; lisäksi kohta 21.3 koskee viimeisellä minuutilla pysähtyvää tai hidastavaa leijalautaa, ja uusi kohta 21.4 velvoittaa hyppäävän leijalaudan pysymään loitolla.",
       "en": "Appendix C (match racing) deletes rule 21.3. Appendix F (kiteboarding) changes the Section D preamble so that Section C rules do not apply either when rule 21 or 22 applies; rule 21.3 there covers a kiteboard stopping or slowing in the last minute, and a new rule 21.4 makes a jumping kiteboard keep clear.",
       "sv": "Appendix C (matchracing) stryker regel 21.3. Appendix F (kiteboarding) ändrar inledningen till avdelning D så att inte heller reglerna i avdelning C gäller när regel 21 eller 22 gäller; regel 21.3 omfattar där en kiteboard som stannar eller saktar in under sista minuten, och en ny regel 21.4 kräver att en hoppande kiteboard håller undan."
     },
@@ -9834,7 +9834,7 @@
       "sv": "Regel 23 skyddar båtar som reglerna om rätt till väg vanligtvis inte når. 23.1: en båt som inte kappseglar ska om det är rimligt möjligt inte störa en båt som kappseglar. En båt kappseglar från sin förberedelsesignal tills den har gått i mål och lämnat mållinjen och målmärkena, eller har brutit, eller tills allmän återkallelse, uppskjutning eller annullering signaleras; en båt som har gått i mål och lämnat linjen, eller en båt i en annan klass före sin egen förberedelsesignal, kappseglar alltså inte. 23.2: en båt ska om det är rimligt möjligt inte störa en båt som tar ett straff, seglar på ett annat banben eller som regel 21.1 gäller för. Efter startsignalen gäller 23.2 inte en båt som seglar sin tillbörliga kurs (fall 49, 149). Vilket banben en båt är på följer av den kurs den seglade före händelsen och dess skäl för den: en båt som inte vet om sitt misstag är på det banben den tror att den är på (fall 126). Att störa kräver ingen beröring; det räcker till exempel att den andra båten måste göra en undanmanöver (fall 149). Att avsiktligt hindra en annan båts kappsegling utan egen sportslig fördel kan också bryta mot regel 2 (fall 34, 78)."
     },
     "note": {
-      "fi": "Liite B (purjelautailu) lisää kohdan 23.3: viimeisellä minuutilla ennen lähtöviestiä purjeen pitää olla ylhäällä vedestä normaalissa asennossa, ellei lauta ole vahingossa kaatunut. Liite C (mätsikilpailu) lisää kohtaan 23.1 tuomarialuksen ja lisää kohdan 23.3: kun eri otteluiden veneet kohtaavat, suunnanmuutosten pitää palvella sääntöjen noudattamista tai oman ottelun voittamista. Liite D (joukkuekilpailu): maaliin tullut vene ei saa toimia häiritäkseen venettä, joka ei ole tullut maaliin, ja vastaava 23.3 eri kilpailujen veneille.",
+      "fi": "Liite B (purjelautailu) lisää kohdan 23.3: viimeisellä minuutilla ennen lähtöviestiä purjeen pitää olla ylhäällä vedestä normaalissa asennossa, ellei lauta ole vahingossa kaatunut. Liite C (parikilpailu) lisää kohtaan 23.1 tuomarialuksen ja lisää kohdan 23.3: kun eri otteluiden veneet kohtaavat, suunnanmuutosten pitää palvella sääntöjen noudattamista tai oman ottelun voittamista. Liite D (joukkuekilpailu): maaliin tullut vene ei saa toimia häiritäkseen venettä, joka ei ole tullut maaliin, ja vastaava 23.3 eri kilpailujen veneille.",
       "en": "Appendix B (windsurfing) adds rule 23.3: in the last minute before the starting signal the sail must be out of the water in a normal position unless the board has accidentally capsized. Appendix C (match racing) adds umpire boats to 23.1 and adds 23.3: when boats in different matches meet, any change of course must be consistent with complying with a rule or trying to win her own match. Appendix D (team racing): a boat that has finished shall not act to interfere with a boat that has not, and a similar 23.3 for boats in different races.",
       "sv": "Appendix B (vindsurfing) lägger till regel 23.3: under sista minuten före startsignalen ska seglet vara ur vattnet i normalt läge, om inte brädan har kantrat av misstag. Appendix C (matchracing) lägger till domarbåtar i 23.1 och lägger till 23.3: när båtar i olika matcher möts ska varje kursändring vara förenlig med att följa en regel eller med försöket att vinna den egna matchen. Appendix D (lagkappsegling): en båt som har gått i mål får inte agera för att störa en båt som inte har gått i mål, och en liknande 23.3 för båtar i olika kappseglingar."
     },
@@ -10567,7 +10567,7 @@
       "sv": "En start använder fyra signaler: varningssignalen (klassflagga) fem minuter före start om inte inbjudan eller seglingsföreskrifterna anger något annat; förberedelsesignalen fyra minuter före (P, I, Z, Z med I, U eller svart flagga); vid en minut tas förberedelseflaggan ner med en lång ljudsignal; och startsignalen när klassflaggan tas ner. Tiderna räknas från de visuella signalerna, och en utebliven ljudsignal ska bortses från. Varningssignalen för nästa klass ges samtidigt med eller efter startsignalen för klassen före. Förberedelseflaggan visar vilket startstraff som gäller (I = 30.1, Z = 30.2, U = 30.3, svart flagga = 30.4; Kappseglingssignaler). Att bortse från en utebliven ljudsignal gäller bara dessa startsignaler; en enskild återkallelse kräver både flaggan och ljudsignalen (fall 31)."
     },
     "note": {
-      "fi": "Liite B (purjelautailu) korvaa säännön 26 kolmella järjestelmällä (vastatuulilähtö, sivutuulilähtö ja rantalähtö). Liite E (radio-ohjattavat veneet): varoitus-, valmius- ja lähtöviesti minuutin välein ja viimeisellä minuutilla lisäviestit kymmenen sekunnin välein, viimeisillä kymmenellä sekunnilla sekunnin välein (E3.4(a)). Liite F (leijalautailu): kolmen minuutin sarja, valmiusviestinä U tai musta lippu. Liitteessä C (mätsikilpailu) on omat lähtöviestinsä (C3.1).",
+      "fi": "Liite B (purjelautailu) korvaa säännön 26 kolmella järjestelmällä (vastatuulilähtö, sivutuulilähtö ja rantalähtö). Liite E (radio-ohjattavat veneet): varoitus-, valmius- ja lähtöviesti minuutin välein ja viimeisellä minuutilla lisäviestit kymmenen sekunnin välein, viimeisillä kymmenellä sekunnilla sekunnin välein (E3.4(a)). Liite F (leijalautailu): kolmen minuutin sarja, valmiusviestinä U tai musta lippu. Liitteessä C (parikilpailu) on omat lähtöviestinsä (C3.1).",
       "en": "Appendix B (windsurfing) replaces rule 26 with three systems (upwind, reaching and beach starts). Appendix E (radio sailing): warning, preparatory and starting signals at one-minute intervals, with extra signals every ten seconds in the last minute and every second in the last ten seconds (E3.4(a)). Appendix F (kiteboarding): a three-minute sequence with U or black flag as the preparatory signal. Appendix C (match racing) has its own starting signals (C3.1).",
       "sv": "Appendix B (vindsurfing) ersätter regel 26 med tre system (start mot vinden, start på slör och strandstart). Appendix E (radiosegling): varnings-, förberedelse- och startsignal med en minuts mellanrum, med extra signaler var tionde sekund under sista minuten och varje sekund under de sista tio sekunderna (E3.4a). Appendix F (kiteboarding): en tre minuters sekvens med U eller svart flagga som förberedelsesignal. Appendix C (matchracing) har egna startsignaler (C3.1)."
     },
@@ -10796,7 +10796,7 @@
       "sv": "27.1: om seglingsföreskrifterna inte har angett banan ska kappseglingskommittén signalera eller på annat sätt ange den senast vid varningssignalen. Den får ersätta en bansignal med en annan och signalera att personlig flytutrustning ska bäras (flagga Y med en ljudsignal). 27.2: ett startmärke får flyttas senast vid förberedelsesignalen. 27.3: före startsignalen får kommittén av vilket skäl som helst skjuta upp (AP, AP över H eller AP över A, två ljudsignaler) eller annullera kappseglingen (N, N över H eller N över A, tre ljudsignaler). Kappseglingssignaler: när AP tas ner följer varningssignalen en minut senare om inte kappseglingen då skjuts upp på nytt eller annulleras; med H ges ytterligare signaler i land, med A blir det ingen mer kappsegling i dag."
     },
     "note": {
-      "fi": "Liite C (mätsikilpailu): lähtömerkkiä saa siirtää vain varoitusviestiin asti (C2.14). Kun lippu Y on nostettu vesillä yhden äänimerkin kanssa ennen varoitusviestiä tai sen aikana, kelluntaväline pitää pitää päällä kilpailtaessa siinä kilpapurjehduksessa (40.2(a)).",
+      "fi": "Liite C (parikilpailu): lähtömerkkiä saa siirtää vain varoitusviestiin asti (C2.14). Kun lippu Y on nostettu vesillä yhden äänimerkin kanssa ennen varoitusviestiä tai sen aikana, kelluntaväline pitää pitää päällä kilpailtaessa siinä kilpapurjehduksessa (40.2(a)).",
       "en": "Appendix C (match racing): a starting mark may be moved only until the warning signal (C2.14). When flag Y is displayed afloat with one sound before or with the warning signal, flotation devices must be worn while racing in that race (40.2(a)).",
       "sv": "Appendix C (matchracing): ett startmärke får flyttas bara fram till varningssignalen (C2.14). När flagga Y visas på sjön med en ljudsignal före eller samtidigt med varningssignalen ska flytutrustning bäras under kappseglingen i den kappseglingen (40.2a)."
     },
@@ -11321,7 +11321,7 @@
       "sv": "29.1 Enskild återkallelse: om någon del av en båts skrov vid dess startsignal är på bansidan av startlinjen eller den ska rätta sig efter regel 30.1, ska kappseglingskommittén genast visa flagga X med en ljudsignal. Flaggan ska visas tills skroven på alla sådana båtar har varit helt på startsidan och de har rättat sig efter regel 30.1, men inte längre än fyra minuter efter startsignalen eller en minut före en senare startsignal, beroende på vad som inträffar först. Regeln gäller inte om 29.2, 30.3 eller 30.4 gäller. ”Genast” betyder inom några få sekunder; 40 sekunder är för sent, och en båt som inte hade anledning att veta att den var över får då gottgörelse (fall 79). Ljudsignalen krävs också (fall 31). 29.2 Allmän återkallelse: om kommittén inte kan identifiera båtar på bansidan eller båtar som regel 30 gäller för, eller om det har blivit ett fel i startproceduren, får den signalera allmän återkallelse (Första likhetstecken med två ljudsignaler). Varningssignalen för den nya starten ges en minut efter att likhetstecknet tagits ner, och senare klassers starter följer efter den."
     },
     "note": {
-      "fi": "Liite C (mätsikilpailu): yksittäisessä palautuksessa käytetään venettä osoittavaa sinistä tai keltaista lippua, enintään kaksi minuuttia (C3.2). Liite E (radio-ohjattavat veneet): palautukset huudetaan (E3.5, E3.6). Liite F (leijalautailu) poistaa kohdan 29.1. Lähtöpuolelle palanneen veneen pitää vielä lähteä (määritelmä Lähteä).",
+      "fi": "Liite C (parikilpailu): yksittäisessä palautuksessa käytetään venettä osoittavaa sinistä tai keltaista lippua, enintään kaksi minuuttia (C3.2). Liite E (radio-ohjattavat veneet): palautukset huudetaan (E3.5, E3.6). Liite F (leijalautailu) poistaa kohdan 29.1. Lähtöpuolelle palanneen veneen pitää vielä lähteä (määritelmä Lähteä).",
       "en": "Appendix C (match racing): an individual recall uses a blue or yellow flag identifying the boat, for at most two minutes (C3.2). Appendix E (radio sailing): recalls are hailed (E3.5, E3.6). Appendix F (kiteboarding) deletes rule 29.1. A boat that returned to the pre-start side must still start (definition Start).",
       "sv": "Appendix C (matchracing): en enskild återkallelse görs med en blå eller gul flagga som identifierar båten, i högst två minuter (C3.2). Appendix E (radiosegling): återkallelser ropas ut (E3.5, E3.6). Appendix F (kiteboarding) stryker regel 29.1. En båt som har återvänt till startsidan ska fortfarande starta (definitionen Starta)."
     },
@@ -11872,7 +11872,7 @@
       "sv": "Under kappseglingen får en båt inte röra vid ett startmärke innan den startar, ett märke som börjar, begränsar eller avslutar det banben den seglar, eller ett målmärke efter att den har gått i mål. Även beröring med utrustning räknas, till exempel en släpande spinnakerlo, och problem med seglen är ingen ursäkt (fall 77). Ett märke som inte hör till båtens nuvarande banben omfattas inte. Straffet är ett ensvängsstraff (44.1); om båten i samma tillbud bröt mot en regel i del 2 behöver den inte ta straffet för regel 31 (44.1a). En båt som har rätt till plats eller märkesplats får också utrymme att följa regel 31; om båten med rätt till väg inte ger det frias den andra (fall 114; 43.1b)."
     },
     "note": {
-      "fi": "Kilpailulautakunta voi protestoida merkkiä koskettanutta venettä, mutta sen pitää antaa veneelle maaliintulosija (A4; Case 128). Liite B (purjelautailu): lauta saa koskettaa merkkiä mutta ei pitää siitä kiinni. Liite C (mätsikilpailu): myös miehistö mainitaan, eikä merkkinä toimivaa kilpailulautakunnan alusta saa koskettaa (C2.15).",
+      "fi": "Kilpailulautakunta voi protestoida merkkiä koskettanutta venettä, mutta sen pitää antaa veneelle maaliintulosija (A4; Case 128). Liite B (purjelautailu): lauta saa koskettaa merkkiä mutta ei pitää siitä kiinni. Liite C (parikilpailu): myös miehistö mainitaan, eikä merkkinä toimivaa kilpailulautakunnan alusta saa koskettaa (C2.15).",
       "en": "The race committee may protest a boat that touched a mark, but must give her her finishing place (A4; Case 128). Appendix B (windsurfing): a board may touch a mark but may not hold on to it. Appendix C (match racing): the crew is also named, and a race committee vessel that is a mark may not be touched (C2.15).",
       "sv": "Kappseglingskommittén får protestera mot en båt som har rört vid ett märke, men ska ge den dess målplacering (A4; fall 128). Appendix B (vindsurfing): en bräda får röra vid ett märke men inte hålla fast i det. Appendix C (matchracing): även besättningen nämns, och ett fartyg från kappseglingskommittén som är ett märke får inte röras (C2.15)."
     },
@@ -13413,7 +13413,7 @@
       "sv": "En båt får inte ta emot hjälp från någon utomstående källa, utom a) hjälp till en besättningsmedlem som är sjuk, skadad eller i fara, b) efter en kollision, hjälp från det andra fartygets besättning att komma loss, c) information som är fritt tillgänglig för alla båtar, och d) information som inte har efterfrågats från en ointresserad källa, som kan vara en annan båt i samma kappsegling. Taktiska råd som har efterfrågats är utomstående hjälp, även på en allmän radiokanal (fall 100). Fritt tillgänglig betyder kostnadsfri och lätt att hitta för alla; information som kostar pengar eller som bara kan användas med särskild programvara är det inte, men kommunikationsavgifter och utrustning är inte ett pris för informationen (fall 120). Överenskommet lagspel för att gynna en annan båt bryter mot regel 41 för den båt som får hjälpen (fall 78)."
     },
     "note": {
-      "fi": "Liite C (mätsikilpailu) lisää kohdan (e): apu miehistön jäsenen nostamiseen vedestä, jos hänet palautetaan veneeseen suunnilleen samassa paikassa. Liite D (joukkuekilpailu) sallii saman joukkueen veneen avun ilman sähköistä viestintää. Liite E muuttaa sääntöä mm. niin, että kilpailija ei ole puolueeton lähde, ellei hän toimi tarkkailijana. Liite F sallii saman kilpapurjehduksen kilpailijan avun uudelleen liikkeelle lähtöön ja varusteiden vaihdon vain lähtöalueella. Kohtaa 41(c) voidaan muuttaa tapahtumakohtaisesti sääntöjen mukaisella menettelyllä (Case 120; 86.1).",
+      "fi": "Liite C (parikilpailu) lisää kohdan (e): apu miehistön jäsenen nostamiseen vedestä, jos hänet palautetaan veneeseen suunnilleen samassa paikassa. Liite D (joukkuekilpailu) sallii saman joukkueen veneen avun ilman sähköistä viestintää. Liite E muuttaa sääntöä mm. niin, että kilpailija ei ole puolueeton lähde, ellei hän toimi tarkkailijana. Liite F sallii saman kilpapurjehduksen kilpailijan avun uudelleen liikkeelle lähtöön ja varusteiden vaihdon vain lähtöalueella. Kohtaa 41(c) voidaan muuttaa tapahtumakohtaisesti sääntöjen mukaisella menettelyllä (Case 120; 86.1).",
       "en": "Appendix C (match racing) adds (e): help to recover a crew member from the water, if returned aboard at about the same place. Appendix D (team racing) allows help from a team boat without electronic communication. Appendix E changes the rule, among other things so that a competitor is not a disinterested source unless acting as an observer. Appendix F allows help from a competitor in the same race to relaunch, and equipment changes only in the launching area. Rule 41(c) can be changed for an event by the procedure in the rules (Case 120; 86.1).",
       "sv": "Appendix C (matchracing) lägger till e): hjälp att få upp en besättningsmedlem ur vattnet, om den återkommer ombord på ungefär samma plats. Appendix D (lagkappsegling) tillåter hjälp från en båt i laget utan elektronisk kommunikation. Appendix E ändrar regeln, bland annat så att en tävlande inte är en ointresserad källa om den inte agerar som observatör. Appendix F tillåter hjälp från en tävlande i samma kappsegling för att sjösätta igen, och byte av utrustning bara i sjösättningsområdet. Regel 41c kan ändras för en tävling enligt förfarandet i reglerna (fall 120; 86.1)."
     },
@@ -14748,7 +14748,7 @@
       "sv": "En båt som kan ha brutit mot en eller flera regler i del 2 under kappseglingen kan klara upp det direkt med ett tvåsvängsstraff; för att ha rört vid ett märke (regel 31) räcker ett ensvängsstraff. ”Kan ha brutit” betyder att den inte behöver erkänna regelbrottet. Inbjudan eller seglingsföreskrifterna kan ersätta svängarna med poängstraff eller ett annat straff. a) Om en regel i del 2 och regel 31 bryts i samma tillbud tas bara straffet för del 2. b) Om båten orsakade personskada eller allvarlig skada, eller trots straffet fick en väsentlig fördel i kappseglingen eller serien genom sitt regelbrott, räcker svängar inte: den ska utgå. ”Skada” och ”allvarlig” har sina vanliga betydelser (fall 19, 141). Skadan behöver inte komma direkt från beröringen; det räcker att den var den sannolika följden av regelbrottet (fall 135). En båt som utgår har tagit sitt straff och diskvalificeras inte för det regelbrottet (60.5c2; fall 99, 107). Svängar (44.2): kom först väl klar från andra båtar så snart som möjligt, gör sedan genast svängarna åt samma håll, var och en med en stagvändning och en gipp. En hel cirkel på 360° krävs inte, och straffet får kombineras med en märkesrundning (fall 108). En båt som tar ett straff håller undan för de andra (21.2); att avbryta svängarna bara för att hålla undan räknas ändå som genast (fall 149). Vid eller nära mållinjen ska dess skrov vara helt på bansidan innan den går i mål. Poängstraff (44.3): gul flagga vid första rimliga tillfälle, visas tills målgången, och vid målgången informeras kappseglingskommittén om flaggan och den andra inblandade båten. Om inget annat anges är straffet 20 % av DNF-poängen avrundat till närmaste tiondel; andra båtars poäng ändras inte, och poängen kan inte bli sämre än DNF."
     },
     "note": {
-      "fi": "Sääntö 44 ei ole säännön 86.1(a) luettelossa, joten kilpailukutsu tai purjehdusohjeet voivat muuttaa sitä. Liitteet: B (purjelautailu) 360 asteen käännös ilman vaatimusta vastakäännöksestä tai jiipistä; C (mätsikilpailu) poistaa säännön 44 ja käyttää omaa rangaistusjärjestelmää; D (joukkuekilpailu) Yhden Kierroksen Rangaistus myös sääntöjen 31 ja 42 rikkomisesta; E (radio-ohjattavat veneet) Yhden Kierroksen Rangaistus, etu tasataan lisäkierroksilla, vakava vahinko tai toisen veneen vetäytymään pakottaminen johtaa vetäytymiseen, ja 44.3 on poistettu; F (leijalautailu) yksi 360 asteen käännös ilman vastakäännöstä tai jiippiä, ja myös sotkeutuminen johtaa vetäytymiseen. Liite P: säännön 42 ensimmäinen rangaistus on Kahden Kierroksen Rangaistus säännön 44.2 mukaan. Liite T: kilpailun jälkeinen rangaistus on 30 %:n pisterangaistus kohdan 44.3(c) laskutavalla.",
+      "fi": "Sääntö 44 ei ole säännön 86.1(a) luettelossa, joten kilpailukutsu tai purjehdusohjeet voivat muuttaa sitä. Liitteet: B (purjelautailu) 360 asteen käännös ilman vaatimusta vastakäännöksestä tai jiipistä; C (parikilpailu) poistaa säännön 44 ja käyttää omaa rangaistusjärjestelmää; D (joukkuekilpailu) Yhden Kierroksen Rangaistus myös sääntöjen 31 ja 42 rikkomisesta; E (radio-ohjattavat veneet) Yhden Kierroksen Rangaistus, etu tasataan lisäkierroksilla, vakava vahinko tai toisen veneen vetäytymään pakottaminen johtaa vetäytymiseen, ja 44.3 on poistettu; F (leijalautailu) yksi 360 asteen käännös ilman vastakäännöstä tai jiippiä, ja myös sotkeutuminen johtaa vetäytymiseen. Liite P: säännön 42 ensimmäinen rangaistus on Kahden Kierroksen Rangaistus säännön 44.2 mukaan. Liite T: kilpailun jälkeinen rangaistus on 30 %:n pisterangaistus kohdan 44.3(c) laskutavalla.",
       "en": "Rule 44 is not listed in rule 86.1(a), so the notice of race or sailing instructions may change it. Appendices: B (windsurfing) a 360° turn with no tack or gybe required; C (match racing) deletes rule 44 and uses its own penalty system; D (team racing) a One-Turn Penalty, also for rules 31 and 42; E (radio sailing) a One-Turn Penalty, an advantage is removed with extra turns, serious damage or causing another boat to become disabled and retire means retiring, and 44.3 is deleted; F (kiteboarding) one 360° turn with no tack or gybe, and a tangle also means retiring. Appendix P: the first rule 42 penalty is a Two-Turns Penalty under rule 44.2. Appendix T: the Post-Race Penalty is a 30% Scoring Penalty calculated as in 44.3(c).",
       "sv": "Regel 44 finns inte i regel 86.1a, så inbjudan eller seglingsföreskrifterna får ändra den. Appendix: B (vindsurfing) en 360°-sväng utan krav på stagvändning eller gipp; C (matchracing) stryker regel 44 och använder ett eget straffsystem; D (lagkappsegling) ett ensvängsstraff, också för reglerna 31 och 42; E (radiosegling) ett ensvängsstraff, en fördel tas bort med extra svängar, allvarlig skada eller att en annan båt blir obrukbar och utgår innebär att utgå, och 44.3 stryks; F (kiteboarding) en 360°-sväng utan stagvändning eller gipp, och en intrassling innebär också att utgå. Appendix P: det första straffet enligt regel 42 är ett tvåsvängsstraff enligt regel 44.2. Appendix T: straffet efter kappseglingen är ett 30 % poängstraff beräknat som i 44.3c."
     },
@@ -16140,7 +16140,7 @@
       "sv": "48.1: en båt får bara använda den utrustning som fanns ombord vid dess förberedelsesignal. 48.2: ingen får avsiktligt lämna båten, utom vid sjukdom eller skada, för att hjälpa en person eller farkost i fara eller för att simma. Om någon hamnar överbord av misstag eller för att simma ska den åter ha kontakt med båten innan besättningen fortsätter segla mot nästa märke."
     },
     "note": {
-      "fi": "Liite E poistaa säännön 48, liitteet B ja F kohdan 48.2. Mätsikilpailussa vedestä nostetun miehistön jäsenen apu on sallittu (C2.16).",
+      "fi": "Liite E poistaa säännön 48, liitteet B ja F kohdan 48.2. Parikilpailussa vedestä nostetun miehistön jäsenen apu on sallittu (C2.16).",
       "en": "Appendix E deletes rule 48, Appendices B and F delete rule 48.2. In match racing help recovering a crew member from the water is allowed (C2.16).",
       "sv": "Appendix E stryker regel 48, appendix B och F stryker regel 48.2. I matchracing är hjälp att få upp en besättningsmedlem ur vattnet tillåten (C2.16)."
     },
@@ -17507,7 +17507,7 @@
       "sv": "60.1: en båt eller en kommitté får protestera mot en båt. 60.2: om protestanten såg tillbudet i kappseglingsområdet ska en båt ropa ”Protest” och, om dess skrov är längre än 6 m, tydligt visa en röd flagga, båda vid första rimliga tillfälle; flaggan visas tills båten inte längre kappseglar. En kommitté ska informera båten efter kappseglingen inom protesttiden. Att informera vid första rimliga tillfälle räcker om den protesterade båten inte var inom hörhåll, tillbudet var ett fel i att segla banan, protestanten inte såg det i kappseglingsområdet eller protestkommittén protesterar enligt regel 60.4c. Om fara, personskada eller allvarlig skada är uppenbar räcker det att försöka informera inom protesttiden. En kommitté får informera genom ett meddelande på den officiella anslagstavlan. 60.3: en protest är skriftlig och anger protestanten, den protesterade och tillbudet; den lämnas in på kappseglingsexpeditionen inom protesttiden: för tillbud som setts i kappseglingsområdet två timmar efter att den sista båten gått i mål, annars två timmar efter att protestanten fått den relevanta informationen, om inte seglingsföreskrifterna anger en annan tid. Protestkommittén får förlänga den av goda skäl. 60.4: en protest är ogiltig om den inte uppfyller ovanstående, om en båt som påstår ett brott mot del 2 eller regel 31 varken var inblandad i eller såg tillbudet, eller om den påstår ett brott mot regel 69 eller en kod som anges i regel 6 (om inte koden tillåter det). En kommittés protest är ogiltig om den grundas på en begäran om gottgörelse, en ogiltig protest eller en rapport från en person med intressekonflikt (annan än båtens egen representant), utom vid möjlig personskada eller allvarlig skada, en annan båt som framkommer under en förhandling eller en kontroll av teknikkommittén. 60.5: en protest avgörs vid en förhandling (63). En båt får straffas bara vid en förhandling där den är part, enligt reglerna 62.4, 64 eller 69, eller enligt en regel som uttryckligen tillåter straff utan förhandling. En båt som har brutit mot en regel diskvalificeras, oavsett om regeln angavs i protesten, om den inte frias, ett annat straff gäller, den redan har tagit ett lämpligt straff eller kappseglingen startas om eller seglas om (36). För klassregler straffas inte en avvikelse som orsakats av skada eller normalt slitage och som inte förbättrade prestandan, och båten får fortsätta kappsegla oförändrad bara om den skriftligen meddelar att den kommer att överklaga."
     },
     "note": {
-      "fi": "Ruotsinkielinen teksti sanoo kohdassa 60.4(a)(2) \"varken var inblandad i eller såg\" (ei osallisena eikä nähnyt); englanninkielinen sanamuoto on \"was not involved in it or did not see the incident\" ja suomenkielinen samoin \"tai ei nähnyt\". Liite B (purjelautailu) poistaa sanat \"or did not see\", joten lautailijan pitää olla osallisena. Liite B ei myöskään vaadi lippua, vaan ilmoituksen kilpailulautakunnalle maaliintulon jälkeen. Liite D (joukkuekilpailu) sallii lipun laskemisen näkyvästi nostamisen jälkeen ja muuttaa kohtaa 60.4(a)(2). Liite E (radio-ohjattavat) muuttaa huudon muotoon \"(oma purjenumero) protest (toisen purjenumero)\" ja lyhentää määräajan kymmeneen minuuttiin. Liite F (leijalautailu) poistaa lippuvaatimuksen ja lisää kohdan 60.5(e) sotkeutumisista. Liite C (mätsikilpailu) rajoittaa sääntöä 60.1.",
+      "fi": "Ruotsinkielinen teksti sanoo kohdassa 60.4(a)(2) \"varken var inblandad i eller såg\" (ei osallisena eikä nähnyt); englanninkielinen sanamuoto on \"was not involved in it or did not see the incident\" ja suomenkielinen samoin \"tai ei nähnyt\". Liite B (purjelautailu) poistaa sanat \"or did not see\", joten lautailijan pitää olla osallisena. Liite B ei myöskään vaadi lippua, vaan ilmoituksen kilpailulautakunnalle maaliintulon jälkeen. Liite D (joukkuekilpailu) sallii lipun laskemisen näkyvästi nostamisen jälkeen ja muuttaa kohtaa 60.4(a)(2). Liite E (radio-ohjattavat) muuttaa huudon muotoon \"(oma purjenumero) protest (toisen purjenumero)\" ja lyhentää määräajan kymmeneen minuuttiin. Liite F (leijalautailu) poistaa lippuvaatimuksen ja lisää kohdan 60.5(e) sotkeutumisista. Liite C (parikilpailu) rajoittaa sääntöä 60.1.",
       "en": "The Swedish text of 60.4(a)(2) says 'varken var inblandad i eller såg' (neither involved nor saw); the English wording is 'was not involved in it or did not see the incident', and the Finnish one matches the English. Appendix B (windsurfing) deletes 'or did not see', so the board must have been involved. Appendix B also needs no flag, but informing the race committee after finishing. Appendix D (team racing) allows the red flag to be removed after it has been conspicuously displayed and changes 60.4(a)(2). Appendix E (radio sailing) changes the hail to '(own sail number) protest (other sail number)' and shortens the time limit to ten minutes. Appendix F (kiteboarding) removes the flag requirement and adds 60.5(e) on tangles. Appendix C (match racing) limits rule 60.1.",
       "sv": "Den svenska texten i 60.4a2 säger ”varken var inblandad i eller såg”; den engelska lydelsen är ”was not involved in it or did not see the incident”, och den finska motsvarar den engelska. Appendix B (vindsurfing) stryker ”or did not see”, så brädan måste ha varit inblandad. Appendix B kräver inte heller flagga, men att kappseglingskommittén informeras efter målgången. Appendix D (lagkappsegling) tillåter att den röda flaggan tas ner efter att den tydligt har visats och ändrar 60.4a2. Appendix E (radiosegling) ändrar anropet till ”(eget segelnummer) protest (andra segelnumret)” och förkortar tiden till tio minuter. Appendix F (kiteboarding) tar bort kravet på flagga och lägger till 60.5e om intrasslingar. Appendix C (matchracing) begränsar regel 60.1."
     },
@@ -17838,7 +17838,7 @@
       "sv": "61.1: en båt får begära gottgörelse; kappseglingskommittén eller teknikkommittén får begära det för en båt; protestkommittén får själv kalla till en förhandling för att pröva gottgörelse. 61.2: begäran är skriftlig och anger skälet. För ett tillbud i kappseglingsområdet lämnas den in inom protesttiden eller två timmar efter tillbudet, beroende på vilket som är senare; för ett beslut av protestkommittén den sista dagen inom 30 minuter efter att beslutet anslagits; övriga så snart det är rimligt möjligt efter att den relevanta informationen finns. Tiden förlängs av goda skäl. En begäran som inte uppfyller detta är ogiltig (61.3). 61.4: gottgörelse avgörs vid en förhandling. En båt har rätt till gottgörelse om dess poäng eller placering i en kappsegling eller serie har försämrats, eller kan försämras, väsentligt utan eget fel genom 1) en felaktig åtgärd eller underlåtenhet av en kommitté eller arrangören (men inte ett beslut av protestkommittén när båten var part), 2) personskada eller fysisk skada orsakad av en båt som bröt mot en regel i del 2 och tog ett lämpligt straff eller straffades, 3) personskada eller fysisk skada orsakad av ett fartyg som inte kappseglade och som skulle hålla undan enligt IRPCAS eller en myndighets väjningsregel eller befinns vara skyldigt, 4) att ge hjälp enligt regel 1.1 (inte till sig själv eller den egna besättningen), eller 5) en handling av en annan båt, dess besättning eller stödperson som ledde till straff enligt regel 2 eller straff eller varning enligt regel 69. Gottgörelsen ska vara så rättvis som möjligt för alla berörda båtar, oavsett om de begärt den: ändrade poäng eller måltider (exempel i A9), annullering av kappseglingen, att resultaten står kvar eller ett annat arrangemang. Om fakta är osäkra tas bevis upp, särskilt före annullering. Skadan själv ska ha försämrat resultatet; placeringar som förlorats enbart genom en undanmanöver räcker inte, men beröring krävs inte (fall 110)."
     },
     "note": {
-      "fi": "Liite B (purjelautailu) lisää kohtiin 61.4(b)(2) ja (3) kaatumisen; liite E lisää toimintakyvyttömäksi joutumisen, radiohäiriön (61.4(b)(6)) ja korjausajan enintään 30 minuuttia. Liite C (mätsikilpailu) kieltää hyvitykset tuomareiden ratkaisuista. Liite D kieltää hyvityksen saman joukkueen veneen aiheuttamasta vahingosta. Hyvityksen esimerkit: liite A9.",
+      "fi": "Liite B (purjelautailu) lisää kohtiin 61.4(b)(2) ja (3) kaatumisen; liite E lisää toimintakyvyttömäksi joutumisen, radiohäiriön (61.4(b)(6)) ja korjausajan enintään 30 minuuttia. Liite C (parikilpailu) kieltää hyvitykset tuomareiden ratkaisuista. Liite D kieltää hyvityksen saman joukkueen veneen aiheuttamasta vahingosta. Hyvityksen esimerkit: liite A9.",
       "en": "Appendix B (windsurfing) adds capsize to 61.4(b)(2) and (3); Appendix E adds becoming disabled, radio interference (61.4(b)(6)) and up to 30 minutes for repairs. Appendix C (match racing) bars redress for umpire decisions. Appendix D bars redress for damage caused by a boat on the same team. Examples of redress: Appendix A9.",
       "sv": "Appendix B (vindsurfing) lägger till kantring i 61.4b2 och 3; appendix E lägger till att bli obrukbar, radiostörning (61.4b6) och upp till 30 minuter för reparationer. Appendix C (matchracing) utesluter gottgörelse för domarbeslut. Appendix D utesluter gottgörelse för skada orsakad av en båt i samma lag. Exempel på gottgörelse: appendix A9."
     },
@@ -19296,7 +19296,7 @@
       "sv": "70.1: om inte rätten att överklaga har frånkänts enligt 70.3 får en part i en förhandling överklaga protestkommitténs beslut eller förfaranden, men inte de fastställda fakta, till den nationella myndigheten. En part får också överklaga när kommittén inte höll någon förhandling eller fattade något beslut. 70.2: en protestkommitté får själv be den nationella myndigheten att bekräfta eller rätta dess beslut. 70.3: det finns inget överklagande a) av beslut av en internationell jury som tillsatts enligt appendix N, b) när ett resultat måste fastställas snabbt eftersom kappseglingen kvalificerar en båt till ett senare skede eller en senare tävling (den nationella myndigheten kan kräva sitt tillstånd), c) vid en tävling som bara är öppen för båtar anmälda av en organisation ansluten till den nationella myndigheten, en medlem i en sådan eller en medlem i den nationella myndigheten, om den nationella myndigheten har gett tillstånd, eller d) av en protestkommitté sammansatt enligt kraven i appendix N, utom att bara två medlemmar är internationella domare, om den nationella myndigheten har gett tillstånd efter samråd med World Sailing. Punkterna b–d gäller bara om det anges i inbjudan eller seglingsföreskrifterna. 70.4: den nationella myndigheten är den som arrangören är knuten till (89.1); om båtarna passerar flera nationella myndigheters vatten, den där mållinjen ligger, om inte seglingsföreskrifterna säger annat. 70.5: förfarandet finns i appendix R."
     },
     "note": {
-      "fi": "Liitteet B ja F lisäävät karsintasarjoja koskevia poikkeuksia (F: ei muutoksenhakua karsintamuotoisissa lajeissa). Liite C (mätsikilpailu) kieltää muutoksenhaun tuomareiden ratkaisuista. Suomessa kansallinen järjestö on Suomen Purjehdus ja Veneily. (Säännöt 70–72 eivät nimeä järjestöä; nimi on suomenkielisen sääntökirjan julkaisijatiedoista.) Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöjä 70–72 (86.1).",
+      "fi": "Liitteet B ja F lisäävät karsintasarjoja koskevia poikkeuksia (F: ei muutoksenhakua karsintamuotoisissa lajeissa). Liite C (parikilpailu) kieltää muutoksenhaun tuomareiden ratkaisuista. Suomessa kansallinen järjestö on Suomen Purjehdus ja Veneily. (Säännöt 70–72 eivät nimeä järjestöä; nimi on suomenkielisen sääntökirjan julkaisijatiedoista.) Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöjä 70–72 (86.1).",
       "en": "Appendices B and F add exceptions for elimination series (F: no appeals in formats with elimination series). Appendix C (match racing) bars appeals from umpire decisions. In Finland the national authority is the Finnish Sailing and Boating Federation. (Rules 70–72 do not name it; the name is from the Finnish rulebook's publisher details.) National authority prescriptions, the notice of race and sailing instructions may not change rules 70–72 (86.1).",
       "sv": "Appendix B och F lägger till undantag för utslagsserier (F: inga överklaganden i format med utslagsserier). Appendix C (matchracing) utesluter överklagande av domarbeslut. I Finland är den nationella myndigheten Segling och Båtsport i Finland. (Reglerna 70–72 nämner den inte; namnet kommer från utgivaruppgifterna i den finska regelboken.) Den nationella myndighetens föreskrifter, inbjudan och seglingsföreskrifterna får inte ändra reglerna 70–72 (86.1)."
     },
@@ -25393,6 +25393,599 @@
       "G1.5",
       "G1.6",
       "G2"
+    ]
+  },
+  {
+    "n": "G1",
+    "section": "G",
+    "title": {
+      "fi": "World Sailingin luokkiin kuuluvat veneet",
+      "sv": "Båtar i World Sailing klasser",
+      "en": "World Sailing Class Boats"
+    },
+    "explain": {
+      "fi": "Sääntö 77 velvoittaa noudattamaan liitettä G. G1.1: World Sailingin luokan veneen isopurjeessa on oltava luokkatunnus, kansainvälisissä kilpailuissa kansallisuuskirjaimet (esim. FIN, SWE) ja enintään nelinumeroinen purjenumero. Kansainvälisiä ovat World Sailingin kilpailut, MM- ja maanosakilpailut sekä kilpailut, joiden kilpailukutsu sanoo niitä kansainvälisiksi; kansallisuuskirjaimia ei tarvita, jos kaikille kilpailijoille annetaan veneet. Luokkasäännöt voivat sallia omistajan henkilökohtaisen purjenumeron. G1.2: kirjaimet ja numerot ovat isoja kirjaimia ja arabialaisia numeroita, samanvärisiä, purjeesta erottuvia, päätteettömiä (sans-serif) ja selvästi luettavia purje nostettuna. Vähimmäiskorkeus ja -väli riippuvat veneen kokonaispituudesta: alle 3,5 m 230 mm / 45 mm, 3,5–8,5 m 300 / 60 mm, 8,5–11 m 375 / 75 mm ja yli 11 m 450 / 90 mm. G1.3: merkinnät ovat purjeen molemmilla puolilla oikean puolen (styrbord) merkinnät ylempänä, ja kansallisuuskirjaimet ovat numeron yläpuolella. Isopurjeessa ne ovat mahdollisuuksien mukaan kokonaan kaaren yläpuolella, jonka keskipiste on nostinkulma ja säde 60 % takaliesmasta, ja luokkatunnus on kirjainten yläpuolella. Keulapurjeessa kirjaimia ja numeroita vaaditaan vain, jos alaliesma on yli 1,3 kertaa keulakolmion kanta; ne ovat kokonaan 50 %:n kaaren alapuolella ja mahdollisuuksien mukaan 75 %:n kaaren yläpuolella (etuliesman pituudesta). Spinaakkerissa ne ovat ainakin etupuolella, kokonaan 40 %:n ja mahdollisuuksien mukaan 60 %:n kaaren välissä (alaliesman keskijanasta).",
+      "en": "Rule 77 requires boats to comply with Appendix G. G1.1: the mainsail of a World Sailing Class boat must carry the class insignia, at international events national letters (e.g. FIN, SWE), and a sail number of no more than four digits. International events are World Sailing events, world and continental championships and events whose notice of race calls them international; national letters are not needed when boats are provided to all competitors. Class rules may allow an owner's personal sail number. G1.2: letters and numbers are capitals and Arabic numerals, of the same colour, contrasting with the sail, sans-serif and clearly legible when the sail is set. Minimum height and spacing depend on the boat's overall length: under 3.5 m 230 mm / 45 mm, 3.5–8.5 m 300 / 60 mm, 8.5–11 m 375 / 75 mm and over 11 m 450 / 90 mm. G1.3: the markings go on both sides of the sail with those on the starboard side uppermost, and national letters above the sail number. On a mainsail they are, if possible, wholly above an arc centred on the head point with a radius of 60% of the leech length, and the class insignia is above the letters. On a headsail letters and numbers are required only if its foot is longer than 1.3 times the foretriangle base; they are wholly below the 50% arc and, if possible, above the 75% arc (of luff length). On a spinnaker they are at least on the front side, wholly below the 40% arc and, if possible, above the 60% arc (of foot median).",
+      "sv": "Regel 77 kräver att båtar följer appendix G. G1.1: storseglet på en båt i en World Sailing-klass ska ha klassmärket, på internationella tävlingar nationalitetsbokstäver (t.ex. FIN, SWE) och ett segelnummer med högst fyra siffror. Internationella tävlingar är World Sailings tävlingar, världs- och kontinentmästerskap och tävlingar som inbjudan anger som internationella; nationalitetsbokstäver behövs inte när båtarna ställs till alla tävlandes förfogande. Klassreglerna kan tillåta ägaren ett personligt segelnummer. G1.2: bokstäver och siffror är versaler och arabiska siffror, i samma färg, i kontrasterande färg mot seglet, sanserif och tydligt läsbara när seglet är satt. Minsta höjd och avstånd beror på båtens längd överallt: under 3,5 m 230 mm / 45 mm, 3,5–8,5 m 300 / 60 mm, 8,5–11 m 375 / 75 mm och över 11 m 450 / 90 mm. G1.3: märkningen finns på seglets båda sidor med styrbordssidans överst, och nationalitetsbokstäverna ovanför segelnumret. På storseglet är de om möjligt helt ovanför en båge med centrum i fallhornspunkten och radien 60 % av akterlikets längd, och klassmärket är ovanför bokstäverna. På ett försegel krävs bokstäver och nummer bara om underliket är längre än 1,3 gånger förtriangelns bas; de är helt under 50 %-bågen och om möjligt över 75 %-bågen (av förlikets längd). På en spinnaker finns de åtminstone på framsidan, helt under 40 %-bågen och om möjligt över 60 %-bågen (av underliksmedianen)."
+    },
+    "note": {
+      "fi": "Suomenkielinen kirja poikkeaa englanninkielisestä: G1.1 mainitsee myös World Sailingin tunnustamat luokat, G1.3(a)(1) lisää ”mikäli mahdollista … eri korkeudelle”, ja G1.3(c)(2):ssa keulapurjeen kaaret lasketaan ”etuliesman keskijanasta”, kun englanninkielisessä ne lasketaan etuliesman pituudesta. Liite B (purjelautailu) muuttaa sijoittelua: mustat merkit valkoisella pohjalla, joka ulottuu vähintään 30 mm merkkien yli, ja viiva kirjainten ja numeron välissä. Liite F (leijalautailu) korvaa liitteen G numeroliiveillä. Radiopurjehdus: sivu E8. Case Bookissa ei ole liitettä G koskevia tapauksia.",
+      "en": "The Finnish book differs from the English: G1.1 also mentions classes recognized by World Sailing, G1.3(a)(1) adds 'if possible … at different heights', and in G1.3(c)(2) the headsail arcs are measured from the 'luff median' while the English uses the luff length. Appendix B (windsurfing) changes the positioning: black characters on a white background extending at least 30 mm beyond them, and a dash between letters and number. Appendix F (kiteboarding) replaces Appendix G with numbered bibs. Radio sailing: page E8. The Case Book has no cases on Appendix G.",
+      "sv": "Den finska boken avviker från den engelska: G1.1 nämner också klasser som erkänts av World Sailing, G1.3a1 lägger till ”om möjligt … på olika höjd”, och i G1.3c2 räknas försegelns bågar från förlikets ”median” medan den engelska använder förlikets längd. Appendix B (vindsurfing) ändrar placeringen: svarta tecken på vit botten som sträcker sig minst 30 mm utanför tecknen, och ett streck mellan bokstäver och nummer. Appendix F (kiteboarding) ersätter appendix G med nummervästar. Radiosegling: sidan E8. Fallboken har inga fall om appendix G."
+    },
+    "source": "RRS 77, G1, B9, F9",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "77"
+        ],
+        "note": {
+          "fi": "Sääntö 77 tekee liitteestä G velvoittavan.",
+          "en": "Rule 77 makes Appendix G binding.",
+          "sv": "Regel 77 gör appendix G bindande."
+        }
+      },
+      {
+        "rules": [
+          "E8"
+        ],
+        "note": {
+          "fi": "Radio-ohjattavien veneiden tunnistusmerkinnät.",
+          "en": "Identification on radio-controlled boats.",
+          "sv": "Igenkänningstecken på radiostyrda båtar."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rG1-q1",
+        "prompt": {
+          "fi": "Kokonaispituudeltaan 7 m:n World Sailingin luokan veneen purjenumero. Mikä on merkkien vähimmäiskorkeus?",
+          "en": "A World Sailing Class boat 7 m in overall length. What is the minimum height of the sail number characters?",
+          "sv": "En båt i en World Sailing-klass är 7 m lång överallt. Vilken är segelnumrets minsta teckenhöjd?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "300 mm",
+              "en": "300 mm",
+              "sv": "300 mm"
+            }
+          },
+          {
+            "t": {
+              "fi": "230 mm",
+              "en": "230 mm",
+              "sv": "230 mm"
+            }
+          },
+          {
+            "t": {
+              "fi": "375 mm",
+              "en": "375 mm",
+              "sv": "375 mm"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.2(b): 3,5–8,5 m:n veneillä 300 mm; vähimmäisväli on 60 mm.",
+          "en": "G1.2(b): 300 mm for boats of 3.5–8.5 m; the minimum spacing is 60 mm.",
+          "sv": "G1.2b: 300 mm för båtar på 3,5–8,5 m; minsta avståndet är 60 mm."
+        },
+        "source": "RRS G1.2(b)",
+        "also": []
+      },
+      {
+        "id": "rG1-q2",
+        "prompt": {
+          "fi": "Kummalla puolella purjetta merkinnät ovat ylempänä?",
+          "en": "On which side of the sail are the markings uppermost?",
+          "sv": "På vilken sida av seglet är märkningen överst?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Oikealla (styrbord)",
+              "en": "Starboard",
+              "sv": "Styrbord"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasemmalla",
+              "en": "Port",
+              "sv": "Babord"
+            }
+          },
+          {
+            "t": {
+              "fi": "Samalla korkeudella",
+              "en": "At the same height",
+              "sv": "På samma höjd"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.3(a)(1). Kansallisuuskirjaimet ovat numeron yläpuolella molemmilla puolilla (G1.3(a)(2)).",
+          "en": "G1.3(a)(1). National letters are above the number on each side (G1.3(a)(2)).",
+          "sv": "G1.3a1. Nationalitetsbokstäverna är ovanför numret på båda sidor (G1.3a2)."
+        },
+        "source": "RRS G1.3(a)",
+        "also": []
+      },
+      {
+        "id": "rG1-q3",
+        "prompt": {
+          "fi": "Kansallisissa SM-kilpailuissa, joiden kilpailukutsu ei sano niitä kansainvälisiksi, purjehtii World Sailingin luokan vene. Tarvitaanko purjeeseen kansallisuuskirjaimet?",
+          "en": "A World Sailing Class boat sails in a national championship whose notice of race does not call it international. Are national letters required?",
+          "sv": "En båt i en World Sailing-klass seglar ett nationellt mästerskap som inbjudan inte anger som internationellt. Krävs nationalitetsbokstäver?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, G1.1(b) vaatii ne vain kansainvälisissä kilpailuissa",
+              "en": "No, G1.1(b) requires them only at international events",
+              "sv": "Nej, G1.1b kräver dem bara på internationella tävlingar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.1(b) määrittelee kansainväliset kilpailut. Luokkasäännöt voivat kuitenkin vaatia enemmän.",
+          "en": "G1.1(b) defines international events. Class rules may still require more.",
+          "sv": "G1.1b definierar internationella tävlingar. Klassreglerna kan ändå kräva mer."
+        },
+        "source": "RRS G1.1(b)",
+        "also": []
+      },
+      {
+        "id": "rG1-q4",
+        "prompt": {
+          "fi": "Veneen genoan alaliesma on 1,2 kertaa keulakolmion kanta. Pitääkö genoassa olla purjenumero?",
+          "en": "A boat's genoa has a foot 1.2 times the foretriangle base. Must the genoa carry the sail number?",
+          "sv": "En båts genua har ett underlik som är 1,2 gånger förtriangelns bas. Måste genuan ha segelnummer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.3(c)(1): keulapurjeessa kirjaimia ja numeroita vaaditaan vain, kun alaliesma on yli 1,3 kertaa keulakolmion kanta.",
+          "en": "G1.3(c)(1): letters and numbers are required on a headsail only when its foot is longer than 1.3 times the foretriangle base.",
+          "sv": "G1.3c1: bokstäver och nummer krävs på ett försegel bara när underliket är längre än 1,3 gånger förtriangelns bas."
+        },
+        "source": "RRS G1.3(c)(1)",
+        "also": []
+      },
+      {
+        "id": "rG1-q5",
+        "prompt": {
+          "fi": "Mitä purjenumeron merkeiltä vaaditaan?",
+          "en": "What is required of the sail number characters?",
+          "sv": "Vad krävs av segelnumrets tecken?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Samanvärisiä, purjeesta erottuvia, päätteettömiä ja selvästi luettavia",
+              "en": "Same colour, contrasting with the sail, sans-serif and clearly legible",
+              "sv": "Samma färg, kontrasterande mot seglet, sanserif och tydligt läsbara"
+            }
+          },
+          {
+            "t": {
+              "fi": "Mustia valkoisella pohjalla",
+              "en": "Black on a white background",
+              "sv": "Svarta på vit botten"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vapaa kirjasintyyppi, kunhan väri erottuu",
+              "en": "Any typeface as long as the colour contrasts",
+              "sv": "Valfritt typsnitt så länge färgen kontrasterar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.2(a). Musta valkoisella pohjalla on liitteen B vaatimus purjelaudoille.",
+          "en": "G1.2(a). Black on white is Appendix B's requirement for windsurfers.",
+          "sv": "G1.2a. Svart på vit botten är kravet i appendix B för vindsurfingbrädor."
+        },
+        "source": "RRS G1.2(a), B9",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "G2",
+    "section": "G",
+    "title": {
+      "fi": "Muut veneet",
+      "sv": "Andra båtar",
+      "en": "Other Boats"
+    },
+    "explain": {
+      "fi": "Veneet, jotka eivät kuulu World Sailingin luokkiin (esimerkiksi monet kansalliset luokat ja tasoitusveneet), noudattavat kansallisen järjestönsä tai luokkaliittonsa sääntöjä tunnusten, kirjainten ja numeroiden antamisesta, käytöstä ja koosta. Näiden sääntöjen pitää mahdollisuuksien mukaan vastata G1:n vaatimuksia.",
+      "en": "Boats that are not in World Sailing Classes (for example many national classes and handicap boats) follow the rules of their national authority or class association on the allotment, carrying and size of insignia, letters and numbers. Those rules should, where practicable, conform to G1.",
+      "sv": "Båtar som inte hör till World Sailing-klasser (till exempel många nationella klasser och respitbåtar) följer sin nationella myndighets eller sitt klassförbunds regler om tilldelning, placering och storlek på märken, bokstäver och nummer. Sådana regler ska om möjligt överensstämma med G1."
+    },
+    "note": {
+      "fi": "Ruotsinkielisessä kirjassa on Ruotsin purjehdusliiton määräys: ellei luokkasäännöissä toisin sanota, muut veneet noudattavat liitettä G, mutta purjenumerossa saa olla enintään viisi numeroa. Suomenkielisessä kirjassa ei ole vastaavaa määräystä tässä kohdassa. Case Bookissa ei ole liitettä G koskevia tapauksia.",
+      "en": "The Swedish book contains a Swedish Sailing Federation prescription: unless class rules say otherwise, other boats follow Appendix G, but the sail number may have up to five digits. The Finnish book has no corresponding prescription here. The Case Book has no cases on Appendix G.",
+      "sv": "Den svenska boken innehåller en föreskrift från Svenska Seglarförbundet: om inte klassreglerna anger annat följer andra båtar appendix G, men segelnumret får ha högst fem siffror. Den finska boken har ingen motsvarande föreskrift här. Fallboken har inga fall om appendix G."
+    },
+    "source": "RRS G2; SV-kirjan määräys G2:een",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "88"
+        ],
+        "note": {
+          "fi": "Kansallisen järjestön määräykset: sääntö 88.",
+          "en": "National authority prescriptions: rule 88.",
+          "sv": "Nationella myndighetens föreskrifter: regel 88."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rG2-q1",
+        "prompt": {
+          "fi": "Kansallisen luokan veneen purjenumeroista ei ole World Sailingin luokkasääntöjä. Mitä sääntöjä noudatetaan?",
+          "en": "A national class boat has no World Sailing class rules for sail numbers. Which rules apply?",
+          "sv": "En båt i en nationell klass har inga World Sailing-klassregler för segelnummer. Vilka regler gäller?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kansallisen järjestön tai luokkaliiton sääntöjä",
+              "en": "The national authority's or class association's rules",
+              "sv": "Den nationella myndighetens eller klassförbundets regler"
+            }
+          },
+          {
+            "t": {
+              "fi": "G1:tä sellaisenaan",
+              "en": "G1 as it stands",
+              "sv": "G1 som den är"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään",
+              "en": "None",
+              "sv": "Inga"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G2. Niiden pitää mahdollisuuksien mukaan vastata G1:tä.",
+          "en": "G2. They should conform to G1 where practicable.",
+          "sv": "G2. De ska om möjligt överensstämma med G1."
+        },
+        "source": "RRS G2",
+        "also": []
+      },
+      {
+        "id": "rG2-q2",
+        "prompt": {
+          "fi": "Ruotsissa kilpailee tasoitusvene, jonka purjenumerossa on viisi numeroa, eikä luokkasäännöissä sanota asiasta mitään. Onko se sallittu?",
+          "en": "A handicap boat with a five-digit sail number races in Sweden, and the class rules say nothing about it. Is it allowed?",
+          "sv": "En respitbåt med ett femsiffrigt segelnummer kappseglar i Sverige, och klassreglerna säger inget om det. Är det tillåtet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, Ruotsin purjehdusliiton määräyksen mukaan",
+              "en": "Yes, under the Swedish Sailing Federation prescription",
+              "sv": "Ja, enligt Svenska Seglarförbundets föreskrift"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, enintään neljä numeroa",
+              "en": "No, four digits at most",
+              "sv": "Nej, högst fyra siffror"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Ruotsinkielisen kirjan määräys G2:een. Neljän numeron raja (G1.1(c)) koskee World Sailingin luokkia.",
+          "en": "The Swedish book's prescription to G2. The four-digit limit (G1.1(c)) applies to World Sailing Classes.",
+          "sv": "Den svenska bokens föreskrift till G2. Gränsen på fyra siffror (G1.1c) gäller World Sailing-klasser."
+        },
+        "source": "RRS G2, G1.1(c); SV-kirjan määräys",
+        "also": [
+          "88"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "G3",
+    "section": "G",
+    "title": {
+      "fi": "Vuokratut tai lainatut veneet",
+      "sv": "Hyrda eller lånade båtar",
+      "en": "Chartered or Loaned Boats"
+    },
+    "explain": {
+      "fi": "Jos kilpailukutsussa tai purjehdusohjeissa niin sanotaan, kilpailua varten vuokrattu tai lainattu vene saa käyttää luokkasääntöjensä vastaisia kansallisuuskirjaimia tai purjenumeroa. Esimerkiksi ulkomaille lainattu vene voi purjehtia omistajansa purjeilla, vaikka kirjaimet eivät vastaa purjehtijan maata.",
+      "en": "If the notice of race or sailing instructions say so, a boat chartered or loaned for an event may carry national letters or a sail number that do not comply with her class rules. For example, a boat loaned abroad can race with her owner's sails even if the letters do not match the sailor's country.",
+      "sv": "Om inbjudan eller seglingsföreskrifterna anger det får en båt som är hyrd eller lånad för en tävling ha nationalitetsbokstäver eller segelnummer som inte överensstämmer med klassreglerna. Till exempel kan en båt som lånas ut utomlands kappsegla med ägarens segel även om bokstäverna inte motsvarar seglarens land."
+    },
+    "note": {
+      "fi": "Case Bookissa ei ole liitettä G koskevia tapauksia.",
+      "en": "The Case Book has no cases on Appendix G.",
+      "sv": "Fallboken har inga fall om appendix G."
+    },
+    "source": "RRS G3",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "G1"
+        ],
+        "note": {
+          "fi": "G1.1(b): kansallisuuskirjaimia ei tarvita, kun kaikille kilpailijoille annetaan veneet.",
+          "en": "G1.1(b): national letters are not needed when boats are provided to all competitors.",
+          "sv": "G1.1b: nationalitetsbokstäver behövs inte när båtarna ställs till alla tävlandes förfogande."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rG3-q1",
+        "prompt": {
+          "fi": "Suomalainen purjehtija lainaa Ruotsissa veneen, jonka purjeessa on SWE. Kilpailukutsussa ei mainita vuokra- tai lainaveneitä, ja luokkasäännöt vaativat purjehtijan maan kirjaimet. Saako hän purjehtia SWE-purjeella?",
+          "en": "A Finnish sailor borrows a boat in Sweden whose sail shows SWE. The notice of race says nothing about chartered or loaned boats, and the class rules require the sailor's national letters. May they race with the SWE sail?",
+          "sv": "En finländsk seglare lånar en båt i Sverige med SWE i seglet. Inbjudan säger inget om hyrda eller lånade båtar, och klassreglerna kräver seglarens nationalitetsbokstäver. Får seglaren kappsegla med SWE-seglet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei ilman kilpailukutsun tai purjehdusohjeiden lupaa",
+              "en": "Not without permission in the notice of race or sailing instructions",
+              "sv": "Inte utan tillstånd i inbjudan eller seglingsföreskrifterna"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, lainaveneelle se on aina sallittu",
+              "en": "Yes, it is always allowed for a loaned boat",
+              "sv": "Ja, det är alltid tillåtet för en lånad båt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G3 edellyttää, että kilpailukutsu tai purjehdusohjeet sallivat sen.",
+          "en": "G3 requires the notice of race or sailing instructions to allow it.",
+          "sv": "G3 kräver att inbjudan eller seglingsföreskrifterna tillåter det."
+        },
+        "source": "RRS G3",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "G4",
+    "section": "G",
+    "title": {
+      "fi": "Varoitukset ja rangaistukset",
+      "sv": "Varningar och straff",
+      "en": "Warnings and Penalties"
+    },
+    "explain": {
+      "fi": "Kun protestilautakunta toteaa veneen rikkoneen liitettä G, sen pitää joko varoittaa venettä ja antaa sille aikaa korjata asia tai rangaista sitä. Rangaistus ei siis ole automaattisesti hylkäys, mutta lautakunnan on valittava jompikumpi.",
+      "en": "When the protest committee finds that a boat has broken Appendix G, it must either warn her and give her time to comply or penalize her. A penalty is therefore not automatically a disqualification, but the committee must choose one or the other.",
+      "sv": "När protestkommittén finner att en båt har brutit mot appendix G ska den antingen varna båten och ge den tid att rätta sig efter reglerna eller straffa den. Straffet är alltså inte automatiskt diskvalificering, men kommittén måste välja det ena eller det andra."
+    },
+    "note": {
+      "fi": "Case Bookissa ei ole liitettä G koskevia tapauksia.",
+      "en": "The Case Book has no cases on Appendix G.",
+      "sv": "Fallboken har inga fall om appendix G."
+    },
+    "source": "RRS G4, 77",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "77"
+        ],
+        "note": {
+          "fi": "Sääntö 77 velvoittaa noudattamaan liitettä G; rikkomisesta voi protestoida.",
+          "en": "Rule 77 requires compliance with Appendix G; a breach can be protested.",
+          "sv": "Regel 77 kräver att appendix G följs; ett brott kan protesteras."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rG4-q1",
+        "prompt": {
+          "fi": "Protestilautakunta toteaa, että veneen purjenumero on liian pieni. Mitä se voi tehdä?",
+          "en": "The protest committee finds that a boat's sail numbers are too small. What may it do?",
+          "sv": "Protestkommittén finner att en båts segelnummer är för små. Vad får den göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Varoittaa ja antaa aikaa korjata, tai rangaista",
+              "en": "Warn and give time to comply, or penalize",
+              "sv": "Varna och ge tid att rätta till det, eller straffa"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain hylätä",
+              "en": "Only disqualify",
+              "sv": "Bara diskvalificera"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, koska se ei vaikuta kilpailuun",
+              "en": "Nothing, as it does not affect the race",
+              "sv": "Ingenting, eftersom det inte påverkar kappseglingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G4.",
+          "en": "G4.",
+          "sv": "G4."
+        },
+        "source": "RRS G4",
+        "also": [
+          "77"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "G5",
+    "section": "G",
+    "title": {
+      "fi": "Luokkasääntöjen aiheuttamat muutokset",
+      "sv": "Ändringar genom klassregler",
+      "en": "Changes by Class Rules"
+    },
+    "explain": {
+      "fi": "World Sailingin luokat saavat muuttaa liitteen G sääntöjä, jos World Sailing on ensin hyväksynyt muutokset. Tämä on poikkeus säännön 86.1(c) luetteloon, joka rajaa luokkasääntöjen oikeuden muuttaa kilpailusääntöjä (Case 86).",
+      "en": "World Sailing Classes may change the rules of Appendix G, provided World Sailing has first approved the changes. This is an exception to the list in rule 86.1(c), which limits which racing rules class rules may change (Case 86).",
+      "sv": "World Sailings klasser får ändra reglerna i appendix G förutsatt att World Sailing först har godkänt ändringarna. Det är ett undantag från förteckningen i regel 86.1c, som begränsar vilka kappseglingsregler klassregler får ändra (fall 86)."
+    },
+    "note": {
+      "fi": "Case Bookissa ei ole liitettä G koskevia tapauksia.",
+      "en": "The Case Book has no cases on Appendix G.",
+      "sv": "Fallboken har inga fall om appendix G."
+    },
+    "source": "RRS G5, 86.1(c); Case 86",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Luokkasäännöt saavat muuttaa vain sääntöjä 42, 49, 51–55 ja 78.2 (86.1(c)) sekä hyväksynnällä liitettä G.",
+          "en": "Class rules may change only rules 42, 49, 51–55 and 78.2 (86.1(c)) and, with approval, Appendix G.",
+          "sv": "Klassregler får bara ändra reglerna 42, 49, 51–55 och 78.2 (86.1c) och, efter godkännande, appendix G."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rG5-q1",
+        "prompt": {
+          "fi": "World Sailingin luokan luokkasääntö sallii purjenumeron sijoittamisen eri tavalla kuin G1.3. Onko muutos pätevä?",
+          "en": "A World Sailing Class rule places sail numbers differently from G1.3. Is the change valid?",
+          "sv": "En klassregel i en World Sailing-klass placerar segelnumret annorlunda än G1.3. Är ändringen giltig?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "On, jos World Sailing on ensin hyväksynyt sen",
+              "en": "Yes, if World Sailing approved it first",
+              "sv": "Ja, om World Sailing först har godkänt den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan; luokkasäännöt eivät voi muuttaa liitettä G",
+              "en": "Never; class rules cannot change Appendix G",
+              "sv": "Aldrig; klassregler kan inte ändra appendix G"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina",
+              "en": "Always",
+              "sv": "Alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G5 ja Case 86.",
+          "en": "G5 and Case 86.",
+          "sv": "G5 och fall 86."
+        },
+        "source": "RRS G5; Case 86",
+        "also": [
+          "86"
+        ]
+      },
+      {
+        "id": "rG5-q2",
+        "prompt": {
+          "fi": "Luokkasääntö poistaa säännön 60.2(a)(1) punaisen lipun vaatimuksen. Onko luokkasääntö pätevä?",
+          "en": "A class rule removes the red flag requirement of rule 60.2(a)(1). Is the class rule valid?",
+          "sv": "En klassregel tar bort kravet på röd flagga i regel 60.2a1. Är klassregeln giltig?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: luokkasäännöt saavat muuttaa vain säännön 86.1(c) sääntöjä ja hyväksynnällä liitettä G",
+              "en": "No: class rules may change only the rules in 86.1(c) and, with approval, Appendix G",
+              "sv": "Nej: klassregler får bara ändra reglerna i 86.1c och, efter godkännande, appendix G"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 86: luokkasääntö ei ollut pätevä, joten punaisen lipun puuttuminen teki protestista pätemättömän. Purjehdusohjeet olisivat voineet muuttaa sääntöä (86.1(b)).",
+          "en": "Case 86: the class rule was not valid, so the missing red flag made the protest invalid. The sailing instructions could have changed the rule (86.1(b)).",
+          "sv": "Fall 86: klassregeln var inte giltig, så den saknade röda flaggan gjorde protesten ogiltig. Seglingsföreskrifterna hade kunnat ändra regeln (86.1b)."
+        },
+        "source": "Case 86; RRS 86.1(b), 86.1(c), G5",
+        "also": [
+          "86",
+          "60"
+        ]
+      }
     ]
   },
   {
