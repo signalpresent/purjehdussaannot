@@ -44,7 +44,7 @@ export function official(txt: TextStore, l: Lang, keep: (base: string) => boolea
     const bb = base(id);
     if (!keep(bb)) return '';
     const lab = !seen.has(id) && d ? id.match(/\(([^)]+)\)$/)![1] : '';
-    const h = bb !== prevBase && bb !== skipHead && !bb.startsWith('def:') && /\./.test(bb) ? `<p class="ot-h">${esc(`${bb} ${lt.titles[bb] ?? ''}`.trim())}</p>` : '';
+    const h = bb !== prevBase && bb !== skipHead && !bb.startsWith('def:') && /\.|^G\d$/.test(bb) ? `<p class="ot-h">${esc(`${bb} ${lt.titles[bb] ?? ''}`.trim())}</p>` : '';
     seen.add(id); prevBase = bb;
     if (lt.blocks[i].includes('\n')) return `${h}<pre class="ot tbl">${esc(lt.blocks[i])}</pre>`; // table (26)
     return `${h}<p class="ot d${d}">${lab ? (tl === 'sv' ? `${lab}) ` : `(${lab}) `) : ''}${esc(lt.blocks[i])}</p>`;
@@ -58,7 +58,7 @@ export function rulesView(l: Lang, txt: TextStore = {}): string {
   const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
     <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
   const groups = [...new Set(rules.map(r => r.section))];
-  return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g)}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
+  return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g && /[A-Z]/.test(b[1]))}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
     + `<p class="mute">${T.moreRules[l]}</p>`;
 }
 

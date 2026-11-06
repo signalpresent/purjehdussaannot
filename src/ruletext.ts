@@ -41,15 +41,18 @@ export function pageLines(all: Item[]): string[] {
 }
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
-const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]],
-    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]],
-    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]],
-    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+(m\.m\.)?|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
+// app: Appendix E (radio sailing), clause ids 'E1.1'.
+const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; app: [RegExp, RegExp]; furniture: RegExp; see: string[]; section: RegExp }> = {
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]], app: [/^\s*APPENDIX E$/, /^\s*APPENDIX F$/],
+    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix E\s+[A-Z ]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]], app: [/^LIITE E$/, /^LIITE F$/],
+    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|Liite E\s+[A-ZÄÖÅ ]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]], app: [/^APPENDIX E – REGLER FÖR RADIOSTYRDA$/, /^APPENDIX F – REGLER FÖR KITE$/],
+    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+(m\.m\.)?|\s*APPENDIX E – [A-ZÄÖÅ ]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
-const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
+const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(E?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
+const DOT = /^(\s*)(?:\((\d)\))?(\d)\.\s+(.*)$/; // group 2 never matches; keeps SUB's group layout
+const GCL = /^(\s*)(G\d(?:\.\d)?)\s+(\p{Lu}.*)$/u; // Appendix G rules quoted in E8 ('G1.1 Identification')
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
 const isUpper = (s: string) => s === s.toUpperCase() && s !== s.toLowerCase();
 const indent = (l: string) => l.length - l.trimStart().length;
@@ -66,7 +69,7 @@ function cut(ls: string[], [start, end]: [RegExp, RegExp]): string[] {
 }
 
 // Swedish words split at a line end where pdf.js and pdftotext both lose the hyphen (27 title, 32.3).
-const glue = (s: string) => s.replace('KAPPSEGLINGS KOMMITTÉN', 'KAPPSEGLINGSKOMMITTÉN').replace('kappseglings kommittén', 'kappseglingskommittén').replace('SEGLINGS FÖRESKRIFTER', 'SEGLINGSFÖRESKRIFTER').replace('an- givet', 'angivet').replace('re- gel', 'regel'); // SV: soft hyphens left mid-line in the PDF
+const glue = (s: string) => s.replace('KAPPSEGLINGS KOMMITTÉN', 'KAPPSEGLINGSKOMMITTÉN').replace('kappseglings kommittén', 'kappseglingskommittén').replace('SEGLINGS FÖRESKRIFTER', 'SEGLINGSFÖRESKRIFTER').replace('an- givet', 'angivet').replace('re- gel', 'regel').replace(/TERMINO-? LOGI/, 'TERMINOLOGI'); // SV: soft hyphens left mid-line in the PDF
 // Finnish and Swedish line-end hyphens are hyphenation and are dropped ('sök- och' keeps it); English ones are compound hyphens ('mark-room').
 function join(parts: string[], lang: Lang): string {
   let out = '';
@@ -92,7 +95,7 @@ function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Blo
   for (const l of lines) {
     if (!l.trim()) continue;
     if (CFG[lang].furniture.test(l)) { brk = true; continue; }
-    const col = indent(l), m = lists.has(baseId) ? null : ITEM.exec(l) ?? SUB.exec(l); // 6.1: bullets in EN, a)-e) in SV
+    const col = indent(l), m = lists.has(baseId) ? null : ITEM.exec(l) ?? SUB.exec(l) ?? (baseId[0] === 'G' ? DOT.exec(l) : null); // 6.1: bullets in EN, a)-e) in SV; FI G1.6(b): '1.'
     const pb = brk;
     brk = false;
     if (m) {
@@ -153,16 +156,18 @@ function rules(all: string[], lang: Lang): { titles: Record<string, string>; blo
     return s < 0 ? [] : clauses(all.slice(s, e < 0 ? undefined : e), lang, titles, '');
   });
   const alias = (b: Block): Block => SKELETON.alias[b[0]] ? [SKELETON.alias[b[0]], 0, b[2]] : b; // FI numbers 92.1-92.2 as 92(a)-(b)
-  return { titles, blocks: [...part, ...extra].map(alias) };
+  const app = clauses(cut(all, CFG[lang].app), lang, titles, 'E');
+  return { titles, blocks: [...part, ...extra, ...app].map(alias) };
 }
 
 function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first: string): Block[] {
   const cfg = CFG[lang], untitled = new Set(SKELETON.untitled), tables = new Set(SKELETON.tables), chunks: [string, string[], number][] = [];
   let cur: [string, string[], number] = [first, [], -1];
-  let titleNext: string | null = lang === 'sv' || !first ? null : first;
-  if (lang === 'sv' && first) titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
+  let titleNext: string | null = lang === 'sv' || !first || first === 'E' ? null : first;
+  if (first === 'E') while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
+  if (lang === 'sv' && first === 'P2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
   for (let i = 0; i < ls.length; i++) {
-    const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l);
+    const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l) ?? (first === 'E' ? GCL.exec(l) : null);
     if (sm) {
       chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
       if (lang === 'sv') titles[cur[0]] = (sm[2] + (/^\s*\p{Ll}+$/u.test(ls[i + 1] ?? '') ? ' ' + ls[++i] : '')).trim().replace(/\s+/g, ' '); // 'Förhandlingar och' / 'beslutsfattande'
@@ -173,7 +178,7 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       chunks.push(cur); cur = [cm[2], [], cm[1].length];
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
-      while (!cur[0].includes('.') && i + 1 < ls.length && isUpper(ls[i + 1].trim()) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
+      while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
       if (untitled.has(cur[0])) cur[1].push(cm[1] + ' '.repeat(cm[2].length + 2) + t); // e.g. 16.1: the heading line is body text
       else titles[cur[0]] = glue(t.replace(/\s+/g, ' '));
     } else cur[1].push(l);
