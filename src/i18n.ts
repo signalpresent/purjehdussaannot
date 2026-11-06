@@ -34,6 +34,7 @@ export const T: Record<string, Record<Lang, string>> = {
   group5: { fi: 'Osa 5 · Protestit, hyvitys, tutkinnat, sopimaton käytös ja muutoksenhaku', sv: 'Del 5 · Protester, gottgörelse, förhandlingar, olämpligt beteende och överklaganden', en: 'Part 5 · Protests, Redress, Hearings, Misconduct and Appeals' },
   group6: { fi: 'Osa 6 · Ilmoittautuminen ja kilpailukelpoisuus', sv: 'Del 6 · Anmälan och villkor', en: 'Part 6 · Entry and Qualification' },
   group7: { fi: 'Osa 7 · Kilpailuorganisaatio', sv: 'Del 7 · Tävlingsorganisation', en: 'Part 7 · Event Organization' },
+  groupE: { fi: 'Liite E · Radiopurjehduksen kilpailusäännöt', sv: 'Appendix E · Regler för radiostyrda båtar', en: 'Appendix E · Radio Sailing Racing Rules' },
   group2D: { fi: 'Ryhmä D · Muut säännöt', sv: 'Avdelning D · Andra regler', en: 'Section D · Other Rules' },
   export: { fi: 'Vie edistyminen', sv: 'Exportera framsteg', en: 'Export progress' },
   import: { fi: 'Tuo edistyminen', sv: 'Importera framsteg', en: 'Import progress' },

@@ -19736,5 +19736,1621 @@
         ]
       }
     ]
+  },
+  {
+    "n": "E1",
+    "section": "E",
+    "title": {
+      "fi": "Muutokset määritelmiin, käsitteisiin ja osien 1, 2 ja 7 sääntöihin",
+      "sv": "Ändringar av definitionerna, terminologi och reglerna i del 1, 2 och 7",
+      "en": "Changes to the Definitions, Terminology and the Rules of Parts 1, 2 and 7"
+    },
+    "explain": {
+      "fi": "Radiopurjehduksen kilpailut purjehditaan kilpailusääntöjen mukaan liitteen E muutoksin. E1.1: vyöhyke on neljä rungonpituutta. Uusi määritelmä Estynyt: vene on estynyt niin kauan kuin se ei pysty jatkamaan erässä. Tarkkailijalla ei ole eturistiriitaa pelkästään siksi, että hän on kilpailija. E1.2: ”vene” on radiolla ohjattu miehittämätön vene; osien 1 ja 5, säännön E6 sekä määritelmien Asianosainen ja Protesti kohdalla ”vene” kattaa myös sitä ohjaavan kilpailijan. ”Kilpailija” on veneen ohjaajaksi nimetty henkilö. Kilpailusäännöissä (ei liitteissä) sana kilpapurjehdus luetaan ”erä”; liitteessä E purjehdus koostuu yhdestä tai useammasta erästä ja päättyy viimeisen erän päättyessä. E1.3: sääntö 1.2 poistetaan; säännön 20.1 ja 20.3 huutoon kuuluu oma purjenumero ja sen jälkeen ”tilaa vastakäännökselle”; sääntö 22 kuuluu: veneen on mahdollisuuksien mukaan vältettävä estynyttä venettä; purjehdusohjeiden muutokset saa kertoa suullisesti kaikille, joita ne koskevat, ennen kyseisen purjehduksen tai erän varoitusviestiä, ja ne vahvistetaan tarvittaessa kirjallisesti (90.2(c)).",
+      "en": "Radio sailing races are sailed under the racing rules as changed by Appendix E. E1.1: the zone is four hull lengths. New definition Disabled: a boat is disabled while she cannot continue in the heat. An observer does not have a conflict of interest solely by being a competitor. E1.2: 'boat' is a radio-controlled sailboat with no crew; in Parts 1 and 5, rule E6 and the definitions Party and Protest, 'boat' includes the competitor controlling her. 'Competitor' is the person designated to control the boat. In the racing rules (not the appendices) the noun 'race' reads 'heat'; in Appendix E a race consists of one or more heats and is completed when its last heat is completed. E1.3: rule 1.2 is deleted; a hail under rule 20.1 or 20.3 gives the hailing boat's sail number followed by 'Room to tack'; rule 22 reads: if possible, a boat shall avoid a boat that is disabled; changes to the sailing instructions may be given orally to all affected competitors before the warning signal of the race or heat concerned, confirmed in writing when appropriate (90.2(c))."
+    },
+    "note": {
+      "fi": "Suomenkielinen kirja käyttää heatista sanaa erä. Development Rules for Umpired Radio Sailing (World Sailingin verkkosivuilla) on testisäännöstö erotuomaroitua radiopurjehdusta varten. Case Bookissa ei ole liitettä E koskevia tapauksia.",
+      "en": "The Finnish book uses 'erä' for heat. The Development Rules for Umpired Radio Sailing (on the World Sailing website) are a test rule set for umpired radio sailing. The Case Book has no cases on Appendix E."
+    },
+    "source": "RRS Appendix E (intro), E1",
+    "defs": [
+      "Zone",
+      "Conflict of Interest",
+      "Party",
+      "Protest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "Merkkitila alkaa vyöhykkeestä, joka on radiopurjehduksessa neljä rungonpituutta.",
+          "en": "Mark-room starts at the zone, which is four hull lengths in radio sailing."
+        }
+      },
+      {
+        "rules": [
+          "20",
+          "22"
+        ],
+        "note": {
+          "fi": "Liite E muuttaa säännön 20 huudon ja säännön 22 sisällön.",
+          "en": "Appendix E changes the hail in rule 20 and the content of rule 22."
+        }
+      },
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "Purjehdusohjeiden muutokset suullisesti: E1.3(d).",
+          "en": "Oral changes to the sailing instructions: E1.3(d)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE1-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kuinka suuri vyöhyke on?",
+          "en": "In radio sailing (Appendix E): how large is the zone?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Neljä rungonpituutta",
+              "en": "Four hull lengths"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme rungonpituutta",
+              "en": "Three hull lengths"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaksi rungonpituutta",
+              "en": "Two hull lengths"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E1.1 muuttaa määritelmän Vyöhyke etäisyyden neljäksi rungonpituudeksi.",
+          "en": "E1.1 changes the distance in the definition Zone to four hull lengths."
+        },
+        "source": "RRS E1.1; Definitions, Zone",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "rE1-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitä muutettu sääntö 22 vaatii?",
+          "en": "In radio sailing (Appendix E): what does the changed rule 22 require?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneen on mahdollisuuksien mukaan vältettävä estynyttä venettä",
+              "en": "If possible, a boat shall avoid a disabled boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Estyneen veneen on pysyttävä loitolla muista",
+              "en": "A disabled boat shall keep clear of the others"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sääntö 22 poistetaan",
+              "en": "Rule 22 is deleted"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E1.3(c). Estynyt vene on vene, joka ei pysty jatkamaan erässä (E1.1).",
+          "en": "E1.3(c). A disabled boat is one that cannot continue in the heat (E1.1)."
+        },
+        "source": "RRS E1.1, E1.3(c)",
+        "also": [
+          "22"
+        ]
+      },
+      {
+        "id": "rE1-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): miten tilaa vastakäännökselle pyydetään esteellä (sääntö 20.1)?",
+          "en": "In radio sailing (Appendix E): how is room to tack asked for at an obstruction (rule 20.1)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huudetaan oma purjenumero ja sen jälkeen ”tilaa vastakäännökselle”",
+              "en": "Hail own sail number followed by 'Room to tack'"
+            }
+          },
+          {
+            "t": {
+              "fi": "Huudetaan toisen veneen purjenumero",
+              "en": "Hail the other boat's sail number"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkkä ”tilaa vastakäännökselle” riittää",
+              "en": "'Room to tack' alone is enough"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E1.3(b) koskee sääntöjen 20.1 ja 20.3 huutoja.",
+          "en": "E1.3(b) covers hails under rules 20.1 and 20.3."
+        },
+        "source": "RRS E1.3(b)",
+        "also": [
+          "20"
+        ]
+      },
+      {
+        "id": "rE1-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): koskeeko sääntö 1.2 (pelastusvälineet ja kelluntavälineet) kilpailijoita?",
+          "en": "In radio sailing (Appendix E): does rule 1.2 (life-saving equipment and personal flotation devices) apply?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, se poistetaan",
+              "en": "No, it is deleted"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E1.3(a).",
+          "en": "E1.3(a)."
+        },
+        "source": "RRS E1.3(a)",
+        "also": [
+          "1"
+        ]
+      },
+      {
+        "id": "rE1-q5",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitä sana kilpapurjehdus tarkoittaa kilpailusääntöjen tekstissä?",
+          "en": "In radio sailing (Appendix E): what does the noun 'race' mean in the racing rules?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Erää; purjehdus koostuu yhdestä tai useammasta erästä",
+              "en": "A heat; a race consists of one or more heats"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koko kilpailutapahtumaa",
+              "en": "The whole event"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E1.2(c). Muutos koskee kilpailusääntöjä, ei niiden liitteitä.",
+          "en": "E1.2(c). The change applies in the racing rules, not in their appendices."
+        },
+        "source": "RRS E1.2(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "E2",
+    "section": "E",
+    "title": {
+      "fi": "Muut vaatimukset kilpailtaessa",
+      "sv": "Andra regler när båtar kappseglar",
+      "en": "Additional Rules When Racing"
+    },
+    "explain": {
+      "fi": "E2 on voimassa vain, kun veneet kilpailevat. E2.1: huuto tehdään ja toistetaan tarvittaessa niin, että ne kilpailijat, joille se on tarkoitettu, voivat kohtuudella kuulla sen; veneen huudon tai vastauksen antaa sitä ohjaava kilpailija; purjenumero huudetaan numero kerrallaan, esimerkiksi ”yksi viisi”, ei ”viisitoista”. E2.2: kilpailija ei saa antaa taktisia tai strategisia neuvoja kilpailijalle, joka ohjaa kilpailevaa venettä. E2.3: jos vene menettää radio-ohjauksen, kilpailijan on heti huudettava veneen purjenumero ja ”ohjauskyvytön”, ja veneen on vetäydyttävä. E2.4: jos lähettimen antenni on ulos vedettynä yli 200 mm pitkä, sen kärjen pitää olla asianmukaisesti suojattu. E2.5: muiden veneiden ohjausta häiritsevien radiosignaalien lähettäminen on kielletty; tätä rikkonut kilpailija saa kilpailla uudelleen vasta kilpailulautakunnan luvalla.",
+      "en": "E2 applies only while boats are racing. E2.1: a hail is made, and repeated as needed, so that the competitors it is meant for can reasonably be expected to hear it; a boat's hail or response is made by the competitor controlling her; the sail number is hailed digit by digit, e.g. 'one five', not 'fifteen'. E2.2: a competitor shall not give tactical or strategic advice to a competitor controlling a boat that is racing. E2.3: when a boat loses radio control, the competitor shall promptly hail the sail number and 'out of control', and the boat shall retire. E2.4: a transmitter aerial longer than 200 mm when extended must have its tip adequately protected. E2.5: transmitting radio signals that interfere with the control of other boats is prohibited; a competitor who broke this rule may race again only when the race committee permits."
+    },
+    "note": {
+      "fi": "Veneen tai kilpailijan protesti, jossa väitetään rikotun sääntöä E2, on pätemätön (E6.1); lautakunta voi kuitenkin protestoida (E6.2). E2-rikkomuksen rangaistus määräytyy säännön E7 mukaan.",
+      "en": "A protest by a boat or competitor alleging a breach of rule E2 is invalid (E6.1); a committee may still protest (E6.2). The penalty for an E2 breach is set under rule E7."
+    },
+    "source": "RRS E2, E6.1, E6.2, E7",
+    "defs": [
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "E6",
+          "E7"
+        ],
+        "note": {
+          "fi": "Kuka voi protestoida E2:n rikkomisesta ja mikä on rangaistus.",
+          "en": "Who may protest an E2 breach, and the penalty."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE2-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): miten veneen purjenumero 15 huudetaan?",
+          "en": "In radio sailing (Appendix E): how is sail number 15 hailed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "”Yksi viisi”",
+              "en": "'One five'"
+            }
+          },
+          {
+            "t": {
+              "fi": "”Viisitoista”",
+              "en": "'Fifteen'"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpi tahansa",
+              "en": "Either"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E2.1(c): numerot huudetaan yksitellen.",
+          "en": "E2.1(c): the digits are hailed one by one."
+        },
+        "source": "RRS E2.1(c)",
+        "also": []
+      },
+      {
+        "id": "rE2-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kilpailija, joka ei purjehdi tässä erässä, neuvoo ystäväänsä kiertämään merkin leveämmin. Saako hän?",
+          "en": "In radio sailing (Appendix E): a competitor not sailing in this heat advises a friend to round the mark wider. May they?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: taktisia tai strategisia neuvoja ei saa antaa kilpailevaa venettä ohjaavalle kilpailijalle",
+              "en": "No: tactical or strategic advice may not be given to a competitor controlling a racing boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska hän ei itse kilpaile",
+              "en": "Yes, because they are not racing themselves"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E2.2 kieltää kaikilta kilpailijoilta. Neuvo on myös ulkopuolista apua (E4.2).",
+          "en": "E2.2 applies to every competitor. The advice is also outside help (E4.2)."
+        },
+        "source": "RRS E2.2, E4.2",
+        "also": [
+          "41"
+        ]
+      },
+      {
+        "id": "rE2-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene menettää radio-ohjauksen. Mitä kilpailijan pitää tehdä?",
+          "en": "In radio sailing (Appendix E): a boat loses radio control. What must the competitor do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huudettava heti purjenumero ja ”ohjauskyvytön”, ja veneen on vetäydyttävä",
+              "en": "Promptly hail the sail number and 'out of control', and the boat retires"
+            }
+          },
+          {
+            "t": {
+              "fi": "Odotettava, palaako ohjaus, ja jatkettava",
+              "en": "Wait to see if control returns and carry on"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pyydettävä hyvitystä",
+              "en": "Request redress"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E2.3.",
+          "en": "E2.3."
+        },
+        "source": "RRS E2.3",
+        "also": []
+      },
+      {
+        "id": "rE2-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): milloin lähettimen antennin kärki on suojattava?",
+          "en": "In radio sailing (Appendix E): when must a transmitter aerial's tip be protected?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun antenni on ulos vedettynä yli 200 mm pitkä",
+              "en": "When the aerial is longer than 200 mm when extended"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina",
+              "en": "Always"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain, jos purjehdusohjeissa niin määrätään",
+              "en": "Only if the sailing instructions say so"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E2.4.",
+          "en": "E2.4."
+        },
+        "source": "RRS E2.4",
+        "also": []
+      },
+      {
+        "id": "rE2-q5",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kilpailijan lähetin on häirinnyt muiden veneiden ohjausta. Milloin hän saa kilpailla uudelleen?",
+          "en": "In radio sailing (Appendix E): a competitor's transmitter has interfered with other boats' control. When may they race again?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun kilpailulautakunta antaa luvan",
+              "en": "When the race committee permits"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti seuraavassa erässä",
+              "en": "In the next heat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraavana päivänä",
+              "en": "The next day"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E2.5.",
+          "en": "E2.5."
+        },
+        "source": "RRS E2.5",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "E3",
+    "section": "E",
+    "title": {
+      "fi": "Kilpailun pitäminen",
+      "sv": "Genomföra en kappsegling",
+      "en": "Conduct of a Race"
+    },
+    "explain": {
+      "fi": "E3.1: ohjausalue on rajoittamaton, ellei purjehdusohjeissa ole määritelty sitä; kilpailijoiden on oltava siellä ohjatessaan kilpailevia veneitä, paitsi hetken veneen käsittelemiseksi ja päästämiseksi tai laskemiseksi uudelleen veteen. E3.2: vesillelaskualue on rajoittamaton, ellei purjehdusohjeissa ole määritelty sitä ja sen käyttöä. E3.3: jos purjehdusohjeet vaativat ratataulun, se on ohjausalueella tai sen vieressä. E3.4: sääntö 26 kuuluu: erät lähetetään varoitus-, valmius- ja lähtöviestillä minuutin välein; viimeisen minuutin aikana annetaan lisäksi ääni- tai suullisia viestejä 10 sekunnin välein ja viimeisten 10 sekunnin aikana sekunnin välein, ja kukin viesti ajoitetaan äänen alusta. Lähtö- ja maalilinjat kulkevat merkkien radan puoleisten reunojen välissä. E3.5: yksittäisessä palautuksessa kilpailulautakunta huutaa viipymättä ”palautus” ja purjenumerot (ei koske sääntöjä 30.3 ja 30.4). E3.6: yleisessä palautuksessa se voi huutaa ”yleinen palautus” ja antaa kaksi voimakasta äänimerkkiä; uuden lähdön varoitusviesti tulee yleensä pian. E3.7: kun vene saa tiedon rikkoneensa sääntöä 30.3 tai 30.4, sen on heti poistuttava rata-alueelta. E3.8: säännöt 30.2 ja 33 poistetaan; kilpailulautakunnan viestit annetaan suullisesti tai muilla äänillä, eikä näkyviä viestejä tarvita, ellei purjehdusohjeissa toisin määrätä; ratoja ei lyhennetä; sääntö 32.1(a) kuuluu ”huonon sään tai ukkosen vuoksi”. E3.9: kilpailulautakunta voi järjestää tai sallia kohtuullista apua vammaisille kilpailijoille, eikä tällainen apu (myös tukihenkilöltä) riko sääntöä 41.",
+      "en": "E3.1: the control area is unrestricted unless the sailing instructions specify one; competitors must be in it when controlling racing boats, except briefly to handle and then release or relaunch the boat. E3.2: the launching area is unrestricted unless the sailing instructions specify it and its use. E3.3: a required course board is in or next to the control area. E3.4: rule 26 reads: heats are started with warning, preparatory and starting signals at one-minute intervals; in the last minute, additional sound or oral signals are made every 10 seconds and in the final 10 seconds every second, each signal timed from the start of its sound. The starting and finishing lines run between the course sides of the marks. E3.5: for an individual recall the race committee promptly hails 'Recall' and the sail numbers (not when rule 30.3 or 30.4 applies). E3.6: for a general recall it may hail 'General recall' and make two loud sounds; the warning signal for a new start normally follows shortly. E3.7: a boat told she broke rule 30.3 or 30.4 shall immediately leave the course area. E3.8: rules 30.2 and 33 are deleted; race committee signals are oral or other sounds, and no visual signals are needed unless the sailing instructions say so; courses are not shortened; rule 32.1(a) reads 'because of foul weather or thunderstorms,'. E3.9: the race committee may make or permit reasonable arrangements to help disabled competitors, and such help (including from a support person) does not break rule 41."
+    },
+    "note": {
+      "fi": "Suomenkielinen kirja kääntää kohdan E3.9 sanan disabled sanalla liikuntaesteellinen, mikä on suppeampi kuin englanninkielinen. Veneen tai kilpailijan protesti, jossa väitetään rikotun sääntöä E3.7, on pätemätön (E6.1).",
+      "en": "The Finnish book translates 'disabled' in E3.9 as 'liikuntaesteellinen' (mobility-impaired), which is narrower than the English. A protest by a boat or competitor alleging a breach of rule E3.7 is invalid (E6.1)."
+    },
+    "source": "RRS E3, 26, 29, 30, 32, 33",
+    "defs": [
+      "Start",
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "26"
+        ],
+        "note": {
+          "fi": "Lähtömenettely muuttuu minuutin väleiksi.",
+          "en": "The starting sequence changes to one-minute intervals."
+        }
+      },
+      {
+        "rules": [
+          "29",
+          "30"
+        ],
+        "note": {
+          "fi": "Palautukset huudetaan; Z-lipun sääntö poistetaan.",
+          "en": "Recalls are hailed; the Z flag rule is deleted."
+        }
+      },
+      {
+        "rules": [
+          "32",
+          "33"
+        ],
+        "note": {
+          "fi": "Ratoja ei lyhennetä, ja seuraavan osuuden muuttaminen (33) poistetaan.",
+          "en": "Courses are not shortened, and changing the next leg (33) is deleted."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE3-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kuinka paljon ennen lähtöviestiä varoitusviesti annetaan?",
+          "en": "In radio sailing (Appendix E): how long before the starting signal is the warning signal made?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "2 minuuttia",
+              "en": "2 minutes"
+            }
+          },
+          {
+            "t": {
+              "fi": "5 minuuttia",
+              "en": "5 minutes"
+            }
+          },
+          {
+            "t": {
+              "fi": "3 minuuttia",
+              "en": "3 minutes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.4(a): varoitus-, valmius- ja lähtöviesti annetaan minuutin välein, joten varoitusviesti on kaksi minuuttia ennen lähtöä.",
+          "en": "E3.4(a): warning, preparatory and starting signals are one minute apart, so the warning signal is two minutes before the start."
+        },
+        "source": "RRS E3.4(a)",
+        "also": [
+          "26"
+        ]
+      },
+      {
+        "id": "rE3-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitä viestejä annetaan lähtöviestiä edeltävän minuutin aikana?",
+          "en": "In radio sailing (Appendix E): what signals are made during the minute before the starting signal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "10 sekunnin välein, ja viimeiset 10 sekuntia sekunnin välein",
+              "en": "Every 10 seconds, and every second in the final 10 seconds"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään ennen lähtöviestiä",
+              "en": "None before the starting signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "30 sekunnin välein",
+              "en": "Every 30 seconds"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.4(a).",
+          "en": "E3.4(a)."
+        },
+        "source": "RRS E3.4(a)",
+        "also": [
+          "26"
+        ]
+      },
+      {
+        "id": "rE3-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene on lähtöviestin hetkellä lähtölinjan radan puolella. Miten kilpailulautakunta ilmoittaa siitä?",
+          "en": "In radio sailing (Appendix E): a boat is on the course side of the starting line at the starting signal. How does the race committee tell her?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huutaa viipymättä ”palautus” ja purjenumerot",
+              "en": "Promptly hails 'Recall' and the sail numbers"
+            }
+          },
+          {
+            "t": {
+              "fi": "Nostaa X-lipun",
+              "en": "Displays flag X"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitenkään; veneen on itse huomattava",
+              "en": "It doesn't; the boat must notice herself"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.5 muuttaa säännön 29.1. Näkyviä viestejä ei tarvita (E3.8(b)).",
+          "en": "E3.5 changes rule 29.1. Visual signals are not required (E3.8(b))."
+        },
+        "source": "RRS E3.5, E3.8(b)",
+        "also": [
+          "29"
+        ]
+      },
+      {
+        "id": "rE3-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): voiko kilpailulautakunta lyhentää rataa?",
+          "en": "In radio sailing (Appendix E): may the race committee shorten the course?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kuten tavallisesti (32.2)",
+              "en": "Yes, as usual (32.2)"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.8(c).",
+          "en": "E3.8(c)."
+        },
+        "source": "RRS E3.8(c)",
+        "also": [
+          "32"
+        ]
+      },
+      {
+        "id": "rE3-q5",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kilpailulautakunta kertoo veneelle, että se on rikkonut mustan lipun sääntöä (30.4). Mitä veneen pitää tehdä?",
+          "en": "In radio sailing (Appendix E): the race committee tells a boat she has broken the black flag rule (30.4). What must she do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistuttava heti rata-alueelta",
+              "en": "Immediately leave the course area"
+            }
+          },
+          {
+            "t": {
+              "fi": "Purjehdittava lähtölinjan ympäri ja lähdettävä uudelleen",
+              "en": "Sail round the line and start again"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jatkettava ja protestoitava",
+              "en": "Carry on and protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.7.",
+          "en": "E3.7."
+        },
+        "source": "RRS E3.7",
+        "also": [
+          "30"
+        ]
+      },
+      {
+        "id": "rE3-q6",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): missä kilpailijan pitää olla ohjatessaan kilpailevaa venettä?",
+          "en": "In radio sailing (Appendix E): where must a competitor be while controlling a racing boat?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ohjausalueella, paitsi hetken veneen käsittelyn ja vesillelaskun ajan",
+              "en": "In the control area, except briefly to handle and relaunch the boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Missä tahansa, josta näkee radan",
+              "en": "Anywhere with a view of the course"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E3.1. Jos purjehdusohjeissa ei määritellä ohjausaluetta, se on rajoittamaton.",
+          "en": "E3.1. If the sailing instructions specify no control area, it is unrestricted."
+        },
+        "source": "RRS E3.1",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "E4",
+    "section": "E",
+    "title": {
+      "fi": "Osan 4 säännöt",
+      "sv": "Reglerna i del 4",
+      "en": "Rules of Part 4"
+    },
+    "explain": {
+      "fi": "E4.1: säännöt 40, 44.3, 45, 48, 49, 50, 52, 54, 55 ja 56 poistetaan. E4.2: sääntö 41 kuuluu: vene tai sitä ohjaava kilpailija ei saa ottaa vastaan ulkopuolista apua, paitsi (a) apua, jota tarvitaan suoraan kilpailijan sairastumisen, loukkaantumisen tai vaaran vuoksi; (b) toiseen veneeseen takertuneena apua toiselta kilpailijalta; (c) estyneenä tai vaarassa apua kilpailulautakunnalta; (d) kaikkien kilpailijoiden vapaasti saatavilla olevaa tietoa; (e) pyytämättä saatua tietoa puolueettomalta lähteeltä; kilpailija ei ole puolueeton lähde, ellei hän toimi tarkkailijana. E4.3: sääntö 44.1 kuuluu: vene voi ottaa Yhden kierroksen rangaistuksen, kun se on kilpaillessaan voinut rikkoa osan 2 sääntöä tai sääntöä 31; jos samassa tapahtumassa rikkoutuivat molemmat, säännön 31 rangaistusta ei tarvita; jos vene sai rangaistuksesta huolimatta etua erässä tai purjehduksessa, se ottaa lisää Yhden kierroksen rangaistuksia, kunnes etu on menetetty; jos se aiheutti vakavaa vahinkoa tai osan 2 sääntöä rikkoessaan sai toisen veneen estyneeksi ja vetäytymään, sen rangaistus on vetäytyminen. E4.4: sääntö 46 kuuluu: veneen ilmoittanut jäsen tai yhteisö nimeää kilpailijan (ks. sääntö 75).",
+      "en": "E4.1: rules 40, 44.3, 45, 48, 49, 50, 52, 54, 55 and 56 are deleted. E4.2: rule 41 reads: a boat or her controlling competitor shall not receive outside help, except (a) help needed as a direct result of a competitor becoming ill, injured or in danger; (b) when entangled with another boat, help from the other competitor; (c) when disabled or in danger, help from the race committee; (d) information freely available to all competitors; (e) unsolicited information from a disinterested source; a competitor is not a disinterested source unless acting as an observer. E4.3: rule 44.1 reads: a boat may take a One-Turn Penalty when she may have broken a rule of Part 2 or rule 31 while racing; if both in the same incident, she need not take the penalty for rule 31; if she gained an advantage in the heat or race despite the penalty, she takes further One-Turn Penalties until the advantage is lost; if she caused serious damage, or by breaking a Part 2 rule caused another boat to become disabled and retire, her penalty is to retire. E4.4: rule 46 reads: the member or organization that entered the boat designates the competitor (see rule 75)."
+    },
+    "note": {
+      "fi": "Poistettujen sääntöjen otsikot: 40 kelluntavälineet, 44.3 pisterangaistus, 45 nosto maihin, kiinnittäminen ja ankkurointi, 48 varusteiden ja miehistön rajoitukset, 49 miehistön sijainti ja kaiteet, 50 kilpailijan vaatetus ja varusteet, 52 lihasvoima, 54 etuharukset ja keulapurjeen kulmat, 55 purjeiden asettaminen ja skuuttaus, 56 sumumerkit, valot ja liikenteen erottelujärjestelmät. Sääntö 42 (kulkuvoima) on voimassa. Rangaistuskierroksen suoritustapa on säännössä 44.2.",
+      "en": "Titles of the deleted rules: 40 personal flotation devices, 44.3 scoring penalty, 45 hauling out, making fast and anchoring, 48 limitations on equipment and crew, 49 crew position and lifelines, 50 competitor clothing and equipment, 52 manual power, 54 forestays and headsail tacks, 55 setting and sheeting sails, 56 fog signals and lights, traffic separation. Rule 42 (propulsion) still applies. How the penalty turn is taken is in rule 44.2."
+    },
+    "source": "RRS E4, 41, 44, 46",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "41"
+        ],
+        "note": {
+          "fi": "Ulkopuolinen apu radiopurjehduksessa: E4.2.",
+          "en": "Outside help in radio sailing: E4.2."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Yhden kierroksen rangaistus osan 2 ja säännön 31 rikkomuksista: E4.3.",
+          "en": "One-Turn Penalty for Part 2 and rule 31 breaches: E4.3."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE4-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene koskettaa toista venettä vasemmalla halssilla ja on rikkonut sääntöä 10. Mikä rangaistus sen pitää ottaa ollakseen vapautettu?",
+          "en": "In radio sailing (Appendix E): a boat on port tack touches another and has broken rule 10. What penalty must she take to be exonerated?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden kierroksen rangaistus",
+              "en": "A One-Turn Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden kierroksen rangaistus",
+              "en": "A Two-Turns Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vetäytyminen aina",
+              "en": "Always retire"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E4.3 muuttaa säännön 44.1. Jos vene sai rangaistuksesta huolimatta etua, se ottaa lisää kierroksia; vakavasta vahingosta rangaistus on vetäytyminen.",
+          "en": "E4.3 changes rule 44.1. If she still gained an advantage she takes more turns; for serious damage the penalty is to retire."
+        },
+        "source": "RRS E4.3",
+        "also": [
+          "10",
+          "44"
+        ]
+      },
+      {
+        "id": "rE4-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene rikkoo samassa tapahtumassa sekä osan 2 sääntöä että sääntöä 31. Montako kierrosta sen pitää tehdä?",
+          "en": "In radio sailing (Appendix E): a boat breaks a Part 2 rule and rule 31 in the same incident. How many turns must she make?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden (säännön 31 rangaistusta ei tarvita)",
+              "en": "One (no penalty is needed for rule 31)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaksi",
+              "en": "Two"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E4.3(a).",
+          "en": "E4.3(a)."
+        },
+        "source": "RRS E4.3(a)",
+        "also": [
+          "31"
+        ]
+      },
+      {
+        "id": "rE4-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene rikkoo osan 2 sääntöä, ja toinen vene muuttuu estyneeksi ja vetäytyy. Mikä on rikkoneen veneen rangaistus?",
+          "en": "In radio sailing (Appendix E): a boat breaks a Part 2 rule and another boat becomes disabled and retires. What is the penalty?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vetäytyminen",
+              "en": "To retire"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhden kierroksen rangaistus",
+              "en": "A One-Turn Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaksi Yhden kierroksen rangaistusta",
+              "en": "Two One-Turn Penalties"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E4.3(c).",
+          "en": "E4.3(c)."
+        },
+        "source": "RRS E4.3(c)",
+        "also": []
+      },
+      {
+        "id": "rE4-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): toinen kilpailija huutaa pyytämättä, että tuuli on kääntymässä. Onko se sallittua tietoa puolueettomalta lähteeltä?",
+          "en": "In radio sailing (Appendix E): another competitor calls out, unasked, that the wind is shifting. Is that allowed information from a disinterested source?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, ellei hän toimi tarkkailijana",
+              "en": "No, unless they are acting as an observer"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska tieto oli pyytämätöntä",
+              "en": "Yes, because it was unsolicited"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E4.2(e). Neuvo rikkoo myös sääntöä E2.2.",
+          "en": "E4.2(e). The advice also breaks rule E2.2."
+        },
+        "source": "RRS E4.2(e), E2.2",
+        "also": [
+          "41"
+        ]
+      },
+      {
+        "id": "rE4-q5",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitkä näistä säännöistä on poistettu?",
+          "en": "In radio sailing (Appendix E): which of these rules are deleted?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "40, 44.3, 45, 48, 49, 50, 52, 54, 55 ja 56",
+              "en": "40, 44.3, 45, 48, 49, 50, 52, 54, 55 and 56"
+            }
+          },
+          {
+            "t": {
+              "fi": "41, 42, 43 ja 44",
+              "en": "41, 42, 43 and 44"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koko osa 4",
+              "en": "All of Part 4"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E4.1. Sääntö 42 on voimassa.",
+          "en": "E4.1. Rule 42 still applies."
+        },
+        "source": "RRS E4.1",
+        "also": [
+          "42"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "E5",
+    "section": "E",
+    "title": {
+      "fi": "Kilpaileminen tarkkailijoiden ja erotuomareiden läsnäollessa",
+      "sv": "Kappsegling med observatörer och direktdomare",
+      "en": "Racing with Observers and Umpires"
+    },
+    "explain": {
+      "fi": "E5.1: kilpailulautakunta voi nimetä tarkkailijoita, ja he voivat olla kilpailijoita. Tarkkailijat huutavat niiden veneiden purjenumerot, jotka koskettavat merkkiä tai toista venettä. Erän lopuksi he ilmoittavat kilpailulautakunnalle kaikki selvittämättömät tapahtumat ja jokaisen radan purjehtimisen laiminlyönnin. E5.2: tarkkailijoiden ja erotuomareiden on oltava ohjausalueella, eivätkä he saa käyttää apuvälineitä, jotka antavat heille näkemisessä etua kilpailijoihin nähden.",
+      "en": "E5.1: the race committee may appoint observers, who may be competitors. Observers hail the sail numbers of boats that touch a mark or another boat. At the end of a heat they report to the race committee all unresolved incidents and any failure to sail the course. E5.2: observers and umpires shall be in the control area and shall not use any aid or device that gives them a visual advantage over competitors."
+    },
+    "note": {
+      "fi": "Tarkkailijana toimiva kilpailija ei ole eturistiriidassa pelkästään sen vuoksi, että hän on kilpailija (E1.1), ja hän voi olla puolueeton tietolähde (E4.2(e)). Protestin todistajista: E6.8.",
+      "en": "A competitor acting as an observer does not have a conflict of interest solely by being a competitor (E1.1), and may be a disinterested source of information (E4.2(e)). Witnesses in protests: E6.8."
+    },
+    "source": "RRS E5, E1.1, E4.2(e)",
+    "defs": [
+      "Conflict of Interest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "E1",
+          "E4"
+        ],
+        "note": {
+          "fi": "Tarkkailija ja eturistiriita (E1.1) sekä puolueeton lähde (E4.2(e)).",
+          "en": "Observers and conflict of interest (E1.1) and disinterested source (E4.2(e))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE5-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): voiko kilpailija toimia tarkkailijana?",
+          "en": "In radio sailing (Appendix E): may a competitor be an observer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, eturistiriidan vuoksi",
+              "en": "No, because of a conflict of interest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E5.1(a). E1.1: pelkkä kilpailijana oleminen ei ole eturistiriita.",
+          "en": "E5.1(a). E1.1: merely being a competitor is not a conflict of interest."
+        },
+        "source": "RRS E5.1(a), E1.1",
+        "also": []
+      },
+      {
+        "id": "rE5-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitä tarkkailijat huutavat erän aikana?",
+          "en": "In radio sailing (Appendix E): what do observers hail during a heat?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Merkkiä tai toista venettä koskettavien veneiden purjenumerot",
+              "en": "The sail numbers of boats touching a mark or another boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kenellä on kulkuoikeus",
+              "en": "Who has right of way"
+            }
+          },
+          {
+            "t": {
+              "fi": "Peiton syntymisen",
+              "en": "When an overlap begins"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E5.1(b).",
+          "en": "E5.1(b)."
+        },
+        "source": "RRS E5.1(b)",
+        "also": []
+      },
+      {
+        "id": "rE5-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): saako erotuomari seurata kilpailua kiikarilla tai rantaa pitkin kävellen?",
+          "en": "In radio sailing (Appendix E): may an umpire follow the race with binoculars, or by walking along the shore?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: hänen on oltava ohjausalueella eikä hän saa käyttää näkemisessä etua antavia apuvälineitä",
+              "en": "No: they must be in the control area and may not use aids giving a visual advantage"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jotta hän näkee paremmin",
+              "en": "Yes, so they can see better"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E5.2.",
+          "en": "E5.2."
+        },
+        "source": "RRS E5.2",
+        "also": []
+      },
+      {
+        "id": "rE5-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mitä tarkkailijat ilmoittavat kilpailulautakunnalle erän päätyttyä?",
+          "en": "In radio sailing (Appendix E): what do observers report to the race committee at the end of a heat?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Selvittämättömät tapahtumat ja radan purjehtimisen laiminlyönnit",
+              "en": "Unresolved incidents and failures to sail the course"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kosketukset, joista otettiin rangaistus",
+              "en": "Only contacts for which a penalty was taken"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E5.1(c).",
+          "en": "E5.1(c)."
+        },
+        "source": "RRS E5.1(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "E6",
+    "section": "E",
+    "title": {
+      "fi": "Protestit ja hyvityspyynnöt",
+      "sv": "Protester och ansökningar om gottgörelse",
+      "en": "Protests and Requests for Redress"
+    },
+    "explain": {
+      "fi": "E6.1: protesti on pätemätön, jos sen tekee vene, joka väittää osan 2, 3 tai 4 säännön rikkomista mutta jonka ei ollut määrä purjehtia siinä erässä, jossa tapahtuma sattui; myös veneen tai kilpailijan protesti, jossa väitetään rikotun sääntöä E2 tai E3.7, on pätemätön. E6.2: kun lautakunta saa tietää, että kilpailija on voinut rikkoa sääntöä, se voi protestoida hänen ohjaamaansa venettä. E6.3: protestoiva vene ilmoittaa toiselle huutamalla oma purjenumero, ”protesti” ja toisen veneen purjenumero. E6.4: kilpaillessa sattuneesta tapahtumasta protestoivan tai hyvitystä pyytävän veneen on ilmoitettava kilpailulautakunnalle niin pian kuin kohtuudella voi maaliin tulon tai vetäytymisen jälkeen. E6.5: protesti, hyvityspyyntö ja uusintapyyntö jätetään kilpailulautakunnalle viimeistään 10 minuuttia erän viimeisen veneen maaliin tulon tai tapahtuman jälkeen sen mukaan, kumpi on myöhemmin. E6.6: hyvityksen perusteeksi käy myös estyneeksi muuttuminen sellaisen osan 2 sääntöä rikkoneen veneen vuoksi, joka otti rangaistuksen tai jota rangaistiin, tai väistämisvelvollisen tai syylliseksi todetun ei-kilpailevan aluksen vuoksi sekä kilpailulautakunnan vahvistama ulkoinen radiohäiriö; vahingoittunut vene saa hyvityksenä kohtuullisesti aikaa korjaukseen, enintään 30 minuuttia, ennen seuraavaa eräänsä. E6.7: venettä edustaa sitä ohjaamaan nimetty kilpailija. E6.8: osan 2, 3 tai 4 protestissa todistajan on pitänyt olla ohjausalueella tapahtuman aikaan, ja kilpailijatodistajan, joka ei toiminut tarkkailijana, on pitänyt olla määrä kilpailla kyseisessä erässä.",
+      "en": "E6.1: a protest is invalid if it is from a boat alleging a breach of a rule of Part 2, 3 or 4 that was not scheduled to sail in the heat where the incident happened; a protest from a boat or competitor alleging a breach of rule E2 or E3.7 is also invalid. E6.2: when a committee learns that a competitor may have broken a rule, it may protest the boat that competitor controls. E6.3: a protesting boat informs the other by hailing her own sail number, 'protest' and the other boat's sail number. E6.4: a boat protesting or requesting redress about an incident while racing informs the race committee as soon as reasonably possible after finishing or retiring. E6.5: a protest, redress request or reopening request is delivered to the race committee within 10 minutes after the last boat in the heat finishes or after the incident, whichever is later. E6.6: becoming disabled because of a boat that broke a Part 2 rule and took a penalty or was penalized, or of a non-racing vessel required to keep clear or found at fault, is also grounds for redress, as is external radio interference acknowledged by the race committee; a damaged boat's redress includes reasonable time for repairs, at most 30 minutes, before her next heat. E6.7: a boat's representative is the competitor designated to control her. E6.8: in a protest about Part 2, 3 or 4, a witness must have been in the control area at the time, and a competitor witness not acting as an observer must also have been scheduled to race in that heat."
+    },
+    "note": {
+      "fi": "Käännösero: englanninkielinen E6.3 vaatii protestihuudon ensimmäisessä kohtuullisessa tilaisuudessa; suomen- ja ruotsinkielinen teksti jättää ajankohdan mainitsematta. Protestilippua ei tarvita, koska huuto korvaa säännön 60.2(a)(1).",
+      "en": "Translation difference: English E6.3 requires the protest hail at the first reasonable opportunity; the Finnish and Swedish texts do not mention timing. No protest flag is needed, since the hail replaces rule 60.2(a)(1)."
+    },
+    "source": "RRS E6, 60, 61, 63",
+    "defs": [
+      "Party",
+      "Protest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Protestin pätevyys ja ilmoittaminen muuttuvat: E6.1 ja E6.3.",
+          "en": "Protest validity and informing change: E6.1 and E6.3."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Lisäperusteet hyvitykselle: E6.6.",
+          "en": "Additional grounds for redress: E6.6."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Edustaja ja todistajat: E6.7 ja E6.8.",
+          "en": "Representative and witnesses: E6.7 and E6.8."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE6-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): miten vene ilmoittaa protestista toiselle veneelle?",
+          "en": "In radio sailing (Appendix E): how does a boat inform another boat of her protest?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huutaa oman purjenumeronsa, ”protesti” ja toisen veneen purjenumeron",
+              "en": "Hails her own sail number, 'protest' and the other boat's sail number"
+            }
+          },
+          {
+            "t": {
+              "fi": "Näyttää punaista lippua",
+              "en": "Displays a red flag"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ilmoittaa vasta kilpailulautakunnalle maissa",
+              "en": "Only tells the race committee ashore"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.3 muuttaa säännön 60.2(a)(1). Lisäksi kilpailulautakunnalle ilmoitetaan maaliin tulon jälkeen (E6.4).",
+          "en": "E6.3 changes rule 60.2(a)(1). The race committee is also told after finishing (E6.4)."
+        },
+        "source": "RRS E6.3, E6.4",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "rE6-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): mikä on protestiaika?",
+          "en": "In radio sailing (Appendix E): what is the protest time limit?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "10 minuuttia erän viimeisen veneen maaliin tulosta tai tapahtumasta, kumpi on myöhemmin",
+              "en": "10 minutes after the last boat in the heat finishes or after the incident, whichever is later"
+            }
+          },
+          {
+            "t": {
+              "fi": "90 minuuttia viimeisen veneen maaliin tulosta",
+              "en": "90 minutes after the last boat finishes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti tapahtuman jälkeen",
+              "en": "Immediately after the incident"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.5. Sama aika koskee hyvitys- ja uusintapyyntöjä.",
+          "en": "E6.5. The same limit applies to redress and reopening requests."
+        },
+        "source": "RRS E6.5",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "rE6-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kilpailija näkee toisen kilpailijan antavan taktisia neuvoja (E2.2). Voiko hänen veneensä protestoida?",
+          "en": "In radio sailing (Appendix E): a competitor sees another giving tactical advice (E2.2). May their boat protest?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: veneen tai kilpailijan protesti E2:n rikkomisesta on pätemätön, mutta lautakunta voi protestoida",
+              "en": "No: a boat's or competitor's protest about E2 is invalid, but a committee may protest"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kuten mistä tahansa säännöstä",
+              "en": "Yes, as for any rule"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.1 lisää säännön 60.4(a)(4); E6.2.",
+          "en": "E6.1 adds rule 60.4(a)(4); E6.2."
+        },
+        "source": "RRS E6.1, E6.2, E2.2",
+        "also": [
+          "E2"
+        ]
+      },
+      {
+        "id": "rE6-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): vene, joka ei purjehtinut erässä, protestoi siinä sattuneesta osan 2 tapahtumasta. Onko protesti pätevä?",
+          "en": "In radio sailing (Appendix E): a boat that did not sail in a heat protests a Part 2 incident in it. Is the protest valid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos hän näki tapahtuman",
+              "en": "Yes, if they saw the incident"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.1 muuttaa säännön 60.4(a)(2): veneen piti olla määrä purjehtia siinä erässä.",
+          "en": "E6.1 changes rule 60.4(a)(2): the boat must have been scheduled to sail in that heat."
+        },
+        "source": "RRS E6.1",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "rE6-q5",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): ulkoinen radiohäiriö pilaa veneen erän. Voiko se saada hyvitystä?",
+          "en": "In radio sailing (Appendix E): outside radio interference ruins a boat's heat. Can she get redress?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos kilpailulautakunta vahvistaa häiriön",
+              "en": "Yes, if the race committee acknowledges the interference"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, radiohäiriö on kilpailijan oma riski",
+              "en": "No, interference is the competitor's own risk"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.6 lisää säännön 61.4(b)(6).",
+          "en": "E6.6 adds rule 61.4(b)(6)."
+        },
+        "source": "RRS E6.6",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "rE6-q6",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kilpailija katsoi osan 2 tapahtumaa rannalta katsomosta; hän ei purjehtinut siinä erässä eikä ollut tarkkailija. Voiko hän olla todistaja?",
+          "en": "In radio sailing (Appendix E): a competitor watched a Part 2 incident from the shore; they were not in the heat and not an observer. May they be a witness?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: todistajan on pitänyt olla ohjausalueella, ja kilpailijatodistajan on pitänyt olla määrä kilpailla erässä",
+              "en": "No: a witness must have been in the control area, and a competitor witness must have been scheduled in the heat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E6.8 lisää säännön 63.4(f).",
+          "en": "E6.8 adds rule 63.4(f)."
+        },
+        "source": "RRS E6.8",
+        "also": [
+          "63"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "E7",
+    "section": "E",
+    "title": {
+      "fi": "Rangaistukset",
+      "sv": "Straff",
+      "en": "Penalties"
+    },
+    "explain": {
+      "fi": "Kun protestilautakunta toteaa, että protestin asianosainen vene on rikkonut muuta kuin osan 2, 3 tai 4 sääntöä, se joko (a) hylkää veneen tai lisää sen pisteisiin minkä tahansa määrän pisteitä (myös nolla tai murto-osa) tai (b) määrää sen ottamaan yhden tai useamman Yhden kierroksen rangaistuksen mahdollisimman pian sen seuraavan sellaisen erän lähtöviestin jälkeen, jota ei palauteta eikä mitätöidä. Pisterangaistus kohdistetaan mahdollisuuksien mukaan siihen erään tai purjehdukseen, jossa sääntöä rikottiin, muuten veneen seuraavaan; muiden veneiden pisteitä ei muuteta. Liitteen G tai säännön E8 rikkomisessa lautakunta toimii säännön G4 mukaan.",
+      "en": "When a protest committee decides that a boat that is a party to a hearing broke a rule other than a rule of Part 2, 3 or 4, it shall either (a) disqualify her or add any number of points (including zero or fractions) to her score, or (b) require her to take one or more One-Turn Penalties as soon as possible after the starting signal of her next heat that is started and not recalled or abandoned. A points penalty applies, if possible, to the heat or race where the rule was broken, otherwise to her next one; other boats' scores are not changed. For a breach of Appendix G or rule E8 the committee acts under rule G4."
+    },
+    "note": {
+      "fi": "Sääntö E7 koskee esimerkiksi sääntöjen E2.4 (antenni) ja E2.5 (radiohäiriö) rikkomuksia, ei osien 2, 3 ja 4 sääntöjä.",
+      "en": "Rule E7 covers, for example, breaches of rules E2.4 (aerial) and E2.5 (radio interference), not the rules of Parts 2, 3 and 4."
+    },
+    "source": "RRS E7",
+    "defs": [
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "64"
+        ],
+        "note": {
+          "fi": "Rangaistukset protestitutkinnan jälkeen: sääntö 64; liite E lisää säännön E7 vaihtoehdot.",
+          "en": "Penalties after a hearing: rule 64; Appendix E adds the options in rule E7."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE7-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): protestilautakunta toteaa, että veneen antennin kärki ei ollut suojattu (E2.4). Mitä se voi tehdä?",
+          "en": "In radio sailing (Appendix E): the protest committee finds that a boat's aerial tip was not protected (E2.4). What may it do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Hylätä veneen, lisätä pisteitä tai määrätä Yhden kierroksen rangaistuksia seuraavassa erässä",
+              "en": "Disqualify her, add points, or require One-Turn Penalties in her next heat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain hylätä veneen",
+              "en": "Only disqualify her"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; E2 ei ole rangaistava",
+              "en": "Nothing; E2 carries no penalty"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E7(a) ja (b).",
+          "en": "E7(a) and (b)."
+        },
+        "source": "RRS E7",
+        "also": [
+          "E2"
+        ]
+      },
+      {
+        "id": "rE7-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): lautakunta lisää veneelle 2 pistettä. Muuttuvatko muiden veneiden pisteet?",
+          "en": "In radio sailing (Appendix E): the committee adds 2 points to a boat's score. Do other boats' scores change?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, alempana olevat nousevat",
+              "en": "Yes, those below move up"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E7(a).",
+          "en": "E7(a)."
+        },
+        "source": "RRS E7(a)",
+        "also": []
+      },
+      {
+        "id": "rE7-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): milloin E7:n mukaan määrätyt rangaistuskierrokset tehdään?",
+          "en": "In radio sailing (Appendix E): when are penalty turns imposed under E7 taken?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Mahdollisimman pian veneen seuraavan, ei palautetun eikä mitätöidyn erän lähtöviestin jälkeen",
+              "en": "As soon as possible after the starting signal of her next heat that is not recalled or abandoned"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti tutkinnan jälkeen",
+              "en": "Right after the hearing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ennen seuraavan erän varoitusviestiä",
+              "en": "Before the next heat's warning signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E7(b).",
+          "en": "E7(b)."
+        },
+        "source": "RRS E7(b)",
+        "also": []
+      },
+      {
+        "id": "rE7-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): koskeeko sääntö E7 osan 2 sääntöjen rikkomuksia?",
+          "en": "In radio sailing (Appendix E): does rule E7 apply to breaches of Part 2 rules?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, vain muiden kuin osien 2, 3 ja 4 sääntöjen rikkomuksia",
+              "en": "No, only breaches of rules other than Parts 2, 3 and 4"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "E7, ensimmäinen virke.",
+          "en": "E7, first sentence."
+        },
+        "source": "RRS E7",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "E8",
+    "section": "E",
+    "title": {
+      "fi": "Muutokset liitteeseen G, purjetunnukset",
+      "sv": "Ändringar i appendix G, igenkänningstecken i segel",
+      "en": "Changes to Appendix G, Identification on Sails"
+    },
+    "explain": {
+      "fi": "E8 korvaa liitteen G säännöt G1 (paitsi kansallisuuskirjainten taulukon) ja G2. G1 koskee World Sailingin ja IRSA:n luokkien veneitä: isopurjeessa on luokkatunnus ja tarvittaessa kansallisuuskirjaimet, kaikissa purjeissa purjenumero. MM- ja maanosakilpailuissa purjeiden on noudatettava E8:aa; muualla kelpaavat myös purjeen alkuperäisen hyväksynnän aikaiset säännöt. Kansallisuuskirjaimet vaaditaan IRSA:n MM- ja maanosakilpailuissa ja kilpailukutsussa kansainvälisiksi nimetyissä kilpailuissa. Purjenumero on rungon rekisterinumeron tai kilpailijan tai omistajan henkilökohtaisen numeron kaksi viimeistä numeroa; yksinumeroisen eteen lisätään nolla, ja kilpailulautakunta voi vaatia sekaannusta aiheuttavan numeron vaihtamista. Numerot ja kirjaimet ovat isoja kirjaimia ja arabialaisia numeroita, selkeitä, samanvärisiä ja purjeesta erottuvia; digitaaliset kirjasimet eivät kelpaa. Purjenumeron korkeus on 100–110 mm ja numeroiden väli 20–30 mm; kansallisuuskirjainten korkeus 60–70 mm ja väli 13–23 mm. Tunnukset ovat purjeen molemmin puolin, oikean puolen tunnukset ylempänä, suunnilleen vaakasuorassa, tilaa jätetään etuliitteelle ”1”, ja eri puolten rivien väli on vähintään 40 mm. G1.6 kertoo, missä järjestyksessä vaatimuksista saa joustaa pienessä purjeessa. G2: muut veneet noudattavat E8:aa, ellei kansallinen järjestö tai luokkaliitto ole muuttanut sääntöjä.",
+      "en": "E8 replaces rules G1 (except the table of national sail letters) and G2 of Appendix G. G1 covers boats of World Sailing and IRSA classes: the mainsail carries the class insignia and, if required, national letters; every sail carries the sail number. At world and continental championships sails must comply with E8; elsewhere the rules at the sail's initial certification are also acceptable. National letters are required at IRSA world and continental championships and at events the notice of race calls international. The sail number is the last two digits of the hull registration number or of the competitor's or owner's personal number; a single digit is preceded by a zero, and the race committee may require a number that could be confused to be changed. Numbers and letters are capitals and Arabic numerals, clearly legible, of one colour contrasting with the sail; digital fonts are not acceptable. Sail numbers are 100–110 mm high with 20–30 mm spacing; national letters 60–70 mm high with 13–23 mm spacing. They go on both sides of the sail, starboard side uppermost, roughly horizontal, with space for a prefix '1', and at least 40 mm vertically between lines on opposite sides. G1.6 sets the order in which the requirements may be relaxed on a small sail. G2: other boats comply with E8 unless their national authority or class association has changed the rules."
+    },
+    "note": {
+      "fi": "Suomenkielisestä G1.4(a):sta puuttuvat vaatimukset ”selkeästi luettava” ja ”samanvärinen”. E8:n tai liitteen G rikkomisessa lautakunta toimii säännön G4 mukaan (E7). Liitteen G muita kohtia ei ole käsitelty tässä.",
+      "en": "The Finnish G1.4(a) omits the requirements 'clearly legible' and 'of the same colour'. For a breach of E8 or Appendix G the committee acts under rule G4 (E7). Other parts of Appendix G are not covered here."
+    },
+    "source": "RRS E8 (G1, G2)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "E7"
+        ],
+        "note": {
+          "fi": "Purjetunnusrikkomuksen käsittely: E7 ja G4.",
+          "en": "Handling a sail identification breach: E7 and G4."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rE8-q1",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): rungon rekisterinumero on 1234. Mikä on purjenumero?",
+          "en": "In radio sailing (Appendix E): the hull registration number is 1234. What is the sail number?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "34",
+              "en": "34"
+            }
+          },
+          {
+            "t": {
+              "fi": "1234",
+              "en": "1234"
+            }
+          },
+          {
+            "t": {
+              "fi": "12",
+              "en": "12"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.3(a): kaksi viimeistä numeroa.",
+          "en": "G1.3(a): the last two digits."
+        },
+        "source": "RRS E8 (G1.3(a))",
+        "also": []
+      },
+      {
+        "id": "rE8-q2",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): henkilökohtainen numero on 7. Miten se merkitään purjeeseen?",
+          "en": "In radio sailing (Appendix E): the personal number is 7. How is it shown on the sail?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "07",
+              "en": "07"
+            }
+          },
+          {
+            "t": {
+              "fi": "7",
+              "en": "7"
+            }
+          },
+          {
+            "t": {
+              "fi": "70",
+              "en": "70"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.3(b): yksinumeroisen eteen lisätään nolla.",
+          "en": "G1.3(b): a single digit is preceded by a zero."
+        },
+        "source": "RRS E8 (G1.3(b))",
+        "also": []
+      },
+      {
+        "id": "rE8-q3",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kuinka korkeita purjenumerot ovat normaalisti?",
+          "en": "In radio sailing (Appendix E): how high are the sail numbers normally?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "100–110 mm",
+              "en": "100–110 mm"
+            }
+          },
+          {
+            "t": {
+              "fi": "60–70 mm",
+              "en": "60–70 mm"
+            }
+          },
+          {
+            "t": {
+              "fi": "150–200 mm",
+              "en": "150–200 mm"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.4(b). 60–70 mm on kansallisuuskirjainten korkeus.",
+          "en": "G1.4(b). 60–70 mm is the height of national letters."
+        },
+        "source": "RRS E8 (G1.4(b))",
+        "also": []
+      },
+      {
+        "id": "rE8-q4",
+        "prompt": {
+          "fi": "Radiopurjehduksessa (liite E): kumman puolen purjenumerot sijoitetaan ylemmäksi?",
+          "en": "In radio sailing (Appendix E): on which side are the sail numbers placed higher?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Oikean puolen (styrbord)",
+              "en": "The starboard side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasemman puolen",
+              "en": "The port side"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.5(a)(2).",
+          "en": "G1.5(a)(2)."
+        },
+        "source": "RRS E8 (G1.5(a)(2))",
+        "also": []
+      }
+    ]
   }
 ]

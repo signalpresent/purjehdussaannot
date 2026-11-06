@@ -20,7 +20,7 @@ const ids = new Set<string>();
 for (const r of rules) {
   const w = `rule ${r.n}`;
   const base = String(r.n).split('.')[0];
-  assert.ok(map.rules[base], `${w} not in content-map`);
+  assert.ok(map.rules[base] || /^[A-Z]/.test(base), `${w} not in content-map`); // appendix pages (E1…) are not in the map
   for (const k of ['explain', 'note']) ml(r[k], `${w}.${k}`);
   if (r.scene) { scene(r.scene, w); ml(r.caption, `${w}.caption`); } // procedural rules have no diagram
   for (const d of r.defs) assert.ok(defs.some((x: any) => x.en === d), `${w}: unknown definition ${d}`);
