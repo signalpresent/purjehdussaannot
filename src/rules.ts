@@ -55,7 +55,7 @@ export function rulesView(l: Lang, txt: TextStore = {}): string {
   const row = (r: Rule) => `<div class="item" tabindex="0" data-rule="${r.n}"><div class="t">${r.n} ${esc(r.title[l])}</div>
     <div class="s">${LANGS.filter(x => x !== l).map(x => esc(r.title[x])).join(' · ')}</div></div>`;
   const groups = [...new Set(rules.map(r => r.section))];
-  return groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g)}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
+  return groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g)}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
     + `<p class="mute">${T.moreRules[l]}</p>`;
 }
 

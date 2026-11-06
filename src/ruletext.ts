@@ -8,12 +8,13 @@ import defsRaw from './defs.json' with { type: 'json' };
 interface Item { str: string; transform: number[]; width: number }
 export interface LangText { file: string; titles: Record<string, string>; blocks: string[] }
 const DEFS = defsRaw as unknown as Record<Lang, string>[];
-export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[]; lists: string[]; tables: string[] };
+export const SKELETON = ids as { blocks: [string, number][]; titles: string[]; untitled: string[]; lists: string[]; tables: string[]; hang: string[] };
 
 // One page of pdf.js items -> text lines, like `pdftotext -layout`: indentation in character columns,
 // a wide gap becomes at least two spaces ('18   MARK-ROOM'), explicit space items become one space.
 export function pageLines(all: Item[]): string[] {
-  const items = all.filter(i => typeof i.str === 'string' && i.str), ink = items.filter(i => i.str.trim());
+  // FI Part 5 running header wraps to a second line ('MUUTOKSENHAKU', 13 pt; the Section D title is 20 pt) that pdf.js can put on a body row
+  const items = all.filter(i => typeof i.str === 'string' && i.str && !(i.str.trim() === 'MUUTOKSENHAKU' && i.transform[0] < 14)), ink = items.filter(i => i.str.trim());
   if (!ink.length) return [];
   const minX = Math.min(...ink.map(i => i.transform[4]));
   const sizes = ink.map(i => Math.round(Math.hypot(i.transform[0], i.transform[1]))).sort((a, b) => a - b);
@@ -41,12 +42,12 @@ export function pageLines(all: Item[]): string[] {
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/]],
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/]],
     furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/]],
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/]],
     furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /]],
-    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /]],
+    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+(m\.m\.)?|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -84,21 +85,27 @@ function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Blo
     const ls = lines.filter(l => l.trim() && !CFG[lang].furniture.test(l)), cut = Math.min(...ls.map(indent));
     return [[baseId, 0, ls.map(l => l.slice(cut)).join('\n')]];
   }
-  const lists = new Set(SKELETON.lists);
+  const lists = new Set(SKELETON.lists), hang = SKELETON.hang.includes(baseId) ? 2 : 1; // hang: a closing paragraph belongs to the last (a)-level item (EN 60.3(b), 61.2(b)) even where a translation sets it at clause level
   const out: [string, number, string[]][] = [[baseId, 0, []]];
   const stack: [number, string, number][] = [[firstCol, baseId, 0]];
+  let brk = false, stay = -1; // brk: a page break (header or page number) since the previous body line; stay: its shifted column
   for (const l of lines) {
-    if (!l.trim() || CFG[lang].furniture.test(l)) continue;
+    if (!l.trim()) continue;
+    if (CFG[lang].furniture.test(l)) { brk = true; continue; }
     const col = indent(l), m = lists.has(baseId) ? null : ITEM.exec(l) ?? SUB.exec(l); // 6.1: bullets in EN, a)-e) in SV
+    const pb = brk;
+    brk = false;
     if (m) {
+      stay = -1;
       const d = ITEM.test(l) ? 1 : 2;
       while (stack.length > d) stack.pop();
       const id = `${d === 2 ? stack[stack.length - 1][1] : baseId}(${m[2] ?? m[3]})`;
       stack.push([col, id, d]); out.push([id, d, [m[4]]]); continue;
     }
-    const last = out[out.length - 1], open = last[0] === stack[stack.length - 1][1] && /^\p{Ll}/u.test(l.trim()) && !/[.;:]$/.test(last[2][last[2].length - 1] ?? '.');
+    const last = out[out.length - 1], open = (pb || col === stay) && last[0] === stack[stack.length - 1][1] && /^\p{Ll}/u.test(l.trim()) && !/[.;:]$/.test(last[2][last[2].length - 1] ?? '.');
     // a lowercase line continuing an unfinished sentence stays put, even if a page break shifted its indentation (SV 42.3(b))
-    while (!open && stack.length > 1 && stack[stack.length - 1][0] >= col) stack.pop();
+    if (open) stay = col;
+    while (!open && stack.length > hang && stack[stack.length - 1][0] >= col - 1) stack.pop(); // col - 1: pdf.js rounding jitter (FI 63.7(a))
     const [, id, d] = stack[stack.length - 1];
     if (out[out.length - 1][0] !== id) out.push([id, d, []]);
     out[out.length - 1][2].push(l);
@@ -155,8 +162,9 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l);
     if (sm) {
-      chunks.push(cur); cur = [(first === 'P2' ? '2' : '4') + sm[1], [], -1]; // Section B of Part 4 -> '4B'
-      if (lang === 'sv') titles[cur[0]] = sm[2].trim().replace(/\s+/g, ' '); else titleNext = cur[0];
+      chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
+      if (lang === 'sv') titles[cur[0]] = (sm[2] + (/^\s*\p{Ll}+$/u.test(ls[i + 1] ?? '') ? ' ' + ls[++i] : '')).trim().replace(/\s+/g, ' '); // 'Förhandlingar och' / 'beslutsfattande'
+      else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
     } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0])) { // table rows ('4  P, I, Z') are not clauses
