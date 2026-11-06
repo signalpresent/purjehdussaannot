@@ -26587,6 +26587,1226 @@
     ]
   },
   {
+    "n": "D1",
+    "section": "D",
+    "title": {
+      "fi": "Muutokset määritelmiin sekä osien 2 ja 4 sääntöihin",
+      "sv": "Ändringar av definitionerna samt reglerna i del 2 och 4",
+      "en": "Changes to the Definitions and the Part 2 and 4 Rules"
+    },
+    "explain": {
+      "fi": "Vyöhykkeen etäisyys muutetaan kahdeksi rungonpituudeksi (D1.1(a)). Sääntö 18.2(a) muuttuu: kun ensimmäinen kahdesta veneestä saavuttaa vyöhykkeen, peitossa oleva ulkopuolinen vene antaa sisäpuoliselle merkkitilaa, tai jos peittoa ei ole, vyöhykkeen saavuttamaton vene antaa toiselle merkkitilaa; jos vene ohittaa tuulensilmän ja on sillä hetkellä selvästi perässä vyöhykkeessä olevaa venettä, sen on annettava selvästi edessä olevalle merkkitilaa; velvollisuus jatkuu niin kauan kuin sääntö pätee, vaikka peitto myöhemmin muuttuisi (D1.1(b)). Sääntö 18.4 poistetaan kokonaan (D1.1(c)). Kun kilpailukutsu tai purjehdusohjeet niin määräävät, sääntö 20.4 lisää käsimerkit huutojen ”tilaa vastakäännökseen” ja ”tee itse vastakäännös” tueksi (D1.1(d)). Sääntö 23.1 laajenee: kilpailematon vene ei saa häiritä kilpailevaa venettä, eikä maaliin tullut vene saa toimia häiritäkseen venettä, joka ei ole vielä tullut maaliin (D1.1(e)). Uusi sääntö 23.3 vaatii, että eri kilpapurjehduksissa kohtaavien veneiden suunnanmuutokset ovat sopusoinnussa sääntöjen noudattamisen tai oman kilpapurjehduksen voittamisen kanssa (D1.1(f)). Sääntöön 41 lisätään, että vene saa ottaa vastaan apua joukkueensa muulta veneeltä, kunhan elektronista tiedonvälitystä ei käytetä (D1.1(g)). Sääntö 45 (hinaaminen, kiinnittäytyminen, ankkurointi) poistetaan kokonaan (D1.1(h)).",
+      "en": "The Zone's distance changes to two hull lengths (D1.1(a)). Rule 18.2(a) changes: when the first of two boats reaches the zone, the outside boat if overlapped must give the inside boat mark-room, or if not overlapped, the boat that has not reached the zone must give the other mark-room; if a boat passes head to wind and at that moment is clear astern of a boat in the zone, she must give the clear-ahead boat mark-room; the duty continues for as long as the rule applies even if the overlap later changes (D1.1(b)). Rule 18.4 is deleted entirely (D1.1(c)). When the notice of race or sailing instructions say so, rule 20.4 adds arm signals to back up the hails 'Room to tack' and 'You tack' (D1.1(d)). Rule 23.1 widens: a boat not racing must not interfere with one racing, and one that has finished must not act to interfere with one that has not (D1.1(e)). New rule 23.3 requires that course changes by boats meeting from different races be consistent with complying with a rule or trying to win their own race (D1.1(f)). An addition to rule 41 lets a boat accept help from another boat on her team, provided no electronic communication is used (D1.1(g)). Rule 45 (hauling out, making fast, anchoring) is deleted entirely (D1.1(h)).",
+      "sv": "Zonens avstånd ändras till två skrovlängder (D1.1a). Regel 18.2a ändras: när den första av två båtar kommer fram till zonen, ska ytterbåten, om de överlappar, ge innerbåten märkesplats, eller om de inte överlappar, ska båten som inte kommit fram till zonen ge den andra märkesplats; om en båt passerar vindögat och då är klar akter om en båt i zonen, ska den ge den klara båten märkesplats; skyldigheten fortsätter så länge regeln gäller även om överlappet senare ändras (D1.1b). Regel 18.4 stryks helt (D1.1c). När det anges i inbjudan eller seglingsföreskrifterna, lägger regel 20.4 till armsignaler som stöd för anropen ”Plats att stagvända” och ”Stagvänd själv” (D1.1d). Regel 23.1 vidgas: en båt som inte kappseglar får inte störa en som kappseglar, och en som gått i mål får inte agera för att störa en som inte gått i mål (D1.1e). Ny regel 23.3 kräver att kursändringar hos båtar som möts från olika kappseglingar är förenliga med att följa en regel eller försöka vinna sin egen kappsegling (D1.1f). Ett tillägg till regel 41 låter en båt ta emot hjälp från en lagkamrat, förutsatt att ingen elektronisk kommunikation används (D1.1g). Regel 45 (bogsering, fastgöring, ankring) stryks helt (D1.1h)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D1.1, 18.2(a), 18.4, 20.4, 23, 41, 45",
+    "defs": [
+      "Zone"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "D1.1(b) mukauttaa säännön 18.2(a) joukkuekilpailuun samaan tapaan kuin liite C, mutta D:ssä on oma lisäys selvästi perässä olevalle, tuulensilmän ohittavalle veneelle.",
+          "en": "D1.1(b) adapts rule 18.2(a) for team racing similarly to Appendix C, but D adds its own clause for a boat clear astern that passes head to wind.",
+          "sv": "D1.1b anpassar regel 18.2a för lagkappsegling på liknande sätt som bilaga C, men D lägger till en egen klausul för en båt klar akter om som passerar vindögat."
+        }
+      },
+      {
+        "rules": [
+          "41"
+        ],
+        "note": {
+          "fi": "D1.1(g) sallii joukkuekilpailussa nimenomaan oman joukkueen veneiden välisen avun, kunhan se ei ole elektronista.",
+          "en": "D1.1(g) specifically allows help between boats on the same team in team racing, as long as it is not electronic.",
+          "sv": "D1.1g tillåter specifikt hjälp mellan båtar i samma lag i lagkappsegling, så länge den inte är elektronisk."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD1-q1",
+        "prompt": {
+          "fi": "Kuinka monta rungonpituutta Vyöhyke on liitteessä D?",
+          "en": "How many hull lengths is the Zone in Appendix D?",
+          "sv": "Hur många skrovlängder är Zonen i bilaga D?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaksi",
+              "en": "Two",
+              "sv": "Två"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme, kuten pääsäännöissä",
+              "en": "Three, as in the main rules",
+              "sv": "Tre, som i huvudreglerna"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.1(a).",
+          "en": "D1.1(a).",
+          "sv": "D1.1a."
+        },
+        "source": "RRS D1.1(a)",
+        "also": [
+          "Zone"
+        ]
+      },
+      {
+        "id": "rD1-q2",
+        "prompt": {
+          "fi": "Vene ohittaa tuulensilmän ja on sillä hetkellä selvästi perässä toista, vyöhykkeessä olevaa venettä. Mitä sen täytyy tehdä?",
+          "en": "A boat passes head to wind and at that moment is clear astern of another boat in the zone. What must she do?",
+          "sv": "En båt passerar vindögat och är då klar akter om en annan båt i zonen. Vad måste den göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Antaa selvästi edessä olevalle veneelle merkkitilaa",
+              "en": "Give the clear-ahead boat mark-room",
+              "sv": "Ge den klara båten märkesplats"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään erityistä",
+              "en": "Nothing in particular",
+              "sv": "Inget särskilt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.1(b).",
+          "en": "D1.1(b).",
+          "sv": "D1.1b."
+        },
+        "source": "RRS D1.1(b)",
+        "also": []
+      },
+      {
+        "id": "rD1-q3",
+        "prompt": {
+          "fi": "Mitä liite D tekee säännölle 18.4?",
+          "en": "What does Appendix D do to rule 18.4?",
+          "sv": "Vad gör bilaga D med regel 18.4?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistaa sen kokonaan",
+              "en": "Deletes it entirely",
+              "sv": "Stryker den helt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Muuttaa sitä vain porttimerkin osalta",
+              "en": "Only changes it for a gate mark",
+              "sv": "Ändrar den bara för en gate"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.1(c).",
+          "en": "D1.1(c).",
+          "sv": "D1.1c."
+        },
+        "source": "RRS D1.1(c)",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "rD1-q4",
+        "prompt": {
+          "fi": "Minkälaista apua joukkueen veneet saavat ottaa vastaan toisiltaan säännön 41 lisäyksen mukaan?",
+          "en": "What kind of help may boats on a team accept from each other under the addition to rule 41?",
+          "sv": "Vilken typ av hjälp får båtar i ett lag ta emot av varandra enligt tillägget till regel 41?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Mitä tahansa apua, kunhan elektronista tiedonvälitystä ei käytetä",
+              "en": "Any help, as long as no electronic communication is used",
+              "sv": "Vilken hjälp som helst, så länge ingen elektronisk kommunikation används"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain hinausapua",
+              "en": "Only a tow",
+              "sv": "Bara bogsering"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.1(g).",
+          "en": "D1.1(g).",
+          "sv": "D1.1g."
+        },
+        "source": "RRS D1.1(g)",
+        "also": [
+          "41"
+        ]
+      },
+      {
+        "id": "rD1-q5",
+        "prompt": {
+          "fi": "Mitä liite D tekee säännölle 45?",
+          "en": "What does Appendix D do to rule 45?",
+          "sv": "Vad gör bilaga D med regel 45?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistaa sen kokonaan",
+              "en": "Deletes it entirely",
+              "sv": "Stryker den helt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Laajentaa sitä koskemaan myös joukkuetovereita",
+              "en": "Widens it to also cover teammates",
+              "sv": "Vidgar den till att även omfatta lagkamrater"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.1(h).",
+          "en": "D1.1(h).",
+          "sv": "D1.1h."
+        },
+        "source": "RRS D1.1(h)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "D2",
+    "section": "D",
+    "title": {
+      "fi": "Protestit, hyvityspyynnöt ja rangaistukset",
+      "sv": "Protester, ansökningar om gottgörelse och straff",
+      "en": "Protests, Requests for Redress and Penalties"
+    },
+    "explain": {
+      "fi": "Vene voi protestoida toista venettä, mutta protesti osan 2 säännön rikkomisesta on pätemätön, ellei vene ollut osallisena tapahtumaan — paitsi jos tapahtumaan liittyi kosketus vastustajajoukkueen veneiden välillä (muuttaa sääntöä 60.4(a)(2)); vene voi poistaa punaisen lippunsa senkin jälkeen, kun se on selvästi nostettu näkyviin (muuttaa sääntöä 60.2(a)(1)); vene voi pyytää hyvitystä, mutta ei oman joukkueensa toisen veneen aiheuttamasta vahingosta tai loukkaantumisesta (muuttaa sääntöä 61.1(a)) (D1.2(a)). Kilpailu- ja protestilautakunta eivät saa protestoida venettä osan 2 säännön rikkomisesta, paitsi erotuomarin ilmoituksessa olevan näytön perusteella musta-valkoisen lipun näyttämisen jälkeen, tai säännön 14 nojalla saatuaan miltä tahansa taholta ilmoituksen väitetystä vahingosta tai loukkaantumisesta (D1.2(b)). Protestien ja hyvityspyyntöjen ei tarvitse olla kirjallisia, ja protestilautakunta voi ottaa näyttöä valitsemallaan tavalla ja ilmoittaa päätöksensä suullisesti (D1.2(c)). Kilpailun järjestäjän toimittaman veneen rikkoutuessa sovelletaan sääntöä D5 (D1.2(d)). Rangaistukset: sääntö 44.1 muuttuu niin, että vene voi ottaa Yhden Kierroksen Rangaistuksen osan 2 säännön, säännön 31 tai säännön 42 rikkomisesta; venettä tai joukkuetta voidaan silti rangaista lisää sääntöjen D2.3 tai D3.3 nojalla, jos tapahtumasta aiheutui vahinkoa tai loukkaantumista, tai joukkue sai etua rangaistuksesta huolimatta (D1.3(a)). Kun vene selvästi ilmaisee ottavansa säännön 44.1 mukaisen rangaistuksen, sen on otettava se (D1.3(b)). Vene voi ottaa rangaistuksen myös vetäytymällä ja ilmoittamalla siitä kilpailulautakunnalle tai erotuomarille (D1.3(c)). Osan 2 säännön rikkomisesta ei rangaista, kun tapahtuma on saman joukkueen veneiden välillä eikä kosketusta tapahdu (D1.3(d)).",
+      "en": "A boat may protest another, but her protest alleging a breach of a Part 2 rule is invalid unless she was involved in the incident — unless it involved contact between boats on the other team (this changes rule 60.4(a)(2)); she may remove her red flag even after it has been conspicuously displayed (this changes rule 60.2(a)(1)); she may request redress, but not for damage or injury caused by another boat on her own team (this changes rule 61.1(a)) (D1.2(a)). The race and protest committee may not protest a boat for breaking a Part 2 rule except based on evidence in an umpire's report after a black and white flag has been shown, or under rule 14 on receiving a report from any source alleging damage or injury (D1.2(b)). Protests and redress requests need not be in writing, and the protest committee may take evidence as it sees fit and announce its decision orally (D1.2(c)). Rule D5 applies when a boat supplied by the organizing authority breaks down (D1.2(d)). Penalties: rule 44.1 changes so a boat may take a One-Turn Penalty for breaking a Part 2 rule, rule 31 or rule 42; she or her team may still be penalized further under rule D2.3 or D3.3 if the incident caused injury or damage, or her team gained an advantage despite the penalty (D1.3(a)). When a boat clearly indicates she will take a penalty under rule 44.1, she must take it (D1.3(b)). She may also take a penalty by retiring and informing the race committee or an umpire (D1.3(c)). There is no penalty for breaking a Part 2 rule when the incident is between boats on the same team with no contact (D1.3(d)).",
+      "sv": "En båt får protestera mot en annan, men protesten är ogiltig om den gäller ett påstått brott mot en regel i del 2 och den inte var inblandad i händelsen — om det inte var kontakt mellan båtar i det andra laget (det ändrar regel 60.4a2); den får ta ner sin röda flagga även efter att den visats på ett iögonfallande sätt (det ändrar regel 60.2a1); den får ansöka om gottgörelse, men inte för sak- eller personskada orsakad av en annan båt i det egna laget (det ändrar regel 61.1a) (D1.2a). Kappseglings- och protestkommittén får inte protestera mot en båt för brott mot en regel i del 2 förutom baserat på bevisning i en domares rapport efter att en svart och vit flagga har visats, eller enligt regel 14 efter att ha tagit emot en rapport om påstådd sak- eller personskada från vilken källa som helst (D1.2b). Protester och ansökningar om gottgörelse behöver inte vara skriftliga, och protestkommittén får inhämta bevisning på det sätt den finner lämpligt och meddela sitt beslut muntligt (D1.2c). Regel D5 gäller när en båt tillhandahållen av arrangören drabbas av ett haveri (D1.2d). Straff: regel 44.1 ändras så att en båt får ta ett ensvängsstraff för brott mot en regel i del 2, regel 31 eller regel 42; båten eller dess lag kan ändå straffas ytterligare enligt regel D2.3 eller D3.3 om händelsen orsakat sak- eller personskada, eller laget fått en fördel trots straffet (D1.3a). När en båt tydligt indikerar att den kommer ta ett straff enligt regel 44.1, måste den ta det (D1.3b). Den får också ta ett straff genom att utgå och informera kappseglingskommittén eller en domare (D1.3c). Det finns inget straff för brott mot en regel i del 2 när händelsen är mellan båtar i samma lag utan kontakt (D1.3d)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D1.2, D1.3, 44.1, 60.2(a)(1), 60.4(a)(2), 61.1(a)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "D1.2(a) muuttaa sekä protestin pätevyysvaatimuksen (60.4(a)(2)) että punaisen lipun poistamisen (60.2(a)(1)) joukkuekilpailulle sopiviksi.",
+          "en": "D1.2(a) changes both the protest validity requirement (60.4(a)(2)) and removing the red flag (60.2(a)(1)) to suit team racing.",
+          "sv": "D1.2a ändrar både kravet för en giltig protest (60.4a2) och att ta ner den röda flaggan (60.2a1) för att passa lagkappsegling."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "D1.3(a) korvaa kahden kierroksen rangaistuksen kevyemmällä Yhden Kierroksen Rangaistuksella, mutta sallii lisärangaistuksen D2.3:n tai D3.3:n kautta.",
+          "en": "D1.3(a) replaces the Two-Turns Penalty with a lighter One-Turn Penalty, but allows a further penalty via D2.3 or D3.3.",
+          "sv": "D1.3a ersätter tvåvarvsstraffet med ett lättare ensvängsstraff, men tillåter ett ytterligare straff via D2.3 eller D3.3."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD2-q1",
+        "prompt": {
+          "fi": "Vene protestoi toista venettä osan 2 säännön rikkomisesta, muttei ollut itse osallisena tapahtumaan. Onko protesti pätevä?",
+          "en": "A boat protests another for breaking a Part 2 rule, but was not herself involved in the incident. Is the protest valid?",
+          "sv": "En båt protesterar mot en annan för brott mot en regel i del 2, men var inte själv inblandad i händelsen. Är protesten giltig?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, paitsi jos tapahtumaan liittyi kosketus vastustajajoukkueen veneiden välillä",
+              "en": "No, unless the incident involved contact between boats on the other team",
+              "sv": "Nej, om det inte var kontakt mellan båtar i det andra laget"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.2(a)(1).",
+          "en": "D1.2(a)(1).",
+          "sv": "D1.2a1."
+        },
+        "source": "RRS D1.2(a)(1)",
+        "also": []
+      },
+      {
+        "id": "rD2-q2",
+        "prompt": {
+          "fi": "Voiko vene pyytää hyvitystä oman joukkueensa toisen veneen aiheuttamasta vahingosta?",
+          "en": "May a boat request redress for damage caused by another boat on her own team?",
+          "sv": "Får en båt ansöka om gottgörelse för skada orsakad av en annan båt i sitt eget lag?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, samoin kuin muustakin vahingosta",
+              "en": "Yes, the same as for any other damage",
+              "sv": "Ja, precis som för annan skada"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.2(a)(3).",
+          "en": "D1.2(a)(3).",
+          "sv": "D1.2a3."
+        },
+        "source": "RRS D1.2(a)(3)",
+        "also": []
+      },
+      {
+        "id": "rD2-q3",
+        "prompt": {
+          "fi": "Milloin kilpailu- tai protestilautakunta saa protestoida venettä osan 2 säännön rikkomisesta oma-aloitteisesti?",
+          "en": "When may the race or protest committee protest a boat for breaking a Part 2 rule on its own initiative?",
+          "sv": "När får kappseglings- eller protestkommittén protestera mot en båt för brott mot en regel i del 2 på eget initiativ?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain erotuomarin ilmoituksen perusteella (musta-valkoinen lippu) tai säännön 14 nojalla vahinko- tai loukkaantumisilmoituksesta",
+              "en": "Only based on an umpire's report (black and white flag) or under rule 14 from a report alleging damage or injury",
+              "sv": "Bara baserat på en domares rapport (svart och vit flagga) eller enligt regel 14 från en rapport om påstådd sak- eller personskada"
+            }
+          },
+          {
+            "t": {
+              "fi": "Milloin tahansa se katsoo tarpeelliseksi",
+              "en": "Whenever it sees fit",
+              "sv": "Närhelst den finner det lämpligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.2(b).",
+          "en": "D1.2(b).",
+          "sv": "D1.2b."
+        },
+        "source": "RRS D1.2(b)",
+        "also": []
+      },
+      {
+        "id": "rD2-q4",
+        "prompt": {
+          "fi": "Minkä rangaistuksen vene voi ottaa osan 2 säännön, säännön 31 tai 42 rikkomisesta (D1.3(a))?",
+          "en": "What penalty may a boat take for breaking a Part 2 rule, rule 31 or rule 42 (D1.3(a))?",
+          "sv": "Vilket straff får en båt ta för brott mot en regel i del 2, regel 31 eller 42 (D1.3a)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden Kierroksen Rangaistuksen",
+              "en": "A One-Turn Penalty",
+              "sv": "Ett ensvängsstraff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistuksen",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.3(a).",
+          "en": "D1.3(a).",
+          "sv": "D1.3a."
+        },
+        "source": "RRS D1.3(a)",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rD2-q5",
+        "prompt": {
+          "fi": "Rangaistaanko osan 2 säännön rikkomisesta, kun tapahtuma on saman joukkueen veneiden välillä eikä kosketusta synny?",
+          "en": "Is there a penalty for breaking a Part 2 rule when the incident is between boats on the same team with no contact?",
+          "sv": "Finns det ett straff för brott mot en regel i del 2 när händelsen är mellan båtar i samma lag utan kontakt?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina puolet tavallisesta rangaistuksesta",
+              "en": "Yes, always half the usual penalty",
+              "sv": "Ja, alltid halva det vanliga straffet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D1.3(d).",
+          "en": "D1.3(d).",
+          "sv": "D1.3d."
+        },
+        "source": "RRS D1.3(d)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "D3",
+    "section": "D",
+    "title": {
+      "fi": "Erotuomaroidut kilpapurjehdukset",
+      "sv": "Direktdömda kappseglingar",
+      "en": "Umpired Races"
+    },
+    "explain": {
+      "fi": "Sääntö D2 pätee erotuomaroiduissa kilpapurjehduksissa; niistä on ilmoitettava kilpailukutsussa tai purjehdusohjeissa, tai lipulla J viimeistään varoitusviestin hetkellä (D2.1(a)). Vene, joka protestoi D2.2:ssa tai D2.3:ssa luetellun säännön nojalla, huutaa ”protesti” ja näyttää punaista lippua eikä ole oikeutettu tutkintaan (muuttaa sääntöjä 60.2(a)(1) ja 63.2(a)) (D2.1(b)). Hyvityspyyntö tai rikkoutumiseen perustuva pistemuutospyyntö vaatii punaisen lipun näyttämisen selvästi ensimmäisellä kohtuullisella tilaisuudella ja sen pitämisen ylhäällä, kunnes kilpailulautakunta tai erotuomari vahvistaa havainneensa sen (D2.1(c)). Kun vene protestoi osan 2 säännön tai säännön 31/42 nojalla, veneille annetaan aikaa reagoida, erotuomari voi rangaista säännön rikkonutta venettä, jota ei vapauteta ja joka ei ottanut rangaistusta, ja erotuomari viestii päätöksensä säännön D2.4 mukaisesti (D2.2). Erotuomari voi rangaista venettä omasta aloitteestaan tai ilmoittaa asian protestilautakunnalle, tai molemmat (protestia ei vaadita), kun vene rikkoo sääntöä 31 tai 42 eikä ota rangaistusta, rikkoo osan 2 sääntöä ja koskettaa oman joukkueensa venettä tai toisen kilpapurjehduksen venettä ilman että kukaan ottaa rangaistusta, rikkoo sääntöä ja joukkue saa silti etua, rikkoo sääntöä 14 vahingon tai loukkaantumisen sattuessa, rikkoo sääntöä D1.3(b) tai D2.5, tai toimii urheiluhengen vastaisesti (D2.3). Erotuomari viestii päätöksensä pitkällä äänimerkillä ja lipulla: vihreä-valkoinen tarkoittaa, ettei rangaistusta anneta; punainen tarkoittaa rangaistusta yhdelle tai useammalle veneelle, jotka erotuomari yksilöi; musta-valkoinen tarkoittaa ilmoitusta protestilautakunnalle (D2.4). Erotuomarin rankaisema vene ottaa Kahden Kierroksen Rangaistuksen, paitsi että säännön D2.3 nojalla rangaistaessa erotuomari voi määrätä muun kierrosmäärän Yhden Kierroksen Rangaistuksia (D2.5). Vene ei saa protestoida säännön D1.3(b) tai D2.5 nojalla; erotuomarin päätös, toiminta tai toimimattomuus ei ole peruste hyvitykselle, muutoksenhaulle tai jo lähteneen kilpapurjehduksen mitätöinnille — paitsi että protestilautakunta voi harkita hyvitystä, jos se katsoo erotuomarivaneen saattaneen vakavasti häiritä kilpailevaa venettä (D2.6).",
+      "en": "Rule D2 applies to umpired races, which must be announced in the notice of race or sailing instructions, or by flag J no later than the warning signal (D2.1(a)). A boat protesting under a rule listed in D2.2 or D2.3 hails 'Protest' and displays a red flag and is not entitled to a hearing (this changes rules 60.2(a)(1) and 63.2(a)) (D2.1(b)). A redress request, or a breakdown-based score change request, needs a red flag conspicuously displayed at the first reasonable opportunity, kept up until the race committee or an umpire acknowledges it (D2.1(c)). When a boat protests under a Part 2 rule or rule 31/42, boats are given time to respond, an umpire may penalize a boat that broke a rule, is not exonerated, and did not take the right penalty, and signals the decision under rule D2.4 (D2.2). An umpire may penalize a boat on their own initiative, or report it to the protest committee, or both (no protest required), when she breaks rule 31 or 42 without taking a penalty, breaks a Part 2 rule and makes contact with a teammate or a boat in another race with no one taking a penalty, breaks a rule and her team still gains an advantage, breaks rule 14 with injury or damage, breaks rule D1.3(b) or D2.5, or commits a breach of sportsmanship (D2.3). An umpire signals a decision with one long sound and a flag: green and white means no penalty; red means one or more boats are penalized, which the umpire identifies; black and white means the incident is reported to the protest committee (D2.4). A boat penalized by an umpire takes a Two-Turns Penalty, except that when penalized under rule D2.3 the umpire may instead specify a number of One-Turn Penalties (D2.5). A boat may not protest under rule D1.3(b) or D2.5; an umpire's decision, action or inaction is not grounds for redress, an appeal, or abandoning a race already started — except that the protest committee may consider redress if it believes an umpire boat may have seriously interfered with a racing boat (D2.6).",
+      "sv": "Regel D2 gäller vid direktdömda kappseglingar, vilket måste anges i inbjudan eller seglingsföreskrifterna, eller genom att flagga J visas senast vid varningssignalen (D2.1a). En båt som protesterar enligt en regel i D2.2 eller D2.3 ropar ”Protest” och visar en röd flagga och har inte rätt till en förhandling (det ändrar reglerna 60.2a1 och 63.2a) (D2.1b). En ansökan om gottgörelse, eller en begäran om ändring av resultatet på grund av haveri, kräver en röd flagga visad på ett iögonfallande sätt vid första rimliga tillfälle, som hålls uppe tills kappseglingskommittén eller en domare uppmärksammat den (D2.1c). När en båt protesterar enligt en regel i del 2 eller regel 31/42, ges båtarna tid att agera, en domare får straffa en båt som brutit mot en regel, inte frikänts och inte tagit rätt straff, och signalerar beslutet enligt regel D2.4 (D2.2). En domare får straffa en båt på eget initiativ, eller rapportera den till protestkommittén, eller båda (ingen protest krävs), när den bryter mot regel 31 eller 42 utan att ta ett straff, bryter mot en regel i del 2 och det blir kontakt med en lagkamrat eller en båt i en annan kappsegling utan att någon tar ett straff, bryter mot en regel och laget ändå vinner en fördel, bryter mot regel 14 med sak- eller personskada, bryter mot regel D1.3b eller D2.5, eller visar brist på sportsmannaanda (D2.3). En domare signalerar ett beslut med en lång ljudsignal och en flagga: grön och vit betyder inget straff; röd betyder att en eller flera båtar straffas, vilka domaren identifierar; svart och vit betyder att händelsen rapporteras till protestkommittén (D2.4). En båt som straffas av en domare tar ett tvåvarvsstraff, utom att domaren vid straff enligt regel D2.3 i stället kan ange ett antal ensvängsstraff (D2.5). En båt får inte protestera enligt regel D1.3b eller D2.5; en domares beslut, agerande eller brist på agerande är inte grund för gottgörelse, överklagande eller att annullera en redan startad kappsegling — förutom att protestkommittén kan överväga gottgörelse om den anser att en domarbåt allvarligt kan ha stört en kappseglande båt (D2.6)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D2.1-D2.6, 60.2(a)(1), 63.2(a)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "D2.1(b) poistaa erotuomaroiduissa osan 2/31/42-protesteissa tutkintaoikeuden kokonaan — huuto ja lippu riittävät eivätkä johda tavalliseen tutkintaan.",
+          "en": "D2.1(b) removes the right to a hearing entirely for umpired Part 2/31/42 protests — the hail and flag are enough and do not lead to an ordinary hearing.",
+          "sv": "D2.1b tar bort rätten till förhandling helt för direktdömda del 2/31/42-protester — ropet och flaggan räcker och leder inte till en vanlig förhandling."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "D2.5:n Kahden Kierroksen Rangaistus on ankarampi kuin D1.3(a):n itse otettu Yhden Kierroksen Rangaistus — erotuomarin rankaisema vene joutuu tekemään enemmän.",
+          "en": "D2.5's Two-Turns Penalty is harsher than D1.3(a)'s self-taken One-Turn Penalty — a boat penalized by an umpire must do more.",
+          "sv": "D2.5:s tvåvarvsstraff är strängare än D1.3a:s självtagna ensvängsstraff — en båt som straffas av en domare måste göra mer."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD3-q1",
+        "prompt": {
+          "fi": "Miten vene protestoi D2.2:ssa tai D2.3:ssa luetellun säännön rikkomisesta erotuomaroidussa kilpapurjehduksessa?",
+          "en": "How does a boat protest under a rule listed in D2.2 or D2.3 in an umpired race?",
+          "sv": "Hur protesterar en båt enligt en regel i D2.2 eller D2.3 i en direktdömd kappsegling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Huutamalla ”protesti” ja näyttämällä punaista lippua; hän ei ole oikeutettu tutkintaan",
+              "en": "By hailing 'Protest' and displaying a red flag; she is not entitled to a hearing",
+              "sv": "Genom att ropa ”Protest” och visa en röd flagga; den har inte rätt till en förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kirjallisella protestilla tavalliseen tapaan",
+              "en": "With a written protest as usual",
+              "sv": "Med en skriftlig protest som vanligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D2.1(b).",
+          "en": "D2.1(b).",
+          "sv": "D2.1b."
+        },
+        "source": "RRS D2.1(b)",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "rD3-q2",
+        "prompt": {
+          "fi": "Vene rikkoo sääntöä 31 eikä ota rangaistusta. Mitä erotuomari voi tehdä?",
+          "en": "A boat breaks rule 31 and does not take a penalty. What may an umpire do?",
+          "sv": "En båt bryter mot regel 31 och tar inte ett straff. Vad får en domare göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Rangaista venettä omasta aloitteestaan tai ilmoittaa asian protestilautakunnalle, tai molemmat",
+              "en": "Penalize her on their own initiative, or report it to the protest committee, or both",
+              "sv": "Straffa den på eget initiativ, eller rapportera den till protestkommittén, eller båda"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään ilman protestia",
+              "en": "Nothing without a protest",
+              "sv": "Ingenting utan en protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D2.3(a).",
+          "en": "D2.3(a).",
+          "sv": "D2.3a."
+        },
+        "source": "RRS D2.3(a)",
+        "also": []
+      },
+      {
+        "id": "rD3-q3",
+        "prompt": {
+          "fi": "Mitä musta-valkoinen lippu erotuomarin viestinä tarkoittaa?",
+          "en": "What does a black and white flag mean as an umpire's signal?",
+          "sv": "Vad betyder en svart och vit flagga som domarsignal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Tapahtumasta ilmoitetaan protestilautakunnalle",
+              "en": "The incident is reported to the protest committee",
+              "sv": "Händelsen rapporteras till protestkommittén"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vene on hylätty",
+              "en": "The boat is disqualified",
+              "sv": "Båten diskvalificeras"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D2.4(c).",
+          "en": "D2.4(c).",
+          "sv": "D2.4c."
+        },
+        "source": "RRS D2.4(c)",
+        "also": []
+      },
+      {
+        "id": "rD3-q4",
+        "prompt": {
+          "fi": "Minkä rangaistuksen erotuomarin rankaisema vene yleensä ottaa?",
+          "en": "What penalty does a boat penalized by an umpire usually take?",
+          "sv": "Vilket straff tar oftast en båt som straffas av en domare?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistuksen",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhden Kierroksen Rangaistuksen",
+              "en": "A One-Turn Penalty",
+              "sv": "Ett ensvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D2.5.",
+          "en": "D2.5.",
+          "sv": "D2.5."
+        },
+        "source": "RRS D2.5",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rD3-q5",
+        "prompt": {
+          "fi": "Voiko protestilautakunta koskaan harkita hyvitystä erotuomarin toiminnan tai toimimattomuuden perusteella?",
+          "en": "May the protest committee ever consider redress based on an umpire's action or inaction?",
+          "sv": "Får protestkommittén någonsin överväga gottgörelse baserat på en domares agerande eller brist på agerande?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos se katsoo erotuomarivaneen saattaneen vakavasti häiritä kilpailevaa venettä",
+              "en": "Yes, if it believes an umpire boat may have seriously interfered with a racing boat",
+              "sv": "Ja, om den anser att en domarbåt allvarligt kan ha stört en kappseglande båt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan, missään tilanteessa",
+              "en": "Never, under any circumstances",
+              "sv": "Aldrig, under några omständigheter"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D2.6(c).",
+          "en": "D2.6(c).",
+          "sv": "D2.6c."
+        },
+        "source": "RRS D2.6(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "D4",
+    "section": "D",
+    "title": {
+      "fi": "Kilpapurjehduksen pistelasku",
+      "sv": "Poängberäkning i en kappsegling",
+      "en": "Scoring a Race"
+    },
+    "explain": {
+      "fi": "Maaliin tullut vene, joka ei sen jälkeen vetäydy, saa pistemäärän, joka vastaa sen sijoitusta; muut veneet saavat pistemäärän, joka vastaa kilpailuun oikeutettujen veneiden lukumäärää (D3.1(a)). OCS-vene, joka ei palaa lähtemään tai vetäydy viipymättä, saa 10 lisäpistettä (D3.1(b)). Maaliin tullut mutta rataa purjehtimaton vene saa 6 lisäpistettä, ellei (b)-kohta sovellu (D3.1(c)). Vene, joka ei ota maalilinjalla tai sen lähellä annettua erotuomarin rangaistusta, pisteytetään kuin se olisi vetäytynyt (D3.1(d)). Kun vene pisteytetään vetäytyneeksi maaliin tulon jälkeen, kaikki huonommin sijoittuneet veneet nousevat yhden sijan (D3.1(e)). Kun kaikki yhden joukkueen veneet ovat tulleet maaliin, vetäytyneet tai jättäneet lähtemättä, toisen joukkueen vielä kilpailevat veneet saavat pisteet, jotka ne olisivat saaneet maaliin tullessaan (D3.2). Kun protestilautakunta toteaa tutkinnan asianosaisen veneen rikkoneen sääntöä eikä vapauta sitä: sääntöjen 1 tai 2, säännön 14 vahingon tai loukkaantumisen sattuessa, tai minkä tahansa säännön kilpailemattomana rikkomisesta voidaan vähentää puolet tai enemmän joukkueen kilpapurjehdusvoitoista, tai jättää rankaisematta — vähennettyjä voittoja ei anneta toiselle joukkueelle (D3.3(a)); muun säännön rikkomisesta kilpaillessa, josta ei ole otettu tai saatu rangaistusta, lisätään 6 pistettä (D3.3(b)); jos joukkue sai edun rangaistuksesta huolimatta, veneen pistemäärää voidaan kasvattaa (D3.3(c)). Pienemmän kokonaispistemäärän saanut joukkue voittaa kilpapurjehduksen; tasapisteissä voittaa joukkue, jonka veneellä ei ollut ensimmäistä sijaa (D3.4).",
+      "en": "A boat that finishes and does not retire afterwards scores points equal to her finishing place; all other boats score points equal to the number of boats entitled to race (D3.1(a)). A boat OCS who does not return to start or retire promptly gets 10 points added (D3.1(b)). A boat who finishes without having sailed the course gets 6 points added, unless (b) applies (D3.1(c)). A boat who fails to take an umpire's penalty given at or near the finishing line is scored as retired (D3.1(d)). When a boat is scored as retired after finishing, every boat with a worse place moves up one (D3.1(e)). When all of one team's boats have finished, retired or failed to start, the other team's boats still racing score the points they would have gotten by finishing (D3.2). When the protest committee decides a boat party to a hearing broke a rule and was not exonerated: for rule 1 or 2, rule 14 with damage or injury, or any rule while not racing, half or more of her team's race wins may be deducted, or no penalty imposed — deducted wins are not given to any other team (D3.3(a)); for another rule broken while racing with no penalty taken or received, 6 points are added (D3.3(b)); if her team still gained an advantage despite a penalty, her score may be increased (D3.3(c)). The team with the lower total wins the race; if tied, the team without first place wins (D3.4).",
+      "sv": "En båt som går i mål och inte utgår därefter får poäng lika med sin placering i mål; alla andra båtar får poäng lika med antalet båtar som har rätt att kappsegla (D3.1a). En båt som är OCS och inte återvänder för att starta eller omgående utgår får 10 poäng adderade (D3.1b). En båt som går i mål utan att ha seglat banan får 6 poäng adderade, om inte b gäller (D3.1c). En båt som misslyckas med att ta ett domarstraff givet vid eller nära mållinjen ges poäng som att den utgått (D3.1d). När en båt får poäng som att den utgått efter att ha gått i mål, flyttas varje båt med sämre placering upp en plats (D3.1e). När alla båtar i ett lag har gått i mål, utgått eller misslyckats med att starta, får det andra lagets båtar som fortfarande kappseglar de poäng de skulle fått om de gått i mål (D3.2). När protestkommittén beslutar att en båt som är part i en förhandling har brutit mot en regel och inte frikändes: för regel 1 eller 2, regel 14 med sak- eller personskada, eller någon regel när båten inte kappseglade, kan hälften eller fler av lagets vunna kappseglingar dras av, eller inget straff utdömas — avdragna vinster tilldelas inget annat lag (D3.3a); för en annan regel som brutits under kappsegling utan att straff tagits eller fåtts, adderas 6 poäng (D3.3b); om lagets ändå fått en fördel trots ett straff, kan båtens poäng ökas (D3.3c). Laget med lägst totalpoäng vinner kappseglingen; vid lika poäng vinner laget utan förstaplatsen (D3.4)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D3.1-D3.4",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "D3 korvaa liitteen A pistelaskun kokonaan oman, sijoituksiin ja rikkomuslisäyksiin perustuvan järjestelmänsä kanssa.",
+          "en": "D3 entirely replaces Appendix A scoring with its own system based on finishing places and rule-breach additions.",
+          "sv": "D3 ersätter helt bilaga A:s poängberäkning med ett eget system baserat på placeringar i mål och tillägg för regelbrott."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD4-q1",
+        "prompt": {
+          "fi": "Montako pistettä OCS-vene saa lisää, jos se ei palaa lähtemään tai vetäydy viipymättä (D3.1(b))?",
+          "en": "How many extra points does a boat OCS get if she does not return to start or retire promptly (D3.1(b))?",
+          "sv": "Hur många extra poäng får en båt som är OCS om den inte återvänder för att starta eller omgående utgår (D3.1b)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "10 pistettä",
+              "en": "10 points",
+              "sv": "10 poäng"
+            }
+          },
+          {
+            "t": {
+              "fi": "6 pistettä",
+              "en": "6 points",
+              "sv": "6 poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D3.1(b).",
+          "en": "D3.1(b).",
+          "sv": "D3.1b."
+        },
+        "source": "RRS D3.1(b)",
+        "also": []
+      },
+      {
+        "id": "rD4-q2",
+        "prompt": {
+          "fi": "Vene tulee maaliin, muttei ole purjehtinut rataa. Montako lisäpistettä se saa (D3.1(c))?",
+          "en": "A boat finishes without having sailed the course. How many extra points does she get (D3.1(c))?",
+          "sv": "En båt går i mål utan att ha seglat banan. Hur många extra poäng får den (D3.1c)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "6 pistettä, ellei OCS-sääntö (b) sovellu",
+              "en": "6 points, unless the OCS rule (b) applies",
+              "sv": "6 poäng, om inte OCS-regeln b gäller"
+            }
+          },
+          {
+            "t": {
+              "fi": "10 pistettä aina",
+              "en": "10 points always",
+              "sv": "Alltid 10 poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D3.1(c).",
+          "en": "D3.1(c).",
+          "sv": "D3.1c."
+        },
+        "source": "RRS D3.1(c)",
+        "also": []
+      },
+      {
+        "id": "rD4-q3",
+        "prompt": {
+          "fi": "Vene ei ota maalilinjalla annettua erotuomarin rangaistusta. Miten se pisteytetään (D3.1(d))?",
+          "en": "A boat fails to take an umpire's penalty given at the finishing line. How is she scored (D3.1(d))?",
+          "sv": "En båt misslyckas med att ta ett domarstraff givet vid mållinjen. Hur poängsätts den (D3.1d)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kuin se olisi vetäytynyt",
+              "en": "As if she had retired",
+              "sv": "Som att den utgått"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viimeiseksi, mutta ei vetäytyneeksi",
+              "en": "Last, but not as retired",
+              "sv": "Sist, men inte som utgått"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D3.1(d).",
+          "en": "D3.1(d).",
+          "sv": "D3.1d."
+        },
+        "source": "RRS D3.1(d)",
+        "also": []
+      },
+      {
+        "id": "rD4-q4",
+        "prompt": {
+          "fi": "Protestilautakunta toteaa veneen rikkoneen sääntöä 1 tai 2. Mitä voidaan tehdä joukkueen pisteille (D3.3(a))?",
+          "en": "The protest committee decides a boat broke rule 1 or 2. What may be done to her team's score (D3.3(a))?",
+          "sv": "Protestkommittén beslutar att en båt brutit mot regel 1 eller 2. Vad kan göras med lagets poäng (D3.3a)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vähentää puolet tai enemmän kilpapurjehdusvoitoista, tai jättää rankaisematta",
+              "en": "Deduct half or more of the race wins, or impose no penalty",
+              "sv": "Dra av hälften eller fler av de vunna kappseglingarna, eller utdöma inget straff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lisätä aina 6 pistettä",
+              "en": "Always add 6 points",
+              "sv": "Alltid addera 6 poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D3.3(a).",
+          "en": "D3.3(a).",
+          "sv": "D3.3a."
+        },
+        "source": "RRS D3.3(a)",
+        "also": []
+      },
+      {
+        "id": "rD4-q5",
+        "prompt": {
+          "fi": "Kahden joukkueen kokonaispistemäärät ovat tasan kilpapurjehduksessa. Kumpi voittaa (D3.4)?",
+          "en": "Two teams' total points are equal in a race. Which team wins (D3.4)?",
+          "sv": "Två lags totalpoäng är lika i en kappsegling. Vilket lag vinner (D3.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Se joukkue, jonka veneellä ei ollut ensimmäistä sijaa",
+              "en": "The team whose boat did not have first place",
+              "sv": "Laget vars båt inte hade förstaplatsen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Se joukkue, joka lähti ensin",
+              "en": "The team that started first",
+              "sv": "Laget som startade först"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D3.4.",
+          "en": "D3.4.",
+          "sv": "D3.4."
+        },
+        "source": "RRS D3.4",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "D5",
+    "section": "D",
+    "title": {
+      "fi": "Kilpailun pistelasku",
+      "sv": "Poängberäkning för en tävling",
+      "en": "Scoring an Event"
+    },
+    "explain": {
+      "fi": "Kilpailun rakenne koostuu yhdestä tai useammasta vaiheesta; runkosarjavaiheessa joukkueet jaetaan ryhmiin, jotka purjehtivat yhden tai useamman runkosarjan, jossa jokainen joukkue kohtaa kerran kunkin muun ryhmänsä joukkueen; pudotussarjavaihe koostuu kierroksista, joissa jokainen joukkue purjehtii yhden ottelun eli yhden tai useamman kilpapurjehduksen kahden joukkueen välillä (D4.1). Kilpailukutsun tai purjehdusohjeiden pitää ilmoittaa rakenne, vaiheet ja erityiset pistelaskusäännöt; kilpailulautakunta voi muuttaa tai keskeyttää rakenteen osia kohtuullisena aikana saattaakseen kilpailun päätökseen (D4.2). Runkosarjavaiheessa joukkueet sijoitetaan voittojen lukumäärän, tai jos purjehdusmäärä eriää, voittoprosentin mukaan; jos runkosarja keskeytyy alle 80 %:n ajoitetuista purjehduksista, sen tuloksia ei huomioida pistelaskussa, mutta niitä käytetään ratkaisemaan tasasijoja keskenään purjehtineiden joukkueiden välillä; aiemman vaiheen tulokset kulkevat eteenpäin vain, jos niin ilmoitetaan (D4.3). Runkosarjan tasasijat, käyttäen vain sen vaiheen tuloksia, ratkeavat järjestyksessä: (1) voittoprosentti tasoissa olevien keskinäisistä purjehduksista; (2) pistekeskiarvo samoista purjehduksista, pienin ensin; (3) kahden joukkueen tasapelissä viimeisen keskinäisen purjehduksen voittaja; (4) pistekeskiarvo yhteisiä vastustajia vastaan; (5) ratkaisupurjehdus, tai arvonta jos ei mahdollinen — jos joukkueet eivät ole purjehtineet toisiaan vastaan, käytetään vain kohtia (4) ja (5) (D4.4). Pudotussarjan kierrosta ei pisteytetä, ellei vähintään yksi purjehdus ole suoritettu jokaisessa sen ottelussa (finaali ja pikkufinaali ovat omia kierroksiaan); ottelun voittaja on ensimmäinen vaadittuun voittomäärään yltävä joukkue, tai keskeytyessä enemmän voittanut, tasassa viimeisen purjehduksen voittaja; kierroksen voittajat sijoitetaan häviäjien edelle, saman kierroksen häviäjät, jotka eivät enää purjehdi, sijoitetaan samalle sijalle, ja pisteyttämättömän kierroksen joukkueet sijoitetaan edellisen vaiheen sijoitusten mukaan ryhmittäin (D4.5).",
+      "en": "The format of an event has one or more stages; in a round-robin stage teams are divided into groups that each sail one or more round robins, in which every team meets each other team in its group once; a knockout stage has rounds in which each team sails one match, a match being one or more races between two teams (D4.1). The notice of race or sailing instructions must state the format, stages and any special scoring rules; the race committee may change or terminate parts of the format at a reasonable time to conclude the event (D4.2). In a round-robin stage, teams rank by number of wins, or by win percentage if they have not sailed an equal number of races; if a round robin is terminated under 80% complete, its results do not count for scoring but are used to break ties among teams that all sailed each other in it; results from an earlier stage carry forward only if stated (D4.3). Round-robin ties, using only that stage's results, break in order: (1) win percentage in races between the tied teams; (2) average points in those same races, lowest first; (3) for two tied teams, the winner of their last race; (4) average points against common opponents; (5) a sail-off, or a draw if not possible — if the teams never sailed each other, only (4) and (5) are used (D4.4). A knockout round is not scored unless at least one race was completed in each of its matches (the final and petit-final are their own rounds); a match's winner is the first team to reach the required number of wins, or, if terminated, whoever has more wins, or the winner of the last race if tied; round winners rank ahead of losers, same-round losers who sail no further rank equally, and teams in an unscored round rank by their previous stage's placing, by group (D4.5).",
+      "sv": "Formatet på en tävling har ett eller flera steg; i ett round robin-steg delas lagen in i grupper som vardera seglar en eller flera round robins, där varje lag möter varje annat lag i sin grupp en gång; ett utslagningssteg har omgångar där varje lag seglar en match, en match är en eller flera kappseglingar mellan två lag (D4.1). Inbjudan eller seglingsföreskrifterna måste ange format, steg och eventuella särskilda poängregler; kappseglingskommittén får ändra eller avsluta delar av formatet vid en rimlig tidpunkt för att avsluta tävlingen (D4.2). I ett round robin-steg placeras lagen efter antal vinster, eller vinstprocent om de inte seglat lika många kappseglingar; om en round robin avslutas under 80 % genomförd, räknas dess resultat inte för poängberäkning men används för att särskilja lika placeringar mellan lag som alla seglat mot varandra i den; resultat från ett tidigare steg förs bara vidare om det anges (D4.3). Lika placering i round robin, med enbart det stegets resultat, särskiljs i ordning: 1) vinstprocent i kappseglingar mellan de lika lagen; 2) medelpoäng i samma kappseglingar, lägst först; 3) för två lika lag, vinnaren av deras sista kappsegling; 4) medelpoäng mot gemensamma motståndare; 5) en utslagsgivande kappsegling, eller lottning om det inte är möjligt — om lagen aldrig seglat mot varandra används bara 4 och 5 (D4.4). En utslagningsomgång poängsätts inte om inte minst en kappsegling genomförts i var och en av dess matcher (finalen och petit-finalen är egna omgångar); en matchs vinnare är det första laget som når det antal vinster som krävs, eller, om den avslutas i förtid, det lag som har flest vinster, eller vinnaren av den sista kappseglingen vid lika resultat; omgångens vinnare placeras före förlorarna, förlorare i samma omgång som inte seglar vidare placeras lika, och lag i en opoängsatt omgång placeras efter sin placering i föregående steg, grupp för grupp (D4.5)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D4.1-D4.5",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "D4.4:n tasasijajärjestelmä muistuttaa liitteen C vastaavaa rakennetta (ensin keskinäiset tulokset, sitten yhteiset vastustajat, lopuksi ratkaisupurjehdus), muokattuna joukkuekilpailulle.",
+          "en": "D4.4's tie-break system echoes Appendix C's structure (first head-to-head results, then common opponents, finally a sail-off), adapted for team racing.",
+          "sv": "D4.4:s system för att särskilja lika placeringar påminner om bilaga C:s struktur (först inbördes resultat, sedan gemensamma motståndare, slutligen en utslagsgivande kappsegling), anpassat för lagkappsegling."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD5-q1",
+        "prompt": {
+          "fi": "Miten joukkueet sijoitetaan runkosarjavaiheessa, jos ne eivät ole purjehtineet yhtä montaa kilpapurjehdusta?",
+          "en": "How are teams ranked in a round-robin stage if they have not sailed an equal number of races?",
+          "sv": "Hur placeras lagen i ett round robin-steg om de inte seglat lika många kappseglingar?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Voittoprosentin mukaan, suurin ensin",
+              "en": "By win percentage, highest first",
+              "sv": "Efter vinstprocent, högst först"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkän voittojen lukumäärän mukaan",
+              "en": "By the raw number of wins alone",
+              "sv": "Enbart efter antalet vinster"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D4.3(a).",
+          "en": "D4.3(a).",
+          "sv": "D4.3a."
+        },
+        "source": "RRS D4.3(a)",
+        "also": []
+      },
+      {
+        "id": "rD5-q2",
+        "prompt": {
+          "fi": "Runkosarja keskeytyy, kun alle 80 % ajoitetuista purjehduksista on suoritettu. Käytetäänkö sen tuloksia pistelaskussa?",
+          "en": "A round robin is terminated with under 80% of its scheduled races completed. Are its results used for scoring?",
+          "sv": "En round robin avslutas med under 80 % av sina planerade kappseglingar genomförda. Används resultaten för poängberäkning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei pistelaskussa, mutta niitä käytetään tasasijojen ratkaisuun keskenään purjehtineiden joukkueiden välillä",
+              "en": "Not for scoring, but they are used to break ties between teams that sailed each other",
+              "sv": "Inte för poängberäkning, men de används för att särskilja lika placeringar mellan lag som seglat mot varandra"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, täysimääräisesti",
+              "en": "Yes, in full",
+              "sv": "Ja, fullt ut"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D4.3(b).",
+          "en": "D4.3(b).",
+          "sv": "D4.3b."
+        },
+        "source": "RRS D4.3(b)",
+        "also": []
+      },
+      {
+        "id": "rD5-q3",
+        "prompt": {
+          "fi": "Mikä ratkaisee runkosarjan tasasijan ensimmäisenä, kun joukkueet ovat purjehtineet toisiaan vastaan?",
+          "en": "What breaks a round-robin tie first, when the teams have sailed each other?",
+          "sv": "Vad särskiljer en lika placering i round robin först, när lagen har seglat mot varandra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Voittoprosentti tasoissa olevien keskinäisistä purjehduksista",
+              "en": "Win percentage in races between the tied teams",
+              "sv": "Vinstprocent i kappseglingar mellan de lika lagen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Arvonta",
+              "en": "A draw",
+              "sv": "Lottning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D4.4(a)(1).",
+          "en": "D4.4(a)(1).",
+          "sv": "D4.4a1."
+        },
+        "source": "RRS D4.4(a)(1)",
+        "also": []
+      },
+      {
+        "id": "rD5-q4",
+        "prompt": {
+          "fi": "Milloin pudotussarjan kierrosta ei pisteytetä lainkaan?",
+          "en": "When is a knockout round not scored at all?",
+          "sv": "När poängsätts en utslagningsomgång inte alls?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun yhtäkään purjehdusta ei ole suoritettu jossakin sen ottelussa",
+              "en": "When not even one race has been completed in one of its matches",
+              "sv": "När inte ens en kappsegling genomförts i en av dess matcher"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun jompikumpi joukkue pyytää sitä",
+              "en": "When either team asks for it",
+              "sv": "När något av lagen begär det"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D4.5(a).",
+          "en": "D4.5(a).",
+          "sv": "D4.5a."
+        },
+        "source": "RRS D4.5(a)",
+        "also": []
+      },
+      {
+        "id": "rD5-q5",
+        "prompt": {
+          "fi": "Ottelu keskeytyy kesken, ja purjehdusvoitot ovat tasan. Kumpi joukkue voittaa?",
+          "en": "A match is terminated early with an equal number of race wins. Which team wins?",
+          "sv": "En match avslutas i förtid med lika många vunna kappseglingar. Vilket lag vinner?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Se joukkue, joka voitti ottelun viimeisen kilpapurjehduksen",
+              "en": "The team that won the match's last race",
+              "sv": "Laget som vann matchens sista kappsegling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Se, jolla oli enemmän purjehduksia kokonaisuudessaan",
+              "en": "Whichever sailed more races overall",
+              "sv": "Det lag som seglat flest kappseglingar totalt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D4.5(b).",
+          "en": "D4.5(b).",
+          "sv": "D4.5b."
+        },
+        "source": "RRS D4.5(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "D6",
+    "section": "D",
+    "title": {
+      "fi": "Rikkoutuminen kilpailun järjestäjän toimittamissa veneissä",
+      "sv": "Haverier när båtar tillhandahålls av arrangören",
+      "en": "Breakdowns When Boats Are Supplied by the Organizing Authority"
+    },
+    "explain": {
+      "fi": "Sääntö D5 pätee, kun kilpailun järjestäjä toimittaa kilpailuveneet (D5.1). Kilpailualueella rikkoutuva vene voi pyytää pistemuutosta nostamalla punaisen lipun ensimmäisellä kohtuullisella tilaisuudella rikkoutumisen jälkeen ja pitämällä sen ylhäällä, kunnes kilpailulautakunta tai erotuomari vahvistaa havainneensa sen; veneen on jatkettava kilpailemista, mikäli mahdollista (D5.2). Kilpailulautakunta päättää pistemuutospyynnöistä sääntöjen D5.4 ja D5.5 mukaisesti, voi ottaa näyttöä valitsemallaan tavalla ja ilmoittaa päätöksensä suullisesti (D5.3). Jos kilpailulautakunta toteaa joukkueen pistemäärän huonontuneen merkittävästi, ettei rikkoutuminen johtunut miehistön syystä, ja ettei kohtuullisen pätevä miehistö olisi samoissa olosuhteissa voinut välttää sitä, se tekee mahdollisimman oikeudenmukaisen ratkaisun — esimerkiksi mitätöi ja uusii purjehduksen, tai antaa ennustettavissa olleen sijoituksen mukaiset pisteet; epäselvyys veneen sijoituksesta rikkoutumishetkellä ratkaistaan venettä vastaan (D5.4). Viallisen järjestäjän toimittaman kaluston tai vastustajan sääntörikkomuksen aiheuttamaa rikkoutumista ei tavallisesti pidetä miehistön syynä, mutta huolimattomuuden, kaatumisen tai saman joukkueen veneen rikkomuksen aiheuttamaa pidetään; epäselvyys miehistön syyllisyydestä ratkaistaan veneen hyväksi (D5.5).",
+      "en": "Rule D5 applies when boats are supplied by the organizing authority (D5.1). A boat that breaks down in the racing area may request a score change by displaying a red flag at the first reasonable opportunity after the breakdown and keeping it up until the race committee or an umpire acknowledges it; she must keep racing if possible (D5.2). The race committee decides score-change requests under rules D5.4 and D5.5, may take evidence as it sees fit, and may announce its decision orally (D5.3). If the race committee decides the team's score was made significantly worse, the breakdown was through no fault of the crew, and a reasonably competent crew could not have avoided it in the same circumstances, it makes as fair a decision as possible — for example abandoning and resailing the race, or awarding points for a predictable finishing place; any doubt about the boat's position when she broke down is resolved against her (D5.4). A breakdown caused by defective supplied equipment or an opponent's rule breach is not normally held to be the crew's fault, but one caused by careless handling, capsizing or a breach by a boat on the same team is; doubt about the crew's fault is resolved in the boat's favour (D5.5).",
+      "sv": "Regel D5 gäller när båtar tillhandahålls av arrangören (D5.1). En båt som drabbas av ett haveri i kappseglingsområdet får begära en ändring av resultatet genom att visa en röd flagga vid första rimliga tillfälle efter haveriet och hålla den uppe tills kappseglingskommittén eller en domare uppmärksammat den; den ska fortsätta kappsegla om möjligt (D5.2). Kappseglingskommittén beslutar om begäran om ändring av resultatet enligt reglerna D5.4 och D5.5, får inhämta bevisning på det sätt den finner lämpligt, och får meddela sitt beslut muntligt (D5.3). Om kappseglingskommittén beslutar att lagets resultat blivit påtagligt sämre, att haveriet inte var besättningens fel, och att en rimligt kunnig besättning inte kunnat undvika det under samma omständigheter, fattar den ett så rättvist beslut som möjligt — till exempel att annullera och segla om kappseglingen, eller ge poäng för en förutsägbar placering; osäkerhet om båtens placering vid haveriet tolkas till båtens nackdel (D5.4). Ett haveri orsakat av bristfällig tillhandahållen utrustning eller en motståndares regelbrott anses normalt inte vara besättningens fel, men ett orsakat av vårdslös hantering, kantring eller ett regelbrott av en båt i samma lag anses vara det; osäkerhet om besättningens skuld tolkas till båtens fördel (D5.5)."
+    },
+    "note": {
+      "fi": "Joukkuekilpailut (lagkappsegling, team racing) purjehditaan tämän liitteen muutoksin; erotuomarit voivat tuomita kilpapurjehdukset suoraan vesillä, kun se on ilmoitettu. Case Bookissa ei ole liitettä D koskevia tapauksia.",
+      "en": "Team races are sailed under this appendix's changes; umpires may judge races directly on the water when that is announced. The Case Book has no cases on Appendix D.",
+      "sv": "Lagkappsegling seglas enligt detta appendix ändringar; matchdomare får döma kappseglingar direkt på vattnet när det är tillkännagivet. Case Book har inga fall om bilaga D."
+    },
+    "source": "RRS D5.1-D5.5",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "62"
+        ],
+        "note": {
+          "fi": "D5 on oma, kapeampi hyvitysjärjestelmänsä vain kilpailun järjestäjän toimittamien veneiden rikkoutumisille; se ei korvaa säännön 62 yleistä hyvitystä muissa tilanteissa.",
+          "en": "D5 is its own narrower redress system just for breakdowns of boats supplied by the organizing authority; it does not replace rule 62's general redress in other situations.",
+          "sv": "D5 är ett eget, snävare gottgörelsesystem bara för haverier hos båtar tillhandahållna av arrangören; det ersätter inte regel 62:s allmänna gottgörelse i andra situationer."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rD6-q1",
+        "prompt": {
+          "fi": "Milloin sääntö D5 pätee?",
+          "en": "When does rule D5 apply?",
+          "sv": "När gäller regel D5?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun kilpailun järjestäjä toimittaa kilpailussa käytettävät veneet",
+              "en": "When boats are supplied by the organizing authority",
+              "sv": "När båtar tillhandahålls av arrangören"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina joukkuekilpailussa",
+              "en": "Always in team racing",
+              "sv": "Alltid i lagkappsegling"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D5.1.",
+          "en": "D5.1.",
+          "sv": "D5.1."
+        },
+        "source": "RRS D5.1",
+        "also": []
+      },
+      {
+        "id": "rD6-q2",
+        "prompt": {
+          "fi": "Miten vene pyytää pistemuutosta rikkoutumisen vuoksi?",
+          "en": "How does a boat request a score change due to a breakdown?",
+          "sv": "Hur begär en båt en ändring av resultatet på grund av ett haveri?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Nostamalla punaisen lipun ensimmäisellä kohtuullisella tilaisuudella ja pitämällä sen ylhäällä, kunnes kilpailulautakunta tai erotuomari vahvistaa havainneensa sen",
+              "en": "By displaying a red flag at the first reasonable opportunity and keeping it up until the race committee or an umpire acknowledges it",
+              "sv": "Genom att visa en röd flagga vid första rimliga tillfälle och hålla den uppe tills kappseglingskommittén eller en domare uppmärksammat den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kirjallisella protestilla tutkinnan jälkeen",
+              "en": "With a written protest after a hearing",
+              "sv": "Med en skriftlig protest efter en förhandling"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D5.2.",
+          "en": "D5.2.",
+          "sv": "D5.2."
+        },
+        "source": "RRS D5.2",
+        "also": []
+      },
+      {
+        "id": "rD6-q3",
+        "prompt": {
+          "fi": "Mitä kolmea ehtoa kilpailulautakunnan pitää arvioida myöntääkseen pistemuutoksen (D5.4)?",
+          "en": "What three conditions must the race committee assess to grant a score change (D5.4)?",
+          "sv": "Vilka tre villkor måste kappseglingskommittén bedöma för att bevilja en ändring av resultatet (D5.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Että pistemäärä huononi merkittävästi, ettei rikkoutuminen johtunut miehistön syystä, ja ettei kohtuullisen pätevä miehistö olisi voinut välttää sitä",
+              "en": "That the score was made significantly worse, the breakdown was through no fault of the crew, and a reasonably competent crew could not have avoided it",
+              "sv": "Att resultatet blivit påtagligt sämre, att haveriet inte var besättningens fel, och att en rimligt kunnig besättning inte kunnat undvika det"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain sen, että vene rikkoutui",
+              "en": "Only that the boat broke down",
+              "sv": "Bara att båten fick ett haveri"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D5.4.",
+          "en": "D5.4.",
+          "sv": "D5.4."
+        },
+        "source": "RRS D5.4",
+        "also": []
+      },
+      {
+        "id": "rD6-q4",
+        "prompt": {
+          "fi": "Rikkoutuminen johtuu vastustajan sääntörikkomuksesta. Pidetäänkö sitä yleensä miehistön syynä?",
+          "en": "A breakdown is caused by an opponent's rule breach. Is it normally held to be the crew's fault?",
+          "sv": "Ett haveri orsakas av en motståndares regelbrott. Anses det normalt vara besättningens fel?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D5.5.",
+          "en": "D5.5.",
+          "sv": "D5.5."
+        },
+        "source": "RRS D5.5",
+        "also": []
+      },
+      {
+        "id": "rD6-q5",
+        "prompt": {
+          "fi": "Rikkoutuminen johtuu kaatumisesta. Pidetäänkö sitä miehistön syynä (D5.5)?",
+          "en": "A breakdown is caused by a capsize. Is it held to be the crew's fault (D5.5)?",
+          "sv": "Ett haveri orsakas av en kantring. Anses det vara besättningens fel (D5.5)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kaatuminen on aina ulkopuolinen syy",
+              "en": "No, a capsize is always an outside cause",
+              "sv": "Nej, en kantring är alltid en yttre orsak"
+            }
+          }
+        ],
+        "why": {
+          "fi": "D5.5.",
+          "en": "D5.5.",
+          "sv": "D5.5."
+        },
+        "source": "RRS D5.5",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "E1",
     "section": "E",
     "title": {
