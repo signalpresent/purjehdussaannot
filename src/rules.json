@@ -28473,5 +28473,389 @@
         "also": []
       }
     ]
+  },
+  {
+    "n": "T1",
+    "section": "T",
+    "title": {
+      "fi": "Purjehduksenjälkeinen rangaistus ja välityskokous",
+      "sv": "Straff efter kappsegling och medling",
+      "en": "Post-Race Penalties and the Arbitration Meeting"
+    },
+    "explain": {
+      "fi": "Liite T tuo protestin ratkaisuun ylimääräisen vaiheen, jonka tarkoitus on vähentää tutkintojen tarvetta kilpailuissa, joissa protesteja odotetaan paljon. T1: jos sääntö 44.1(b) ei sovellu, vene, joka saattaa olla rikkonut osan 2 sääntöä tai sääntöä 31 jossakin tilanteessa, voi ottaa Purjehduksenjälkeisen Rangaistuksen milloin tahansa purjehduksen jälkeen siihen asti, kunnes tapahtumaa koskevan protestin tutkinta alkaa. Rangaistus on 30 %:n pisterangaistus, laskettuna säännön 44.3(c) mukaisesti (44.1(a) pätee tästä huolimatta). Vene ottaa rangaistuksen toimittamalla välittäjälle tai protestilautakunnan jäsenelle kirjallisen ilmoituksen, jossa se hyväksyy rangaistuksen ja kertoo purjehduksen numeron sekä tapahtuman ajan ja paikan. T2: välityskokous pidetään ennen tutkintaa jokaiselle tapahtumalle, josta vene on tehnyt protestin osan 2 säännön tai säännön 31 rikkomisesta, mutta vain jos kumpaakin asianosaista edustaa tapahtumahetkellä veneessä ollut henkilö; todistajia ei sallita. Jos välittäjä päättää, että sääntö 44.1(b) saattaa soveltua tai että välitysmenettely ei ole tarkoituksenmukainen, kokousta ei pidetä, ja käynnissä oleva kokous keskeytetään.",
+      "en": "Appendix T adds an extra step to resolving protests, meant to reduce the need for hearings at events where many protests are expected. T1: if rule 44.1(b) does not apply, a boat that may have broken a Part 2 rule or rule 31 in an incident may take a Post-Race Penalty at any time after the race until a protest hearing about the incident begins. The penalty is a 30% Scoring Penalty, calculated under rule 44.3(c) (44.1(a) still applies). A boat takes it by delivering to the arbitrator or a protest committee member a written statement accepting the penalty and identifying the race number and where and when the incident occurred. T2: an arbitration meeting is held before a hearing for each incident a boat has protested under a Part 2 rule or rule 31, but only if each party is represented by someone who was aboard at the time; no witnesses are allowed. If the arbitrator decides rule 44.1(b) may apply or that arbitration is not appropriate, the meeting is not held, and one already under way is closed.",
+      "sv": "Bilaga T lägger till ett extra steg i att lösa protester, avsett att minska behovet av förhandlingar vid tävlingar där många protester förväntas. T1: om regel 44.1b inte gäller, får en båt som kan ha brutit mot en regel i del 2 eller regel 31 i en händelse ta ett straff efter kappsegling när som helst efter kappseglingen tills en protestförhandling om händelsen startar. Straffet är ett poängstraff på 30 %, beräknat enligt regel 44.3c (44.1a gäller fortfarande). En båt tar straffet genom att till medlaren eller en medlem i protestkommittén lämna ett skriftligt besked som accepterar straffet och anger kappseglingens nummer samt var och när händelsen inträffade. T2: en medling hålls före en förhandling för varje händelse som en båt har protesterat om enligt en regel i del 2 eller regel 31, men bara om varje part representeras av någon som var ombord vid tillfället; inga vittnen är tillåtna. Om medlaren beslutar att regel 44.1b kan gälla eller att medling inte är lämplig, hålls ingen medling, och en som redan pågår avslutas."
+    },
+    "note": {
+      "fi": "Liite T on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat. Case Bookissa ei ole liitettä T koskevia tapauksia.",
+      "en": "Appendix T applies in whole or in part only if the notice of race or sailing instructions say so. The Case Book has no cases on Appendix T.",
+      "sv": "Bilaga T gäller helt eller delvis bara om det anges i inbjudan eller seglingsföreskrifterna. Case Book har inga fall om bilaga T."
+    },
+    "source": "RRS T1, T2, 44.1, 44.3(c)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Purjehduksenjälkeinen Rangaistus on oma rangaistuslajinsa 30 %:n pisterangaistuksella; vertaa säännön 44.3(c) tavalliseen myöhässä otettuun kahden kierroksen rangaistukseen.",
+          "en": "The Post-Race Penalty is its own 30% Scoring Penalty; compare rule 44.3(c)'s late Two-Turns Penalty.",
+          "sv": "Straffet efter kappsegling är ett eget poängstraff på 30 %; jämför regel 44.3c:s sena tvåvarvsstraff."
+        }
+      },
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "Välityskokous koskee myös säännön 31 (merkin koskettaminen) rikkomisesta tehtyjä protesteja, ei vain osan 2 tilanteita.",
+          "en": "An arbitration meeting also covers protests under rule 31 (touching a mark), not only Part 2 incidents.",
+          "sv": "En medling omfattar också protester enligt regel 31 (att röra ett märke), inte bara händelser i del 2."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rT1-q1",
+        "prompt": {
+          "fi": "Mihin saakka vene voi viimeistään ottaa Purjehduksenjälkeisen Rangaistuksen?",
+          "en": "Until when can a boat take a Post-Race Penalty, at the latest?",
+          "sv": "Hur länge kan en båt senast ta ett straff efter kappsegling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Siihen asti, kunnes tapahtumaa koskeva protestin tutkinta alkaa",
+              "en": "Until a protest hearing about the incident begins",
+              "sv": "Tills en protestförhandling om händelsen startar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Purjehduksen maaliin tuloon asti",
+              "en": "Until finishing the race",
+              "sv": "Tills hon går i mål"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraavan purjehduksen lähtöön asti",
+              "en": "Until the start of the next race",
+              "sv": "Tills nästa kappseglings start"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T1(a).",
+          "en": "T1(a).",
+          "sv": "T1a."
+        },
+        "source": "RRS T1(a)",
+        "also": []
+      },
+      {
+        "id": "rT1-q2",
+        "prompt": {
+          "fi": "Kuinka suuri Purjehduksenjälkeinen Rangaistus on?",
+          "en": "How big is a Post-Race Penalty?",
+          "sv": "Hur stort är ett straff efter kappsegling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "30 %:n pisterangaistus, laskettuna säännön 44.3(c) mukaisesti",
+              "en": "A 30% Scoring Penalty, calculated under rule 44.3(c)",
+              "sv": "Ett poängstraff på 30 %, beräknat enligt regel 44.3c"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden kierroksen rangaistus",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hylkäys",
+              "en": "A disqualification",
+              "sv": "En diskvalifikation"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T1(b).",
+          "en": "T1(b).",
+          "sv": "T1b."
+        },
+        "source": "RRS T1(b), 44.3(c)",
+        "also": []
+      },
+      {
+        "id": "rT1-q3",
+        "prompt": {
+          "fi": "Miten vene ottaa Purjehduksenjälkeisen Rangaistuksen käytännössä?",
+          "en": "How does a boat actually take a Post-Race Penalty?",
+          "sv": "Hur tar en båt i praktiken ett straff efter kappsegling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Toimittamalla välittäjälle tai lautakunnan jäsenelle kirjallisen ilmoituksen, joka hyväksyy rangaistuksen ja kertoo purjehduksen, ajan ja paikan",
+              "en": "By delivering to the arbitrator or a committee member a written statement accepting the penalty and giving the race, time and place",
+              "sv": "Genom att till medlaren eller en kommittémedlem lämna ett skriftligt besked som accepterar straffet och anger kappseglingen, tiden och platsen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tekemällä kaksi kierrosta maaliin tulon jälkeen",
+              "en": "By doing two turns after finishing",
+              "sv": "Genom att göra två varv efter målgång"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T1(c).",
+          "en": "T1(c).",
+          "sv": "T1c."
+        },
+        "source": "RRS T1(c)",
+        "also": []
+      },
+      {
+        "id": "rT1-q4",
+        "prompt": {
+          "fi": "Millä ehdolla välityskokous pidetään?",
+          "en": "Under what condition is an arbitration meeting held?",
+          "sv": "På vilket villkor hålls en medling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain jos kumpaakin asianosaista edustaa tapahtumahetkellä veneessä ollut henkilö",
+              "en": "Only if each party is represented by someone who was aboard at the time of the incident",
+              "sv": "Bara om varje part representeras av någon som var ombord vid tillfället för händelsen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina, kun protesti koskee osan 2 sääntöä tai sääntöä 31",
+              "en": "Always, whenever the protest concerns a Part 2 rule or rule 31",
+              "sv": "Alltid, när protesten gäller en regel i del 2 eller regel 31"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T2.",
+          "en": "T2.",
+          "sv": "T2."
+        },
+        "source": "RRS T2",
+        "also": []
+      },
+      {
+        "id": "rT1-q5",
+        "prompt": {
+          "fi": "Milloin välityskokousta ei pidetä, tai käynnissä oleva kokous keskeytetään?",
+          "en": "When is an arbitration meeting not held, or one already under way closed?",
+          "sv": "När hålls ingen medling, eller avslutas en som redan pågår?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun välittäjä päättää, että sääntö 44.1(b) saattaa soveltua tai että välitys ei ole tarkoituksenmukainen",
+              "en": "When the arbitrator decides rule 44.1(b) may apply or that arbitration is not appropriate",
+              "sv": "När medlaren beslutar att regel 44.1b kan gälla eller att medling inte är lämplig"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun jompikumpi asianosainen pyytää sitä",
+              "en": "When either party asks for it",
+              "sv": "När någon av parterna begär det"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T2.",
+          "en": "T2.",
+          "sv": "T2."
+        },
+        "source": "RRS T2, 44.1(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "T2",
+    "section": "T",
+    "title": {
+      "fi": "Välittäjän kanta ja välityskokouksen lopputulokset",
+      "sv": "Medlarens åsikt och resultat av medling",
+      "en": "The Arbitrator's Opinion and Meeting Outcomes"
+    },
+    "explain": {
+      "fi": "T3: edustajien antaman näytön perusteella välittäjä esittää kantansa siitä, mitä protestilautakunta todennäköisesti päättäisi — protesti on pätemätön, ei mitään venettä rangaista säännön rikkomisesta, tai yksi tai useampi vene rangaistaan säännön rikkomisesta (veneet ja rangaistukset yksilöiden). T4: kannan esittämisen jälkeen vene voi ottaa Purjehduksenjälkeisen Rangaistuksen, tai pyytää saada peruuttaa protestinsa; välittäjä voi tällöin toimia protestilautakunnan puolesta säännön 63.2(a) nojalla ja sallia peruuttamisen. Ellei kaikkia tapahtumaan liittyviä protesteja peruuteta, protestin tutkinta pidetään joka tapauksessa.",
+      "en": "T3: based on the evidence the representatives give, the arbitrator offers an opinion on what the protest committee is likely to decide — that the protest is invalid, that no boat will be penalized for breaking a rule, or that one or more boats will be penalized (identifying the boats and penalties). T4: after the opinion is given, a boat may take a Post-Race Penalty, or ask to withdraw her protest; the arbitrator may then act on behalf of the protest committee under rule 63.2(a) to allow the withdrawal. Unless all protests about the incident are withdrawn, a hearing is held regardless.",
+      "sv": "T3: baserat på bevisningen som representanterna lämnar, framför medlaren en åsikt om vad protestkommittén troligen skulle besluta — att protesten är ogiltig, att ingen båt straffas för brott mot en regel, eller att en eller flera båtar straffas (med angivande av båtar och straff). T4: efter att åsikten lämnats, får en båt ta ett straff efter kappsegling, eller be om att få ta tillbaka sin protest; medlaren får då företräda protestkommittén enligt regel 63.2a och tillåta att protesten tas tillbaka. Om inte alla protester om händelsen tas tillbaka, hålls en förhandling i alla fall."
+    },
+    "note": {
+      "fi": "Liite T on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat. Case Bookissa ei ole liitettä T koskevia tapauksia.",
+      "en": "Appendix T applies in whole or in part only if the notice of race or sailing instructions say so. The Case Book has no cases on Appendix T.",
+      "sv": "Bilaga T gäller helt eller delvis bara om det anges i inbjudan eller seglingsföreskrifterna. Case Book har inga fall om bilaga T."
+    },
+    "source": "RRS T3, T4, 63.2(a)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "T4(b): välittäjä käyttää tässä nimenomaan säännön 63.2(a) antamaa valtaa sallia protestin peruuttaminen.",
+          "en": "T4(b): here the arbitrator specifically uses the authority rule 63.2(a) gives to allow a protest to be withdrawn.",
+          "sv": "T4b: här använder medlaren just den befogenhet regel 63.2a ger att tillåta att en protest tas tillbaka."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rT2-q1",
+        "prompt": {
+          "fi": "Mitä kolmea vaihtoehtoa välittäjän kanta voi sisältää?",
+          "en": "What three possible opinions may an arbitrator give?",
+          "sv": "Vilka tre åsikter kan en medlare framföra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Protesti on pätemätön; ei rangaistusta; yksi tai useampi vene rangaistaan (yksilöiden)",
+              "en": "The protest is invalid; no penalty; one or more boats are penalized (identified)",
+              "sv": "Att protesten är ogiltig; inget straff; en eller flera båtar straffas (angivna)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain sen, kuka voitti purjehduksen",
+              "en": "Only who won the race",
+              "sv": "Bara vem som vann kappseglingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T3.",
+          "en": "T3.",
+          "sv": "T3."
+        },
+        "source": "RRS T3",
+        "also": []
+      },
+      {
+        "id": "rT2-q2",
+        "prompt": {
+          "fi": "Mihin välittäjä perustaa kantansa, kun todistajia ei sallita?",
+          "en": "What does the arbitrator base the opinion on, when witnesses are not allowed?",
+          "sv": "Vad grundar medlaren åsikten på, när vittnen inte är tillåtna?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Asianosaisten edustajien antamaan näyttöön",
+              "en": "The evidence given by the parties' representatives",
+              "sv": "Bevisningen som parternas representanter lämnar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Protestilautakunnan ennakkopäätökseen",
+              "en": "A prior ruling of the protest committee",
+              "sv": "Ett tidigare avgörande av protestkommittén"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T3, T2.",
+          "en": "T3, T2.",
+          "sv": "T3, T2."
+        },
+        "source": "RRS T3, T2",
+        "also": []
+      },
+      {
+        "id": "rT2-q3",
+        "prompt": {
+          "fi": "Vene haluaa peruuttaa protestinsa kuultuaan välittäjän kannan. Kuka voi sallia peruuttamisen?",
+          "en": "A boat wants to withdraw her protest after hearing the arbitrator's opinion. Who may allow the withdrawal?",
+          "sv": "En båt vill ta tillbaka sin protest efter att ha hört medlarens åsikt. Vem får tillåta att den tas tillbaka?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Välittäjä, toimien protestilautakunnan puolesta säännön 63.2(a) nojalla",
+              "en": "The arbitrator, acting on behalf of the protest committee under rule 63.2(a)",
+              "sv": "Medlaren, som företräder protestkommittén enligt regel 63.2a"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunta",
+              "en": "The race committee",
+              "sv": "Kappseglingskommittén"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T4(b).",
+          "en": "T4(b).",
+          "sv": "Kappseglingskommittén"
+        },
+        "source": "RRS T4(b), 63.2(a)",
+        "also": []
+      },
+      {
+        "id": "rT2-q4",
+        "prompt": {
+          "fi": "Osa tapahtumaan liittyvistä protesteista peruutetaan, mutta ei kaikkia. Pidetäänkö tutkinta?",
+          "en": "Some but not all of the protests about the incident are withdrawn. Is a hearing held?",
+          "sv": "T4b."
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, ellei kaikkia protesteja peruuteta",
+              "en": "Yes, unless all the protests are withdrawn",
+              "sv": "Några men inte alla protester om händelsen tas tillbaka. Hålls en förhandling?"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, jos edes yksi peruutetaan",
+              "en": "No, if even one is withdrawn",
+              "sv": "Ja, om inte alla protester tas tillbaka"
+            }
+          }
+        ],
+        "why": {
+          "fi": "T4.",
+          "en": "T4.",
+          "sv": "Nej, om minst en tas tillbaka"
+        },
+        "source": "RRS T4",
+        "also": []
+      }
+    ]
   }
 ]
