@@ -9550,6 +9550,2512 @@
     ]
   },
   {
+    "n": 25,
+    "section": "3",
+    "title": {
+      "fi": "Kilpailukutsu, purjehdusohjeet ja viestit",
+      "sv": "Inbjudan, seglingsföreskrifter och signaler",
+      "en": "Notice of Race, Sailing Instructions and Signals"
+    },
+    "explain": {
+      "fi": "25.1: kilpailukutsun pitää olla jokaisen ilmoittautuvan veneen saatavilla jo ennen ilmoittautumista, ja purjehdusohjeiden pitää olla saatavilla ennen kuin kilpapurjehdus alkaa. 25.2: Kilpapurjehdusviestit-luvun näkyvien viestien ja äänimerkkien merkitystä saa muuttaa vain säännön 86.1(b) kautta eli kilpailukutsulla tai purjehdusohjeilla. Jos kilpailulautakunta käyttää muita viestejä, niiden merkitys pitää kertoa kilpailukutsussa tai purjehdusohjeissa. 25.3: kun sääntö vaatii lipun, lautakunta voi käyttää lippua tai muuta samannäköistä esinettä.",
+      "en": "25.1: the notice of race must be available to each boat that enters before she enters, and the sailing instructions must be available before a race begins. 25.2: the meanings of the visual and sound signals in Race Signals may be changed only under rule 86.1(b), that is, by the notice of race or sailing instructions. If the race committee uses any other signals, their meanings must be stated in the notice of race or sailing instructions. 25.3: when a rule requires a flag, the committee may use a flag or another object of similar appearance."
+    },
+    "note": {
+      "fi": "Kilpapurjehdusviestit-luvun mukaan luokan lipun yläpuolella näytetty viesti koskee vain sitä luokkaa. Liite E (radio-ohjattavat veneet): kilpailulautakunnan viestit annetaan suullisesti tai muilla äänillä, eikä näkyviä viestejä tarvita, elleivät purjehdusohjeet niin määrää (E3.8(b)).",
+      "en": "Under Race Signals, a signal displayed over a class flag applies only to that class. Appendix E (radio sailing): race committee signals are made orally or by other sounds, and no visual signals are required unless the sailing instructions say so (E3.8(b))."
+    },
+    "source": "RRS 25, 86.1(b), Race Signals, Appendix E3.8(b)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Kilpailukutsu ja purjehdusohjeet saavat muuttaa kilpailusääntöjä, mutta eivät säännön 86.1(a) luettelemia eivätkä sääntöjä 4, 76.1, 76.2(a) tai liitettä R (86.1(b)).",
+          "en": "The notice of race and sailing instructions may change racing rules, but not those listed in rule 86.1(a), nor rules 4, 76.1, 76.2(a) or Appendix R (86.1(b))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r25-q1",
+        "prompt": {
+          "fi": "Milloin purjehdusohjeiden pitää viimeistään olla veneen saatavilla?",
+          "en": "By when must the sailing instructions be available to a boat?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Ennen kuin vene ilmoittautuu",
+              "en": "Before the boat enters"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ennen kuin kilpapurjehdus alkaa",
+              "en": "Before a race begins"
+            }
+          },
+          {
+            "t": {
+              "fi": "Varoitusviestin aikaan",
+              "en": "At the warning signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "25.1: kilpailukutsun pitää olla saatavilla ennen ilmoittautumista, purjehdusohjeiden ennen kuin kilpapurjehdus alkaa.",
+          "en": "Rule 25.1: the notice of race must be available before entry, the sailing instructions before a race begins."
+        },
+        "source": "RRS 25.1",
+        "also": []
+      },
+      {
+        "id": "r25-q2",
+        "prompt": {
+          "fi": "Kilpailulautakunnalta on kadonnut lippu, ja se nostaa sen sijaan samannäköisen maalatun levyn. Onko viesti pätevä?",
+          "en": "The race committee has lost a flag and instead displays a painted board that looks the same. Is the signal valid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: lipun sijaan saa käyttää samannäköistä esinettä",
+              "en": "Yes: an object of similar appearance may be used instead of a flag"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: viestin pitää olla kangaslippu",
+              "en": "No: the signal must be a cloth flag"
+            }
+          }
+        ],
+        "why": {
+          "fi": "25.3 sallii lipun tai muun samannäköisen esineen.",
+          "en": "Rule 25.3 allows a flag or another object of similar appearance."
+        },
+        "source": "RRS 25.3",
+        "also": []
+      },
+      {
+        "id": "r25-q3",
+        "prompt": {
+          "fi": "Kilpailun johtaja ilmoittaa perämieskokouksessa suullisesti, että lippu L vesillä tarkoittaa tänään ”palatkaa satamaan”. Purjehdusohjeissa asiasta ei mainita. Onko muutos pätevä?",
+          "en": "At the briefing the race officer announces orally that flag L afloat means ‘return to harbour’ today. The sailing instructions say nothing about it. Is the change valid?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska se kerrottiin kaikille",
+              "en": "Yes, because everyone was told"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: Kilpapurjehdusviestien merkitystä saa muuttaa vain kilpailukutsulla tai purjehdusohjeilla",
+              "en": "No: the meaning of Race Signals may be changed only by the notice of race or sailing instructions"
+            }
+          }
+        ],
+        "why": {
+          "fi": "25.2 sallii muutoksen vain säännön 86.1(b) kautta, ja 86.1(b) koskee kilpailukutsua ja purjehdusohjeita.",
+          "en": "Rule 25.2 allows a change only under rule 86.1(b), and 86.1(b) concerns the notice of race and sailing instructions."
+        },
+        "source": "RRS 25.2, 86.1(b)",
+        "also": [
+          "86"
+        ]
+      },
+      {
+        "id": "r25-q4",
+        "prompt": {
+          "fi": "Kilpailulautakunta haluaa käyttää vihreää lippua merkkinä, joka ei kuulu Kilpapurjehdusviestit-lukuun. Mitä sen pitää tehdä?",
+          "en": "The race committee wants to use a green flag as a signal that is not in Race Signals. What must it do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kertoa viestin merkitys kilpailukutsussa tai purjehdusohjeissa",
+              "en": "State its meaning in the notice of race or sailing instructions"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, kunhan lippu nostetaan äänimerkin kanssa",
+              "en": "Nothing, as long as the flag is displayed with a sound"
+            }
+          }
+        ],
+        "why": {
+          "fi": "25.2: muiden viestien merkitys pitää ilmoittaa kilpailukutsussa tai purjehdusohjeissa.",
+          "en": "Rule 25.2: the meanings of other signals must be stated in the notice of race or sailing instructions."
+        },
+        "source": "RRS 25.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 26,
+    "section": "3",
+    "title": {
+      "fi": "Kilpapurjehdusten lähettäminen",
+      "sv": "Starta kappseglingar",
+      "en": "Starting Races"
+    },
+    "explain": {
+      "fi": "Lähtö annetaan neljällä viestillä: varoitusviesti (luokan lippu) viisi minuuttia ennen lähtöä, ellei kilpailukutsussa tai purjehdusohjeissa toisin ilmoiteta; valmiusviesti neljä minuuttia ennen (P, I, Z, Z ja I, U tai musta lippu); yksi minuutti ennen valmiuslippu lasketaan pitkän äänimerkin kanssa; ja lähtöviesti, kun luokan lippu lasketaan. Ajat otetaan näkyvistä viesteistä, ja puuttuva äänimerkki jätetään huomiotta. Seuraavan luokan varoitusviesti annetaan edellisen luokan lähtöviestin hetkellä tai sen jälkeen. Valmiuslippu kertoo, mikä lähtörangaistus on voimassa (I = 30.1, Z = 30.2, U = 30.3, musta lippu = 30.4; Kilpapurjehdusviestit). Äänimerkin puuttumisen huomiotta jättäminen koskee vain näitä lähtöviestejä; yksittäisessä palautuksessa tarvitaan sekä lippu että äänimerkki (Case 31).",
+      "en": "A start uses four signals: the warning signal (class flag) five minutes before the start unless the notice of race or sailing instructions state otherwise; the preparatory signal four minutes before (P, I, Z, Z with I, U or black flag); at one minute, the preparatory flag is removed with a long sound; and the starting signal when the class flag is removed. Times are taken from the visual signals, and a missing sound signal is disregarded. The warning signal for the next class is made with or after the starting signal of the class before it. The preparatory flag shows which starting penalty is in effect (I = 30.1, Z = 30.2, U = 30.3, black flag = 30.4; Race Signals). Disregarding a missing sound applies only to these starting signals; an individual recall needs both the flag and the sound (Case 31)."
+    },
+    "note": {
+      "fi": "Liite B (purjelautailu) korvaa säännön 26 kolmella järjestelmällä (vastatuulilähtö, sivutuulilähtö ja rantalähtö). Liite E (radio-ohjattavat veneet): varoitus-, valmius- ja lähtöviesti minuutin välein ja viimeisellä minuutilla lisäviestit kymmenen sekunnin välein, viimeisillä kymmenellä sekunnilla sekunnin välein (E3.4(a)). Liite F (leijalautailu): kolmen minuutin sarja, valmiusviestinä U tai musta lippu. Liitteessä C (mätsikilpailu) on omat lähtöviestinsä (C3.1).",
+      "en": "Appendix B (windsurfing) replaces rule 26 with three systems (upwind, reaching and beach starts). Appendix E (radio sailing): warning, preparatory and starting signals at one-minute intervals, with extra signals every ten seconds in the last minute and every second in the last ten seconds (E3.4(a)). Appendix F (kiteboarding): a three-minute sequence with U or black flag as the preparatory signal. Appendix C (match racing) has its own starting signals (C3.1)."
+    },
+    "source": "RRS 26, 29.1, 30, Race Signals, Appendices B, C, E, F; Case 31",
+    "defs": [
+      "Start"
+    ],
+    "links": [
+      {
+        "rules": [
+          "29"
+        ],
+        "note": {
+          "fi": "Yksittäisen palautuksen lippu X tarvitsee äänimerkin; säännön 26 poikkeus ei koske sitä (Case 31).",
+          "en": "The individual recall flag X needs its sound; rule 26's exception does not cover it (Case 31)."
+        }
+      },
+      {
+        "rules": [
+          "30"
+        ],
+        "note": {
+          "fi": "Valmiuslippu I, Z, U tai musta lippu ottaa käyttöön vastaavan lähtörangaistuksen.",
+          "en": "A preparatory flag I, Z, U or black flag puts the matching starting penalty into effect."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 31,
+        "title": {
+          "fi": "Lippu X ilman äänimerkkiä",
+          "en": "Flag X without a sound"
+        },
+        "text": {
+          "fi": "Lähdössä kilpailulautakunta nosti lipun X oikein, mutta äänimerkki jäi antamatta. Vene A, jonka runko oli lähtöviestin hetkellä osittain radan puolella, ei nähnyt lippua eikä palannut. Se merkittiin OCS:ksi ja pyysi hyvitystä: se luuli lähteneensä täsmälleen lähtöviestin hetkellä eikä kuullut äänimerkkiä. Lautakunta antoi A:lle hyvitykseksi maaliintulosijan. Vene B, jonka sija tästä huononi, vetosi sääntöön 26: puuttuva äänimerkki pitää jättää huomiotta.",
+          "en": "At a start the race committee displayed flag X correctly, but made no sound. Boat A, part of whose hull was on the course side at the starting signal, did not see the flag and did not return. She was scored OCS and asked for redress: she believed she had started exactly at the signal and heard no sound. The committee gave A a finishing place as redress. Boat B, whose place got worse as a result, relied on rule 26: a missing sound signal is to be disregarded."
+        },
+        "answer": {
+          "fi": "B:n valitus hylättiin. Säännön 26 lause puuttuvasta äänimerkistä koskee vain varoitus-, valmius-, yhden minuutin ja lähtöviestiä. Yksittäisessä palautuksessa vaaditaan sekä näkyvä viesti että äänimerkki, koska ääni kiinnittää veneiden huomion palautukseen. Äänimerkin puuttuminen oli virheellinen laiminlyönti, A:n sija huononi merkittävästi eikä se ollut A:n vika, joten hyvitys oli oikein (61.4(b)(1)). Hyvityksessä kannattaa ottaa huomioon aika, jonka palaaminen olisi vienyt. Jos vene itse tietää olleensa radan puolella, se ei saa hyvitystä, vaan sen pitää palata ja lähteä oikein; muuten se rikkoo myös sääntöä 2.",
+          "en": "B's appeal was dismissed. Rule 26's sentence on a missing sound covers only the warning, preparatory, one-minute and starting signals. An individual recall needs both the visual and the sound signal, because the sound draws boats' attention to the recall. The missing sound was an improper omission, A's score was made significantly worse, and it was not A's fault, so redress was right (61.4(b)(1)). Redress should allow for the time returning would have taken. A boat that knows she was on the course side gets no redress; she must return and start correctly, or she also breaks rule 2."
+        },
+        "also": [
+          "29",
+          "61",
+          "2"
+        ],
+        "source": "Case 31"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r26-q1",
+        "prompt": {
+          "fi": "Varoitusviestin hetkellä luokan lippu nousee, mutta äänimerkki ei toimi. Mistä lähtöaika lasketaan?",
+          "en": "At the warning signal the class flag goes up, but the horn fails. What is the start timed from?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lipun noususta",
+              "en": "The flag going up"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraavasta äänimerkistä",
+              "en": "The next sound signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lähtö pitää lykätä",
+              "en": "The start must be postponed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "26: ajat otetaan näkyvistä viesteistä, ja puuttuva äänimerkki jätetään huomiotta.",
+          "en": "Rule 26: times are taken from the visual signals, and a missing sound is disregarded."
+        },
+        "source": "RRS 26",
+        "also": []
+      },
+      {
+        "id": "r26-q2",
+        "prompt": {
+          "fi": "Mitä lippuja voidaan käyttää valmiusviestinä säännön 26 mukaan?",
+          "en": "Which flags may be used as the preparatory signal under rule 26?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "P, I, Z, Z ja I, U tai musta lippu",
+              "en": "P, I, Z, Z with I, U or black flag"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain P",
+              "en": "Only P"
+            }
+          },
+          {
+            "t": {
+              "fi": "P tai AP",
+              "en": "P or AP"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Säännön 26 taulukko luettelee nämä kuusi vaihtoehtoa.",
+          "en": "The table in rule 26 lists these six options."
+        },
+        "source": "RRS 26",
+        "also": []
+      },
+      {
+        "id": "r26-q3",
+        "prompt": {
+          "fi": "Mikä viesti annetaan minuutti ennen lähtöviestiä?",
+          "en": "What signal is made one minute before the starting signal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Valmiuslippu lasketaan ja annetaan yksi pitkä äänimerkki",
+              "en": "The preparatory flag is removed with one long sound"
+            }
+          },
+          {
+            "t": {
+              "fi": "Luokan lippu lasketaan",
+              "en": "The class flag is removed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lippu X nostetaan",
+              "en": "Flag X is displayed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Säännön 26 taulukko: yksi minuutti, valmiuslippu lasketaan, yksi pitkä äänimerkki.",
+          "en": "Table in rule 26: one minute, preparatory flag removed, one long sound."
+        },
+        "source": "RRS 26",
+        "also": []
+      },
+      {
+        "id": "r26-q4",
+        "prompt": {
+          "fi": "Kaksi luokkaa lähtee peräkkäin. Milloin toisen luokan varoitusviesti saa aikaisintaan tulla?",
+          "en": "Two classes start one after the other. When may the second class's warning signal be made at the earliest?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ensimmäisen luokan lähtöviestin hetkellä",
+              "en": "With the first class's starting signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Minuutti ensimmäisen luokan lähtöviestin jälkeen",
+              "en": "One minute after the first class's starting signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasta kun kaikki ensimmäisen luokan veneet ovat lähteneet",
+              "en": "Only once every boat in the first class has started"
+            }
+          }
+        ],
+        "why": {
+          "fi": "26: seuraavan luokan varoitusviesti annetaan edellisen luokan lähtöviestin hetkellä tai sen jälkeen.",
+          "en": "Rule 26: the next class's warning signal is made with or after the previous class's starting signal."
+        },
+        "source": "RRS 26",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 27,
+    "section": "3",
+    "title": {
+      "fi": "Muita lähtöviestiä edeltäviä kilpailulautakunnan tehtäviä",
+      "sv": "Andra åtgärder av kappseglingskommittén före startsignalen",
+      "en": "Other Race Committee Actions Before the Starting Signal"
+    },
+    "explain": {
+      "fi": "27.1: jos purjehdusohjeissa ei ole kerrottu rataa, kilpailulautakunnan pitää viestittää tai muuten ilmoittaa se viimeistään varoitusviestin aikaan. Se voi vaihtaa rataviestin toiseen ja viestittää, että kelluntavälineet pitää pitää päällä (lippu Y ja yksi äänimerkki). 27.2: lähtömerkkiä saa siirtää viimeistään valmiusviestin aikaan. 27.3: ennen lähtöviestiä lautakunta voi mistä tahansa syystä lykätä (AP, AP H:n yläpuolella tai AP A:n yläpuolella, kaksi äänimerkkiä) tai mitätöidä kilpapurjehduksen (N, N H:n yläpuolella tai N A:n yläpuolella, kolme äänimerkkiä). Kilpapurjehdusviestit: kun AP lasketaan, varoitusviesti tulee minuutin kuluttua, ellei kilpapurjehdusta silloin lykätä uudelleen tai mitätöidä; H:n kanssa lisäohjeita annetaan maissa, A:n kanssa tänään ei enää kilpailla.",
+      "en": "27.1: if the sailing instructions have not stated the course, the race committee must signal or otherwise designate it no later than the warning signal. It may replace one course signal with another and signal that personal flotation devices must be worn (flag Y with one sound). 27.2: a starting mark may be moved no later than the preparatory signal. 27.3: before the starting signal the committee may for any reason postpone (AP, AP over H or AP over A, two sounds) or abandon the race (N, N over H or N over A, three sounds). Race Signals: when AP is removed, the warning signal follows one minute later unless the race is then postponed again or abandoned; with H further signals are given ashore, with A there is no more racing today."
+    },
+    "note": {
+      "fi": "Liite C (mätsikilpailu): lähtömerkkiä saa siirtää vain varoitusviestiin asti (C2.14). Kun lippu Y on nostettu vesillä yhden äänimerkin kanssa ennen varoitusviestiä tai sen aikana, kelluntaväline pitää pitää päällä kilpailtaessa siinä kilpapurjehduksessa (40.2(a)).",
+      "en": "Appendix C (match racing): a starting mark may be moved only until the warning signal (C2.14). When flag Y is displayed afloat with one sound before or with the warning signal, flotation devices must be worn while racing in that race (40.2(a))."
+    },
+    "source": "RRS 27, 40.2(a), Definitions (Postpone, Abandon), Race Signals, Appendix C2.14",
+    "defs": [
+      "Postpone",
+      "Abandon"
+    ],
+    "links": [
+      {
+        "rules": [
+          "40"
+        ],
+        "note": {
+          "fi": "Lippu Y ottaa käyttöön säännön 40.1 (40.2(a)).",
+          "en": "Flag Y makes rule 40.1 apply (40.2(a))."
+        }
+      },
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Lähtöviestin jälkeen mitätöinti on sallittu vain säännön 32 perusteilla.",
+          "en": "After the starting signal, abandonment is allowed only on the grounds in rule 32."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r27-q1",
+        "prompt": {
+          "fi": "Kaksi minuuttia ennen lähtöä (valmiusviestin jälkeen) kilpailulautakunta huomaa linjan vinoksi ja haluaa siirtää poijupäätä. Saako se?",
+          "en": "Two minutes before the start (after the preparatory signal) the race committee sees the line is skewed and wants to move the pin end. May it?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, milloin tahansa ennen lähtöviestiä",
+              "en": "Yes, at any time before the starting signal"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei siirtää; se voi kuitenkin lykätä ja korjata linjan",
+              "en": "Not move it; but it may postpone and fix the line"
+            }
+          }
+        ],
+        "why": {
+          "fi": "27.2 sallii lähtömerkin siirron vain valmiusviestiin asti. 27.3 sallii lykkäyksen mistä tahansa syystä ennen lähtöviestiä.",
+          "en": "Rule 27.2 allows moving a starting mark only until the preparatory signal. Rule 27.3 allows a postponement for any reason before the starting signal."
+        },
+        "source": "RRS 27.2, 27.3",
+        "also": []
+      },
+      {
+        "id": "r27-q2",
+        "prompt": {
+          "fi": "Purjehdusohjeissa ei kerrota rataa. Milloin lautakunnan pitää viimeistään ilmoittaa se?",
+          "en": "The sailing instructions do not state the course. By when must the committee designate it?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Viimeistään varoitusviestin aikaan",
+              "en": "No later than the warning signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viimeistään valmiusviestin aikaan",
+              "en": "No later than the preparatory signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viimeistään lähtöviestin aikaan",
+              "en": "No later than the starting signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "27.1: rata viestitetään tai ilmoitetaan viimeistään varoitusviestin aikaan.",
+          "en": "Rule 27.1: the course is signalled or designated no later than the warning signal."
+        },
+        "source": "RRS 27.1",
+        "also": []
+      },
+      {
+        "id": "r27-q3",
+        "prompt": {
+          "fi": "Kolmekymmentä sekuntia ennen lähtöä tuuli kääntyy jyrkästi. Saako kilpailulautakunta vielä lykätä lähtöä?",
+          "en": "Thirty seconds before the start the wind shifts sharply. May the race committee still postpone?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, mistä tahansa syystä ennen lähtöviestiä",
+              "en": "Yes, for any reason before the starting signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, valmiusviestin jälkeen lykkäys ei ole sallittu",
+              "en": "No, a postponement is not allowed after the preparatory signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "27.3: ennen lähtöviestiä lautakunta voi lykätä mistä tahansa syystä.",
+          "en": "Rule 27.3: before the starting signal the committee may postpone for any reason."
+        },
+        "source": "RRS 27.3",
+        "also": []
+      },
+      {
+        "id": "r27-q4",
+        "prompt": {
+          "fi": "Lykkäyslippu AP lasketaan yhden äänimerkin kanssa. Milloin varoitusviesti tulee?",
+          "en": "The postponement flag AP is removed with one sound. When is the warning signal made?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Minuutin kuluttua, ellei kilpapurjehdusta silloin lykätä uudelleen tai mitätöidä",
+              "en": "One minute later, unless the race is then postponed again or abandoned"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti",
+              "en": "Immediately"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viiden minuutin kuluttua",
+              "en": "Five minutes later"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kilpapurjehdusviestit: AP:n laskemisesta minuutti varoitusviestiin.",
+          "en": "Race Signals: one minute from the removal of AP to the warning signal."
+        },
+        "source": "Race Signals (AP)",
+        "also": []
+      },
+      {
+        "id": "r27-q5",
+        "prompt": {
+          "fi": "Kilpailulautakunta nostaa vesillä lipun Y yhden äänimerkin kanssa ennen varoitusviestiä. Mitä se tarkoittaa?",
+          "en": "The race committee displays flag Y afloat with one sound before the warning signal. What does it mean?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kelluntavälineet pitää pitää päällä kilpailtaessa siinä kilpapurjehduksessa",
+              "en": "Flotation devices must be worn while racing in that race"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailijoiden pitää tulla huutoetäisyydelle",
+              "en": "Competitors must come within hail"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rata on muuttunut",
+              "en": "The course has changed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "27.1 ja 40.2(a): lippu Y ennen varoitusviestiä tai sen aikana ottaa käyttöön säännön 40.1 siinä kilpapurjehduksessa.",
+          "en": "Rules 27.1 and 40.2(a): flag Y before or with the warning signal makes rule 40.1 apply in that race."
+        },
+        "source": "RRS 27.1, 40.2(a)",
+        "also": [
+          "40"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 28,
+    "section": "3",
+    "title": {
+      "fi": "Radan purjehtiminen",
+      "sv": "Segla banan",
+      "en": "Sailing the Course"
+    },
+    "explain": {
+      "fi": "28.1: veneen pitää purjehtia rata. Määritelmän Purjehtia rata mukaan vene lähtee, sen kulkua kuvaava naru kiristettynä kulkee jokaisen radan merkin ohi oikealta puolelta ja oikeassa järjestyksessä (myös lähtömerkit), koskettaa purjehdusohjeissa nimettyjä kiertomerkkejä ja kulkee porttien läpi edellisen merkin suunnasta, ja lopuksi vene tulee maaliin. Merkillä, joka ei aloita, päätä eikä rajoita veneen purjehtimaa rataosuutta, ei ole vaadittua puolta. Kiristettyyn naruun vaikuttavat vain nämä merkit, eivät saaret, matalikot tai kieltoalueet (Case 145). Ylimääräiset kierrokset merkin ympäri eivät haittaa, kunhan kiristetty naru on oikealla puolella (Case 90, 106). 28.2: vene saa korjata virheensä, kunnes se tulee maaliin. Korjaamaton virhe rikkoo sääntöä 28.1 vasta maaliin tullessa (Case 112). Kun kilpailulautakunta havaitsee, ettei vene purjehtinut rataa, se merkitsee veneen NSC:ksi ilman tutkintaa (A5.1, A5.2; Case 128).",
+      "en": "28.1: a boat must sail the course. Under the definition Sail the Course a boat starts, a string representing her track, drawn taut, passes each mark of the course on the required side and in the correct order (including the starting marks), touches the marks the sailing instructions designate as rounding marks and passes through gates from the direction of the previous mark, and finally she finishes. A mark that does not begin, bound or end the leg she is sailing has no required side. Only those marks constrain the taut string, not islands, shallows or exclusion zones (Case 145). Extra turns around a mark do no harm as long as the taut string is on the required side (Cases 90, 106). 28.2: a boat may correct her errors until she finishes. An uncorrected error breaks rule 28.1 only when she finishes (Case 112). When the race committee sees that a boat did not sail the course, it scores her NSC without a hearing (A5.1, A5.2; Case 128)."
+    },
+    "note": {
+      "fi": "Liite A: NSC-pisteet ovat ilmoittautuneiden veneiden määrä plus yksi (A5.2). Purjehdusohjeet voivat muuttaa suuntaa, josta maalilinja ylitetään (määritelmä Tulla maaliin).",
+      "en": "Appendix A: NSC scores points for the number of boats entered plus one (A5.2). The sailing instructions may change the direction in which the finishing line is crossed (definition Finish)."
+    },
+    "source": "RRS 28, Definitions (Sail the Course, Start, Finish, Mark), A5; Case 58, 90, 106, 112, 128, 145, 148",
+    "defs": [
+      "Sail the Course",
+      "Start",
+      "Finish",
+      "Mark"
+    ],
+    "links": [
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "Merkin koskettaminen on eri asia kuin radan purjehtiminen: se rikkoo sääntöä 31, ei 28.1:tä (Case 128).",
+          "en": "Touching a mark is a separate matter from sailing the course: it breaks rule 31, not 28.1 (Case 128)."
+        }
+      },
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Rataa koskevassa protestissa toisen veneen pitää ilmoittaa protestiaikeestaan ennen kuin vene tulee maaliin tai ensimmäisessä kohtuullisessa tilaisuudessa sen jälkeen (60.2(b)(2); Case 112, 148).",
+          "en": "In a course protest the other boat must inform the boat of her intention to protest before she finishes or at the first reasonable opportunity after (60.2(b)(2); Cases 112, 148)."
+        }
+      },
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Kun rata lyhennetään kääntömerkillä, merkistä tulee maalimerkki (32.2(a); Case 129).",
+          "en": "When the course is shortened at a rounding mark, the mark becomes a finishing mark (32.2(a); Case 129)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 90,
+        "title": {
+          "fi": "Ajelehtiminen takaisin linjan yli",
+          "en": "Drifting back over the line"
+        },
+        "text": {
+          "fi": "Vastatuuliosuus alkoi heikossa tuulessa ja vahvassa vastavirrassa. A ja B lähtivät oikein, mutta tuuli loppui ja ne ajelehtivat taaksepäin. A ajelehti linjan vasemman pään merkin ulkopuolelta, B taas takaisin linjan yli. Kun tuuli palasi uudesta suunnasta, molemmat purjehtivat linjan oikean pään kilpailulautakunnan veneen ohi niin, että se jäi niiden oikealle puolelle, ja jatkoivat ylös. Purjehtivatko ne radan?",
+          "en": "The windward leg began in a light wind against a strong current. A and B started correctly, but the wind died and they drifted backwards. A drifted outside the mark at the port end of the line, while B drifted back over the line. When the wind returned from a new direction, both passed the race committee boat at the starboard end leaving it to starboard and carried on up the leg. Did they sail the course?"
+        },
+        "answer": {
+          "fi": "A purjehti radan, B ei. A kiersi koko linjan ulkopuolelta, mutta sen kiristetty naru kulkee silti linjan läpi ja jättää molemmat lähtömerkit oikealle puolelle. Ylimääräinen kierros merkin ympäri ei haittaa. B taas palasi linjan yli ja ohitti sitten kilpailulautakunnan veneen väärältä puolelta. Sen kiristetty naru ei kulje lähtölinjan läpi, joten se rikkoi sääntöä 28.1.",
+          "en": "A sailed the course, B did not. A went round the outside of the whole line, but her taut string still passes through the line and leaves both starting marks on the required side. An extra turn around a mark does no harm. B, however, drifted back over the line and then passed the committee boat on the wrong side. Her taut string does not pass through the starting line, so she broke rule 28.1."
+        },
+        "also": [],
+        "source": "Case 90"
+      },
+      {
+        "case": 148,
+        "title": {
+          "fi": "Kaksi kertaa maalilinjan yli",
+          "en": "Across the finishing line twice"
+        },
+        "text": {
+          "fi": "Radalla piti lähdön jälkeen jättää merkit 1 ja 2 vasemmalle puolelle ja tulla maaliin. X jätti merkin 1 oikein, mutta purjehti merkin 2 ohi väärältä puolelta ja ylitti maalilinjan radan puolelta. Sen jälkeen se löysäsi isopurjeen ja seisoi 30 sekuntia, purjehti sitten merkille 2, kiersi sen oikein ja ylitti maalilinjan uudelleen. Y protestoi rataa koskevasta virheestä. Milloin X tuli maaliin?",
+          "en": "The course was to start, leave marks 1 and 2 to port and finish. X left mark 1 correctly but passed mark 2 on the wrong side and crossed the finishing line from the course side. She then eased her mainsail and sat for 30 seconds, then sailed to mark 2, rounded it correctly and crossed the line again. Y protested for the course error. When did X finish?"
+        },
+        "answer": {
+          "fi": "Se riippuu siitä, miksi X pysähtyi. Ensimmäinen ylitys on maaliin tulo, ellei jokin määritelmän Tulla maaliin poikkeuksista päde. X ei ottanut rangaistusta, ja virhe tehtiin merkillä 2 eikä maalilinjalla, joten jäljelle jää kohta (c): jatkoiko X koko ajan rataa? Pysähtyminen voi sopia radan jatkamiseen, esimerkiksi kaatumisen, miehistön putoamisen tai korjauksen vuoksi. Jos miehistö luuli tulleensa maaliin ja huomasi virheen vasta myöhemmin, X ei jatkanut rataa: se tuli maaliin ensimmäisellä kerralla, rikkoi sääntöä 28.1 ja hylätään. Jos se jatkoi rataa koko ajan, se korjasi virheensä (28.2) ja saa toisen ylityksen sijan.",
+          "en": "It depends on why X stopped. The first crossing is a finish unless one of the exceptions in the definition Finish applies. X took no penalty, and the error was made at mark 2, not at the finishing line, so what remains is (c): was X continuing to sail the course throughout? Stopping can be consistent with continuing, for example after a capsize, a crew member overboard or a repair. If the crew thought they had finished and only later saw the error, X was not continuing: she finished the first time, broke rule 28.1 and is disqualified. If she continued throughout, she corrected her error (28.2) and gets the place of her second crossing."
+        },
+        "also": [
+          "60"
+        ],
+        "source": "Case 148"
+      },
+      {
+        "case": 112,
+        "title": {
+          "fi": "Virhe ensimmäisellä merkillä",
+          "en": "An error at the first mark"
+        },
+        "text": {
+          "fi": "A jätti radan ensimmäisen merkin väärälle puolelle, mutta purjehti loput oikein, ylitti maalilinjan radan puolelta ja palasi satamaan. B näki virheen ja päätti protestoida. Tuliko A maaliin, milloin se rikkoi sääntöä 28.1 ja milloin B:n piti kertoa A:lle protestiaikeestaan?",
+          "en": "A left the first mark of the course on the wrong side, but sailed the rest correctly, crossed the finishing line from the course side and returned to harbour. B saw the error and decided to protest. Did A finish, when did she break rule 28.1, and when did B have to tell A about the protest?"
+        },
+        "answer": {
+          "fi": "A tuli maaliin ylittäessään maalilinjan, koska se ei jatkanut rataa sen jälkeen; maaliin tulo ei riipu siitä, purjehtiko vene radan oikein. Virhe syntyi merkillä, mutta sääntö 28.2 olisi sallinut sen korjaamisen maaliin tuloon asti, joten A rikkoi sääntöä 28.1 vasta tullessaan maaliin. B:n ei tarvinnut huutaa tai nostaa lippua heti, mutta sen piti ilmoittaa A:lle ennen kuin A tuli maaliin tai ensimmäisessä kohtuullisessa tilaisuudessa sen jälkeen (60.2(b)(2)).",
+          "en": "A finished when she crossed the finishing line, because she did not continue to sail the course afterwards; finishing does not depend on whether she sailed the course correctly. The error was made at the mark, but rule 28.2 would have let her correct it until she finished, so A broke rule 28.1 only when she finished. B did not have to hail or display a flag at once, but had to inform A before A finished or at the first reasonable opportunity after (60.2(b)(2))."
+        },
+        "also": [
+          "60"
+        ],
+        "source": "Case 112"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r28-q1",
+        "prompt": {
+          "fi": "Sivutuulimerkillä vene koskettaa merkkiä ja tekee rangaistuskierroksen sen ympäri. Purjehtiko se silti radan?",
+          "en": "At a reaching mark a boat touches the mark and makes her penalty turn around it. Did she still sail the course?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kunhan kiristetty naru jää merkin oikealle puolelle",
+              "en": "Yes, as long as the taut string lies on the required side of the mark"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska naru kiertää merkin kahdesti",
+              "en": "No, because the string wraps the mark twice"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 90: ylimääräiset kierrokset merkin ympäri ovat sallittuja, kunhan kiristetty naru on vaaditulla puolella.",
+          "en": "Case 90: extra turns around a mark are allowed as long as the taut string is on the required side."
+        },
+        "source": "Case 90; Definition Sail the Course",
+        "also": []
+      },
+      {
+        "id": "r28-q2",
+        "prompt": {
+          "fi": "Myötätuulimaalissa virta vie veneen toisen maalimerkin ulkopuolelta. Vene kiertää koko maalilinjan, kiertää toisen merkin ja ylittää linjan radan puolelta. Purjehtiko se radan?",
+          "en": "At a downwind finish the current carries a boat outside one finishing mark. She sails round the whole finishing line, rounds the other mark and crosses the line from the course side. Did she sail the course?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska hän ohitti merkin ensin väärältä puolelta",
+              "en": "No, because she first passed a mark on the wrong side"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 106: kun kiristetty naru kulkee maalimerkkien välistä edellisen merkin suunnasta, ei haittaa, että se ohittaa toisen merkin myös väärältä puolelta.",
+          "en": "Case 106: when the taut string passes between the finishing marks from the direction of the previous mark, it does not matter that it also passes one mark on the wrong side."
+        },
+        "source": "Case 106",
+        "also": []
+      },
+      {
+        "id": "r28-q3",
+        "prompt": {
+          "fi": "Purjehdusohjeiden mukainen maalilinjan rajamerkki on tänään maalilinjan takana (maalin jälkeisellä puolella). Vene ylittää linjan ja kiertää rajamerkin vasta sen jälkeen. Milloin se tuli maaliin?",
+          "en": "The finishing-line limit mark named in the sailing instructions lies beyond the finishing line today. A boat crosses the line and only then rounds the limit mark. When did she finish?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ylittäessään linjan; merkillä ei ole vaadittua puolta",
+              "en": "When she crossed the line; the mark has no required side"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasta kierrettyään rajamerkin",
+              "en": "Only after rounding the limit mark"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 58: linjan takana oleva rajamerkki ei rajoita eikä päätä viimeistä osuutta, joten sillä ei ole vaadittua puolta.",
+          "en": "Case 58: a limit mark beyond the line does not bound or end the last leg, so it has no required side."
+        },
+        "source": "Case 58; Definition Sail the Course",
+        "also": []
+      },
+      {
+        "id": "r28-q4",
+        "prompt": {
+          "fi": "Rata kiertää saaren, ja vene joutuu matalikon vuoksi kiertämään myös toisen saaren, joka ei ole radan merkki. Vaikuttaako toinen saari kiristettyyn naruun?",
+          "en": "The course goes round an island, and shallows force a boat to go round a second island that is not a mark of the course. Does the second island affect the taut string?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: narua rajoittavat vain merkit, jotka aloittavat, rajoittavat tai päättävät osuuden",
+              "en": "No: only marks that begin, bound or end a leg constrain the string"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä: naru kulkee vain kuljettavalla vesialueella",
+              "en": "Yes: the string runs only through navigable water"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 145: saaret, niemet ja matalikot eivät vaikuta kiristettyyn naruun. Kieltoalue on oma sääntönsä, jota naru ei mittaa.",
+          "en": "Case 145: islands, headlands and shallows do not affect the taut string. An exclusion zone is a separate rule that the string does not test."
+        },
+        "source": "Case 145",
+        "also": []
+      },
+      {
+        "id": "r28-q5",
+        "prompt": {
+          "fi": "Kilpailulautakunta näkee, että vene jätti viimeisen merkin väärälle puolelle eikä korjannut virhettä ennen maaliin tuloa. Mitä lautakunnan pitää tehdä?",
+          "en": "The race committee sees a boat leave the last mark on the wrong side and not correct it before finishing. What must the committee do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Merkitä vene NSC:ksi ilman tutkintaa",
+              "en": "Score her NSC without a hearing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Antaa veneelle maaliintulosija ja jättää protestin muille",
+              "en": "Give her a finishing place and leave a protest to others"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hylätä vene vasta protestitutkinnassa",
+              "en": "Disqualify her only after a protest hearing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 128 ja A5.1, A5.2: lautakunta merkitsee radan purjehtimatta jättäneen veneen ilman tutkintaa, ja pisteet ovat ilmoittautuneiden määrä plus yksi.",
+          "en": "Case 128 and A5.1, A5.2: the committee scores a boat that did not sail the course without a hearing, with points for the number entered plus one."
+        },
+        "source": "Case 128; RRS A5.1, A5.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 29,
+    "section": "3",
+    "title": {
+      "fi": "Palautukset",
+      "sv": "Återkallelser",
+      "en": "Recalls"
+    },
+    "explain": {
+      "fi": "29.1 Yksittäinen palautus: jos lähtöviestin hetkellä jokin veneen rungon osa on lähtölinjan radan puolella tai veneen pitää noudattaa sääntöä 30.1, kilpailulautakunnan pitää viipymättä nostaa lippu X yhden äänimerkin kanssa. Lippu pidetään ylhäällä, kunnes kaikkien tällaisten veneiden rungot ovat olleet kokonaan lähtöpuolella ja ne ovat noudattaneet sääntöä 30.1, mutta enintään neljä minuuttia lähtöviestin jälkeen tai minuuttia ennen seuraavaa lähtöviestiä, sen mukaan kumpi on aiemmin. Sääntö ei päde, jos 29.2, 30.3 tai 30.4 pätee. ”Viipymättä” tarkoittaa muutamaa sekuntia; 40 sekuntia on liian myöhään, ja vene, joka ei voinut tietää olleensa radan puolella, saa silloin hyvityksen (Case 79). Myös äänimerkki on pakollinen (Case 31). 29.2 Yleinen palautus: jos lautakunta ei pysty tunnistamaan radan puolella olevia veneitä tai veneitä, joihin sääntö 30 pätee, tai lähettämisessä on tapahtunut virhe, se voi antaa yleisen palautuksen (ensimmäinen korvausviiri ja kaksi äänimerkkiä). Uuden lähdön varoitusviesti tulee minuutti viirin laskemisen jälkeen, ja myöhempien luokkien lähdöt seuraavat sitä.",
+      "en": "29.1 Individual Recall: if at a boat's starting signal any part of her hull is on the course side of the starting line or she must comply with rule 30.1, the race committee must promptly display flag X with one sound. The flag stays up until the hulls of all such boats have been completely on the pre-start side and they have complied with rule 30.1, but no longer than four minutes after the starting signal or one minute before any later starting signal, whichever is earlier. The rule does not apply if 29.2, 30.3 or 30.4 applies. ‘Promptly’ means within a very few seconds; 40 seconds is too late, and a boat with no reason to know she was over then gets redress (Case 79). The sound is also required (Case 31). 29.2 General Recall: if the committee cannot identify boats on the course side or boats to which rule 30 applies, or there has been an error in the starting procedure, it may signal a general recall (First Substitute with two sounds). The warning signal for the new start is made one minute after the pennant is removed, and later classes' starts follow it."
+    },
+    "note": {
+      "fi": "Liite C (mätsikilpailu): yksittäisessä palautuksessa käytetään venettä osoittavaa sinistä tai keltaista lippua, enintään kaksi minuuttia (C3.2). Liite E (radio-ohjattavat veneet): palautukset huudetaan (E3.5, E3.6). Liite F (leijalautailu) poistaa kohdan 29.1. Lähtöpuolelle palanneen veneen pitää vielä lähteä (määritelmä Lähteä).",
+      "en": "Appendix C (match racing): an individual recall uses a blue or yellow flag identifying the boat, for at most two minutes (C3.2). Appendix E (radio sailing): recalls are hailed (E3.5, E3.6). Appendix F (kiteboarding) deletes rule 29.1. A boat that returned to the pre-start side must still start (definition Start)."
+    },
+    "source": "RRS 29, 30.1, Definition Start, Race Signals, Appendices C, E, F; Case 31, 79, 136",
+    "defs": [
+      "Start"
+    ],
+    "links": [
+      {
+        "rules": [
+          "30"
+        ],
+        "note": {
+          "fi": "U- ja mustan lipun säännöissä yksittäistä palautusta ei anneta (29.1 viimeinen virke).",
+          "en": "Under the U flag and black flag rules no individual recall is given (last sentence of 29.1)."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Myöhästynyt tai puutteellinen palautusviesti voi oikeuttaa hyvitykseen (Case 31, 79).",
+          "en": "A late or incomplete recall signal may entitle a boat to redress (Cases 31, 79)."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Linjaa suoraan tähtäävän lautakunnan jäsenen havainto painaa yleensä enemmän kuin kilpailijoiden (Case 136).",
+          "en": "The observation of a committee member sighting along the line usually carries more weight than competitors' (Case 136)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 79,
+        "title": {
+          "fi": "Palautus 40 sekuntia myöhässä",
+          "en": "A recall 40 seconds late"
+        },
+        "text": {
+          "fi": "Yksityyppiluokan lähdössä kymmenen veneen runko oli linjan keskivaiheilla hieman radan puolella lähtöviestin hetkellä. Kilpailulautakunta nosti lipun X äänimerkin kanssa, mutta vasta noin 40 sekuntia lähtöviestin jälkeen. Yksikään vene ei palannut. Kun ne kuulivat olevansa OCS, useat pyysivät hyvitystä.",
+          "en": "At a one-design start, part of the hull of ten boats in the middle of the line was slightly over at the starting signal. The race committee displayed flag X with a sound, but only about 40 seconds after the starting signal. None of the boats returned. Several asked for redress on learning they had been scored OCS."
+        },
+        "answer": {
+          "fi": "Hyvitys kuuluu veneille. ”Viipymättä” tarkoittaa hyvin lyhyttä aikaa, muutamaa sekuntia, joten 40 sekuntia on aivan liikaa. Veneen pitää palata ja lähteä, mutta tämä olettaa, että palautusviesti on annettu ajallaan: oikea-aikainen viesti yhdessä omien havaintojen kanssa auttaa venettä päättämään, pitääkö palata. Vene, jolla ei ollut syytä epäillä olleensa yli, saa olettaa lähteneensä oikein, ellei sille viestitetä toisin. Virhe on kokonaan lautakunnan (61.4(b)).",
+          "en": "The boats are entitled to redress. ‘Promptly’ means a very short time, a very few seconds, so 40 seconds is far too long. A boat must return and start, but that assumes the signal was made in time: a timely signal together with her own observations helps a boat decide whether to return. A boat with no reason to believe she was over may assume she started correctly unless signalled otherwise. The error is entirely the committee's (61.4(b))."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 79"
+      },
+      {
+        "case": 136,
+        "title": {
+          "fi": "Kenen havainto painaa?",
+          "en": "Whose observation counts?"
+        },
+        "text": {
+          "fi": "Linjaa tähtäävä kilpailulautakunnan jäsen näki kolme venettä yli lähtöviestin hetkellä. Lippu X nostettiin viipymättä ja pidettiin ylhäällä vaaditun ajan. Linjan toisessa päässä ollut toinen jäsen vahvisti veneiden tunnukset ja sen, etteivät ne palanneet. Yksi veneistä voitti mutta merkittiin OCS:ksi. Se pyysi hyvitystä ja väitti palanneensa; kaksi lähellä ollutta kilpailijaa todisti sen hyväksi.",
+          "en": "The race committee member sighting the line saw three boats over at the starting signal. Flag X was promptly displayed and kept up for the required time. Another member at the other end confirmed the boats' identities and that they did not return. One of them won but was scored OCS. She asked for redress, saying she had returned; two competitors who were nearby testified for her."
+        },
+        "answer": {
+          "fi": "Lautakunnan päätös voidaan kumota vain, jos protestilautakunta on näytön perusteella vakuuttunut, etteivät linjaa tarkkailleet jäsenet katsoneet veneen ylittäessä linjaa tai palatessa tai että he erehtyivät veneen tunnuksesta. Linjaa suoraan tähtäävä jäsen on yleensä parhaassa asemassa, ja hänen havaintonsa painaa yleensä enemmän kuin todistajan, joka ei ollut linjan suuntaisesti.",
+          "en": "The committee's decision can be overturned only if the protest committee is satisfied on the weight of evidence that the members watching the line were not watching while the boat crossed or returned, or mistook her identity. A member sighting straight along the line is usually best placed, and that evidence usually outweighs a witness who was not in line with it."
+        },
+        "also": [
+          "63"
+        ],
+        "source": "Case 136"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r29-q1",
+        "prompt": {
+          "fi": "Kuinka kauan lippu X saa enintään olla ylhäällä?",
+          "en": "How long at most may flag X stay displayed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Neljä minuuttia lähtöviestin jälkeen tai minuutin ennen seuraavaa lähtöviestiä, kumpi on aiemmin",
+              "en": "Four minutes after the starting signal or one minute before a later starting signal, whichever is earlier"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kunnes viimeinen palautettu vene palaa, ilman aikarajaa",
+              "en": "Until the last recalled boat returns, with no time limit"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhden minuutin",
+              "en": "One minute"
+            }
+          }
+        ],
+        "why": {
+          "fi": "29.1 asettaa ylärajan: neljä minuuttia tai minuutti ennen seuraavaa lähtöviestiä, aiempi ratkaisee.",
+          "en": "Rule 29.1 sets the cap: four minutes, or one minute before a later starting signal, whichever is earlier."
+        },
+        "source": "RRS 29.1",
+        "also": []
+      },
+      {
+        "id": "r29-q2",
+        "prompt": {
+          "fi": "Valmiusviestinä oli musta lippu, ja kaksi venettä on lähtöviestin hetkellä yli. Nostetaanko lippu X?",
+          "en": "The preparatory signal was the black flag, and two boats are over at the starting signal. Is flag X displayed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntö 29.1 ei päde, kun sääntö 30.4 pätee",
+              "en": "No: rule 29.1 does not apply when rule 30.4 applies"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kuten aina",
+              "en": "Yes, as always"
+            }
+          }
+        ],
+        "why": {
+          "fi": "29.1: jos sääntö 29.2, 30.3 tai 30.4 pätee, yksittäistä palautusta ei anneta.",
+          "en": "Rule 29.1: if rule 29.2, 30.3 or 30.4 applies, no individual recall is made."
+        },
+        "source": "RRS 29.1",
+        "also": [
+          "30"
+        ]
+      },
+      {
+        "id": "r29-q3",
+        "prompt": {
+          "fi": "Yleinen palautus viestitetään, ja ensimmäinen korvausviiri lasketaan yhden äänimerkin kanssa. Milloin palautetun luokan varoitusviesti tulee?",
+          "en": "A general recall is signalled, and the First Substitute is removed with one sound. When is the recalled class's warning signal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Minuutin kuluttua",
+              "en": "One minute later"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti",
+              "en": "Immediately"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun kaikki muut luokat ovat lähteneet",
+              "en": "After all other classes have started"
+            }
+          }
+        ],
+        "why": {
+          "fi": "29.2: uuden lähdön varoitusviesti annetaan minuutti viirin laskemisen jälkeen.",
+          "en": "Rule 29.2: the warning signal for the new start is made one minute after the pennant is removed."
+        },
+        "source": "RRS 29.2",
+        "also": []
+      },
+      {
+        "id": "r29-q4",
+        "prompt": {
+          "fi": "Vene huomaa itse olleensa lähtöviestin hetkellä hieman yli, mutta lautakunta unohti äänimerkin lipun X kanssa. Saako vene jatkaa ja pyytää hyvitystä?",
+          "en": "A boat realizes she was slightly over at the start, but the committee forgot the sound with flag X. May she carry on and ask for redress?"
+        },
+        "options": [
+          {
+            "t": {
+              "fi": "Kyllä, koska viesti oli puutteellinen",
+              "en": "Yes, because the signal was incomplete"
+            }
+          },
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: kun vene tietää olleensa yli, sen pitää palata ja lähteä",
+              "en": "No: a boat that knows she was over must return and start"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 31: hyvitys koskee vain venettä, joka ei tiennyt olleensa yli. Tietoinen vene rikkoo sääntöä 28.1 ja myös sääntöä 2, jos se ei palaa.",
+          "en": "Case 31: redress is only for a boat that did not know she was over. A boat that knows and does not return breaks rule 28.1 and also rule 2."
+        },
+        "source": "Case 31; RRS 28.1, 2",
+        "also": [
+          "28",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 30,
+    "section": "3",
+    "title": {
+      "fi": "Lähtörangaistukset",
+      "sv": "Straff vid starten",
+      "en": "Starting Penalties"
+    },
+    "explain": {
+      "fi": "Valmiuslippu ratkaisee, mikä lähtörangaistus on voimassa viimeisen minuutin ajan ennen veneen lähtöviestiä. 30.1 I-lippu: jos jokin rungon osa on lähtölinjan tai sen jatkeen radan puolella, veneen pitää purjehtia jatkeen yli niin, että koko runko on lähtöpuolella, ennen kuin se lähtee. 30.2 Z-lippu, 30.3 U-lippu ja 30.4 musta lippu: rungon mikään osa ei saa olla lähtölinjan päiden ja ensimmäisen merkin muodostamassa kolmiossa. Tunnistettu vene saa ilman tutkintaa Z-lipulla 20 %:n pisterangaistuksen (44.3(c)), U- ja mustalla lipulla hylkäyksen. Z-rangaistus säilyy uudelleen lähetetyssä tai purjehditussa kilpapurjehduksessa (ja kertyy uudesta rikkomuksesta), U-hylkäys ei säily, musta lippu säilyy. Z- ja mustan lipun rangaistus ei koske lähtöä, joka lykätään tai mitätöidään ennen lähtöviestiä; tämä arvioidaan aina kyseisen lähtösarjan mukaan (Case 111). Mustan lipun säännössä yleisen palautuksen tai lähtöviestin jälkeisen mitätöinnin jälkeen lautakunta näyttää veneen purjenumeron ennen seuraavaa varoitusviestiä, eikä vene saa purjehtia uusinnassa; jos se purjehtii, hylkäystä ei saa jättää pois kokonaispisteistä (DNE).",
+      "en": "The preparatory flag decides which starting penalty applies in the last minute before a boat's starting signal. 30.1 I flag: if any part of the hull is on the course side of the starting line or its extensions, the boat must sail across an extension so that her whole hull is on the pre-start side before she starts. 30.2 Z flag, 30.3 U flag and 30.4 black flag: no part of the hull may be in the triangle formed by the ends of the starting line and the first mark. An identified boat gets, without a hearing, a 20% Scoring Penalty with Z (44.3(c)) and a disqualification with U or black. The Z penalty stands in a restarted or resailed race (and another is added for a new breach), the U disqualification does not, the black flag one does. The Z and black flag penalties do not apply to a start that is postponed or abandoned before the starting signal; this is judged per starting sequence (Case 111). Under the black flag rule, after a general recall or an abandonment after the start the committee displays the boat's sail number before the next warning signal, and she may not sail in the restart; if she does, her disqualification may not be excluded from her series score (DNE)."
+    },
+    "note": {
+      "fi": "Pisteet ilman tutkintaa: ZFP, UFD ja BFD (A5.1, A10). Liite B (purjelautailu) poistaa kohdan 30.2. Liite E: U- tai mustan lipun säännön rikkonut vene poistuu heti radalta (E3.7), ja 30.2 on poistettu (E3.8(a)). Liite F poistaa kohdat 30.1 ja 30.2 ja lukee runko tai kilpailija.",
+      "en": "Scores without a hearing: ZFP, UFD and BFD (A5.1, A10). Appendix B (windsurfing) deletes rule 30.2. Appendix E: a boat that broke the U or black flag rule leaves the course area at once (E3.7), and 30.2 is deleted (E3.8(a)). Appendix F deletes rules 30.1 and 30.2 and reads hull or competitor."
+    },
+    "source": "RRS 30, 26, 36, 44.3(c), A5, A10, Race Signals, Appendices B, E, F; Case 96, 111, 140",
+    "defs": [
+      "Start"
+    ],
+    "links": [
+      {
+        "rules": [
+          "36"
+        ],
+        "note": {
+          "fi": "Uusinnassa aiempi rikkomus estää kilpailemisen vain mustan lipun säännössä ja tuottaa rangaistuksen mm. sääntöjen 30.2 ja 30.4 mukaan (36).",
+          "en": "In a restart an earlier breach prevents competing only under the black flag rule and gives a penalty under rules 30.2 and 30.4 among others (36)."
+        }
+      },
+      {
+        "rules": [
+          "43"
+        ],
+        "note": {
+          "fi": "Osan 2 rikkomuksen pakottama lähtörangaistuksen rikkominen voidaan vapauttaa (43.1(a); Case 140).",
+          "en": "A breach of a starting-penalty rule compelled by a Part 2 breach can be exonerated (43.1(a); Case 140)."
+        }
+      },
+      {
+        "rules": [
+          "29"
+        ],
+        "note": {
+          "fi": "I-lipun säännössä yksittäinen palautus pätee; U- ja mustalla lipulla ei.",
+          "en": "Under the I flag rule an individual recall applies; under U and black it does not."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 96,
+        "title": {
+          "fi": "Purjenumero näytetään – tai ei",
+          "en": "Sail number shown – or not"
+        },
+        "text": {
+          "fi": "Valmiusviestinä oli musta lippu. A:n runko tunnistettiin kolmiossa viimeisen minuutin aikana, ja lähtöviestin jälkeen tuli yleinen palautus. Kysymys 1: lautakunta hylkäsi A:n ja näytti sen purjenumeron ennen seuraavaa varoitusviestiä. A uskoo lautakunnan erehtyneen. Saako se purjehtia uusinnassa ja pyytää hyvitystä jälkikäteen? Kysymys 2: lautakunta unohti näyttää numeron, ja A purjehti uusinnassa.",
+          "en": "The preparatory signal was the black flag. A's hull was identified in the triangle during the last minute, and there was a general recall after the start. Question 1: the committee disqualified A and displayed her sail number before the next warning signal. A believes the committee was wrong. May she sail in the restart and ask for redress afterwards? Question 2: the committee forgot to display the number, and A sailed in the restart."
+        },
+        "answer": {
+          "fi": "1: Ei. Sääntö 30.4 kieltää A:ta purjehtimasta uusinnassa, ja jos se purjehtii, hylkäys muuttuu pisteistä poisjättämättömäksi. Ainoa keino on jättää lähtemättä ja pyytää hyvitystä. 2: A ei saa sijaa, vaan se hylätään säännön 30.4 toisen virkkeen mukaan. Koska numero jäi näyttämättä, merkintä on BFD eikä DNE. Hyvityspyyntö sijasta hylätään, koska sijan vei kolmiossa oleminen, ei unohdus; jos A merkittiin DNE:ksi, merkintä korjataan BFD:ksi.",
+          "en": "1: No. Rule 30.4 forbids A to sail in the restart, and if she does, the disqualification becomes non-excludable. Her only option is not to start and to ask for redress. 2: A gets no place; she is disqualified under the second sentence of rule 30.4. Because her number was not displayed, the score is BFD, not DNE. A redress request for a place is refused, since being in the triangle cost her the place, not the omission; if she was scored DNE, it is changed to BFD."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 96"
+      },
+      {
+        "case": 111,
+        "title": {
+          "fi": "Rangaistus säilyy lykkäyksestä huolimatta",
+          "en": "The penalty stands despite a postponement"
+        },
+        "text": {
+          "fi": "Valmiusviestinä oli Z-lippu. A tunnistettiin kolmiossa viimeisen minuutin aikana, ja lähtöviestin jälkeen tuli yleinen palautus. Toisessa lähtösarjassa (taas Z) lautakunta lykkäsi lähtöä valmiuslipun laskemisen jälkeen mutta ennen lähtöviestiä. Kolmas sarja onnistui. A sai 20 %:n pisterangaistuksen ja vaati hyvitystä: kilpapurjehdusta oli lykätty, jopa kahdesti, ennen lähtöviestiä.",
+          "en": "The preparatory signal was flag Z. A was identified in the triangle during the last minute, and there was a general recall after the start. In the second sequence (Z again) the committee postponed after the preparatory flag came down but before the starting signal. The third sequence succeeded. A was given a 20% Scoring Penalty and asked for redress: the race had been postponed, twice even, before its starting signal."
+        },
+        "answer": {
+          "fi": "Rangaistus oli oikein. Säännön 30.2 kolme ensimmäistä virkettä koskevat yhtä lähtösarjaa. Sarjaa, jossa A oli kolmiossa, ei lykätty eikä mitätöity ennen lähtöviestiä. Jos joku olisi ollut kolmiossa toisen sarjan viimeisellä minuutilla ennen lykkäystä, häntä ei olisi saanut rangaista. Sama päättely pätee mustaan lippuun: A, jonka numero näytettiin, merkitään DNE:ksi, jos se purjehtii myöhemmässä lähdössä.",
+          "en": "The penalty was correct. The first three sentences of rule 30.2 concern one starting sequence. The sequence in which A was in the triangle was not postponed or abandoned before its starting signal. A boat in the triangle during the last minute of the second sequence before the postponement could not have been penalized. The same reasoning applies to the black flag: A, whose number was displayed, is scored DNE if she sails in a later start."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 111"
+      },
+      {
+        "case": 140,
+        "title": {
+          "fi": "Pakotettu yli",
+          "en": "Forced over"
+        },
+        "text": {
+          "fi": "Lähtö U- tai mustan lipun säännöllä. 20 sekuntia ennen lähtöä A ja B joutuivat tilanteeseen, jossa B rikkoi osan 2 sääntöä ja pakotti A:n radan puolelle. A ei palannut, purjehti radan ja merkittiin UFD:ksi tai BFD:ksi. Protestilautakunta hylkäsi B:n eikä vahinkoa tai loukkaantumista ollut. Saako A maaliintulosijansa?",
+          "en": "A start under the U flag or black flag rule. Twenty seconds before the start B broke a Part 2 rule and forced A over the line. A did not return, sailed the course and was scored UFD or BFD. The protest committee disqualified B; there was no injury or damage. Does A get her finishing place?"
+        },
+        "answer": {
+          "fi": "Ei. A vapautuu säännön 30.3 tai 30.4 rikkomisesta (43.1(a)), mutta se ei lähtenyt, koska B ei estänyt sitä palaamasta lähtöpuolelle ja lähtemästä. Siksi A merkitään OCS:ksi (A5.1). Jos A olisi palannut, lähtenyt, purjehtinut radan ja tullut maaliin, se olisi saanut sijansa. Mustan lipun yleisen palautuksen jälkeen, kun A:n numero on näytetty, se ei saa purjehtia uusinnassa edes protestiaikeen kanssa; jos purjehtii, DNE on oikein. Jos A jättää uusinnan väliin ja voittaa protestin, BFD muutetaan DNS:ksi.",
+          "en": "No. A is exonerated for breaking rule 30.3 or 30.4 (43.1(a)), but she did not start, because B did not prevent her from returning to the pre-start side and starting. So A is scored OCS (A5.1). Had A returned, started, sailed the course and finished, she would have got her place. After a black-flag general recall with A's number displayed, she may not sail in the restart even if she intends to protest; if she does, DNE is correct. If A sits out the restart and wins the protest, BFD is changed to DNS."
+        },
+        "also": [
+          "43"
+        ],
+        "source": "Case 140"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r30-q1",
+        "prompt": {
+          "fi": "Valmiusviestinä on lippu I. Vene on 30 sekuntia ennen lähtöä linjan radan puolella. Miten se korjaa tilanteen?",
+          "en": "The preparatory signal is flag I. A boat is on the course side of the line 30 seconds before the start. How does she put it right?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Purjehtimalla linjan jatkeen yli niin, että koko runko on lähtöpuolella, ennen kuin lähtee",
+              "en": "By sailing across an extension so her whole hull is on the pre-start side before she starts"
+            }
+          },
+          {
+            "t": {
+              "fi": "Palaamalla mistä kohtaa linjaa tahansa",
+              "en": "By dipping back across the line anywhere"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ottamalla Yhden Kierroksen Rangaistuksen",
+              "en": "By taking a One-Turn Penalty"
+            }
+          }
+        ],
+        "why": {
+          "fi": "30.1 vaatii jatkeen ylityksen; pelkkä linjan yli palaaminen ei riitä.",
+          "en": "Rule 30.1 requires crossing an extension; just dipping back over the line is not enough."
+        },
+        "source": "RRS 30.1",
+        "also": []
+      },
+      {
+        "id": "r30-q2",
+        "prompt": {
+          "fi": "U-lippu, vene on kolmiossa viimeisellä minuutilla ja tunnistetaan. Lähtö kuitenkin palautetaan yleisellä palautuksella. Saako vene osallistua uusintaan ilman rangaistusta?",
+          "en": "U flag; a boat is in the triangle in the last minute and is identified. The start is then generally recalled. May she sail the restart without penalty?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, hylkäys säilyy",
+              "en": "No, the disqualification stands"
+            }
+          }
+        ],
+        "why": {
+          "fi": "30.3: U-hylkäys ei koske uudelleen lähetettyä kilpapurjehdusta. Mustan lipun hylkäys sen sijaan säilyy (30.4).",
+          "en": "Rule 30.3: the U disqualification does not apply if the race is restarted. The black flag disqualification does (30.4)."
+        },
+        "source": "RRS 30.3, 30.4",
+        "also": []
+      },
+      {
+        "id": "r30-q3",
+        "prompt": {
+          "fi": "Z-lippu. Vene tunnistetaan kolmiossa kahdessa peräkkäisessä saman kilpapurjehduksen lähtöyrityksessä, jotka molemmat palautetaan. Mikä on sen rangaistus?",
+          "en": "Z flag. A boat is identified in the triangle in two consecutive attempts to start the same race, both recalled. What is her penalty?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaksi 20 %:n pisterangaistusta",
+              "en": "Two 20% Scoring Penalties"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yksi 20 %:n pisterangaistus",
+              "en": "One 20% Scoring Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hylkäys",
+              "en": "Disqualification"
+            }
+          }
+        ],
+        "why": {
+          "fi": "30.2: rangaistus säilyy uusinnassa, ja uudesta tunnistuksesta tulee lisärangaistus.",
+          "en": "Rule 30.2: the penalty stands in a restart, and a new identification adds another."
+        },
+        "source": "RRS 30.2",
+        "also": []
+      },
+      {
+        "id": "r30-q4",
+        "prompt": {
+          "fi": "Mustan lipun säännössä yleisen palautuksen jälkeen lautakunta näyttää veneesi purjenumeron. Mitä teet?",
+          "en": "Under the black flag rule your sail number is displayed after a general recall. What do you do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "En purjehdi uusinnassa; voin pyytää hyvitystä, jos lautakunta erehtyi",
+              "en": "Not sail in the restart; I may ask for redress if the committee erred"
+            }
+          },
+          {
+            "t": {
+              "fi": "Purjehdin ja protestoin jälkikäteen",
+              "en": "Sail and protest afterwards"
+            }
+          }
+        ],
+        "why": {
+          "fi": "30.4 ja Case 96: vene ei saa purjehtia uusinnassa, ja jos purjehtii, hylkäys on DNE. Ainoa keino on pyytää hyvitystä.",
+          "en": "Rule 30.4 and Case 96: the boat may not sail in the restart, and if she does, the disqualification is DNE. Her only remedy is redress."
+        },
+        "source": "RRS 30.4; Case 96",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "r30-q5",
+        "prompt": {
+          "fi": "Mustan lipun säännössä vene on kolmiossa viimeisellä minuutilla, mutta lautakunta lykkää lähtöä ennen lähtöviestiä. Onko vene hylätty?",
+          "en": "Black flag rule: a boat is in the triangle in the last minute, but the committee postpones before the starting signal. Is she disqualified?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "30.4: rangaistus ei päde, jos kilpapurjehdus lykätään tai mitätöidään ennen lähtöviestiä.",
+          "en": "Rule 30.4: the penalty does not apply if the race is postponed or abandoned before the starting signal."
+        },
+        "source": "RRS 30.4; Case 111",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 31,
+    "section": "3",
+    "title": {
+      "fi": "Merkin koskettaminen",
+      "sv": "Beröra ett märke",
+      "en": "Touching a Mark"
+    },
+    "explain": {
+      "fi": "Kilpaillessaan vene ei saa koskettaa lähtömerkkiä ennen kuin se lähtee, merkkiä, joka aloittaa, rajoittaa tai päättää sen purjehtimaa rataosuutta, eikä maalimerkkiä maaliin tultuaan. Koskettamiseksi lasketaan myös varusteiden kosketus, esimerkiksi perässä laahaava spinaakkerin kuljetin, eikä purjeenkäsittelyn vaikeus vapauta (Case 77). Merkki, joka ei kuulu veneen kulloiseenkin rataosuuteen, ei ole tämän säännön tarkoittama. Rangaistuksena voi ottaa Yhden Kierroksen Rangaistuksen (44.1); jos samassa tapahtumassa rikkoo myös osan 2 sääntöä, rangaistusta säännöstä 31 ei tarvitse ottaa (44.1(a)). Vene, jolle kuuluu tila tai merkkitila, saa tilaa myös säännön 31 noudattamiseen; jos kulkuun oikeutettu vene ei anna sitä, toinen vapautuu (Case 114; 43.1(b)).",
+      "en": "While racing, a boat may not touch a starting mark before she starts, a mark that begins, bounds or ends the leg she is sailing, or a finishing mark after she finishes. Contact by equipment counts too, for example a trailing spinnaker guy, and sail-handling trouble is no excuse (Case 77). A mark that is not part of the boat's current leg is not covered. The penalty is a One-Turn Penalty (44.1); if she broke a Part 2 rule in the same incident, she need not take the penalty for rule 31 (44.1(a)). A boat entitled to room or mark-room also gets space to comply with rule 31; if the right-of-way boat fails to give it, the other is exonerated (Case 114; 43.1(b))."
+    },
+    "note": {
+      "fi": "Kilpailulautakunta voi protestoida merkkiä koskettanutta venettä, mutta sen pitää antaa veneelle maaliintulosija (A4; Case 128). Liite B (purjelautailu): lauta saa koskettaa merkkiä mutta ei pitää siitä kiinni. Liite C (mätsikilpailu): myös miehistö mainitaan, eikä merkkinä toimivaa kilpailulautakunnan alusta saa koskettaa (C2.15).",
+      "en": "The race committee may protest a boat that touched a mark, but must give her her finishing place (A4; Case 128). Appendix B (windsurfing): a board may touch a mark but may not hold on to it. Appendix C (match racing): the crew is also named, and a race committee vessel that is a mark may not be touched (C2.15)."
+    },
+    "source": "RRS 31, 44.1, 43.1(b), A4, Definition Mark, Appendices B, C; Case 77, 114, 128",
+    "defs": [
+      "Mark",
+      "Room",
+      "Mark-Room"
+    ],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Merkin koskettamisesta otetaan Yhden Kierroksen Rangaistus (44.1, 44.2).",
+          "en": "Touching a mark is penalized with a One-Turn Penalty (44.1, 44.2)."
+        }
+      },
+      {
+        "rules": [
+          "16",
+          "18"
+        ],
+        "note": {
+          "fi": "Tila ja merkkitila sisältävät tilan noudattaa sääntöä 31 (Case 114).",
+          "en": "Room and mark-room include space to comply with rule 31 (Case 114)."
+        }
+      },
+      {
+        "rules": [
+          "14"
+        ],
+        "note": {
+          "fi": "Merkki on esine, jota pitää välttää; veneen pakottaminen merkkiin voi rikkoa sääntöä 14(c) (Case 114).",
+          "en": "A mark is an object that should be avoided; forcing a boat into a mark may break rule 14(c) (Case 114)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 77,
+        "title": {
+          "fi": "Spinaakkeri karkaa",
+          "en": "A runaway spinnaker"
+        },
+        "text": {
+          "fi": "A ja B kiersivät alamerkin, A selvästi edessä. A:lla oli vaikeuksia spinaakkerin laskussa, ja sen kuljetin laahasi noin yhdeksän metriä perässä ja kosketti merkkiä. Myöhemmin, merkin jäätyä viisi veneenmittaa taakse, veneet purjehtivat tiukasti vastaisessa suunnassa vasemmalla halssilla, B kuusi metriä A:n perässä. A:n spinaakkerin pää karkasi yllättäen taaksepäin ja osui B:n etustaagiin.",
+          "en": "A and B rounded the leeward mark, A clear ahead. A had trouble dropping her spinnaker, and her guy trailed about nine metres astern and touched the mark. Later, with the mark five lengths behind, both were close-hauled on port tack with B six metres astern of A. The head of A's spinnaker suddenly streamed aft and hit B's forestay."
+        },
+        "answer": {
+          "fi": "A rikkoi sääntöä 31: kosketus varusteella on kosketus, eikä käsittelyvaikeus vapauta. Veneiden välisessä kosketuksessa sääntö 18 ei enää päde. Koska spinaakkeri ei ollut normaalissa asennossa, veneet eivät olleet peitossa, joten sääntö 12 pätee. B pysyi loitolla, sillä kosketus johtui vain A:n varusteen odottamattomasta liikkeestä. A rikkoi sääntöä 14(a), koska se olisi voinut välttää kosketuksen, mutta vapautuu, koska vahinkoa tai loukkaantumista ei ollut (43.1(c)). B ei voinut välttää kosketusta eikä rikkonut sääntöä 14.",
+          "en": "A broke rule 31: contact by equipment is contact, and handling trouble is no excuse. For the contact between the boats rule 18 no longer applied. As the spinnaker was not in normal position, the boats were not overlapped, so rule 12 applied. B was keeping clear, since the contact came only from A's equipment moving unexpectedly. A broke rule 14(a) because she could have avoided the contact, but is exonerated as there was no damage or injury (43.1(c)). B could not avoid the contact and did not break rule 14."
+        },
+        "also": [
+          "12",
+          "14"
+        ],
+        "source": "Case 77"
+      },
+      {
+        "case": 114,
+        "title": {
+          "fi": "Lähtömerkki ja luovutettu väli",
+          "en": "The starting mark and the gap given"
+        },
+        "text": {
+          "fi": "Lähtölinjan oikean pään merkkiä ympäröi kuljettava vesi. Suojan puolen vene L ja tuulen puolen vene W ovat peitossa oikealla halssilla ennen lähtöä. L:n kurssi kulkee niin kaukana merkistä, että W mahtuu väliin, ja W purjehtii siihen. Kun W on merkin vieressä, L luffaa. W luffaa heti ja pysyy loitolla, mutta koskettaa merkkiä.",
+          "en": "The mark at the starboard end of the starting line has navigable water around it. Leeward boat L and windward boat W are overlapped on starboard tack before the start. L's course passes far enough from the mark for W to fit between, and W sails into the gap. Once W is alongside the mark, L luffs. W luffs at once and keeps clear, but touches the mark."
+        },
+        "answer": {
+          "fi": "L rikkoo säännöt 16.1 ja 14(c). W:n pitää pysyä loitolla (11), eikä sille kuulu tilaa säännön 19 eikä merkkitilaa säännön 18 mukaan. Kun L muuttaa suuntaansa, sen pitää kuitenkin antaa W:lle tilaa pysyä loitolla merimiesmäisesti, ja tähän sisältyy tila välttää merkin koskettaminen (31). Merkin koskettaminen ei ole merimiesmäistä, koska se voi vahingoittaa merkkiä tai venettä tai sotkea köysiä, joten merkki on esine, jota pitää välttää. W vapautuu säännön 31 rikkomisesta (43.1(b)). Vastaus on sama, vaikka sääntö 31 olisi poistettu.",
+          "en": "L breaks rules 16.1 and 14(c). W must keep clear (11) and is not entitled to room under rule 19 or mark-room under rule 18. But when L changes course, she must give W room to keep clear in a seamanlike way, which includes space to avoid touching the mark (31). Touching a mark is not seamanlike, as it may damage the mark or boat or foul lines, so a mark is an object to be avoided. W is exonerated for breaking rule 31 (43.1(b)). The answer is the same even if rule 31 had been deleted."
+        },
+        "also": [
+          "16",
+          "14",
+          "43"
+        ],
+        "source": "Case 114"
+      },
+      {
+        "case": 128,
+        "title": {
+          "fi": "Kosketus maalimerkkiin",
+          "en": "Touching the finishing mark"
+        },
+        "text": {
+          "fi": "Kilpailulautakunta näkee veneen B koskettavan maalimerkkiä samalla, kun se ylittää maalilinjan. B ei ota rangaistusta ja purjehtii satamaan. Mitä lautakunnan pitää tehdä, ja kuka voi protestoida?",
+          "en": "The race committee sees boat B touch the finishing mark as she crosses the finishing line. B takes no penalty and sails to harbour. What must the committee do, and who may protest?"
+        },
+        "answer": {
+          "fi": "B tuli maaliin, kun sen keula ylitti linjan, ja lautakunnan pitää antaa sille maaliintulosijan mukaiset pisteet (A4). Merkin koskettaminen ei ole radan purjehtimista koskeva virhe, joten lautakunta ei voi itse muuttaa pisteitä. Kilpailu-, protesti- tai tekninen lautakunta voi protestoida B:tä; sen pitää ilmoittaa B:lle aikeestaan kilpapurjehduksen jälkeen ja jättää kirjallinen protesti määräajassa (60.2(a)(2)). Myös kosketuksen nähnyt vene voi protestoida.",
+          "en": "B finished when her bow crossed the line, and the committee must score her for her finishing place (A4). Touching a mark is not a course error, so the committee cannot change the score itself. The race, protest or technical committee may protest B; it must inform B of its intention after the race and lodge a written protest within the time limit (60.2(a)(2)). A boat that saw the contact may also protest."
+        },
+        "also": [
+          "60"
+        ],
+        "source": "Case 128"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r31-q1",
+        "prompt": {
+          "fi": "Luovilla vene osuu sivutuulimerkkiin, joka kuuluu radan myöhempään osuuteen. Rikkooko se sääntöä 31?",
+          "en": "On a beat a boat hits a reaching mark that belongs to a later leg. Does she break rule 31?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: merkki ei aloita, rajoita eikä päätä sen nykyistä rataosuutta",
+              "en": "No: the mark does not begin, bound or end her current leg"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä: kaikkia radan merkkejä koskee sääntö 31",
+              "en": "Yes: rule 31 covers every mark of the course"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 31 koskee vain lähtömerkkejä ennen lähtöä, nykyisen osuuden merkkejä ja maalimerkkejä maaliin tulon jälkeen.",
+          "en": "Rule 31 covers only starting marks before starting, marks of the current leg and finishing marks after finishing."
+        },
+        "source": "RRS 31",
+        "also": []
+      },
+      {
+        "id": "r31-q2",
+        "prompt": {
+          "fi": "Maaliin tulon jälkeen vene ajelehtii maalimerkkiin. Onko se rike?",
+          "en": "After finishing a boat drifts onto a finishing mark. Is that a breach?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos vene vielä kilpailee",
+              "en": "Yes, if she is still racing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan, koska vene on jo tullut maaliin",
+              "en": "Never, because she has already finished"
+            }
+          }
+        ],
+        "why": {
+          "fi": "31 mainitsee erikseen maalimerkin maaliin tulon jälkeen. Sääntö koskee kilpailevaa venettä, ja vene kilpailee, kunnes se on tullut maaliin ja selvinnyt maalilinjalta (määritelmä Kilpailla).",
+          "en": "Rule 31 names a finishing mark after finishing. It applies while racing, and a boat is racing until she has finished and cleared the finishing line (definition Racing)."
+        },
+        "source": "RRS 31; Definition Racing",
+        "also": []
+      },
+      {
+        "id": "r31-q3",
+        "prompt": {
+          "fi": "Vene koskettaa merkkiä samassa tilanteessa, jossa se rikkoo myös sääntöä 10. Montako rangaistusta sen pitää ottaa?",
+          "en": "A boat touches a mark in the same incident in which she also breaks rule 10. How many penalties must she take?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistuksen säännöstä 10; säännön 31 rangaistusta ei tarvita",
+              "en": "A Two-Turns Penalty for rule 10; no penalty is needed for rule 31"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden Kierroksen ja Yhden Kierroksen Rangaistuksen",
+              "en": "A Two-Turns and a One-Turn Penalty"
+            }
+          }
+        ],
+        "why": {
+          "fi": "44.1(a): kun vene rikkoo samassa tapahtumassa osan 2 sääntöä ja sääntöä 31, sen ei tarvitse ottaa rangaistusta säännöstä 31.",
+          "en": "Rule 44.1(a): when a boat breaks a Part 2 rule and rule 31 in the same incident, she need not take the penalty for rule 31."
+        },
+        "source": "RRS 44.1(a)",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "r31-q4",
+        "prompt": {
+          "fi": "Kolme venettä on peitossa merkin vyöhykkeelle tultaessa: A ulkona, B keskellä, C sisällä. Kuinka paljon tilaa A:n pitää antaa B:lle?",
+          "en": "Three boats are overlapped on reaching the zone: A outside, B in the middle, C inside. How much space must A give B?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Niin paljon, että B voi itse antaa C:lle merkkitilan",
+              "en": "Enough for B to give C mark-room herself"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain B:n oman veneen tarvitseman tilan",
+              "en": "Only the space B's own boat needs"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 114: tila sisältää tilan noudattaa osan 2 sääntöjä ja sääntöä 31, joten B tarvitsee tilaa antaa C:lle merkkitila.",
+          "en": "Case 114: room includes space to comply with Part 2 rules and rule 31, so B needs space to give C mark-room."
+        },
+        "source": "Case 114; RRS 18.2(a)(1)",
+        "also": [
+          "18"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 32,
+    "section": "3",
+    "title": {
+      "fi": "Lyhentäminen tai mitätöiminen lähdön jälkeen",
+      "sv": "Avkorta eller annullera efter starten",
+      "en": "Shortening or Abandoning after the Start"
+    },
+    "explain": {
+      "fi": "32.1: lähtöviestin jälkeen kilpailulautakunta voi lyhentää rataa tai mitätöidä kilpapurjehduksen (a) huonon sään vuoksi, (b) jos tuuli on niin heikko, ettei kukaan todennäköisesti purjehdi rataa enimmäisajassa, (c) jos merkki puuttuu tai ei ole paikallaan tai (d) muusta syystä, joka suoraan vaikuttaa kilpailun turvallisuuteen tai oikeudenmukaisuuteen. Lisäksi rataa voi lyhentää, jotta muut ohjelman kilpapurjehdukset ehditään, ja kilpapurjehduksen voi mitätöidä lähettämisvirheen vuoksi. Kun yksikin vene on purjehtinut radan enimmäisajassa, mitätöinti edellyttää seurausten harkintaa kaikille veneille ja koko sarjalle. Siirtynyt merkki ei sinänsä riitä mitätöintiin, jos turvallisuus tai oikeudenmukaisuus ei kärsi (Case 28), ja harkinta tehdään luokka ja kilpapurjehdus kerrallaan (Case 37). 32.2: lyhentämisestä viestitetään S-lipulla ja kahdella äänimerkillä ennen kuin ensimmäinen vene ylittää maalilinjan. Maalilinja on kääntömerkillä merkin ja S-lipun salon välissä, linja, jonka rata vaatii ylittämään, tai portilla porttimerkkien välissä. 32.3: käynnissä oleva kilpapurjehdus mitätöidään N-lipulla, N H:n yläpuolella tai N A:n yläpuolella ja kolmella äänimerkillä.",
+      "en": "32.1: after the starting signal the race committee may shorten the course or abandon the race (a) because of foul weather, (b) if the wind is so light that no boat is likely to sail the course within the time limit, (c) if a mark is missing or out of position, or (d) for another reason directly affecting the safety or fairness of the competition. It may also shorten so that other scheduled races can be sailed, and abandon because of an error in the starting procedure. Once one boat has sailed the course within the time limit, abandonment requires considering the consequences for all boats and the series. A moved mark alone does not justify abandonment if safety or fairness is not affected (Case 28), and the decision is made class by class and race by race (Case 37). 32.2: shortening is signalled with flag S and two sounds before the first boat crosses the finishing line. The finishing line is at a rounding mark between the mark and the staff with flag S, a line the course requires boats to cross, or at a gate between the gate marks. 32.3: a race in progress is abandoned with N, N over H or N over A and three sounds."
+    },
+    "note": {
+      "fi": "Liite E (radio-ohjattavat veneet): rataa ei lyhennetä, ja kohtaan 32.1(a) lisätään ukkonen (E3.8(c), (d)).",
+      "en": "Appendix E (radio sailing): courses are not shortened, and thunderstorms are added to 32.1(a) (E3.8(c), (d))."
+    },
+    "source": "RRS 32, 35, Definitions (Abandon, Finish), Race Signals, Appendix E3.8; Case 28, 37, 129",
+    "defs": [
+      "Abandon",
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "35"
+        ],
+        "note": {
+          "fi": "Jos kukaan ei purjehdi rataa enimmäisajassa, kilpapurjehdus pitää mitätöidä (35).",
+          "en": "If no boat sails the course within the time limit, the race must be abandoned (35)."
+        }
+      },
+      {
+        "rules": [
+          "34"
+        ],
+        "note": {
+          "fi": "Puuttuvan merkin voi korvata (34); mitätöinti on vain yksi vaihtoehto.",
+          "en": "A missing mark can be replaced (34); abandonment is only one option."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Virheellinen mitätöinti voi oikeuttaa hyvitykseen (Case 37).",
+          "en": "An improper abandonment may entitle boats to redress (Case 37)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 28,
+        "title": {
+          "fi": "Merkki ponnahtaa lähdössä",
+          "en": "The mark bounces at the start"
+        },
+        "text": {
+          "fi": "Oikealla halssilla oleva S ja vasemmalla halssilla oleva P lähestyivät tiukasti vastaisessa suunnassa lähtölinjan vasemman pään merkkiä, ja vahva virta painoi niitä linjaa ja merkkiä kohti. S huusi P:lle, mutta P ei vastannut, ja S joutui laskemaan alas välttääkseen törmäyksen. Heti lähtöviestin jälkeen P purjehti merkin yli. Kun S luffasi takaisin tiukasti vastaiseen kurssilla merkin väärälle puolelle, merkki ponnahti P:n rungon alta ja osui S:ään. P ei ottanut rangaistusta, eikä S palannut lähtemään merkkien välistä. S protestoi P:tä ja pyysi, että kilpapurjehdus mitätöidään kohdan 32.1(c) perusteella.",
+          "en": "S on starboard and P on port approached the port end of the starting line close-hauled, with a strong current setting them toward the line and the mark. S hailed P, but P did not respond, and S had to bear away to avoid a collision. Just after the starting signal P sailed over the mark. As S luffed back to close-hauled on a course to the wrong side of the mark, the mark popped out from under P's hull and hit S. P took no penalty, and S did not go back to start between the marks. S protested P and asked for the race to be abandoned under 32.1(c)."
+        },
+        "answer": {
+          "fi": "P hylättiin sääntöjen 10 ja 31 rikkomisesta. S ei voinut ennakoida, miten merkki liikkuu, ja P:n rikkomukset aiheuttivat kosketuksen, joten S vapautuu säännön 31 rikkomisesta (43.1(a)). S olisi kuitenkin voinut palata ja lähteä: merkin siirtyminen ei vapauta lähtövelvollisuudesta, joten DNS oli oikein (A5.1). Mitätöinti ei ollut perusteltu, koska ratkaisevaa on, kärsiikö turvallisuus tai oikeudenmukaisuus (32.1(d)). Merkin paikka muuttuu usein tuulen, virran, aaltojen tai kosketuksen vuoksi, vaikka ankkuri pysyy paikallaan, ja se on riski, joka kilpailijoiden pitää hyväksyä.",
+          "en": "P was disqualified for breaking rules 10 and 31. S could not foresee how the mark would move, and P's breaches caused the contact, so S is exonerated for breaking rule 31 (43.1(a)). But S could have returned and started: a moved mark does not relieve a boat of the obligation to start, so DNS was correct (A5.1). Abandonment was not justified, because what matters is whether safety or fairness is affected (32.1(d)). A mark's position often changes with wind, current, waves or contact while its anchor stays put, and that is a risk competitors must accept."
+        },
+        "also": [
+          "31",
+          "43",
+          "10"
+        ],
+        "source": "Case 28"
+      },
+      {
+        "case": 129,
+        "title": {
+          "fi": "Lyhennys tuulen yläpuolen merkillä",
+          "en": "Shortened at the windward mark"
+        },
+        "text": {
+          "fi": "Purjehdusohjeiden mukaan kaikki kääntömerkit jätetään vasemmalle puolelle. Tuuli heikkenee, ja lautakunta lyhentää rataa S-lipulla ylämerkin lähellä olevasta veneestä. Lautakunnan vene on sijoitettu niin, että radan puolelta tultaessa merkki jäisi oikealle puolelle. A ylittää linjan radan puolelta, B kiertää merkin vasemmalta niin kuin tavallisesti ja koukkaa linjan yli takaapäin. B pyytää hyvitystä epäselvästä linjasta.",
+          "en": "The sailing instructions say all rounding marks are left to port. The wind fades, and the committee shortens the course with flag S from a vessel near the windward mark. The vessel is placed so that, coming from the course side, the mark would be left to starboard. A crosses the line from the course side; B rounds the mark to port as usual and hooks back across the line. B asks for redress because the line was unclear."
+        },
+        "answer": {
+          "fi": "Lyhennyksen jälkeen ylämerkki ei ole enää kääntömerkki vaan maalimerkki (32.2(a)), joten veneiden pitää tulla maaliin määritelmän mukaisesti eli ylittää linja radan puolelta. A tuli maaliin, B ei. Hyvitystä ei anneta: sääntö 32.2(a) sallii S-lipun aluksen sijoittamisen kumpaan tahansa linjan päähän, vaikka se ei ollut hyvää kilpailunjohtoa.",
+          "en": "After shortening, the windward mark is no longer a rounding mark but a finishing mark (32.2(a)), so boats must finish under the definition, crossing the line from the course side. A finished, B did not. No redress: rule 32.2(a) allows the vessel with flag S at either end of the line, even though it was not good race management."
+        },
+        "also": [
+          "28",
+          "61"
+        ],
+        "source": "Case 129"
+      },
+      {
+        "case": 37,
+        "title": {
+          "fi": "Kaikki luokat mitätöity",
+          "en": "All classes abandoned"
+        },
+        "text": {
+          "fi": "Avomeren kilpailussa 15 luokkaa purjehti samaa rataa. Sivutuulimerkki oli siirtynyt lähes 1,6 kilometriä, yli tuntia ennen kuin kahden viimeisen luokan veneet saapuivat sille. Useat veneet muista luokista pyysivät hyvitystä, mutta kahden viimeisen luokan veneet eivät. Protestilautakunta mitätöi kaikkien luokkien kilpapurjehdukset. Kahden viimeisen luokan veneet valittivat.",
+          "en": "In an offshore event 15 classes sailed the same course. A reaching mark had moved almost 1.6 kilometres, over an hour before the last two classes reached it. Several boats in other classes asked for redress, but none in the last two classes did. The protest committee abandoned the races for all classes. Boats in the last two classes appealed."
+        },
+        "answer": {
+          "fi": "Valitus hyväksyttiin. Jokainen kilpapurjehdus on erillinen. Kilpailulautakunta olisi voinut mitätöidä kohdan 32.1(c) perusteella, mutta ei tehnyt niin. Protestilautakunnan olisi pitänyt harkita jokainen luokka erikseen: kahden viimeisen luokan kohdalla mitätöinnille ei ollut tarvetta. Kaikkien luokkien mitätöinti oli virheellinen toimi (61.4(b)(1)), ja kahden luokan veneet palautettiin maaliintulosijoilleen.",
+          "en": "The appeal was upheld. Each race is separate. The race committee could have abandoned under 32.1(c) but did not. The protest committee should have considered each class separately: for the last two classes there was no need to abandon. Abandoning every class was an improper action (61.4(b)(1)), and the boats in the two classes were reinstated in their finishing places."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 37"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r32-q1",
+        "prompt": {
+          "fi": "Kilpailulautakunta haluaa lyhentää rataa. Mihin mennessä S-lippu pitää nostaa?",
+          "en": "The race committee wants to shorten the course. By when must flag S be displayed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ennen kuin ensimmäinen vene ylittää maalilinjan",
+              "en": "Before the first boat crosses the finishing line"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ennen kuin ensimmäinen vene ohittaa viimeisen kääntömerkin",
+              "en": "Before the first boat passes the last rounding mark"
+            }
+          },
+          {
+            "t": {
+              "fi": "Milloin tahansa",
+              "en": "At any time"
+            }
+          }
+        ],
+        "why": {
+          "fi": "32.2: S-lippu ja kaksi äänimerkkiä ennen kuin ensimmäinen vene ylittää maalilinjan.",
+          "en": "Rule 32.2: flag S with two sounds before the first boat crosses the finishing line."
+        },
+        "source": "RRS 32.2",
+        "also": []
+      },
+      {
+        "id": "r32-q2",
+        "prompt": {
+          "fi": "Puolet veneistä on jo tullut maaliin enimmäisajassa, kun lautakunta harkitsee mitätöintiä tuulenkäännöksen vuoksi. Mitä sen pitää tehdä ennen päätöstä?",
+          "en": "Half the fleet has finished within the time limit when the committee considers abandoning because of a wind shift. What must it do before deciding?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Harkita seurauksia kaikille kilpapurjehduksen veneille ja koko sarjalle",
+              "en": "Consider the consequences for all boats in the race and the series"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään: mitätöinti on aina sallittu",
+              "en": "Nothing: abandonment is always allowed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pyytää kaikkien veneiden suostumus",
+              "en": "Get every boat's consent"
+            }
+          }
+        ],
+        "why": {
+          "fi": "32.1: kun yksikin vene on purjehtinut radan enimmäisajassa, mitätöinti edellyttää seurausten harkintaa.",
+          "en": "Rule 32.1: once one boat has sailed the course within the time limit, abandonment requires considering the consequences."
+        },
+        "source": "RRS 32.1",
+        "also": []
+      },
+      {
+        "id": "r32-q3",
+        "prompt": {
+          "fi": "Lähtöviestin jälkeen lautakunta huomaa, että valmiusviesti annettiin minuutin myöhässä. Saako se mitätöidä kilpapurjehduksen?",
+          "en": "After the start the committee realizes the preparatory signal was made a minute late. May it abandon the race?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, lähettämisvirheen vuoksi",
+              "en": "Yes, because of an error in the starting procedure"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, mitätöinti lähtöviestin jälkeen on sallittu vain sään vuoksi",
+              "en": "No, after the start only weather allows abandonment"
+            }
+          }
+        ],
+        "why": {
+          "fi": "32.1: lautakunta voi mitätöidä kilpapurjehduksen myös lähettämismenettelyn virheen vuoksi.",
+          "en": "Rule 32.1: the committee may also abandon because of an error in the starting procedure."
+        },
+        "source": "RRS 32.1",
+        "also": []
+      },
+      {
+        "id": "r32-q4",
+        "prompt": {
+          "fi": "Mitä viesti N A:n yläpuolella kolmen äänimerkin kanssa tarkoittaa?",
+          "en": "What does N over A with three sounds mean?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaikki käynnissä olevat kilpapurjehdukset mitätöidään, eikä tänään enää kilpailla",
+              "en": "All races in progress are abandoned, and there is no more racing today"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpapurjehdukset lykätään, lisäohjeet maissa",
+              "en": "Races are postponed, further signals ashore"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rata on lyhennetty",
+              "en": "The course has been shortened"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Kilpapurjehdusviestit: N A:n yläpuolella = mitätöity, ei enää kilpailuja tänään. 32.3: kolme äänimerkkiä.",
+          "en": "Race Signals: N over A = abandoned, no more racing today. Rule 32.3: three sounds."
+        },
+        "source": "RRS 32.3; Race Signals",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 33,
+    "section": "3",
+    "title": {
+      "fi": "Seuraavan rataosuuden muuttaminen",
+      "sv": "Ändra nästa banben",
+      "en": "Changing the Next Leg of the Course"
+    },
+    "explain": {
+      "fi": "Veneiden kilpaillessa kilpailulautakunta voi muuttaa kääntömerkiltä tai portilta alkavaa rataosuutta siirtämällä seuraavaa merkkiä (tai maalilinjaa) ja viestittämällä siitä jokaiselle veneelle ennen kuin vene aloittaa osuuden. Uuden merkin ei tarvitse olla vielä paikallaan. (a) Suunnan muutos: C-lippu toistuvin äänimerkein ja uusi kompassisuunta, vihreä kolmio (muutos oikealle) tai punainen suorakulmio (muutos vasemmalle) tai molemmat. (b) Pituuden muutos: C-lippu toistuvin äänimerkein ja merkki ”–” (lyhenee) tai ”+” (pitenee). (c) Myöhempiä osuuksia saa muuttaa ilman lisäviestejä radan muodon säilyttämiseksi.",
+      "en": "While boats are racing, the race committee may change a leg that begins at a rounding mark or a gate by moving the next mark (or the finishing line) and signalling every boat before she begins the leg. The new mark need not be in position yet. (a) Change of direction: flag C with repetitive sounds and the new compass bearing, a green triangle (change to starboard) or a red rectangle (change to port), or both. (b) Change of length: flag C with repetitive sounds and a ‘–’ (shorter) or ‘+’ (longer). (c) Later legs may be changed without further signals to keep the course shape."
+    },
+    "note": {
+      "fi": "Liite E (radio-ohjattavat veneet) poistaa säännön 33 (E3.8(a)).",
+      "en": "Appendix E (radio sailing) deletes rule 33 (E3.8(a))."
+    },
+    "source": "RRS 33, Race Signals, Appendix E3.8(a)",
+    "defs": [
+      "Mark"
+    ],
+    "links": [
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Radan lyhentäminen maaliin tehdään S-lipulla (32.2), ei C-lipulla.",
+          "en": "Shortening to a finish is done with flag S (32.2), not flag C."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r33-q1",
+        "prompt": {
+          "fi": "Lautakunta haluaa siirtää ylämerkkiä veneiden ollessa jo luovilla. Saako se viestittää muutoksen nyt?",
+          "en": "The committee wants to move the windward mark while boats are already on the beat. May it signal the change now?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: muutos viestitetään ennen kuin vene aloittaa osuuden, ja osuuden pitää alkaa kääntömerkiltä tai portilta",
+              "en": "No: the change is signalled before a boat begins the leg, and the leg must begin at a rounding mark or gate"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, milloin tahansa",
+              "en": "Yes, at any time"
+            }
+          }
+        ],
+        "why": {
+          "fi": "33 koskee kääntömerkiltä tai portilta alkavaa osuutta, ja viesti annetaan ennen kuin vene aloittaa sen.",
+          "en": "Rule 33 concerns a leg beginning at a rounding mark or gate, and the signal is made before a boat begins it."
+        },
+        "source": "RRS 33",
+        "also": []
+      },
+      {
+        "id": "r33-q2",
+        "prompt": {
+          "fi": "Alamerkillä näytetään C-lippu toistuvin äänimerkein ja vihreä kolmio. Mitä se tarkoittaa?",
+          "en": "At the leeward mark flag C is shown with repetitive sounds and a green triangle. What does it mean?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Seuraava merkki on siirretty oikealle",
+              "en": "The next mark has been moved to starboard"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraava merkki on siirretty vasemmalle",
+              "en": "The next mark has been moved to port"
+            }
+          },
+          {
+            "t": {
+              "fi": "Osuus on lyhennetty",
+              "en": "The leg has been shortened"
+            }
+          }
+        ],
+        "why": {
+          "fi": "33(a)(2): vihreä kolmio = muutos oikealle, punainen suorakulmio = muutos vasemmalle.",
+          "en": "Rule 33(a)(2): green triangle = change to starboard, red rectangle = change to port."
+        },
+        "source": "RRS 33(a)",
+        "also": []
+      },
+      {
+        "id": "r33-q3",
+        "prompt": {
+          "fi": "C-lipun kanssa näytetään ”–”. Mitä se kertoo?",
+          "en": "A ‘–’ is shown with flag C. What does it tell you?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Osuuden pituus lyhenee",
+              "en": "The leg will be shorter"
+            }
+          },
+          {
+            "t": {
+              "fi": "Suunta muuttuu vasemmalle",
+              "en": "The direction changes to port"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rata on lyhennetty maaliin",
+              "en": "The course is shortened to a finish"
+            }
+          }
+        ],
+        "why": {
+          "fi": "33(b): ”–” = pituus pienenee, ”+” = pituus kasvaa.",
+          "en": "Rule 33(b): ‘–’ = length decreased, ‘+’ = increased."
+        },
+        "source": "RRS 33(b)",
+        "also": []
+      },
+      {
+        "id": "r33-q4",
+        "prompt": {
+          "fi": "Kun veneet tulevat merkille, jolla muutos viestitetään, uusi merkki on vielä matkalla paikalleen. Onko viesti pätevä?",
+          "en": "When boats reach the mark where the change is signalled, the new mark is still on its way. Is the signal valid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: seuraavan merkin ei tarvitse olla vielä paikallaan",
+              "en": "Yes: the next mark need not be in position yet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei: merkin pitää olla paikallaan ennen viestiä",
+              "en": "No: the mark must be in position before the signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "33: seuraavan merkin ei tarvitse olla paikallaan viestin hetkellä.",
+          "en": "Rule 33: the next mark need not be in position at the time of the signal."
+        },
+        "source": "RRS 33",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 34,
+    "section": "3",
+    "title": {
+      "fi": "Puuttuva merkki",
+      "sv": "Märke som saknas",
+      "en": "Mark Missing"
+    },
+    "explain": {
+      "fi": "Jos merkki puuttuu tai ei ole paikallaan veneiden kilpaillessa, kilpailulautakunnan pitää mahdollisuuksien mukaan joko (a) siirtää se oikealle paikalleen tai korvata se uudella samannäköisellä merkillä, tai (b) korvata se esineellä, jossa on M-lippu, ja antaa toistuvia äänimerkkejä. Kilpapurjehdusviestien mukaan M-lippua näyttävä esine korvaa puuttuvan merkin. Vaihtoehtona lautakunta voi myös lyhentää rataa tai mitätöidä kilpapurjehduksen (32.1(c)).",
+      "en": "If a mark is missing or out of position while boats are racing, the race committee must, if possible, either (a) move it to its correct position or replace it with a new one of similar appearance, or (b) replace it with an object displaying flag M and make repetitive sounds. Under Race Signals, the object displaying M replaces a missing mark. Alternatively the committee may shorten or abandon (32.1(c))."
+    },
+    "note": {
+      "fi": "Merkin määritelmä: esine, jonka purjehdusohjeet vaativat veneen jättämään tietylle puolelle, kilpailulautakunnan alus, jota ympäröi kuljettava vesi ja josta lähtö- tai maalilinja alkaa, sekä niihin tarkoituksella kiinnitetty esine. Ankkuriköysi ei ole osa merkkiä.",
+      "en": "Definition Mark: an object the sailing instructions require a boat to leave on a specified side, a race committee vessel surrounded by navigable water from which the starting or finishing line extends, and an object intentionally attached to them. An anchor line is not part of the mark."
+    },
+    "source": "RRS 34, 32.1(c), Definition Mark, Race Signals",
+    "defs": [
+      "Mark"
+    ],
+    "links": [
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Puuttuva tai siirtynyt merkki on yksi lyhentämisen ja mitätöinnin peruste (32.1(c)).",
+          "en": "A missing or moved mark is one ground for shortening or abandoning (32.1(c))."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Jos lautakunta ei korjaa tilannetta, vaikka voisi, vene voi pyytää hyvitystä virheellisen laiminlyönnin perusteella (61.4(b)(1)).",
+          "en": "If the committee does not fix it when it could, a boat may ask for redress for an improper omission (61.4(b)(1))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r34-q1",
+        "prompt": {
+          "fi": "Ylämerkki on irronnut, ja kilpailulautakunnan vene asettuu sen paikalle M-lippu ylhäällä ja antaa toistuvia äänimerkkejä. Mitä veneiden pitää tehdä?",
+          "en": "The windward mark has broken free, and the committee boat takes its place with flag M and repetitive sounds. What must the boats do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kiertää vene kuin se olisi merkki",
+              "en": "Round the boat as if it were the mark"
+            }
+          },
+          {
+            "t": {
+              "fi": "Purjehtia alkuperäisen merkin GPS-paikalle",
+              "en": "Sail to the original mark's GPS position"
+            }
+          },
+          {
+            "t": {
+              "fi": "Odottaa mitätöintiä",
+              "en": "Wait for an abandonment"
+            }
+          }
+        ],
+        "why": {
+          "fi": "34(b) ja Kilpapurjehdusviestit: M-lippua näyttävä esine korvaa puuttuvan merkin.",
+          "en": "Rule 34(b) and Race Signals: the object displaying M replaces the missing mark."
+        },
+        "source": "RRS 34(b); Race Signals",
+        "also": []
+      },
+      {
+        "id": "r34-q2",
+        "prompt": {
+          "fi": "Merkki on ajelehtinut 200 metriä. Lautakunta hinaa sen takaisin paikalleen ennen kuin veneet saapuvat. Tarvitaanko viestiä?",
+          "en": "A mark has drifted 200 metres. The committee tows it back before the boats arrive. Is a signal needed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: merkin palauttaminen oikealle paikalle riittää",
+              "en": "No: moving the mark back to its correct position is enough"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, M-lippu",
+              "en": "Yes, flag M"
+            }
+          }
+        ],
+        "why": {
+          "fi": "34(a): merkin siirtäminen oikealle paikalle on yksi sallituista tavoista; M-lippu kuuluu vain kohtaan (b).",
+          "en": "Rule 34(a): moving the mark back is one allowed option; flag M belongs only to (b)."
+        },
+        "source": "RRS 34(a)",
+        "also": []
+      },
+      {
+        "id": "r34-q3",
+        "prompt": {
+          "fi": "Puuttuvan oranssin poijun tilalle lautakunta asettaa samanlaisen oranssin poijun. Riittääkö se?",
+          "en": "The committee replaces a missing orange buoy with a similar orange buoy. Is that enough?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, myös M-lippu tarvitaan",
+              "en": "No, flag M is also needed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "34(a): korvaaminen uudella samannäköisellä merkillä on sallittu.",
+          "en": "Rule 34(a): replacing it with a new one of similar appearance is allowed."
+        },
+        "source": "RRS 34(a)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 35,
+    "section": "3",
+    "title": {
+      "fi": "Kilpapurjehduksen enimmäisaika ja pisteet",
+      "sv": "Kappseglingens maxtid och resultat",
+      "en": "Race Time Limit and Scores"
+    },
+    "explain": {
+      "fi": "Jos yksikin vene purjehtii radan kilpapurjehduksen mahdollisen enimmäisajan kuluessa, kaikki maaliin tulleet veneet saavat maaliintulosijansa mukaiset pisteet, ellei kilpapurjehdusta mitätöidä. Jos kukaan ei purjehdi rataa enimmäisajassa, kilpailulautakunnan pitää mitätöidä kilpapurjehdus.",
+      "en": "If one boat sails the course within the race time limit, if any, all boats that finish are scored by their finishing places unless the race is abandoned. If no boat sails the course within the time limit, the race committee must abandon the race."
+    },
+    "note": {
+      "fi": "Mitätöinti sen jälkeen, kun yksikin vene on purjehtinut radan enimmäisajassa, vaatii seurausten harkinnan (32.1).",
+      "en": "Abandonment after one boat has sailed the course within the time limit requires considering the consequences (32.1)."
+    },
+    "source": "RRS 35, 32.1",
+    "defs": [
+      "Sail the Course",
+      "Finish",
+      "Abandon"
+    ],
+    "links": [
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Heikko tuuli, jonka vuoksi kukaan ei todennäköisesti ehdi enimmäisajassa, on lyhentämisen tai mitätöinnin peruste (32.1(b)).",
+          "en": "Light wind making it unlikely anyone will finish in time is a ground for shortening or abandoning (32.1(b))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r35-q1",
+        "prompt": {
+          "fi": "Enimmäisaika on 90 minuuttia. Ensimmäinen vene tulee maaliin 92 minuutissa. Mitä tapahtuu?",
+          "en": "The time limit is 90 minutes. The first boat finishes in 92 minutes. What happens?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailulautakunnan pitää mitätöidä kilpapurjehdus",
+              "en": "The race committee must abandon the race"
+            }
+          },
+          {
+            "t": {
+              "fi": "Maaliin tulleet saavat pisteet, myöhästyneet eivät",
+              "en": "Finishers are scored, late ones are not"
+            }
+          },
+          {
+            "t": {
+              "fi": "Lautakunta saa harkita",
+              "en": "The committee may decide"
+            }
+          }
+        ],
+        "why": {
+          "fi": "35: jos kukaan ei purjehdi rataa enimmäisajassa, kilpapurjehdus pitää mitätöidä.",
+          "en": "Rule 35: if no boat sails the course within the time limit, the race must be abandoned."
+        },
+        "source": "RRS 35",
+        "also": []
+      },
+      {
+        "id": "r35-q2",
+        "prompt": {
+          "fi": "Voittaja tulee maaliin 80 minuutissa (enimmäisaika 90). Viimeinen vene tulee maaliin 100 minuutissa, eikä purjehdusohjeissa ole muuta aikarajaa. Saako se pisteet sijansa mukaan?",
+          "en": "The winner finishes in 80 minutes (limit 90). The last boat finishes in 100 minutes, and the sailing instructions have no other limit. Is she scored by her place?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska se ylitti enimmäisajan",
+              "en": "No, because she exceeded the time limit"
+            }
+          }
+        ],
+        "why": {
+          "fi": "35: kun yksikin vene purjehtii radan enimmäisajassa, kaikki maaliin tulleet saavat sijansa mukaiset pisteet.",
+          "en": "Rule 35: once one boat sails the course within the limit, all boats that finish are scored by their places."
+        },
+        "source": "RRS 35",
+        "also": []
+      },
+      {
+        "id": "r35-q3",
+        "prompt": {
+          "fi": "Mitä ”purjehtii radan” tarkoittaa säännössä 35?",
+          "en": "What does ‘sails the course’ mean in rule 35?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Määritelmän Purjehtia rata mukaisesti: lähtee, kulkee merkit oikein ja tulee maaliin",
+              "en": "As in the definition Sail the Course: starts, passes the marks correctly and finishes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pelkkää maalilinjan ylittämistä",
+              "en": "Merely crossing the finishing line"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Purjehtia rata on määritelty termi, joka vaatii lähdön, merkkien oikean ohituksen ja maaliin tulon.",
+          "en": "Sail the Course is a defined term requiring a start, correct passing of marks and a finish."
+        },
+        "source": "RRS 35; Definition Sail the Course",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 36,
+    "section": "3",
+    "title": {
+      "fi": "Uudelleen lähetetyt tai purjehditut purjehdukset",
+      "sv": "Kappseglingar som startas på nytt eller seglas om",
+      "en": "Races Restarted or Resailed"
+    },
+    "explain": {
+      "fi": "Kun kilpapurjehdus lähetetään uudelleen tai purjehditaan uudelleen, alkuperäisessä tai aiemmassa uusinnassa tapahtunut rikkomus (a) ei estä venettä kilpailemasta, paitsi mustan lipun säännön 30.4 rikkominen, eikä (b) tuota rangaistusta, paitsi sääntöjen 2, 30.2, 30.4 tai 69 perusteella tai säännön 14 perusteella, kun vene aiheutti loukkaantumisen tai vakavan vahingon. Muut rikkomukset, esimerkiksi tavallinen osan 2 rike ilman vakavaa vahinkoa, raukeavat. Sanoilla ”vahinko” ja ”vakava” ei ole säännöissä erityistä merkitystä; niitä käytetään tavallisessa merkityksessään (Case 19, 141).",
+      "en": "When a race is restarted or resailed, a breach in the original race or in an earlier restart (a) does not prevent a boat from competing, except a breach of the black flag rule 30.4, and (b) does not cause a penalty, except under rule 2, 30.2, 30.4 or 69, or under rule 14 when she caused injury or serious damage. Other breaches, such as an ordinary Part 2 breach without serious damage, lapse. The words ‘damage’ and ‘serious’ have no special meaning in the rules; they are used in their ordinary sense (Cases 19, 141)."
+    },
+    "note": {
+      "fi": "Liite F (leijalautailu): rangaistus myös säännön 14 perusteella, kun aiheutui sotkeutuminen; 30.2 puuttuu luettelosta.",
+      "en": "Appendix F (kiteboarding): a penalty also under rule 14 when a tangle was caused; 30.2 is not in the list."
+    },
+    "source": "RRS 36, 2, 14, 30.2, 30.4, 69, Appendix F; Case 19, 140, 141",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "30"
+        ],
+        "note": {
+          "fi": "Mustan lipun hylkäys estää osallistumisen uusintaan; Z-rangaistus säilyy (30.2, 30.4).",
+          "en": "A black flag disqualification bars the restart; a Z penalty stands (30.2, 30.4)."
+        }
+      },
+      {
+        "rules": [
+          "14"
+        ],
+        "note": {
+          "fi": "Uusinnassa rangaistaan säännön 14 rikkomuksesta vain, jos aiheutui loukkaantuminen tai vakava vahinko.",
+          "en": "In a restart a rule 14 breach is penalized only if it caused injury or serious damage."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Vahingon ja vakavan vahingon arviointikysymykset (Case 19, 141) koskevat myös sääntöä 44.1(b).",
+          "en": "The tests for damage and serious damage (Cases 19, 141) also apply to rule 44.1(b)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r36-q1",
+        "prompt": {
+          "fi": "Ennen yleistä palautusta P rikkoi sääntöä 10 S:ää vastaan, mutta vahinkoa ei syntynyt. S protestoi. Voiko P:tä rangaista uusinnan tuloksesta?",
+          "en": "Before a general recall P broke rule 10 against S, but there was no damage. S protests. Can P be penalized in the restarted race?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: uusinnassa rangaistaan vain säännöissä 36(b) luetelluista rikkomuksista",
+              "en": "No: in a restart only the breaches listed in rule 36(b) are penalized"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, osan 2 rikkomus säilyy aina",
+              "en": "Yes, a Part 2 breach always stands"
+            }
+          }
+        ],
+        "why": {
+          "fi": "36(b): sääntö 10 ei ole luettelossa, joten rike raukeaa.",
+          "en": "Rule 36(b): rule 10 is not on the list, so the breach lapses."
+        },
+        "source": "RRS 36(b)",
+        "also": []
+      },
+      {
+        "id": "r36-q2",
+        "prompt": {
+          "fi": "Palautetussa lähdössä vene törmäsi toiseen ja aiheutti vakavan vahingon. Voiko sitä rangaista uusinnassa?",
+          "en": "In a recalled start a boat collided with another and caused serious damage. Can she be penalized in the restart?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, säännön 14 perusteella",
+              "en": "Yes, under rule 14"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska kilpapurjehdus lähetettiin uudelleen",
+              "en": "No, because the race was restarted"
+            }
+          }
+        ],
+        "why": {
+          "fi": "36(b): sääntö 14 on poikkeus, kun vene aiheutti loukkaantumisen tai vakavan vahingon.",
+          "en": "Rule 36(b): rule 14 is an exception when the boat caused injury or serious damage."
+        },
+        "source": "RRS 36(b)",
+        "also": [
+          "14"
+        ]
+      },
+      {
+        "id": "r36-q3",
+        "prompt": {
+          "fi": "Mitä kysymyksiä protestilautakunta voi esittää arvioidessaan, onko vahinko vakava?",
+          "en": "What questions might a protest committee ask to decide whether damage is serious?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Heikensikö se turvallisuutta tai suorituskykyä merkittävästi, onko korjaus kallis suhteessa veneen arvoon tai laskeeko veneen arvo merkittävästi",
+              "en": "Did it reduce safety or performance significantly, is the repair costly relative to the boat's value, or is the value significantly reduced"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ylittääkö korjauslasku säännöissä määrätyn euromäärän",
+              "en": "Does the repair bill exceed a sum set in the rules"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 141: ”vakava” tarkoittaa tavallisessa merkityksessään merkittävää, riskiä tai huolta aiheuttavaa; tapaus ehdottaa juuri näitä kysymyksiä.",
+          "en": "Case 141: ‘serious’ in ordinary use means significant or giving cause for concern; the case suggests exactly these questions."
+        },
+        "source": "Case 141; Case 19",
+        "also": []
+      },
+      {
+        "id": "r36-q4",
+        "prompt": {
+          "fi": "Ensimmäisessä lähdössä, joka palautettiin, vene oli Z-lipun kolmiossa ja tunnistettiin. Mitä uusinnassa tapahtuu?",
+          "en": "In a first start that was recalled, a boat was identified in the Z flag triangle. What happens in the restart?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Se saa kilpailla, mutta 20 %:n pisterangaistus säilyy",
+              "en": "She may compete, but the 20% Scoring Penalty stands"
+            }
+          },
+          {
+            "t": {
+              "fi": "Se ei saa kilpailla",
+              "en": "She may not compete"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rangaistus raukeaa",
+              "en": "The penalty lapses"
+            }
+          }
+        ],
+        "why": {
+          "fi": "36(a) estää kilpailemisen vain säännön 30.4 rikkomisesta; 36(b) säilyttää säännön 30.2 rangaistuksen.",
+          "en": "Rule 36(a) bars competing only for breaking rule 30.4; 36(b) keeps the rule 30.2 penalty."
+        },
+        "source": "RRS 36, 30.2",
+        "also": [
+          "30"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 37,
+    "section": "3",
+    "title": {
+      "fi": "Etsintä- ja pelastusohjeet",
+      "sv": "Sök- och räddningsinstruktioner",
+      "en": "Search and Rescue Instructions"
+    },
+    "explain": {
+      "fi": "Kun kilpailulautakunta nostaa lipun V yhden äänimerkin kanssa, kaikkien veneiden sekä toimitsija- ja tukialusten pitää mahdollisuuksien mukaan kuunnella kilpailulautakunnan viestintäkanavaa etsintä- ja pelastusohjeiden varalta. Velvollisuus koskee siis myös valmentajia ja muita tukihenkilöitä, ei vain kilpailevia veneitä.",
+      "en": "When the race committee displays flag V with one sound, all boats and official and support vessels must, if possible, monitor the race committee communication channel for search and rescue instructions. So the duty covers coaches and other support persons too, not only racing boats."
+    },
+    "note": {
+      "fi": "Sääntö 1.1 (apu vaarassa oleville) pätee aina, viestistä riippumatta.",
+      "en": "Rule 1.1 (help for those in danger) always applies, signal or not."
+    },
+    "source": "RRS 37, 1.1, Race Signals (V)",
+    "defs": [
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Jokaisen veneen ja tukihenkilön pitää auttaa vaarassa olevaa (1.1).",
+          "en": "Every boat and support person must help anyone in danger (1.1)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r37-q1",
+        "prompt": {
+          "fi": "Kilpailulautakunta nostaa lipun V yhden äänimerkin kanssa. Ketä viesti koskee?",
+          "en": "The race committee displays flag V with one sound. Whom does it concern?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaikkia veneitä sekä toimitsija- ja tukialuksia",
+              "en": "All boats and official and support vessels"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kilpailevia veneitä",
+              "en": "Only boats that are racing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain tukialuksia",
+              "en": "Only support vessels"
+            }
+          }
+        ],
+        "why": {
+          "fi": "37 mainitsee kaikki veneet sekä toimitsija- ja tukialukset.",
+          "en": "Rule 37 names all boats and official and support vessels."
+        },
+        "source": "RRS 37",
+        "also": []
+      },
+      {
+        "id": "r37-q2",
+        "prompt": {
+          "fi": "Mitä lipun V nähneiden pitää tehdä?",
+          "en": "What must those who see flag V do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kuunnella mahdollisuuksien mukaan kilpailulautakunnan viestintäkanavaa",
+              "en": "Monitor the race committee communication channel if possible"
+            }
+          },
+          {
+            "t": {
+              "fi": "Palata heti satamaan",
+              "en": "Return to harbour at once"
+            }
+          },
+          {
+            "t": {
+              "fi": "Tulla huutoetäisyydelle",
+              "en": "Come within hail"
+            }
+          }
+        ],
+        "why": {
+          "fi": "37: kanavaa kuunnellaan etsintä- ja pelastusohjeiden varalta.",
+          "en": "Rule 37: the channel is monitored for search and rescue instructions."
+        },
+        "source": "RRS 37",
+        "also": []
+      },
+      {
+        "id": "r37-q3",
+        "prompt": {
+          "fi": "Veneessä ei ole radiota. Rikkooko se sääntöä 37 lipun V noustessa?",
+          "en": "A boat has no radio. Does she break rule 37 when flag V goes up?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei välttämättä: velvollisuus koskee kuuntelua mahdollisuuksien mukaan",
+              "en": "Not necessarily: the duty is to monitor if possible"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always"
+            }
+          }
+        ],
+        "why": {
+          "fi": "37: sana ”mikäli mahdollista” rajaa velvollisuuden.",
+          "en": "Rule 37: ‘if possible’ limits the duty."
+        },
+        "source": "RRS 37",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": 43,
     "section": "4",
     "title": {
