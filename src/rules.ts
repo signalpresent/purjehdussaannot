@@ -20,7 +20,8 @@ export const questionIds = () => all.map(q => q.id);
 export const rules = rulesRaw as unknown as Rule[];
 const defNames = defsRaw as unknown as Record<string, string>[];
 const tx = (m: ML, l: Lang) => m[l] ?? m.en;
-const fb = (l: Lang) => T.fallback[l] ? `<p class="mute">${T.fallback[l]}</p>` : '';
+// Shown only where the text has no version in this language (Swedish is still partial).
+const fb = (l: Lang, m: ML) => T.fallback[l] && !m[l] ? `<p class="mute">${T.fallback[l]}</p>` : '';
 // Page for a rule reference: exact page ('18.3') first, else the parent page ('18.2' -> '18') if it covers that part.
 const page = (r: string) => rules.find(x => String(x.n) === r)
   ?? rules.find(x => String(x.n) === r.split('.')[0] && (!x.covers || x.covers.some(c => r.startsWith(c))));
@@ -66,7 +67,7 @@ export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
   const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${esc(tx(k.note, l))}</p>`).join('');
   const scen = r.scenarios.map(s => `<div class="sc"><div class="chips"><span>Case ${s.case}</span>${chips(s.also ?? [], l)}</div>
     <h4>${esc(tx(s.title, l))}</h4><p>${esc(tx(s.text, l))}</p><p><b>${T.outcome[l]}.</b> ${esc(tx(s.answer, l))}</p></div>`).join('');
-  return `<button class="btn" data-nav="rules">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l)}${official(txt, l, mine(r), String(r.n))}${signalsFor(String(r.n), l)}
+  return `<button class="btn" data-nav="rules">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l, r.explain)}${official(txt, l, mine(r), String(r.n))}${signalsFor(String(r.n), l)}
   <h3>${T.explain[l]}</h3><p>${esc(tx(r.explain, l))}</p><p class="mute">${T.source[l]}: ${esc(r.source)}</p>
   ${r.scene && r.caption ? `<div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div>` : ''}<p class="mute">${esc(tx(r.note, l))}</p>
   <h3>${T.related[l]}</h3><div class="chips">${defs}</div><h3>${T.links[l]}</h3>${links}
@@ -92,7 +93,7 @@ export function practiceView(s: State): string {
   const buttons = opts.map((o, i) => `<button class="btn opt${picked >= 0 ? (o.ok ? ' ok' : i === picked ? ' bad' : '') : ''}" data-ans="${i}"${picked >= 0 ? ' disabled' : ''}>${o.img ? o.img(l) : esc(tx(o.t, l))}</button>`).join('');
   const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
     <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
-  return `${fb(l)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
+  return `${fb(l, q.prompt)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
 }
 
 // "Who keeps clear?" decision tree; path = chosen option per step.
