@@ -29643,6 +29643,1055 @@
     ]
   },
   {
+    "n": "F1",
+    "section": "F",
+    "title": {
+      "fi": "Muutokset määritelmiin",
+      "sv": "Ändringar av definitionerna",
+      "en": "Changes to the Definitions"
+    },
+    "explain": {
+      "fi": "Monta pääsäännön määritelmää muuttuu kattamaan leijalaudan rungon, kilpailijan ja leijapurjeen yhdessä. Este: etäisyys katsotaan 10 metristä, ja huomioon otetaan myös leijapurjeen sijainnin muuttamisen tarve; kilpaileva leijalauta ei ole este muille, elleivät ne ole velvollisia pysymään siitä loitolla tai väistämään sitä säännön 22 nojalla. Halssi määräytyy sen mukaan, kumpi käsi olisi etummaisena kilpailijan normaalissa ajoasennossa (kantapäät sivuttain, molemmat kädet ohjaustangolla, käsivarret ristissä olematta). Jatkuva este: kiinteä 30 metrin matka (ei suhteutettu veneen pituuteen kuten pääsäännöissä); liikkeessä oleva alus, kilpaileva leijalauta tai merkkinä toimiva kilpailulautakunnan alus eivät ole jatkuvia esteitä. Lähteä: runko ja kilpailija ovat olleet kokonaan lähtöpuolella lähtöviestin hetkellä tai sen jälkeen ja noudattaneet sääntöä 30.1 silloin kun se pätee, ennen kuin runko tai kilpailija ylittää linjan radan puolelle. Merkkitila: tila purjehtia oikeaa suuntaa, muttei kauemmaksi merkistä kuin tarpeen vaaditulta puolelta kiertämiseksi tai ohittamiseksi, sekä tila ohittaa maalimerkki maaliin tulon jälkeen. Selvästi perässä ja edessä, peitto: runkojen keskinäinen asema ratkaisee, ja käsitteet pätevät eri halsseilla oleviin vain, jos molemmat purjehtivat yli 90 astetta tosituulen suunnasta. Suojan ja tuulen puoli: tavallinen sääntö, paitsi suoraan myötätuuleen tai alemmaksi purjehtiessa suojan puoli määräytyy leijapurjeen sijainnin mukaan. Tulla maaliin: runko tai kilpailija, kosketuksessa toisiinsa, ylittää maalilinjan radan puolelta lähtöviestin jälkeen; lauta ei ole tullut maaliin, jos se sen jälkeen ottaa säännön 44.2 rangaistuksen, korjaa linjalla tekemänsä virheen, tai jatkaa radan purjehtimista; täyttä linjan ylitystä ei vaadita, ja purjehdusohjeet voivat muuttaa vaadittua ylityssuuntaa. Vyöhyke: kiinteä 30 metrin etäisyys merkistä. Pysyä loitolla: kulkuun oikeutetun leijalaudan pitää voida purjehtia suuntaansa ilman välitöntä toimintaa, ja sen pitää myös voida muuttaa suuntaa kumpaankin suuntaan tai siirtää leijapurjetta mihin tahansa suuntaan ilman välitöntä kosketusta — jälkimmäinen on leijalaudoille ominainen lisäys. Uudet määritelmät: Hypätä (runko, ulokkeet ja kilpailija irti vedestä), Kaatunut (leijapurje vedessä, tai leijanarut sotkeutuneet toisen leijalaudan naruihin), ja Elpymässä (kattaa sekä ohjauskyvyn menetyksen palautumiseen asti että leijan vedestä nostamisen ohjauskyvyn palautumiseen asti, ellei lauta ole kaatunut).",
+      "en": "Many main-rule definitions change to cover a kiteboard's hull, competitor and kite together. Obstruction: the distance is read from 10 metres, and the need to change the kite's position also counts; a racing kiteboard is not an obstruction to others unless they must keep clear of her or avoid her under rule 22. Tack is decided by which hand would be forward in the competitor's normal riding position (heels to the side, both hands on the control bar, arms not crossed). Continuing Obstruction: a fixed 30-metre distance (not scaled to the boat's length as in the main rules); a vessel under way, a racing kiteboard or a race committee vessel that is also a mark are not continuing obstructions. Start requires the hull and competitor to have been entirely on the pre-start side at or after the starting signal and to have complied with rule 30.1 when it applies, before the hull or competitor crosses to the course side. Mark-Room is room to sail the proper course, but no farther from the mark than needed to round or pass it on the required side, plus room to pass a finishing mark after finishing. Clear astern/ahead and overlap depend on the hulls' relative position, and the terms apply to boards on opposite tacks only if both sail more than 90 degrees from the true wind. Leeward and windward follow the usual rule, except that sailing by the lee or lower, the leeward side is decided by where the kite lies. Finish: the hull or the competitor, while in contact with each other, crosses the finishing line from the course side after the starting signal; a board has not finished if she then takes the rule 44.2 penalty, corrects an error made at the line, or keeps sailing the course; crossing need not be complete, and the sailing instructions may change the required direction. Zone is a fixed 30 metres from the mark. Keep Clear requires the right-of-way board to be able to sail her course without immediate action, and also to be able to change course in either direction or move her kite any way without immediate contact — that second condition is specific to kiteboards. New definitions: Jumping (hull, appendages and competitor clear of the water), Capsized (kite in the water, or lines tangled with another board's), and Recovering (covers both losing and regaining steerage way, and the kite being out of the water until control is regained, unless capsized).",
+      "sv": "Många huvudregeldefinitioner ändras för att täcka en kitebrädas skrov, tävlande och kite tillsammans. Hinder: avståndet räknas från 10 meter, och behovet att ändra kitens läge räknas också; en kappseglande kitebräda är inget hinder för andra om de inte måste hålla undan för den eller undvika den enligt regel 22. Halsar avgörs av vilken hand som skulle vara främst i den tävlandes normala ridställning (hälarna åt sidan, båda händerna på kontrollstången, armarna inte korsade). Fortlöpande hinder: ett fast avstånd på 30 meter (inte skalat efter båtens längd som i huvudreglerna); ett fartyg under gång, en kappseglande kitebräda eller en funktionärsbåt som också är märke är inga fortlöpande hinder. Starta kräver att skrovet och den tävlande har varit helt på startsidan vid eller efter startsignalen och rättat sig efter regel 30.1 när den gäller, innan skrovet eller den tävlande skär till bansidan. Märkesplats är plats att segla tillbörlig kurs, men inte längre från märket än som behövs för att runda eller passera det på den föreskrivna sidan, plus plats att passera ett målmärke efter målgång. Klar akter/för om och överlapp avgörs av skrovens inbördes läge, och begreppen gäller för brädor på motsatta halsar bara om båda seglar mer än 90 grader från den sanna vinden. Lä och lovart följer den vanliga regeln, utom att vid segling i lovart om direkt undanvind eller lägre avgörs lä sida av var kiten ligger. Gå i mål: skrovet eller den tävlande, i kontakt med varandra, skär mållinjen från bansidan efter startsignalen; en bräda har inte gått i mål om den sedan tar straffet enligt regel 44.2, rättar ett fel vid linjen, eller fortsätter segla banan; linjen behöver inte skäras helt, och seglingsföreskrifterna får ändra den föreskrivna riktningen. Zonen är ett fast avstånd på 30 meter från märket. Hålla undan kräver att en bräda med rätt till väg kan segla sin kurs utan omedelbar åtgärd, och också kan ändra kurs åt båda hållen eller flytta sin kite åt vilket håll som helst utan omedelbar kontakt — det andra villkoret är specifikt för kitebrädor. Nya definitioner: Hoppa (skrov, skrovbihang och tävlande fria från vattnet), Kantrad (kiten i vattnet, eller linorna intrasslade i en annan brädas linor), och Återfå kontroll (täcker både att förlora och återfå styrförmåga, och att kiten är ur vattnet tills kontrollen återfåtts, om inte brädan är kantrad)."
+    },
+    "note": {
+      "fi": "Liite F koskee leijalautailun ratakilpailuja; muualla säännöissä ”vene” tarkoittaa tilanteesta riippuen ”leijalautaa” tai ”venettä”. Ruotsinkielinen sääntökirja ei sisällä liitettä F ollenkaan — Svenska Seglarförbundet on päättänyt olla kääntämättä sitä ja viittaa englanninkieliseen tekstiin World Sailingin verkkosivuilla; vain suomenkielinen kirja sisältää käännöksen. Ruotsinkieliset selitykset tällä sivulla ovat siis omaa käännöstä ilman virallista ruotsinkielistä vertailutekstiä. Case Bookissa ei ole liitettä F koskevia tapauksia.",
+      "en": "Appendix F covers kiteboarding course racing; elsewhere in the rules ”boat” means ”kiteboard” or ”boat” as the context requires. The Swedish rulebook does not include Appendix F at all — the Swedish Sailing Federation chose not to translate it and refers readers to the English text on the World Sailing website; only the Finnish book has a translation. The Swedish explanations on this page are therefore an independent translation with no official Swedish source to check against. The Case Book has no cases on Appendix F.",
+      "sv": "Bilaga F gäller kappsegling på bana för kiteboard; på andra ställen i reglerna betyder ”båt” ”kitebräda” eller ”båt” beroende på sammanhanget. Den svenska regelboken innehåller inte bilaga F alls — Svenska Seglarförbundet har valt att inte översätta den och hänvisar till den engelska texten på World Sailings webbplats; bara den finska boken har en översättning. De svenska förklaringarna på den här sidan är därför en egen översättning utan någon officiell svensk källtext att jämföra mot. Case Book har inga fall om bilaga F."
+    },
+    "source": "RRS F (changes to the definitions)",
+    "defs": [
+      "Zone",
+      "Mark-Room",
+      "Obstruction",
+      "Continuing Obstruction",
+      "Start",
+      "Finish",
+      "Keep Clear",
+      "Leeward and Windward",
+      "Clear Astern and Clear Ahead; Overlap",
+      "Tack, Starboard or Port"
+    ],
+    "links": [
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "Vyöhyke on liitteessä F kiinteä 30 metriä, toisin kuin pääsäännön ja useimpien muiden liitteiden rungonpituuksiin perustuva etäisyys.",
+          "en": "The Zone in Appendix F is a fixed 30 metres, unlike the main rule's and most other appendices' hull-length-based distance.",
+          "sv": "Zonen i bilaga F är ett fast avstånd på 30 meter, till skillnad från huvudregelns och de flesta andra bilagors avstånd baserat på skrovlängder."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rF1-q1",
+        "prompt": {
+          "fi": "Montako metriä Vyöhyke on liitteessä F?",
+          "en": "How many metres is the Zone in Appendix F?",
+          "sv": "Hur många meter är Zonen i bilaga F?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "30 metriä, kiinteänä etäisyytenä",
+              "en": "30 metres, as a fixed distance",
+              "sv": "30 meter, som ett fast avstånd"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme rungonpituutta, kuten pääsäännöissä",
+              "en": "Three hull lengths, as in the main rules",
+              "sv": "Tre skrovlängder, som i huvudreglerna"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Muutokset määritelmiin, Vyöhyke.",
+          "en": "Changes to the Definitions, Zone.",
+          "sv": "Ändringar i definitionerna, Zonen."
+        },
+        "source": "RRS F, Changes to the Definitions",
+        "also": [
+          "Zone"
+        ]
+      },
+      {
+        "id": "rF1-q2",
+        "prompt": {
+          "fi": "Milloin leijalauta on kaatunut liitteen F määritelmän mukaan?",
+          "en": "When is a kiteboard capsized under the Appendix F definition?",
+          "sv": "När är en kitebräda kantrad enligt bilaga F:s definition?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun sen leijapurje on vedessä, tai sen leijanarut ovat sotkeutuneet toisen leijalaudan naruihin",
+              "en": "When her kite is in the water, or her lines are tangled with another kiteboard's lines",
+              "sv": "När kiten är i vattnet, eller linorna är intrasslade i en annan kitebrädas linor"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kun runko on kokonaan ympäri",
+              "en": "Only when the hull is completely capsized",
+              "sv": "Bara när skrovet är helt upp och ner"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Muutokset määritelmiin, Kaatunut.",
+          "en": "Changes to the Definitions, Capsized.",
+          "sv": "Ändringar i definitionerna, Kantrad."
+        },
+        "source": "RRS F, Changes to the Definitions",
+        "also": []
+      },
+      {
+        "id": "rF1-q3",
+        "prompt": {
+          "fi": "Pätevätkö ”selvästi perässä ja edessä” sekä peitto -käsitteet eri halsseilla oleviin leijalautoihin?",
+          "en": "Do 'clear astern and clear ahead' and overlap apply to kiteboards on opposite tacks?",
+          "sv": "Gäller 'klar akter om och klar för om' samt överlapp för kitebrädor på motsatta halsar?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain, jos molemmat purjehtivat yli 90 astetta tosituulen suunnasta",
+              "en": "Only if both are sailing more than 90 degrees from the true wind",
+              "sv": "Bara om båda seglar mer än 90 grader från den sanna vinden"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina samoin kuin samalla halssilla oleviin",
+              "en": "Yes, always, the same as for boards on the same tack",
+              "sv": "Ja, alltid, precis som för brädor på samma halsar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Muutokset määritelmiin, Selvästi perässä ja edessä; peittää.",
+          "en": "Changes to the Definitions, Clear Astern and Clear Ahead; Overlap.",
+          "sv": "Ändringar i definitionerna, Klar akter om och klar för om; överlapp."
+        },
+        "source": "RRS F, Changes to the Definitions",
+        "also": [
+          "Clear Astern and Clear Ahead; Overlap"
+        ]
+      },
+      {
+        "id": "rF1-q4",
+        "prompt": {
+          "fi": "Leijalauta ylittää maalilinjan radan puolelta mutta jatkaa sen jälkeen radan purjehtimista. Onko se tullut maaliin?",
+          "en": "A kiteboard crosses the finishing line from the course side but then keeps sailing the course. Has she finished?",
+          "sv": "En kitebräda skär mållinjen från bansidan men fortsätter sedan segla banan. Har den gått i mål?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, linjan ylitys riittää aina",
+              "en": "Yes, crossing the line is always enough",
+              "sv": "Ja, det räcker alltid att skära linjen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Muutokset määritelmiin, Tulla maaliin.",
+          "en": "Changes to the Definitions, Finish.",
+          "sv": "Ändringar i definitionerna, Gå i mål."
+        },
+        "source": "RRS F, Changes to the Definitions",
+        "also": [
+          "Finish"
+        ]
+      },
+      {
+        "id": "rF1-q5",
+        "prompt": {
+          "fi": "Mitä kulkuun oikeutetun leijalaudan pitää liitteen F mukaan pystyä tekemään, jotta toinen lauta pysyy loitolla — lisäyksenä pääsäännön ehtoon?",
+          "en": "What must the right-of-way kiteboard be able to do, as an Appendix F addition to the main rule's condition, for the other board to be keeping clear?",
+          "sv": "Vad måste en bräda med rätt till väg kunna göra, som ett tillägg i bilaga F till huvudregelns villkor, för att den andra brädan ska hålla undan?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Muuttamaan suuntaa kumpaankin suuntaan tai siirtämään leijapurjetta mihin tahansa suuntaan ilman välitöntä kosketusta",
+              "en": "Change course in either direction or move her kite any way without immediate contact",
+              "sv": "Ändra kurs åt båda hållen eller flytta sin kite åt vilket håll som helst utan omedelbar kontakt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pysähtymään kokonaan tarvittaessa",
+              "en": "Come to a complete stop if needed",
+              "sv": "Stanna helt om det behövs"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Muutokset määritelmiin, Pysyä loitolla.",
+          "en": "Changes to the Definitions, Keep Clear.",
+          "sv": "Ändringar i definitionerna, Hålla undan."
+        },
+        "source": "RRS F, Changes to the Definitions",
+        "also": [
+          "Keep Clear"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "F2",
+    "section": "F",
+    "title": {
+      "fi": "Muutokset osan 2 sääntöihin",
+      "sv": "Ändringar av reglerna i del 2",
+      "en": "Changes to the Part 2 Rules"
+    },
+    "explain": {
+      "fi": "Osan 2 johdantoon lisätään sotkeentuminen loukkaantumisen ja vakavan vahingon rinnalle. Sääntö 13 (vastakäännöstä tehdessä) poistetaan kokonaan — leijalaudoilla ei ole erillistä vastakäännössääntöä. Sääntö 16 (suunnan tai leijapurjeen sijainnin muuttaminen): kulkuun oikeutetun on annettava tilaa jatkaa loitolla pysymistä, ja luovilla vasemmalla halssilla suojan puolelta ohittava lauta on suojattu — oikealla halssilla oleva ei saa laskea kurssia tai siirtää leijapurjettaan, jos se pakottaisi vasemman halssin laudan heti muuttamaan suuntaansa tai leijapurjeensa sijaintia. Sääntö 17 (samalla halssilla, oikea suunta -rajoitus) poistetaan kokonaan. Sääntö 18 (merkkitila): pätee, kun laudat jättävät merkin samalle puolelle ja ainakin yksi on vyöhykkeessä, muttei eri halsseilla olevien välillä ensimmäisen laudan saapuessa vyöhykkeeseen eikä lähestyvän ja poistuvan laudan välillä; lakkaa pätemästä kokonaan, kun merkkitila on annettu. Peitto ensimmäisen laudan saapuessa vyöhykkeeseen ratkaisee antamisvelvollisuuden, joka jatkuu niin kauan kuin sääntö pätee; velvollisuus lakkaa heti, jos kumpi tahansa osapuoli vaihtaa halssia — ei vasta tuulensilmän ohituksella kuten eräissä muissa liitteissä. Oikeus merkkitilaan lakkaa myös vyöhykkeestä poistuttaessa, jolloin sääntöä sovelletaan tarvittaessa uudelleen. Halssinvaihto vyöhykkeessä ei saa viedä kulkuoikeutettua lautaa tarpeettoman kauas merkistä, jos se vaikuttaa toisen laudan kurssiin; tämä ei koske porttimerkkiä eikä maalimerkkiä. Sääntö 19.2(a): kulkuoikeutettu saa valita, ohittaako esteen oikealta vai vasemmalta, mutta suunnan tai leijapurjeen muuttaminen vaatii tilan antamisen toiselle laudalle. Säännöt 20.1(a) ja 20.4: vastakäännöstila vaaditaan, kun este edellyttää pian olennaista kurssin tai leijapurjeen muutosta; käsimerkit muuttuvat leijalaudoille sopiviksi (käsivarren pyörittäminen pään yläpuolella huudolle ”tilaa vastakäännökseen”). Ryhmä D:n alkuteksti muuttuu: kun sääntö 21 tai 22 pätee kahden leijalaudan välillä, ryhmien A ja C säännöt eivät päde. Sääntö 21.3 ja uusi 21.4: viimeisen minuutin ajan ennen lähtöä pysähtyvän, merkittävästi hidastuvan tai etenemättömän laudan on pysyttävä loitolla kaikista muista, paitsi vahingossa kaatuneena, ja hyppäävän laudan on pysyttävä loitolla hyppäämättömästä laudasta. Sääntö 22 (kaatuneena, elpymässä, karilla, pelastustoimissa): mahdollisuuksien mukaan on vältettävä kaatunutta, karilla olevaa tai pelastavaa lautaa, ja elpyvän laudan on pysyttävä loitolla muista.",
+      "en": "The Part 2 preamble adds a tangle alongside injury and serious damage. Rule 13 (while tacking) is deleted entirely — kiteboards have no separate tacking rule. Rule 16 (changing course or kite position): the right-of-way board must give room to keep clear, and on a beat a port-tack board keeping clear to leeward is protected — the starboard-tack board may not bear away or move her kite if that forces the port-tack board to change course or kite position immediately. Rule 17 (same tack; proper course) is deleted entirely. Rule 18 (mark-room): applies when boards must leave a mark on the same side and at least one is in the zone, but not between boards on opposite tacks when the first reaches the zone, nor between one approaching and one leaving; it stops applying entirely once mark-room has been given. The overlap when the first board reaches the zone decides who must give mark-room, and the duty continues for as long as the rule applies; it ends immediately if either board changes tack — not only once passing head to wind, unlike some other appendices. The entitlement also ends on leaving the zone, after which the rule is reapplied if needed. Changing tack in the zone may not take the right-of-way board needlessly far from the mark if it affects another board's course; this does not apply at a gate or finishing mark. Rule 19.2(a): the right-of-way board may choose which side to pass an obstruction, but changing course or kite position to do so requires giving the other board room. Rules 20.1(a) and 20.4: room to tack is needed when an obstruction will soon require a substantial change of course or kite position; the arm signals are adapted for kiteboards (circling one hand over the head for 'Room to tack'). Section D's preamble changes: when rule 21 or 22 applies between two kiteboards, Section A and C rules do not. Rule 21.3 and new 21.4: during the last minute before the start, a board that stops, slows significantly or makes no real progress must keep clear of all others, unless accidentally capsized, and a jumping board must keep clear of one that is not. Rule 22 (capsized, recovering, aground, rescuing): where possible, avoid a board that is capsized, aground or helping in a rescue, and a recovering board must keep clear of others.",
+      "sv": "Inledningen till del 2 lägger till en trassel vid sidan av personskada och allvarlig sakskada. Regel 13 (under stagvändning) stryks helt — kitebrädor har ingen separat stagvändningsregel. Regel 16 (ändra kurs eller kitens läge): båten med rätt till väg måste ge plats att hålla undan, och i kryss är en båt för babords halsar som håller undan i lä skyddad — båten för styrbords halsar får inte falla eller flytta sin kite om det tvingar båten för babords halsar att omedelbart ändra kurs eller kitens läge. Regel 17 (samma halsar; tillbörlig kurs) stryks helt. Regel 18 (märkesplats): gäller när brädor måste lämna ett märke på samma sida och minst en är i zonen, men inte mellan brädor på motsatta halsar när den första når zonen, inte heller mellan en som närmar sig och en som lämnar; den upphör att gälla helt när märkesplats har getts. Överlappet när den första brädan når zonen avgör vem som ska ge märkesplats, och skyldigheten fortsätter så länge regeln gäller; den upphör omedelbart om någon av brädorna byter halsar — inte först vid passage av vindögat som i vissa andra bilagor. Rätten upphör också när zonen lämnas, varefter regeln tillämpas igen om det behövs. Att byta halsar i zonen får inte ta båten med rätt till väg onödigt långt från märket om det påverkar en annan brädas kurs; detta gäller inte vid en gate eller ett målmärke. Regel 19.2a: båten med rätt till väg får välja vilken sida den passerar ett hinder på, men att ändra kurs eller kitens läge för det kräver att ge den andra brädan plats. Reglerna 20.1a och 20.4: plats att stagvända behövs när ett hinder snart kräver en väsentlig ändring av kurs eller kitens läge; armsignalerna är anpassade för kitebrädor (att cirkla en hand över huvudet för 'Plats att stagvända'). Inledningen till grupp D ändras: när regel 21 eller 22 gäller mellan två kitebrädor, gäller inte grupp A och C:s regler. Regel 21.3 och ny regel 21.4: under sista minuten före start måste en bräda som stannar, saktar ner betydligt eller inte gör verklig framgång hålla undan för alla andra, om den inte är oavsiktligt kantrad, och en hoppande bräda måste hålla undan för en som inte hoppar. Regel 22 (kantrad, återfår kontroll, på grund, räddar): om möjligt undvika en bräda som är kantrad, på grund eller hjälper till vid en räddning, och en bräda som återfår kontroll måste hålla undan för andra."
+    },
+    "note": {
+      "fi": "Liite F koskee leijalautailun ratakilpailuja; muualla säännöissä ”vene” tarkoittaa tilanteesta riippuen ”leijalautaa” tai ”venettä”. Ruotsinkielinen sääntökirja ei sisällä liitettä F ollenkaan — Svenska Seglarförbundet on päättänyt olla kääntämättä sitä ja viittaa englanninkieliseen tekstiin World Sailingin verkkosivuilla; vain suomenkielinen kirja sisältää käännöksen. Ruotsinkieliset selitykset tällä sivulla ovat siis omaa käännöstä ilman virallista ruotsinkielistä vertailutekstiä. Case Bookissa ei ole liitettä F koskevia tapauksia.",
+      "en": "Appendix F covers kiteboarding course racing; elsewhere in the rules ”boat” means ”kiteboard” or ”boat” as the context requires. The Swedish rulebook does not include Appendix F at all — the Swedish Sailing Federation chose not to translate it and refers readers to the English text on the World Sailing website; only the Finnish book has a translation. The Swedish explanations on this page are therefore an independent translation with no official Swedish source to check against. The Case Book has no cases on Appendix F.",
+      "sv": "Bilaga F gäller kappsegling på bana för kiteboard; på andra ställen i reglerna betyder ”båt” ”kitebräda” eller ”båt” beroende på sammanhanget. Den svenska regelboken innehåller inte bilaga F alls — Svenska Seglarförbundet har valt att inte översätta den och hänvisar till den engelska texten på World Sailings webbplats; bara den finska boken har en översättning. De svenska förklaringarna på den här sidan är därför en egen översättning utan någon officiell svensk källtext att jämföra mot. Case Book har inga fall om bilaga F."
+    },
+    "source": "RRS F2, 13, 16, 17, 18, 19.2(a), 20, 21.3, 21.4, 22",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "13"
+        ],
+        "note": {
+          "fi": "F2 poistaa säännön 13 kokonaan — leijalaudoille ei ole erillistä vastakäännössääntöä kuten purjeveneille tai -laudoille.",
+          "en": "F2 deletes rule 13 entirely — kiteboards have no separate tacking rule the way sailboats or windsurfing boards do.",
+          "sv": "F2 stryker regel 13 helt — kitebrädor har ingen separat stagvändningsregel som segelbåtar eller vindsurfingbrädor har."
+        }
+      },
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "F2:n merkkitilasääntö päättää antamisvelvollisuuden heti halssinvaihdosta, mikä on tiukempaa kuin esimerkiksi liitteen B tuulensilmän ohitukseen sidottu sääntö.",
+          "en": "F2's mark-room rule ends the duty to give mark-room as soon as either board changes tack, stricter than, for example, Appendix B's rule tied to passing head to wind.",
+          "sv": "F2:s märkesplatsregel upphör att gälla så snart någon av brädorna byter halsar, strängare än till exempel bilaga B:s regel kopplad till att passera vindögat."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rF2-q1",
+        "prompt": {
+          "fi": "Mitä liite F tekee säännölle 13 (vastakäännöstä tehdessä)?",
+          "en": "What does Appendix F do to rule 13 (while tacking)?",
+          "sv": "Vad gör bilaga F med regel 13 (under stagvändning)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistaa sen kokonaan",
+              "en": "Deletes it entirely",
+              "sv": "Stryker den helt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhdistää sen sääntöön 16",
+              "en": "Merges it into rule 16",
+              "sv": "Slår ihop den med regel 16"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F2, sääntö 13.",
+          "en": "F2, rule 13.",
+          "sv": "F2, regel 13."
+        },
+        "source": "RRS F2, 13",
+        "also": [
+          "13"
+        ]
+      },
+      {
+        "id": "rF2-q2",
+        "prompt": {
+          "fi": "Milloin säännön 18 mukainen merkkitilavelvollisuus lakkaa liitteessä F, jos lauta vaihtaa halssia vyöhykkeessä?",
+          "en": "When does the rule 18 mark-room duty end in Appendix F if a board changes tack in the zone?",
+          "sv": "När upphör skyldigheten enligt regel 18 att ge märkesplats i bilaga F om en bräda byter halsar i zonen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Heti, kun kumpi tahansa osapuoli vaihtaa halssia",
+              "en": "Immediately, as soon as either board changes tack",
+              "sv": "Omedelbart, så snart någon av brädorna byter halsar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vasta kun merkkitilaan oikeutettu lauta ohittaa tuulensilmän",
+              "en": "Only once the board entitled to mark-room passes head to wind",
+              "sv": "Först när brädan med rätt till märkesplats passerar vindögat"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F2, sääntö 18.2(b).",
+          "en": "F2, rule 18.2(b).",
+          "sv": "F2, regel 18.2b."
+        },
+        "source": "RRS F2, 18.2(b)",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "rF2-q3",
+        "prompt": {
+          "fi": "Mitä hyppäävän leijalaudan täytyy tehdä hyppäämättömän laudan suhteen (sääntö 21.4)?",
+          "en": "What must a jumping kiteboard do relative to one that is not jumping (rule 21.4)?",
+          "sv": "Vad måste en hoppande kitebräda göra gentemot en som inte hoppar (regel 21.4)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pysyä loitolla siitä",
+              "en": "Keep clear of her",
+              "sv": "Hålla undan för den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Antaa hänelle tilaa hypätä myös",
+              "en": "Give her room to jump too",
+              "sv": "Ge den plats att hoppa också"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F2, sääntö 21.4.",
+          "en": "F2, rule 21.4.",
+          "sv": "F2, regel 21.4."
+        },
+        "source": "RRS F2, 21.4",
+        "also": []
+      },
+      {
+        "id": "rF2-q4",
+        "prompt": {
+          "fi": "Mikä erityisvaatimus koskee viimeistä minuuttia ennen lähtöä pysähtyvää tai merkittävästi hidastuvaa lautaa (sääntö 21.3)?",
+          "en": "What special requirement applies to a board that stops or slows significantly in the last minute before the start (rule 21.3)?",
+          "sv": "Vilket särskilt krav gäller för en bräda som stannar eller saktar ner betydligt under sista minuten före start (regel 21.3)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sen täytyy pysyä loitolla kaikista muista, ellei se ole vahingossa kaatunut",
+              "en": "She must keep clear of all others, unless accidentally capsized",
+              "sv": "Den måste hålla undan för alla andra, om den inte är oavsiktligt kantrad"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sen täytyy vetäytyä kilpapurjehduksesta",
+              "en": "She must retire from the race",
+              "sv": "Den måste utgå ur kappseglingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F2, sääntö 21.3.",
+          "en": "F2, rule 21.3.",
+          "sv": "F2, regel 21.3."
+        },
+        "source": "RRS F2, 21.3",
+        "also": []
+      },
+      {
+        "id": "rF2-q5",
+        "prompt": {
+          "fi": "Milloin ryhmien A ja C säännöt eivät päde kahden leijalaudan välillä?",
+          "en": "When do Section A and C rules not apply between two kiteboards?",
+          "sv": "När gäller inte grupp A och C:s regler mellan två kitebrädor?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun sääntö 21 tai 22 pätee niiden välillä",
+              "en": "When rule 21 or 22 applies between them",
+              "sv": "När regel 21 eller 22 gäller mellan dem"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina kilpapurjehduksen viimeisellä rataosuudella",
+              "en": "Always on the last leg of the race",
+              "sv": "Alltid på kappseglingens sista banben"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F2, Ryhmä D – alkuteksti.",
+          "en": "F2, Section D preamble.",
+          "sv": "F2, inledningen till grupp D."
+        },
+        "source": "RRS F2, Section D Preamble",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "F3",
+    "section": "F",
+    "title": {
+      "fi": "Muutokset osan 3 ja 4 sääntöihin",
+      "sv": "Ändringar av reglerna i del 3 och 4",
+      "en": "Changes to the Part 3 and 4 Rules"
+    },
+    "explain": {
+      "fi": "Sääntö 26 (lähettäminen) korvataan lyhyemmällä järjestelmällä: luokan lippu varoitusviestinä 3 minuuttia ennen lähtöä, lippu U tai musta lippu valmiusviestinä 2 minuuttia ennen, sen lasku yhden minuutin merkkinä, ja luokan lipun lasku lähtöviestinä. Sääntö 29.1 (ennenaikaisesti lähteneiden viesti) poistetaan kokonaan. Säännöt 30.1 ja 30.2 (I- ja Z-lippusäännöt) poistetaan kokonaan; säännöissä 30.3 ja 30.4 (U- ja musta lippu) sana ”runko” muuttuu ”rungoksi tai kilpailijaksi”, ja 30.4:ssä ”purjenumero” muuttuu ”kilpailijanumeroksi”. Sääntö 36 (uusintalähdöt ja -purjehdukset): rangaistuspoikkeusten luettelosta poistetaan 30.2, koska se on itse poistettu, ja sotkeentuminen lisätään vahingon rinnalle. Sääntö 41 (ulkopuolinen apu) saa kaksi uutta poikkeusta: apu toiselta saman purjehduksen kilpailijalta uudelleen vesillelaskuun, ja apu varusteiden vaihtoon mutta vain vesillelaskualueella. Sääntö 42 (eteneminen) muuttuu: perussääntö sallii vain tuulen ja veden käytön nopeuden lisäämiseen, säilyttämiseen tai vähentämiseen, mutta poikkeuksina sallitaan laudalla olevan kilpailijan oma avustamaton toiminta, uinti, kävely tai melonta kaatuneena tai elpyessä — jos lauta ei saa siitä huomattavaa etua — sekä mikä tahansa etenemiskeino vaarassa olevan henkilön tai aluksen auttamiseksi. Sääntö 43.1(c) (vapauttaminen): kulkuun oikeutettu, tai tilaan tai merkkitilaan oikeutettu lauta vapautetaan säännön 14 rikkomisesta, jos kosketus ei aiheuta vahinkoa, loukkaantumista tai sotkeentumista; uusi 43.1(d) vapauttaa säännön 15 rikkomisesta kokonaan, jos kosketusta ei tapahdu. Sääntö 44 (tapahtuman aikaiset rangaistukset): Yhden Kierroksen Rangaistus korvaa kahden kierroksen rangaistuksen osan 2 säännön tai säännön 31 rikkomuksesta; päällekkäisestä 31-rikkomuksesta ei rangaista erikseen; loukkaantumisen, vakavan vahingon, sotkeentumisen tai merkittävän edun/haitan seurauksena rangaistus on vetäytyminen; rangaistus suoritetaan tekemällä rungon uloke vedessä viipymättä 360° käännös ilman erillistä vastakäännös- tai jiippivaatimusta. Sääntö 50.1(a): kielletään painon lisäämiseen tarkoitetut vaatteet ja varusteet, mutta sallitaan juomasäiliö, jonka on painettava vähintään litran verran ja enintään 1,5 kiloa täytenä. Osan 4 poistetut säännöt: 45, 48.2, 49, 50.2, 51, 52, 54, 55 ja 56.1.",
+      "en": "Rule 26 (starting races) is replaced by a shorter system: the class flag as the warning signal 3 minutes before the start, flag U or black as the preparatory signal 2 minutes before, lowering it as the one-minute signal, and lowering the class flag as the starting signal. Rule 29.1 (the signal for boats starting early) is deleted entirely. Rules 30.1 and 30.2 (the I and Z Flag Rules) are deleted entirely; in rules 30.3 and 30.4 (U and black flag) 'hull' changes to 'hull or competitor', and in 30.4 'sail number' changes to 'competitor number'. Rule 36 (races restarted or resailed): 30.2 is dropped from the list of penalty exceptions since it no longer exists, and a tangle is added alongside damage. Rule 41 (outside help) gets two new exceptions: help from another competitor in the same race to assist a relaunch, and help to change equipment, but only in the launching area. Rule 42 (propulsion) changes: the basic rule allows only wind and water to increase, maintain or decrease speed, but exceptions permit the competitor's own unassisted action on the board, swimming, walking or paddling while capsized or recovering — provided no significant advantage results — and any means of propulsion to help a person or vessel in danger. Rule 43.1(c) (exoneration): a right-of-way board, or one sailing within room or mark-room she is entitled to, is exonerated for breaking rule 14 if contact causes no damage, injury or tangle; new 43.1(d) exonerates a rule 15 breach entirely if there is no contact. Rule 44 (penalties at the time of an incident): a One-Turn Penalty replaces the Two-Turns Penalty for a Part 2 rule or rule 31 breach; an overlapping rule 31 breach is not separately penalized; injury, serious damage, a tangle, or a significant advantage or disadvantage makes the penalty retirement instead; the turn is taken with the hull appendage in the water, with no separate tack or gybe required. Rule 50.1(a): bans clothing or equipment meant to increase weight, but allows a drinking container that must weigh at least one litre and no more than 1.5 kilograms full. Part 4 rules deleted: 45, 48.2, 49, 50.2, 51, 52, 54, 55 and 56.1.",
+      "sv": "Regel 26 (starta kappseglingar) ersätts av ett kortare system: klassflaggan som varningssignal 3 minuter före start, flagga U eller svart som förberedelsesignal 2 minuter före, att ta ner den som enminutssignal, och att ta ner klassflaggan som startsignal. Regel 29.1 (signalen för båtar som startar för tidigt) stryks helt. Reglerna 30.1 och 30.2 (I- och Z-flaggreglerna) stryks helt; i reglerna 30.3 och 30.4 (U och svart flagga) ändras ”skrov” till ”skrov eller tävlande”, och i 30.4 ändras ”segelnummer” till ”tävlandenummer”. Regel 36 (kappseglingar som startas om eller seglas om): 30.2 tas bort från listan över straffundantag eftersom den inte längre finns, och en trassel läggs till vid sidan av sakskada. Regel 41 (hjälp utifrån) får två nya undantag: hjälp från en annan tävlande i samma kappsegling för att assistera vid en ny start, och hjälp att byta utrustning, men bara i startområdet för utrustning. Regel 42 (framdrivning) ändras: grundregeln tillåter bara vind och vatten för att öka, bibehålla eller minska farten, men undantag tillåter den tävlandes egen oassisterade åtgärd på brädan, simning, gående eller paddling vid kantring eller när den återfår kontroll — förutsatt att ingen betydande fördel uppstår — samt vilket framdrivningssätt som helst för att hjälpa en person eller farkost i fara. Regel 43.1c (frikännande): en bräda med rätt till väg, eller en som seglar inom plats eller märkesplats den har rätt till, frikänns för brott mot regel 14 om kontakten inte orsakar sak- eller personskada eller en trassel; ny regel 43.1d frikänner ett brott mot regel 15 helt om ingen kontakt sker. Regel 44 (straff vid händelsen): ett ensvängsstraff ersätter tvåvarvsstraffet för ett brott mot en regel i del 2 eller regel 31; ett samtidigt brott mot regel 31 straffas inte separat; personskada, allvarlig sakskada, en trassel, eller en betydande fördel eller nackdel gör att straffet blir att utgå istället; svängen görs med skrovbihanget i vattnet, utan krav på separat stagvändning eller gippning. Regel 50.1a: förbjuder kläder eller utrustning avsedd att öka vikten, men tillåter en dryckesbehållare som ska väga minst ett kilo och högst 1,5 kilo fylld. Reglerna i del 4 som stryks: 45, 48.2, 49, 50.2, 51, 52, 54, 55 och 56.1."
+    },
+    "note": {
+      "fi": "Suomenkielinen liite F:n sääntö 36 -kohta on merkitty kirjaimella (c) ja säilyttää poikkeusluettelossa viittauksen sääntöön 30.2, vaikka samassa liitteessä (F3, sääntö 30) säännöt 30.1 ja 30.2 on juuri poistettu kokonaan; englanninkielinen teksti käyttää kirjainta (b) (vastaa pääsäännön 36(b):tä) eikä mainitse 30.2:ta enää. Suomenkielinen kohta vaikuttaa painovirheeltä — jäänteeltä pääsäännön tekstistä, jota ei ole muokattu liitteen muutosta vastaavaksi. Liite F koskee leijalautailun ratakilpailuja; muualla säännöissä ”vene” tarkoittaa tilanteesta riippuen ”leijalautaa” tai ”venettä”. Ruotsinkielinen sääntökirja ei sisällä liitettä F ollenkaan — Svenska Seglarförbundet on päättänyt olla kääntämättä sitä ja viittaa englanninkieliseen tekstiin World Sailingin verkkosivuilla; vain suomenkielinen kirja sisältää käännöksen. Ruotsinkieliset selitykset tällä sivulla ovat siis omaa käännöstä ilman virallista ruotsinkielistä vertailutekstiä. Case Bookissa ei ole liitettä F koskevia tapauksia.",
+      "en": "The Finnish Appendix F's rule 36 point is labelled (c) and keeps a reference to rule 30.2 in the exception list, even though the same appendix (F3, rule 30) has just deleted rules 30.1 and 30.2 entirely; the English text uses (b) (matching the main rule's 36(b)) and no longer mentions 30.2. The Finnish point looks like a misprint — a leftover from the main rule's text that was not edited to match the appendix's own change. Appendix F covers kiteboarding course racing; elsewhere in the rules ”boat” means ”kiteboard” or ”boat” as the context requires. The Swedish rulebook does not include Appendix F at all — the Swedish Sailing Federation chose not to translate it and refers readers to the English text on the World Sailing website; only the Finnish book has a translation. The Swedish explanations on this page are therefore an independent translation with no official Swedish source to check against. The Case Book has no cases on Appendix F.",
+      "sv": "Den finska bilaga F:s punkt om regel 36 är märkt (c) och behåller en hänvisning till regel 30.2 i undantagslistan, trots att samma bilaga (F3, regel 30) just har strukit reglerna 30.1 och 30.2 helt; den engelska texten använder (b) (som motsvarar huvudregelns 36b) och nämner inte längre 30.2. Den finska punkten verkar vara en felskrivning — en kvarleva från huvudregelns text som inte redigerats för att matcha bilagans egen ändring. Bilaga F gäller kappsegling på bana för kiteboard; på andra ställen i reglerna betyder ”båt” ”kitebräda” eller ”båt” beroende på sammanhanget. Den svenska regelboken innehåller inte bilaga F alls — Svenska Seglarförbundet har valt att inte översätta den och hänvisar till den engelska texten på World Sailings webbplats; bara den finska boken har en översättning. De svenska förklaringarna på den här sidan är därför en egen översättning utan någon officiell svensk källtext att jämföra mot. Case Book har inga fall om bilaga F."
+    },
+    "source": "RRS F3, F4, 26, 29.1, 30, 36, 41, 42, 43.1, 44, 50.1(a)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "F4 korvaa kahden kierroksen rangaistuksen Yhden Kierroksen Rangaistuksella, samantyyppisellä kevennyksellä kuin liitteen D Yhden Kierroksen Rangaistus joukkuekilpailussa.",
+          "en": "F4 replaces the Two-Turns Penalty with a One-Turn Penalty, a similar lightening to Appendix D's One-Turn Penalty in team racing.",
+          "sv": "F4 ersätter tvåvarvsstraffet med ett ensvängsstraff, en liknande lättnad som bilaga D:s ensvängsstraff i lagkappsegling."
+        }
+      },
+      {
+        "rules": [
+          "42"
+        ],
+        "note": {
+          "fi": "F4 sallii leijalaudoille uinnin, kävelyn tai melonnan kaatuneena tai elpyessä, kunhan se ei tuota merkittävää etua — eri muotoilu kuin liitteen B:n pumppaus- ja tuuletuspoikkeus.",
+          "en": "F4 allows kiteboards to swim, walk or paddle while capsized or recovering, as long as no significant advantage results — a different exception from Appendix B's pumping and fanning allowance.",
+          "sv": "F4 tillåter kitebrädor att simma, gå eller paddla vid kantring eller när de återfår kontroll, så länge ingen betydande fördel uppstår — ett annat undantag än bilaga B:s tillstånd att pumpa och fläkta."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rF3-q1",
+        "prompt": {
+          "fi": "Mikä lippu toimii valmiusviestinä liitteen F lähtöjärjestelmässä (sääntö 26)?",
+          "en": "Which flag is the preparatory signal in Appendix F's starting system (rule 26)?",
+          "sv": "Vilken flagga är förberedelsesignalen i bilaga F:s startsystem (regel 26)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "U tai musta lippu",
+              "en": "Flag U or black",
+              "sv": "Flagga U eller svart"
+            }
+          },
+          {
+            "t": {
+              "fi": "P tai keltainen lippu",
+              "en": "Flag P or yellow",
+              "sv": "Flagga P eller gul"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F3, sääntö 26.",
+          "en": "F3, rule 26.",
+          "sv": "F3, regel 26."
+        },
+        "source": "RRS F3, 26",
+        "also": []
+      },
+      {
+        "id": "rF3-q2",
+        "prompt": {
+          "fi": "Mitä liite F tekee säännöille 30.1 ja 30.2 (I- ja Z-lippusäännöt)?",
+          "en": "What does Appendix F do to rules 30.1 and 30.2 (the I and Z Flag Rules)?",
+          "sv": "Vad gör bilaga F med reglerna 30.1 och 30.2 (I- och Z-flaggreglerna)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Poistaa ne kokonaan",
+              "en": "Deletes them entirely",
+              "sv": "Stryker dem helt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhdistää ne yhdeksi säännöksi",
+              "en": "Merges them into one rule",
+              "sv": "Slår ihop dem till en regel"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F3, sääntö 30.",
+          "en": "F3, rule 30.",
+          "sv": "F3, regel 30."
+        },
+        "source": "RRS F3, 30",
+        "also": []
+      },
+      {
+        "id": "rF3-q3",
+        "prompt": {
+          "fi": "Minkä rangaistuksen leijalauta ottaa osan 2 säännön tai säännön 31 rikkomisesta (sääntö 44.1)?",
+          "en": "What penalty does a kiteboard take for breaking a Part 2 rule or rule 31 (rule 44.1)?",
+          "sv": "Vilket straff tar en kitebräda för brott mot en regel i del 2 eller regel 31 (regel 44.1)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden Kierroksen Rangaistuksen",
+              "en": "A One-Turn Penalty",
+              "sv": "Ett ensvängsstraff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden Kierroksen Rangaistuksen",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F4, sääntö 44.1.",
+          "en": "F4, rule 44.1.",
+          "sv": "F4, regel 44.1."
+        },
+        "source": "RRS F4, 44.1",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rF3-q4",
+        "prompt": {
+          "fi": "Vaaditaanko Yhden Kierroksen Rangaistuksessa erillinen vastakäännös tai jiippi?",
+          "en": "Does the One-Turn Penalty require a separate tack or gybe?",
+          "sv": "Kräver ensvängsstraffet en separat stagvändning eller gippning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, molemmat",
+              "en": "Yes, both",
+              "sv": "Ja, båda"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F4, sääntö 44.2.",
+          "en": "F4, rule 44.2.",
+          "sv": "F4, regel 44.2."
+        },
+        "source": "RRS F4, 44.2",
+        "also": []
+      },
+      {
+        "id": "rF3-q5",
+        "prompt": {
+          "fi": "Kuinka painava täysi juomasäiliö saa enintään olla säännön 50.1(a) mukaan liitteessä F?",
+          "en": "How heavy, at most, may a full drinking container be under rule 50.1(a) in Appendix F?",
+          "sv": "Hur tung, som mest, får en full dryckesbehållare vara enligt regel 50.1a i bilaga F?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "1,5 kilogrammaa",
+              "en": "1.5 kilograms",
+              "sv": "1,5 kilo"
+            }
+          },
+          {
+            "t": {
+              "fi": "3 kilogrammaa",
+              "en": "3 kilograms",
+              "sv": "3 kilo"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F4, sääntö 50.1(a).",
+          "en": "F4, rule 50.1(a).",
+          "sv": "F4, regel 50.1a."
+        },
+        "source": "RRS F4, 50.1(a)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "F4",
+    "section": "F",
+    "title": {
+      "fi": "Muutokset osan 5 ja 7 sääntöihin",
+      "sv": "Ändringar av reglerna i del 5 och 7",
+      "en": "Changes to the Part 5 and 7 Rules"
+    },
+    "explain": {
+      "fi": "Sääntö 60.2 (aikomus protestoida) muuttuu: protestoivan leijalaudan on huudettava ”protesti” ensimmäisellä kohtuullisella tilaisuudella, tai jos protestoija on lautakunta, ilmoitettava leijalaudalle protestiajan kuluessa aikomuksestaan; poikkeuksena — protestin kohde ei ollut tapahtumahetkellä huutoetäisyydellä, kyse oli radan purjehtimisen virheestä, protestoija ei nähnyt tapahtumaa kilpailualueella, tai lautakunta protestoi säännön 60.4(c) nojalla — riittää pelkkä ilmoitus protestointiaikeesta ensimmäisellä kohtuullisella tilaisuudella; jos tapahtumahetkellä on ilmeistä, että miehistön jäsen on vaarassa tai on aiheutunut loukkaantumista, vakavaa vahinkoa tai sotkeentumista, 60.2(a) ja (b) eivät koske protestoivaa lautaa, mutta sen on silti yritettävä ilmoittaa aikeestaan protestiajan kuluessa. Sääntö 60.5(d) (mittauspoikkeamat): leijalautaa ei rangaista, jos toleranssit ylittävät poikkeamat johtuvat vahingoista tai normaalista kulumisesta eivätkä paranna suorituskykyä, mutta laudalla ei saa kilpailla uudelleen ennen korjausta, ellei kohtuullista tilaisuutta siihen ole ollut; uusi 60.5(e): jos leijalauta aiheuttaa sotkeentumisen toisen tai myöhemmän kerran samassa kilpailussa eikä sitä vapauteta, seuraa hylkäys, jota ei voi jättää pois lopputuloksista. Sääntö 63.5(d): mittaus-, luokkasääntö- tai vahinkoepäselvyydet osoitetaan asiantuntijataholle, jonka vastaus sitoo lautakuntaa. Uusi sääntö 63.8: karsintasarjan purjehduksissa poistetaan tietyt kirjalliset vaatimukset (60.3(a) ja (b), 61.2(a), 63.6(b)), ja protestit tai hyvityspyynnöt voidaan tehdä suullisesti protestilautakunnan jäsenelle mahdollisimman pian purjehduksen jälkeen; lautakunta voi ottaa näyttöä valitsemallaan tavalla ja ilmoittaa päätöksensä suullisesti. Uusi sääntö 70.6: muutoksenhakua ei sallita lajeissa ja kilpailumuodoissa, joissa on karsintasarjat. Osassa 7: säännön 90.2(c) viimeinen lause rajaa suulliset ohjeet vain tapauksiin, joissa purjehdusohjeissa on kerrottu tällaisesta menettelystä.",
+      "en": "Rule 60.2 (intention to protest) changes: a protesting kiteboard must hail 'Protest' at the first reasonable opportunity, or if the protestor is a committee, it must tell the kiteboard of its intention within the protest time limit; as an exception — the protestee was not within hailing distance at the time, the incident was an error in sailing the course, the protestor did not see the incident in the racing area, or a protest committee protests under rule 60.4(c) — only informing the protestee of the intention at the first reasonable opportunity is required; if at the time it is obvious a crew member is in danger, or injury, serious damage or a tangle has resulted, rules 60.2(a) and (b) do not apply to the protesting board, but she must still try to inform the other board within the protest time limit. Rule 60.5(d) (measurement deviations): a kiteboard is not penalized if deviations beyond tolerance were caused by damage or normal wear and did not improve performance, but she may not race again until corrected, unless there was no reasonable opportunity; new 60.5(e): if a kiteboard causes a tangle a second or later time in the same event and is not exonerated, her penalty is a disqualification that cannot be excluded. Rule 63.5(d): doubts about measurement, a class rule or damage are referred to a competent authority whose reply binds the committee. New rule 63.8: for an elimination-series race, certain written requirements are dropped (60.3(a) and (b), 61.2(a), 63.6(b)), and protests or redress requests may be made orally to a committee member as soon as reasonably possible after the race; the committee may take evidence as it sees fit and announce its decision orally. New rule 70.6: appeals are not permitted in disciplines and formats with elimination series. In Part 7: the last sentence of rule 90.2(c) limits oral instructions to cases where the sailing instructions state that procedure.",
+      "sv": "Regel 60.2 (avsikt att protestera) ändras: en protesterande kitebräda måste ropa ”Protest” vid första rimliga tillfälle, eller om den protesterande är en kommitté, måste den berätta för kitebrädan om sin avsikt inom protesttiden; som undantag — svaranden var inte inom ropavstånd vid tillfället, händelsen var ett fel i att segla banan, den protesterande såg inte händelsen i kappseglingsområdet, eller en protestkommitté protesterar enligt regel 60.4c — krävs bara att informera svaranden om avsikten vid första rimliga tillfälle; om det vid tillfället är uppenbart att en besättningsmedlem är i fara, eller personskada, allvarlig sakskada eller en trassel har uppstått, gäller inte reglerna 60.2a och b för den protesterande brädan, men den måste ändå försöka informera den andra brädan inom protesttiden. Regel 60.5d (mätavvikelser): en kitebräda straffas inte om avvikelser utöver toleransen orsakats av skada eller normalt slitage och inte förbättrat prestandan, men den får inte kappsegla igen förrän den rättats, om det inte saknats rimlig möjlighet; ny regel 60.5e: om en kitebräda orsakar en trassel en andra eller senare gång i samma tävling och inte frikänns, är straffet en diskvalifikation som inte kan strykas. Regel 63.5d: tveksamheter om mätning, en klassregel eller skada hänskjuts till en behörig myndighet vars svar binder kommittén. Ny regel 63.8: för en kappsegling i en utslagsserie tas vissa skriftliga krav bort (60.3a och b, 61.2a, 63.6b), och protester eller ansökningar om gottgörelse får göras muntligt till en kommittémedlem så snart som rimligt möjligt efter kappseglingen; kommittén får inhämta bevisning på det sätt den finner lämpligt och meddela sitt beslut muntligt. Ny regel 70.6: överklaganden är inte tillåtna i discipliner och format med utslagsserier. I del 7: sista meningen i regel 90.2c begränsar muntliga instruktioner till fall där seglingsföreskrifterna anger det tillvägagångssättet."
+    },
+    "note": {
+      "fi": "Liite F koskee leijalautailun ratakilpailuja; muualla säännöissä ”vene” tarkoittaa tilanteesta riippuen ”leijalautaa” tai ”venettä”. Ruotsinkielinen sääntökirja ei sisällä liitettä F ollenkaan — Svenska Seglarförbundet on päättänyt olla kääntämättä sitä ja viittaa englanninkieliseen tekstiin World Sailingin verkkosivuilla; vain suomenkielinen kirja sisältää käännöksen. Ruotsinkieliset selitykset tällä sivulla ovat siis omaa käännöstä ilman virallista ruotsinkielistä vertailutekstiä. Case Bookissa ei ole liitettä F koskevia tapauksia.",
+      "en": "Appendix F covers kiteboarding course racing; elsewhere in the rules ”boat” means ”kiteboard” or ”boat” as the context requires. The Swedish rulebook does not include Appendix F at all — the Swedish Sailing Federation chose not to translate it and refers readers to the English text on the World Sailing website; only the Finnish book has a translation. The Swedish explanations on this page are therefore an independent translation with no official Swedish source to check against. The Case Book has no cases on Appendix F.",
+      "sv": "Bilaga F gäller kappsegling på bana för kiteboard; på andra ställen i reglerna betyder ”båt” ”kitebräda” eller ”båt” beroende på sammanhanget. Den svenska regelboken innehåller inte bilaga F alls — Svenska Seglarförbundet har valt att inte översätta den och hänvisar till den engelska texten på World Sailings webbplats; bara den finska boken har en översättning. De svenska förklaringarna på den här sidan är därför en egen översättning utan någon officiell svensk källtext att jämföra mot. Case Book har inga fall om bilaga F."
+    },
+    "source": "RRS F5, F7, 60.2, 60.5(d), 60.5(e), 63.5(d), 63.8, 70.6, 90.2(c)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "F5 lieventää protestin huutamisvaatimusta useissa tilanteissa, mutta kiristää sotkeentumisen toistumisen seurausta 60.5(e):ssä hylkäykseen, jota ei voi jättää pois.",
+          "en": "F5 eases the protest hail requirement in several situations, but tightens the consequence of a repeated tangle in 60.5(e) to a non-excludable disqualification.",
+          "sv": "F5 lättar på kravet att ropa vid en protest i flera situationer, men skärper följden av en upprepad trassel i 60.5e till en diskvalifikation som inte kan strykas."
+        }
+      },
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Uusi sääntö 70.6 poistaa muutoksenhakuoikeuden kokonaan karsintasarjallisissa lajeissa ja kilpailumuodoissa.",
+          "en": "New rule 70.6 removes the right of appeal entirely in disciplines and formats with elimination series.",
+          "sv": "Ny regel 70.6 tar bort rätten att överklaga helt i discipliner och format med utslagsserier."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rF4-q1",
+        "prompt": {
+          "fi": "Milloin protestoivan leijalaudan riittää vain ilmoittaa protestointiaikeensa ensimmäisellä kohtuullisella tilaisuudella sen sijaan, että se huutaisi ”protesti”?",
+          "en": "When is it enough for a protesting kiteboard to just inform the protestee of her intention at the first reasonable opportunity, instead of hailing 'Protest'?",
+          "sv": "När räcker det för en protesterande kitebräda att bara informera svaranden om sin avsikt vid första rimliga tillfälle, i stället för att ropa ”Protest”?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Esimerkiksi kun protestin kohde ei ollut huutoetäisyydellä, kyse oli radan purjehtimisen virheestä, tai protestoija ei nähnyt tapahtumaa kilpailualueella",
+              "en": "For example when the protestee was not within hailing distance, the incident was an error in sailing the course, or the protestor did not see it in the racing area",
+              "sv": "Till exempel när svaranden inte var inom ropavstånd, händelsen var ett fel i att segla banan, eller den protesterande inte såg den i kappseglingsområdet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan; huuto vaaditaan aina",
+              "en": "Never; the hail is always required",
+              "sv": "Aldrig; ropet krävs alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F5, sääntö 60.2(b).",
+          "en": "F5, rule 60.2(b).",
+          "sv": "F5, regel 60.2b."
+        },
+        "source": "RRS F5, 60.2(b)",
+        "also": [
+          "60"
+        ]
+      },
+      {
+        "id": "rF4-q2",
+        "prompt": {
+          "fi": "Mikä seuraa, jos leijalauta aiheuttaa sotkeentumisen toisen tai myöhemmän kerran samassa kilpailussa eikä sitä vapauteta (sääntö 60.5(e))?",
+          "en": "What follows if a kiteboard causes a tangle a second or later time in the same event and is not exonerated (rule 60.5(e))?",
+          "sv": "Vad följer om en kitebräda orsakar en trassel en andra eller senare gång i samma tävling och inte frikänns (regel 60.5e)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Hylkäys, jota ei voi jättää pois lopputuloksista",
+              "en": "A disqualification that cannot be excluded",
+              "sv": "En diskvalifikation som inte kan strykas"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhden Kierroksen Rangaistus",
+              "en": "A One-Turn Penalty",
+              "sv": "Ett ensvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F5, sääntö 60.5(e).",
+          "en": "F5, rule 60.5(e).",
+          "sv": "F5, regel 60.5e."
+        },
+        "source": "RRS F5, 60.5(e)",
+        "also": []
+      },
+      {
+        "id": "rF4-q3",
+        "prompt": {
+          "fi": "Miten protesti tai hyvityspyyntö tehdään karsintasarjan purjehduksessa (sääntö 63.8)?",
+          "en": "How is a protest or redress request made about an elimination-series race (rule 63.8)?",
+          "sv": "Hur görs en protest eller ansökan om gottgörelse om en kappsegling i en utslagsserie (regel 63.8)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Suullisesti protestilautakunnan jäsenelle mahdollisimman pian purjehduksen jälkeen",
+              "en": "Orally to a protest committee member as soon as reasonably possible after the race",
+              "sv": "Muntligt till en protestkommittémedlem så snart som rimligt möjligt efter kappseglingen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kirjallisesti tavalliseen tapaan",
+              "en": "Only in writing as usual",
+              "sv": "Bara skriftligt som vanligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F5, sääntö 63.8(b).",
+          "en": "F5, rule 63.8(b).",
+          "sv": "F5, regel 63.8b."
+        },
+        "source": "RRS F5, 63.8(b)",
+        "also": []
+      },
+      {
+        "id": "rF4-q4",
+        "prompt": {
+          "fi": "Sallitaanko muutoksenhaku lajeissa ja kilpailumuodoissa, joissa on karsintasarjat (uusi sääntö 70.6)?",
+          "en": "Are appeals permitted in disciplines and formats with elimination series (new rule 70.6)?",
+          "sv": "Är överklaganden tillåtna i discipliner och format med utslagsserier (ny regel 70.6)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, mutta vain kansalliselle järjestölle",
+              "en": "Yes, but only to a national authority",
+              "sv": "Ja, men bara till en nationell myndighet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F5, sääntö 70.6.",
+          "en": "F5, rule 70.6.",
+          "sv": "F5, regel 70.6."
+        },
+        "source": "RRS F5, 70.6",
+        "also": [
+          "70"
+        ]
+      },
+      {
+        "id": "rF4-q5",
+        "prompt": {
+          "fi": "Milloin suullisia ohjeita saa antaa säännön 90.2(c) liitteen F -muutoksen mukaan?",
+          "en": "When may oral instructions be given under Appendix F's change to rule 90.2(c)?",
+          "sv": "När får muntliga instruktioner ges enligt bilaga F:s ändring av regel 90.2c?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain, jos purjehdusohjeissa on kerrottu tällaisesta menettelystä",
+              "en": "Only if the sailing instructions state that procedure",
+              "sv": "Bara om seglingsföreskrifterna anger det tillvägagångssättet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina, kun kilpailulautakunta pitää sitä tarpeellisena",
+              "en": "Whenever the race committee thinks it necessary",
+              "sv": "Närhelst kappseglingskommittén anser det nödvändigt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F7, sääntö 90.2(c).",
+          "en": "F7, rule 90.2(c).",
+          "sv": "F7, regel 90.2c."
+        },
+        "source": "RRS F7, 90.2(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "F5",
+    "section": "F",
+    "title": {
+      "fi": "Muutokset liitteisiin A ja G",
+      "sv": "Ändringar i appendix A och G",
+      "en": "Changes to Appendices A and G"
+    },
+    "explain": {
+      "fi": "Liitteen A sääntö A1 vastaa pääsääntöä: kilpailuohjelman purjehdusten lukumäärä ja sarjan pätevyyteen vaadittava pisteytettyjen purjehdusten määrä ilmoitetaan kilpailukutsussa tai purjehdusohjeissa, ja useamman lajin tai kilpailumuodon tapahtumissa niiden pitää kertoa, miten kokonaispistemäärä lasketaan. Sääntö A5.2: rataa purjehtimatta jättänyt, vetäytynyt tai hylätty lauta saa pistemäärän, joka vastaa kilpailuun ilmoitettujen laudiden määrää lisättynä yhdellä, tai karsintasarjan purjehduksessa kyseisessä erässä olleiden laudiden määrää lisättynä yhdellä. Sääntö A10 saa uuden lyhenteen: DCT, hylätty aiheutettuaan sotkeentumisen tapahtumassa. Liite G korvataan kokonaan leijalautailulle omalla, huomattavasti yksinkertaisemmalla tunnistejärjestelmällä: jokaiselle kilpailijalle toimitetaan tunnisteliivi, jossa on henkilökohtainen, enintään kolminumeroinen kilpailunumero, puettuna tarkoitetulla tavalla niin, että numero näkyy selvästi; numeroiden on oltava mahdollisimman korkealla liivin etu- ja takapuolella sekä hihoissa, vähintään 20 cm korkeita takana ja vähintään 6 cm korkeita edessä ja hihoissa; numeroiden on oltava arabialaisia numeroita, kaikkien samaa yhtenäistä väriä, selvästi luettavia ja kaupallisessa kirjasintyypissä, jonka luettavuus vastaa vähintään Helveticaa, ja niiden värin on kontrastoiduttava liivin väriin — tämä korvaa kokonaan pääsäännön purjenumero- ja kansallisuuskirjainjärjestelmän.",
+      "en": "Appendix A's rule A1 mirrors the main rule: the number of races scheduled and the number required to be scored for the series to count are stated in the notice of race or sailing instructions, and events with more than one discipline or format must state how the overall score is calculated. Rule A5.2: a board that did not sail the course, retired or was disqualified scores points for the finishing place one more than the number of boards entered in the series, or, in an elimination-series race, one more than the number of boards in that heat. Rule A10 gets a new abbreviation: DCT, disqualified after causing a tangle in an incident. Appendix G is replaced entirely with its own, much simpler identification system for kiteboarding: every competitor is given a bib with a personal competition number of no more than three digits, worn as intended with the number clearly displayed; the numbers must be as high as possible on the bib's front, back and sleeves, at least 20cm tall on the back and at least 6cm tall on the front and sleeves; the numbers must be Arabic numerals, all the same solid colour, clearly legible, in a commercially available typeface giving at least Helvetica's legibility, with a colour contrasting the bib — this entirely replaces the main rule's sail-number and national-letter system.",
+      "sv": "Bilaga A:s regel A1 speglar huvudregeln: antalet planerade kappseglingar och minsta antalet poängsatta kappseglingar som krävs för att serien ska gälla anges i inbjudan eller seglingsföreskrifterna, och tävlingar med mer än en disciplin eller format måste ange hur det sammanlagda resultatet räknas ut. Regel A5.2: en bräda som inte seglade banan, utgick eller diskvalificerades får poäng för en placering som är en mer än antalet brädor anmälda till serien, eller, i en kappsegling i en utslagsserie, en mer än antalet brädor i den heatet. Regel A10 får en ny förkortning: DCT, diskvalificerad efter att ha orsakat en trassel i en händelse. Bilaga G ersätts helt med ett eget, betydligt enklare identifieringssystem för kiteboarding: varje tävlande får en tröja med ett personligt tävlingsnummer på högst tre siffror, buren som avsett med numret tydligt synligt; numren ska vara så högt placerade som möjligt på tröjans fram- och baksida samt ärmar, minst 20 cm höga på baksidan och minst 6 cm höga på framsidan och ärmarna; numren ska vara arabiska siffror, alla i samma enhetliga färg, tydligt läsbara, i ett kommersiellt tillgängligt typsnitt med minst samma läsbarhet som Helvetica, med en färg som kontrasterar mot tröjan — detta ersätter helt huvudregelns system med segelnummer och nationalitetsbokstäver."
+    },
+    "note": {
+      "fi": "Liite F koskee leijalautailun ratakilpailuja; muualla säännöissä ”vene” tarkoittaa tilanteesta riippuen ”leijalautaa” tai ”venettä”. Ruotsinkielinen sääntökirja ei sisällä liitettä F ollenkaan — Svenska Seglarförbundet on päättänyt olla kääntämättä sitä ja viittaa englanninkieliseen tekstiin World Sailingin verkkosivuilla; vain suomenkielinen kirja sisältää käännöksen. Ruotsinkieliset selitykset tällä sivulla ovat siis omaa käännöstä ilman virallista ruotsinkielistä vertailutekstiä. Case Bookissa ei ole liitettä F koskevia tapauksia.",
+      "en": "Appendix F covers kiteboarding course racing; elsewhere in the rules ”boat” means ”kiteboard” or ”boat” as the context requires. The Swedish rulebook does not include Appendix F at all — the Swedish Sailing Federation chose not to translate it and refers readers to the English text on the World Sailing website; only the Finnish book has a translation. The Swedish explanations on this page are therefore an independent translation with no official Swedish source to check against. The Case Book has no cases on Appendix F.",
+      "sv": "Bilaga F gäller kappsegling på bana för kiteboard; på andra ställen i reglerna betyder ”båt” ”kitebräda” eller ”båt” beroende på sammanhanget. Den svenska regelboken innehåller inte bilaga F alls — Svenska Seglarförbundet har valt att inte översätta den och hänvisar till den engelska texten på World Sailings webbplats; bara den finska boken har en översättning. De svenska förklaringarna på den här sidan är därför en egen översättning utan någon officiell svensk källtext att jämföra mot. Case Book har inga fall om bilaga F."
+    },
+    "source": "RRS F8, F9, A1, A5.2, A10",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "A1 ja A5.2 nojaavat edelleen säännön 90.3:een, joka kertoo, milloin purjehdus pisteytetään.",
+          "en": "A1 and A5.2 still rest on rule 90.3, which says when a race is scored.",
+          "sv": "A1 och A5.2 vilar fortfarande på regel 90.3, som anger när en kappsegling poängsätts."
+        }
+      },
+      {
+        "rules": [
+          "77"
+        ],
+        "note": {
+          "fi": "Liite G (purjetunnukset) koskee pääsäännöissä veneen purjetta; liite F9 korvaa koko järjestelmän leijalautailun kilpailunumeroliivillä.",
+          "en": "Appendix G (identification on sails) in the main rules concerns a boat's sail; F9 replaces the whole system with kiteboarding's competition-number bib.",
+          "sv": "Bilaga G (igenkänningstecken i segel) i huvudreglerna gäller en båts segel; F9 ersätter hela systemet med kiteboardingens tävlingsnummertröja."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rF5-q1",
+        "prompt": {
+          "fi": "Minkä pistemäärän rataa purjehtimatta jättänyt, vetäytynyt tai hylätty lauta saa (A5.2)?",
+          "en": "What score does a board that did not sail the course, retired or was disqualified get (A5.2)?",
+          "sv": "Vilken poäng får en bräda som inte seglade banan, utgick eller diskvalificerades (A5.2)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailuun ilmoitettujen laudiden määrän lisättynä yhdellä (tai karsintasarjan erässä olleiden laudiden määrän lisättynä yhdellä)",
+              "en": "The number of boards entered in the series plus one (or, in an elimination heat, the number of boards in that heat plus one)",
+              "sv": "Antalet brädor anmälda till serien plus en (eller, i ett utslagningsheat, antalet brädor i det heatet plus en)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Nolla pistettä",
+              "en": "Zero points",
+              "sv": "Noll poäng"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F8, sääntö A5.2.",
+          "en": "F8, rule A5.2.",
+          "sv": "F8, regel A5.2."
+        },
+        "source": "RRS F8, A5.2",
+        "also": []
+      },
+      {
+        "id": "rF5-q2",
+        "prompt": {
+          "fi": "Mitä lyhennettä A10 käyttää hylkäykselle, joka johtui sotkeentumisen aiheuttamisesta?",
+          "en": "What abbreviation does A10 use for a disqualification caused by a tangle?",
+          "sv": "Vilken förkortning använder A10 för en diskvalifikation orsakad av en trassel?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "DCT",
+              "en": "DCT",
+              "sv": "DCT"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNE",
+              "en": "DNE",
+              "sv": "DNE"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F8, sääntö A10.",
+          "en": "F8, rule A10.",
+          "sv": "F8, regel A10."
+        },
+        "source": "RRS F8, A10",
+        "also": []
+      },
+      {
+        "id": "rF5-q3",
+        "prompt": {
+          "fi": "Minkä tunnistejärjestelmän liite F käyttää pääsäännön purjenumeroiden ja kansallisuuskirjainten sijaan (uusi liite G)?",
+          "en": "What identification system does Appendix F use instead of the main rule's sail numbers and national letters (the new Appendix G)?",
+          "sv": "Vilket identifieringssystem använder bilaga F i stället för huvudregelns segelnummer och nationalitetsbokstäver (den nya bilaga G)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Henkilökohtainen, enintään kolminumeroinen kilpailunumero tunnisteliivissä",
+              "en": "A personal competition number of no more than three digits on a bib",
+              "sv": "Ett personligt tävlingsnummer på högst tre siffror på en tröja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Saman purjenumerojärjestelmän kuin tavallisilla veneillä",
+              "en": "The same sail-number system as ordinary boats",
+              "sv": "Samma segelnummersystem som vanliga båtar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F9.",
+          "en": "F9.",
+          "sv": "F9."
+        },
+        "source": "RRS F9",
+        "also": []
+      },
+      {
+        "id": "rF5-q4",
+        "prompt": {
+          "fi": "Kuinka korkeita kilpailunumeroiden pitää vähintään olla tunnisteliivin takana?",
+          "en": "How tall must the competition numbers be, at minimum, on the back of the bib?",
+          "sv": "Hur höga måste tävlingsnumren minst vara på tröjans baksida?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vähintään 20 cm",
+              "en": "At least 20 cm",
+              "sv": "Minst 20 cm"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vähintään 6 cm",
+              "en": "At least 6 cm",
+              "sv": "Minst 6 cm"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F9, G1(b).",
+          "en": "F9, G1(b).",
+          "sv": "F9, G1b."
+        },
+        "source": "RRS F9, G1(b)",
+        "also": []
+      },
+      {
+        "id": "rF5-q5",
+        "prompt": {
+          "fi": "Minkälaisia tunnisteliivin numeroiden pitää olla väriltään ja luettavuudeltaan?",
+          "en": "What must the bib numbers be like in colour and legibility?",
+          "sv": "Hur ska tröjnumren vara till färg och läsbarhet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Arabialaisia, yhtenäisen värisiä, selvästi luettavia, vähintään Helveticaa vastaavalla kirjasintyypillä, kontrastoituna liivin väriin",
+              "en": "Arabic numerals, all one solid colour, clearly legible, in a typeface giving at least Helvetica's legibility, contrasting with the bib's colour",
+              "sv": "Arabiska siffror, alla i en enhetlig färg, tydligt läsbara, i ett typsnitt med minst Helveticas läsbarhet, i en färg som kontrasterar mot tröjan"
+            }
+          },
+          {
+            "t": {
+              "fi": "Käsin kirjoitettuja ja minkä värisiä tahansa",
+              "en": "Handwritten and any colour",
+              "sv": "Handskrivna och i vilken färg som helst"
+            }
+          }
+        ],
+        "why": {
+          "fi": "F9, G1(c).",
+          "en": "F9, G1(c).",
+          "sv": "F9, G1c."
+        },
+        "source": "RRS F9, G1(c)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "G1",
     "section": "G",
     "title": {
