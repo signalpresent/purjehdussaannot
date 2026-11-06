@@ -42,11 +42,11 @@ export function pageLines(all: Item[]): string[] {
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/]],
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/]],
     furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/]],
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/]],
     furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /]],
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /]],
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+(m\.m\.)?|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
@@ -102,8 +102,9 @@ function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Blo
       const id = `${d === 2 ? stack[stack.length - 1][1] : baseId}(${m[2] ?? m[3]})`;
       stack.push([col, id, d]); out.push([id, d, [m[4]]]); continue;
     }
-    const last = out[out.length - 1], open = (pb || col === stay) && last[0] === stack[stack.length - 1][1] && /^\p{Ll}/u.test(l.trim()) && !/[.;:]$/.test(last[2][last[2].length - 1] ?? '.');
-    // a lowercase line continuing an unfinished sentence stays put, even if a page break shifted its indentation (SV 42.3(b))
+    const last = out[out.length - 1], prev = last[2][last[2].length - 1] ?? '.';
+    const open = (pb || col === stay || /\p{L}-$/u.test(prev)) && last[0] === stack[stack.length - 1][1] && /^\p{Ll}/u.test(l.trim()) && !/[.;:]$/.test(prev);
+    // a lowercase line continuing an unfinished sentence stays put, even if a page break (SV 42.3(b)) or the layout (FI 76.1(a), after a hyphenated word) shifted its indentation
     if (open) stay = col;
     while (!open && stack.length > hang && stack[stack.length - 1][0] >= col - 1) stack.pop(); // col - 1: pdf.js rounding jitter (FI 63.7(a))
     const [, id, d] = stack[stack.length - 1];

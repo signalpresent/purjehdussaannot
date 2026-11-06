@@ -17910,5 +17910,761 @@
         "also": []
       }
     ]
+  },
+  {
+    "n": 75,
+    "section": "6",
+    "title": {
+      "fi": "Kilpailuun ilmoittautuminen",
+      "sv": "Anmälan till tävling",
+      "en": "Entering an Event"
+    },
+    "explain": {
+      "fi": "Veneen pitää täyttää kilpailun järjestäjän vaatimukset. Veneen voi ilmoittaa (a) World Sailingin kansalliseen jäsenjärjestöön kuuluvan seuran tai muun yhteisön jäsen, (b) tällainen seura tai yhteisö tai (c) World Sailingin kansallisen jäsenjärjestön jäsen.",
+      "en": "A boat must comply with the organizing authority's requirements. She may be entered by (a) a member of a club or other organization affiliated to a World Sailing member national authority, (b) such a club or organization, or (c) a member of a World Sailing member national authority."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöä 75 (86.1). Suomessa seuran jäsenyys Suomen Purjehdus ja Veneilyyn kuuluvassa seurassa täyttää kohdan (a). (Päätelmä; järjestön nimi suomenkielisen sääntökirjan julkaisijatiedoista.)",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 75 (86.1). In Finland, membership of a club affiliated to the Finnish Sailing and Boating Federation meets item (a). (Inference; the federation's name is from the Finnish rulebook's publisher details.)"
+    },
+    "source": "RRS 75, 86.1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "76"
+        ],
+        "note": {
+          "fi": "Järjestäjä voi hylätä ilmoittautumisen säännön 76 rajoissa.",
+          "en": "The organizing authority may reject an entry within the limits of rule 76."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r75-q1",
+        "prompt": {
+          "fi": "Kuka voi ilmoittaa veneen kilpailuun?",
+          "en": "Who may enter a boat in an event?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kansalliseen jäsenjärjestöön kuuluvan seuran jäsen, tällainen seura tai kansallisen järjestön jäsen",
+              "en": "A member of a club affiliated to a member national authority, such a club, or a member of the national authority"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kuka tahansa veneen omistaja",
+              "en": "Any boat owner"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain seura",
+              "en": "Only a club"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 75(a)–(c).",
+          "en": "Rule 75(a)–(c)."
+        },
+        "source": "RRS 75",
+        "also": []
+      },
+      {
+        "id": "r75-q2",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet sallia ilmoittautumisen ilman seuran tai kansallisen järjestön jäsenyyttä?",
+          "en": "May the sailing instructions allow entry without membership of a club or national authority?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntöä 75 ei saa muuttaa",
+              "en": "No: rule 75 may not be changed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(a) ja (b): sääntö 75 kuuluu sääntöihin, joita määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa.",
+          "en": "Rule 86.1(a) and (b): rule 75 is among the rules prescriptions, the notice of race and sailing instructions may not change."
+        },
+        "source": "RRS 75, 86.1",
+        "also": [
+          "86"
+        ]
+      },
+      {
+        "id": "r75-q3",
+        "prompt": {
+          "fi": "Mitä veneen pitää täyttää ilmoittautuakseen sen lisäksi, kuka sen ilmoittaa?",
+          "en": "Besides who enters her, what must a boat meet to enter?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailun järjestäjän vaatimukset",
+              "en": "The organizing authority's requirements"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain luokkasäännöt",
+              "en": "Only the class rules"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 75, ensimmäinen virke.",
+          "en": "Rule 75, first sentence."
+        },
+        "source": "RRS 75",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 76,
+    "section": "6",
+    "title": {
+      "fi": "Veneiden tai kilpailijoiden pois sulkeminen",
+      "sv": "Uteslutning av båtar eller tävlande",
+      "en": "Exclusion of Boats or Competitors"
+    },
+    "explain": {
+      "fi": "76.1: kilpailun järjestäjä tai kilpailulautakunta voi hylätä tai kumota veneen ilmoittautumisen tai sulkea kilpailijan pois, jos se tekee sen ennen ensimmäisen sellaisen kilpapurjehduksen lähtöä, joka on ilmoittautumisen vastaanottamisen jälkeen, ja kertoo asianmukaisen syyn. Syy annetaan pyydettäessä viipymättä kirjallisena. 76.2: ilmoittautumista ei saa hylätä eikä kilpailijaa sulkea pois (a) mainonnan vuoksi, jos vene tai kilpailija noudattaa World Sailingin mainossäännöstöä (Advertising Code), eikä (b) maailman- tai maanosan mestaruuskilpailuissa, jos ilmoittautuminen mahtuu ilmoitettuihin kiintiöihin, ilman World Sailingin luokkaliiton (tai Offshore Racing Congressin) tai World Sailingin suostumusta. 76.3: vene tai kilpailija voi pyytää hyvitystä, jos se pitää hylkäystä tai poissulkemista asiattomana tai sääntöä 76.2 rikkovana.",
+      "en": "76.1: the organizing authority or the race committee may reject or cancel a boat's entry or exclude a competitor, provided it does so before the start of the first race after receiving the entry and states a proper reason. The reason is given promptly in writing on request. 76.2: an entry may not be rejected or a competitor excluded (a) because of advertising if the boat or competitor complies with the World Sailing Advertising Code, or (b) at world and continental championships, if the entry is within stated quotas, without the approval of the relevant World Sailing Class Association (or the Offshore Racing Congress) or World Sailing. 76.3: a boat or competitor may request redress if it considers the rejection or exclusion improper or in breach of rule 76.2."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset eivät saa muuttaa kohtaa 76.2(b), eivätkä kilpailukutsu ja purjehdusohjeet kohtia 76.1 ja 76.2 (86.1). Ruotsinkielinen 76.1(b) sanoo \"rimlig anledning\" (kohtuullinen syy), englanninkielinen \"proper reason\".",
+      "en": "National authority prescriptions may not change 76.2(b), and the notice of race and sailing instructions may not change 76.1 or 76.2 (86.1). Swedish 76.1(b) says 'rimlig anledning' (reasonable reason); the English says 'proper reason'."
+    },
+    "source": "RRS 76, 86.1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Hyvityspyyntö ratkaistaan säännön 61 menettelyllä (76.3).",
+          "en": "The redress request follows rule 61 (76.3)."
+        }
+      },
+      {
+        "rules": [
+          "75"
+        ],
+        "note": {
+          "fi": "Ilmoittautumisen perusvaatimukset: sääntö 75.",
+          "en": "Basic entry requirements: rule 75."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r76-q1",
+        "prompt": {
+          "fi": "Kilpailulautakunta haluaa sulkea pois kilpailijan kolmannen kilpapurjehduksen jälkeen, koska ilmoittautumisessa oli puutteita. Voiko se tehdä sen säännön 76.1 perusteella?",
+          "en": "After the third race the race committee wants to exclude a competitor because the entry was deficient. Can it do so under rule 76.1?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: 76.1 sallii sen vain ennen ensimmäisen ilmoittautumisen jälkeisen kilpapurjehduksen lähtöä",
+              "en": "No: 76.1 allows it only before the start of the first race after the entry was received"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, milloin tahansa",
+              "en": "Yes, at any time"
+            }
+          }
+        ],
+        "why": {
+          "fi": "76.1(a). Myöhemmät toimet vaativat muun säännön, esimerkiksi protestin tai säännön 69.",
+          "en": "Rule 76.1(a). Later action needs another rule, such as a protest or rule 69."
+        },
+        "source": "RRS 76.1(a)",
+        "also": []
+      },
+      {
+        "id": "r76-q2",
+        "prompt": {
+          "fi": "Järjestäjä hylkää ilmoittautumisen kertomatta syytä. Vene pyytää syyn kirjallisena. Mitä pitää tehdä?",
+          "en": "The organizing authority rejects an entry without a reason. The boat asks for it in writing. What must happen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Syy annetaan viipymättä kirjallisena; ilman asianmukaista syytä hylkäys ei täytä sääntöä 76.1",
+              "en": "The reason must be given promptly in writing; without a proper reason the rejection does not meet rule 76.1"
+            }
+          },
+          {
+            "t": {
+              "fi": "Järjestäjän ei tarvitse perustella",
+              "en": "The organizer need not give reasons"
+            }
+          }
+        ],
+        "why": {
+          "fi": "76.1(b) ja viimeinen virke.",
+          "en": "Rule 76.1(b) and last sentence."
+        },
+        "source": "RRS 76.1",
+        "also": []
+      },
+      {
+        "id": "r76-q3",
+        "prompt": {
+          "fi": "Veneen purjeessa on sponsorin logo mainossäännöstön mukaisesti. Järjestäjä ei pidä sponsorista ja hylkää ilmoittautumisen. Mitä vene voi tehdä?",
+          "en": "A boat's sail carries a sponsor logo in line with the Advertising Code. The organizer dislikes the sponsor and rejects the entry. What can the boat do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pyytää hyvitystä, koska hylkäys rikkoo kohtaa 76.2(a)",
+              "en": "Request redress, because the rejection breaks 76.2(a)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään",
+              "en": "Nothing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "76.2(a) ja 76.3.",
+          "en": "Rules 76.2(a) and 76.3."
+        },
+        "source": "RRS 76.2(a), 76.3",
+        "also": [
+          "61"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 77,
+    "section": "6",
+    "title": {
+      "fi": "Purjetunnukset",
+      "sv": "Igenkänningstecken i segel",
+      "en": "Identification on Sails"
+    },
+    "explain": {
+      "fi": "Veneen pitää noudattaa liitettä G, joka koskee luokkatunnuksia, kansallisuuskirjaimia ja purjenumeroita. Liitteen G mukaan World Sailingin luokan veneellä on isopurjeessa luokkatunnus, kansainvälisissä kilpailuissa (ellei veneitä anneta kaikille kilpailijoille) kansallisen järjestön kansallisuuskirjaimet (Suomi FIN) ja enintään nelinumeroinen purjenumero; kirjaimet ja numerot myös spinaakkerissa ja keulapurjeessa liitteen ehtojen mukaan. Muut veneet noudattavat kansallisen järjestönsä tai luokkaliittonsa sääntöjä (G2). Vuokra- tai lainaveneellä voi olla luokkasääntöjen vastaiset kirjaimet tai numero, jos kilpailukutsu tai purjehdusohjeet sallivat (G3). Liitteen G rikkomisesta protestilautakunta joko varoittaa ja antaa aikaa korjata tai rankaisee (G4).",
+      "en": "A boat must comply with Appendix G on class insignia, national letters and sail numbers. Under Appendix G, a World Sailing Class boat carries her class insignia on the mainsail, at international events (unless boats are provided to all competitors) the national letters of her national authority (Finland FIN), and a sail number of no more than four digits; letters and numbers also on spinnaker and headsail as the appendix provides. Other boats follow the rules of their national authority or class association (G2). A chartered or loaned boat may carry letters or a number contrary to her class rules if the notice of race or sailing instructions say so (G3). For a breach of Appendix G the protest committee either warns the boat and gives her time to comply, or penalizes her (G4)."
+    },
+    "note": {
+      "fi": "World Sailingin luokat voivat muuttaa liitettä G World Sailingin etukäteen hyväksymänä (G5). Liitteessä E on radio-ohjattavien veneiden omat purjetunnukset. Liitteestä G on luettu kohdat G1.1, G2–G5; tarkkoja määrityksiä ja sijoittelua (G1.2–G1.3) ei ole luettu.",
+      "en": "World Sailing Classes may change Appendix G with World Sailing's prior approval (G5). Appendix E has its own sail identification for radio sailing. From Appendix G, G1.1 and G2–G5 have been read; the specifications and positioning (G1.2–G1.3) have not been read."
+    },
+    "source": "RRS 77, Appendix G1.1, G2–G5",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "78"
+        ],
+        "note": {
+          "fi": "Luokkasääntöjen noudattaminen: sääntö 78.",
+          "en": "Compliance with class rules: rule 78."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r77-q1",
+        "prompt": {
+          "fi": "Kansainvälisessä kilpailussa vuokraveneellä on toisen maan kansallisuuskirjaimet. Onko se sallittua?",
+          "en": "At an international event a chartered boat carries another country's national letters. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos kilpailukutsu tai purjehdusohjeet niin sanovat",
+              "en": "Yes, if the notice of race or sailing instructions say so"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G3.",
+          "en": "Rule G3."
+        },
+        "source": "RRS 77; Appendix G3",
+        "also": []
+      },
+      {
+        "id": "r77-q2",
+        "prompt": {
+          "fi": "Protestilautakunta toteaa, että purjenumero on liian pieni liitteen G mukaan. Mitä se voi tehdä?",
+          "en": "The protest committee finds that a sail number is too small under Appendix G. What can it do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Varoittaa ja antaa aikaa korjata tai rangaista",
+              "en": "Warn and give time to comply, or penalize"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain hylätä",
+              "en": "Only disqualify"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G4.",
+          "en": "Rule G4."
+        },
+        "source": "RRS 77; Appendix G4",
+        "also": []
+      },
+      {
+        "id": "r77-q3",
+        "prompt": {
+          "fi": "Montako numeroa World Sailingin luokan veneen purjenumerossa saa yleensä olla?",
+          "en": "How many digits may a World Sailing Class boat's sail number normally have?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Enintään neljä",
+              "en": "No more than four"
+            }
+          },
+          {
+            "t": {
+              "fi": "Enintään kuusi",
+              "en": "No more than six"
+            }
+          }
+        ],
+        "why": {
+          "fi": "G1.1(c). Raja ei koske luokkia, joiden World Sailing -jäsenyys alkoi ennen 1.4.1997.",
+          "en": "Rule G1.1(c). The limit does not apply to classes whose World Sailing status took effect before 1 April 1997."
+        },
+        "source": "Appendix G1.1(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 78,
+    "section": "6",
+    "title": {
+      "fi": "Luokkasääntöjen noudattaminen; todistukset",
+      "sv": "Mätbrev och överensstämmelse med klassregler",
+      "en": "Compliance with Class Rules; Certificates"
+    },
+    "explain": {
+      "fi": "78.1: kun vene kilpailee, omistajan ja muun vastuuhenkilön pitää huolehtia, että vene pidetään luokkasääntöjensä mukaisena ja että mahdollinen mittaus- tai tasoitustodistus pysyy voimassa. Lisäksi veneen pitää olla sääntöjen mukainen muinakin luokkasäännöissä, kilpailukutsussa tai purjehdusohjeissa määrättyinä aikoina. Jos sääntö sallii luokkasäännön rikkomisesta hylkäystä lievemmän rangaistuksen, sama koskee tämän säännön rikkomista. 78.2: jos voimassa oleva todistus pitää esittää tai sen olemassaolo todentaa ennen kilpailemista eikä se onnistu, vene saa kilpailla, kun asianomainen lautakunta saa vastuuhenkilön allekirjoittaman vakuutuksen todistuksen olemassaolosta. Todistus pitää esittää tai todentaa ennen kilpailun tai sen ensimmäisen sarjan viimeisen päivän alkua sen mukaan, kumpi on aiemmin. Rangaistus on hylkäys ilman tutkintaa kaikista kilpailun kilpapurjehduksista.",
+      "en": "78.1: while a boat is racing, her owner and any other person in charge must ensure that she is maintained to comply with her class rules and that her measurement or rating certificate, if any, remains valid. She must also comply at other times specified in the class rules, notice of race or sailing instructions. If a rule allows a penalty less than disqualification for a class rule breach, the same applies to a breach of this rule. 78.2: if a valid certificate must be produced or its existence verified before racing and this cannot be done, the boat may race once the appropriate committee receives a statement signed by the person in charge that a valid certificate exists. It must be produced or verified before the start of the last day of the event or of the first series, whichever is earlier. The penalty is disqualification without a hearing from all races of the event."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa kohtaa 78.2 (86.1(c)). Liite B (purjelautailu) lisää kohtaan 78.1, että World Sailingin määrätessä laudassa sekä sen miekassa, evässä ja rikissä oleva numeroitu ja päivätty merkki toimii mittaustodistuksena. Ruotsinkielinen teksti käyttää sanaa \"mätbrev\" sekä mittaus- että tasoitustodistuksesta.",
+      "en": "Class rules may change rule 78.2 (86.1(c)). Appendix B (windsurfing) adds to 78.1 that, when World Sailing so prescribes, a numbered and dated device on the board, centreboard or fin and rig serves as her measurement certificate. The Swedish text uses 'mätbrev' for both measurement and rating certificates."
+    },
+    "source": "RRS 78, 86.1(c), A5.1, Appendix B6; Case 57, 131",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Luokkasääntörikkomuksen käsittely protestissa: 60.5(d); mittauskulut: 65.2.",
+          "en": "Class rule breaches in a protest: 60.5(d); measurement costs: 65.2."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Hyvässä uskossa esitetyn todistuksen myöhempi peruutus ei muuta päättyneitä tuloksia (Case 57).",
+          "en": "Later withdrawal of a certificate presented in good faith does not change completed results (Case 57)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 57,
+        "title": {
+          "fi": "Tasoitusjärjestön vanha virhe",
+          "en": "An old error by the rating authority"
+        },
+        "text": {
+          "fi": "Koko kesän kestäneen tasoitussarjan jälkeen B pyysi hyvitystä, koska kilpailulautakunta oli käyttänyt A:lle väärää tasoitustodistusta. Tasoitusjärjestö vahvisti, että A:n todistuksessa oli ollut sen oma, huomaamaton virhe vuosia. A:n omistaja ei ollut vastuussa virheestä, eikä hänen todettu rikkoneen kohtaa 78.1. B:n mukaan kilpailulautakunnan olisi pitänyt protestoida A:ta.",
+          "en": "After a summer-long rating series, B requested redress because the race committee had used an incorrect certificate for A. The rating authority confirmed that its own unsuspected error had been in A's certificate for years. A's owner was not responsible and was not found to have broken 78.1. B argued that the race committee should have protested A."
+        },
+        "answer": {
+          "fi": "Hyvitystä ei annettu. Kilpailulautakunnan oikeus protestoida (60.1) on harkinnanvarainen, eikä se ollut vastuussa tasoitusjärjestön virheestä. Kun voimassa oleva, asianmukainen todistus on esitetty hyvässä uskossa, päättyneen kilpapurjehduksen tai sarjan tulokset pysyvät, vaikka todistus peruttaisiin myöhemmin.",
+          "en": "No redress was given. The race committee's right to protest (60.1) is discretionary, and it was not responsible for the rating authority's error. When a valid, properly authenticated certificate has been presented in good faith, the results of a completed race or series stand even if the certificate is later withdrawn."
+        },
+        "also": [
+          "60",
+          "61"
+        ],
+        "source": "Case 57"
+      },
+      {
+        "case": 131,
+        "title": {
+          "fi": "Vakuutus ilman todistusta",
+          "en": "A statement without a certificate"
+        },
+        "text": {
+          "fi": "Purjehdusohjeiden mukaan todistus pitää esittää ennen kilpailemista. Vene ei esitä sitä, mutta antaa ennen ensimmäistä lähtöä vastuuhenkilön allekirjoittaman vakuutuksen, että todistus on voimassa. Viimeisen päivän alkuun mennessä todistusta ei ole esitetty eikä todennettu. Mitä kilpailulautakunta tekee?",
+          "en": "The sailing instructions require a certificate to be produced before racing. A boat does not produce it, but before the first race hands in a statement signed by the person in charge that a valid certificate exists. By the start of the last day the certificate has been neither produced nor verified. What does the race committee do?"
+        },
+        "answer": {
+          "fi": "Se merkitsee veneelle ilman tutkintaa DSQ:n kaikkiin kilpailun kilpapurjehduksiin (78.2 ja A5.1).",
+          "en": "It scores the boat DSQ in all races of the event without a hearing (78.2 and A5.1)."
+        },
+        "also": [],
+        "source": "Case 131"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r78-q1",
+        "prompt": {
+          "fi": "Kenen vastuulla on, että vene pysyy luokkasääntöjensä mukaisena kilpailtaessa?",
+          "en": "Who is responsible for keeping a boat within her class rules while racing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Omistajan ja muun vastuuhenkilön",
+              "en": "The owner and any other person in charge"
+            }
+          },
+          {
+            "t": {
+              "fi": "Mittaajan",
+              "en": "The measurer"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunnan",
+              "en": "The race committee"
+            }
+          }
+        ],
+        "why": {
+          "fi": "78.1.",
+          "en": "Rule 78.1."
+        },
+        "source": "RRS 78.1",
+        "also": []
+      },
+      {
+        "id": "r78-q2",
+        "prompt": {
+          "fi": "Kolmen päivän kilpailussa veneen todistus ei ole mukana. Mihin mennessä se pitää esittää, jos vene on antanut vakuutuksen?",
+          "en": "At a three-day event a boat's certificate is not available. If she gave a signed statement, by when must it be produced?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ennen kolmannen päivän alkua",
+              "en": "Before the start of the third day"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ennen palkintojenjakoa",
+              "en": "Before the prize-giving"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seitsemän vuorokauden kuluessa",
+              "en": "Within seven days"
+            }
+          }
+        ],
+        "why": {
+          "fi": "78.2: ennen kilpailun (tai ensimmäisen sarjan) viimeisen päivän alkua sen mukaan, kumpi on aiemmin.",
+          "en": "Rule 78.2: before the start of the last day of the event (or of the first series), whichever is earlier."
+        },
+        "source": "RRS 78.2",
+        "also": []
+      },
+      {
+        "id": "r78-q3",
+        "prompt": {
+          "fi": "Voivatko luokkasäännöt muuttaa kohtaa 78.2?",
+          "en": "May class rules change rule 78.2?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(c) mainitsee kohdan 78.2.",
+          "en": "Rule 86.1(c) lists rule 78.2."
+        },
+        "source": "RRS 86.1(c)",
+        "also": [
+          "86"
+        ]
+      },
+      {
+        "id": "r78-q4",
+        "prompt": {
+          "fi": "Luokkasäännön mukaan tietyn rikkeen rangaistus voi olla lievempi kuin hylkäys. Vene rikkoo samalla kohtaa 78.1. Mikä rangaistus kohdan 78.1 rikkomisesta voidaan antaa?",
+          "en": "A class rule allows a penalty less than disqualification for a breach. The boat thereby also breaks 78.1. What penalty can apply for the 78.1 breach?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sama lievempi rangaistus",
+              "en": "The same lesser penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina hylkäys",
+              "en": "Always disqualification"
+            }
+          }
+        ],
+        "why": {
+          "fi": "78.1, viimeinen virke.",
+          "en": "Rule 78.1, last sentence."
+        },
+        "source": "RRS 78.1",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 79,
+    "section": "6",
+    "title": {
+      "fi": "Kilpailijaluokitus",
+      "sv": "Kategorisering",
+      "en": "Categorization"
+    },
+    "explain": {
+      "fi": "Jos kilpailukutsu tai luokkasäännöt vaativat, että osa tai kaikki kilpailijat täyttävät luokitusvaatimukset, luokitus tehdään World Sailingin kilpailijaluokitussäännöstön (Sailor Categorization Code) mukaan. Säännöstön sisältöä ei ole luettu.",
+      "en": "If the notice of race or class rules require some or all competitors to meet categorization requirements, categorization is carried out under the World Sailing Sailor Categorization Code. The Code itself has not been read."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa sääntöä 79 (86.1). Kilpailukutsussa ilmoitetaan luokitusvaatimukset (J1.2(4)).",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 79 (86.1). Categorization requirements are stated in the notice of race (J1.2(4))."
+    },
+    "source": "RRS 79, 86.1, Appendix J1.2(4)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "75"
+        ],
+        "note": {
+          "fi": "Luokitusvaatimukset ovat osa ilmoittautumisvaatimuksia. (Päätelmä.)",
+          "en": "Categorization requirements are part of the entry requirements. (Inference.)"
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r79-q1",
+        "prompt": {
+          "fi": "Kilpailukutsu rajoittaa miehistöön kuuluvien kilpailijoiden luokitusta. Minkä mukaan luokitus tehdään?",
+          "en": "The notice of race limits the categorization of crew members. Under what is the categorization done?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "World Sailingin kilpailijaluokitussäännöstön mukaan",
+              "en": "Under the World Sailing Sailor Categorization Code"
+            }
+          },
+          {
+            "t": {
+              "fi": "Järjestäjän oman harkinnan mukaan",
+              "en": "At the organizer's own discretion"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 79.",
+          "en": "Rule 79."
+        },
+        "source": "RRS 79",
+        "also": []
+      },
+      {
+        "id": "r79-q2",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet määrätä oman luokitustavan sääntöä 79 muuttaen?",
+          "en": "May the sailing instructions set their own categorization method, changing rule 79?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(a) ja (b).",
+          "en": "Rule 86.1(a) and (b)."
+        },
+        "source": "RRS 86.1",
+        "also": [
+          "86"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 80,
+    "section": "6",
+    "title": {
+      "fi": "Uutena ajankohtana pidettävä kilpailu",
+      "sv": "Ändring av datum för en tävling",
+      "en": "Rescheduled Event"
+    },
+    "explain": {
+      "fi": "Kun kilpailu siirretään muille päiville kuin kilpailukutsussa on ilmoitettu, kaikille ilmoittautuneille veneille pitää ilmoittaa. Kilpailulautakunta voi hyväksyä uusia ilmoittautumisia, jotka täyttävät kaikki vaatimukset paitsi alkuperäisen ilmoittautumisajan.",
+      "en": "When an event is moved to dates other than those in the notice of race, all entered boats must be notified. The race committee may accept new entries that meet all entry requirements except the original entry deadline."
+    },
+    "note": {
+      "fi": "Kilpailukutsun muuttamisesta yleensä: 89.2(b).",
+      "en": "Changing the notice of race in general: 89.2(b)."
+    },
+    "source": "RRS 80, 89.2(b)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "75"
+        ],
+        "note": {
+          "fi": "Uusien ilmoittautujien pitää täyttää muut ilmoittautumisvaatimukset (75).",
+          "en": "New entrants must meet the other entry requirements (75)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r80-q1",
+        "prompt": {
+          "fi": "Kilpailu siirretään myrskyn vuoksi viikolla. Ilmoittautumisaika on mennyt umpeen. Voiko uusi vene vielä ilmoittautua?",
+          "en": "An event is postponed by a week because of a storm. The entry deadline has passed. Can a new boat still enter?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos kilpailulautakunta hyväksyy ja vene täyttää muut vaatimukset",
+              "en": "Yes, if the race committee accepts it and the boat meets the other requirements"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, määräaika on ehdoton",
+              "en": "No, the deadline is absolute"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 80.",
+          "en": "Rule 80."
+        },
+        "source": "RRS 80",
+        "also": []
+      },
+      {
+        "id": "r80-q2",
+        "prompt": {
+          "fi": "Kenelle siirrosta pitää ilmoittaa?",
+          "en": "Who must be notified of the new dates?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaikille ilmoittautuneille veneille",
+              "en": "All boats entered"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain luokkaliitolle",
+              "en": "Only the class association"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 80.",
+          "en": "Rule 80."
+        },
+        "source": "RRS 80",
+        "also": []
+      }
+    ]
   }
 ]
