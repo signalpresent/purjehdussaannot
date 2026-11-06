@@ -31285,6 +31285,170 @@
     ]
   },
   {
+    "n": "H1",
+    "section": "H",
+    "title": {
+      "fi": "Vaatteiden ja varusteiden punnitseminen",
+      "sv": "Vägning av kläder och utrustning",
+      "en": "Weighing Clothing and Equipment"
+    },
+    "explain": {
+      "fi": "Punnittavat vaatteen ja varusteiden osat asetetaan telineeseen niin, että ne riippuvat vapaasti kuten vaateripustimissa. Osat kastellaan läpimäriksi makealla vedellä ja annetaan valua vapaasti yhden minuutin ajan ennen punnitusta. Taskut, joiden tyhjennysaukkoja ei voi sulkea, pidetään tyhjinä; taskut tai osat, jotka voivat pitää vettä sisällään, pidetään täysinä (H1). Jos todettu paino ylittää sallitun, kilpailija saa asetella osat uudelleen telineeseen, ja vastuussa oleva teknisen lautakunnan jäsen kastelee ja punnitsee ne uudelleen; menettely voidaan toistaa vielä kerran, jos paino edelleen ylittää sallitun (H2). Kuivapukua käyttävä kilpailija voi valita vaihtoehtoisen punnitustavan: kuivapuku ja sen päällä pidettävät vaatteet ja varusteet punnitaan tavalliseen tapaan, kuivapuvun alla pidetyt vaatteet punnitaan sellaisina kuin ne olivat veneen kilpaillessa ilman valutusta, ja nämä kaksi painoa lasketaan lopuksi yhteen (H3).",
+      "en": "Items of clothing and equipment to be weighed are arranged on a rack so they hang freely as they would on clothes hangers. The items are saturated in fresh water and allowed to drain freely for one minute before weighing. Pockets with drain-holes that cannot be closed are kept empty; pockets or items that can hold water are kept full (H1). If the weight recorded exceeds the amount permitted, the competitor may rearrange the items on the rack, and the responsible technical committee member soaks and weighs them again; this may be repeated once more if the weight still exceeds the limit (H2). A competitor wearing a dry suit may choose an alternative method: the dry suit and anything worn outside it are weighed as usual, clothing worn underneath the dry suit is weighed as worn while racing without draining, and the two weights are then added together (H3).",
+      "sv": "Kläder och utrustningsdelar som ska vägas ordnas på en ställning så att de hänger fritt som på klädhängare. Delarna genomdränks med sötvatten och får rinna av fritt under en minut innan vägningen. Fickor med dräneringshål som inte kan stängas hålls tomma; fickor eller delar som kan hålla kvar vatten hålls fulla (H1). Om den uppmätta vikten överstiger den tillåtna, får den tävlande ändra upphängningen på ställningen, och den ansvariga medlemmen i tekniska kommittén dränker in och väger dem igen; detta får upprepas en gång till om vikten fortfarande överstiger gränsen (H2). En tävlande som bär torrdräkt får välja ett annat sätt: torrdräkten och allt som bärs utanpå den vägs som vanligt, kläder som bärs under torrdräkten vägs som de bars under kappseglingen utan att rinna av, och de två vikterna läggs sedan samman (H3)."
+    },
+    "note": {
+      "fi": "Liite H koskee sääntöä 50 (kilpailijan vaatteet ja varusteet); kilpailukutsu, purjehdusohjeet tai kansallisten järjestöjen määräykset eivät saa muuttaa sitä. Case Bookissa ei ole liitettä H koskevia tapauksia.",
+      "en": "Appendix H concerns rule 50 (competitor clothing and equipment); it may not be changed by the notice of race, sailing instructions or national authority prescriptions. The Case Book has no cases on Appendix H.",
+      "sv": "Bilaga H gäller regel 50 (tävlandes kläder och utrustning); den får inte ändras av inbjudan, seglingsföreskrifter eller nationella myndigheters föreskrifter. Case Book har inga fall om bilaga H."
+    },
+    "source": "RRS H1, H2, H3, 50",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "50"
+        ],
+        "note": {
+          "fi": "Liite H kertoo, miten säännön 50 sallima enimmäispaino käytännössä mitataan.",
+          "en": "Appendix H sets out how the weight limit rule 50 allows is actually measured in practice.",
+          "sv": "Bilaga H anger hur den viktgräns regel 50 tillåter faktiskt mäts i praktiken."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rH1-q1",
+        "prompt": {
+          "fi": "Kuinka kauan punnittavien osien annetaan valua vapaasti ennen punnitusta (H1)?",
+          "en": "How long are the items allowed to drain freely before weighing (H1)?",
+          "sv": "Hur länge får delarna rinna av fritt före vägningen (H1)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yhden minuutin ajan",
+              "en": "For one minute",
+              "sv": "Under en minut"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viiden minuutin ajan",
+              "en": "For five minutes",
+              "sv": "Under fem minuter"
+            }
+          }
+        ],
+        "why": {
+          "fi": "H1.",
+          "en": "H1.",
+          "sv": "H1."
+        },
+        "source": "RRS H1",
+        "also": []
+      },
+      {
+        "id": "rH1-q2",
+        "prompt": {
+          "fi": "Miten taskut, joiden tyhjennysaukkoja ei voi sulkea, käsitellään punnituksessa?",
+          "en": "How are pockets with drain-holes that cannot be closed treated when weighing?",
+          "sv": "Hur behandlas fickor med dräneringshål som inte kan stängas vid vägningen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ne pidetään tyhjinä",
+              "en": "They are kept empty",
+              "sv": "De hålls tomma"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ne täytetään vedellä",
+              "en": "They are filled with water",
+              "sv": "De fylls med vatten"
+            }
+          }
+        ],
+        "why": {
+          "fi": "H1.",
+          "en": "H1.",
+          "sv": "H1."
+        },
+        "source": "RRS H1",
+        "also": []
+      },
+      {
+        "id": "rH1-q3",
+        "prompt": {
+          "fi": "Punnituksessa todettu paino ylittää sallitun uudelleenasettelun jälkeenkin. Voidaanko punnitus toistaa vielä kerran?",
+          "en": "The weight still exceeds the limit even after rearranging. May the weighing be repeated once more?",
+          "sv": "Vikten överstiger fortfarande gränsen även efter ny upphängning. Får vägningen upprepas en gång till?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, menettely voidaan toistaa vielä kerran",
+              "en": "Yes, the procedure may be repeated once more",
+              "sv": "Ja, proceduren får upprepas en gång till"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kahden punnituksen jälkeen tulos on lopullinen",
+              "en": "No, the result is final after two weighings",
+              "sv": "Nej, resultatet är slutgiltigt efter två vägningar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "H2.",
+          "en": "H2.",
+          "sv": "H2."
+        },
+        "source": "RRS H2",
+        "also": []
+      },
+      {
+        "id": "rH1-q4",
+        "prompt": {
+          "fi": "Miten kuivapukua käyttävän kilpailijan vaihtoehtoinen punnitus tehdään (H3)?",
+          "en": "How is the alternative weighing done for a competitor wearing a dry suit (H3)?",
+          "sv": "Hur görs den alternativa vägningen för en tävlande som bär torrdräkt (H3)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kuivapuku ja sen päällä pidettävät osat punnitaan tavalliseen tapaan, alla pidetyt vaatteet punnitaan ilman valutusta, ja painot lasketaan yhteen",
+              "en": "The dry suit and what is worn outside it are weighed as usual, clothing worn underneath is weighed without draining, and the two weights are added together",
+              "sv": "Torrdräkten och det som bärs utanpå den vägs som vanligt, kläder som bärs under vägs utan att rinna av, och de två vikterna läggs samman"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koko kuivapuku ja kaikki vaatteet punnitaan yhtenä kokonaisuutena kasteltuina",
+              "en": "The whole dry suit and all clothing are weighed together, soaked",
+              "sv": "Hela torrdräkten och alla kläder vägs tillsammans, indränkta"
+            }
+          }
+        ],
+        "why": {
+          "fi": "H3.",
+          "en": "H3.",
+          "sv": "H3."
+        },
+        "source": "RRS H3",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "M1",
     "section": "M",
     "title": {
