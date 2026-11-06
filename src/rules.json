@@ -25394,5 +25394,792 @@
       "G1.6",
       "G2"
     ]
+  },
+  {
+    "n": "P1",
+    "section": "P",
+    "title": {
+      "fi": "Tarkkailijat ja menettelytapa",
+      "sv": "Observatörer och procedur",
+      "en": "Observers and Procedure"
+    },
+    "explain": {
+      "fi": "P1.1: protestilautakunta voi nimittää tarkkailijoita, myös omia jäseniään, valvomaan sääntöä 42 vesillä. Tarkkailijaksi ei saa nimittää henkilöä, jolla on merkittävä eturistiriita. P1.2: kun tarkkailija päättää veneen rikkoneen sääntöä 42, hän voi rangaista sitä niin pian kuin kohtuudella mahdollista antamalla äänimerkin, osoittamalla venettä keltaisella lipulla ja yksilöimällä sen selvästi huutamalla. Näin voi toimia, vaikka vene ei enää kilpailisi. Samasta tapahtumasta venettä ei saa rangaista säännön 42 perusteella toista kertaa.",
+      "en": "P1.1: the protest committee may appoint observers, including its own members, to police rule 42 on the water. A person with a significant conflict of interest may not be appointed. P1.2: when an observer decides that a boat has broken rule 42, the observer may penalize her as soon as reasonably possible by making a sound signal, pointing a yellow flag at her and clearly identifying her by hail. This may be done even if she is no longer racing. She may not be penalized a second time under rule 42 for the same incident.",
+      "sv": "P1.1: protestkommittén kan utse observatörer, även bland sina egna medlemmar, som övervakar regel 42 på vattnet. En person med en betydande intressekonflikt får inte utses. P1.2: när en observatör beslutar att en båt har brutit mot regel 42 kan observatören straffa den så snart det finns en rimlig möjlighet genom att ge en ljudsignal, peka på båten med en gul flagga och tydligt identifiera den genom att ropa. Det får göras även om båten inte längre kappseglar. Båten får inte straffas en andra gång enligt regel 42 för samma händelse."
+    },
+    "note": {
+      "fi": "Liite P on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat; ellei asiaa ole kerrottu kilpailukutsussa, purjehdusohjeiden pitää kertoa, onko se voimassa (J2.2(1)). Case Bookissa ei ole liitettä P koskevia tapauksia.",
+      "en": "Appendix P applies in whole or in part only if the notice of race or sailing instructions say so; unless the notice of race does so, the sailing instructions must state whether it applies (J2.2(1)). The Case Book has no cases on Appendix P.",
+      "sv": "Appendix P gäller helt eller delvis bara om inbjudan eller seglingsföreskrifterna anger det; om inte inbjudan gör det ska seglingsföreskrifterna ange om det gäller (J2.2(1)). Fallboken har inga fall om appendix P."
+    },
+    "source": "RRS Appendix P (intro), P1, J2.2(1)",
+    "defs": [
+      "Conflict of Interest",
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "42"
+        ],
+        "note": {
+          "fi": "Sääntö 42 (kulkuvoima) on se sääntö, jota tarkkailijat valvovat.",
+          "en": "Rule 42 (propulsion) is the rule the observers police.",
+          "sv": "Regel 42 (framdrivning) är den regel som observatörerna övervakar."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Eturistiriita: sama käsite kuin protestilautakunnan jäsenillä (63.3).",
+          "en": "Conflict of interest: the same concept as for protest committee members (63.3).",
+          "sv": "Intressekonflikt: samma begrepp som för protestkommitténs medlemmar (63.3)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rP1-q1",
+        "prompt": {
+          "fi": "Liite P on voimassa. Miten tarkkailija rankaisee venettä, jonka hän katsoo rikkoneen sääntöä 42?",
+          "en": "Appendix P applies. How does an observer penalize a boat they decide has broken rule 42?",
+          "sv": "Appendix P gäller. Hur straffar en observatör en båt som observatören anser har brutit mot regel 42?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Äänimerkki, keltaisella lipulla osoittaminen ja veneen yksilöivä huuto",
+              "en": "A sound signal, pointing a yellow flag and a hail identifying the boat",
+              "sv": "En ljudsignal, att peka med en gul flagga och ett rop som identifierar båten"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kirjallinen protesti ja tutkinta",
+              "en": "A written protest and a hearing",
+              "sv": "En skriftlig protest och en förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Punainen lippu",
+              "en": "A red flag",
+              "sv": "En röd flagga"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P1.2. Rangaistus annetaan niin pian kuin kohtuudella mahdollista.",
+          "en": "P1.2. The penalty is given as soon as reasonably possible.",
+          "sv": "P1.2. Straffet ges så snart det finns en rimlig möjlighet."
+        },
+        "source": "RRS P1.2",
+        "also": [
+          "42"
+        ]
+      },
+      {
+        "id": "rP1-q2",
+        "prompt": {
+          "fi": "Vene on jo tullut maaliin, kun tarkkailija viheltää sille säännön 42 rikkomuksesta. Voiko rangaistus vielä tulla?",
+          "en": "A boat has already finished when an observer signals her for a rule 42 breach. Can the penalty still be given?",
+          "sv": "En båt har redan gått i mål när en observatör signalerar till den för ett brott mot regel 42. Kan straffet ändå ges?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, vaikka vene ei enää kilpaile",
+              "en": "Yes, even if she is no longer racing",
+              "sv": "Ja, även om den inte längre kappseglar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska vene ei enää kilpaile",
+              "en": "No, because she is no longer racing",
+              "sv": "Nej, eftersom den inte längre kappseglar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P1.2 sallii rangaistuksen, vaikka vene ei enää kilpaile. Toisen tai myöhemmän rangaistuksen kohdalla P2.4 kertoo, miten vene pisteytetään, jos vetäytyminen ennen maalia ei ollut kohtuudella mahdollista.",
+          "en": "P1.2 allows the penalty even if the boat is no longer racing. For a second or later penalty, P2.4 says how she is scored if retiring before finishing was not reasonably possible.",
+          "sv": "P1.2 tillåter straffet även om båten inte längre kappseglar. För ett andra eller senare straff anger P2.4 hur båten poängsätts om det inte var rimligt möjligt att utgå före målgången."
+        },
+        "source": "RRS P1.2, P2.4",
+        "also": []
+      },
+      {
+        "id": "rP1-q3",
+        "prompt": {
+          "fi": "Tarkkailija rankaisi venettä vesillä, ja vene teki kierrokset. Toinen vene protestoi samasta tapahtumasta säännön 42 perusteella. Voiko protestilautakunta rangaista venettä uudelleen?",
+          "en": "An observer penalized a boat on the water, and she did her turns. Another boat protests her under rule 42 for the same incident. May the protest committee penalize her again?",
+          "sv": "En observatör straffade en båt på vattnet, och den gjorde sina svängar. En annan båt protesterar mot den enligt regel 42 för samma händelse. Får protestkommittén straffa den igen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: samasta tapahtumasta ei rangaista säännön 42 perusteella toista kertaa",
+              "en": "No: she may not be penalized under rule 42 a second time for the same incident",
+              "sv": "Nej: den får inte straffas en andra gång enligt regel 42 för samma händelse"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, se voidaan lisäksi hylätä",
+              "en": "Yes, she can be disqualified as well",
+              "sv": "Ja, den kan dessutom diskvalificeras"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P1.2:n viimeinen virke.",
+          "en": "The last sentence of P1.2.",
+          "sv": "Sista meningen i P1.2."
+        },
+        "source": "RRS P1.2",
+        "also": [
+          "42"
+        ]
+      },
+      {
+        "id": "rP1-q4",
+        "prompt": {
+          "fi": "Voiko protestilautakunta nimittää tarkkailijaksi valmentajan, jonka oma oppilas kilpailee?",
+          "en": "May the protest committee appoint as an observer a coach whose own sailor is racing?",
+          "sv": "Får protestkommittén utse en tränare vars egen seglare kappseglar till observatör?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, jos kyseessä on merkittävä eturistiriita",
+              "en": "No, if it is a significant conflict of interest",
+              "sv": "Nej, om det är en betydande intressekonflikt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska tarkkailija ei ole lautakunnan jäsen",
+              "en": "Yes, because an observer is not a committee member",
+              "sv": "Ja, eftersom en observatör inte är medlem i kommittén"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P1.1 kieltää nimittämästä henkilöä, jolla on merkittävä eturistiriita.",
+          "en": "P1.1 forbids appointing a person with a significant conflict of interest.",
+          "sv": "P1.1 förbjuder att en person med en betydande intressekonflikt utses."
+        },
+        "source": "RRS P1.1; Definitions, Conflict of Interest",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "P2",
+    "section": "P",
+    "title": {
+      "fi": "Rangaistukset",
+      "sv": "Straff",
+      "en": "Penalties"
+    },
+    "explain": {
+      "fi": "Rangaistukset kasvavat kilpailun aikana. P2.1: ensimmäinen rangaistus on kahden kierroksen rangaistus (44.2); jos vene ei ota sitä, se hylätään ilman tutkintaa. P2.2: toisella kerralla veneen on vetäydyttävä viipymättä; jos se ei vetäydy, se hylätään ilman tutkintaa, eikä tulosta saa jättää pois. P2.3: kolmannella ja myöhemmillä kerroilla veneen on vetäydyttävä viipymättä, ja sekin johtaa hylkäykseen ilman tutkintaa, jota ei saa jättää pois. Jos vene ei vetäydy, se hylätään kaikista kilpailun purjehduksista, mitään tulosta ei jätetä pois ja protestilautakunnan pitää harkita säännön 69.2 mukaista tutkintaa. P2.4: jos vene saa toisen tai myöhemmän rangaistuksen niin lähellä maalia, ettei vetäytyminen ennen maalia ollut kohtuudella mahdollista, se pisteytetään kuin se olisi vetäytynyt viipymättä.",
+      "en": "Penalties escalate during the event. P2.1: the first penalty is a Two-Turns Penalty (44.2); if the boat does not take it, she is disqualified without a hearing. P2.2: the second time she must retire promptly; if she does not, she is disqualified without a hearing and the score may not be excluded. P2.3: the third and later times she must retire promptly, and that too results in a disqualification without a hearing that may not be excluded. If she does not retire, she is disqualified from all races of the event with no score excluded, and the protest committee must consider a hearing under rule 69.2. P2.4: if a boat gets a second or later penalty so near the finish that retiring before finishing was not reasonably possible, she is scored as if she had retired promptly.",
+      "sv": "Straffen skärps under tävlingen. P2.1: det första straffet är ett tvåsvängsstraff (44.2); om båten inte tar det diskvalificeras den utan förhandling. P2.2: andra gången ska den omedelbart utgå; om den inte gör det diskvalificeras den utan förhandling och resultatet får inte räknas bort. P2.3: tredje och följande gånger ska den omedelbart utgå, och även det leder till en diskvalificering utan förhandling som inte får räknas bort. Om den inte utgår diskvalificeras den i alla kappseglingar i tävlingen utan att något resultat räknas bort, och protestkommittén ska överväga en förhandling enligt regel 69.2. P2.4: om en båt får ett andra eller senare straff så nära mål att det inte var rimligt möjligt att utgå före målgången, får den poäng som om den omedelbart hade utgått."
+    },
+    "note": {
+      "fi": "Suomenkielinen P2.2 sanoo ”rangaistus on vetäytyä”, ruotsinkielinen ”straffet att omedelbart utgå”; englanninkielinen vaatii vetäytymään (”shall promptly retire”). Sisältö on sama. Liite P on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat; ellei asiaa ole kerrottu kilpailukutsussa, purjehdusohjeiden pitää kertoa, onko se voimassa (J2.2(1)). Case Bookissa ei ole liitettä P koskevia tapauksia.",
+      "en": "The Finnish P2.2 says 'the penalty is to retire', the Swedish 'the penalty is to retire immediately'; the English requires her to retire ('shall promptly retire'). The substance is the same. Appendix P applies in whole or in part only if the notice of race or sailing instructions say so; unless the notice of race does so, the sailing instructions must state whether it applies (J2.2(1)). The Case Book has no cases on Appendix P.",
+      "sv": "Den finska P2.2 säger att straffet är att utgå, den svenska att straffet är att omedelbart utgå; den engelska kräver att båten utgår (”shall promptly retire”). Innehållet är detsamma. Appendix P gäller helt eller delvis bara om inbjudan eller seglingsföreskrifterna anger det; om inte inbjudan gör det ska seglingsföreskrifterna ange om det gäller (J2.2(1)). Fallboken har inga fall om appendix P."
+    },
+    "source": "RRS P2, 44.2, 69.2, A10",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Kahden kierroksen rangaistus tehdään säännön 44.2 mukaan.",
+          "en": "The Two-Turns Penalty is taken under rule 44.2.",
+          "sv": "Tvåsvängsstraffet tas enligt regel 44.2."
+        }
+      },
+      {
+        "rules": [
+          "69"
+        ],
+        "note": {
+          "fi": "Toistuva välinpitämättömyys voi johtaa sopimattoman käytöksen tutkintaan (69.2).",
+          "en": "Repeated disregard may lead to a misconduct hearing (69.2).",
+          "sv": "Upprepad ringaktning kan leda till en förhandling om olämpligt uppträdande (69.2)."
+        }
+      },
+      {
+        "rules": [
+          "A10"
+        ],
+        "note": {
+          "fi": "Hylkäys, jota ei voi jättää pois, kirjataan DNE.",
+          "en": "A disqualification that cannot be excluded is recorded DNE.",
+          "sv": "En diskvalificering som inte får räknas bort noteras DNE."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rP2-q1",
+        "prompt": {
+          "fi": "Vene saa kilpailun ensimmäisen keltaisen lipun. Mitä sen pitää tehdä?",
+          "en": "A boat gets her first yellow flag of the event. What must she do?",
+          "sv": "En båt får sin första gula flagga i tävlingen. Vad ska den göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kahden kierroksen rangaistus (44.2)",
+              "en": "A Two-Turns Penalty (44.2)",
+              "sv": "Ett tvåsvängsstraff (44.2)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vetäytyä",
+              "en": "Retire",
+              "sv": "Utgår"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; ensimmäinen on varoitus",
+              "en": "Nothing; the first is a warning",
+              "sv": "Ingenting; den första är en varning"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P2.1. Jos vene ei tee kierroksia, se hylätään ilman tutkintaa.",
+          "en": "P2.1. If she does not do the turns, she is disqualified without a hearing.",
+          "sv": "P2.1. Om den inte gör svängarna diskvalificeras den utan förhandling."
+        },
+        "source": "RRS P2.1",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "rP2-q2",
+        "prompt": {
+          "fi": "Sama vene saa toisen keltaisen lipun kilpailun kolmannessa purjehduksessa. Mitä sen pitää tehdä?",
+          "en": "The same boat gets a second yellow flag in the third race of the event. What must she do?",
+          "sv": "Samma båt får en andra gul flagga i tävlingens tredje kappsegling. Vad ska den göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vetäytyä viipymättä",
+              "en": "Retire promptly",
+              "sv": "Utgå omedelbart"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden kierroksen rangaistus",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Odottaa tutkintaa",
+              "en": "Wait for a hearing",
+              "sv": "Vänta på förhandling"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P2.2. Laskenta koskee koko kilpailua, ei yksittäistä purjehdusta. Jos vene ei vetäydy, se saa hylkäyksen, jota ei saa jättää pois.",
+          "en": "P2.2. The count is for the whole event, not one race. If she does not retire, she gets a disqualification that may not be excluded.",
+          "sv": "P2.2. Räkningen gäller hela tävlingen, inte en kappsegling. Om den inte utgår får den en diskvalificering som inte får räknas bort."
+        },
+        "source": "RRS P2.2",
+        "also": []
+      },
+      {
+        "id": "rP2-q3",
+        "prompt": {
+          "fi": "Vene saa kolmannen rangaistuksen eikä vetäydy. Mikä on seuraus?",
+          "en": "A boat gets her third penalty and does not retire. What follows?",
+          "sv": "En båt får sitt tredje straff och utgår inte. Vad följer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Hylkäys kaikista kilpailun purjehduksista ilman pois jättämistä; lautakunta harkitsee 69.2:n tutkintaa",
+              "en": "Disqualification from all races of the event with nothing excluded; the committee considers a 69.2 hearing",
+              "sv": "Diskvalificering i alla kappseglingar i tävlingen utan borträkning; kommittén överväger en förhandling enligt 69.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hylkäys tästä purjehduksesta",
+              "en": "Disqualification from this race",
+              "sv": "Diskvalificering i den här kappseglingen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kahden kierroksen rangaistus",
+              "en": "A Two-Turns Penalty",
+              "sv": "Ett tvåsvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P2.3. Jos vene vetäytyy, seuraus on hylkäys tästä purjehduksesta ilman pois jättämistä.",
+          "en": "P2.3. If she retires, the result is a disqualification from this race that may not be excluded.",
+          "sv": "P2.3. Om den utgår blir resultatet en diskvalificering i den här kappseglingen som inte får räknas bort."
+        },
+        "source": "RRS P2.3",
+        "also": [
+          "69"
+        ]
+      },
+      {
+        "id": "rP2-q4",
+        "prompt": {
+          "fi": "Vene saa toisen rangaistuksen kymmenen metriä ennen maalilinjaa eikä ehdi vetäytyä ennen maalia. Miten se pisteytetään?",
+          "en": "A boat gets her second penalty ten metres before the finishing line and cannot retire before finishing. How is she scored?",
+          "sv": "En båt får sitt andra straff tio meter före mållinjen och kan inte utgå före målgången. Hur poängsätts den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kuin se olisi vetäytynyt viipymättä (RET)",
+              "en": "As if she had retired promptly (RET)",
+              "sv": "Som om den omedelbart hade utgått (RET)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Maaliin tulon mukaan",
+              "en": "By her finish",
+              "sv": "Efter målgången"
+            }
+          },
+          {
+            "t": {
+              "fi": "DNE",
+              "en": "DNE",
+              "sv": "DNE"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P2.4.",
+          "en": "P2.4.",
+          "sv": "P2.4."
+        },
+        "source": "RRS P2.4",
+        "also": [
+          "A10"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "P3",
+    "section": "P",
+    "title": {
+      "fi": "Lykkäys, yleinen palautus tai mitätöiminen",
+      "sv": "Uppskjutna, återkallade eller annullerade kappseglingar",
+      "en": "Postponement, General Recall or Abandonment"
+    },
+    "explain": {
+      "fi": "Jos venettä on rangaistu P1.2:n mukaan ja kilpailulautakunta sen jälkeen viestittää lykkäyksen, yleisen palautuksen tai mitätöinnin, rangaistus peruuntuu. Se lasketaan kuitenkin mukaan, kun määritetään, monesko rangaistus veneen seuraava rangaistus on.",
+      "en": "If a boat has been penalized under P1.2 and the race committee then signals a postponement, general recall or abandonment, the penalty is cancelled. It still counts when deciding how many times she has been penalized during the event.",
+      "sv": "Om en båt har straffats enligt P1.2 och kappseglingskommittén därefter signalerar uppskjutning, allmän återkallelse eller annullering tas straffet bort. Det räknas ändå när man bestämmer hur många gånger båten har straffats under tävlingen."
+    },
+    "note": {
+      "fi": "Liite P on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat; ellei asiaa ole kerrottu kilpailukutsussa, purjehdusohjeiden pitää kertoa, onko se voimassa (J2.2(1)). Case Bookissa ei ole liitettä P koskevia tapauksia.",
+      "en": "Appendix P applies in whole or in part only if the notice of race or sailing instructions say so; unless the notice of race does so, the sailing instructions must state whether it applies (J2.2(1)). The Case Book has no cases on Appendix P.",
+      "sv": "Appendix P gäller helt eller delvis bara om inbjudan eller seglingsföreskrifterna anger det; om inte inbjudan gör det ska seglingsföreskrifterna ange om det gäller (J2.2(1)). Fallboken har inga fall om appendix P."
+    },
+    "source": "RRS P3",
+    "defs": [
+      "Postpone",
+      "Abandon"
+    ],
+    "links": [
+      {
+        "rules": [
+          "27",
+          "29",
+          "32"
+        ],
+        "note": {
+          "fi": "Lykkäys (AP), yleinen palautus (ensimmäinen korvausviiri) ja mitätöinti (N): säännöt 27, 29.2 ja 32.",
+          "en": "Postponement (AP), general recall (First Substitute) and abandonment (N): rules 27, 29.2 and 32.",
+          "sv": "Uppskjutning (AP), allmän återkallelse (första likhetstecken) och annullering (N): reglerna 27, 29.2 och 32."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rP3-q1",
+        "prompt": {
+          "fi": "Vene saa ensimmäisen keltaisen lipun ennen lähtöä, ja lähtö palautetaan yleisellä palautuksella. Pitääkö sen tehdä kierrokset?",
+          "en": "A boat gets her first yellow flag before the start, and the start is generally recalled. Must she do the turns?",
+          "sv": "En båt får sin första gula flagga före starten, och starten återkallas med allmän återkallelse. Måste den göra svängarna?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, rangaistus peruuntuu, mutta se lasketaan rangaistusten määrään",
+              "en": "No, the penalty is cancelled, but it counts towards the number of penalties",
+              "sv": "Nej, straffet tas bort, men det räknas till antalet straff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, uudessa lähdössä",
+              "en": "Yes, in the new start",
+              "sv": "Ja, i den nya starten"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, eikä sitä lasketa mukaan",
+              "en": "No, and it does not count",
+              "sv": "Nej, och det räknas inte"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P3.",
+          "en": "P3.",
+          "sv": "P3."
+        },
+        "source": "RRS P3",
+        "also": []
+      },
+      {
+        "id": "rP3-q2",
+        "prompt": {
+          "fi": "Veneen ensimmäinen rangaistus peruuntui mitätöinnin vuoksi. Myöhemmin se saa uuden rangaistuksen. Mikä rangaistus on?",
+          "en": "A boat's first penalty was cancelled because of an abandonment. Later she is penalized again. What is the penalty?",
+          "sv": "En båts första straff togs bort på grund av en annullering. Senare straffas den igen. Vilket är straffet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Toinen rangaistus: vetäytyminen (P2.2)",
+              "en": "A second penalty: retire (P2.2)",
+              "sv": "Ett andra straff: utgå (P2.2)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ensimmäinen rangaistus: kahden kierroksen rangaistus",
+              "en": "A first penalty: Two-Turns Penalty",
+              "sv": "Ett första straff: tvåsvängsstraff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P3: peruuntunut rangaistus lasketaan mukaan rangaistusten määrään.",
+          "en": "P3: a cancelled penalty still counts in the number of penalties.",
+          "sv": "P3: ett borttaget straff räknas ändå till antalet straff."
+        },
+        "source": "RRS P3, P2.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "P4",
+    "section": "P",
+    "title": {
+      "fi": "Hyvitysrajoitus",
+      "sv": "Begränsningar avseende gottgörelse",
+      "en": "Redress Limitation"
+    },
+    "explain": {
+      "fi": "Vene ei saa hyvitystä protestilautakunnan jäsenen tai tarkkailijan P1.2:n mukaisesta rangaistuksesta. Ainoa poikkeus: toimi oli virheellinen, koska siinä ei otettu huomioon kilpailulautakunnan viestiä tai luokkasääntöä. Esimerkiksi jos O-lippu salli pumppaamisen ja tarkkailija silti rankaisi pumppaamisesta, hyvitys on mahdollinen. Pelkkä erimielisyys siitä, mitä vene teki, ei ole hyvityksen peruste.",
+      "en": "A boat cannot get redress for a penalty given under P1.2 by a protest committee member or observer. The only exception: the action was improper because it failed to take into account a race committee signal or a class rule. For example, if flag O permitted pumping and the observer still penalized pumping, redress is possible. A mere disagreement about what the boat did is not a ground for redress.",
+      "sv": "En båt kan inte få gottgörelse för ett straff som en medlem i protestkommittén eller en observatör har gett enligt P1.2. Enda undantaget: åtgärden var felaktig eftersom hänsyn inte togs till en signal från kappseglingskommittén eller en klassregel. Om till exempel flagga O tillät pumpning och observatören ändå straffade pumpning är gottgörelse möjlig. Enbart oenighet om vad båten gjorde är ingen grund för gottgörelse."
+    },
+    "note": {
+      "fi": "Liite P on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat; ellei asiaa ole kerrottu kilpailukutsussa, purjehdusohjeiden pitää kertoa, onko se voimassa (J2.2(1)). Case Bookissa ei ole liitettä P koskevia tapauksia.",
+      "en": "Appendix P applies in whole or in part only if the notice of race or sailing instructions say so; unless the notice of race does so, the sailing instructions must state whether it applies (J2.2(1)). The Case Book has no cases on Appendix P.",
+      "sv": "Appendix P gäller helt eller delvis bara om inbjudan eller seglingsföreskrifterna anger det; om inte inbjudan gör det ska seglingsföreskrifterna ange om det gäller (J2.2(1)). Fallboken har inga fall om appendix P."
+    },
+    "source": "RRS P4, 61.4(b)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Hyvityksen yleiset perusteet ovat säännössä 61.4(b); P4 rajaa niitä.",
+          "en": "The general grounds for redress are in rule 61.4(b); P4 limits them.",
+          "sv": "De allmänna grunderna för gottgörelse finns i regel 61.4b; P4 begränsar dem."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rP4-q1",
+        "prompt": {
+          "fi": "Kilpailija on varma, ettei hän pumpannut, ja pyytää hyvitystä tarkkailijan rangaistuksesta. Voiko hän saada sitä?",
+          "en": "A competitor is sure she did not pump and requests redress for an observer's penalty. Can she get it?",
+          "sv": "En seglare är säker på att den inte pumpade och begär gottgörelse för en observatörs straff. Kan den få det?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: hyvitys on mahdollinen vain, jos rangaistuksessa ei otettu huomioon kilpailulautakunnan viestiä tai luokkasääntöä",
+              "en": "No: redress is possible only if the penalty failed to take into account a race committee signal or a class rule",
+              "sv": "Nej: gottgörelse är bara möjlig om straffet inte tog hänsyn till en signal från kappseglingskommittén eller en klassregel"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos tutkinnassa todetaan, ettei hän pumpannut",
+              "en": "Yes, if the hearing finds she did not pump",
+              "sv": "Ja, om förhandlingen visar att den inte pumpade"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P4.",
+          "en": "P4.",
+          "sv": "P4."
+        },
+        "source": "RRS P4",
+        "also": [
+          "61"
+        ]
+      },
+      {
+        "id": "rP4-q2",
+        "prompt": {
+          "fi": "Lippu O oli nostettu varoitusviestin kanssa, mutta tarkkailija rankaisi venettä pumppaamisesta, jonka luokkasäännöt silloin sallivat. Voiko vene saada hyvitystä?",
+          "en": "Flag O was displayed with the warning signal, but an observer penalized a boat for pumping that the class rules then permitted. Can she get redress?",
+          "sv": "Flagga O visades med varningssignalen, men en observatör straffade en båt för pumpning som klassreglerna då tillät. Kan den få gottgörelse?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never",
+              "sv": "Aldrig"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P4:n poikkeus: toimessa ei otettu huomioon kilpailulautakunnan viestiä (O) eikä luokkasääntöä.",
+          "en": "The P4 exception: the action failed to take into account a race committee signal (O) and a class rule.",
+          "sv": "Undantaget i P4: åtgärden tog inte hänsyn till kappseglingskommitténs signal (O) och en klassregel."
+        },
+        "source": "RRS P4, P5.2(a)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "P5",
+    "section": "P",
+    "title": {
+      "fi": "Liput O ja R",
+      "sv": "Flagga O och R",
+      "en": "Flags O and R"
+    },
+    "explain": {
+      "fi": "P5 on voimassa, jos luokkasäännöt sallivat pumppaamisen, keinuttamisen ja sysäykset, kun tuuli ylittää tietyn rajan. Ennen lähtöviestiä (P5.2): kilpailulautakunta voi nostaa lipun O viimeistään varoitusviestin kanssa merkiksi siitä, että nämä ovat luokkasääntöjen mukaisesti sallittuja. Jos tuuli sen jälkeen heikkenee alle rajan, lautakunta voi lykätä purjehdusta ja nostaa viimeistään uuden varoitusviestin kanssa joko lipun R (sääntö 42 luokkasääntöjen muuttamana on voimassa) tai lipun O. O tai R pidetään ylhäällä lähtöviestiin asti. Lähtöviestin jälkeen (P5.3): lautakunta voi nostaa merkillä lipun O toistuvin äänimerkein, kun tuuli ylittää rajan, tai lipun R, kun tuuli on laskenut alle rajan. Muutos koskee venettä sen ohitettua merkin.",
+      "en": "P5 applies if the class rules permit pumping, rocking and ooching when the wind exceeds a set limit. Before the starting signal (P5.2): the race committee may display flag O before or with the warning signal to signal that these are permitted as the class rules specify. If the wind then drops below the limit, the committee may postpone and, before or with the new warning signal, display either flag R (rule 42 as changed by the class rules applies) or flag O. O or R stays up until the starting signal. After the starting signal (P5.3): the committee may display flag O at a mark with repetitive sounds when the wind exceeds the limit, or flag R when it has dropped below. The change applies to a boat after she passes the mark.",
+      "sv": "P5 gäller om klassreglerna tillåter pumpning, gungning och stötning när vinden överstiger en angiven gräns. Före startsignalen (P5.2): kappseglingskommittén får visa flagga O före eller tillsammans med varningssignalen för att signalera att detta är tillåtet enligt klassreglerna. Om vinden därefter sjunker under gränsen får kommittén skjuta upp kappseglingen och, före eller tillsammans med den nya varningssignalen, visa antingen flagga R (regel 42 som ändrats av klassreglerna gäller) eller flagga O. O eller R visas tills startsignalen. Efter startsignalen (P5.3): kommittén får visa flagga O vid ett märke med upprepade ljud när vinden överstiger gränsen, eller flagga R när den har sjunkit under. Ändringen gäller för en båt efter att den har passerat märket."
+    },
+    "note": {
+      "fi": "Liite P on voimassa kokonaan tai osittain vain, jos kilpailukutsu tai purjehdusohjeet niin sanovat; ellei asiaa ole kerrottu kilpailukutsussa, purjehdusohjeiden pitää kertoa, onko se voimassa (J2.2(1)). Case Bookissa ei ole liitettä P koskevia tapauksia.",
+      "en": "Appendix P applies in whole or in part only if the notice of race or sailing instructions say so; unless the notice of race does so, the sailing instructions must state whether it applies (J2.2(1)). The Case Book has no cases on Appendix P.",
+      "sv": "Appendix P gäller helt eller delvis bara om inbjudan eller seglingsföreskrifterna anger det; om inte inbjudan gör det ska seglingsföreskrifterna ange om det gäller (J2.2(1)). Fallboken har inga fall om appendix P."
+    },
+    "source": "RRS P5, 42",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "42"
+        ],
+        "note": {
+          "fi": "Sääntö 42.2 kieltää pumppaamisen, keinuttamisen ja sysäykset; luokkasäännöt voivat sallia ne tuulirajan ylittyessä.",
+          "en": "Rule 42.2 prohibits pumping, rocking and ooching; class rules may permit them above a wind limit.",
+          "sv": "Regel 42.2 förbjuder pumpning, gungning och stötning; klassreglerna kan tillåta dem över en vindgräns."
+        }
+      },
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Luokkasäännöt voivat muuttaa sääntöä 42 (86.1(c)).",
+          "en": "Class rules may change rule 42 (86.1(c)).",
+          "sv": "Klassregler får ändra regel 42 (86.1c)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rP5-q1",
+        "prompt": {
+          "fi": "Luokkasäännöt sallivat pumppaamisen tuulen ylittäessä rajan. Lippu O nostetaan varoitusviestin kanssa. Mitä se tarkoittaa?",
+          "en": "The class rules permit pumping above a wind limit. Flag O is displayed with the warning signal. What does it mean?",
+          "sv": "Klassreglerna tillåter pumpning över en vindgräns. Flagga O visas med varningssignalen. Vad betyder det?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pumppaaminen, keinuttaminen ja sysäykset ovat sallittuja luokkasääntöjen mukaisesti",
+              "en": "Pumping, rocking and ooching are permitted as the class rules specify",
+              "sv": "Pumpning, gungning och stötning är tillåtet enligt klassreglerna"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaikki säännön 42 rajoitukset poistuvat",
+              "en": "All the limits of rule 42 are removed",
+              "sv": "Alla begränsningar i regel 42 tas bort"
+            }
+          },
+          {
+            "t": {
+              "fi": "Purjehdus on lykätty",
+              "en": "The race is postponed",
+              "sv": "Kappseglingen är uppskjuten"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P5.2(a). Sallittua on vain se, mitä luokkasäännöt sallivat; muut säännön 42 rajoitukset ovat voimassa.",
+          "en": "P5.2(a). Only what the class rules permit is allowed; rule 42's other limits still apply.",
+          "sv": "P5.2a. Bara det som klassreglerna tillåter är tillåtet; regel 42:s övriga begränsningar gäller."
+        },
+        "source": "RRS P5.2(a)",
+        "also": [
+          "42"
+        ]
+      },
+      {
+        "id": "rP5-q2",
+        "prompt": {
+          "fi": "Lippu O on ylhäällä, mutta tuuli heikkenee alle rajan ennen lähtöä. Mitä kilpailulautakunta voi tehdä?",
+          "en": "Flag O is up, but the wind drops below the limit before the start. What may the race committee do?",
+          "sv": "Flagga O visas, men vinden sjunker under gränsen före starten. Vad får kappseglingskommittén göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lykätä purjehduksen ja nostaa uuden varoitusviestin kanssa lipun R tai O",
+              "en": "Postpone and display flag R or O with the new warning signal",
+              "sv": "Skjuta upp kappseglingen och visa flagga R eller O med den nya varningssignalen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Laskea O-lipun kesken valmistautumisajan",
+              "en": "Lower flag O during the starting sequence",
+              "sv": "Ta ned flagga O under startproceduren"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; O on voimassa koko purjehduksen",
+              "en": "Nothing; O applies for the whole race",
+              "sv": "Ingenting; O gäller hela kappseglingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P5.2(b) ja (c): O tai R pidetään ylhäällä lähtöviestiin asti, joten muutos edellyttää lykkäystä.",
+          "en": "P5.2(b) and (c): O or R stays up until the starting signal, so a change needs a postponement.",
+          "sv": "P5.2b och c: O eller R visas tills startsignalen, så en ändring kräver uppskjutning."
+        },
+        "source": "RRS P5.2(b), P5.2(c)",
+        "also": [
+          "27"
+        ]
+      },
+      {
+        "id": "rP5-q3",
+        "prompt": {
+          "fi": "Kryssin aikana tuuli voimistuu yli rajan. Kilpailulautakunta nostaa yläpäämerkillä lipun O toistuvin äänimerkein. Mistä lähtien vene saa pumpata?",
+          "en": "During the beat the wind rises above the limit. The race committee displays flag O at the windward mark with repetitive sounds. From when may a boat pump?",
+          "sv": "Under kryssen ökar vinden över gränsen. Kappseglingskommittén visar flagga O vid kryssmärket med upprepade ljud. Från när får en båt pumpa?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ohitettuaan merkin",
+              "en": "After passing the mark",
+              "sv": "Efter att ha passerat märket"
+            }
+          },
+          {
+            "t": {
+              "fi": "Heti kun se näkee lipun",
+              "en": "As soon as she sees the flag",
+              "sv": "Så snart den ser flaggan"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraavasta purjehduksesta",
+              "en": "From the next race",
+              "sv": "Från nästa kappsegling"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P5.3(a).",
+          "en": "P5.3(a).",
+          "sv": "P5.3a."
+        },
+        "source": "RRS P5.3(a)",
+        "also": []
+      }
+    ]
   }
 ]
