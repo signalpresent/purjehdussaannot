@@ -24649,6 +24649,966 @@
     ]
   },
   {
+    "n": "C1",
+    "section": "C",
+    "title": {
+      "fi": "Käsitteet ja muutokset määritelmiin",
+      "sv": "Terminologi och ändringar av definitionerna",
+      "en": "Terminology and Changes to the Definitions"
+    },
+    "explain": {
+      "fi": "Liitteessä C ”kilpailija” tarkoittaa perämiestä, koko miehistöä tai venettä sen mukaan, mikä sopii kilpailuun, ja ”erä” tarkoittaa kahta tai useampaa ottelua, jotka lähetetään peräkkäin samassa lähtöjaksossa. Ottelut tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin. Määritelmä Tulla maaliin muuttuu: vene tulee maaliin, kun se lähtöviestinsä jälkeen ylittää maalilinjan radan puolelta suoritettuaan mahdolliset rangaistukset; jos rangaistus kumoutuu säännön C7.2(d) mukaisesti sen jälkeen kun vene tai veneet ovat tulleet maaliin, maaliintulohetkenä käytetään alkuperäistä linjan ylityshetkeä; vene ei ole tullut maaliin, jos se jatkaa radan purjehtimista. Merkkitila laajenee kattamaan myös tilan maalimerkin ohittamiseen maaliin tulon jälkeen. Oikeaan suuntaan lisätään, että rangaistusta suorittava tai siihen valmistautuva vene ei purjehdi oikeaa suuntaansa. Vyöhykkeen etäisyys pienennetään kahteen rungonpituuteen (pääsäännöissä kolme).",
+      "en": "In Appendix C, 'competitor' means the skipper, the whole crew or the boat, whichever fits the event, and 'flight' means two or more matches started in the same starting sequence. Matches are umpired unless the notice of race or sailing instructions say otherwise. The definition Finish changes: a boat finishes when, after her starting signal, she crosses the finishing line from the course side after completing any penalties; if a penalty is cancelled under rule C7.2(d) after one or both boats have finished, the finishing time used is the original moment of crossing the line; a boat has not finished if she keeps sailing the course. Mark-Room is widened to also cover room to pass a finishing mark after finishing. Proper Course gains a clause that a boat taking a penalty, or manoeuvring to take one, is not sailing her proper course. The Zone's distance is reduced to two hull lengths (three in the main rules).",
+      "sv": "I bilaga C betyder ”tävlande” skepparen, hela teamet eller båten, beroende på vad som passar tävlingen, och ”flight” betyder två eller flera matcher som startas i samma startsekvens. Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat. Definitionen Gå i mål ändras: en båt går i mål när den, efter sin startsignal, skär mållinjen från bansidan efter att ha tagit eventuella straff; om ett straff kvittas enligt regel C7.2d efter att en eller båda båtarna gått i mål, används den ursprungliga tidpunkten för att skära linjen som måltid. En båt har inte gått i mål om den fortsätter segla banan. Märkesplats vidgas till att även omfatta plats att passera ett målmärke efter att ha gått i mål. Tillbörlig kurs får ett tillägg om att en båt som tar ett straff, eller manövrerar för att ta ett, inte seglar tillbörlig kurs. Zonens avstånd minskas till två skrovlängder (tre i huvudreglerna)."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C1, C2.1-C2.4",
+    "defs": [
+      "Finish",
+      "Mark-Room",
+      "Proper Course",
+      "Zone"
+    ],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Liite C käyttää tavallista protesti- ja tutkintajärjestelmää pohjana, mutta C6-C9 muuttavat sitä huomattavasti otteluille sopivaksi.",
+          "en": "Appendix C builds on the ordinary protest and hearing system, but C6-C9 change it substantially to suit matches.",
+          "sv": "Bilaga C bygger på det vanliga protest- och förhandlingssystemet, men C6-C9 ändrar det betydligt för att passa matcher."
+        }
+      },
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Liite C poistaa säännön 44 kokonaan (C7.1) ja korvaa sen omalla rangaistusjärjestelmällään.",
+          "en": "Appendix C deletes rule 44 entirely (C7.1) and replaces it with its own penalty system.",
+          "sv": "Bilaga C stryker regel 44 helt (C7.1) och ersätter den med sitt eget straffsystem."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC1-q1",
+        "prompt": {
+          "fi": "Mitä käsite 'erä' tarkoittaa liitteessä C?",
+          "en": "What does 'flight' mean in Appendix C?",
+          "sv": "Vad betyder ”flight” i bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kahta tai useampaa ottelua, jotka lähetetään peräkkäin samassa lähtöjaksossa",
+              "en": "Two or more matches started in the same starting sequence",
+              "sv": "Två eller flera matcher som startas i samma startsekvens"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yhtä kilpailupäivää",
+              "en": "One day of competition",
+              "sv": "En tävlingsdag"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C1.",
+          "en": "C1.",
+          "sv": "C1."
+        },
+        "source": "RRS C1",
+        "also": []
+      },
+      {
+        "id": "rC1-q2",
+        "prompt": {
+          "fi": "Kuinka monta rungonpituutta Vyöhyke on liitteessä C?",
+          "en": "How many hull lengths is the Zone in Appendix C?",
+          "sv": "Hur många skrovlängder är Zonen i bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kaksi",
+              "en": "Two",
+              "sv": "Två"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme, kuten pääsäännöissä",
+              "en": "Three, as in the main rules",
+              "sv": "Tre, som i huvudreglerna"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.4.",
+          "en": "C2.4.",
+          "sv": "C2.4."
+        },
+        "source": "RRS C2.4",
+        "also": [
+          "Zone"
+        ]
+      },
+      {
+        "id": "rC1-q3",
+        "prompt": {
+          "fi": "Miksi rangaistusta suorittava vene ei purjehdi oikeaa suuntaansa liitteen C mukaan?",
+          "en": "Why, under Appendix C, is a boat taking a penalty not sailing her proper course?",
+          "sv": "Varför seglar en båt som tar ett straff inte tillbörlig kurs enligt bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koska Oikea suunta -määritelmää on muutettu niin, ettei rangaistusta suorittava tai siihen valmistautuva vene purjehdi sitä",
+              "en": "Because the Proper Course definition is changed so a boat taking, or manoeuvring to take, a penalty is not sailing it",
+              "sv": "Eftersom definitionen Tillbörlig kurs ändras så att en båt som tar, eller manövrerar för att ta, ett straff inte seglar den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koska sääntö 42 kieltää sen",
+              "en": "Because rule 42 forbids it",
+              "sv": "Eftersom regel 42 förbjuder det"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.3.",
+          "en": "C2.3.",
+          "sv": "C2.3."
+        },
+        "source": "RRS C2.3",
+        "also": [
+          "Proper Course"
+        ]
+      },
+      {
+        "id": "rC1-q4",
+        "prompt": {
+          "fi": "Vene ylittää maalilinjan radan puolelta, mutta ei ole vielä suorittanut suorittamatonta rangaistustaan. Onko se tullut maaliin liitteen C mukaan?",
+          "en": "A boat crosses the finishing line from the course side but has not yet taken an outstanding penalty. Has she finished under Appendix C?",
+          "sv": "En båt skär mållinjen från bansidan men har inte tagit ett utestående straff. Har den gått i mål enligt bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, ennen kuin rangaistus on suoritettu",
+              "en": "No, not until the penalty has been taken",
+              "sv": "Nej, inte förrän straffet har tagits"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, linjan ylitys riittää",
+              "en": "Yes, crossing the line is enough",
+              "sv": "Ja, det räcker att skära linjen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.1.",
+          "en": "C2.1.",
+          "sv": "C2.1."
+        },
+        "source": "RRS C2.1",
+        "also": [
+          "Finish"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "C2",
+    "section": "C",
+    "title": {
+      "fi": "Muutokset osan 1 ja 2 sääntöihin",
+      "sv": "Ändringar av reglerna i del 1 och 2",
+      "en": "Changes to the Part 1 and 2 Rules"
+    },
+    "explain": {
+      "fi": "Osaan 1 lisätään uusi sääntö 7: erotuomarit olettavat, ettei veneen tila tai sen suhde toiseen veneeseen ole muuttunut, ennen kuin he ovat varmoja muutoksesta (”viimeinen varma tieto”). Sääntö 13 jakautuu kahteen tilanteeseen: luovitessa vene pysyy loitolla tuulensilmän ohituksesta siihen asti kun se on tiukasti vastaisessa suunnassa, ja myötätuulessa isonpurjeen alaliesman keskiviivan ylityksestä siihen asti kun purje on täyttynyt tai vene ei enää purjehdi myötätuuleen; kummassakin tilanteessa säännöt 10-12 eivät päde, mutta kahden samanaikaisesti säännön alaisen veneen välillä vasemmalla puolella tai perässä oleva pysyy loitolla. Sääntö 16.2 lisää, ettei oikealla halssilla oleva vene saa laskea kurssia yli 90 asteen tosituulesta oikean suuntansa alapuolelle kohti tuulen puoleista merkkiä, jos se pakottaisi vasemman halssin veneen heti muuttamaan suuntaa pysyäkseen loitolla. Sääntö 17 poistetaan kokonaan. Sääntö 18 (merkkitila) muuttuu: sovelletaan, kun veneiden on jätettävä merkki samalle puolelle ja ainakin yksi on vyöhykkeessä, mutta ei lähestyvän ja poistuvan veneen välillä, ja lakkaa pätemästä, kun merkkitilaan oikeutettu vene on seuraavalla rataosuudella merkin takana; merkkitilan antaminen ratkeaa peiton mukaan sillä hetkellä, kun ensimmäinen vene saavuttaa vyöhykkeen, ja velvollisuus jatkuu niin kauan kuin sääntö pätee; oikeus lakkaa, kun merkkitilaan oikeutettu vene poistuu vyöhykkeestä, jolloin sääntöä sovelletaan tarvittaessa uudelleen; jos ulkopuolinen vene ei alun perinkään ole pystynyt antamaan merkkitilaa, sääntö ei päde niiden välillä; halssinvaihto merkkitilan osana ei saa olla nopeampi kuin oikean suunnan vaatima, eikä sisäpuolinen kulkuoikeutettu vene saa purjehtia tarpeettoman kauas ennen halssinvaihtoa (poikkeus porttimerkillä ja maalimerkillä, sekä vapautus, jos toisen veneen kurssiin ei vaikutettu). Sääntö 20.4(a) lisää käsimerkit huutojen ”tilaa vastakäännökseen” ja ”tee itse vastakäännös” tueksi. Sääntö 21.3 poistetaan. Sääntö 23.1 vaatii kilpailemattoman veneen olemaan häiritsemättä kilpailevaa venettä tai erotuomarivenettä, mikäli kohtuullinen mahdollisuus on. Uusi sääntö 23.3 vaatii, että eri otteluissa kohtaavien veneiden suunnanmuutokset ovat sopusoinnussa sääntöjen noudattamisen tai oman ottelun voittamisen kanssa. Sääntö 27.2 sallii lähtömerkin siirtämisen vain viimeistään varoitusviestin aikaan. Sääntö 31 laajenee: vene ei saa koskettaa lähtömerkkiä ennen lähtöä, rataosuuden aloittavaa, rajaavaa tai päättävää merkkiä, maalimerkkiä maaliin tulon jälkeen, eikä kilpailulautakunnan alusta, joka on myös merkki. Uusi sääntö 41(e) sallii avun antamisen miehistön jäsenen nostamiseksi vedestä ja palauttamiseksi veneeseen suunnilleen samaan paikkaan. Sääntö 42 pätee myös varoitus- ja valmiusviestien välillä, ja vispaamisen (toistuva peräsimen liike veneen kuljettamiseksi) määritelmä täsmentyy.",
+      "en": "A new rule 7 is added to Part 1: the umpires will assume a boat's state, or her relationship to another boat, has not changed until they are certain it has. Rule 13 splits into two situations: on a beat a boat keeps clear from passing head to wind until she is close-hauled, and downwind from the mainsail foot crossing the centreline until her sail has filled or she is no longer sailing downwind; in both, rules 10-12 do not apply, but between two boats subject to this at once, the one on the other's port side or astern keeps clear. Rule 16.2 adds that a starboard-tack boat may not bear away more than 90 degrees from the true wind below her proper course towards a windward mark if that forces a port-tack boat to change course immediately to keep clear. Rule 17 is deleted entirely. Rule 18 (mark-room) changes: it applies when boats must leave a mark on the same side and at least one is in the zone, but not between a boat approaching and one leaving, and it stops applying once the boat entitled to mark-room is on the next leg with the mark astern; who must give mark-room is decided by the overlap at the moment the first boat reaches the zone, and the duty continues for as long as the rule applies; the entitlement ends once the boat entitled to mark-room leaves the zone, after which the rule is reapplied if needed; if the outside boat was never able to give mark-room from when the overlap began, the rule does not apply between them; a tack or gybe that is part of mark-room may be no faster than needed to sail the proper course, and an inside right-of-way boat may not sail needlessly far from the mark before changing tack (except at a gate or finishing mark, with exoneration if another boat's course was unaffected). Rule 20.4(a) adds arm signals to back up the hails 'Room to tack' and 'You tack'. Rule 21.3 is deleted. Rule 23.1 requires a boat not racing to avoid interfering with a racing boat or an umpire boat when reasonably possible. New rule 23.3 requires that course changes by boats meeting from different matches be consistent with complying with a rule or trying to win their own match. Rule 27.2 allows moving a starting mark only no later than the warning signal. Rule 31 widens: a boat may not touch a starting mark before starting, a mark beginning, bounding or ending her leg, a finishing mark after finishing, or a race committee vessel that is also a mark. New rule 41(e) allows help recovering a crew member from the water and returning them aboard at about the same spot. Rule 42 also applies between the warning and preparatory signals, and the definition of sculling (repeated helm movement to propel the boat) is refined.",
+      "sv": "En ny regel 7 läggs till i del 1: matchdomarna förutsätter att en båts läge, eller dess förhållande till en annan båt, inte har förändrats förrän de är säkra på att det har förändrats. Regel 13 delas i två situationer: i kryss håller en båt undan från att den passerar vindögat tills den ligger dikt bidevind, och i undanvind från att storseglets underlik skär mittlinjen tills seglet har fyllt eller den inte längre seglar undanvind; i båda fallen gäller inte reglerna 10-12, men mellan två båtar som omfattas samtidigt ska den på den andras babordssida eller akter om hålla undan. Regel 16.2 lägger till att en båt för styrbords halsar inte får falla mer än 90 grader från den sanna vinden under sin tillbörliga kurs mot ett märke i lovart, om det tvingar en båt för babords halsar att omedelbart ändra kurs för att hålla undan. Regel 17 stryks helt. Regel 18 (märkesplats) ändras: den gäller när båtar måste lämna ett märke på samma sida och minst en är i zonen, men inte mellan en båt som närmar sig och en som lämnar, och upphör att gälla när båten med rätt till märkesplats är på nästa banben med märket akterut; vem som ska ge märkesplats avgörs av överlappet i det ögonblick den första båten når zonen, och skyldigheten fortsätter så länge regeln gäller; rätten upphör när båten med rätt till märkesplats lämnar zonen, varefter regeln tillämpas igen om det behövs; om ytterbåten aldrig har kunnat ge märkesplats sedan överlappet uppstod, gäller regeln inte mellan dem; en stagvändning eller gipp som ingår i märkesplats får inte göras fortare än vad som krävs för att segla tillbörlig kurs, och en innerbåt med rätt till väg får inte segla onödigt långt från märket innan den byter halsar (utom vid en gate eller ett målmärke, med frikännande om en annan båts kurs inte påverkades). Regel 20.4a lägger till armsignaler som stöd för anropen ”Plats att stagvända” och ”Stagvänd själv”. Regel 21.3 stryks. Regel 23.1 kräver att en båt som inte kappseglar undviker att störa en kappseglande båt eller en domarbåt när det är rimligt möjligt. Ny regel 23.3 kräver att kursändringar hos båtar som möts från olika matcher är förenliga med att följa en regel eller försöka vinna sin egen match. Regel 27.2 tillåter att flytta ett startmärke bara senast vid varningssignalen. Regel 31 vidgas: en båt får inte beröra ett startmärke innan den startar, ett märke som inleder, begränsar eller avslutar dess banben, ett målmärke efter att ha gått i mål, eller en funktionärsbåt som också är märke. Ny regel 41e tillåter hjälp att ta upp en besättningsmedlem ur vattnet och sätta tillbaka personen ombord i närheten av samma plats. Regel 42 gäller även mellan varnings- och förberedelsesignalen, och definitionen av vrickning (upprepad roderrörelse som driver båten framåt) förtydligas."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C2.5-C2.18, 7, 13, 16.2, 17, 18, 20.4, 21.3, 23, 27.2, 31, 41, 42",
+    "defs": [
+      "Mark-Room"
+    ],
+    "links": [
+      {
+        "rules": [
+          "13"
+        ],
+        "note": {
+          "fi": "C2.6 jakaa säännön 13 kahteen erilliseen tilanteeseen (luovi ja myötätuuli) sen sijaan, että käyttäisi yhtä yleistä sääntöä.",
+          "en": "C2.6 splits rule 13 into two separate situations (beating and downwind) instead of one general rule.",
+          "sv": "C2.6 delar regel 13 i två separata situationer (kryss och undanvind) i stället för en allmän regel."
+        }
+      },
+      {
+        "rules": [
+          "18"
+        ],
+        "note": {
+          "fi": "C2.9 mukauttaa säännön 18 otteluille: lähestyvän ja poistuvan veneen välinen poikkeus ja vyöhykkeestä poistumisen vaikutus ovat uusia.",
+          "en": "C2.9 adapts rule 18 for matches: the approaching-versus-leaving exception and the effect of leaving the zone are new.",
+          "sv": "C2.9 anpassar regel 18 för matcher: undantaget mellan en båt som närmar sig och en som lämnar, samt effekten av att lämna zonen, är nya."
+        }
+      },
+      {
+        "rules": [
+          "31"
+        ],
+        "note": {
+          "fi": "C2.15 laajentaa säännön 31 koskemaan myös merkkinä toimivaa kilpailulautakunnan alusta.",
+          "en": "C2.15 widens rule 31 to also cover a race committee vessel that is also a mark.",
+          "sv": "C2.15 vidgar regel 31 till att även omfatta en funktionärsbåt som också är märke."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC2-q1",
+        "prompt": {
+          "fi": "Mitä erotuomarit olettavat uuden säännön 7 mukaan?",
+          "en": "What do the umpires assume under new rule 7?",
+          "sv": "Vad förutsätter matchdomarna enligt ny regel 7?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ettei veneen tila tai suhde toiseen veneeseen ole muuttunut, ennen kuin he ovat varmoja muutoksesta",
+              "en": "That a boat's state or relationship to another boat has not changed, until they are certain it has",
+              "sv": "Att en båts läge eller förhållande till en annan båt inte har förändrats, förrän de är säkra på att det har förändrats"
+            }
+          },
+          {
+            "t": {
+              "fi": "Että vene on aina syyllinen epäselvässä tilanteessa",
+              "en": "That a boat is always at fault in an unclear situation",
+              "sv": "Att en båt alltid har fel i en oklar situation"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.5.",
+          "en": "C2.5.",
+          "sv": "C2.5."
+        },
+        "source": "RRS C2.5",
+        "also": []
+      },
+      {
+        "id": "rC2-q2",
+        "prompt": {
+          "fi": "Milloin säännön 18 mukainen merkkitilavelvollisuus lakkaa kokonaan veneiden välillä liitteessä C?",
+          "en": "When does the rule 18 mark-room duty stop applying between boats entirely under Appendix C?",
+          "sv": "När upphör skyldigheten enligt regel 18 att ge märkesplats helt mellan båtar i bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun merkkitilaan oikeutettu vene on seuraavalla rataosuudella ja merkki on sen perän takana",
+              "en": "When the boat entitled to mark-room is on the next leg with the mark astern of her",
+              "sv": "När båten med rätt till märkesplats är på nästa banben med märket akterut"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kun kumpikaan vene ei enää ole peitossa",
+              "en": "When neither boat is overlapped any more",
+              "sv": "När båtarna inte längre överlappar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.9, sääntö 18.1.",
+          "en": "C2.9, rule 18.1.",
+          "sv": "C2.9, regel 18.1."
+        },
+        "source": "RRS C2.9",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "rC2-q3",
+        "prompt": {
+          "fi": "Mitä sääntö 23.3 vaatii, kun eri otteluissa olevat veneet kohtaavat?",
+          "en": "What does rule 23.3 require when boats from different matches meet?",
+          "sv": "Vad kräver regel 23.3 när båtar från olika matcher möts?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Suunnanmuutosten pitää olla sopusoinnussa sääntöjen noudattamisen tai oman ottelun voittamisen kanssa",
+              "en": "Course changes must be consistent with complying with a rule or trying to win their own match",
+              "sv": "Kursändringar måste vara förenliga med att följa en regel eller försöka vinna sin egen match"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpikin vene pysyy automaattisesti alkuperäisellä kurssillaan",
+              "en": "Both boats automatically keep their original course",
+              "sv": "Båda båtarna håller automatiskt sin ursprungliga kurs"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.13.",
+          "en": "C2.13.",
+          "sv": "C2.13."
+        },
+        "source": "RRS C2.13",
+        "also": []
+      },
+      {
+        "id": "rC2-q4",
+        "prompt": {
+          "fi": "Mihin mennessä kilpailulautakunta saa viimeistään siirtää lähtömerkkiä säännön 27.2 mukaan?",
+          "en": "By when, at the latest, may the race committee move a starting mark under rule 27.2?",
+          "sv": "Senast när får kappseglingskommittén flytta ett startmärke enligt regel 27.2?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Viimeistään varoitusviestin aikaan",
+              "en": "No later than the warning signal",
+              "sv": "Senast vid varningssignalen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Milloin tahansa ennen lähtöviestiä",
+              "en": "At any time before the starting signal",
+              "sv": "Senast vid varningssignalen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.14.",
+          "en": "C2.14.",
+          "sv": "När som helst före startsignalen"
+        },
+        "source": "RRS C2.14",
+        "also": []
+      },
+      {
+        "id": "rC2-q5",
+        "prompt": {
+          "fi": "Mitä uusi sääntö 41(e) sallii?",
+          "en": "What does new rule 41(e) allow?",
+          "sv": "C2.14."
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Auttaa nostamaan miehistön jäsenen vedestä ja palauttamaan hänet veneeseen suunnilleen samaan paikkaan",
+              "en": "Helping recover a crew member from the water and return them aboard at about the same spot",
+              "sv": "Vad tillåter ny regel 41e?"
+            }
+          },
+          {
+            "t": {
+              "fi": "Minkä tahansa ulkopuolisen avun ottamisen vastaan",
+              "en": "Accepting any outside help at all",
+              "sv": "Att hjälpa ta upp en besättningsmedlem ur vattnet och sätta tillbaka personen ombord i närheten av samma plats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C2.16.",
+          "en": "C2.16.",
+          "sv": "Att ta emot vilken utomstående hjälp som helst"
+        },
+        "source": "RRS C2.16",
+        "also": [
+          "41"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "C3",
+    "section": "C",
+    "title": {
+      "fi": "Kilpailuviestit ja vaatimukset ennen lähtöä",
+      "sv": "Kappseglingssignaler och krav före starten",
+      "en": "Race Signals and Requirements Before the Start"
+    },
+    "explain": {
+      "fi": "Ottelun lähtöviestit poikkeavat tavallisista: 7 minuuttia ennen lippu F huomioviestinä, 6 minuuttia F lasketaan, 5 minuuttia numeroviiri varoitusviestinä (erässä viiri 1 tarkoittaa ottelua 1 jne.), 4 minuuttia lippu P valmiusviestinä, 2 minuuttia sininen tai keltainen lippu — vain jos vene ei ole noudattanut sääntöä C4.2 — lähtöä edeltävän sisääntuloajan päättymisenä, 1 minuutti lipun P lasku pitkällä äänimerkillä, ja 0 varoitus- ja valmiusviestien lasku lähtöviestinä; useamman ottelun sarjassa edellisen ottelun lähtöviesti on seuraavan varoitusviesti. Sääntöön 29.1 (ennenaikaisesti lähteneet) lisätään, että kilpailulautakunnan on nostettava veneen tunnusvärinen sininen tai keltainen lippu äänimerkillä heti, kun vene on radan puolella lähtöviestin hetkellä tai ylittää linjan virheellisesti sen jälkeen, ja lippu pidetään ylhäällä kunnes vene korjaa tilanteensa tai enintään kaksi minuuttia lähtöviestistä. Kilpailuviestien AP ja N viimeiset lauseet muuttuvat huomioviestin ajoituksen osalta. Sinistä lippua tai kuviota ei käytetä maalilinjaviestinä. Ennen lähtöä (C4): valmiusviestin hetkellä veneen on oltava kokonaan 90 asteen kulmassa lähtölinjaan nähden kulkevan, oman lähtömerkkinsä kautta kulkevan linjan ulkopuolella; parilistan vasemmanpuoleinen vene saa vasemman pään ja sinisen perälipun, oikeanpuoleinen oikean pään ja keltaisen perälipun; kahden minuutin kuluessa valmiusviestistä veneen on ylitettävä lähtölinja ensimmäisen kerran radan puolelta lähtöpuolelle.",
+      "en": "A match's starting signals differ from the usual ones: 7 minutes before, flag F as the attention signal; 6 minutes, F lowered; 5 minutes, a numeral pennant as the warning signal (within a flight, pennant 1 means Match 1 and so on); 4 minutes, flag P as the preparatory signal; 2 minutes, a blue or yellow flag — only if a boat has not complied with rule C4.2 — as the end of the pre-start entry time; 1 minute, lowering flag P with one long sound; and 0, lowering the warning and preparatory signals as the starting signal; in a series of matches, one match's starting signal is the next match's warning signal. An addition to rule 29.1 (boats starting early) requires the race committee to promptly display the boat's blue or yellow identifying flag with a sound as soon as she is on the course side at her starting signal, or crosses incorrectly afterwards, keeping it up until she corrects the situation or at most two minutes after her starting signal. The last sentences of race signals AP and N change regarding the timing of the attention signal. The blue flag or shape is not used as a finishing line signal. Before the start (C4): at her preparatory signal, a boat's hull must be completely outside a line at a 90-degree angle to the starting line through her assigned starting mark; the boat listed on the left of the pairing list gets the port end and a blue flag at the stern, the other the starboard end and a yellow flag; within two minutes of the preparatory signal, a boat must cross the starting line, the first time from the course side to the pre-start side.",
+      "sv": "En matchs startsignaler skiljer sig från de vanliga: 7 minuter före, flagga F som uppmärksamhetssignal; 6 minuter, F tas ner; 5 minuter, en siffervimpel som varningssignal (inom en flight betyder vimpel 1 match 1 osv); 4 minuter, flagga P som förberedelsesignal; 2 minuter, en blå eller gul flagga — bara om en båt inte har rättat sig efter regel C4.2 — som slutet på inseglingstiden; 1 minut, att ta ner flagga P med en lång ljudsignal; och 0, att ta ner varnings- och förberedelsesignalerna som startsignal; i en serie matcher är en matchs startsignal nästa matchs varningssignal. Ett tillägg till regel 29.1 (båtar som startar för tidigt) kräver att kappseglingskommittén snarast visar båtens blå eller gula identifieringsflagga med en ljudsignal så snart den är på bansidan vid sin startsignal, eller skär fel därefter, och håller den uppe tills båten rättar situationen eller högst två minuter efter startsignalen. De sista meningarna i kappseglingssignalerna AP och N ändras om tidpunkten för uppmärksamhetssignalen. Blå flagga eller figur används inte som mållinjesignal. Före starten (C4): vid sin förberedelsesignal ska en båts skrov vara helt utanför en linje i 90 graders vinkel mot startlinjen genom dess tilldelade startmärke; båten till vänster i matchschemat får babords sida och en blå flagga i aktern, den andra styrbords sida och en gul flagga; inom två minuter efter förberedelsesignalen måste en båt skära startlinjen, första gången från bansidan till startsidan."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C3, C4, 29.1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "29"
+        ],
+        "note": {
+          "fi": "C3.2(a) laajentaa säännön 29.1 koskemaan myös lähtöviestin jälkeistä virheellistä linjan ylitystä, ei vain lähtöhetkeä.",
+          "en": "C3.2(a) widens rule 29.1 to also cover an incorrect crossing after the starting signal, not just the moment of starting.",
+          "sv": "C3.2a vidgar regel 29.1 till att även omfatta en felaktig linjekorsning efter startsignalen, inte bara själva starttillfället."
+        }
+      },
+      {
+        "rules": [
+          "27"
+        ],
+        "note": {
+          "fi": "C3:n lähtöviestit korvaavat Kilpapurjehdusviestit-luvun tavalliset ajat ja liput kokonaan otteluille.",
+          "en": "C3's starting signals fully replace the usual Race Signals timings and flags for matches.",
+          "sv": "C3:s startsignaler ersätter helt de vanliga tiderna och flaggorna i Kappseglingssignaler för matcher."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC3-q1",
+        "prompt": {
+          "fi": "Montako minuuttia ennen lähtöä numeroviiri nostetaan varoitusviestinä?",
+          "en": "How many minutes before the start is a numeral pennant displayed as the warning signal?",
+          "sv": "Hur många minuter före start visas en siffervimpel som varningssignal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "5 minuuttia",
+              "en": "5 minutes",
+              "sv": "5 minuter"
+            }
+          },
+          {
+            "t": {
+              "fi": "7 minuuttia",
+              "en": "7 minutes",
+              "sv": "7 minuter"
+            }
+          },
+          {
+            "t": {
+              "fi": "4 minuuttia",
+              "en": "4 minutes",
+              "sv": "4 minuter"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C3.1.",
+          "en": "C3.1.",
+          "sv": "C3.1."
+        },
+        "source": "RRS C3.1",
+        "also": []
+      },
+      {
+        "id": "rC3-q2",
+        "prompt": {
+          "fi": "Milloin sininen tai keltainen lippu nostetaan kaksi minuuttia ennen lähtöä?",
+          "en": "When is a blue or yellow flag displayed two minutes before the start?",
+          "sv": "När visas en blå eller gul flagga två minuter före start?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain, jos vene ei ole noudattanut sääntöä C4.2",
+              "en": "Only if a boat has not complied with rule C4.2",
+              "sv": "Bara om en båt inte har rättat sig efter regel C4.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina, jokaisessa ottelussa",
+              "en": "Always, in every match",
+              "sv": "Alltid, i varje match"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C3.1, alaviite **.",
+          "en": "C3.1, footnote **.",
+          "sv": "C3.1, not **."
+        },
+        "source": "RRS C3.1",
+        "also": [
+          "29"
+        ]
+      },
+      {
+        "id": "rC3-q3",
+        "prompt": {
+          "fi": "Minkä värisen perälipun parilistan vasemmanpuoleinen vene pitää kilpaillessaan?",
+          "en": "What colour stern flag does the boat listed on the left of the pairing list fly while racing?",
+          "sv": "Vilken färg har akterflaggan för båten till vänster i matchschemat när den kappseglar?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sinisen",
+              "en": "Blue",
+              "sv": "Blå"
+            }
+          },
+          {
+            "t": {
+              "fi": "Keltaisen",
+              "en": "Yellow",
+              "sv": "Gul"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C4.1.",
+          "en": "C4.1.",
+          "sv": "C4.1."
+        },
+        "source": "RRS C4.1",
+        "also": []
+      },
+      {
+        "id": "rC3-q4",
+        "prompt": {
+          "fi": "Mihin mennessä veneen pitää ylittää lähtölinja radan puolelta lähtöpuolelle valmiusviestin jälkeen (C4.2)?",
+          "en": "By when must a boat cross the starting line from the course side to the pre-start side after the preparatory signal (C4.2)?",
+          "sv": "Senast när måste en båt skära startlinjen från bansidan till startsidan efter förberedelsesignalen (C4.2)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kahden minuutin kuluessa",
+              "en": "Within two minutes",
+              "sv": "Inom två minuter"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viiden minuutin kuluessa",
+              "en": "Within five minutes",
+              "sv": "Inom fem minuter"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C4.2.",
+          "en": "C4.2.",
+          "sv": "C4.2."
+        },
+        "source": "RRS C4.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C4",
+    "section": "C",
+    "title": {
+      "fi": "Erotuomarien viestit",
+      "sv": "Domarsignaler",
+      "en": "Signals by Umpires"
+    },
+    "explain": {
+      "fi": "Erotuomarien viestit: viher-valkoinen lippu ja pitkä äänimerkki tarkoittavat, ettei rangaistusta anneta; sininen tai keltainen lippu, joka yksilöi veneen, pitkällä äänimerkillä tarkoittaa, että veneen on suoritettava rangaistus säännön C7 mukaan; punainen lippu sinisen tai keltaisen kanssa tai pian sen jälkeen, pitkällä äänimerkillä, tarkoittaa niin sanottua punaisen lipun rangaistusta säännön C7.3(d) mukaan; musta lippu sinisen tai keltaisen kanssa, pitkällä äänimerkillä, tarkoittaa veneen hylkäämistä tai vetäytymistä — ottelu päättyy ja toinen vene voittaa; yksi lyhyt äänimerkki tarkoittaa, että rangaistus on nyt suoritettu; toistuvat lyhyet äänimerkit tarkoittavat, ettei vene enää suorita rangaistusta ja rangaistus jää voimaan; erotuomariveneestä näytettävä sininen tai keltainen lippu tai kuvio tarkoittaa, että veneellä on suorittamaton rangaistus.",
+      "en": "Umpire signals: a green and white flag with one long sound means no penalty is given; a blue or yellow flag identifying a boat with one long sound means that boat must take a penalty under rule C7; a red flag with or soon after a blue or yellow flag, with one long sound, means the so-called red-flag penalty under rule C7.3(d); a black flag with a blue or yellow flag, with one long sound, means the boat is disqualified or has retired — the match ends and the other boat wins; one short sound means a penalty is now completed; repetitive short sounds mean the boat is no longer taking a penalty and it remains outstanding; a blue or yellow flag or shape shown from an umpire boat means that boat has an outstanding penalty.",
+      "sv": "Domarsignaler: en grön och vit flagga med en lång ljudsignal betyder att inget straff ges; en blå eller gul flagga som identifierar en båt med en lång ljudsignal betyder att den båten måste ta ett straff enligt regel C7; en röd flagga tillsammans med, eller strax efter, en blå eller gul flagga, med en lång ljudsignal, betyder det så kallade rödflaggsstraffet enligt regel C7.3d; en svart flagga tillsammans med en blå eller gul flagga, med en lång ljudsignal, betyder att båten är diskvalificerad eller har utgått — matchen avslutas och den andra båten vinner; en kort ljudsignal betyder att ett straff nu är fullbordat; upprepade korta ljudsignaler betyder att båten inte längre tar ett straff och det kvarstår; en blå eller gul flagga eller figur som visas från en domarbåt betyder att den båten har ett utestående straff."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C5",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "44"
+        ],
+        "note": {
+          "fi": "Erotuomarien viestit korvaavat tavallisen rangaistusten vesillä tunnistamisen tavan (esim. säännön 44 kahden kierroksen rangaistuksen oma-aloitteisuuden) kokonaan omalla lippujärjestelmällään.",
+          "en": "The umpire signals entirely replace the usual way penalties are self-identified on the water (such as rule 44's self-administered Two-Turns Penalty) with their own flag system.",
+          "sv": "Domarsignalerna ersätter helt det vanliga sättet att själv ta ett straff på vattnet (som regel 44:s självadministrerade tvåvarvsstraff) med sitt eget flaggsystem."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC4-q1",
+        "prompt": {
+          "fi": "Mitä viher-valkoinen lippu pitkällä äänimerkillä tarkoittaa?",
+          "en": "What does a green and white flag with one long sound mean?",
+          "sv": "Vad betyder en grön och vit flagga med en lång ljudsignal?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei rangaistusta",
+              "en": "No penalty",
+              "sv": "Inget straff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ottelu on päättynyt",
+              "en": "The match has ended",
+              "sv": "Matchen har avslutats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C5.1.",
+          "en": "C5.1.",
+          "sv": "C5.1."
+        },
+        "source": "RRS C5.1",
+        "also": []
+      },
+      {
+        "id": "rC4-q2",
+        "prompt": {
+          "fi": "Milloin käytetään punaisen lipun rangaistusta (C5.3)?",
+          "en": "When is the red-flag penalty (C5.3) used?",
+          "sv": "När används rödflaggsstraffet (C5.3)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kun vene on saanut hallitsevan aseman sääntörikkomuksensa ansiosta, mutta ei ole varmaa, täyttyvätkö oma-aloitteisen lisärangaistuksen ehdot",
+              "en": "When a boat has gained a controlling position by breaking a rule, but it is not certain the conditions for an additional umpire-initiated penalty are met",
+              "sv": "När en båt har fått en kontrollerande position genom att bryta mot en regel, men det inte är säkert att villkoren för ett ytterligare domarinitierat straff är uppfyllda"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina kun vene koskettaa merkkiä",
+              "en": "Whenever a boat touches a mark",
+              "sv": "Varje gång en båt berör ett märke"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.5(b).",
+          "en": "C6.5(b).",
+          "sv": "C6.5b."
+        },
+        "source": "RRS C6.5(b)",
+        "also": []
+      },
+      {
+        "id": "rC4-q3",
+        "prompt": {
+          "fi": "Mitä musta lippu sinisen tai keltaisen lipun kanssa tarkoittaa?",
+          "en": "What does a black flag with a blue or yellow flag mean?",
+          "sv": "Vad betyder en svart flagga tillsammans med en blå eller gul flagga?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vene hylätään tai on vetäytynyt; ottelu päättyy ja toinen vene voittaa",
+              "en": "The boat is disqualified or has retired; the match ends and the other boat wins",
+              "sv": "Båten är diskvalificerad eller har utgått; matchen avslutas och den andra båten vinner"
+            }
+          },
+          {
+            "t": {
+              "fi": "Veneen pitää suorittaa kaksi rangaistusta",
+              "en": "The boat must take two penalties",
+              "sv": "Båten måste ta två straff"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C5.4.",
+          "en": "C5.4.",
+          "sv": "C5.4."
+        },
+        "source": "RRS C5.4",
+        "also": []
+      },
+      {
+        "id": "rC4-q4",
+        "prompt": {
+          "fi": "Mitä toistuvat lyhyet äänimerkit tarkoittavat?",
+          "en": "What do repetitive short sounds mean?",
+          "sv": "Vad betyder upprepade korta ljudsignaler?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vene ei enää suorita rangaistusta ja rangaistus jää voimaan",
+              "en": "The boat is no longer taking a penalty and it remains outstanding",
+              "sv": "Båten tar inte längre ett straff och det kvarstår"
+            }
+          },
+          {
+            "t": {
+              "fi": "Rangaistus on suoritettu loppuun",
+              "en": "A penalty has been completed",
+              "sv": "Ett straff har fullbordats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C5.6.",
+          "en": "C5.6.",
+          "sv": "C5.6."
+        },
+        "source": "RRS C5.6",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "C5",
+    "section": "C",
+    "title": {
+      "fi": "Veneiden protestit ja hyvityspyynnöt",
+      "sv": "Protester och ansökan om gottgörelse från båtar",
+      "en": "Protests and Requests for Redress by Boats"
+    },
+    "explain": {
+      "fi": "Vene voi protestoida toista venettä osan 2 säännön (paitsi 14) nojalla nostamalla lipun Y selvästi näkyviin heti sellaisen tapahtuman jälkeen, johon se oli osallisena, tai minkä tahansa muun protestoitavissa olevan säännön nojalla punaisella lipulla mahdollisimman pian tapahtuman jälkeen. Vene ei voi protestoida säännön 14 nojalla ellei vahinkoa tai loukkaantumista aiheutunut, osan 2 säännön nojalla ellei ollut osallisena, eikä lainkaan sääntöjen 31, 42, C4 tai C7 nojalla — näistä rankaisevat vain erotuomarit, eivät protestit. Hyvityspyyntö kilpailun tai maalialueen aikana ilmenevistä seikoista vaatii punaisen lipun mahdollisimman pian, viimeistään kaksi minuuttia maaliin tulosta tai vetäytymisestä. Y-lippu lasketaan ennen erotuomarien viestiä tai mahdollisimman pian sen jälkeen; punainen lippu pidetään ylhäällä, kunnes asiasta on ilmoitettu erotuomareille maaliin tulon tai vetäytymisen jälkeen — kirjallista protestia tai pyyntöä ei vaadita. Erotuomarit päättävät Y-lipun jälkeen rankaisemisesta ja viestivät päätöksensä; jos rangaistus johtaisi yli kahteen suorittamattomaan rangaistukseen, vene hylätään suoraan; jos erotuomarit rankaisevat omasta aloitteestaan samassa tilanteessa, he voivat jättää Y-lipun huomiotta. Protestilautakunta voi ottaa näyttöä valitsemallaan tavalla ja ilmoittaa päätöksensä suullisesti; jos rikkomuksella ei ollut merkittävää vaikutusta ottelun tulokseen, se voi langettaa osapisteen rangaistuksen, määrätä uusinnan tai tehdä muun oikeudenmukaisen ratkaisun, myös rankaisematta jättämisen; säännön 14 rikkomuksen rangaistus vahingon tai loukkaantumisen sattuessa on lautakunnan harkinnassa ja voi sisältää poissulkemisen. Liitteeseen N lisätään uusi sääntö N1.10: yksi kansainvälinen erotuomari voidaan nimittää tuomaristoon kansainvälisen tuomarin sijaan.",
+      "en": "A boat may protest another under a Part 2 rule (except rule 14) by clearly displaying flag Y right after an incident she was involved in, or under any other rule that may be protested by clearly displaying a red flag as soon as possible after the incident. A boat may not protest under rule 14 unless damage or injury results, under a Part 2 rule unless she was involved, or at all under rules 31, 42, C4 or C7 — only the umpires penalize those, not protests. A redress request about circumstances arising while racing or in the finishing area needs a red flag as soon as possible, no later than two minutes after finishing or retiring. Flag Y is lowered before or as soon as possible after the umpires' signal; a red flag stays up until the boat has told the umpires after finishing or retiring — no written protest or request is required. After flag Y, the umpires decide whether to penalize and signal their decision; if a penalty would leave a boat with more than two outstanding penalties, she is disqualified directly; if the umpires penalize on their own initiative in the same incident, they may disregard flag Y. The protest committee may take evidence as it sees fit and announce its decision orally; if a breach had no significant effect on the match's outcome, it may impose a penalty of a point or part of one, order a resail, or make another fair arrangement, including no penalty; the penalty for a rule 14 breach causing damage or injury is at the committee's discretion and may include exclusion from further races. A new rule N1.10 is added to Appendix N: one International Umpire may be appointed to the jury in place of one International Judge.",
+      "sv": "En båt får protestera mot en annan enligt en regel i del 2 (utom regel 14) genom att tydligt visa flagga Y genast efter en händelse den var inblandad i, eller enligt någon annan regel som kan protesteras genom att tydligt visa en röd flagga så snart som möjligt efter händelsen. En båt får inte protestera enligt regel 14 om inte sak- eller personskada uppstår, enligt en regel i del 2 om den inte var inblandad, eller alls enligt regel 31, 42, C4 eller C7 — bara matchdomarna straffar dessa, inte protester. En ansökan om gottgörelse om omständigheter som uppstår under kappseglingen eller i målområdet behöver en röd flagga så snart som möjligt, senast två minuter efter att ha gått i mål eller utgått. Flagga Y tas ner före eller så snart som möjligt efter matchdomarnas signal; en röd flagga ska vara uppe tills båten har informerat matchdomarna efter att ha gått i mål eller utgått — ingen skriftlig protest eller ansökan krävs. Efter flagga Y beslutar matchdomarna om straff och signalerar sitt beslut; om ett straff skulle lämna en båt med fler än två utestående straff, diskvalificeras den direkt; om matchdomarna straffar på eget initiativ i samma händelse, kan de bortse från flagga Y. Protestkommittén får inhämta bevisning på det sätt den finner lämpligt och meddela sitt beslut muntligt; om ett regelbrott inte haft någon avgörande betydelse för matchresultatet kan den utdöma ett straff på en poäng eller del av en poäng, beordra omsegling, eller göra något annat rättvist, inklusive inget straff; straffet för brott mot regel 14 som orsakar sak- eller personskada bestäms av kommittén och kan innefatta uteslutning från fler kappseglingar. En ny regel N1.10 läggs till i bilaga N: en internationell matchdomare får utses till juryn istället för en internationell domare."
+    },
+    "note": {
+      "fi": "Parikilpailut (ottelut) tuomitaan erotuomarein, ellei kilpailukutsu tai purjehdusohjeet määrää toisin; erotuomarit rankaisevat osan monista rikkomuksista suoraan vesillä. Case Bookissa ei ole liitettä C koskevia tapauksia.",
+      "en": "Matches are umpired unless the notice of race or sailing instructions say otherwise; umpires penalize many breaches directly on the water. The Case Book has no cases on Appendix C.",
+      "sv": "Matcher direktdöms av matchdomare om inte inbjudan eller seglingsföreskrifterna anger annat; matchdomare straffar många regelbrott direkt på vattnet. Case Book har inga fall om bilaga C."
+    },
+    "source": "RRS C6, N1.10",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "C6 korvaa tavallisen protestihuudon ja kirjallisen protestin lippujärjestelmällä (Y tai punainen) ja poistaa kirjallisen muodon vaatimuksen.",
+          "en": "C6 replaces the usual protest hail and written protest with a flag system (Y or red) and drops the written-form requirement.",
+          "sv": "C6 ersätter det vanliga protestropet och den skriftliga protesten med ett flaggsystem (Y eller röd) och tar bort kravet på skriftlig form."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "C6.3 asettaa hyvityspyynnölle oman kahden minuutin määräajan, joka on tiukempi kuin pääsäännön yleinen protestiaika.",
+          "en": "C6.3 sets its own two-minute limit for a redress request, stricter than the main rule's general protest time.",
+          "sv": "C6.3 sätter sin egen tvåminutersgräns för en ansökan om gottgörelse, strängare än huvudregelns allmänna protesttid."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rC5-q1",
+        "prompt": {
+          "fi": "Millä lipulla vene protestoi toista venettä osan 2 säännön (paitsi 14) rikkomisesta?",
+          "en": "Which flag does a boat use to protest another under a Part 2 rule (except 14)?",
+          "sv": "Vilken flagga använder en båt för att protestera mot en annan enligt en regel i del 2 (utom 14)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lipulla Y",
+              "en": "Flag Y",
+              "sv": "Flagga Y"
+            }
+          },
+          {
+            "t": {
+              "fi": "Punaisella lipulla",
+              "en": "A red flag",
+              "sv": "En röd flagga"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.1(a).",
+          "en": "C6.1(a).",
+          "sv": "C6.1a."
+        },
+        "source": "RRS C6.1(a)",
+        "also": []
+      },
+      {
+        "id": "rC5-q2",
+        "prompt": {
+          "fi": "Voiko vene protestoida toista venettä säännön 42 (eteneminen) rikkomisesta liitteen C mukaan?",
+          "en": "May a boat protest another for breaking rule 42 (propulsion) under Appendix C?",
+          "sv": "Får en båt protestera mot en annan för brott mot regel 42 (framdrivning) enligt bilaga C?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; siitä rankaisevat vain erotuomarit",
+              "en": "No; only the umpires penalize that",
+              "sv": "Nej; bara matchdomarna straffar det"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, punaisella lipulla",
+              "en": "Yes, with a red flag",
+              "sv": "Ja, med en röd flagga"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.2(c).",
+          "en": "C6.2(c).",
+          "sv": "C6.2c."
+        },
+        "source": "RRS C6.2(c)",
+        "also": []
+      },
+      {
+        "id": "rC5-q3",
+        "prompt": {
+          "fi": "Mihin mennessä hyvityspyynnön punainen lippu on viimeistään nostettava, jos tilanne ilmenee maalialueella?",
+          "en": "By when, at the latest, must the red flag for a redress request go up if the circumstance arises in the finishing area?",
+          "sv": "Senast när måste den röda flaggan för en ansökan om gottgörelse visas, om omständigheten uppstår i målområdet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Viimeistään kaksi minuuttia maaliin tulosta tai vetäytymisestä",
+              "en": "No later than two minutes after finishing or retiring",
+              "sv": "Senast två minuter efter att ha gått i mål eller utgått"
+            }
+          },
+          {
+            "t": {
+              "fi": "Seuraavan ottelun alkuun mennessä",
+              "en": "By the start of the next match",
+              "sv": "Vid starten av nästa match"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.3.",
+          "en": "C6.3.",
+          "sv": "C6.3."
+        },
+        "source": "RRS C6.3",
+        "also": []
+      },
+      {
+        "id": "rC5-q4",
+        "prompt": {
+          "fi": "Mitä tapahtuu, jos erotuomarien rangaistus johtaisi siihen, että veneellä on yli kaksi suorittamatonta rangaistusta?",
+          "en": "What happens if an umpires' penalty would leave a boat with more than two outstanding penalties?",
+          "sv": "Vad händer om ett domarstraff skulle lämna en båt med fler än två utestående straff?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vene hylätään suoraan säännön C5.4 mukaisesti",
+              "en": "The boat is disqualified directly under rule C5.4",
+              "sv": "Båten diskvalificeras direkt enligt regel C5.4"
+            }
+          },
+          {
+            "t": {
+              "fi": "Erotuomarit odottavat protestilautakunnan päätöstä",
+              "en": "The umpires wait for the protest committee's decision",
+              "sv": "Matchdomarna väntar på protestkommitténs beslut"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.5(a)(1).",
+          "en": "C6.5(a)(1).",
+          "sv": "C6.5a1."
+        },
+        "source": "RRS C6.5(a)(1)",
+        "also": []
+      },
+      {
+        "id": "rC5-q5",
+        "prompt": {
+          "fi": "Mitä protestilautakunta voi tehdä, jos sääntörikkomuksella ei ollut merkittävää vaikutusta ottelun tulokseen?",
+          "en": "What may the protest committee do if a rule breach had no significant effect on the match's outcome?",
+          "sv": "Vad får protestkommittén göra om ett regelbrott inte haft någon avgörande betydelse för matchresultatet?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Langettaa osapisteen rangaistuksen, määrätä uusinnan tai tehdä muun oikeudenmukaisen ratkaisun, myös rankaisematta jättämisen",
+              "en": "Impose a penalty of a point or part of one, order a resail, or make another fair arrangement, including no penalty",
+              "sv": "Utdöma ett straff på en poäng eller del av en poäng, beordra omsegling, eller göra något annat rättvist, inklusive inget straff"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sen on aina hylättävä toinen veneistä",
+              "en": "It must always disqualify one of the boats",
+              "sv": "Den måste alltid diskvalificera en av båtarna"
+            }
+          }
+        ],
+        "why": {
+          "fi": "C6.6(b).",
+          "en": "C6.6(b).",
+          "sv": "C6.6b."
+        },
+        "source": "RRS C6.6(b)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "E1",
     "section": "E",
     "title": {
