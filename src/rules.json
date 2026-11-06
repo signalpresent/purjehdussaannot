@@ -12056,6 +12056,617 @@
     ]
   },
   {
+    "n": 40,
+    "section": "4",
+    "title": {
+      "fi": "Henkilökohtaiset kelluntavälineet",
+      "sv": "Personlig flytutrustning",
+      "en": "Personal Flotation Devices"
+    },
+    "explain": {
+      "fi": "40.1: kun sääntö on voimassa, jokaisen kilpailijan pitää pitää päällään henkilökohtaista kelluntavälinettä; vain vaatteita tai henkilökohtaisia varusteita vaihtaessa tai säätäessä sen saa hetkeksi riisua. Märkäpuku tai kuivapuku ei ole kelluntaväline. 40.2: sääntö 40.1 on voimassa, (a) kun lippu Y on nostettu vesillä yhden äänimerkin kanssa ennen varoitusviestiä tai sen aikana, kilpailtaessa siinä kilpapurjehduksessa; (b) kun lippu Y on nostettu maissa yhden äänimerkin kanssa, koko sen päivän vesillä ollessa; tai (c) kun luokkasäännöt, kilpailukutsu tai purjehdusohjeet niin määräävät.",
+      "en": "40.1: when the rule applies, each competitor must wear a personal flotation device; it may be taken off only briefly while changing or adjusting clothing or personal equipment. A wet suit or dry suit is not a flotation device. 40.2: rule 40.1 applies (a) when flag Y was displayed afloat with one sound before or with the warning signal, while racing in that race; (b) when flag Y was displayed ashore with one sound, at all times while afloat that day; or (c) when the class rules, notice of race or sailing instructions say so."
+    },
+    "note": {
+      "fi": "Liite E (radio-ohjattavat veneet) poistaa säännön 40 (E4.1). Sääntö 1.2 tekee kilpailijan itse vastuulliseksi olosuhteisiin sopivasta kelluntavälineestä aina, viestistä riippumatta.",
+      "en": "Appendix E (radio sailing) deletes rule 40 (E4.1). Rule 1.2 makes each competitor responsible for a flotation device adequate for the conditions at all times, signal or not."
+    },
+    "source": "RRS 40, 1.2, 27.1, Race Signals (Y), Appendix E4.1",
+    "defs": [
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Kilpailija vastaa itse kelluntavälineen käytöstä olosuhteiden mukaan (1.2).",
+          "en": "The competitor is responsible for wearing a flotation device suited to the conditions (1.2)."
+        }
+      },
+      {
+        "rules": [
+          "27"
+        ],
+        "note": {
+          "fi": "Lippu Y nostetaan vesillä viimeistään varoitusviestin aikaan (27.1).",
+          "en": "Flag Y is displayed afloat no later than the warning signal (27.1)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r40-q1",
+        "prompt": {
+          "fi": "Lippu Y nostettiin maissa yhden äänimerkin kanssa aamulla. Milloin kelluntaväline pitää pitää päällä?",
+          "en": "Flag Y was displayed ashore with one sound in the morning. When must flotation devices be worn?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koko sen päivän aina vesillä ollessa",
+              "en": "At all times while afloat that day"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kilpailtaessa",
+              "en": "Only while racing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain lähtöalueella",
+              "en": "Only in the starting area"
+            }
+          }
+        ],
+        "why": {
+          "fi": "40.2(b): maissa nostettu Y koskee koko päivää vesillä.",
+          "en": "Rule 40.2(b): Y displayed ashore applies all day while afloat."
+        },
+        "source": "RRS 40.2(b)",
+        "also": []
+      },
+      {
+        "id": "r40-q2",
+        "prompt": {
+          "fi": "Kelluntavälineet on määrätty, ja kilpailijalla on paksu märkäpuku. Riittääkö se?",
+          "en": "Flotation devices are required, and a competitor wears a thick wet suit. Is that enough?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: märkä- ja kuivapuvut eivät ole kelluntavälineitä",
+              "en": "No: wet suits and dry suits are not flotation devices"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos puku kelluu",
+              "en": "Yes, if the suit floats"
+            }
+          }
+        ],
+        "why": {
+          "fi": "40.1 sulkee märkä- ja kuivapuvut erikseen pois.",
+          "en": "Rule 40.1 expressly excludes wet suits and dry suits."
+        },
+        "source": "RRS 40.1",
+        "also": []
+      },
+      {
+        "id": "r40-q3",
+        "prompt": {
+          "fi": "Lippu Y on voimassa. Kilpailija riisuu liivin hetkeksi pukeakseen sadetakin. Rikkooko hän sääntöä?",
+          "en": "Flag Y is in effect. A competitor takes off the vest briefly to put on a rain jacket. Does she break the rule?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: lyhyt riisuminen vaatteita vaihdettaessa on sallittu",
+              "en": "No: taking it off briefly to change clothing is allowed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, liivi pitää pitää päällä koko ajan",
+              "en": "Yes, the vest must be worn at all times"
+            }
+          }
+        ],
+        "why": {
+          "fi": "40.1: poikkeus vaatteiden tai henkilökohtaisten varusteiden vaihtamiseen tai säätämiseen.",
+          "en": "Rule 40.1: exception for changing or adjusting clothing or personal equipment."
+        },
+        "source": "RRS 40.1",
+        "also": []
+      },
+      {
+        "id": "r40-q4",
+        "prompt": {
+          "fi": "Lippu Y nostettiin vesillä yhden äänimerkin kanssa vasta kaksi minuuttia varoitusviestin jälkeen. Onko sääntö 40.1 voimassa siinä kilpapurjehduksessa?",
+          "en": "Flag Y was displayed afloat with one sound only two minutes after the warning signal. Does rule 40.1 apply in that race?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei kohdan 40.2(a) perusteella; Y pitää nostaa ennen varoitusviestiä tai sen aikana",
+              "en": "Not under 40.2(a); Y must be displayed before or with the warning signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, heti lipun noustessa",
+              "en": "Yes, as soon as the flag goes up"
+            }
+          }
+        ],
+        "why": {
+          "fi": "40.2(a) edellyttää, että Y nostetaan ennen varoitusviestiä tai sen aikana. Luokkasäännöt, kilpailukutsu tai purjehdusohjeet voivat silti määrätä säännön voimaan (40.2(c)).",
+          "en": "Rule 40.2(a) requires Y before or with the warning signal. Class rules, the notice of race or sailing instructions may still make the rule apply (40.2(c))."
+        },
+        "source": "RRS 40.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 41,
+    "section": "4",
+    "title": {
+      "fi": "Ulkopuolinen apu",
+      "sv": "Hjälp utifrån",
+      "en": "Outside Help"
+    },
+    "explain": {
+      "fi": "Vene ei saa ottaa vastaan apua ulkopuolelta, paitsi (a) apua sairaalle, loukkaantuneelle tai vaarassa olevalle miehistön jäsenelle, (b) törmäyksen jälkeen toisen aluksen miehistön apua irtipääsemiseksi, (c) tietoa, joka on kaikkien veneiden vapaasti saatavilla, ja (d) pyytämättä saatua tietoa puolueettomalta lähteeltä, joka voi olla myös toinen samassa kilpapurjehduksessa oleva vene. Pyydetty taktinen neuvo on ulkopuolista apua, vaikka se kulkisi julkisella radiokanavalla (Case 100). Vapaasti saatavilla tarkoittaa maksutonta ja kaikkien helposti löydettävää tietoa; maksullinen tai vain erikoisohjelmalla saatava tieto ei ole sitä, mutta yhteysmaksut ja laitteet eivät ole tiedon hintaa (Case 120). Sovittu yhteispeli toisen veneen hyväksi rikkoo sääntöä 41 avun saajan osalta (Case 78).",
+      "en": "A boat may not receive help from any outside source, except (a) help for a crew member who is ill, injured or in danger, (b) after a collision, help from the other vessel's crew to get clear, (c) information freely available to all boats, and (d) unsolicited information from a disinterested source, which may be another boat in the same race. Tactical advice that was asked for is outside help, even over a public radio channel (Case 100). Freely available means free of charge and easily found by all; paid information or information usable only with special software is not, but communication fees and equipment are not a price for the information (Case 120). Agreed team play to benefit another boat breaks rule 41 for the boat that receives the help (Case 78)."
+    },
+    "note": {
+      "fi": "Liite C (mätsikilpailu) lisää kohdan (e): apu miehistön jäsenen nostamiseen vedestä, jos hänet palautetaan veneeseen suunnilleen samassa paikassa. Liite D (joukkuekilpailu) sallii saman joukkueen veneen avun ilman sähköistä viestintää. Liite E muuttaa sääntöä mm. niin, että kilpailija ei ole puolueeton lähde, ellei hän toimi tarkkailijana. Liite F sallii saman kilpapurjehduksen kilpailijan avun uudelleen liikkeelle lähtöön ja varusteiden vaihdon vain lähtöalueella. Kohtaa 41(c) voidaan muuttaa tapahtumakohtaisesti sääntöjen mukaisella menettelyllä (Case 120; 86.1).",
+      "en": "Appendix C (match racing) adds (e): help to recover a crew member from the water, if returned aboard at about the same place. Appendix D (team racing) allows help from a team boat without electronic communication. Appendix E changes the rule, among other things so that a competitor is not a disinterested source unless acting as an observer. Appendix F allows help from a competitor in the same race to relaunch, and equipment changes only in the launching area. Rule 41(c) can be changed for an event by the procedure in the rules (Case 120; 86.1)."
+    },
+    "source": "RRS 41, 86.1, Appendices C2.16, D1.1(g), E4.2, F4; Case 78, 100, 120",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "2"
+        ],
+        "note": {
+          "fi": "Yhteispeli toisen veneen sijoituksen parantamiseksi rikkoo sääntöä 2 molempien osalta (Case 78).",
+          "en": "Team play to improve another boat's ranking breaks rule 2 for both boats (Case 78)."
+        }
+      },
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Vaarassa olevan auttaminen on velvollisuus (1.1), ja vaarassa oleva miehistön jäsen saa ottaa apua vastaan (41(a)).",
+          "en": "Helping those in danger is a duty (1.1), and a crew member in danger may accept help (41(a))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 100,
+        "title": {
+          "fi": "Kysymys radiossa",
+          "en": "A question on the radio"
+        },
+        "text": {
+          "fi": "Kolmen suuren veneen piti kiertää merkki lähellä rannan kareja ja purjehtia sitten noin 3 m/s:n vastavirtaan heikossa tuulessa. A kysyi radiolla seutua paremmin tuntevalta B:ltä, onko merkin lähellä turvallista ankkuroitua. B vastasi, ettei ole. C protestoi kumpaakin sääntöön 41 vedoten. Lautakunta totesi, että A olisi voinut milloin tahansa purjehtia tai ajaa moottorilla turvallisesti pois ja että ankkuroitumisen ainoa syy oli voittaa virta ja kilpapurjehdus.",
+          "en": "Three large boats were to round a mark near coastal rocks and then sail into a current of about 3 m/s in a light wind. A asked B, whose skipper knew the area better, on the radio whether it was safe to anchor near the mark. B said it was not. C protested both under rule 41. The committee found that A could have sailed or motored away safely at any time and that the only reason to anchor was to beat the current and win."
+        },
+        "answer": {
+          "fi": "A rikkoi sääntöä 41 ja hylättiin; B:tä vastaan tehty protesti hylättiin. A pyysi apua taktisista syistä ja sai sen. Ei ole merkitystä, että kysymys ja vastaus kuuluivat julkisella kanavalla. Poikkeus 41(d) ei päde, koska A pyysi tietoa.",
+          "en": "A broke rule 41 and was disqualified; the protest against B was dismissed. A asked for help for tactical reasons and got it. It does not matter that the question and answer were on a public channel. Exception 41(d) does not apply, because A asked for the information."
+        },
+        "also": [],
+        "source": "Case 100"
+      },
+      {
+        "case": 120,
+        "title": {
+          "fi": "Mikä sää on vapaasti saatavilla?",
+          "en": "Which weather is freely available?"
+        },
+        "text": {
+          "fi": "A maksaa satelliittiyhteydestä 5 000 dollaria kuukaudessa ja lataa sillä säätietoa, joka on kenen tahansa saatavilla internetistä maksutta. B käyttää 2 000 dollarin reititysohjelmaa, jonka mukana tulee vain sillä käytettävä kilpailukohtainen säätieto. C tilaa pienellä kuukausimaksulla tarkkoja sääkarttoja, joita ei saa maksamatta. D maksaa 15 000 dollaria yksityisestä satelliittikuvasta, jota kuka tahansa maksava voisi tilata. Rikkooko joku kohtaa 41(c)?",
+          "en": "A pays 5,000 dollars a month for a satellite link and downloads weather data that anyone can get free online. B uses a 2,000-dollar routing app that includes race-specific weather data usable only with that app. C subscribes for a small monthly fee to high-resolution weather files that cannot be had without paying. D pays 15,000 dollars for private satellite imagery that any paying boat could order. Does anyone break rule 41(c)?"
+        },
+        "answer": {
+          "fi": "A ei riko: yhteysmaksu ei ole tiedon hinta, ja tieto on maksutonta. B, C ja D rikkovat: B:n tieto on saatavilla vain erikoisohjelmalla, ja C:n ja D:n tiedosta pitää maksaa, olipa maksu pieni tai suuri. Myös liian vähän ennen lähtöä julkaistu tieto voi olla muuta kuin vapaasti saatavilla. Kohtaa 41(c) voi muuttaa tapahtumaa varten vain sääntöjen mukaisella menettelyllä.",
+          "en": "A does not: the communication fee is not a price for the information, and the information is free. B, C and D do: B's data is available only with special software, and C's and D's data must be paid for, whether the fee is small or large. Information posted too close to the start may also not be freely available. Rule 41(c) can be changed for an event only by the procedure in the rules."
+        },
+        "also": [
+          "86"
+        ],
+        "source": "Case 120"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r41-q1",
+        "prompt": {
+          "fi": "Valmentaja huutaa pyytämättä veneelle, että vasemmalla on enemmän tuulta. Onko se sallittua?",
+          "en": "A coach shouts to a boat, unasked, that there is more wind on the left. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: valmentaja ei ole puolueeton lähde",
+              "en": "No: a coach is not a disinterested source"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, koska tietoa ei pyydetty",
+              "en": "Yes, because the information was not asked for"
+            }
+          }
+        ],
+        "why": {
+          "fi": "41(d) vaatii, että tieto on pyytämätöntä ja lähde puolueeton. Veneen oma valmentaja ei ole puolueeton. (Päätelmä säännön sanamuodosta.)",
+          "en": "Rule 41(d) requires unsolicited information from a disinterested source. The boat's own coach is not disinterested. (Inferred from the wording of the rule.)"
+        },
+        "source": "RRS 41(d)",
+        "also": []
+      },
+      {
+        "id": "r41-q2",
+        "prompt": {
+          "fi": "Toinen samassa kilpapurjehduksessa oleva vene huutaa pyytämättä, että ylämerkki on siirtynyt. Saako tiedon käyttää?",
+          "en": "Another boat in the same race calls out, unasked, that the windward mark has moved. May you use it?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: pyytämätön tieto puolueettomalta lähteeltä, joka voi olla toinen vene samassa kilpapurjehduksessa",
+              "en": "Yes: unsolicited information from a disinterested source, which may be another boat in the race"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kilpailijoilta ei saa ottaa tietoa",
+              "en": "No, information from competitors is never allowed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "41(d) mainitsee erikseen toisen veneen samassa kilpapurjehduksessa.",
+          "en": "Rule 41(d) expressly names another boat in the same race."
+        },
+        "source": "RRS 41(d)",
+        "also": []
+      },
+      {
+        "id": "r41-q3",
+        "prompt": {
+          "fi": "Kaksi venettä törmää, ja toisen miehistö auttaa käsin irrottamaan veneet. Saako apua ottaa vastaan?",
+          "en": "Two boats collide, and one crew helps push them apart by hand. May the help be accepted?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "41(b): törmäyksen jälkeen toisen aluksen miehistön apu irtipääsemiseksi on sallittu.",
+          "en": "Rule 41(b): after a collision, help from the other vessel's crew to get clear is allowed."
+        },
+        "source": "RRS 41(b)",
+        "also": []
+      },
+      {
+        "id": "r41-q4",
+        "prompt": {
+          "fi": "A ja C sopivat, että A haittaa C:n kilpailijaa, jotta C voittaisi sarjan. A:n oma sijoitus ei tästä hyödy. Mitä rikotaan?",
+          "en": "A and C agree that A will hinder C's rival so that C wins the series. A's own ranking does not benefit. What is broken?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Molemmat rikkovat sääntöä 2, ja C lisäksi sääntöä 41",
+              "en": "Both break rule 2, and C also breaks rule 41"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, taktiikka on sallittua",
+              "en": "Nothing, tactics are allowed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 78: sovittu yhteispeli rikkoo sääntöä 2 molempien osalta, ja C saa kiellettyä ulkopuolista apua (41).",
+          "en": "Case 78: agreed team play breaks rule 2 for both, and C receives prohibited outside help (41)."
+        },
+        "source": "Case 78; RRS 2, 41",
+        "also": [
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 42,
+    "section": "4",
+    "title": {
+      "fi": "Eteneminen",
+      "sv": "Framdrivning",
+      "en": "Propulsion"
+    },
+    "explain": {
+      "fi": "42.1: vene saa kilpailla käyttämällä nopeuden lisäämiseen, ylläpitämiseen tai vähentämiseen vain tuulta ja vettä, ellei 42.3 tai 45 salli muuta. Miehistö saa säätää purjeita ja rungon asentoa ja tehdä muita merimiestaidon toimia, mutta ei muuten liikuttaa kehoaan veneen kuljettamiseksi. 42.2 kieltää aina pumppaamisen (purjeen toistuva lyöttäminen sisään ja ulos tai kehon liikkeellä), keinuttamisen (toistuva rullaus kehon liikkeellä, purjeiden tai nostokölin säädöllä tai ohjaamalla), sysäyksen (äkillinen ja äkkiä pysäytetty kehon liike eteenpäin), vispaamisen (voimakas tai venettä eteenpäin vievä tai taaksepäin liikettä estävä toistuva peräsimen liike) sekä toistuvat vastakäännökset tai jiipit ilman tuulenmuutosta tai taktista syytä. 42.3 sallii mm. rullauksen ohjauksen helpottamiseksi, rullauksen tehostamisen vastakäännöksessä ja jiipissä (jos nopeus ei sen jälkeen ole suurempi kuin ilman käännöstä), purjeen kerran vetämisen kutakin aaltoa tai puuskaa kohti aalto- tai pintaliu'un aloittamiseksi (siipiliukuun toistuvasti), vispaamisen tiukasti vastaiseen kääntymiseksi, kun vene on paikallaan tai liikkuu hitaasti tiukasti vastaista ylempänä, nurjan latan korjaamisen pumppaamalla, nopeuden vähentämisen peräsimellä, minkä tahansa etenemiskeinon vaarassa olevan auttamiseen ja irtipääsyn karilleajosta tai törmäyksestä ilman moottoria. Purjehdusohjeet voivat määrätyissä oloissa sallia moottorin, jos siitä ei saa merkittävää etua. Peräsimen liike aaltojen hyödyntämiseksi ei ole vispaamista, jos se ei ole voimakasta (Case 8), eikä moottorin antama vauhti ennen valmiusviestiä riko sääntöä (Case 69).",
+      "en": "42.1: a boat may use only the wind and water to increase, maintain or decrease her speed, unless 42.3 or 45 permits otherwise. The crew may adjust the trim of sails and hull and perform other acts of seamanship, but may not otherwise move their bodies to propel the boat. 42.2 always prohibits pumping (repeated fanning of a sail by pulling in and releasing or by body movement), rocking (repeated rolling by body movement, adjusting sails or centreboard, or steering), ooching (sudden forward body movement stopped abruptly), sculling (forceful helm movement, or helm movement that propels the boat forward or prevents her moving astern) and repeated tacks or gybes unrelated to wind changes or tactics. 42.3 allows, among other things, rolling to help steering, exaggerating the roll through a tack or gybe (provided speed afterwards is not greater than without it), pulling each sail in once per wave or gust to initiate surfing or planing (any number of times for foiling), sculling to turn to close-hauled when above close-hauled and stationary or moving slowly, pumping out an inverted batten, slowing down with the helm, any propulsion to help someone in danger, and getting clear after grounding or a collision without an engine. Sailing instructions may permit an engine in stated circumstances if no significant advantage is gained. Helm movements to catch waves are not sculling unless forceful (Case 8), and momentum from an engine before the preparatory signal does not break the rule (Case 69)."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sääntöä 42, mutta luokkasäännöt saavat (86.1). Liite P (jos käytössä): tarkkailija voi rangaista heti keltaisella lipulla; ensimmäinen rangaistus on Kahden Kierroksen Rangaistus, toinen ja myöhemmät keskeytys, ja liput O ja R kertovat, onko pumppaaminen, keinuttaminen ja sysäys luokkasääntöjen mukaan sallittu. Liite B (purjelautailu) sallii pumppaamisen. Liite C soveltaa sääntöä myös varoitus- ja valmiusviestin välillä ja määrittelee vispaamisen toisin. Liite F (leijalautailu) korvaa säännön 42.",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 42, but class rules may (86.1). Appendix P (if in use): an observer may penalize on the spot with a yellow flag; the first penalty is a Two-Turns Penalty, the second and later ones are retirement, and flags O and R show whether pumping, rocking and ooching are permitted under the class rules. Appendix B (windsurfing) permits pumping. Appendix C applies the rule also between the warning and preparatory signals and defines sculling differently. Appendix F (kiteboarding) replaces rule 42."
+    },
+    "source": "RRS 42, 45, 86.1, Appendices B, C, F, P; Case 5, 8, 69",
+    "defs": [
+      "Racing",
+      "Tack, Starboard or Port"
+    ],
+    "links": [
+      {
+        "rules": [
+          "45"
+        ],
+        "note": {
+          "fi": "Ankkuroituminen ja ankkurin nostaminen ovat säännön 42.1 sallittuja poikkeuksia, kunhan vene ei vedä itseään uuteen paikkaan (Case 5).",
+          "en": "Anchoring and recovering the anchor are permitted exceptions to rule 42.1, as long as the boat does not pull herself to a new position (Case 5)."
+        }
+      },
+      {
+        "rules": [
+          "1"
+        ],
+        "note": {
+          "fi": "Vaarassa olevan auttamiseen saa käyttää mitä tahansa etenemiskeinoa (42.3(g)).",
+          "en": "Any means of propulsion may be used to help someone in danger (42.3(g))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 8,
+        "title": {
+          "fi": "Moottoriveneen aallot",
+          "en": "A motor cruiser's wake"
+        },
+        "text": {
+          "fi": "Kaksi pientä jollaa, A ja B, purjehti sivutuulessa runkonopeudellaan noin 4 m/s:n tuulessa. Suuri moottorivene ohitti ne nopeasti suojan puolelta ja jätti useita suuria aaltoja. Kun kukin aalto tuli A:n peräneljännekselle, sen perämies liikutti peräsintä ilman erityistä voimaa rytmissä aaltojen kanssa, ja A kiihtyi joka aallolla. B protestoi vispaamisesta, ja lautakunta hylkäsi A:n.",
+          "en": "Two small dinghies, A and B, were reaching at about hull speed in a wind of about 4 m/s. A large motor cruiser passed them quickly to leeward, leaving several large waves. As each wave reached A's quarter, her helmsman moved the tiller without undue force, in rhythm with the waves, and A gained speed on each. B protested for sculling, and the committee disqualified A."
+        },
+        "answer": {
+          "fi": "A:n valitus hyväksyttiin. Peräsimen liike oli toistuvaa mutta ei voimakasta, eikä nopeus tullut peräsimestä vaan siitä, että vene asettui hyödyntämään aaltoja. Veden käyttö nopeuden lisäämiseen on säännön 42.1 mukaista, ja perämies saa ohjata parhaaksi katsomallaan tavalla, kunhan liike ei ole kohdan 42.2(d) kieltämää.",
+          "en": "A's appeal was upheld. The tiller movement was repeated but not forceful, and the speed came not from the tiller but from positioning the boat to use the waves. Using the water to gain speed is consistent with rule 42.1, and the helmsman may steer as he thinks best as long as the movement is not prohibited by 42.2(d)."
+        },
+        "also": [],
+        "source": "Case 8"
+      },
+      {
+        "case": 69,
+        "title": {
+          "fi": "Vauhtia moottorista",
+          "en": "Momentum from the engine"
+        },
+        "text": {
+          "fi": "Tyynessä vedessä ja hyvin heikossa tuulessa (noin 0,5–1 m/s) vene ajaa lähtöalueelle moottorilla noin 3 m/s:n nopeudella juuri ennen valmiusviestiään. Valmiusviestin hetkellä moottori on sammutettu, mutta vauhti on sama. Kaksi ja puoli minuuttia ennen lähtöviestiä se nostaa purjeet ja hidastuu noin 1 m/s:iin. Rikkooko se sääntöä 42.1?",
+          "en": "In flat water and very light wind (about 0.5–1 m/s) a boat motors into the starting area at about 3 m/s just before her preparatory signal. At the preparatory signal the engine is off but she is moving at the same speed. Two and a half minutes before her starting signal she hoists sails and slows to about 1 m/s. Does she break rule 42.1?"
+        },
+        "answer": {
+          "fi": "Ei. Vene alkaa kilpailla valmiusviestistä. Kilpaillessaan se käytti tuulta, ja osa liikkeestä oli ennen kilpailun alkua saatua moottorin vauhtia. Mikään sääntö ei vaadi venettä olemaan tietyssä liiketilassa kilpailun alkaessa.",
+          "en": "No. A boat begins racing at her preparatory signal. While racing she used the wind, and part of her motion was momentum from the engine before she began racing. No rule requires a boat to be in any particular state of motion when she begins racing."
+        },
+        "also": [],
+        "source": "Case 69"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r42-q1",
+        "prompt": {
+          "fi": "Planeeraavalla jollalla perämies vetää isopurjetta sisään kerran puuskan tullessa saadakseen veneen liukuun. Onko se sallittua?",
+          "en": "On a planing dinghy the helm pulls in the mainsail once as a gust arrives to get her planing. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kun pintaliuku on mahdollista, kerran kutakin puuskaa tai aaltoa kohti",
+              "en": "Yes, when planing is possible, once per gust or wave"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kaikki purjeen vetäminen on pumppaamista",
+              "en": "No, all pulling in of a sail is pumping"
+            }
+          }
+        ],
+        "why": {
+          "fi": "42.3(c)(1).",
+          "en": "Rule 42.3(c)(1)."
+        },
+        "source": "RRS 42.3(c)",
+        "also": []
+      },
+      {
+        "id": "r42-q2",
+        "prompt": {
+          "fi": "Tyynellä vene seisoo tuulensilmässä, ja perämies vispaa peräsimellä kääntyäkseen tiukasti vastaiseen suuntaan. Onko se sallittua?",
+          "en": "In a calm a boat is stopped head to wind, and the helm sculls to turn to a close-hauled course. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "42.3(d): vene, joka on tiukasti vastaista ylempänä ja paikallaan tai hitaassa liikkeessä, saa vispata kääntyäkseen tiukasti vastaiseen.",
+          "en": "Rule 42.3(d): a boat above close-hauled and stationary or moving slowly may scull to turn to close-hauled."
+        },
+        "source": "RRS 42.3(d)",
+        "also": []
+      },
+      {
+        "id": "r42-q3",
+        "prompt": {
+          "fi": "Heikossa tuulessa miehistö kallistaa venettä rytmikkäästi puolelta toiselle suoralla osuudella. Mikä se on?",
+          "en": "In light wind the crew rolls the boat rhythmically from side to side on a straight leg. What is it?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kiellettyä keinuttamista",
+              "en": "Prohibited rocking"
+            }
+          },
+          {
+            "t": {
+              "fi": "Sallittua rullausta ohjauksen helpottamiseksi",
+              "en": "Permitted rolling to help steering"
+            }
+          }
+        ],
+        "why": {
+          "fi": "42.2(b): toistuva rullaus kehon liikkeellä on keinuttamista. Rullaus ohjauksen helpottamiseksi (42.3(a)) ei kata toistuvaa kallistelua suoralla (päätelmä säännön sanamuodosta).",
+          "en": "Rule 42.2(b): repeated rolling by body movement is rocking. Rolling to help steering (42.3(a)) does not cover repeated rolling on a straight course (inferred from the wording)."
+        },
+        "source": "RRS 42.2(b), 42.3(a)",
+        "also": []
+      },
+      {
+        "id": "r42-q4",
+        "prompt": {
+          "fi": "Vene ajaa karille. Saako miehistö työntää sen irti airolla?",
+          "en": "A boat runs aground. May the crew push her off with a paddle?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: irtipääsyyn saa käyttää miehistön voimaa ja mitä tahansa varusteita paitsi moottoria",
+              "en": "Yes: to get clear the crew's force and any equipment except an engine may be used"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain tuulta ja vettä saa käyttää",
+              "en": "No, only wind and water may be used"
+            }
+          }
+        ],
+        "why": {
+          "fi": "42.3(h). Moottorin käytön voivat sallia vain purjehdusohjeet (42.3(i)).",
+          "en": "Rule 42.3(h). Only the sailing instructions may permit an engine (42.3(i))."
+        },
+        "source": "RRS 42.3(h)",
+        "also": []
+      },
+      {
+        "id": "r42-q5",
+        "prompt": {
+          "fi": "Liite P on käytössä. Tuomari osoittaa keltaisella lipulla ja huutaa veneesi numeron ensimmäistä kertaa tapahtumassa. Mitä teet?",
+          "en": "Appendix P is in use. A judge points a yellow flag and hails your number for the first time in the event. What do you do?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Otan Kahden Kierroksen Rangaistuksen",
+              "en": "Take a Two-Turns Penalty"
+            }
+          },
+          {
+            "t": {
+              "fi": "Keskeytän",
+              "en": "Retire"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jatkan ja odotan tutkintaa",
+              "en": "Carry on and wait for a hearing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "P2.1: ensimmäinen rangaistus on Kahden Kierroksen Rangaistus; jos sitä ei ota, vene hylätään ilman tutkintaa. Toisella kerralla pitää keskeyttää (P2.2).",
+          "en": "P2.1: the first penalty is a Two-Turns Penalty; if not taken, the boat is disqualified without a hearing. The second time she must retire (P2.2)."
+        },
+        "source": "RRS P2.1, P2.2",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "r42-q6",
+        "prompt": {
+          "fi": "Purjelaudalla pumppaaminen on liitteen B mukaan sallittua. Saako laudan meloa käsin heikossa tuulessa?",
+          "en": "On a windsurfer pumping is permitted under Appendix B. May the board be paddled by hand in light wind?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: lautaa ei saa kuljettaa meloen, uiden tai kävellen",
+              "en": "No: the board may not be propelled by paddling, swimming or walking"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Liitteen B muuttama sääntö 42 kieltää melomisen, uimisen ja kävelemisen.",
+          "en": "Rule 42 as changed by Appendix B forbids paddling, swimming and walking."
+        },
+        "source": "RRS Appendix B4 (42)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": 43,
     "section": "4",
     "title": {
@@ -13670,6 +14281,1638 @@
           "en": "28 + 6.2 = 34.2 would be worse than the DNF score of 31, but 44.3(c) does not allow the penalty to make the score worse than DNF. B scores 31 points."
         },
         "source": "RRS 44.3(c), A5.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 45,
+    "section": "4",
+    "title": {
+      "fi": "Vedestä nosto; kiinnittyminen; ankkuroituminen",
+      "sv": "Ta båt ur vattnet, förtöja och ankra",
+      "en": "Hauling Out; Making Fast; Anchoring"
+    },
+    "explain": {
+      "fi": "Valmiusviestinsä hetkellä veneen pitää olla vesillä ja irti kiinnikkeistä. Sen jälkeen venettä ei saa nostaa vedestä eikä kiinnittää muuten kuin veden tyhjentämistä, purjeiden reivausta tai korjauksia varten. Ankkuroituminen on sallittua, ja miehistö saa seistä pohjassa. Ankkuri pitää nostaa ennen kuin kilpapurjehdusta jatketaan, ellei se ole mahdotonta. Ankkuroitu vene kilpailee edelleen. Ankkuria nostettaessa vene saa vetää itsensä takaisin ankkurin päälle, mutta jos se kiskoo itsensä selvästi uuteen paikkaan, se rikkoo sääntöjä 42.1 ja 45 (Case 5).",
+      "en": "At her preparatory signal a boat must be afloat and off moorings. After that she may not be hauled out or made fast except to bail out, reef sails or make repairs. She may anchor, and the crew may stand on the bottom. She must recover the anchor before continuing in the race unless she is unable to. An anchored boat is still racing. When recovering the anchor she may pull herself back over it, but if she clearly hauls herself to a new position she breaks rules 42.1 and 45 (Case 5)."
+    },
+    "note": {
+      "fi": "Liitteet B, D, E ja F poistavat säännön 45. Ankkuroitu vene on säännön 22 suojaama.",
+      "en": "Appendices B, D, E and F delete rule 45. An anchored boat is protected by rule 22."
+    },
+    "source": "RRS 45, 42.1, 22, Definition Racing, Appendices B, D, E, F; Case 5",
+    "defs": [
+      "Racing"
+    ],
+    "links": [
+      {
+        "rules": [
+          "42"
+        ],
+        "note": {
+          "fi": "Ankkuroituminen on säännön 42.1 poikkeus (42.1; Case 5).",
+          "en": "Anchoring is an exception to rule 42.1 (42.1; Case 5)."
+        }
+      },
+      {
+        "rules": [
+          "22"
+        ],
+        "note": {
+          "fi": "Ankkuroitua venettä pitää välttää, mikäli mahdollista (22.1).",
+          "en": "An anchored boat must be avoided if possible (22.1)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r45-q1",
+        "prompt": {
+          "fi": "Vastavirrassa ja heikossa tuulessa vene ankkuroituu lähtölinjan lähelle. Kilpaileeko se yhä?",
+          "en": "In adverse current and light wind a boat anchors near the starting line. Is she still racing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, ja siihen sovelletaan kilpailusääntöjä",
+              "en": "Yes, and the racing rules apply to her"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ankkuroitu vene ei kilpaile",
+              "en": "No, an anchored boat is not racing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 5: määritelmä Kilpailla ei mainitse ankkuroitumista, joten vene kilpailee ja on mm. sääntöjen 22, 42.1 ja 45 alainen.",
+          "en": "Case 5: the definition Racing does not mention anchoring, so the boat is racing and subject to rules 22, 42.1 and 45 among others."
+        },
+        "source": "Case 5",
+        "also": [
+          "22"
+        ]
+      },
+      {
+        "id": "r45-q2",
+        "prompt": {
+          "fi": "Tuuli palaa, ja miehistö kiskoo ankkuriköyttä niin rivakasti, että vene liukuu selvästi ankkurin ohi uuteen paikkaan. Rikkooko se sääntöjä?",
+          "en": "The wind returns, and the crew hauls the anchor line so hard that the boat clearly shoots past the anchor to a new position. Does she break a rule?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntöjä 42.1 ja 45",
+              "en": "Yes, rules 42.1 and 45"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, ankkurin nostaminen on aina sallittua",
+              "en": "No, recovering the anchor is always allowed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 5: veneen saa vetää ankkurin päälle, mutta selvästi uuteen paikkaan kiskominen on etenemistä ennen ankkurin nostamista.",
+          "en": "Case 5: the boat may be pulled over the anchor, but hauling her clearly to a new position is continuing before recovering the anchor."
+        },
+        "source": "Case 5; RRS 42.1, 45",
+        "also": [
+          "42"
+        ]
+      },
+      {
+        "id": "r45-q3",
+        "prompt": {
+          "fi": "Kölivene kiinnittyy kesken kilpapurjehduksen laituriin korjatakseen katkenneen skuutin. Onko se sallittua?",
+          "en": "A keelboat makes fast to a pier during the race to repair a broken sheet. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, korjauksia varten",
+              "en": "Yes, to make repairs"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kiinnittyminen on kielletty valmiusviestin jälkeen",
+              "en": "No, making fast is forbidden after the preparatory signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "45: valmiusviestin jälkeen kiinnittyminen on sallittu veden tyhjentämiseen, reivaukseen tai korjauksiin.",
+          "en": "Rule 45: after the preparatory signal making fast is allowed to bail out, reef or make repairs."
+        },
+        "source": "RRS 45",
+        "also": []
+      },
+      {
+        "id": "r45-q4",
+        "prompt": {
+          "fi": "Valmiusviestin hetkellä vene on vielä kiinni poijussa. Rikkooko se sääntöä 45?",
+          "en": "At her preparatory signal a boat is still tied to a mooring buoy. Does she break rule 45?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: veneen pitää olla vesillä ja irti kiinnikkeistä valmiusviestissä",
+              "en": "Yes: she must be afloat and off moorings at her preparatory signal"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, jos se irtoaa ennen lähtöviestiä",
+              "en": "No, if she is free before the starting signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "45:n ensimmäinen virke.",
+          "en": "First sentence of rule 45."
+        },
+        "source": "RRS 45",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 46,
+    "section": "4",
+    "title": {
+      "fi": "Vastuuhenkilö",
+      "sv": "Person som har ansvaret",
+      "en": "Person in Charge"
+    },
+    "explain": {
+      "fi": "Veneessä pitää olla vastuuhenkilö, jonka on nimennyt veneen kilpailuun ilmoittanut jäsen tai järjestö (ks. sääntö 75). Ilmoittautuminen koskee venettä, joten omistaja tai muu vastuuhenkilö saa päättää, kuka ohjaa, ellei luokkasäännöissä, kilpailukutsussa tai purjehdusohjeissa nimenomaisesti määrätä toisin, kunhan sääntöä 46 noudatetaan (Case 40).",
+      "en": "A boat must have on board a person in charge designated by the member or organization that entered the boat (see rule 75). The entry is of the boat, so the owner or other person in charge may decide who steers, unless the class rules, notice of race or sailing instructions specifically say otherwise, provided rule 46 is complied with (Case 40)."
+    },
+    "note": {
+      "fi": "Liite E (radio-ohjattavat veneet): ilmoittanut jäsen tai järjestö nimeää kilpailijan (E4.4).",
+      "en": "Appendix E (radio sailing): the member or organization that entered the boat designates the competitor (E4.4)."
+    },
+    "source": "RRS 46, 75, Appendix E4.4; Case 40",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "75"
+        ],
+        "note": {
+          "fi": "Venettä koskeva ilmoittautuminen tehdään säännön 75 mukaan.",
+          "en": "The boat is entered under rule 75."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 40,
+        "title": {
+          "fi": "Kuka saa ohjata?",
+          "en": "Who may steer?"
+        },
+        "text": {
+          "fi": "Omistaja ilmoitti veneen A sarjaan ja ohjasi sitä ensimmäisessä kilpapurjehduksessa. Toisessa ja kolmannessa ohjasi toinen henkilö, josta ei ollut ilmoittautumista. Kilpailulautakunta protestoi luokkasääntöön vedoten, ja protestilautakunta merkitsi A:n kahteen viimeiseen kilpapurjehdukseen DNS, koska sen mielestä ohjaajan pysyvä vaihtaminen oli vain voittomahdollisuuksien parantamista.",
+          "en": "The owner entered boat A in a series and steered her in race 1. In races 2 and 3 another person, with no entry of their own, steered. The race committee protested under a class rule, and the protest committee scored A DNS in the last two races, holding that permanently changing the helm only served to improve her chances."
+        },
+        "answer": {
+          "fi": "A:n valitus hyväksyttiin. Kilpailuun ilmoitetaan vene (75), ja omistaja tai muu vastuuhenkilö päättää, kuka ohjaa, ellei luokkasäännöissä, kilpailukutsussa tai purjehdusohjeissa nimenomaisesti toisin määrätä, kunhan sääntöä 46 noudatetaan. A:n sarjapisteet lasketaan kaikkien kolmen kilpapurjehduksen sijoista.",
+          "en": "A's appeal was upheld. It is the boat that is entered (75), and the owner or other person in charge decides who steers, unless the class rules, notice of race or sailing instructions specifically say otherwise, provided rule 46 is not broken. A's series score is based on her places in all three races."
+        },
+        "also": [
+          "75"
+        ],
+        "source": "Case 40"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r46-q1",
+        "prompt": {
+          "fi": "Kuka nimeää veneen vastuuhenkilön?",
+          "en": "Who designates a boat's person in charge?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneen kilpailuun ilmoittanut jäsen tai järjestö",
+              "en": "The member or organization that entered the boat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunta",
+              "en": "The race committee"
+            }
+          },
+          {
+            "t": {
+              "fi": "Luokkaliitto",
+              "en": "The class association"
+            }
+          }
+        ],
+        "why": {
+          "fi": "46.",
+          "en": "Rule 46."
+        },
+        "source": "RRS 46",
+        "also": []
+      },
+      {
+        "id": "r46-q2",
+        "prompt": {
+          "fi": "Omistaja jää rantaan, ja miehistön jäsen ohjaa venettä yhden kilpapurjehduksen. Purjehdusohjeissa ei sanota asiasta mitään. Onko se sallittua?",
+          "en": "The owner stays ashore and a crew member steers for one race. The sailing instructions say nothing about it. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kunhan veneessä on vastuuhenkilö",
+              "en": "Yes, as long as a person in charge is on board"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain ilmoittautunut henkilö saa ohjata",
+              "en": "No, only the entered person may steer"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 40: ilmoittautuminen koskee venettä, ja ohjaajan valinta kuuluu omistajalle tai vastuuhenkilölle, ellei toisin määrätä.",
+          "en": "Case 40: the entry is of the boat, and choosing the helm is for the owner or person in charge unless otherwise stated."
+        },
+        "source": "Case 40; RRS 46, 75",
+        "also": [
+          "75"
+        ]
+      },
+      {
+        "id": "r46-q3",
+        "prompt": {
+          "fi": "Koskeeko sääntö 46 venettä vain kilpailtaessa?",
+          "en": "Does rule 46 apply only while racing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: osan 4 säännöt koskevat vain kilpailevia veneitä, ellei säännössä toisin sanota",
+              "en": "Yes: Part 4 rules apply only to boats racing unless the rule says otherwise"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koko tapahtuman ajan",
+              "en": "No, throughout the event"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Osan 4 johdanto. Sääntö 46 ei sano muuta.",
+          "en": "Part 4 preamble. Rule 46 says nothing else."
+        },
+        "source": "RRS Part 4 preamble, 46",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 47,
+    "section": "4",
+    "title": {
+      "fi": "Roskaaminen",
+      "sv": "Nedskräpning",
+      "en": "Trash Disposal"
+    },
+    "explain": {
+      "fi": "Kilpailijat ja tukihenkilöt eivät saa tahallaan laittaa roskia veteen. Toisin kuin osan 4 säännöt yleensä, tämä sääntö koskee aina vesillä oltaessa, ei vain kilpaillessa, ja se koskee myös valmentajia ja muita tukihenkilöitä. Rangaistus voi olla hylkäystä lievempi.",
+      "en": "Competitors and support persons may not intentionally put trash in the water. Unlike most Part 4 rules, it applies at all times while afloat, not only while racing, and it also covers coaches and other support persons. The penalty may be less than disqualification."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sääntöä 47 (86.1). Ruotsinkielinen teksti muotoilee soveltamisajan hieman eri tavoin (kun kilpailija on vesillä).",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 47 (86.1). The Swedish text words the time of application slightly differently (when the competitor is on the water)."
+    },
+    "source": "RRS 47, 86.1, Part 4 preamble",
+    "defs": [
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Sääntöä 47 ei saa muuttaa (86.1(a), (b)).",
+          "en": "Rule 47 may not be changed (86.1(a), (b))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r47-q1",
+        "prompt": {
+          "fi": "Kilpailija heittää energiapatukan kääreen veteen kotisatamaan purjehtiessaan kilpapurjehdusten jälkeen. Rikkooko hän sääntöä 47?",
+          "en": "A competitor throws an energy bar wrapper into the water while sailing home after racing. Does she break rule 47?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: sääntö koskee aina vesillä oltaessa",
+              "en": "Yes: the rule applies at all times while afloat"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska vene ei enää kilpaile",
+              "en": "No, because the boat is no longer racing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "47: sääntö pätee aina vesillä ollessa, vaikka osan 4 säännöt yleensä koskevat vain kilpailevia veneitä.",
+          "en": "Rule 47: it applies at all times while afloat, although Part 4 rules usually apply only to boats racing."
+        },
+        "source": "RRS 47",
+        "also": []
+      },
+      {
+        "id": "r47-q2",
+        "prompt": {
+          "fi": "Valmentaja heittää tyhjän juomapullon veneestään mereen. Koskeeko sääntö 47 häntä?",
+          "en": "A coach throws an empty drinks bottle from the coach boat into the sea. Does rule 47 apply to him?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntö koskee myös tukihenkilöitä",
+              "en": "Yes, the rule also covers support persons"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain kilpailijoita",
+              "en": "No, only competitors"
+            }
+          }
+        ],
+        "why": {
+          "fi": "47 mainitsee kilpailijat ja tukihenkilöt.",
+          "en": "Rule 47 names competitors and support persons."
+        },
+        "source": "RRS 47",
+        "also": []
+      },
+      {
+        "id": "r47-q3",
+        "prompt": {
+          "fi": "Onko roskaamisen rangaistus aina hylkäys?",
+          "en": "Is the penalty for littering always disqualification?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, se voi olla lievempi",
+              "en": "No, it may be less"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "47: rangaistus voi olla hylkäystä lievempi.",
+          "en": "Rule 47: the penalty may be less than disqualification."
+        },
+        "source": "RRS 47",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 48,
+    "section": "4",
+    "title": {
+      "fi": "Varusteita ja miehistöä koskevat rajoitukset",
+      "sv": "Begränsningar beträffande utrustning och besättning",
+      "en": "Limitations on Equipment and Crew"
+    },
+    "explain": {
+      "fi": "48.1: vene saa käyttää vain niitä varusteita, jotka ovat mukana sen valmiusviestin hetkellä. 48.2: kukaan ei saa tahallaan poistua veneestä, paitsi sairauden tai loukkaantumisen takia, auttaakseen vaarassa olevaa ihmistä tai alusta tai uidakseen. Jos joku joutuu veteen vahingossa tai menee uimaan, hänen pitää olla taas kosketuksessa veneeseen ennen kuin miehistö jatkaa purjehtimista kohti seuraavaa merkkiä.",
+      "en": "48.1: a boat may use only the equipment on board at her preparatory signal. 48.2: no one may intentionally leave the boat, except when ill or injured, to help a person or vessel in danger, or to swim. If someone goes overboard by accident or to swim, they must be back in contact with the boat before the crew resumes sailing toward the next mark."
+    },
+    "note": {
+      "fi": "Liite E poistaa säännön 48, liitteet B ja F kohdan 48.2. Mätsikilpailussa vedestä nostetun miehistön jäsenen apu on sallittu (C2.16).",
+      "en": "Appendix E deletes rule 48, Appendices B and F delete rule 48.2. In match racing help recovering a crew member from the water is allowed (C2.16)."
+    },
+    "source": "RRS 48, Appendices B, C2.16, E4.1, F",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "41"
+        ],
+        "note": {
+          "fi": "Uusien varusteiden tuominen veneeseen kesken kilpapurjehduksen olisi myös ulkopuolista apua (41).",
+          "en": "Bringing new equipment aboard during the race would also be outside help (41)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r48-q1",
+        "prompt": {
+          "fi": "Vene rikkoo spinaakkerinsa ja saa kesken kilpapurjehduksen tukiveneeltä varaspinaakkerin. Mitä sääntöjä se rikkoo?",
+          "en": "A boat tears her spinnaker and receives a spare from a support boat during the race. Which rules does she break?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Sääntöjä 48.1 ja 41",
+              "en": "Rules 48.1 and 41"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, jos purje on luokkasääntöjen mukainen",
+              "en": "None, if the sail is class-legal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "48.1: vain valmiusviestin hetkellä mukana olleet varusteet. Ulkopuolinen apu on lisäksi kielletty (41).",
+          "en": "Rule 48.1: only equipment on board at the preparatory signal. Outside help is also prohibited (41)."
+        },
+        "source": "RRS 48.1, 41",
+        "also": [
+          "41"
+        ]
+      },
+      {
+        "id": "r48-q2",
+        "prompt": {
+          "fi": "Helteellä miehistön jäsen hyppää uimaan, kun vene on tyynessä. Mitä pitää tehdä ennen kuin purjehdusta jatketaan?",
+          "en": "On a hot, calm day a crew member jumps in for a swim. What must happen before the boat sails on?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Uimarin pitää olla taas kosketuksessa veneeseen ennen kuin miehistö jatkaa kohti seuraavaa merkkiä",
+              "en": "The swimmer must be back in contact with the boat before the crew sails on toward the next mark"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, uiminen on kielletty",
+              "en": "Nothing, swimming is forbidden"
+            }
+          }
+        ],
+        "why": {
+          "fi": "48.2 sallii uimisen, kunhan uimari on kosketuksessa veneeseen ennen purjehduksen jatkamista.",
+          "en": "Rule 48.2 allows swimming, provided the swimmer is in contact with the boat before sailing resumes."
+        },
+        "source": "RRS 48.2",
+        "also": []
+      },
+      {
+        "id": "r48-q3",
+        "prompt": {
+          "fi": "Saako miehistön jäsen jäädä apuveneeseen kesken kilpapurjehduksen, koska vene haluaa keventää kevyessä tuulessa?",
+          "en": "May a crew member transfer to a support boat during the race because the boat wants to be lighter in light wind?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "48.2: tahallinen poistuminen on sallittu vain sairauden, loukkaantumisen, auttamisen tai uimisen vuoksi.",
+          "en": "Rule 48.2: leaving intentionally is allowed only when ill or injured, to help, or to swim."
+        },
+        "source": "RRS 48.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 49,
+    "section": "4",
+    "title": {
+      "fi": "Miehistön paikka; suojakaiteet",
+      "sv": "Besättningens placering, mantåg",
+      "en": "Crew Position; Lifelines"
+    },
+    "explain": {
+      "fi": "49.1: kilpailijat eivät saa käyttää muita kehon ulos laidan yli asettamiseen suunniteltuja laitteita kuin riipuntavöitä ja reisien alla pidettäviä jäykistäjiä. 49.2: kun luokkasäännöt tai muut säännöt vaativat suojakaiteet, kilpailija ei saa pitää mitään vartalonsa osaa kaiteiden ulkopuolella, paitsi hetkellisesti välttämättömän tehtävän vuoksi. Jos kaiteita on kaksi, ulospäin istuva kilpailija, jonka vyötärö on alemman kaiteen sisäpuolella, saa pitää ylävartalonsa ylemmän kaiteen ulkopuolella. Kaiteiden pitää olla kireällä, ellei toisin määrätä, ja niiden materiaali ja paksuus määräytyvät tarvittaessa World Sailingin Offshore Special Regulationsin mukaan. Välttämätön tehtävä on tehtävä, jota ei voi kohtuudella tehdä kaiteiden sisäpuolelta; tavallinen trimmaus ei ole sellainen, vaikka se onnistuisi ulkona paremmin (Case 83). Asennot on havainnollistettu Case 36:ssa.",
+      "en": "49.1: competitors may not use any device designed to position their bodies outboard, other than hiking straps and stiffeners worn under the thighs. 49.2: when lifelines are required by the class rules or any other rule, competitors may not position any part of their torsos outside them, except briefly to perform a necessary task. With upper and lower lifelines, a competitor sitting facing outboard with the waist inside the lower lifeline may have the upper body outside the upper one. Lifelines must be taut unless otherwise specified, and their material and diameter follow the World Sailing Offshore Special Regulations where needed. A necessary task is one that cannot reasonably be done from inside the lifelines; normal trimming is not, even if it works better outside (Case 83). Positions are illustrated in Case 36."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa sääntöä 49 (86.1(c)). Liitteet B, E ja F poistavat säännön 49.",
+      "en": "Class rules may change rule 49 (86.1(c)). Appendices B, E and F delete rule 49."
+    },
+    "source": "RRS 49, 86.1(c), Appendices B, E, F; Case 4, 36, 83",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "55"
+        ],
+        "note": {
+          "fi": "Kilpailija saa pitää skuuttia laidan ulkopuolella kädessään, kunhan sääntöä 49 noudatetaan (Case 4).",
+          "en": "A competitor may hold a sheet outboard, provided rule 49 is complied with (Case 4)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 36,
+        "title": {
+          "fi": "Miehistön jäsen vantin vieressä",
+          "en": "A crew member by the shrouds"
+        },
+        "text": {
+          "fi": "Avomeriluokan vene purjehti tiukasti vastaisessa suunnassa. Miehistön jäsen seisoi kahdesti usean minuutin ajan vanttien vieressä jalat kannella ja sääret kaiteiden sisäpuolella niitä koskettaen. Vartalo oli lähes pystyssä, mutta osa siitä oli kaiteiden yläreunasta pystysuoraan nousevan kuvitellun linjan ulkopuolella. Vene hylättiin säännön 49.2 perusteella ja valitti.",
+          "en": "An offshore boat was close-hauled. On two occasions, for several minutes, a crew member stood by the shrouds with his feet on deck and legs inside the lifelines, touching them. His torso was nearly upright, but part of it was outside an imaginary vertical line from the top of the lifelines. The boat was disqualified under rule 49.2 and appealed."
+        },
+        "answer": {
+          "fi": "Valitus hylättiin. Vartalon osa kaiteiden ulkopuolella rikkoo sääntöä, vaikka jalat ovat kannella. Tapauksen kuva esittää sallittuja ja kiellettyjä asentoja; esimerkiksi ulospäin istuminen vyötärö alemman kaiteen sisäpuolella ja ylävartalo ylemmän ulkopuolella on sallittua veneessä, jossa on kaksi kaidetta, mutta ei veneessä, jossa on yksi.",
+          "en": "The appeal was dismissed. Part of the torso outside the lifelines breaks the rule even with feet on deck. The case's drawing shows permitted and prohibited positions; for example, sitting facing outboard with the waist inside the lower lifeline and the upper body outside the upper one is allowed on a boat with two lifelines, but not on a boat with one."
+        },
+        "also": [],
+        "source": "Case 36"
+      },
+      {
+        "case": 83,
+        "title": {
+          "fi": "Spinaakkerin trimmaaja puuskassa",
+          "en": "The spinnaker trimmer in the gusts"
+        },
+        "text": {
+          "fi": "Kaiteita vaativan luokan veneessä tuuli on noin 8 m/s ja puuskat kestävät noin kolme sekuntia; aallokko lyö sivusta. A:n spinaakkerin trimmaaja seisoo tuulen puolella kannella ja pystyy hädin tuskin vetämään skuuttia. Joissain puuskissa hän nojaa taaksepäin niin, että osa vartalosta on kaiteiden ulkopuolella.",
+          "en": "On a boat in a class that requires lifelines the wind is about 8 m/s, with gusts of about three seconds, and a choppy sea is hitting the beam. A's spinnaker trimmer stands on the windward deck, barely able to pull in the sheet. In some gusts he leans back with part of his torso outside the lifelines."
+        },
+        "answer": {
+          "fi": "A rikkoo sääntöä 49.2. Vartalon asettaminen ei edellytä paikallaan oloa, vaan tarkoittaa tahallista, jonkin aikaa kestävää toimintaa. Välttämätön tehtävä on sellainen, jota ei voi kohtuudella tehdä kaiteiden sisältä, ja vartalo pitää tuoda sisään heti tehtävän jälkeen. Tavallinen trimmaus ei kuulu poikkeukseen, vaikka se onnistuisi ulkona paremmin. Sääntö on miehistön turvallisuutta varten.",
+          "en": "A breaks rule 49.2. Positioning the torso does not mean being stationary; it implies a deliberate act with some duration. A necessary task is one that cannot reasonably be done from inside the lifelines, and the torso must come back in as soon as it is done. Normal trimming is not covered, even if it would work better outside. The rule is there for crew safety."
+        },
+        "also": [],
+        "source": "Case 83"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r49-q1",
+        "prompt": {
+          "fi": "Jollan miehistö haluaa käyttää trapetsin sijaan erityistä ulos laidan yli ulottuvaa istuinlautaa. Onko se sallittua?",
+          "en": "A dinghy crew wants to use a special seat board reaching outboard. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, elleivät luokkasäännöt salli; vain riipuntavyöt ja reisien alla pidettävät jäykistäjät ovat sallittuja",
+              "en": "No, unless class rules allow it; only hiking straps and stiffeners under the thighs are allowed"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "49.1; luokkasäännöt voivat muuttaa sääntöä 49 (86.1(c)).",
+          "en": "Rule 49.1; class rules may change rule 49 (86.1(c))."
+        },
+        "source": "RRS 49.1, 86.1(c)",
+        "also": []
+      },
+      {
+        "id": "r49-q2",
+        "prompt": {
+          "fi": "Gastti nojaa kaiteen yli vapauttaakseen jumiin jääneen spinaakkerin kuljettimen ja palaa heti sisään. Rikkooko hän sääntöä 49.2?",
+          "en": "A crew member leans over the lifeline to free a jammed spinnaker guy and comes straight back in. Does he break rule 49.2?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: hetkellisesti välttämättömän tehtävän vuoksi",
+              "en": "No: briefly to perform a necessary task"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "49.2 sallii hetkellisen poikkeaman välttämättömän tehtävän vuoksi, jos tehtävää ei voi kohtuudella tehdä sisältä (Case 83).",
+          "en": "Rule 49.2 allows a brief excursion for a necessary task that cannot reasonably be done from inside (Case 83)."
+        },
+        "source": "RRS 49.2; Case 83",
+        "also": []
+      },
+      {
+        "id": "r49-q3",
+        "prompt": {
+          "fi": "Saako kilpailija pitää keulapurjeen skuuttia kädessään laidan ulkopuolella?",
+          "en": "May a competitor hold a headsail sheet outboard in her hand?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kunhan sääntöä 49 noudatetaan",
+              "en": "Yes, provided rule 49 is complied with"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, se on kielletty ulospäin työntävä laite",
+              "en": "No, it is a prohibited outward-pushing device"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 4: ihmisen keho ei ole sääntö 55.3:n tarkoittama laite.",
+          "en": "Case 4: a person's body is not a device under rule 55.3."
+        },
+        "source": "Case 4; RRS 55.3",
+        "also": [
+          "55"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 50,
+    "section": "4",
+    "title": {
+      "fi": "Kilpailijan vaatteet ja varusteet",
+      "sv": "Tävlandes kläder och utrustning",
+      "en": "Competitor Clothing and Equipment"
+    },
+    "explain": {
+      "fi": "50.1(a): kilpailija ei saa pitää päällään tai mukanaan vaatteita tai varusteita painonsa lisäämiseksi. Juomasäiliötä ei saa pitää yllään, paitsi purjelaudalla ja leijalaudalla, koska muuten sen pääasiallisena tarkoituksena pidetään painon lisäämistä (Case 89). (b): vaatteet ja varusteet saavat painaa enintään 8 kg; mukaan ei lasketa miehistövaljaita eikä vain polven alapuolella pidettäviä vaatteita (kengät mukaan lukien). Luokkasäännöt tai kilpailukutsu voivat asettaa pienemmän rajan tai suuremman enintään 10 kg:aan asti. Miehistövaljaiden pitää kellua makeassa vedessä ja painaa enintään 2 kg (luokkasäännöillä enintään 4 kg). Punnitus tehdään liitteen H mukaan. (c): valjaat pitää voida aina helposti irrottaa trapetsista tai kiinnityksestä. 50.2: kohdat (b) ja (c) eivät koske veneitä, joissa vaaditaan suojakaiteet.",
+      "en": "50.1(a): competitors may not wear or carry clothing or equipment to increase their weight. A drinking container may not be worn, except on windsurfers and kiteboards, because otherwise its main purpose is taken to be adding weight (Case 89). (b): clothing and equipment may weigh no more than 8 kg, excluding a crew harness and clothing worn only below the knee (including footwear). Class rules or the notice of race may set a lower limit or a higher one up to 10 kg. A crew harness must float in fresh water and weigh no more than 2 kg (up to 4 kg by class rules). Weighing follows Appendix H. (c): a harness must always be easy to release from the trapeze or attachment. 50.2: (b) and (c) do not apply to boats required to have lifelines."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sääntöä 50 muuten kuin säännön sallimalla tavalla (86.1). Liite B sallii purjelautailijalle enintään 1,5 litran juomasäiliön, liite F leijalautailijalle vähintään litran säiliön, joka painaa täynnä enintään 1,5 kg. Liite E poistaa säännön 50.",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change rule 50 except as the rule itself permits (86.1). Appendix B allows a windsurfer a drinking container of up to 1.5 litres, Appendix F a kiteboarder a container of at least one litre weighing no more than 1.5 kg full. Appendix E deletes rule 50."
+    },
+    "source": "RRS 50, 86.1, Appendices B, E, F, H; Case 89",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "49"
+        ],
+        "note": {
+          "fi": "Kaiteellisissa veneissä painoraja ja valjaiden irrotusvaatimus eivät päde (50.2).",
+          "en": "On boats with lifelines the weight limit and harness release requirement do not apply (50.2)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 89,
+        "title": {
+          "fi": "Juomapullo vyöllä",
+          "en": "A bottle on the belt"
+        },
+        "text": {
+          "fi": "Jollapurjehtija kiinnittää juomapullon trapetsivaljaisiinsa voidakseen juoda kesken kilpapurjehduksen. Onko se sallittua?",
+          "en": "A dinghy sailor attaches a drinks bottle to her trapeze harness so she can drink during the race. Is that allowed?"
+        },
+        "answer": {
+          "fi": "Ei. Muualla kuin purjelaudalla ja leijalaudalla juomasäiliön pitämiselle yllä ei ole tarvetta, joten sen pääasiallisena tarkoituksena pidetään painon lisäämistä, ja se rikkoo kohtaa 50.1(a). Purjelautailua ja leijalautailua varten liitteet B ja F muuttavat sääntöä.",
+          "en": "No. Except on windsurfers and kiteboards there is no need to wear a drinking container, so its main purpose is taken to be adding weight, and it breaks rule 50.1(a). Appendices B and F change the rule for windsurfing and kiteboarding."
+        },
+        "also": [],
+        "source": "Case 89"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r50-q1",
+        "prompt": {
+          "fi": "Mikä on kilpailijan vaatteiden ja varusteiden enimmäispaino, ellei luokkasäännöissä tai kilpailukutsussa toisin määrätä?",
+          "en": "What is the maximum weight of a competitor's clothing and equipment unless class rules or the notice of race say otherwise?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "8 kg ilman valjaita ja polven alapuolella pidettäviä vaatteita",
+              "en": "8 kg, excluding the harness and clothing worn below the knee"
+            }
+          },
+          {
+            "t": {
+              "fi": "10 kg kaikkineen",
+              "en": "10 kg in total"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei rajaa",
+              "en": "No limit"
+            }
+          }
+        ],
+        "why": {
+          "fi": "50.1(b).",
+          "en": "Rule 50.1(b)."
+        },
+        "source": "RRS 50.1(b)",
+        "also": []
+      },
+      {
+        "id": "r50-q2",
+        "prompt": {
+          "fi": "Kilpailija käyttää märkää villapaitaa kuivapuvun alla saadakseen lisäpainoa trapetsissa. Onko se sallittua, jos kokonaispaino jää alle 8 kg:n?",
+          "en": "A competitor wears a wet wool sweater under a dry suit to gain weight on the trapeze. Is that allowed if the total stays under 8 kg?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: painon lisäämiseen tarkoitettu vaate on kielletty painosta riippumatta",
+              "en": "No: clothing worn to increase weight is prohibited regardless of weight"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kunhan 8 kg ei ylity",
+              "en": "Yes, as long as 8 kg is not exceeded"
+            }
+          }
+        ],
+        "why": {
+          "fi": "50.1(a) kieltää tarkoituksen; (b) on lisäraja.",
+          "en": "Rule 50.1(a) prohibits the purpose; (b) is an additional limit."
+        },
+        "source": "RRS 50.1(a)",
+        "also": []
+      },
+      {
+        "id": "r50-q3",
+        "prompt": {
+          "fi": "Koskeeko 8 kg:n raja köliveneen miehistöä, kun luokka vaatii suojakaiteet?",
+          "en": "Does the 8 kg limit apply to a keelboat crew when the class requires lifelines?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "50.2: kohdat 50.1(b) ja (c) eivät koske kaiteellisia veneitä. Kohta (a) koskee silti.",
+          "en": "Rule 50.2: rules 50.1(b) and (c) do not apply to boats with lifelines. Rule (a) still does."
+        },
+        "source": "RRS 50.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 51,
+    "section": "4",
+    "title": {
+      "fi": "Siirrettävä painolasti",
+      "sv": "Flyttbar barlast",
+      "en": "Movable Ballast"
+    },
+    "explain": {
+      "fi": "Kaikki siirrettävä painolasti, myös nostamattomat purjeet, pitää säilyttää kunnolla paikallaan. Vettä, kuollutta painoa tai painolastia ei saa siirtää trimmin tai vakauden muuttamiseksi. Pohjalaudat, väliseinät, ovet, portaat ja vesitankit pitää jättää paikoilleen ja kaikki sisustuksen kiinteät osat pitää pitää veneessä. Pilssivettä saa tyhjentää.",
+      "en": "All movable ballast, including sails that are not set, must be properly stowed. Water, dead weight or ballast may not be moved to change trim or stability. Floorboards, bulkheads, doors, stairs and water tanks must stay in place and all cabin fixtures kept on board. Bilge water may be bailed out."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa sääntöä 51 (86.1(c)). Liitteet B ja F poistavat sen.",
+      "en": "Class rules may change rule 51 (86.1(c)). Appendices B and F delete it."
+    },
+    "source": "RRS 51, 86.1(c), Appendices B, F",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Luokkasäännöt saavat muuttaa tätä sääntöä (86.1(c)).",
+          "en": "Class rules may change this rule (86.1(c))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r51-q1",
+        "prompt": {
+          "fi": "Ennen luovia miehistö siirtää purjepussit tuulen puolelle kannen alle. Onko se sallittua?",
+          "en": "Before a beat the crew moves the sail bags to the windward side below deck. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, ellei luokkasäännöt salli",
+              "en": "No, unless class rules allow it"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, purjeet eivät ole painolastia",
+              "en": "Yes, sails are not ballast"
+            }
+          }
+        ],
+        "why": {
+          "fi": "51: nostamattomat purjeet ovat siirrettävää painolastia, eikä painoa saa siirtää trimmin tai vakauden muuttamiseksi.",
+          "en": "Rule 51: sails not set are movable ballast, and weight may not be moved to change trim or stability."
+        },
+        "source": "RRS 51",
+        "also": []
+      },
+      {
+        "id": "r51-q2",
+        "prompt": {
+          "fi": "Saako pilssiin kertynyttä vettä tyhjentää kesken kilpapurjehduksen?",
+          "en": "May bilge water be bailed out during the race?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "51: pilssiveden saa tyhjentää.",
+          "en": "Rule 51: bilge water may be bailed out."
+        },
+        "source": "RRS 51",
+        "also": []
+      },
+      {
+        "id": "r51-q3",
+        "prompt": {
+          "fi": "Kevyessä tuulessa miehistö nostaa pohjalaudat maihin painon säästämiseksi. Onko se sallittua?",
+          "en": "For a light-wind race the crew takes the floorboards ashore to save weight. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos se tehdään ennen valmiusviestiä",
+              "en": "Yes, if done before the preparatory signal"
+            }
+          }
+        ],
+        "why": {
+          "fi": "51: pohjalaudat pitää jättää paikoilleen. Sääntö koskee kilpailtaessa, joten veneen pitää olla sääntöjen mukainen kilpailun aikana.",
+          "en": "Rule 51: floorboards must be left in place. The rule applies while racing, so the boat must comply while racing."
+        },
+        "source": "RRS 51",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 52,
+    "section": "4",
+    "title": {
+      "fi": "Käsivoima",
+      "sv": "Handkraft",
+      "en": "Manual Power"
+    },
+    "explain": {
+      "fi": "Veneen kiinteää ja juoksevaa köysistöä, pyöröpuita ja liikkuvia rungon ulokkeita saa säätää ja käyttää vain miehistön tuottamalla voimalla. Sähkö- tai hydraulivinssit eivät siis ole sallittuja, elleivät luokkasäännöt niitä salli.",
+      "en": "A boat's standing and running rigging, spars and movable hull appendages may be adjusted and operated only by power provided by the crew. So electric or hydraulic winches are not allowed unless class rules permit them."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa sääntöä 52 (86.1(c)). Liitteet B, E ja F poistavat sen.",
+      "en": "Class rules may change rule 52 (86.1(c)). Appendices B, E and F delete it."
+    },
+    "source": "RRS 52, 86.1(c), Appendices B, E, F",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "42"
+        ],
+        "note": {
+          "fi": "Sääntö 42 rajoittaa veneen kuljettamista; sääntö 52 köysistön ja ulokkeiden käyttövoimaa.",
+          "en": "Rule 42 limits propulsion; rule 52 limits the power used for rigging and appendages."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r52-q1",
+        "prompt": {
+          "fi": "Isossa köliveneessä on sähkövinssi, jolla nostetaan isopurje. Saako sitä käyttää kilpailtaessa?",
+          "en": "A large keelboat has an electric winch for hoisting the mainsail. May it be used while racing?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, elleivät luokkasäännöt salli",
+              "en": "No, unless class rules permit it"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos vinssi on kiinteä",
+              "en": "Yes, if the winch is fixed"
+            }
+          }
+        ],
+        "why": {
+          "fi": "52: vain miehistön tuottama voima; luokkasäännöt voivat muuttaa sääntöä.",
+          "en": "Rule 52: only power provided by the crew; class rules may change the rule."
+        },
+        "source": "RRS 52, 86.1(c)",
+        "also": []
+      },
+      {
+        "id": "r52-q2",
+        "prompt": {
+          "fi": "Koskeeko sääntö 52 myös pyöröpuiden, kuten puomin, säätämistä?",
+          "en": "Does rule 52 also cover adjusting spars such as the boom?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä: pyöröpuut mainitaan säännössä",
+              "en": "Yes: spars are named in the rule"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain köysistöä",
+              "en": "No, only rigging"
+            }
+          }
+        ],
+        "why": {
+          "fi": "52 mainitsee kiinteän ja juoksevan köysistön, pyöröpuut ja liikkuvat rungon ulokkeet.",
+          "en": "Rule 52 names standing and running rigging, spars and movable hull appendages."
+        },
+        "source": "RRS 52",
+        "also": []
+      },
+      {
+        "id": "r52-q3",
+        "prompt": {
+          "fi": "Kuka voi sallia hydraulisen takastaagin säädön?",
+          "en": "Who can allow a hydraulic backstay adjuster?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Luokkasäännöt",
+              "en": "Class rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kansallinen järjestö",
+              "en": "Only the national authority"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(c): luokkasäännöt saavat muuttaa sääntöä 52.",
+          "en": "Rule 86.1(c): class rules may change rule 52."
+        },
+        "source": "RRS 86.1(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 53,
+    "section": "4",
+    "title": {
+      "fi": "Pintakitka",
+      "sv": "Ytfriktion",
+      "en": "Skin Friction"
+    },
+    "explain": {
+      "fi": "Vene ei saa ruiskuttaa tai päästää veteen ainetta, kuten polymeeriä, eikä sillä saa olla erityisesti muotoiltuja pintoja, jotka voisivat parantaa veden virtausta rajakerroksessa (veden ohuessa kerroksessa rungon pinnalla).",
+      "en": "A boat may not eject or release a substance, such as a polymer, or have specially textured surfaces that could improve the flow of water inside the boundary layer (the thin layer of water at the hull surface)."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa tätä sääntöä (86.1(c)).",
+      "en": "Class rules may change this rule (86.1(c))."
+    },
+    "source": "RRS 53, 86.1(c)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Luokkasäännöt saavat muuttaa tätä sääntöä (86.1(c)).",
+          "en": "Class rules may change this rule (86.1(c))."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r53-q1",
+        "prompt": {
+          "fi": "Saako veneen pohjaan asentaa ohuen kalvon, jonka mikrourat on suunniteltu vähentämään virtausvastusta?",
+          "en": "May a thin film with micro-grooves designed to reduce drag be applied to the hull?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, elleivät luokkasäännöt salli",
+              "en": "No, unless class rules permit it"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "53 kieltää erityisesti muotoillut pinnat, jotka voisivat parantaa rajakerroksen virtausta.",
+          "en": "Rule 53 prohibits specially textured surfaces that could improve boundary-layer flow."
+        },
+        "source": "RRS 53",
+        "also": []
+      },
+      {
+        "id": "r53-q2",
+        "prompt": {
+          "fi": "Saako keulasta päästää veteen liukastavaa polymeeriä?",
+          "en": "May a slippery polymer be released into the water from the bow?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos se on ympäristölle haitatonta",
+              "en": "Yes, if environmentally harmless"
+            }
+          }
+        ],
+        "why": {
+          "fi": "53 mainitsee polymeerin esimerkkinä kielletystä aineesta.",
+          "en": "Rule 53 names a polymer as an example of a prohibited substance."
+        },
+        "source": "RRS 53",
+        "also": []
+      },
+      {
+        "id": "r53-q3",
+        "prompt": {
+          "fi": "Koskeeko sääntö 53 tavallista, sileäksi hiottua pohjaa?",
+          "en": "Does rule 53 cover an ordinary bottom sanded smooth?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: kielto koskee erityisesti muotoiltuja pintoja ja aineita",
+              "en": "No: it covers specially textured surfaces and substances"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "53 kieltää erityisesti muotoillut pinnat ja aineiden päästämisen, ei tavallista pohjan hoitoa. (Päätelmä säännön sanamuodosta.)",
+          "en": "Rule 53 prohibits specially textured surfaces and releasing substances, not normal hull preparation. (Inferred from the wording.)"
+        },
+        "source": "RRS 53",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 54,
+    "section": "4",
+    "title": {
+      "fi": "Keulaharukset ja keulapurjeiden halssikulmat",
+      "sv": "Förstag och försegels halshorn",
+      "en": "Forestays and Headsail Tacks"
+    },
+    "explain": {
+      "fi": "Keulaharusten ja keulapurjeiden halssikulmien pitää olla kiinnitettyinä suunnilleen veneen keskilinjalle. Poikkeus: spinaakkeriharuspurjeen halssikulma, kun vene ei purjehdi tiukasti vastaisessa suunnassa. Keulapurje ja spinaakkeri määritellään Equipment Rules of Sailingin mukaan (55.4).",
+      "en": "Forestays and headsail tacks must be attached approximately on the boat's centreline. Exception: the tack of a spinnaker staysail when the boat is not close-hauled. Headsail and spinnaker are defined by The Equipment Rules of Sailing (55.4)."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa sääntöä 54 (86.1(c)). Liitteet B, E ja F poistavat sen.",
+      "en": "Class rules may change rule 54 (86.1(c)). Appendices B, E and F delete it."
+    },
+    "source": "RRS 54, 55.4, 86.1(c), Appendices B, E, F",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "55"
+        ],
+        "note": {
+          "fi": "Keulapurjeen ja spinaakkerin määritelmät tulevat Equipment Rules of Sailingista (55.4).",
+          "en": "The definitions of headsail and spinnaker come from The Equipment Rules of Sailing (55.4)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r54-q1",
+        "prompt": {
+          "fi": "Sivutuulessa vene siirtää genoan halssikulman tuulen alapuolen laidalle. Onko se sallittua?",
+          "en": "On a reach a boat moves the genoa tack to the leeward rail. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: keulapurjeen halssikulman pitää olla suunnilleen keskilinjalla",
+              "en": "No: a headsail tack must be approximately on the centreline"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kun vene ei ole tiukasti vastaisessa",
+              "en": "Yes, when not close-hauled"
+            }
+          }
+        ],
+        "why": {
+          "fi": "54: poikkeus koskee vain spinaakkeriharuspurjetta, ei genoaa.",
+          "en": "Rule 54: the exception covers only a spinnaker staysail, not a genoa."
+        },
+        "source": "RRS 54",
+        "also": []
+      },
+      {
+        "id": "r54-q2",
+        "prompt": {
+          "fi": "Leveässä myötäisessä spinaakkeriharuspurjeen halssi kiinnitetään sivuun. Onko se sallittua?",
+          "en": "On a broad reach a spinnaker staysail's tack is attached off-centre. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kun vene ei ole tiukasti vastaisessa",
+              "en": "Yes, when the boat is not close-hauled"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "54:n poikkeus.",
+          "en": "The exception in rule 54."
+        },
+        "source": "RRS 54",
+        "also": []
+      },
+      {
+        "id": "r54-q3",
+        "prompt": {
+          "fi": "Kuka voi sallia sivuun siirrettävän keulaharuksen?",
+          "en": "Who can allow an off-centre forestay?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Luokkasäännöt",
+              "en": "Class rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunta suullisesti",
+              "en": "The race committee orally"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(c).",
+          "en": "Rule 86.1(c)."
+        },
+        "source": "RRS 86.1(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 55,
+    "section": "4",
+    "title": {
+      "fi": "Purjeiden nostaminen ja jalustaminen",
+      "sv": "Sätta och skota segel",
+      "en": "Setting and Sheeting Sails"
+    },
+    "explain": {
+      "fi": "55.1: keulapurjetta tai spinaakkeria vaihdettaessa uuden purjeen saa nostaa ja trimmata valmiiksi ennen kuin vanha lasketaan. Yhtä aikaa saa kuitenkin olla nostettuna vain yksi isopurje ja, vaihtoa lukuun ottamatta, vain yksi spinaakkeri. 55.2: vain yhtä spinaakkeri- tai levittäjäpuomia saa käyttää kerrallaan, paitsi jiipatessa, ja sen pitää olla kiinni keulimmaisessa mastossa. 55.3: purjetta ei saa jalustaa laitteen yli tai läpi, joka työntää skuuttia tai purjeen kulmaa ulospäin kohdasta, josta pystysuora viiva osuisi rungon tai kannen ulkopuolelle. Poikkeukset: keulapurjeen jaluskulman saa kiinnittää levittäjäpuomiin, jos spinaakkeri ei ole ylhäällä; purjeen saa jalustaa purjeen omaan, mastossa pysyvästi kiinni olevaan puomiin; keulapurjeen saa jalustaa omaan puomiinsa, jota ei tarvitse säätää vastakäännöksessä; ja puomin saa jalustaa peräpuuhun. Ihmisen keho ei ole laite (Case 4), eikä spinaakkeripuomin kuljetinta ulospäin työntävä apupuomi riko sääntöä, koska kuljetin ei ole skuutti (Case 97). 55.4: keulapurje ja spinaakkeri määritellään Equipment Rules of Sailingin mukaan.",
+      "en": "55.1: when changing a headsail or spinnaker, the new sail may be fully set and trimmed before the old one is lowered. But only one mainsail and, except when changing, only one spinnaker may be set at a time. 55.2: only one spinnaker pole or whisker pole may be used at a time, except when gybing, and it must be attached to the foremost mast. 55.3: no sail may be sheeted over or through a device that pushes a sheet or clew outward from a point from which a vertical line would fall outside the hull or deck. Exceptions: a headsail clew may be connected to a whisker pole if no spinnaker is set; a sail may be sheeted to a boom regularly used for a sail and permanently attached to the mast; a headsail may be sheeted to its own boom that needs no adjustment when tacking; and a boom may be sheeted to a bumkin. A person's body is not a device (Case 4), and a jockey pole pushing out the spinnaker guy does not break the rule, because the guy is not a sheet (Case 97). 55.4: headsail and spinnaker are defined by The Equipment Rules of Sailing."
+    },
+    "note": {
+      "fi": "Luokkasäännöt saavat muuttaa sääntöä 55 (86.1(c)). Liitteet B, E ja F poistavat sen.",
+      "en": "Class rules may change rule 55 (86.1(c)). Appendices B, E and F delete it."
+    },
+    "source": "RRS 55, 86.1(c), Appendices B, E, F; Case 4, 97",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "49"
+        ],
+        "note": {
+          "fi": "Skuutin pitäminen kädessä laidan ulkopuolella on sallittua, kunhan sääntöä 49 noudatetaan (Case 4).",
+          "en": "Holding a sheet outboard is allowed, provided rule 49 is complied with (Case 4)."
+        }
+      },
+      {
+        "rules": [
+          "54"
+        ],
+        "note": {
+          "fi": "Samat Equipment Rules of Sailingin määritelmät pätevät sääntöön 54 (55.4).",
+          "en": "The same Equipment Rules definitions apply to rule 54 (55.4)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 97,
+        "title": {
+          "fi": "Apupuomi ja kuljetin",
+          "en": "Jockey pole and guy"
+        },
+        "text": {
+          "fi": "Vene käyttää apupuomia (jockey pole), joka työntää ulospäin köyttä, jolla säädetään spinaakkeripuomin asentoa eteen ja taakse. Rikkooko se kohtaa 55.3?",
+          "en": "A boat uses a jockey pole that pushes outward on the line controlling the fore-and-aft position of the spinnaker pole. Does she break rule 55.3?"
+        },
+        "answer": {
+          "fi": "Ei. Kun spinaakkeripuomi on käytössä, puomin asentoa säätävä köysi on kuljetin eikä skuutti. Kohta 55.3 kieltää vain skuuttiin tai purjeen kulmaan kohdistuvan ulospäin työntävän laitteen.",
+          "en": "No. When the spinnaker pole is set, the line controlling its position is a guy, not a sheet. Rule 55.3 prohibits only a device pushing outward on a sheet or clew."
+        },
+        "also": [],
+        "source": "Case 97"
+      },
+      {
+        "case": 4,
+        "title": {
+          "fi": "Skuutti kädessä laidan yli",
+          "en": "A sheet held outboard"
+        },
+        "text": {
+          "fi": "Kevyessä tuulessa gastti pitää spinaakkerin skuuttia kädessään laidan ulkopuolella, jotta purje pysyisi auki. Onko se sallittua?",
+          "en": "In light wind a crew member holds the spinnaker sheet outboard in his hand to keep the sail open. Is that allowed?"
+        },
+        "answer": {
+          "fi": "Kyllä. Kohta 55.3 kieltää ulospäin työntävän laitteen, eikä ihmisen keho ole laite. Kilpailijan pitää silti noudattaa sääntöä 49 eli esimerkiksi suojakaiteita koskevia rajoituksia.",
+          "en": "Yes. Rule 55.3 prohibits an outward-pushing device, and a person's body is not a device. The competitor must still comply with rule 49, for example the lifeline limits."
+        },
+        "also": [
+          "49"
+        ],
+        "source": "Case 4"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r55-q1",
+        "prompt": {
+          "fi": "Spinaakkeria vaihdettaessa uusi spinaakkeri nostetaan ennen kuin vanha lasketaan. Onko se sallittua?",
+          "en": "During a spinnaker change the new spinnaker is hoisted before the old one is lowered. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, vaihdon aikana",
+              "en": "Yes, while changing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain yksi spinaakkeri kerrallaan",
+              "en": "No, only one spinnaker at a time"
+            }
+          }
+        ],
+        "why": {
+          "fi": "55.1: vaihdon aikana uuden saa nostaa ja trimmata ennen vanhan laskemista.",
+          "en": "Rule 55.1: when changing, the new one may be set and trimmed before the old one is lowered."
+        },
+        "source": "RRS 55.1",
+        "also": []
+      },
+      {
+        "id": "r55-q2",
+        "prompt": {
+          "fi": "Jiipissä veneessä on hetken kaksi spinaakkeripuomia käytössä. Onko se sallittua?",
+          "en": "During a gybe a boat briefly has two spinnaker poles in use. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jiipatessa",
+              "en": "Yes, when gybing"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "55.2: vain yksi puomi kerrallaan paitsi jiipatessa.",
+          "en": "Rule 55.2: only one pole at a time except when gybing."
+        },
+        "source": "RRS 55.2",
+        "also": []
+      },
+      {
+        "id": "r55-q3",
+        "prompt": {
+          "fi": "Myötätuulessa genoan jaluskulma kiinnitetään levittäjäpuomiin, eikä spinaakkeria ole nostettu. Onko se sallittua?",
+          "en": "Downwind the genoa clew is connected to a whisker pole with no spinnaker set. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "55.3(a).",
+          "en": "Rule 55.3(a)."
+        },
+        "source": "RRS 55.3(a)",
+        "also": []
+      },
+      {
+        "id": "r55-q4",
+        "prompt": {
+          "fi": "Vene ohjaa genoan skuutin laidan ulkopuolelle asennetun ulokkeen kautta. Onko se sallittua?",
+          "en": "A boat leads the genoa sheet through an outrigger fitted outside the rail. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, elleivät luokkasäännöt salli",
+              "en": "No, unless class rules permit it"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "55.3 kieltää skuuttia ulospäin työntävän laitteen, josta pystysuora viiva osuisi rungon ulkopuolelle; mikään poikkeus ei koske tätä.",
+          "en": "Rule 55.3 prohibits a device pushing a sheet outward from a point outside the hull; no exception covers this."
+        },
+        "source": "RRS 55.3",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 56,
+    "section": "4",
+    "title": {
+      "fi": "Sumumerkit ja valot; reittijakojärjestelmät; seurantajärjestelmät",
+      "sv": "Mistsignaler och lanternor, trafikseparingssystem, spårningssystem",
+      "en": "Fog Signals and Lights; Traffic Separation Schemes; Tracking Systems"
+    },
+    "explain": {
+      "fi": "56.1: jos veneessä on tarvittavat varusteet, sen pitää antaa sumumerkkejä ja näyttää valoja kansainvälisten meriteiden sääntöjen (COLREG, säännöissä IRPCAS) tai paikallisten viranomaissääntöjen mukaisesti. 56.2: veneen pitää noudattaa meriteiden sääntöjen sääntöä 10 (reittijakojärjestelmät); kilpailukutsu voi muuttaa tätä ilmoittamalla, että liitteen TS ryhmä A, B tai C pätee. 56.3: jos sääntö vaatii veneeseen AIS-lähettimen tai muun seurantalaitteen, sitä ei saa sammuttaa eikä sen tehoa tahallaan heikentää. Meriteiden säännöt tai viranomaisten väistämissäännöt koskevat kilpailevien veneiden välisiä tilanteita vain, jos kilpailukutsu niin määrää, ja silloin ne korvaavat kaikki osan 2 säännöt (Case 109).",
+      "en": "56.1: if equipped, a boat must sound fog signals and show lights as required by the International Regulations for Preventing Collisions at Sea (IRPCAS) or applicable government rules. 56.2: a boat must comply with IRPCAS rule 10 (Traffic Separation Schemes); the notice of race may change this by stating that Section A, B or C of Appendix TS applies. 56.3: if a rule requires an AIS transponder or other tracking device, it may not be turned off or its effectiveness intentionally reduced. The IRPCAS or government right-of-way rules apply between racing boats only if the notice of race says so, and then they replace all of Part 2 (Case 109)."
+    },
+    "note": {
+      "fi": "Liite E poistaa säännön 56, liitteet B ja F kohdan 56.1.",
+      "en": "Appendix E deletes rule 56, Appendices B and F delete rule 56.1."
+    },
+    "source": "RRS 56, Part 2 preamble, Appendices B, E, F, TS; Case 109",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "10"
+        ],
+        "note": {
+          "fi": "Kun kilpaileva vene kohtaa muun aluksen, väistämissäännöt tulevat meriteiden säännöistä tai viranomaisten säännöistä (osan 2 johdanto; Case 109).",
+          "en": "When a racing boat meets another vessel, the right-of-way rules come from the IRPCAS or government rules (Part 2 preamble; Case 109)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 109,
+        "title": {
+          "fi": "Meriteiden säännöt kilpailussa",
+          "en": "Collision regulations in a race"
+        },
+        "text": {
+          "fi": "Kilpailukutsussa, purjehdusohjeissa ja muissa asiakirjoissa ei mainita meriteiden sääntöjä eikä viranomaisten sääntöjä. Koskevatko ne silti kilpailevaa venettä, ja miten ne voidaan ottaa käyttöön?",
+          "en": "The notice of race, sailing instructions and other documents say nothing about the IRPCAS or government rules. Do they still apply to a racing boat, and how can they be brought in?"
+        },
+        "answer": {
+          "fi": "Osittain. Kun kilpaileva vene kohtaa aluksen, joka ei purjehdi osan 2 mukaan, niiden välillä pätevät meriteiden tai viranomaisten väistämissäännöt (osan 2 johdanto). Lisäksi sääntö 56.2 (reittijakojärjestelmät) ja 56.1 (sumumerkit ja valot, jos varusteet on) pätevät aina. Vain kilpailukutsu voi määrätä meriteiden väistämissäännöt korvaamaan kaikki osan 2 säännöt; osittainen korvaaminen ei ole mahdollista. Muun kuin väistämissäännön voi ottaa käyttöön kilpailukutsussa, purjehdusohjeissa tai muussa tapahtumaa koskevassa asiakirjassa. Viranomainen voi aina valvoa omia sääntöjään, mutta protestin voi tehdä vain tapahtumaa koskevan säännön perusteella.",
+          "en": "Partly. When a racing boat meets a vessel not sailing under Part 2, the IRPCAS or government right-of-way rules apply between them (Part 2 preamble). Rules 56.2 (traffic separation) and 56.1 (fog signals and lights, if equipped) always apply. Only the notice of race can make the IRPCAS right-of-way rules replace all of Part 2; a partial replacement is not possible. Other, non-right-of-way rules can be brought in by the notice of race, sailing instructions or another document governing the event. An authority can always enforce its own rules, but a protest can be based only on a rule governing the event."
+        },
+        "also": [],
+        "source": "Case 109"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r56-q1",
+        "prompt": {
+          "fi": "Yökilpailussa veneessä on kulkuvalot. Pitääkö ne näyttää?",
+          "en": "In a night race a boat has navigation lights. Must they be shown?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, meriteiden sääntöjen tai viranomaisten sääntöjen mukaan",
+              "en": "Yes, as the IRPCAS or government rules require"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain jos purjehdusohjeet vaativat",
+              "en": "Only if the sailing instructions require it"
+            }
+          }
+        ],
+        "why": {
+          "fi": "56.1: kun vene on varustettu, sen pitää näyttää valot vaatimusten mukaan.",
+          "en": "Rule 56.1: when equipped, the boat must show lights as required."
+        },
+        "source": "RRS 56.1",
+        "also": []
+      },
+      {
+        "id": "r56-q2",
+        "prompt": {
+          "fi": "Vene sammuttaa AIS-lähettimensä, jotta kilpailijat eivät näkisi sen reittiä. Purjehdusohjeet vaativat AIS:n. Rikkooko se sääntöä?",
+          "en": "A boat switches off her AIS so rivals cannot see her route. The sailing instructions require AIS. Does she break a rule?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, sääntöä 56.3",
+              "en": "Yes, rule 56.3"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "56.3 kieltää vaaditun seurantalaitteen sammuttamisen tai tehon tahallisen heikentämisen.",
+          "en": "Rule 56.3 forbids turning off a required tracking device or intentionally reducing its effectiveness."
+        },
+        "source": "RRS 56.3",
+        "also": []
+      },
+      {
+        "id": "r56-q3",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet määrätä, että meriteiden säännöt korvaavat vain säännön 10 mutta muuten osa 2 pätee?",
+          "en": "May the sailing instructions say that the IRPCAS replace only rule 10, with the rest of Part 2 still applying?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: vain kilpailukutsu voi korvata ja vain koko osan 2",
+              "en": "No: only the notice of race can replace, and only all of Part 2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Case 109: osittainen korvaaminen ei ole sallittua, ja korvaaminen tehdään kilpailukutsussa.",
+          "en": "Case 109: partial replacement is not permitted, and replacement is made in the notice of race."
+        },
+        "source": "Case 109; RRS Part 2 preamble",
         "also": []
       }
     ]
