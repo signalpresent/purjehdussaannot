@@ -18666,5 +18666,1075 @@
         "also": []
       }
     ]
+  },
+  {
+    "n": 85,
+    "section": "7",
+    "title": {
+      "fi": "Muutokset sääntöihin",
+      "sv": "Ändring av regler",
+      "en": "Changes to Rules"
+    },
+    "explain": {
+      "fi": "85.1: säännön muutoksen pitää viitata nimenomaan siihen sääntöön ja kertoa muutos. Myös lisäys sääntöön ja sen poistaminen kokonaan tai osittain on muutos. 85.2: kunkin sääntötyypin saa muuttaa vain näin: kilpailusääntö säännön 86 mukaan; World Sailingin säännöstön sääntö säännöstön oman säännön mukaan; kansallisen järjestön määräys säännön 88.2 mukaan; luokkasääntö säännön 87 mukaan; kilpailukutsun sääntö säännön 89.2(b) mukaan; purjehdusohjeiden sääntö säännön 90.2(c) mukaan; muun kilpailua koskevan asiakirjan sääntö asiakirjan oman säännön mukaan.",
+      "en": "85.1: a change to a rule must refer specifically to the rule and state the change. An addition to a rule, or deleting all or part of it, is also a change. 85.2: each type of rule may be changed only as follows: a racing rule under rule 86; a rule in a World Sailing code under a rule in the code; a national authority prescription under rule 88.2; a class rule under rule 87; a rule in the notice of race under rule 89.2(b); a rule in the sailing instructions under rule 90.2(c); a rule in any other document governing the event under a rule in that document."
+    },
+    "note": {
+      "fi": "Muutoksen pitää olla niin täsmällinen, että lukija tietää tarkalleen, miltä muutettu sääntö kuuluu (Case 121). Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "The change must be precise enough for a reader to know exactly how the changed rule reads (Case 121). National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 85, 86.1; Case 121",
+    "defs": [
+      "Rule"
+    ],
+    "links": [
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Kilpailusääntöjen muuttamisen rajat: sääntö 86.",
+          "en": "Limits on changing the racing rules: rule 86."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r85-q1",
+        "prompt": {
+          "fi": "Purjehdusohjeissa lukee: \"Kahden kierroksen rangaistus on korvattu yhden kierroksen rangaistuksella.\" Täyttääkö se säännön 85.1?",
+          "en": "The sailing instructions say: 'The Two-Turns Penalty is replaced by the One-Turn Penalty.' Does that meet rule 85.1?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain jos siinä viitataan nimenomaan muutettavaan sääntöön (44.1) ja kerrotaan muutos",
+              "en": "Only if it refers specifically to the rule changed (44.1) and states the change"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, sisältö on selvä",
+              "en": "Yes, the meaning is clear"
+            }
+          }
+        ],
+        "why": {
+          "fi": "85.1 vaatii viittauksen sääntöön ja muutoksen ilmaisemisen. (Esimerkki on oma.)",
+          "en": "Rule 85.1 requires a reference to the rule and a statement of the change. (The example is our own.)"
+        },
+        "source": "RRS 85.1",
+        "also": [
+          "44"
+        ]
+      },
+      {
+        "id": "r85-q2",
+        "prompt": {
+          "fi": "Onko säännön osittainen poistaminen muutos säännön 85 mielessä?",
+          "en": "Is deleting part of a rule a change under rule 85?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain lisäys on muutos",
+              "en": "No, only an addition is"
+            }
+          }
+        ],
+        "why": {
+          "fi": "85.1, viimeinen virke.",
+          "en": "Rule 85.1, last sentence."
+        },
+        "source": "RRS 85.1",
+        "also": []
+      },
+      {
+        "id": "r85-q3",
+        "prompt": {
+          "fi": "Minkä säännön mukaan purjehdusohjeita muutetaan?",
+          "en": "Under which rule are the sailing instructions changed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "90.2(c)",
+              "en": "90.2(c)"
+            }
+          },
+          {
+            "t": {
+              "fi": "89.2(b)",
+              "en": "89.2(b)"
+            }
+          },
+          {
+            "t": {
+              "fi": "86.1",
+              "en": "86.1"
+            }
+          }
+        ],
+        "why": {
+          "fi": "85.2:n taulukko. Kilpailukutsua muutetaan säännön 89.2(b) mukaan.",
+          "en": "The table in 85.2. The notice of race is changed under 89.2(b)."
+        },
+        "source": "RRS 85.2",
+        "also": [
+          "90"
+        ]
+      }
+    ]
+  },
+  {
+    "n": 86,
+    "section": "7",
+    "title": {
+      "fi": "Muutokset kilpailusääntöihin",
+      "sv": "Ändring av kappseglingsregler",
+      "en": "Changes to the Racing Rules"
+    },
+    "explain": {
+      "fi": "86.1: kilpailusääntöä ei saa muuttaa, ellei sääntö itse salli sitä tai seuraavat kohdat. (a) Kansallisen järjestön määräykset saavat muuttaa kilpailusääntöjä, mutta eivät määritelmiä, johdannon sääntöjä, osia 2 ja 7, sääntöjä 1, 2, 3, 5, 6, 42, 43, 47, 50, 63.3, 69, 70, 71, 72, 75, 76.2(b) ja 79, niitä muuttavia liitteiden sääntöjä, liitteitä H ja N eikä säännössä 6.1 lueteltujen World Sailingin säännöstöjen sääntöjä. (b) Kilpailukutsu ja purjehdusohjeet saavat muuttaa kilpailusääntöjä, mutta eivät sääntöjä 4, 76.1 ja 76.2(a), liitettä R eikä kohdassa (a) lueteltuja. (c) Luokkasäännöt saavat muuttaa vain sääntöjä 42, 49, 51, 52, 53, 54, 55 ja 78.2. 86.2: World Sailing voi rajatuissa tapauksissa sallia muutoksia tiettyyn kansainväliseen kilpailuun; lupa kerrotaan järjestäjälle osoitetussa kirjeessä ja kilpailukutsussa, ja kirje asetetaan viralliselle ilmoitustaululle. 86.3: jos kansallinen järjestö niin määrää, 86.1:n rajoitukset eivät koske muutoksia, joilla kehitetään tai kokeillaan sääntöehdotuksia; järjestö voi vaatia muutoksille hyväksyntänsä.",
+      "en": "86.1: a racing rule may not be changed unless the rule itself permits it or as follows. (a) National authority prescriptions may change a racing rule, but not the Definitions, a rule in the Introduction, Parts 2 and 7, rules 1, 2, 3, 5, 6, 42, 43, 47, 50, 63.3, 69, 70, 71, 72, 75, 76.2(b) and 79, appendix rules that change these, Appendices H and N, or a rule in a World Sailing Code listed in rule 6.1. (b) The notice of race or sailing instructions may change a racing rule, but not rules 4, 76.1 or 76.2(a), Appendix R, or a rule listed in (a). (c) Class rules may change only rules 42, 49, 51, 52, 53, 54, 55 and 78.2. 86.2: World Sailing may in limited circumstances authorize changes for a specific international event; the authorization is stated in a letter of approval to the organizing authority and in the notice of race, and the letter is posted on the official notice board. 86.3: if a national authority so prescribes, the restrictions of 86.1 do not apply to changes made to develop or test proposed rules; it may require its approval for them."
+    },
+    "note": {
+      "fi": "Esimerkkejä: luokkasääntö, joka muuttaa protestilipun vaatimusta (60.2), on pätemätön (Case 85). Purjehdusohjeet eivät voi kieltää muutoksenhaun vaikutusta tuloksiin, koska sääntöjä 70 ja 71 ei saa muuttaa (Case 61). Osa 2 on suojattu muutoksilta, mutta kilpailukutsu voi korvata sen kokonaan meriteiden säännöillä (osan 2 johdanto; Case 109).",
+      "en": "Examples: a class rule changing the protest flag requirement (60.2) is invalid (Case 85). Sailing instructions cannot stop appeal decisions from affecting results, because rules 70 and 71 may not be changed (Case 61). Part 2 is protected from changes, but the notice of race may replace it entirely with the IRPCAS (Part 2 preamble; Case 109)."
+    },
+    "source": "RRS 86; Case 61, 85, 109, 121",
+    "defs": [
+      "Rule"
+    ],
+    "links": [
+      {
+        "rules": [
+          "85"
+        ],
+        "note": {
+          "fi": "Muutoksen muoto: 85.1.",
+          "en": "Form of a change: 85.1."
+        }
+      },
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Luokkasääntö ei voi muuttaa protestisääntöä (Case 85).",
+          "en": "A class rule cannot change the protest rule (Case 85)."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 121,
+        "title": {
+          "fi": "Kilpailusäännön muuttaminen tapahtumaa varten",
+          "en": "Changing a racing rule for an event"
+        },
+        "text": {
+          "fi": "Seura haluaa muuttaa yhtä kilpailusääntöä tulevaa kilpailuaan varten. Mitä sen pitää tehdä, ja voiko muutoksen tehdä muulla tavalla?",
+          "en": "A club wants to change one racing rule for its coming event. What must it do, and can the change be made some other way?"
+        },
+        "answer": {
+          "fi": "Ensin tarkistetaan, saako sääntöä muuttaa (86.1; poikkeukset 86.2 ja 86.3); kielletty muutos on pätemätön. Muutoksen pitää viitata sääntöön ja kertoa muutos niin, että lukija tietää tarkalleen, miltä muutettu sääntö kuuluu (85.1). Jos muutoksen tieto auttaa kilpailijoita päättämään osallistumisesta tai tarvitaan ennen purjehdusohjeita, se kerrotaan kilpailukutsussa (J1.3(1)); muuten purjehdusohjeissa (J2.1(1)). Säännön 86.2 mukainen muutos kerrotaan aina kilpailukutsussa, ja World Sailingin lupa asetetaan ilmoitustaululle. Muuta tapaa ei ole.",
+          "en": "First check whether the rule may be changed (86.1; exceptions 86.2 and 86.3); a prohibited change is invalid. The change must refer to the rule and state it so that a reader knows exactly how the changed rule reads (85.1). If knowing about it helps competitors decide whether to attend, or is needed before the sailing instructions are available, it goes in the notice of race (J1.3(1)); otherwise in the sailing instructions (J2.1(1)). A change under 86.2 always goes in the notice of race, and World Sailing's authorization is posted on the notice board. There is no other way."
+        },
+        "also": [
+          "85"
+        ],
+        "source": "Case 121"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r86-q1",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet muuttaa vyöhykkeen kahden veneen pituuden kokoiseksi?",
+          "en": "May the sailing instructions change the zone to two hull lengths?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: määritelmiä ja osaa 2 ei saa muuttaa kilpailukutsulla tai purjehdusohjeilla; etäisyyttä muuttavat vain liitteet (esim. C ja D kaksi, E neljä veneen pituutta)",
+              "en": "No: the Definitions and Part 2 may not be changed by the notice of race or sailing instructions; only appendices change the distance (e.g. C and D two, E four hull lengths)"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, purjehdusohjeet voivat muuttaa mitä tahansa",
+              "en": "Yes, sailing instructions may change anything"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(a) ja (b); määritelmä Vyöhyke; liitteet C2.4, D1.1(a) ja E1.1.",
+          "en": "Rule 86.1(a) and (b); definition Zone; Appendices C2.4, D1.1(a) and E1.1."
+        },
+        "source": "RRS 86.1; Definitions, Zone; Appendices C2.4, D, E",
+        "also": [
+          "18"
+        ]
+      },
+      {
+        "id": "r86-q2",
+        "prompt": {
+          "fi": "Mitä sääntöjä luokkasäännöt saavat muuttaa?",
+          "en": "Which rules may class rules change?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Vain 42, 49, 51, 52, 53, 54, 55 ja 78.2",
+              "en": "Only 42, 49, 51, 52, 53, 54, 55 and 78.2"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kaikkia osan 4 sääntöjä",
+              "en": "All Part 4 rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Mitä tahansa",
+              "en": "Any rule"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(c).",
+          "en": "Rule 86.1(c)."
+        },
+        "source": "RRS 86.1(c)",
+        "also": []
+      },
+      {
+        "id": "r86-q3",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet muuttaa sääntöä 4 (sääntöjen hyväksyminen)?",
+          "en": "May the sailing instructions change rule 4 (acceptance of the rules)?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.1(b).",
+          "en": "Rule 86.1(b)."
+        },
+        "source": "RRS 86.1(b)",
+        "also": [
+          "4"
+        ]
+      },
+      {
+        "id": "r86-q4",
+        "prompt": {
+          "fi": "Kansallinen järjestö haluaa kokeilla uutta lähtömenettelyä paikallisissa kilpailuissa. Mikä sen sallii, vaikka muutos olisi 86.1:n rajojen ulkopuolella?",
+          "en": "A national authority wants to test a new starting procedure at local events. What allows this even if the change falls outside 86.1?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "86.3: määräyksellä rajoitukset eivät koske sääntöehdotusten kehittämistä tai kokeilua",
+              "en": "86.3: by prescription, the restrictions do not apply to developing or testing proposed rules"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mikään",
+              "en": "Nothing"
+            }
+          }
+        ],
+        "why": {
+          "fi": "86.3. Järjestö voi vaatia muutoksille hyväksyntänsä.",
+          "en": "Rule 86.3. The authority may require its approval for such changes."
+        },
+        "source": "RRS 86.3",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 87,
+    "section": "7",
+    "title": {
+      "fi": "Muutokset luokkasääntöihin",
+      "sv": "Ändring av klassregler",
+      "en": "Changes to Class Rules"
+    },
+    "explain": {
+      "fi": "Kilpailukutsu saa muuttaa luokkasääntöä vain, jos luokkasäännöt sallivat muutoksen tai jos luokkaliiton kirjallinen lupa muutokseen on viralliselle ilmoitustaululla.",
+      "en": "The notice of race may change a class rule only when the class rules permit the change, or when the class association's written permission for it is posted on the official notice board."
+    },
+    "note": {
+      "fi": "Sääntö mainitsee vain kilpailukutsun. Luokkasääntöjen muutokset ilmoitetaan kilpailukutsussa viitaten kuhunkin sääntöön (J1.2(3)). Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "The rule names only the notice of race. Changes to class rules are stated in the notice of race, referring to each rule (J1.2(3)). National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 87, Appendix J1.2(3)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "85"
+        ],
+        "note": {
+          "fi": "Luokkasäännön muuttaminen sääntötaulukossa: 85.2.",
+          "en": "Changing a class rule in the table: 85.2."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r87-q1",
+        "prompt": {
+          "fi": "Kilpailukutsu sallii luokan veneille yhden lisäpurjeen, vaikka luokkasäännöt eivät salli. Mitä tarvitaan, jotta muutos on pätevä?",
+          "en": "The notice of race allows one extra sail, though the class rules do not. What is needed for the change to be valid?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Luokkaliiton kirjallinen lupa viralliselle ilmoitustaululle",
+              "en": "The class association's written permission posted on the official notice board"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunnan päätös",
+              "en": "A race committee decision"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 87.",
+          "en": "Rule 87."
+        },
+        "source": "RRS 87",
+        "also": []
+      },
+      {
+        "id": "r87-q2",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet muuttaa luokkasääntöä säännön 87 perusteella?",
+          "en": "May the sailing instructions change a class rule under rule 87?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: sääntö 87 mainitsee vain kilpailukutsun",
+              "en": "No: rule 87 names only the notice of race"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, samoin kuin kilpailukutsu",
+              "en": "Yes, like the notice of race"
+            }
+          }
+        ],
+        "why": {
+          "fi": "Sääntö 87 ja 85.2. (Päätelmä sanamuodosta.)",
+          "en": "Rules 87 and 85.2. (Inferred from the wording.)"
+        },
+        "source": "RRS 87, 85.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 88,
+    "section": "7",
+    "title": {
+      "fi": "Kansalliset määräykset",
+      "sv": "Nationella föreskrifter",
+      "en": "National Prescriptions"
+    },
+    "explain": {
+      "fi": "88.1: kilpailussa pätevät sen kansallisen järjestön määräykset, johon järjestäjä kuuluu (89.1). Jos veneet kulkevat usean kansallisen järjestön vesillä, kilpailukutsussa kerrotaan, mitkä määräykset pätevät ja milloin. 88.2: kilpailukutsu tai purjehdusohjeet saavat muuttaa määräystä. Kansallinen järjestö voi kuitenkin World Sailingin hyväksymällä määräyksellä rajoittaa muutoksia, eikä rajoitettuja määräyksiä saa muuttaa.",
+      "en": "88.1: the prescriptions that apply are those of the national authority with which the organizing authority is associated (89.1). If boats pass through the waters of more than one national authority, the notice of race states which prescriptions apply and when. 88.2: the notice of race or sailing instructions may change a prescription. However, a national authority may, with World Sailing's approval, restrict changes by a prescription to this rule, and restricted prescriptions may not be changed."
+    },
+    "note": {
+      "fi": "Käännösero: suomenkielinen 88.2 sanoo, että purjehdusohjeet eivät saa muuttaa rajoitettuja määräyksiä; englanninkielinen teksti kieltää niiden muuttamisen yleisesti (myös kilpailukutsulla). Englanninkielinen on auktoriteetti. Kun ulkomaisia osallistujia odotetaan, purjehdusohjeissa on tarvittaessa sovellettavat määräykset englanniksi (90.2(b)). Suomen määräyksiä ei ole tarkistettu tähän.",
+      "en": "Translation difference: Finnish 88.2 says the sailing instructions may not change restricted prescriptions; the English text bars changing them in general (also by the notice of race). The English text is the authority. When foreign entries are expected, the sailing instructions include the applicable prescriptions in English when appropriate (90.2(b)). Finnish prescriptions have not been checked here."
+    },
+    "source": "RRS 88, 89.1, 90.2(b)",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "89"
+        ],
+        "note": {
+          "fi": "Järjestäjän kuuluminen kansalliseen järjestöön: 89.1.",
+          "en": "The organizing authority's affiliation: 89.1."
+        }
+      },
+      {
+        "rules": [
+          "86"
+        ],
+        "note": {
+          "fi": "Mitä kansalliset määräykset eivät saa muuttaa: 86.1(a).",
+          "en": "What prescriptions may not change: 86.1(a)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r88-q1",
+        "prompt": {
+          "fi": "Suomalaisen seuran järjestämän kilpailun reitti kulkee osin Ruotsin vesillä. Mitä kilpailukutsussa pitää kertoa?",
+          "en": "A Finnish club's race passes partly through Swedish waters. What must the notice of race state?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Mitkä kansalliset määräykset pätevät ja milloin",
+              "en": "Which national prescriptions apply and when"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään; Suomen määräykset pätevät aina",
+              "en": "Nothing; Finnish prescriptions always apply"
+            }
+          }
+        ],
+        "why": {
+          "fi": "88.1.",
+          "en": "Rule 88.1."
+        },
+        "source": "RRS 88.1",
+        "also": []
+      },
+      {
+        "id": "r88-q2",
+        "prompt": {
+          "fi": "Voivatko purjehdusohjeet muuttaa kansallista määräystä?",
+          "en": "May the sailing instructions change a national prescription?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, ellei määräys ole kansallisen järjestön rajoittama",
+              "en": "Yes, unless the prescription is restricted by the national authority"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei koskaan",
+              "en": "Never"
+            }
+          }
+        ],
+        "why": {
+          "fi": "88.2.",
+          "en": "Rule 88.2."
+        },
+        "source": "RRS 88.2",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 89,
+    "section": "7",
+    "title": {
+      "fi": "Kilpailun järjestäjä; kilpailukutsu; kilpailutoimihenkilöiden nimittäminen",
+      "sv": "Arrangör, inbjudan, utse kappseglingsfunktionärer",
+      "en": "Organizing Authority; Notice of Race; Appointment of Race Officials"
+    },
+    "explain": {
+      "fi": "89.1: kilpailun järjestää järjestäjä, joka on (a) World Sailing, (b) World Sailingin jäsenenä oleva kansallinen järjestö, (c) kansalliseen järjestöön kuuluva seura, (d) muu siihen kuuluva yhteisö (kansallisen järjestön niin määrätessä sen hyväksymänä tai yhdessä kuuluvan seuran kanssa), (e) kuulumaton luokkaliitto kansallisen järjestön hyväksymänä tai yhdessä kuuluvan seuran kanssa, (f) kaksi tai useampi edellä mainituista, (g) kuulumaton yhteisö yhdessä seuran kanssa, jos seura omistaa ja valvoo sitä (kansallinen järjestö voi vaatia hyväksyntänsä), tai (h) World Sailingin ja seuran kansallisen järjestön hyväksymänä kuulumaton yhteisö yhdessä seuran kanssa, kun seura ei omista eikä valvo sitä. Kuuluminen tarkoittaa kuulumista kilpailupaikan kansalliseen järjestöön; usean maan vesillä riittää kuuluminen jonkin reitin sataman järjestöön. 89.2: järjestäjä julkaisee kirjallisen kilpailukutsun liitteen J1 mukaan; kutsua voi muuttaa, jos muutoksesta ilmoitetaan riittävästi. Järjestäjä nimittää kilpailulautakunnan ja tarvittaessa protestilautakunnan, teknisen lautakunnan ja erotuomarit; World Sailing voi nimittää kilpailulautakunnan, kansainvälisen tuomariston, teknisen lautakunnan ja erotuomarit omien määräystensä (Regulations) mukaan.",
+      "en": "89.1: an event is organized by an organizing authority, which is (a) World Sailing, (b) a member national authority of World Sailing, (c) an affiliated club, (d) another affiliated organization (if the national authority so prescribes, with its approval or with an affiliated club), (e) an unaffiliated class association with the national authority's approval or with an affiliated club, (f) two or more of these, (g) an unaffiliated body with an affiliated club that owns and controls it (the national authority may require its approval), or (h) with the approval of World Sailing and the club's national authority, an unaffiliated body with an affiliated club that does not own and control it. Affiliated means affiliated to the national authority of the venue; when racing passes through several countries' waters, affiliation to the national authority of one of the ports of call is enough. 89.2: the organizing authority publishes a written notice of race conforming to J1; it may be changed if adequate notice is given. It appoints a race committee and, when appropriate, a protest committee, a technical committee and umpires; World Sailing may appoint the race committee, an international jury, a technical committee and umpires under its Regulations."
+    },
+    "note": {
+      "fi": "Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 89, Appendix J1",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "90"
+        ],
+        "note": {
+          "fi": "Kilpailulautakunta toimii järjestäjän ohjeiden mukaan (90.1).",
+          "en": "The race committee acts as directed by the organizing authority (90.1)."
+        }
+      },
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Muutoksenhaun kansallinen järjestö määräytyy järjestäjän mukaan (70.4).",
+          "en": "The national authority for appeals follows the organizing authority (70.4)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r89-q1",
+        "prompt": {
+          "fi": "Voiko luokkaliitto, joka ei kuulu kansalliseen järjestöön, järjestää kilpailun?",
+          "en": "May a class association not affiliated to the national authority organize an event?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, kansallisen järjestön hyväksymänä tai yhdessä siihen kuuluvan seuran kanssa",
+              "en": "Yes, with the national authority's approval or together with an affiliated club"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "89.1(e).",
+          "en": "Rule 89.1(e)."
+        },
+        "source": "RRS 89.1(e)",
+        "also": []
+      },
+      {
+        "id": "r89-q2",
+        "prompt": {
+          "fi": "Kenen pitää julkaista kilpailukutsu?",
+          "en": "Who must publish the notice of race?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailun järjestäjän",
+              "en": "The organizing authority"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailulautakunnan",
+              "en": "The race committee"
+            }
+          },
+          {
+            "t": {
+              "fi": "Protestilautakunnan",
+              "en": "The protest committee"
+            }
+          }
+        ],
+        "why": {
+          "fi": "89.2(a). Purjehdusohjeet julkaisee kilpailulautakunta (90.2(a)).",
+          "en": "Rule 89.2(a). The sailing instructions are published by the race committee (90.2(a))."
+        },
+        "source": "RRS 89.2(a), 90.2(a)",
+        "also": [
+          "90"
+        ]
+      },
+      {
+        "id": "r89-q3",
+        "prompt": {
+          "fi": "Kilpailukutsua halutaan muuttaa viikkoa ennen kilpailua. Onko se sallittua?",
+          "en": "The notice of race needs changing a week before the event. Is that allowed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, jos muutoksesta ilmoitetaan riittävästi",
+              "en": "Yes, if adequate notice is given"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, kutsu on lopullinen",
+              "en": "No, the notice is final"
+            }
+          }
+        ],
+        "why": {
+          "fi": "89.2(b).",
+          "en": "Rule 89.2(b)."
+        },
+        "source": "RRS 89.2(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 90,
+    "section": "7",
+    "title": {
+      "fi": "Kilpailulautakunta; purjehdusohjeet; pistelasku",
+      "sv": "Kappseglingskommitté, seglingsföreskrifter och poängberäkning",
+      "en": "Race Committee; Sailing Instructions; Scoring"
+    },
+    "explain": {
+      "fi": "90.1: kilpailulautakunta pitää kilpapurjehdukset järjestäjän ohjeiden ja sääntöjen mukaan. 90.2: se julkaisee kirjalliset purjehdusohjeet liitteen J2 mukaan; kun ulkomaisia osallistujia odotetaan, ohjeissa on tarvittaessa sovellettavat kansalliset määräykset englanniksi. Ohjeita voi muuttaa kirjallisesti ilmoitustaululla ennen ohjeissa mainittua aikaa tai vesillä kullekin veneelle ennen sen varoitusviestiä; suullisia muutoksia vain vesillä ja vain, jos menettely on ohjeissa. 90.3: pisteet lasketaan liitteen A mukaan, ellei kilpailukutsu tai purjehdusohjeet määrää muuta. Kilpapurjehdus pisteytetään, ellei sitä mitätöidä ja jos yksikin vene purjehtii radan mahdollisen enimmäisajan kuluessa, vaikka se keskeyttäisi maaliintulon jälkeen tai hylättäisiin. DNE lasketaan aina mukaan, vaikka tuloksia vähennettäisiin. Kilpailulautakunta korjaa omista tiedoistaan tai havainnoistaan löytämänsä pistevirheet ja julkaisee korjatut tulokset, ja se toteuttaa protestilautakunnan tai kansallisen järjestön päätösten mukaiset muutokset. Jos kilpailukutsu niin sanoo, tuloksia ei muuteta (ei virheiden korjauksinakaan) toimista, jotka on aloitettu yli 24 tuntia myöhäisimmän seuraavista jälkeen: viimeisen lähdön protestiaika, tieto protestilautakunnan päätöksestä viimeisen lähdön jälkeen tai tulosten julkaisu. Säännön 6, 69 tai 71 mukaiset päätökset muuttavat tuloksia silti; kilpailukutsu voi muuttaa 24 tunnin ajan.",
+      "en": "90.1: the race committee conducts races as directed by the organizing authority and the rules. 90.2: it publishes written sailing instructions conforming to J2; when foreign entries are expected, they include the applicable national prescriptions in English when appropriate. They may be changed in writing on the notice board before the time stated in the instructions, or on the water to each boat before her warning signal; oral changes only on the water and only if the procedure is in the instructions. 90.3: scoring follows Appendix A unless the notice of race or sailing instructions specify another system. A race is scored if not abandoned and if one boat sails the course within the time limit, if any, even if she retires after finishing or is disqualified. A DNE always counts, even when scores are excluded. The race committee corrects scoring errors it finds from its own records or observations and makes the corrected scores available, and implements changes directed by the protest committee or national authority. If the notice of race so states, no score changes (not even error corrections) result from action initiated more than 24 hours after the latest of: the protest time limit of the last race, being informed of a protest committee decision after the last race, or publication of the results. Decisions under rules 6, 69 or 71 still change scores; the notice of race may change the 24 hours."
+    },
+    "note": {
+      "fi": "Liitteet B ja F (purjelautailu, leijalautailu) muuttavat kohdan 90.2(c) viimeisen virkkeen: suullisia ohjeita saa antaa, jos menettely on purjehdusohjeissa (vaatimus \"vain vesillä\" puuttuu). Liite E (radio-ohjattavat) sallii muutokset suullisesti kaikille asianosaisille ennen kyseisen lähdön tai erän varoitusviestiä, tarvittaessa kirjallisesti vahvistettuina. Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "Appendices B and F (windsurfing, kiteboarding) change the last sentence of 90.2(c): oral instructions may be given if the procedure is in the sailing instructions (without 'only on the water'). Appendix E (radio sailing) allows changes orally to all affected competitors before the warning signal of the race or heat, confirmed in writing when appropriate. National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 90, Appendices A, B, E1.3, F, J2; Case 32, 61",
+    "defs": [
+      "Abandon",
+      "Finish"
+    ],
+    "links": [
+      {
+        "rules": [
+          "32"
+        ],
+        "note": {
+          "fi": "Lyhennetyn radan maaliintulosuunta pitää kertoa kirjallisissa purjehdusohjeissa (Case 32).",
+          "en": "The finishing direction for a shortened course must be in the written sailing instructions (Case 32)."
+        }
+      },
+      {
+        "rules": [
+          "71"
+        ],
+        "note": {
+          "fi": "Kansallisen järjestön päätös muuttaa tuloksia myös 24 tunnin rajan jälkeen (90.3(e); Case 61).",
+          "en": "A national authority decision changes scores even after the 24-hour limit (90.3(e); Case 61)."
+        }
+      },
+      {
+        "rules": [
+          "89"
+        ],
+        "note": {
+          "fi": "Kilpailukutsun julkaisee järjestäjä (89.2(a)).",
+          "en": "The organizing authority publishes the notice of race (89.2(a))."
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "case": 32,
+        "title": {
+          "fi": "Ohjeistustilaisuudessa annettu tarkennus",
+          "en": "A clarification at the briefing"
+        },
+        "text": {
+          "fi": "Purjehdusohjeiden mukaan lyhennetyllä radalla veneet kiertävät seuraavan merkin ja purjehtivat \"suoraan maaliin\"; suunnasta ei sanottu muuta. Päivittäisessä ohjeistustilaisuudessa kilpailun johtaja kertoi, että lyhennetyllä radalla maaliin tullaan vastatuuleen. Rata lyhennettiin. Kuusi venettä, jotka eivät olleet tilaisuudessa, noudattivat kirjallisia ohjeita ja ylittivät linjan myötätuuleen radan puolelta. Ne merkittiin maaliin tulemattomiksi ja pyysivät hyvitystä.",
+          "en": "The sailing instructions said that on a shortened course boats round the next mark and sail 'straight to the finishing line'; nothing else about direction. At a daily briefing the race officer said that on a shortened course boats finish sailing upwind. The course was shortened. Six boats that had missed the briefing followed the written instructions and crossed downwind from the course side. They were scored as not finishing and requested redress."
+        },
+        "answer": {
+          "fi": "Veneet saivat hyvityksen, ja kaikki pisteytettiin linjan ylitysjärjestyksessä; kilpailulautakunnan muutoshakemus hylättiin. Määritelmä Maaliintulo sallii purjehdusohjeiden muuttaa ylityssuuntaa, mutta ohjeet eivät tehneet niin. Kilpailun johtajan sanat olivat enemmän kuin tarkennus. Kilpailijat saavat luottaa pelkästään kilpailukutsuun, purjehdusohjeisiin ja niiden muutoksiin, ja 90.2(c) vaatii muutokset kirjallisina.",
+          "en": "The boats got redress, with all boats scored in the order they crossed the line; the race committee's appeal was dismissed. The definition Finish lets the sailing instructions change the crossing direction, but they did not. The race officer's words were more than a clarification. Competitors may rely solely on the notice of race, the sailing instructions and their amendments, and 90.2(c) requires changes in writing."
+        },
+        "also": [
+          "61"
+        ],
+        "source": "Case 32"
+      }
+    ],
+    "questions": [
+      {
+        "id": "r90-q1",
+        "prompt": {
+          "fi": "Kilpailulautakunta huutaa kilpailijoille satamassa ennen lähtöä, että rata on muuttunut. Onko se pätevä purjehdusohjeiden muutos?",
+          "en": "In the harbour before the start, the race committee shouts to competitors that the course has changed. Is that a valid change to the sailing instructions?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: suullisia muutoksia saa antaa vain vesillä ja vain, jos menettely on ohjeissa",
+              "en": "No: oral changes may be given only on the water and only if the procedure is in the instructions"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.2(c).",
+          "en": "Rule 90.2(c)."
+        },
+        "source": "RRS 90.2(c)",
+        "also": []
+      },
+      {
+        "id": "r90-q2",
+        "prompt": {
+          "fi": "Vain yksi vene purjehtii radan enimmäisajassa ja hylätään myöhemmin. Pisteytetäänkö kilpapurjehdus?",
+          "en": "Only one boat sails the course within the time limit and is later disqualified. Is the race scored?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei",
+              "en": "No"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(a): kilpapurjehdus pisteytetään, vaikka ainoa radan purjehtinut vene keskeyttäisi maaliintulon jälkeen tai hylättäisiin.",
+          "en": "Rule 90.3(a): the race is scored even if the only boat that sailed the course retires after finishing or is disqualified."
+        },
+        "source": "RRS 90.3(a)",
+        "also": []
+      },
+      {
+        "id": "r90-q3",
+        "prompt": {
+          "fi": "Sarjassa vähennetään huonoin tulos. Veneen huonoin tulos on DNE. Vähennetäänkö se?",
+          "en": "In a series the worst score is excluded. A boat's worst score is a DNE. Is it excluded?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: DNE lasketaan aina mukaan",
+              "en": "No: a DNE is always included"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(b).",
+          "en": "Rule 90.3(b)."
+        },
+        "source": "RRS 90.3(b)",
+        "also": []
+      },
+      {
+        "id": "r90-q4",
+        "prompt": {
+          "fi": "Kilpailukutsun mukaan 90.3(e) on käytössä. Kaksi päivää tulosten julkaisun jälkeen huomataan laskuvirhe. Korjataanko tulokset?",
+          "en": "The notice of race applies 90.3(e). Two days after results are published, a scoring error is found. Are the results corrected?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei, ellei kyse ole säännön 6, 69 tai 71 mukaisesta päätöksestä",
+              "en": "No, unless it results from a decision under rule 6, 69 or 71"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, virheet korjataan aina",
+              "en": "Yes, errors are always corrected"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(e). Kilpailukutsu voi muuttaa 24 tunnin ajan.",
+          "en": "Rule 90.3(e). The notice of race may change the 24 hours."
+        },
+        "source": "RRS 90.3(e)",
+        "also": []
+      },
+      {
+        "id": "r90-q5",
+        "prompt": {
+          "fi": "Kilpailulautakunta huomaa omista muistiinpanoistaan, että se antoi veneelle väärän sijoituksen. Tarvitaanko hyvityspyyntö?",
+          "en": "The race committee finds from its own records that it gave a boat the wrong place. Is a redress request needed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei: kilpailulautakunnan pitää itse korjata virhe ja julkaista korjatut tulokset",
+              "en": "No: the race committee must correct the error itself and publish the corrected scores"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          }
+        ],
+        "why": {
+          "fi": "90.3(c).",
+          "en": "Rule 90.3(c)."
+        },
+        "source": "RRS 90.3(c)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 91,
+    "section": "7",
+    "title": {
+      "fi": "Protestilautakunta",
+      "sv": "Protestkommitté",
+      "en": "Protest Committee"
+    },
+    "explain": {
+      "fi": "Protestilautakunta on (a) kilpailun järjestäjän tai kilpailulautakunnan nimittämä lautakunta (kansallinen järjestö voi määrätä jäsenten vähimmäismäärän tietyille kilpailuille), (b) järjestäjän tai World Sailingin määräysten mukaan nimittämä kansainvälinen tuomaristo, joka kootaan liitteen N1 mukaan ja jolla on N2:n mukainen toimivalta (kansallinen järjestö voi vaatia nimitykseen hyväksyntänsä, paitsi World Sailingin kilpailuissa tai kun World Sailing nimittää tuomariston 89.2(c):n mukaan), tai (c) kansallisen järjestön säännön 71.3(c) mukaan nimittämä lautakunta.",
+      "en": "A protest committee is (a) a committee appointed by the organizing authority or race committee (a national authority may prescribe a minimum number of members for specified events), (b) an international jury appointed by the organizing authority or as prescribed in the World Sailing Regulations, composed as required by N1 with the authority in N2 (a national authority may require its approval of the appointment, except at World Sailing events or when World Sailing appoints the jury under 89.2(c)), or (c) a committee appointed by the national authority under rule 71.3(c)."
+    },
+    "note": {
+      "fi": "Kansainvälisen tuomariston päätöksistä ei voi hakea muutosta (70.3(a)). Säännön 69 tutkinnassa lautakunnassa on oltava vähintään kolme jäsentä (69.2(a)). Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "Decisions of an international jury cannot be appealed (70.3(a)). For a rule 69 hearing the committee must have at least three members (69.2(a)). National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 91, 70.3(a), 69.2(a), Appendix N",
+    "defs": [
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Kansainvälisen tuomariston päätöksestä ei voi hakea muutosta (70.3(a)).",
+          "en": "No appeal from an international jury (70.3(a))."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "Protestilautakunta järjestää tutkinnat säännön 63 mukaan.",
+          "en": "The protest committee conducts hearings under rule 63."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r91-q1",
+        "prompt": {
+          "fi": "Kuka voi nimittää tavallisen protestilautakunnan?",
+          "en": "Who may appoint an ordinary protest committee?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kilpailun järjestäjä tai kilpailulautakunta",
+              "en": "The organizing authority or the race committee"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain kansallinen järjestö",
+              "en": "Only the national authority"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kilpailijat yhdessä",
+              "en": "The competitors jointly"
+            }
+          }
+        ],
+        "why": {
+          "fi": "91(a).",
+          "en": "Rule 91(a)."
+        },
+        "source": "RRS 91(a)",
+        "also": []
+      },
+      {
+        "id": "r91-q2",
+        "prompt": {
+          "fi": "Minkä liitteen mukaan kansainvälinen tuomaristo kootaan?",
+          "en": "Under which appendix is an international jury composed?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Liitteen N",
+              "en": "Appendix N"
+            }
+          },
+          {
+            "t": {
+              "fi": "Liitteen M",
+              "en": "Appendix M"
+            }
+          },
+          {
+            "t": {
+              "fi": "Liitteen R",
+              "en": "Appendix R"
+            }
+          }
+        ],
+        "why": {
+          "fi": "91(b): N1 ja N2.",
+          "en": "Rule 91(b): N1 and N2."
+        },
+        "source": "RRS 91(b)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": 92,
+    "section": "7",
+    "title": {
+      "fi": "Tekninen lautakunta",
+      "sv": "Teknisk kommitté",
+      "en": "Technical Committee"
+    },
+    "explain": {
+      "fi": "92.1: teknisessä lautakunnassa on vähintään yksi jäsen, ja sen nimittää kilpailun järjestäjä tai kilpailulautakunta tai se nimitetään World Sailingin määräysten (Regulations) mukaan. 92.2: tekninen lautakunta tekee varustetarkastukset ja kilpailumittaukset järjestäjän ohjeiden ja sääntöjen mukaan.",
+      "en": "92.1: a technical committee has at least one member and is appointed by the organizing authority or the race committee, or as prescribed in the World Sailing Regulations. 92.2: it conducts equipment inspection and event measurement as directed by the organizing authority and as required by the rules."
+    },
+    "note": {
+      "fi": "Suomenkielisessä sääntökirjassa kohdat on numeroitu (a) ja (b), englanninkielisessä 92.1 ja 92.2. Tekninen lautakunta voi protestoida venettä (60.1) ja pyytää hyvitystä veneelle (61.1(b)); sen tarkastuksen jälkeinen protesti on pätevä, vaikka tieto tulisi muualta (60.4(c)(3)). Kansallisen järjestön määräykset, kilpailukutsu ja purjehdusohjeet eivät saa muuttaa osan 7 sääntöjä (86.1).",
+      "en": "The Finnish rulebook numbers the clauses (a) and (b); the English one 92.1 and 92.2. The technical committee may protest a boat (60.1) and request redress for a boat (61.1(b)); its protest after an inspection is valid even if the information came from elsewhere (60.4(c)(3)). National authority prescriptions, the notice of race and sailing instructions may not change the rules of Part 7 (86.1)."
+    },
+    "source": "RRS 92, 60.1, 60.4(c)(3), 61.1(b)",
+    "defs": [
+      "Committee"
+    ],
+    "links": [
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Teknisen lautakunnan protesti: 60.1 ja 60.4(c)(3).",
+          "en": "Technical committee protests: 60.1 and 60.4(c)(3)."
+        }
+      },
+      {
+        "rules": [
+          "78"
+        ],
+        "note": {
+          "fi": "Luokkasääntöjen noudattaminen, jota tekninen lautakunta tarkastaa: 78.",
+          "en": "Class rule compliance, which the technical committee inspects: 78."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "r92-q1",
+        "prompt": {
+          "fi": "Montako jäsentä teknisessä lautakunnassa pitää vähintään olla?",
+          "en": "What is the minimum number of members of a technical committee?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yksi",
+              "en": "One"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolme",
+              "en": "Three"
+            }
+          },
+          {
+            "t": {
+              "fi": "Viisi",
+              "en": "Five"
+            }
+          }
+        ],
+        "why": {
+          "fi": "92.1.",
+          "en": "Rule 92.1."
+        },
+        "source": "RRS 92.1",
+        "also": []
+      },
+      {
+        "id": "r92-q2",
+        "prompt": {
+          "fi": "Tekninen lautakunta löytää tarkastuksessa luokkasääntöjen vastaisen kölin. Voiko se protestoida venettä?",
+          "en": "In an inspection the technical committee finds a keel that breaks the class rules. May it protest the boat?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, vain veneet voivat protestoida",
+              "en": "No, only boats may protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "60.1: lautakunta voi protestoida. Määritelmä Lautakunta (Committee) kattaa teknisen lautakunnan. 60.4(c)(3) koskee tarkastuksen jälkeistä protestia.",
+          "en": "Rule 60.1: a committee may protest. The definition Committee covers the technical committee. 60.4(c)(3) covers a protest after an inspection."
+        },
+        "source": "RRS 60.1, 60.4(c)(3)",
+        "also": [
+          "60"
+        ]
+      }
+    ]
   }
 ]
