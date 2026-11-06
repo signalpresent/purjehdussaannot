@@ -25989,6 +25989,864 @@
     ]
   },
   {
+    "n": "M1",
+    "section": "M",
+    "title": {
+      "fi": "Valmistelut ja ennen tutkintaa",
+      "sv": "Förberedelser och före förhandlingen",
+      "en": "Preliminaries and Before the Hearing"
+    },
+    "explain": {
+      "fi": "M1: kilpailutoimisto voi hoitaa valmistelut: ottaa vastaan tutkintapyynnön, merkitä muistiin sen jättöajan ja protestiajan päättymisen, ja ilmoittaa asianosaisille ja asiaan liittyville lautakunnille, milloin ja missä tutkinta pidetään. M2: ennen tutkintaa protestilautakunta varmistaa, että kukin asianosainen on päässyt lukemaan protestin, hyvityspyynnön tai väitteen ja on saanut kohtuullisen ajan valmistautua; että paikalla on vain yksi edustaja asianosaista kohti, ellei tulkkia tarvita; että kaikki osalliset veneet ja henkilöt ovat edustettuina (muuten lautakunta voi edetä 63.1(b):n nojalla); ja että veneiden edustajat olivat veneissä, kun sitä vaadittiin. Jos asianosaiset olivat eri kilpailuissa, molempien järjestäjien täytyy hyväksyä lautakunnan kokoonpano; luokkasääntöriidassa selvitetään voimassa olevat luokkasäännöt ja niiden tulkitsija. Lautakunta selvittää myös, onko joku sen jäsenistä nähnyt tapahtuman: tällainen jäsen ilmoittaa asiasta mahdollisimman pian tutkinnan aikana. Eturistiriidat arvioidaan: jäsenet ilmoittavat mahdolliset eturistiriidat, asianosaiset saavat niistä tiedon ja voivat vastustaa, ja vastustuksen tullessa muu lautakunta arvioi ristiriidan merkityksen tason, laajuuden ja oikeudenmukaisuuden kannalta. Epäselvissä tapauksissa pienempi lautakunta voi olla parempi; säännön 69 tutkintoja lukuun ottamatta jäsenmäärälle ei ole vähimmäisvaatimusta. Jos hyvityspyyntö perustuu jonkin muun tahon kuin protestilautakunnan virheeseen, sen tahon jäsen ei saa olla mukana käsittelevässä lautakunnassa.",
+      "en": "M1: race office staff may handle the preliminaries: receive the hearing request, note its delivery time and the protest time limit, and tell the parties and any committee involved when and where the hearing will be held. M2: before the hearing, the protest committee makes sure each party has had the chance to read the protest, redress request or allegation and reasonable time to prepare; that only one representative per party is present unless an interpreter is needed; that all boats and people involved are represented (otherwise the committee may proceed under rule 63.1(b)); and that boats' representatives were aboard when that was required. If the parties were in different events, both organizing authorities must accept the committee's composition; in a class-rule dispute, the committee finds the current class rules and who interprets them. The committee also finds out whether any of its members saw the incident: such a member says so as soon as possible during the hearing. Conflicts of interest are assessed: members declare any they have, the parties are told and may object, and if a party objects the rest of the committee judges how significant the conflict is, weighing the event's level, the conflict's extent and fairness. In doubtful cases a smaller committee can be the safer choice; except for rule 69 hearings there is no minimum size. If a redress request is based on a fault of some body other than the protest committee, a member of that body may not sit on the committee hearing it.",
+      "sv": "M1: tävlingsexpeditionen kan sköta förberedelserna: ta emot ansökan om förhandling, anteckna tiden den lämnades in och när protesttiden går ut, och underrätta parterna och varje berörd kommitté om när och var förhandlingen hålls. M2: före förhandlingen försäkrar protestkommittén att varje part har haft möjlighet att läsa protesten, ansökan om gottgörelse eller anklagelsen och fått rimlig tid att förbereda sig; att bara en representant per part är närvarande om det inte behövs en tolk; att alla inblandade båtar och personer är representerade (annars kan kommittén fortsätta enligt regel 63.1b); och att båtarnas representanter var ombord när det krävdes. Om parterna deltog i olika tävlingar måste båda arrangörerna godkänna kommitténs sammansättning; i en tvist om klassregler tar kommittén fram gällande klassregler och vem som tolkar dem. Kommittén tar också reda på om någon av dess medlemmar såg händelsen: en sådan medlem berättar det så snart som möjligt under förhandlingen. Intressekonflikter bedöms: medlemmarna redovisar sina, parterna informeras och får invända, och om en part invänder bedömer övriga medlemmar hur betydande konflikten är, med hänsyn till tävlingens nivå, konfliktens omfattning och rättvisan. I tveksamma fall kan en mindre kommitté vara det säkrare valet; förutom vid förhandlingar enligt regel 69 finns inget minimiantal. Om en ansökan om gottgörelse grundas på ett fel hos någon annan funktion än protestkommittén, får en medlem av den funktionen inte sitta i den kommitté som prövar den."
+    },
+    "note": {
+      "fi": "Liite M on pelkästään neuvoa antava; se ei ole sääntö, jota voitaisiin rikkoa, ja sitä on osoitettu ensisijaisesti protestilautakunnan puheenjohtajalle. Case Bookissa ei ole liitettä M koskevia tapauksia.",
+      "en": "Appendix M is advisory only; it is not a rule that can be broken, and it is addressed primarily to the protest committee chair. The Case Book has no cases on Appendix M.",
+      "sv": "Bilaga M är bara rådgivande; den är ingen regel som kan brytas, och den riktar sig i första hand till protestkommitténs ordförande. Case Book har inga fall om bilaga M."
+    },
+    "source": "RRS M1, M2, 63.1, 63.2(e), 63.4(d), 61.4(b)(1)",
+    "defs": [
+      "Conflict of Interest",
+      "Party"
+    ],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "M1 ja M2 täydentävät säännön 63 vaatimuksia tutkinnan asianosaisista, edustuksesta ja ajoituksesta.",
+          "en": "M1 and M2 fill in rule 63's requirements on the parties, representation and timing of a hearing.",
+          "sv": "M1 och M2 fyller ut regel 63:s krav på parterna, representationen och tidpunkten för en förhandling."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "M2.1(e): kenenkään toisen tahon jäsen, jonka virheeseen hyvityspyyntö perustuu, ei saa olla lautakunnassa (sääntö 61.4(b)(1)).",
+          "en": "M2.1(e): no member of the other body whose fault a redress request is based on may sit on the committee (rule 61.4(b)(1)).",
+          "sv": "M2.1e: ingen medlem av den funktion vars fel en ansökan om gottgörelse grundas på får sitta i kommittén (regel 61.4b1)."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rM1-q1",
+        "prompt": {
+          "fi": "Kuinka monta edustajaa asianosaista kohti saa normaalisti olla paikalla tutkinnassa?",
+          "en": "How many representatives per party may normally be present at a hearing?",
+          "sv": "Hur många representanter per part får normalt vara närvarande vid en förhandling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Yksi, ellei tulkkia tarvita",
+              "en": "One, unless an interpreter is needed",
+              "sv": "En, om det inte behövs en tolk"
+            }
+          },
+          {
+            "t": {
+              "fi": "Niin monta kuin asianosainen haluaa",
+              "en": "As many as the party wants",
+              "sv": "Så många parten vill"
+            }
+          },
+          {
+            "t": {
+              "fi": "Enintään kolme",
+              "en": "At most three",
+              "sv": "Högst tre"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M2.1(b).",
+          "en": "M2.1(b).",
+          "sv": "M2.1b."
+        },
+        "source": "RRS M2.1(b)",
+        "also": []
+      },
+      {
+        "id": "rM1-q2",
+        "prompt": {
+          "fi": "Protestilautakunnan jäsen huomaa nähneensä itse käsiteltävän tapahtuman. Mitä hänen pitää tehdä?",
+          "en": "A protest committee member realizes they personally saw the incident being heard. What must they do?",
+          "sv": "En medlem av protestkommittén inser att hon själv såg den händelse som förhandlingen gäller. Vad måste hon göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ilmoittaa asiasta mahdollisimman pian tutkinnan aikana",
+              "en": "Say so as soon as possible during the hearing",
+              "sv": "Berätta det så snart som möjligt under förhandlingen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Poistua lautakunnasta välittömästi",
+              "en": "Leave the committee immediately",
+              "sv": "Lämna kommittén omedelbart"
+            }
+          },
+          {
+            "t": {
+              "fi": "Pysyä vaiti, ellei kysytä",
+              "en": "Stay silent unless asked",
+              "sv": "Hålla tyst om hon inte blir tillfrågad"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M2.2.",
+          "en": "M2.2.",
+          "sv": "M2.2."
+        },
+        "source": "RRS M2.2",
+        "also": []
+      },
+      {
+        "id": "rM1-q3",
+        "prompt": {
+          "fi": "Asianosainen ei vastusta sen jälkeen, kun protestilautakunnan jäsenen eturistiriita on ilmoitettu niin pian kuin mahdollista. Miten lautakunta voi tulkita tämän?",
+          "en": "A party raises no objection after a committee member's conflict of interest is declared as soon as possible. How may the committee read this?",
+          "sv": "En part invänder inte efter att en medlems intressekonflikt redovisats så snart som möjligt. Hur kan kommittén tolka det?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Suostumuksena jatkamiselle, ja se kannattaa kirjata",
+              "en": "As consent to proceed, and it should be recorded",
+              "sv": "Som ett samtycke att fortsätta, och det bör protokollföras"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei minään; vastustus on aina esitettävä erikseen kirjallisena",
+              "en": "As nothing; an objection must always be made separately in writing",
+              "sv": "Som ingenting; en invändning måste alltid göras separat skriftligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M2.3(b).",
+          "en": "M2.3(b).",
+          "sv": "M2.3b."
+        },
+        "source": "RRS M2.3(b)",
+        "also": [
+          "Conflict of Interest"
+        ]
+      },
+      {
+        "id": "rM1-q4",
+        "prompt": {
+          "fi": "Hyvityspyyntö perustuu kilpailutoimikunnan, ei protestilautakunnan, väitettyyn virheeseen. Voiko kilpailutoimikunnan jäsen istua tätä pyyntöä käsittelevässä protestilautakunnassa?",
+          "en": "A redress request is based on an alleged fault of the race committee, not the protest committee. May a race committee member sit on the protest committee hearing it?",
+          "sv": "En ansökan om gottgörelse grundas på ett påstått fel hos kappseglingskommittén, inte protestkommittén. Får en medlem av kappseglingskommittén sitta i den protestkommitté som prövar den?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, kunhan hän ei äänestä",
+              "en": "Yes, as long as they do not vote",
+              "sv": "Ja, så länge hon inte röstar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M2.1(e).",
+          "en": "M2.1(e).",
+          "sv": "M2.1e."
+        },
+        "source": "RRS M2.1(e)",
+        "also": [
+          "61"
+        ]
+      }
+    ]
+  },
+  {
+    "n": "M2",
+    "section": "M",
+    "title": {
+      "fi": "Tutkinta: pätevyys, näyttö ja päätös",
+      "sv": "Förhandlingen: giltighet, bevisning och beslut",
+      "en": "The Hearing: Validity, Evidence and Decision"
+    },
+    "explain": {
+      "fi": "M3: ensin tarkistetaan protestin tai pyynnön pätevyys: oliko sisältö riittävä, jätettiinkö se ajoissa (tai onko hyvä syy jatkaa määräaikaa), oliko protestoija vaadittaessa osallisena tai näkikö hän tapahtuman, huudettiinko ja näytettiinkö lippu oikein kun se vaadittiin, ja informoitiinko protestin kohdetta kun lippua tai huutoa ei tarvittu. Kun pätevyys on kerran ratkaistu, sitä ei oteta uudelleen esille, ellei aidosti uutta näyttöä ilmene. Näytön ottamisessa: asianosaiset kertovat tarinansa ja saavat kysyä toisiltaan; todistajat kutsutaan yksitellen, ja vastapuoli kyselee ensin toisen todistajaa (jottei asianosainen johdattele omaa todistajaansa alusta alkaen); todistajia saa kutsua asianosainen mutta myös lautakunta; johdattelevia kysymyksiä vältetään, ja jos niitä ei voi estää, niin saatua näyttöä painotetaan vähemmän; kuulopuheelle, toistolle ja epäolennaiselle näytölle annetaan vain sille kuuluva, mahdollisesti vähäinen tai mitätön painoarvo; lautakunnan jäsen, joka näki tapahtuman, voi todistaa ja pysyä jäsenenä. Tosiasiat todetaan kirjallisesti ja epävarmuudet ratkaistaan suuntaan tai toiseen; tarvittaessa piirretään kuvio. Päätös perustuu todettuihin tosiasioihin; jos ne eivät riitä, selvitetään lisää. Lopuksi asianosaisille luetaan tosiasiat, päätelmät, sovelletut säännöt ja päätös, ja kopio annetaan pyydettäessä.",
+      "en": "M3: first the validity of the protest or request is checked: was the content adequate, was it delivered in time (or is there good reason to extend the limit), was the protestor involved in or did they see the incident when that is required, was a hail made and a flag shown correctly when required, and was the protestee told when no flag or hail was needed. Once validity is decided it is not reopened unless genuinely new evidence appears. In taking evidence: parties tell their stories and may question each other; witnesses are called one at a time, and the other party questions a witness first (so a party cannot lead their own witness from the start); either party may call witnesses, but so may the committee; leading questions are avoided, and if they cannot be prevented the evidence so obtained is given less weight; hearsay, repetitive or irrelevant evidence is given only the weight it deserves, which may be little or none; a committee member who saw the incident may testify and still remain a member. Facts are written down and doubts resolved one way or the other; a diagram is drawn when useful. The decision rests on the facts found; if they are not enough, more are sought. Finally the parties are read the facts, conclusions, rules applied and the decision, and given a copy on request.",
+      "sv": "M3: först kontrolleras giltigheten av protesten eller ansökan: var innehållet tillräckligt, lämnades den in i tid (eller finns goda skäl att förlänga tiden), var den protesterande inblandad i eller såg hon händelsen när det krävs, gjordes ett rop och visades en flagga på rätt sätt när det krävs, och underrättades svaranden när ingen flagga eller inget rop behövdes. När giltigheten väl är avgjord tas den inte upp igen om inte verkligt ny bevisning dyker upp. Vid bevisupptagningen: parterna berättar sina historier och får ställa frågor till varandra; vittnen kallas ett i taget, och motparten får fråga ett vittne först (så att en part inte kan leda sitt eget vittne redan från början); båda parter får kalla vittnen, men det får kommittén också; ledande frågor undviks, och om de inte kan undvikas ges bevisningen mindre vikt; hörsägen, upprepad eller oväsentlig bevisning ges bara det värde den förtjänar, vilket kan vara litet eller inget; en kommittémedlem som såg händelsen får vittna och ändå stanna kvar som medlem. Fakta skrivs ner och tveksamheter löses åt ett håll eller det andra; en skiss ritas när det är till nytta. Beslutet grundas på fastställda fakta; om de inte räcker söks fler. Till sist läses fakta, slutsatser, tillämpade regler och beslutet upp för parterna, och en kopia ges på begäran."
+    },
+    "note": {
+      "fi": "Liite M on pelkästään neuvoa antava; se ei ole sääntö, jota voitaisiin rikkoa, ja sitä on osoitettu ensisijaisesti protestilautakunnan puheenjohtajalle. Case Bookissa ei ole liitettä M koskevia tapauksia.",
+      "en": "Appendix M is advisory only; it is not a rule that can be broken, and it is addressed primarily to the protest committee chair. The Case Book has no cases on Appendix M.",
+      "sv": "Bilaga M är bara rådgivande; den är ingen regel som kan brytas, och den riktar sig i första hand till protestkommitténs ordförande. Case Book har inga fall om bilaga M."
+    },
+    "source": "RRS M3, 60.2, 60.3, 60.4(a)(2), 63.4, 63.5(a), 63.6",
+    "defs": [
+      "Party",
+      "Protest"
+    ],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "M3 kuvaa, miten säännön 63 vaatimukset (näytön ottaminen, tosiasioiden toteaminen, päätös, tiedoksianto) toteutetaan käytännössä.",
+          "en": "M3 describes how rule 63's requirements (taking evidence, finding facts, deciding, informing) are carried out in practice.",
+          "sv": "M3 beskriver hur regel 63:s krav (bevisupptagning, fastställande av fakta, beslut, underrättelse) genomförs i praktiken."
+        }
+      },
+      {
+        "rules": [
+          "60"
+        ],
+        "note": {
+          "fi": "Pätevyyden tarkistus nojaa sääntöön 60: protestin sisältö, määräaika, hailaus ja lippu.",
+          "en": "The validity check rests on rule 60: the protest's content, time limit, hail and flag.",
+          "sv": "Giltighetskontrollen bygger på regel 60: protestens innehåll, tidsfrist, rop och flagga."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rM2-q1",
+        "prompt": {
+          "fi": "Protesti jätettiin protestiajan jälkeen, eikä hyvää syytä jatkaa määräaikaa ole. Onko protesti pätevä?",
+          "en": "A protest was delivered after the protest time limit, and there is no good reason to extend it. Is it valid?",
+          "sv": "En protest lämnades in efter protesttidens utgång, och det finns inget godt skäl att förlänga den. Är protesten giltig?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei",
+              "en": "No",
+              "sv": "Nej"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, jos sisältö on riittävä",
+              "en": "Yes, if the content is adequate",
+              "sv": "Ja, om innehållet är tillräckligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M3.1(b).",
+          "en": "M3.1(b).",
+          "sv": "M3.1b."
+        },
+        "source": "RRS M3.1(b)",
+        "also": []
+      },
+      {
+        "id": "rM2-q2",
+        "prompt": {
+          "fi": "Kuka tavallisesti päättää, ketä todistajia tutkintaan kutsutaan?",
+          "en": "Who normally decides which witnesses are called to a hearing?",
+          "sv": "Vem avgör normalt vilka vittnen som kallas till en förhandling?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Asianosainen, mutta protestilautakuntakin saa kutsua todistajia",
+              "en": "The party, but the protest committee may also call witnesses",
+              "sv": "Parten, men protestkommittén får också kalla vittnen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Aina vain protestilautakunta",
+              "en": "Only the protest committee, always",
+              "sv": "Bara protestkommittén, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M3.2(c).",
+          "en": "M3.2(c).",
+          "sv": "M3.2c."
+        },
+        "source": "RRS M3.2(c)",
+        "also": []
+      },
+      {
+        "id": "rM2-q3",
+        "prompt": {
+          "fi": "Todistaja kertoo kuulleensa toiselta veneeltä, mitä tapahtui, näkemättä sitä itse. Miten protestilautakunta käsittelee tätä kuulopuhetta?",
+          "en": "A witness reports hearing from another boat what happened, without seeing it themselves. How does the protest committee treat this hearsay?",
+          "sv": "Ett vittne berättar att hon hörde från en annan båt vad som hände, utan att själv se det. Hur behandlar protestkommittén denna hörsägen?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Antaa sille sille kuuluvan painoarvon, joka voi olla vähäinen tai mitätön",
+              "en": "Gives it the weight it deserves, which may be little or none",
+              "sv": "Ger den det värde den förtjänar, vilket kan vara litet eller inget"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jättää sen kokonaan huomiotta aina",
+              "en": "Always disregards it entirely",
+              "sv": "Bortser alltid helt från den"
+            }
+          },
+          {
+            "t": {
+              "fi": "Antaa sille saman painoarvon kuin suoralle havainnolle",
+              "en": "Gives it the same weight as direct observation",
+              "sv": "Ger den samma värde som direkt iakttagelse"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M3.2(h).",
+          "en": "M3.2(h).",
+          "sv": "M3.2h."
+        },
+        "source": "RRS M3.2(h)",
+        "also": []
+      },
+      {
+        "id": "rM2-q4",
+        "prompt": {
+          "fi": "Todistajanlausunnot eroavat siitä, oliko kahden veneen välillä peittoa. Mitä protestilautakunnan pitää tehdä tosiasioita todetessaan?",
+          "en": "Witnesses disagree on whether two boats were overlapped. What must the protest committee do when finding facts?",
+          "sv": "Vittnen är oense om två båtar var överlappade. Vad måste protestkommittén göra när den fastställer fakta?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ratkaista epävarmuus suuntaan tai toiseen",
+              "en": "Resolve the doubt one way or the other",
+              "sv": "Lösa tveksamheten åt ett håll eller det andra"
+            }
+          },
+          {
+            "t": {
+              "fi": "Jättää asian avoimeksi ja todeta, että se on epäselvä",
+              "en": "Leave it open and record that it is unclear",
+              "sv": "Lämna frågan öppen och anteckna att det är oklart"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M3.3(a).",
+          "en": "M3.3(a).",
+          "sv": "M3.3a."
+        },
+        "source": "RRS M3.3(a)",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "M3",
+    "section": "M",
+    "title": {
+      "fi": "Tutkinnan uudelleenavaaminen ja harkinnanvaraiset rangaistukset",
+      "sv": "Återupptagande av förhandling och proportionerliga straff",
+      "en": "Reopening a Hearing and Discretionary Penalties"
+    },
+    "explain": {
+      "fi": "M4: kun asianosainen pyytää ajoissa tutkinnan uudelleenavaamista, protestilautakunta kuulee pyynnön esittäjää, katsoo mahdollisen videon ja arvioi, onko esillä merkittävää uutta näyttöä, joka voisi muuttaa päätöstä, tai onko sääntötulkinta saattanut olla virheellinen; lautakunnan pitää olla avoin omalle virheelleen. Jos kumpikaan ei toteudu, uudelleenavaamisesta kieltäydytään; muuten tutkinta ajoitetaan uudelleen. Näyttö on ”uutta”, jos pyynnön esittäjä ei olisi kohtuudella voinut löytää sitä ennen alkuperäistä tutkintaa, jos lautakunta on vakuuttunut, että näyttöä etsittiin huolellisesti mutta tuloksetta, tai jos lautakunta saa mistä tahansa lähteestä tietää, ettei näyttö ollut asianosaisten saatavilla alkuperäisen tutkinnan aikana. M5: säännön 64 harkinnanvarainen rangaistus antaa veneelle, joka on rikkonut tällaista sääntöä, mahdollisuuden noudattaa Urheiluhenkeä ilmoittamalla rikkeestään protestiajan kuluessa. Jos ilmoitus ei sisällä riittäviä tosiasioita rangaistuksen määräämiseksi, lautakunta voi kysyä veneen edustajalta ja todistajilta lisätietoja ilman, että siihen tarvitaan muodollinen tutkinta.",
+      "en": "M4: when a party asks in time for a hearing to be reopened, the protest committee hears the party making the request, looks at any video and judges whether there is significant new evidence that could change the decision, or whether its interpretation of the rules may have been wrong; the committee must stay open to having made a mistake. If neither applies, it refuses to reopen; otherwise it schedules a new hearing. Evidence is 'new' if the party asking could not reasonably have found it before the original hearing, if the committee is satisfied it was diligently but unsuccessfully sought, or if the committee learns from any source that it was not available to the parties at the time of the original hearing. M5: the discretionary penalty under rule 64 lets a boat that has broken such a rule comply with the Sportsmanship principle by reporting her breach within the protest time limit. If the report lacks enough facts for the committee to decide the penalty, it may question the boat's representative and any witnesses for more information, without needing a formal hearing.",
+      "sv": "M4: när en part i tid ber om att en förhandling ska återupptas, hör protestkommittén den part som ansöker, tittar på eventuell video och bedömer om det finns väsentlig ny bevisning som skulle kunna ändra beslutet, eller om dess tolkning av reglerna kan ha varit felaktig; kommittén måste vara öppen för att den kan ha gjort ett misstag. Om inget av detta stämmer avslår den återupptagandet; annars bestäms tid för en ny förhandling. Bevisning är \"ny\" om parten som ansöker inte rimligen kunde ha hittat den före den ursprungliga förhandlingen, om kommittén är övertygad om att den sökts med omsorg men utan resultat, eller om kommittén från någon källa får veta att den inte var tillgänglig för parterna vid tiden för den ursprungliga förhandlingen. M5: det proportionerliga straffet enligt regel 64 låter en båt som brutit mot en sådan regel följa Sportsmannaanda genom att rapportera sitt regelbrott inom protesttiden. Om rapporten saknar tillräckliga fakta för att kommittén ska kunna bestämma straffet, får den fråga båtens representant och vilka vittnen som helst om mer information, utan att det behövs en formell förhandling."
+    },
+    "note": {
+      "fi": "Liite M on pelkästään neuvoa antava; se ei ole sääntö, jota voitaisiin rikkoa, ja sitä on osoitettu ensisijaisesti protestilautakunnan puheenjohtajalle. Case Bookissa ei ole liitettä M koskevia tapauksia.",
+      "en": "Appendix M is advisory only; it is not a rule that can be broken, and it is addressed primarily to the protest committee chair. The Case Book has no cases on Appendix M.",
+      "sv": "Bilaga M är bara rådgivande; den är ingen regel som kan brytas, och den riktar sig i första hand till protestkommitténs ordförande. Case Book har inga fall om bilaga M."
+    },
+    "source": "RRS M4, M5, 63.7, 64",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "M4 täsmentää, mitä säännön 63.7 ”merkittävä uusi näyttö” tarkoittaa käytännössä.",
+          "en": "M4 spells out what 'significant new evidence' means in practice under rule 63.7.",
+          "sv": "M4 förklarar vad \"väsentlig ny bevisning\" betyder i praktiken enligt regel 63.7."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rM3-q1",
+        "prompt": {
+          "fi": "Asianosainen pyytää uudelleenavaamista ja esittää näytön, jota hän ei olisi kohtuudella voinut löytää ennen alkuperäistä tutkintaa. Onko näyttö M4.2:n tarkoittamalla tavalla uutta?",
+          "en": "A party asks for reopening and presents evidence they could not reasonably have found before the original hearing. Is the evidence 'new' under M4.2?",
+          "sv": "En part ber om återupptagande och lägger fram bevisning hon inte rimligen kunde ha hittat före den ursprungliga förhandlingen. Är bevisningen \"ny\" enligt M4.2?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska näyttö olisi pitänyt esittää alkuperäisessä tutkinnassa",
+              "en": "No, because the evidence should have been presented at the original hearing",
+              "sv": "Nej, eftersom bevisningen borde ha lagts fram vid den ursprungliga förhandlingen"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M4.2(a).",
+          "en": "M4.2(a).",
+          "sv": "M4.2a."
+        },
+        "source": "RRS M4.2(a)",
+        "also": []
+      },
+      {
+        "id": "rM3-q2",
+        "prompt": {
+          "fi": "Uudelleenavaamista pyydettäessä, mitä muuta protestilautakunnan pitää harkita sen lisäksi, onko näyttö uutta?",
+          "en": "When reopening is requested, what else must the protest committee consider besides whether the evidence is new?",
+          "sv": "När återupptagande begärs, vad måste protestkommittén dessutom överväga utöver om bevisningen är ny?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Oliko sen oma sääntötulkinta saattanut olla virheellinen",
+              "en": "Whether its own interpretation of the rules may have been wrong",
+              "sv": "Om dess egen tolkning av reglerna kan ha varit felaktig"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei muuta; pelkkä näytön uutuus riittää",
+              "en": "Nothing else; the evidence being new is enough on its own",
+              "sv": "Ingenting annat; att bevisningen är ny räcker i sig"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M4.1.",
+          "en": "M4.1.",
+          "sv": "M4.1."
+        },
+        "source": "RRS M4.1",
+        "also": []
+      },
+      {
+        "id": "rM3-q3",
+        "prompt": {
+          "fi": "Vene ilmoittaa itse protestiajan kuluessa rikkoneensa harkinnanvaraisen rangaistuksen alaista sääntöä, mutta ilmoitus ei kerro riittävästi tosiasioita rangaistuksen määräämiseksi. Tarvitaanko muodollinen tutkinta lisätietojen keräämiseksi?",
+          "en": "A boat reports within the protest time limit that she broke a rule subject to a discretionary penalty, but the report lacks enough facts to decide the penalty. Is a formal hearing needed to gather more?",
+          "sv": "En båt rapporterar inom protesttiden att hon brutit mot en regel som har ett proportionerligt straff, men rapporten saknar tillräckliga fakta för att bestämma straffet. Behövs en formell förhandling för att samla in mer?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; lautakunta voi kysyä edustajalta ja todistajilta ilman tutkintaa",
+              "en": "No; the committee may question the representative and witnesses without a hearing",
+              "sv": "Nej; kommittén får fråga representanten och vittnen utan förhandling"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, aina",
+              "en": "Yes, always",
+              "sv": "Ja, alltid"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M5.",
+          "en": "M5.",
+          "sv": "M5."
+        },
+        "source": "RRS M5, 64",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "M4",
+    "section": "M",
+    "title": {
+      "fi": "Sopimaton käytös",
+      "sv": "Olämpligt beteende",
+      "en": "Misconduct"
+    },
+    "explain": {
+      "fi": "M6: toimi säännön 69 nojalla ei ole protesti, vaan protestilautakunta antaa väitteensä kirjallisesti kilpailijalle ennen tutkintaa; tutkinta noudattaa sääntöä 63, mutta lautakunnassa on oltava vähintään kolme jäsentä, ja kilpailijan oikeuksia on suojattava erityisen tarkasti. Kilpailija tai vene ei voi itse protestoida säännön 69 nojalla, mutta tätä yrittävän kilpailijan tutkintapyyntö voidaan hyväksyä ilmoitukseksi, jonka pohjalta lautakunta päättää, kutsutaanko tutkinta koolle. Väitteen esittäjäksi voidaan nimittää kilpailutoimihenkilö, väitteen tehnyt henkilö tai muu sopiva henkilö; vasta jos ketään muuta ei ole saatavilla, väitteen voi esittää protestilautakunnan jäsen. Kun osa 2 -tapahtuma herättää kysymyksen myös sopimattomasta käytöksestä, veneiden väliset protestit käsitellään ja ratkaistaan tavalliseen tapaan ensin, ennen kuin kilpailijaa vastaan edetään säännön 69 nojalla. Toimi kohdistuu kilpailijaan, veneen omistajaan tai tukihenkilöön, mutta myös venettä voidaan samalla rangaista. Lautakunnan pitää harkita, raportoiko se langettavasta päätöksestä kansalliselle järjestölle tai World Sailingille, ja asianosainen voi hakea päätökseen muutosta, ellei oikeutta ole evätty säännön 70.3 nojalla.",
+      "en": "M6: an action under rule 69 is not a protest; instead the protest committee gives its allegations to the competitor in writing before the hearing. The hearing follows rule 63, but the committee must have at least three members, and the competitor's rights need special protection. A competitor or boat cannot protest under rule 69 herself, but a hearing request from a competitor trying to do so may be accepted as a report, on which the committee then decides whether to call a hearing. A person appointed to present the allegation may be a race official, the person who made the allegation, or another suitable person; only when no one else is available may a protest committee member present it. When a Part 2 incident also raises a question of misconduct, boat-vs-boat protests are heard and decided the normal way first, before proceeding against the competitor under rule 69. The action is taken against a competitor, boat owner or support person, but a boat may be penalized at the same time. The committee must consider whether to report an upheld allegation to a national authority or World Sailing, and a party may appeal the decision unless that right has been denied under rule 70.3.",
+      "sv": "M6: en åtgärd enligt regel 69 är inte en protest; istället lämnar protestkommittén sina anklagelser skriftligt till den tävlande före förhandlingen. Förhandlingen följer regel 63, men kommittén måste ha minst tre medlemmar, och den tävlandes rättigheter behöver särskilt skydd. En tävlande eller båt kan inte själv protestera enligt regel 69, men en ansökan om förhandling från en tävlande som försöker göra det kan godtas som en rapport, som kommittén sedan avgör om den ska kalla till förhandling utifrån. En person som utses att lägga fram anklagelsen kan vara en tävlingsfunktionär, personen som gjorde anklagelsen, eller någon annan lämplig person; bara när ingen annan är tillgänglig får en medlem av protestkommittén lägga fram den. När en händelse i del 2 också väcker en fråga om olämpligt beteende, hörs och avgörs båt-mot-båt-protester på vanligt sätt först, innan man går vidare mot den tävlande enligt regel 69. Åtgärden riktas mot en tävlande, båtägare eller stödperson, men en båt kan straffas samtidigt. Kommittén måste överväga om den ska rapportera en bifallen anklagelse till en nationell myndighet eller World Sailing, och en part får överklaga beslutet om inte den rätten har upphävts enligt regel 70.3."
+    },
+    "note": {
+      "fi": "Liite M on pelkästään neuvoa antava; se ei ole sääntö, jota voitaisiin rikkoa, ja sitä on osoitettu ensisijaisesti protestilautakunnan puheenjohtajalle. Case Bookissa ei ole liitettä M koskevia tapauksia.",
+      "en": "Appendix M is advisory only; it is not a rule that can be broken, and it is addressed primarily to the protest committee chair. The Case Book has no cases on Appendix M.",
+      "sv": "Bilaga M är bara rådgivande; den är ingen regel som kan brytas, och den riktar sig i första hand till protestkommitténs ordförande. Case Book har inga fall om bilaga M."
+    },
+    "source": "RRS M6, 69.2(a), 69.2(h)(2), 62.4, 70.3",
+    "defs": [
+      "Support Person"
+    ],
+    "links": [
+      {
+        "rules": [
+          "69"
+        ],
+        "note": {
+          "fi": "M6 kuvaa, miten säännön 69 tutkinta eroaa tavallisesta protestista ja miten se järjestetään käytännössä.",
+          "en": "M6 describes how a rule 69 hearing differs from an ordinary protest and how it is run in practice.",
+          "sv": "M6 beskriver hur en förhandling enligt regel 69 skiljer sig från en vanlig protest och hur den genomförs i praktiken."
+        }
+      },
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "Muutoksenhakuoikeus säännön 69 päätökseen: sääntö 70.3 voi evätä sen.",
+          "en": "The right to appeal a rule 69 decision: rule 70.3 may deny it.",
+          "sv": "Rätten att överklaga ett beslut enligt regel 69: regel 70.3 kan upphäva den."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rM4-q1",
+        "prompt": {
+          "fi": "Voiko kilpailija itse protestoida toista kilpailijaa suoraan säännön 69 nojalla?",
+          "en": "May a competitor herself protest another competitor directly under rule 69?",
+          "sv": "Får en tävlande själv protestera mot en annan tävlande direkt enligt regel 69?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ei; tutkintapyyntö voidaan käsitellä ilmoituksena, jonka pohjalta lautakunta päättää",
+              "en": "No; the hearing request may be treated as a report on which the committee decides",
+              "sv": "Nej; ansökan om förhandling kan behandlas som en rapport som kommittén avgör utifrån"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kyllä, samalla lomakkeella kuin tavallinen protesti",
+              "en": "Yes, on the same form as an ordinary protest",
+              "sv": "Ja, på samma blankett som en vanlig protest"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M6.2.",
+          "en": "M6.2.",
+          "sv": "M6.2."
+        },
+        "source": "RRS M6.2",
+        "also": []
+      },
+      {
+        "id": "rM4-q2",
+        "prompt": {
+          "fi": "Mikä on protestilautakunnan vähimmäisjäsenmäärä säännön 69 mukaisessa tutkinnassa?",
+          "en": "What is the minimum number of protest committee members for a rule 69 hearing?",
+          "sv": "Vad är minsta antal medlemmar i protestkommittén för en förhandling enligt regel 69?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kolme",
+              "en": "Three",
+              "sv": "Tre"
+            }
+          },
+          {
+            "t": {
+              "fi": "Yksi",
+              "en": "One",
+              "sv": "En"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei vähimmäismäärää",
+              "en": "No minimum",
+              "sv": "Inget minimum"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M6.1 (sääntö 69.2(a)).",
+          "en": "M6.1 (rule 69.2(a)).",
+          "sv": "M6.1 (regel 69.2a)."
+        },
+        "source": "RRS M6.1, 69.2(a)",
+        "also": []
+      },
+      {
+        "id": "rM4-q3",
+        "prompt": {
+          "fi": "Osa 2 -tapahtumasta herää kysymys sekä veneiden välisestä sääntörikkomuksesta että mahdollisesta sopimattomasta käytöksestä. Missä järjestyksessä lautakunnan kannattaa edetä?",
+          "en": "A Part 2 incident raises both a boat-vs-boat rule question and a possible misconduct question. In what order should the committee proceed?",
+          "sv": "En händelse i del 2 väcker både en fråga om regelbrott båt-mot-båt och en möjlig fråga om olämpligt beteende. I vilken ordning bör kommittén gå till väga?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Ratkaisee ensin veneiden väliset protestit tavalliseen tapaan, sitten harkitsee 69-tutkintaa",
+              "en": "It decides the boat-vs-boat protests the normal way first, then considers a rule 69 hearing",
+              "sv": "Den avgör båt-mot-båt-protesterna på vanligt sätt först, och överväger sedan en förhandling enligt regel 69"
+            }
+          },
+          {
+            "t": {
+              "fi": "Käsittelee molemmat samassa tutkinnassa alusta loppuun yhtä aikaa",
+              "en": "It handles both together in one hearing from start to finish",
+              "sv": "Den behandlar båda tillsammans i en förhandling från början till slut"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M6.4.",
+          "en": "M6.4.",
+          "sv": "M6.4."
+        },
+        "source": "RRS M6.4",
+        "also": []
+      },
+      {
+        "id": "rM4-q4",
+        "prompt": {
+          "fi": "Säännön 69 toimi kohdistuu kilpailijaan, ei veneeseen. Voiko myös venettä rangaista samassa yhteydessä?",
+          "en": "A rule 69 action is taken against a competitor, not a boat. May the boat also be penalized at the same time?",
+          "sv": "En åtgärd enligt regel 69 riktas mot en tävlande, inte en båt. Får båten straffas samtidigt också?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä",
+              "en": "Yes",
+              "sv": "Ja"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, koska toimi ei kohdistu veneeseen",
+              "en": "No, because the action is not taken against the boat",
+              "sv": "Nej, eftersom åtgärden inte riktas mot båten"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M6.5 (säännöt 69.2(h)(2) ja 62.4).",
+          "en": "M6.5 (rules 69.2(h)(2) and 62.4).",
+          "sv": "M6.5 (reglerna 69.2h2 och 62.4)."
+        },
+        "source": "RRS M6.5, 69.2(h)(2), 62.4",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "M5",
+    "section": "M",
+    "title": {
+      "fi": "Muutoksenhaku ja kuvausaineisto todisteena",
+      "sv": "Överklagande och fotografiska bevis",
+      "en": "Appeals and Photographic Evidence"
+    },
+    "explain": {
+      "fi": "M7: kun päätöksiin voi hakea muutosta, tutkinnan asiakirjat kannattaa säilyttää helposti käytettävinä: onko mukana lautakunnan hyväksymä tai laatima kuvio, ovatko todetut tosiasiat riittäviä (esimerkiksi ”oliko peitto: kyllä tai ei”, ei ”ehkä”), ja ovatko jäsenten nimet ja muut tärkeät tiedot lomakkeessa. Protestilautakunnan muutoksenhausta antamien kommenttien pitää kuvata koko tapahtuma selvästi, koska muutoksenhakulautakunta ei tiedä tilanteesta mitään muuta kuin asiakirjoista. M8: valokuvat ja videot voivat antaa hyödyllistä näyttöä, mutta niiden rajoitukset on tiedostettava: aineiston esittävä asianosainen järjestää katselun; videota katsotaan useita kertoja kaiken tiedon saamiseksi; yksilinssisen kameran syvyysvaikutelma on huono, ja kaukoputkiobjektiivilla se katoaa kokonaan, joten kahden veneen etäisyyttä on mahdoton arvioida, kun kamera kuvaa niitä kohtisuoraan niiden kulkusuuntaan nähden, ja peitto on mahdoton havaita suoraan edestä kuvattuna, ellei se ole runsas. Aineistosta kannattaa selvittää: missä kamera oli veneisiin nähden, liikkuiko kuvausalusta ja mihin suuntaan ja nopeudella, muuttuiko kuvakulma lähestymisen aikana (nopea panorointi vääristää paljon), ja oliko kameralla esteetön näkyvyys koko ajan.",
+      "en": "M7: when decisions can be appealed, the hearing papers are worth keeping ready to use: is there a diagram endorsed or drawn by the committee, are the facts found sufficient (for example 'was there an overlap: yes or no', not 'maybe'), and are the members' names and other key details on the form. The protest committee's comments on an appeal must describe the whole incident clearly, because the appeals body knows nothing about it beyond the papers. M8: photographs and videos can give useful evidence, but their limits must be recognized: the party producing the material arranges the viewing; a video is watched several times to extract all the information; a single-lens camera's depth perception is poor, and with a telephoto lens it disappears entirely, so the distance between two boats cannot be judged when the camera views them at right angles to their course, and an overlap cannot be seen head-on unless it is substantial. Worth finding out about the material: where the camera was relative to the boats, whether its platform was moving and in what direction and speed, whether the angle changed while the boats approached (fast panning distorts a lot), and whether the camera had an unrestricted view throughout.",
+      "sv": "M7: när beslut kan överklagas är det värt att hålla förhandlingens papper redo att användas: finns det en skiss godkänd eller gjord av kommittén, är de fastställda fakta tillräckliga (till exempel \"fanns det överlapp: ja eller nej\", inte \"kanske\"), och står medlemmarnas namn och andra viktiga uppgifter på blanketten. Protestkommitténs kommentarer till ett överklagande måste beskriva hela händelsen tydligt, eftersom överklagandeinstansen inte vet något om situationen utöver papperen. M8: fotografier och filmer kan ge användbar bevisning, men deras begränsningar måste erkännas: parten som lägger fram materialet ordnar visningen; en film ses flera gånger för att få fram all information; en kameras djupseende är dåligt med ett enda objektiv, och med ett teleobjektiv försvinner det helt, så avståndet mellan två båtar går inte att bedöma när kameran ser dem i rät vinkel mot deras kurs, och ett överlapp går inte att se rakt framifrån om det inte är påtagligt. Värt att ta reda på om materialet: var kameran fanns i förhållande till båtarna, om dess plattform rörde sig och i vilken riktning och hastighet, om vinkeln ändrades medan båtarna närmade sig (snabb panorering förvränger mycket), och om kameran hade fri sikt hela tiden."
+    },
+    "note": {
+      "fi": "Liite M on pelkästään neuvoa antava; se ei ole sääntö, jota voitaisiin rikkoa, ja sitä on osoitettu ensisijaisesti protestilautakunnan puheenjohtajalle. Case Bookissa ei ole liitettä M koskevia tapauksia.",
+      "en": "Appendix M is advisory only; it is not a rule that can be broken, and it is addressed primarily to the protest committee chair. The Case Book has no cases on Appendix M.",
+      "sv": "Bilaga M är bara rådgivande; den är ingen regel som kan brytas, och den riktar sig i första hand till protestkommitténs ordförande. Case Book har inga fall om bilaga M."
+    },
+    "source": "RRS M7, M8, 70, Appendix R",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "M7 täydentää sääntöä 70 ja liitettä R: mitä muutoksenhakua varten kannattaa valmistella.",
+          "en": "M7 supplements rule 70 and Appendix R: what to prepare for an appeal.",
+          "sv": "M7 kompletterar regel 70 och bilaga R: vad som är värt att förbereda inför ett överklagande."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rM5-q1",
+        "prompt": {
+          "fi": "Miksi todettu tosiasia ”oliko peitto: ehkä” ei riitä muutoksenhaun pohjaksi?",
+          "en": "Why is a fact found of 'was there an overlap: maybe' not enough to base an appeal on?",
+          "sv": "Varför räcker inte en fastställd fakta \"fanns det överlapp: kanske\" som grund för ett överklagande?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koska todetun tosiasian pitää olla selvä kyllä tai ei, ei epävarma",
+              "en": "Because a fact found must be a clear yes or no, not uncertain",
+              "sv": "Eftersom en fastställd fakta måste vara ett tydligt ja eller nej, inte osäker"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koska muutoksenhakulautakunta saa itse päättää, kumpi oli totta",
+              "en": "Because the appeals body may itself decide which was true",
+              "sv": "Eftersom överklagandeinstansen själv får avgöra vad som var sant"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M7(a).",
+          "en": "M7(a).",
+          "sv": "M7(a)."
+        },
+        "source": "RRS M7(a)",
+        "also": []
+      },
+      {
+        "id": "rM5-q2",
+        "prompt": {
+          "fi": "Miksi protestilautakunnan kommenttien muutoksenhakuun pitää kuvata koko tapahtuma selvästi?",
+          "en": "Why must the protest committee's comments on an appeal describe the whole incident clearly?",
+          "sv": "Varför måste protestkommitténs kommentarer till ett överklagande beskriva hela händelsen tydligt?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Koska muutoksenhakulautakunta ei tiedä tilanteesta mitään muuta kuin asiakirjoista",
+              "en": "Because the appeals body knows nothing about the situation beyond the papers",
+              "sv": "Eftersom överklagandeinstansen inte vet något om situationen utöver papperen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Koska kommentit korvaavat todetut tosiasiat",
+              "en": "Because the comments replace the facts found",
+              "sv": "Eftersom kommentarerna ersätter de fastställda fakta"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M7(b).",
+          "en": "M7(b).",
+          "sv": "M7(b)."
+        },
+        "source": "RRS M7(b)",
+        "also": []
+      },
+      {
+        "id": "rM5-q3",
+        "prompt": {
+          "fi": "Video kuvaa kahta venettä suoraan edestä. Mitä siitä on vaikea nähdä, ellei se ole runsasta?",
+          "en": "A video shows two boats head-on. What is hard to see from it unless it is substantial?",
+          "sv": "En film visar två båtar rakt framifrån. Vad är svårt att se utan att det är påtagligt?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Onko veneiden välillä peitto",
+              "en": "Whether the boats are overlapped",
+              "sv": "Om båtarna var överlappade"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kumpi vene on tuulen puolella",
+              "en": "Which boat is to windward",
+              "sv": "Vilken båt som var i lovart"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M8(c).",
+          "en": "M8(c).",
+          "sv": "M8(c)."
+        },
+        "source": "RRS M8(c)",
+        "also": []
+      },
+      {
+        "id": "rM5-q4",
+        "prompt": {
+          "fi": "Mitä kuvamateriaalista kannattaa selvittää ennen sen arvioimista todisteena?",
+          "en": "What is worth finding out about photographic material before weighing it as evidence?",
+          "sv": "Vad är värt att ta reda på om fotografiskt material innan det värderas som bevisning?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kameran sijainti, liikkuiko kuvausalusta, muuttuiko kuvakulma ja oliko näkyvyys esteetön",
+              "en": "Where the camera was, whether its platform moved, whether the angle changed, and whether the view was unrestricted",
+              "sv": "Var kameran fanns, om dess plattform rörde sig, om vinkeln ändrades, och om sikten var fri"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain se, kuka kuvasi videon",
+              "en": "Only who filmed the video",
+              "sv": "Bara vem som filmade videon"
+            }
+          }
+        ],
+        "why": {
+          "fi": "M8(d).",
+          "en": "M8(d).",
+          "sv": "M8(d)."
+        },
+        "source": "RRS M8(d)",
+        "also": []
+      }
+    ]
+  },
+  {
     "n": "P1",
     "section": "P",
     "title": {
