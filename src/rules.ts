@@ -59,9 +59,14 @@ const rowOf = (l: Lang) => (r: Rule) => `<div class="item" tabindex="0" data-rul
 export function rulesView(l: Lang, txt: TextStore = {}): string {
   const row = rowOf(l);
   const groups = [...new Set(rules.map(r => r.section))].filter(g => !isAppx(g));
-  return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + groups.map(g => `${g === '2A' ? official(txt, l, b => b === 'P2') : ''}<h3>${T['group' + g][l]}</h3>${official(txt, l, b => b === g || b.length === 2 && b[0] === g && /[A-Z]/.test(b[1]))}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`).join('')
-    + `<p class="mute">${T.moreRules[l]}</p>`;
+  const grp = (g: string) => `${g.length > 1 ? `<h3>${T['group' + g][l]}</h3>` : ''}${official(txt, l, b => b === g || b.length === 2 && b[0] === g && /[A-Z]/.test(b[1]))}<div class="list">${rules.filter(r => r.section === g).map(row).join('')}</div>`;
+  return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + [...new Set(groups.map(g => g[0]))].map(p => {
+    const ns = rules.filter(r => r.section[0] === p).map(r => r.n);
+    return `<details class="part" data-part="${p}"${openParts.has(p) ? ' open' : ''}><summary>${T['group' + p][l]} <span class="mute">${ns[0]}–${ns[ns.length - 1]}</span></summary>${p === '2' ? official(txt, l, b => b === 'P2') : ''}${groups.filter(g => g[0] === p).map(grp).join('')}</details>`;
+  }).join('') + `<p class="mute">${T.moreRules[l]}</p>`;
 }
+// Parts the user has opened stay open across re-renders (main.ts toggle listener).
+export const openParts = new Set<string>();
 
 const isAppx = (g: string) => /^[A-Z]$/.test(g);
 // Appendices tab: every appendix of the book; those with pages list them, the rest are marked not yet covered.

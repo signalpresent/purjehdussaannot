@@ -35,6 +35,7 @@ export const T: Record<string, Record<Lang, string>> = {
   group2C: { fi: 'Ryhmä C · Merkeillä ja esteillä', sv: 'Avdelning C · Vid märken och hinder', en: 'Section C · At Marks and Obstructions' },
   group4: { fi: 'Osa 4 · Muut vaatimukset kilpailtaessa', sv: 'Del 4 · Andra krav när båtar kappseglar', en: 'Part 4 · Other Requirements When Racing' },
   group1: { fi: 'Osa 1 · Perussäännöt', sv: 'Del 1 · Grundläggande regler', en: 'Part 1 · Fundamental Rules' },
+  group2: { fi: 'Osa 2 · Kun veneet kohtaavat', sv: 'Del 2 · När båtar möts', en: 'Part 2 · When Boats Meet' },
   group3: { fi: 'Osa 3 · Kilpailun pitäminen', sv: 'Del 3 · Genomföra en kappsegling', en: 'Part 3 · Conduct of a Race' },
   group5: { fi: 'Osa 5 · Protestit, hyvitys, tutkinnat, sopimaton käytös ja muutoksenhaku', sv: 'Del 5 · Protester, gottgörelse, förhandlingar, olämpligt beteende och överklaganden', en: 'Part 5 · Protests, Redress, Hearings, Misconduct and Appeals' },
   group6: { fi: 'Osa 6 · Ilmoittautuminen ja kilpailukelpoisuus', sv: 'Del 6 · Anmälan och villkor', en: 'Part 6 · Entry and Qualification' },

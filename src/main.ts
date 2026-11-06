@@ -6,7 +6,7 @@ import { load, save, State, exportBox, importBox, loadText, saveText, textSig } 
 import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
 import { signalsView } from './flags';
-import { rules, rulesView, appxView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official } from './rules';
+import { rules, rulesView, appxView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official, openParts } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -104,6 +104,7 @@ root.addEventListener('click', e => {
   else if (ds.open) { backTo = view === 'rule' ? 'rule' : 'list'; current = defs.find(d => key(d) === ds.open) || null; view = 'detail'; window.scrollTo(0, 0); }
   render();
 });
+root.addEventListener('toggle', e => { const d = e.target as HTMLDetailsElement; if (d.dataset.part) d.open ? openParts.add(d.dataset.part) : openParts.delete(d.dataset.part); }, true);
 root.addEventListener('keydown', e => { const el = e.target as HTMLElement; if (e.key === 'Enter' && (el.dataset.open || el.dataset.rule || el.classList.contains('item'))) el.click(); });
 root.addEventListener('input', e => {
   const el = e.target as HTMLInputElement;
