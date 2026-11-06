@@ -41,11 +41,11 @@ export function pageLines(all: Item[]): string[] {
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^43\s+EXONERATION$/, /^45\s+HAULING/]],
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/]],
     furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^43\s+VAPAUTTAMINEN$/, /^45\s+VEDESTÄ/]],
-    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^43\s+FRIKÄNNANDE$/, /^45\s+TA BÅT/]],
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/]],
+    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /]],
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
@@ -96,7 +96,9 @@ function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Blo
       const id = `${d === 2 ? stack[stack.length - 1][1] : baseId}(${m[2] ?? m[3]})`;
       stack.push([col, id, d]); out.push([id, d, [m[4]]]); continue;
     }
-    while (stack.length > 1 && stack[stack.length - 1][0] >= col) stack.pop();
+    const last = out[out.length - 1], open = last[0] === stack[stack.length - 1][1] && /^\p{Ll}/u.test(l.trim()) && !/[.;:]$/.test(last[2][last[2].length - 1] ?? '.');
+    // a lowercase line continuing an unfinished sentence stays put, even if a page break shifted its indentation (SV 42.3(b))
+    while (!open && stack.length > 1 && stack[stack.length - 1][0] >= col) stack.pop();
     const [, id, d] = stack[stack.length - 1];
     if (out[out.length - 1][0] !== id) out.push([id, d, []]);
     out[out.length - 1][2].push(l);
@@ -153,7 +155,7 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l);
     if (sm) {
-      chunks.push(cur); cur = ['2' + sm[1], [], -1];
+      chunks.push(cur); cur = [(first === 'P2' ? '2' : '4') + sm[1], [], -1]; // Section B of Part 4 -> '4B'
       if (lang === 'sv') titles[cur[0]] = sm[2].trim().replace(/\s+/g, ' '); else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
