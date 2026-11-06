@@ -28118,5 +28118,360 @@
         "also": []
       }
     ]
+  },
+  {
+    "n": "R1",
+    "section": "R",
+    "title": {
+      "fi": "Muutoksenhaku ja asiakirjat",
+      "sv": "Överklagande och dokument",
+      "en": "Appeals and Documents"
+    },
+    "explain": {
+      "fi": "Muutoksenhakemukset, protestilautakunnan pyynnöt päätöksensä vahvistamiseksi tai oikaisemiseksi ja sääntöjen tulkintapyynnöt tehdään tämän liitteen mukaisesti (R1). Muutosta hakeva lähettää viimeistään seitsemän vuorokauden kuluessa protestilautakunnan kirjallisen päätöksen tai päätöksen olla uusimatta tutkintaa saamisesta hakemuksen ja kopion päätöksestä kansalliselle järjestölle, perustellen miksi päätös tai menettely oli virheellinen; jos tutkintaa ei ole pidetty 30 vuorokauden kuluessa protestin tai hyvityspyynnön jättämisestä, hakemus lähetetään seitsemän lisäpäivän kuluessa; ja jos protestilautakunta ei toimita kirjallista päätöstä pyydettäessä (sääntö 63.6(b)), hakemus lähetetään kohtuullisessa ajassa tutkinnan jälkeen (R2.1). Jos protestin tai hyvityspyynnön kopiota ei ole saatavilla, lähetetään sen sisällöstä lausunto. Hakemuksen kanssa tai mahdollisimman pian sen jälkeen lähetetään kaikki saatavilla olevat asiakirjat: kirjalliset protestit tai hyvityspyynnöt; lautakunnan laatima tai vahvistama kuvio, josta näkyvät veneiden sijainnit ja reitit, suunta seuraavalle merkille ja vaadittu puoli, tuulen voimakkuus ja suunta sekä tarvittaessa veden syvyys ja virtauksen suunta ja nopeus; kilpailukutsu, purjehdusohjeet ja muut kilpailua säännelleet asiakirjat muutoksineen; muut olennaiset asiakirjat; ja asianosaisten sekä puheenjohtajan yhteystiedot (R2.2). Protestilautakunnan oma pyyntö päätöksensä vahvistamiseksi tai oikaisemiseksi lähetetään seitsemän vuorokauden kuluessa päätöksestä samoin asiakirjoin; sääntöjen tulkintapyyntöön liitetään oletetut tosiasiat (R2.3).",
+      "en": "Appeals, a protest committee's requests to confirm or correct its decision, and requests for rule interpretations are made under this appendix (R1). An appellant sends, no later than seven days after receiving the protest committee's written decision or its decision not to reopen, an appeal and a copy of the decision to the national authority, stating why the decision or procedure was wrong; if no hearing was held within 30 days of the protest or redress request, the appeal goes within a further seven days; and if the protest committee fails to provide a written decision on request (rule 63.6(b)), the appeal goes within a reasonable time after the hearing (R2.1). If a copy of the protest or request is unavailable, a statement of its substance is sent instead. With the appeal, or as soon as possible after, all available documents are sent: the written protest(s) or request(s); a diagram made or endorsed by the committee showing the boats' positions and tracks, the course to the next mark and the required side, the wind's strength and direction, and, if relevant, the water's depth and any current's direction and speed; the notice of race, sailing instructions and other governing documents with any changes; any other relevant documents; and contact details for the parties and the chair (R2.2). A protest committee's own request to confirm or correct its decision goes within seven days of the decision, with the same documents; a request for a rule interpretation includes the assumed facts (R2.3).",
+      "sv": "Överklaganden, en protestkommittés ansökan om att bekräfta eller ändra sitt beslut, och ansökningar om regeltolkning görs enligt detta appendix (R1). En klagande skickar, senast sju dagar efter att ha fått protestkommitténs skriftliga beslut eller dess beslut att inte återuppta förhandlingen, ett överklagande och en kopia av beslutet till den nationella myndigheten, och anger varför beslutet eller handläggningen var felaktig; om ingen förhandling hållits inom 30 dagar efter protesten eller ansökan om gottgörelse, skickas överklagandet inom ytterligare sju dagar; och om protestkommittén inte lämnar ett skriftligt beslut på begäran (regel 63.6b), skickas överklagandet inom rimlig tid efter förhandlingen (R2.1). Om en kopia av protesten eller ansökan inte finns tillgänglig, skickas i stället en beskrivning av dess innehåll. Med överklagandet, eller så snart som möjligt därefter, skickas alla tillgängliga handlingar: den eller de skriftliga protesterna eller ansökningarna; en skiss gjord eller godkänd av kommittén som visar båtarnas lägen och seglade vägar, kursen till nästa märke och den föreskrivna sidan, vindens styrka och riktning samt, om det har betydelse, vattendjupet och strömmens riktning och styrka; inbjudan, seglingsföreskrifterna och andra styrande dokument med ändringar; andra handlingar av betydelse; och kontaktuppgifter till parterna och ordföranden (R2.2). En protestkommittés egen ansökan om att bekräfta eller ändra sitt beslut skickas inom sju dagar efter beslutet, med samma handlingar; en ansökan om regeltolkning innehåller de fakta som förutsätts (R2.3)."
+    },
+    "note": {
+      "fi": "Suomenkielinen R2.1(c) viittaa sääntöön 63.3(b), mutta englannin- ja ruotsinkielinen kirja viittaavat 63.6(b):hen, joka koskee päätöksen kirjallista toimittamista pyydettäessä; sääntö 63.3 koskee eturistiriitaa, joten suomenkielinen viittaus vaikuttaa painovirheeltä. Liite R koskee muutoksenhakua kansalliselle järjestölle (sääntö 70); kansallinen järjestö voi muuttaa liitettä omilla määräyksillään, mutta kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sitä, ja määräaikoja on pidennettävä, kun siihen on hyvä syy. Case Bookissa ei ole liitettä R koskevia tapauksia.",
+      "en": "The Finnish R2.1(c) cites rule 63.3(b), but the English and Swedish books cite 63.6(b), which concerns providing the decision in writing on request; rule 63.3 concerns conflicts of interest, so the Finnish reference looks like a misprint. Appendix R covers appeals to a national authority (rule 70); a national authority may change it by prescription, but the notice of race or sailing instructions may not, and time limits must be extended when there is good reason. The Case Book has no cases on Appendix R.",
+      "sv": "Den finska R2.1c hänvisar till regel 63.3b, men den engelska och svenska boken hänvisar till 63.6b, som gäller att lämna beslutet skriftligt på begäran; regel 63.3 gäller intressekonflikt, så den finska hänvisningen verkar vara en felskrivning. Bilaga R gäller överklagande till en nationell myndighet (regel 70); en nationell myndighet kan ändra den genom föreskrift, men inbjudan eller seglingsföreskrifter får inte göra det, och tidsfrister ska utsträckas när det finns goda skäl. Case Book har inga fall om bilaga R."
+    },
+    "source": "RRS R1, R2, 63.6(b), 70",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "70"
+        ],
+        "note": {
+          "fi": "R1 ja R2 täsmentävät, miten säännön 70 muutoksenhaku pannaan käytännössä liikkeelle.",
+          "en": "R1 and R2 spell out how an appeal under rule 70 is actually set in motion.",
+          "sv": "R1 och R2 anger hur ett överklagande enligt regel 70 faktiskt sätts i gång."
+        }
+      },
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "R2.1(c): protestilautakunnan laiminlyönti toimittaa kirjallinen päätös pyydettäessä (63.6(b)) on oma perusteensa muutoksenhaulle.",
+          "en": "R2.1(c): a protest committee's failure to provide a written decision on request (63.6(b)) is its own ground for an appeal.",
+          "sv": "R2.1c: att protestkommittén inte lämnar ett skriftligt beslut på begäran (63.6b) är en egen grund för ett överklagande."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rR1-q1",
+        "prompt": {
+          "fi": "Missä ajassa muutoshakemus on lähetettävä kansalliselle järjestölle protestilautakunnan kirjallisen päätöksen saamisesta?",
+          "en": "Within what time must an appeal be sent to the national authority after receiving the protest committee's written decision?",
+          "sv": "Inom vilken tid måste ett överklagande skickas till den nationella myndigheten efter att ha fått protestkommitténs skriftliga beslut?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Seitsemän vuorokauden kuluessa",
+              "en": "Within seven days",
+              "sv": "Inom sju dagar"
+            }
+          },
+          {
+            "t": {
+              "fi": "30 vuorokauden kuluessa",
+              "en": "Within 30 days",
+              "sv": "Inom 30 dagar"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei määräaikaa",
+              "en": "No time limit",
+              "sv": "Ingen tidsgräns"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R2.1(a).",
+          "en": "R2.1(a).",
+          "sv": "R2.1a."
+        },
+        "source": "RRS R2.1(a)",
+        "also": []
+      },
+      {
+        "id": "rR1-q2",
+        "prompt": {
+          "fi": "Tutkintaa ei ole pidetty 30 vuorokauden kuluessa protestin jättämisestä. Mitä asianosainen voi tehdä?",
+          "en": "No hearing has been held within 30 days of the protest being delivered. What may a party do?",
+          "sv": "Ingen förhandling har hållits inom 30 dagar efter att protesten lämnades in. Vad får en part göra?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lähettää muutoshakemuksen seitsemän lisäpäivän kuluessa, liitteenä kopio protestista ja kirjeenvaihto",
+              "en": "Send an appeal within a further seven days, with a copy of the protest and the correspondence",
+              "sv": "Skicka ett överklagande inom ytterligare sju dagar, med en kopia av protesten och korrespondensen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei mitään, ennen kuin tutkinta pidetään",
+              "en": "Nothing, until the hearing is held",
+              "sv": "Ingenting, tills förhandlingen hålls"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R2.1(b).",
+          "en": "R2.1(b).",
+          "sv": "R2.1b."
+        },
+        "source": "RRS R2.1(b)",
+        "also": []
+      },
+      {
+        "id": "rR1-q3",
+        "prompt": {
+          "fi": "Mitä muutoshakemuksen liitteenä olevan kuvion pitää näyttää?",
+          "en": "What must the diagram attached to an appeal show?",
+          "sv": "Vad måste skissen till ett överklagande visa?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Veneiden sijainnit ja reitit, suunta seuraavalle merkille, tuulen voima ja suunta sekä tarvittaessa veden syvyys ja virtaus",
+              "en": "The boats' positions and tracks, the course to the next mark, the wind's strength and direction, and, if relevant, the water's depth and any current",
+              "sv": "Båtarnas lägen och seglade vägar, kursen till nästa märke, vindens styrka och riktning samt, om det har betydelse, vattendjupet och strömmen"
+            }
+          },
+          {
+            "t": {
+              "fi": "Vain veneiden lähtöasemat",
+              "en": "Only the boats' starting positions",
+              "sv": "Bara båtarnas startpositioner"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R2.2(b).",
+          "en": "R2.2(b).",
+          "sv": "R2.2b."
+        },
+        "source": "RRS R2.2(b)",
+        "also": []
+      },
+      {
+        "id": "rR1-q4",
+        "prompt": {
+          "fi": "Protestilautakunta pyytää itse oman päätöksensä vahvistamista tai oikaisemista. Missä ajassa pyyntö lähetetään?",
+          "en": "A protest committee itself asks for its decision to be confirmed or corrected. Within what time is the request sent?",
+          "sv": "En protestkommitté ansöker själv om att dess beslut ska bekräftas eller ändras. Inom vilken tid skickas ansökan?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Seitsemän vuorokauden kuluessa päätöksestä",
+              "en": "Within seven days of the decision",
+              "sv": "Inom sju dagar efter beslutet"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolmenkymmenen vuorokauden kuluessa",
+              "en": "Within 30 days",
+              "sv": "Inom 30 dagar"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R2.3.",
+          "en": "R2.3.",
+          "sv": "R2.3."
+        },
+        "source": "RRS R2.3",
+        "also": []
+      }
+    ]
+  },
+  {
+    "n": "R2",
+    "section": "R",
+    "title": {
+      "fi": "Kansallisen järjestön menettely",
+      "sv": "Den nationella myndighetens förfarande",
+      "en": "The National Authority's Procedure"
+    },
+    "explain": {
+      "fi": "Vastaanotettuaan muutoshakemuksen tai vahvistamis- tai oikaisupyynnön kansallinen järjestö lähettää asianosaisille ja protestilautakunnalle kopiot hakemuksesta ja lautakunnan päätöksestä; se pyytää lautakunnalta puuttuvat R2.2:ssa luetellut asiakirjat, ja lautakunnan on toimitettava ne viipymättä, jonka jälkeen kansallinen järjestö lähettää niistä kopiot asianosaisille (R3). Asianosaiset ja lautakunta saavat tehdä kirjallisia huomautuksia hakemuksesta, pyynnöstä tai mistä tahansa R2.2:n asiakirjasta seitsemän vuorokauden kuluessa siitä, kun kansallinen järjestö on asettanut ne saataville; kansallinen järjestö voi myös hakea selvitystä kilpailua koskeneista säännöistä muilta kuin asianosaisilta tahoilta, ja se lähettää saamansa huomautukset ja selvitykset edelleen asianosaisille ja lautakunnalle tarpeen mukaan (R4). Kansallinen järjestö hyväksyy protestilautakunnan toteamat tosiasiat, paitsi jos se pitää niitä riittämättöminä; tällöin se vaatii lautakuntaa toimittamaan lisää tosiasioita tai muita tietoja, tai avaamaan tutkinnan uudelleen ja ilmoittamaan mahdolliset uudet tosiasiat, ja lautakunnan on noudatettava vaatimusta viipymättä (R5). Muutoksenhakija voi peruuttaa hakemuksensa ennen ratkaisua hyväksymällä protestilautakunnan päätöksen (R6).",
+      "en": "On receiving an appeal or a request to confirm or correct a decision, the national authority sends the parties and the protest committee copies of the appeal and the committee's decision; it asks the committee for any missing documents listed in R2.2, which the committee must send promptly, after which the national authority sends copies to the parties (R3). The parties and the committee may make written comments on the appeal, request or any R2.2 document within seven days of the national authority making it available; the national authority may also seek clarification of the rules governing the event from bodies that are not parties, and it passes on any comments and clarifications it receives to the parties and committee as appropriate (R4). The national authority accepts the protest committee's facts found unless it decides they are inadequate; in that case it requires the committee to provide more facts or other information, or to reopen the hearing and report any new facts found, and the committee must comply promptly (R5). An appellant may withdraw an appeal before it is decided by accepting the protest committee's decision (R6).",
+      "sv": "När den nationella myndigheten tar emot ett överklagande eller en ansökan om att bekräfta eller ändra ett beslut, skickar den kopior av överklagandet och kommitténs beslut till parterna och protestkommittén; den ber kommittén om alla handlingar som saknas och som är listade i R2.2, och kommittén måste skicka dem så snart som möjligt, varefter den nationella myndigheten skickar kopior till parterna (R3). Parterna och kommittén får skriftligen kommentera överklagandet, ansökan eller någon handling enligt R2.2 inom sju dagar efter att den nationella myndigheten gjort den tillgänglig; den nationella myndigheten får också be om förtydliganden av reglerna som styr tävlingen från organisationer som inte är parter, och den vidarebefordrar mottagna kommentarer och förtydliganden till parterna och kommittén när det är lämpligt (R4). Den nationella myndigheten godtar protestkommitténs fastställda fakta om den inte finner dem bristfälliga; i så fall kräver den att kommittén lämnar fler fakta eller andra uppgifter, eller återupptar förhandlingen och rapporterar nya fastställda fakta, och kommittén måste göra det så snart som möjligt (R5). En klagande får återta ett överklagande innan det har avgjorts genom att godta protestkommitténs beslut (R6)."
+    },
+    "note": {
+      "fi": "Liite R koskee muutoksenhakua kansalliselle järjestölle (sääntö 70); kansallinen järjestö voi muuttaa liitettä omilla määräyksillään, mutta kilpailukutsu tai purjehdusohjeet eivät saa muuttaa sitä, ja määräaikoja on pidennettävä, kun siihen on hyvä syy. Case Bookissa ei ole liitettä R koskevia tapauksia.",
+      "en": "Appendix R covers appeals to a national authority (rule 70); a national authority may change it by prescription, but the notice of race or sailing instructions may not, and time limits must be extended when there is good reason. The Case Book has no cases on Appendix R.",
+      "sv": "Bilaga R gäller överklagande till en nationell myndighet (regel 70); en nationell myndighet kan ändra den genom föreskrift, men inbjudan eller seglingsföreskrifter får inte göra det, och tidsfrister ska utsträckas när det finns goda skäl. Case Book har inga fall om bilaga R."
+    },
+    "source": "RRS R3, R4, R5, R6",
+    "defs": [],
+    "links": [
+      {
+        "rules": [
+          "63"
+        ],
+        "note": {
+          "fi": "R5: kansallinen järjestö ei voi itse muuttaa todettuja tosiasioita, vain vaatia lautakuntaa täydentämään tai avaamaan tutkinnan uudelleen; vertaa säännön 63.5(a) tosiasioiden toteamiseen.",
+          "en": "R5: a national authority cannot itself change the facts found; it can only require the committee to add to them or reopen the hearing; compare rule 63.5(a) on finding facts.",
+          "sv": "R5: en nationell myndighet kan inte själv ändra de fastställda fakta; den kan bara kräva att kommittén kompletterar dem eller återupptar förhandlingen; jämför regel 63.5a om att fastställa fakta."
+        }
+      },
+      {
+        "rules": [
+          "61"
+        ],
+        "note": {
+          "fi": "Liite R koskee myös hyvityspyyntöjä koskevien päätösten muutoksenhakua, ei vain protesteja.",
+          "en": "Appendix R also covers appealing decisions on redress requests, not only protests.",
+          "sv": "Bilaga R gäller också överklagande av beslut om ansökningar om gottgörelse, inte bara protester."
+        }
+      }
+    ],
+    "scenarios": [],
+    "questions": [
+      {
+        "id": "rR2-q1",
+        "prompt": {
+          "fi": "Protestilautakunta ei ole lähettänyt kaikkia R2.2:ssa lueteltuja asiakirjoja muutoksenhakijan hakemuksen mukana. Mitä kansallinen järjestö tekee?",
+          "en": "A protest committee has not sent all the R2.2 documents with the appellant's appeal. What does the national authority do?",
+          "sv": "En protestkommitté har inte skickat alla handlingar enligt R2.2 med klagandens överklagande. Vad gör den nationella myndigheten?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Pyytää puuttuvat asiakirjat lautakunnalta, jonka on toimitettava ne viipymättä",
+              "en": "Asks the committee for the missing documents, which it must send promptly",
+              "sv": "Ber kommittén om de saknade handlingarna, som den måste skicka så snart som möjligt"
+            }
+          },
+          {
+            "t": {
+              "fi": "Hylkää muutoshakemuksen puutteellisena",
+              "en": "Rejects the appeal as incomplete",
+              "sv": "Avslår överklagandet som bristfälligt"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R3.",
+          "en": "R3.",
+          "sv": "R3."
+        },
+        "source": "RRS R3",
+        "also": []
+      },
+      {
+        "id": "rR2-q2",
+        "prompt": {
+          "fi": "Kuinka pitkä aika asianosaisilla ja protestilautakunnalla on kommentoida hakemusta tai asiakirjoja kirjallisesti?",
+          "en": "How long do the parties and the protest committee have to make written comments on the appeal or documents?",
+          "sv": "Hur lång tid har parterna och protestkommittén på sig att skriftligen kommentera överklagandet eller handlingarna?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Seitsemän vuorokautta siitä, kun kansallinen järjestö on asettanut ne saataville",
+              "en": "Seven days from when the national authority made them available",
+              "sv": "Sju dagar från det att den nationella myndigheten gjorde dem tillgängliga"
+            }
+          },
+          {
+            "t": {
+              "fi": "Kolmekymmentä vuorokautta hakemuksen jättämisestä",
+              "en": "Thirty days from when the appeal was filed",
+              "sv": "Trettio dagar från att överklagandet lämnades in"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R4.1.",
+          "en": "R4.1.",
+          "sv": "R4.1."
+        },
+        "source": "RRS R4.1",
+        "also": []
+      },
+      {
+        "id": "rR2-q3",
+        "prompt": {
+          "fi": "Kansallinen järjestö pitää protestilautakunnan toteamia tosiasioita riittämättöminä. Mitä se voi vaatia?",
+          "en": "A national authority finds the protest committee's facts found inadequate. What may it require?",
+          "sv": "En nationell myndighet finner protestkommitténs fastställda fakta bristfälliga. Vad kan den kräva?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Lisätietoja, tai tutkinnan uudelleenavaamista ja uusien tosiasioiden ilmoittamista",
+              "en": "More information, or reopening the hearing and reporting new facts found",
+              "sv": "Mer information, eller att förhandlingen återupptas och nya fastställda fakta rapporteras"
+            }
+          },
+          {
+            "t": {
+              "fi": "Se päättää itse puuttuvat tosiasiat",
+              "en": "It decides the missing facts itself",
+              "sv": "Den bestämmer själv de saknade fakta"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R5.",
+          "en": "R5.",
+          "sv": "R5."
+        },
+        "source": "RRS R5",
+        "also": []
+      },
+      {
+        "id": "rR2-q4",
+        "prompt": {
+          "fi": "Voiko muutoksenhakija perua hakemuksensa kesken käsittelyn?",
+          "en": "May an appellant withdraw an appeal while it is being processed?",
+          "sv": "Får en klagande återta ett överklagande medan det handläggs?"
+        },
+        "options": [
+          {
+            "ok": true,
+            "t": {
+              "fi": "Kyllä, ennen ratkaisua, hyväksymällä protestilautakunnan päätöksen",
+              "en": "Yes, before it is decided, by accepting the protest committee's decision",
+              "sv": "Ja, innan det har avgjorts, genom att godta protestkommitténs beslut"
+            }
+          },
+          {
+            "t": {
+              "fi": "Ei, muutoshakemus on vietävä loppuun asti",
+              "en": "No, an appeal must be carried through to the end",
+              "sv": "Nej, ett överklagande måste fullföljas till slutet"
+            }
+          }
+        ],
+        "why": {
+          "fi": "R6.",
+          "en": "R6.",
+          "sv": "R6."
+        },
+        "source": "RRS R6",
+        "also": []
+      }
+    ]
   }
 ]
