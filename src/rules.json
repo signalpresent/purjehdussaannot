@@ -1646,9 +1646,9 @@
       {
         "id": "r10-q2",
         "prompt": {
-          "fi": "S on oikealla ja P vasemmalla halssilla, ja veneet ovat törmäyskurssilla. S huutaa kahdesti ‘oikea halssi’, mutta P ei vastaa eikä muuta kurssiaan. Vasta kun törmäykseen on aikaa pari sekuntia, S ohjaa jyrkästi tuuleen ja P laskee jyrkästi, ja P kulkee S:n perän taakse alle metrin päästä. Veneet eivät kosketa toisiaan. Rikkoiko P sääntöä 10?",
-          "en": "S is on starboard and P on port tack, and the boats are on a collision course. S hails ‘Starboard’ twice, but P neither answers nor changes course. Only when a couple of seconds from a collision does S luff sharply and P bear away sharply, and P passes astern of S less than a metre away. The boats do not touch. Did P break rule 10?",
-          "sv": "S ligger för styrbords och P för babords halsar, och båtarna är på kollisionskurs. S ropar ”Styrbord” två gånger, men P varken svarar eller ändrar kurs. Först ett par sekunder före kollisionen lovar S kraftigt och P faller kraftigt av, och P passerar akter om S på mindre än en meters avstånd. Båtarna berör inte varandra. Bröt P mot regel 10?"
+          "fi": "S (oikea halssi) ja P (vasen halssi) ovat törmäyskurssilla. S huutaa kahdesti ‘oikea halssi’, mutta P ei reagoi. Vasta parin sekunnin päässä törmäyksestä S ohjaa jyrkästi tuuleen ja P laskee jyrkästi; P kulkee S:n perän takaa alle metrin päästä, eikä kosketusta synny. Rikkoiko P sääntöä 10?",
+          "en": "S (starboard tack) and P (port tack) are on a collision course. S hails ‘Starboard’ twice, but P does not react. Only a couple of seconds from collision does S luff sharply and P bear away sharply; P passes astern of S less than a metre away, and there is no contact. Did P break rule 10?",
+          "sv": "S (styrbords halsar) och P (babords halsar) är på kollisionskurs. S ropar ”Styrbord” två gånger, men P reagerar inte. Först ett par sekunder före kollisionen lovar S kraftigt och P faller kraftigt av; P passerar akter om S på mindre än en meters avstånd, och ingen kontakt sker. Bröt P mot regel 10?"
         },
         "scene": {
           "h": 260,
@@ -1710,9 +1710,9 @@
       {
         "id": "r10-q3",
         "prompt": {
-          "fi": "Kaksi tiukasti vastaisessa suunnassa purjehtivaa venettä, S oikealla ja P vasemmalla halssilla, kohtaa ylämerkillä. S:llä olisi hyvin tilaa kääntyä ja kiertää merkki, mutta se jatkaa suoraan, jotta P joutuisi kääntymään. Voiko P jättää säännön 10 huomiotta, koska S purjehtii oikean suuntansa ohi?",
-          "en": "Two close-hauled boats, S on starboard and P on port tack, meet at a windward mark. S has plenty of room to tack and round it, but holds her course so that P has to tack. Can P ignore rule 10 because S is sailing beyond her proper course?",
-          "sv": "Två båtar som seglar dikt bidevind, S för styrbords och P för babords halsar, möts vid ett kryssmärke. S har gott om plats att stagvända och runda det, men håller sin kurs så att P måste stagvända. Kan P bortse från regel 10 eftersom S seglar förbi sin tillbörliga kurs?"
+          "fi": "S (oikea halssi) ja P (vasen halssi) purjehtivat tiukasti vastaisessa suunnassa kohti ylämerkkiä. S:llä olisi tilaa kääntyä merkillä, mutta se jatkaa suoraan pakottaen P:n kääntymään. Voiko P jättää säännön 10 huomiotta, koska S purjehtii oikean suuntansa ohi?",
+          "en": "S (starboard tack) and P (port tack) are close-hauled, meeting at a windward mark. S has room to tack there but holds her course, forcing P to tack. Can P ignore rule 10 because S is sailing beyond her proper course?",
+          "sv": "S (styrbords halsar) och P (babords halsar) seglar dikt bidevind mot ett kryssmärke. S har plats att stagvända där men håller sin kurs och tvingar P att stagvända. Kan P bortse från regel 10 eftersom S seglar förbi sin tillbörliga kurs?"
         },
         "scene": {
           "h": 260,
@@ -1889,9 +1889,9 @@
       {
         "id": "r10-q6",
         "prompt": {
-          "fi": "S purjehtii oikealla halssilla ja huutaa lähestyville vasemmalla halssilla oleville veneille ‘oikea halssi’. P1 ja P2 väistävät. P3 ei yritä väistää, ja S purjehtii kurssiaan, kunnes P3 törmää sen kylkeen. P3 olisi voinut vielä aivan S:n vierestä laskea alta pois, joten vasta aivan viime hetkellä kävi selväksi, ettei se väistä, eikä kosketuksen välttämiseen enää jäänyt aikaa. Rikkoiko S sääntöä 14?",
-          "en": "S is sailing on starboard tack and hailing ‘Starboard’ to the port-tack boats approaching her. P1 and P2 bear away. P3 makes no attempt to avoid S, and S holds her course until P3 hits her amidships. P3 could still have borne away from very close to S, so it only became clear at the very last moment that she would not keep clear, and there was no time left to avoid contact. Did S break rule 14?",
-          "sv": "S seglar för styrbords halsar och ropar ”Styrbord” till båtarna för babords halsar som närmar sig. P1 och P2 faller av. P3 försöker inte undvika S, och S håller sin kurs tills P3 träffar den midskepps. P3 kunde fortfarande ha fallit av mycket nära S, så det stod klart först i allra sista stund att den inte skulle hålla undan, och det fanns ingen tid kvar att undvika kontakt. Bröt S mot regel 14?"
+          "fi": "S (oikea halssi) huutaa lähestyville veneille ‘oikea halssi’; kaksi niistä väistää, kolmas (P3) ei edes yritä. S pitää kurssinsa, kunnes P3 törmää sen kylkeen – P3 olisi vielä viime hetkellä voinut laskea alta, joten S:lle selvisi vasta aivan viimeksi, ettei P3 väistä, eikä kosketusta ehtinyt enää välttää. Rikkoiko S sääntöä 14?",
+          "en": "S (starboard tack) hails ‘Starboard’ to approaching boats; two of them keep clear, but a third (P3) makes no attempt to. S holds her course until P3 hits her amidships – P3 could still have borne away at the very last moment, so it became clear only then that she would not keep clear, leaving no time to avoid contact. Did S break rule 14?",
+          "sv": "S (styrbords halsar) ropar ”Styrbord” till båtar som närmar sig; två av dem håller undan, men en tredje (P3) försöker inte alls. S håller sin kurs tills P3 träffar den midskepps – P3 kunde fortfarande ha fallit av i sista stund, så det stod klart först då att den inte skulle hålla undan, och ingen tid fanns kvar att undvika kontakt. Bröt S mot regel 14?"
         },
         "scene": {
           "h": 260,
@@ -2237,9 +2237,9 @@
       {
         "id": "r11-q3",
         "prompt": {
-          "fi": "L muodosti peiton W:n suojan puolelle selvästi perästä alle kahden rungonpituuden päässä. Veneet purjehtivat sen jälkeen pitkään rinnakkain noin puolentoista rungonpituuden välimatkalla. L käänsi hieman ylemmäs purjehtiakseen suoraan merkille; W:llä oli tilaa väistää, mutta se piti kurssinsa, ja sen puomi kosketti L:n vanttia. Kumpi vene rikkoi sääntöä 11?",
-          "en": "L became overlapped to leeward of W from clear astern, less than two hull lengths from her. The boats then sailed side by side for a long time about one and a half hull lengths apart. L luffed slightly to sail directly to the mark; W had room to keep clear but held her course, and her boom touched L's shroud. Which boat broke rule 11?",
-          "sv": "L fick överlapp i lä om W från klar akter om, på mindre än två skrovlängders avstånd. Båtarna seglade sedan länge sida vid sida ungefär en och en halv skrovlängd isär. L lovade lite för att segla rakt mot märket; W hade plats att hålla undan men höll sin kurs, och dess bom berörde L:s vant. Vilken båt bröt mot regel 11?"
+          "fi": "L muodosti peiton W:n suojan puolelle selvästi perästä. Veneet purjehtivat sen jälkeen pitkään rinnakkain ennen kuin L kääntyi hieman ylemmäs suoraan merkille; W:llä oli tilaa väistää, mutta se piti kurssinsa, ja sen puomi kosketti L:n vanttia. Kumpi vene rikkoi sääntöä 11?",
+          "en": "L became overlapped to leeward of W from clear astern. The boats then sailed side by side for a long time before L luffed slightly to sail directly to the mark; W had room to keep clear but held her course, and her boom touched L's shroud. Which boat broke rule 11?",
+          "sv": "L fick överlapp i lä om W från klar akter om. Båtarna seglade sedan länge sida vid sida innan L lovade lite för att segla rakt mot märket; W hade plats att hålla undan men höll sin kurs, och dess bom berörde L:s vant. Vilken båt bröt mot regel 11?"
         },
         "scene": {
           "h": 260,
@@ -3457,9 +3457,9 @@
       {
         "id": "r13-q5",
         "prompt": {
-          "fi": "Veneet A ja B purjehtivat vasemmalla halssilla kohti merkkiä. A on rungon pituuden verran B:n edessä ja suojan puolella ja tekee vastakäännöksen B:n eteen; B etenee kovaa vauhtia. B tietää, että A aikoo kääntyä. Onko B velvollinen ennakoimaan A:n sääntörikkomusta ja väistämään jo etukäteen?",
-          "en": "Boats A and B are sailing on port tack towards a mark. A is one hull length ahead of B and to leeward, and tacks in front of B; B is travelling fast. B knows that A is going to tack. Must B anticipate A's rule breach and take avoiding action in advance?",
-          "sv": "Båtarna A och B seglar för babords halsar mot ett märke. A är en skrovlängd före B och i lä, och stagvänder framför B; B har hög fart. B vet att A ska stagvända. Måste B förutse A:s regelbrott och göra en undanmanöver i förväg?"
+          "fi": "A ja B purjehtivat vasemmalla halssilla; A on rungon pituuden B:n edessä ja suojan puolella ja tekee vastakäännöksen B:n eteen. B tietää A:n aikovan kääntyä ja etenee kovaa vauhtia. Onko B velvollinen ennakoimaan A:n sääntörikkomusta ja väistämään jo etukäteen?",
+          "en": "A and B are sailing on port tack; A is one hull length ahead of B and to leeward, and tacks in front of B. B, travelling fast, knows that A is going to tack. Must B anticipate A's rule breach and take avoiding action in advance?",
+          "sv": "A och B seglar för babords halsar; A är en skrovlängd före B och i lä, och stagvänder framför B. B, som har hög fart, vet att A ska stagvända. Måste B förutse A:s regelbrott och göra en undanmanöver i förväg?"
         },
         "scene": {
           "boats": [
