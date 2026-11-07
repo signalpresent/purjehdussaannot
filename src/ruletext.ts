@@ -42,10 +42,14 @@ export function pageLines(all: Item[]): string[] {
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 // apps: one entry per appendix letter in book order (A,B,C,D,E,F,G,H,J,M,N,P,R,S,T), clause ids e.g. 'M1', 'E1.1'.
+// F stays in the letter sequence only so E's own range still ends at F's start rather than spilling into F's text (which would also drag quoted
+// G-rule references into E's output); F itself is filtered out below and never parsed: the Swedish rulebook has no translation of it at all
+// (only a publisher's note), so no shared clause-id skeleton can cover it for every language, and rather than let Swedish fail to import the
+// whole book, Appendix F stays out of the official-text layer for all three languages.
 const APPX = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'P', 'R', 'S', 'T'] as const;
-// Builds the [letter, start, end] triples for one language from each appendix's first-occurrence start line (a function of the letter); the last appendix (T) ends at the given marker, short of the book's back matter (ISBN block, colophon), which otherwise leaks into T4's body as T has no next appendix to stop at.
 function appsFor(startOf: (l: string) => RegExp, tEnd: RegExp): [string, RegExp, RegExp | undefined][] {
-  return APPX.map((l, i) => [l, startOf(l), i + 1 < APPX.length ? startOf(APPX[i + 1]) : tEnd]);
+  const all: [string, RegExp, RegExp | undefined][] = APPX.map((l, i) => [l, startOf(l), i + 1 < APPX.length ? startOf(APPX[i + 1]) : tEnd]);
+  return all.filter(([l]) => l !== 'F');
 }
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; apps: [string, RegExp, RegExp | undefined][]; furniture: RegExp; see: string[]; section: RegExp }> = {
   en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]],
@@ -61,7 +65,6 @@ const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules:
       ['C', /^APPENDIX C – REGLER FÖR MATCHRACING$/, /^APPENDIX D – REGLER FÖR$/],
       ['D', /^APPENDIX D – REGLER FÖR$/, /^APPENDIX E – REGLER FÖR RADIOSTYRDA$/],
       ['E', /^APPENDIX E – REGLER FÖR RADIOSTYRDA$/, /^APPENDIX F – REGLER FÖR KITE$/],
-      ['F', /^APPENDIX F – REGLER FÖR KITE$/, /^APPENDIX G – IGENKÄNNINGSTECKEN I$/],
       ['G', /^APPENDIX G – IGENKÄNNINGSTECKEN I$/, /^APPENDIX H – VÄGNING AV KLÄDER OCH$/],
       ['H', /^APPENDIX H – VÄGNING AV KLÄDER OCH$/, /^APPENDIX J – INBJUDAN OCH$/],
       ['J', /^APPENDIX J – INBJUDAN OCH$/, /^APPENDIX M – REKOMMENDATIONER FÖR$/],
@@ -196,7 +199,7 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   let diag = false; // once Appendix S's course-diagram section starts, pdf.js merges the diagrams' own mark-position numbers into the signal-code table rows (e.g. SV 'TL2 Start – 1 – 2 – 3 – 1 – mål'), which would otherwise be mistaken for new top-level clauses; from here on the rest of the appendix is kept as one block
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i];
-    if (first === 'S' && DIAG.test(l)) diag = true;
+    if (first === 'S' && !diag && DIAG.test(l)) { diag = true; chunks.push(cur); cur = ['Sdiagrams', [], -1]; } // its own fixed id, so rules.json can cover it on its own page instead of folding into whatever clause (13.4) was still open
     const sm = cfg.section.exec(l), gcl = first === 'E' ? GCL.exec(l) : null, cm = diag ? null : CLAUSE.exec(l) ?? gcl ?? (first === 'S' ? ORD.exec(l) : null);
     if (sm) {
       chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
@@ -205,7 +208,7 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
     } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0]) && (gcl || !isApp || first === 'S' || cm[2][0] === first)) { // table rows ('4  P, I, Z') are not clauses; inside an appendix, a bare rule number (e.g. B2's '13  WHILE TACKING', or a cross-reference like C's 'N1.10') is quoted/modified rule text, not a new top-level clause of this appendix — only an id starting with the appendix's own letter opens one (E8's own GCL quotes of Appendix G, and Appendix S's own bare 'SI' numbering (its clauses are plain '1', '1.1', ... with no 'S' prefix at all), are the deliberate exceptions)
-      chunks.push(cur); cur = [cm[2], [], cm[1].length];
+      chunks.push(cur); cur = [first === 'S' ? 'SI' + cm[2] : cm[2], [], cm[1].length]; // Appendix S's own clauses are bare numbers ('1', '1.1', ...) in the book; prefixed here so they cannot collide with same-numbered ids elsewhere (rule 1.1, Appendix A's own 'A1' vs a literal '1', etc.)
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
