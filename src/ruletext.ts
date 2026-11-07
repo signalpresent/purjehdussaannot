@@ -204,6 +204,8 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
+      // a decimal id's title can still break mid-word at the line end (FI C2.4 'rungonpituu-' / 'deksi.'); join() properly drops the hyphen, unlike the plain concatenation above
+      while (cur[0].includes('.') && i + 1 < ls.length && /\p{L}-$/u.test(t) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1]) && !cfg.furniture.test(ls[i + 1])) t = join([t, ls[++i].trim()], lang);
       // a lead-in sentence before a lettered item can wrap over several lines (FI/SV R2.2); absorb up to the first item line, but only if the line right after the heading continues a still-open sentence (lowercase start) and an item is actually found before the next clause/section/page break (otherwise this is a short real title followed by an unrelated paragraph, e.g. E1.2 'Terminology' + body, or a plain paragraph left alone for 'untitled' to handle)
       if (cur[0].includes('.') && i + 1 < ls.length && /^\p{Ll}/u.test(ls[i + 1].trim())) {
         let j = i + 1;
