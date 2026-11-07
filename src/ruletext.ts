@@ -74,7 +74,7 @@ const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules:
     ],
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu}\d ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
-const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)([A-Z]?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
+const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d+)\)|(\d+)\))\s+(.*)$/, CLAUSE = /^(\s*)([A-Z]?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const DOT = /^(\s*)(?:\((\d)\))?(\d)\.\s+(.*)$/; // group 2 never matches; keeps SUB's group layout
 const GCL = /^(\s*)(G\d(?:\.\d)?)\s+(\p{Lu}.*)$/u; // Appendix G rules quoted in E8 ('G1.1 Identification')
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -125,7 +125,7 @@ function blocks(lines: string[], lang: Lang, baseId: string, firstCol = -1): Blo
     if (m) {
       stay = -1;
       const d = ITEM.test(l) ? 1 : 2;
-      while (stack.length > d) stack.pop();
+      while (stack[stack.length - 1][2] >= d) stack.pop(); // pop back to the enclosing level by its recorded depth, not by stack length: a bare numbered list directly under the clause (no lettered parent) has length 2 at depth 2 already, so a length-only check would never pop a same-depth sibling (e.g. EN E6.6(2) followed by E6.6(3), both depth 2, no (a)/(b) in between)
       const id = `${d === 2 ? stack[stack.length - 1][1] : baseId}(${m[2] ?? m[3]})`;
       stack.push([col, id, d]); out.push([id, d, [m[4]]]); continue;
     }
@@ -204,8 +204,8 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
-      // a lead-in sentence before a lettered item can wrap over several lines (FI/SV R2.2); absorb up to the first item line, but only if one is found before the next clause/section/page break (otherwise this is a plain paragraph, left alone for 'untitled' to handle)
-      if (cur[0].includes('.')) {
+      // a lead-in sentence before a lettered item can wrap over several lines (FI/SV R2.2); absorb up to the first item line, but only if the line right after the heading continues a still-open sentence (lowercase start) and an item is actually found before the next clause/section/page break (otherwise this is a short real title followed by an unrelated paragraph, e.g. E1.2 'Terminology' + body, or a plain paragraph left alone for 'untitled' to handle)
+      if (cur[0].includes('.') && i + 1 < ls.length && /^\p{Ll}/u.test(ls[i + 1].trim())) {
         let j = i + 1;
         while (j < ls.length && !CLAUSE.test(ls[j]) && !cfg.section.test(ls[j]) && !cfg.furniture.test(ls[j]) && !ITEM.test(ls[j]) && !SUB.test(ls[j])) j++;
         if (j < ls.length && j > i + 1 && (ITEM.test(ls[j]) || SUB.test(ls[j]))) { t = join([t, ...ls.slice(i + 1, j).map(x => x.trim())], lang); i = j - 1; }
