@@ -41,16 +41,40 @@ export function pageLines(all: Item[]): string[] {
 }
 
 // rules: single rules outside Part 2, from their heading line up to the next rule.
-// app: Appendix E (radio sailing), clause ids 'E1.1'.
-const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; app: [RegExp, RegExp]; furniture: RegExp; see: string[]; section: RegExp }> = {
-  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]], app: [/^\s*APPENDIX E$/, /^\s*APPENDIX F$/],
-    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix E\s+[A-Z ]+|\d+)\s*$/, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
-  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]], app: [/^LIITE E$/, /^LIITE F$/],
-    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[A-ZÄÖÅ ,;]+|Liite E\s+[A-ZÄÖÅ ]+|\d+|\.)\s*$/, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
-  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]], app: [/^APPENDIX E – REGLER FÖR RADIOSTYRDA$/, /^APPENDIX F – REGLER FÖR KITE$/],
-    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [A-ZÄÖÅ ,;]+(m\.m\.)?|\s*APPENDIX E – [A-ZÄÖÅ ]+|\d+)\s*$/, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
+// apps: one entry per appendix letter in book order (A,B,C,D,E,F,G,H,J,M,N,P,R,S,T), clause ids e.g. 'M1', 'E1.1'.
+const APPX = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'P', 'R', 'S', 'T'] as const;
+// Builds the [letter, start, end] triples for one language from each appendix's first-occurrence start line (a function of the letter); end is the next appendix's start, undefined (-> EOF) for the last.
+function appsFor(startOf: (l: string) => RegExp): [string, RegExp, RegExp | undefined][] {
+  return APPX.map((l, i) => [l, startOf(l), i + 1 < APPX.length ? startOf(APPX[i + 1]) : undefined]);
+}
+const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; apps: [string, RegExp, RegExp | undefined][]; furniture: RegExp; see: string[]; section: RegExp }> = {
+  en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]],
+    apps: appsFor(l => new RegExp(`^\\s*APPENDIX ${l}$`)),
+    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix [A-Z]\s+[\p{Lu} ]+|\d+)\s*$/u, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
+  fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]],
+    apps: appsFor(l => new RegExp(`^LIITE ${l}$`)),
+    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[\p{Lu} ,;]+|Liite [A-Z]\s+[\p{Lu} ]+|LIITE [A-Z] [\p{Lu} \-]+|\d+|\.)\s*$/u, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+  sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]],
+    apps: [
+      ['A', /^APPENDIX A – POÄNGBERÄKNING$/, /^APPENDIX B – REGLER FÖR FLEETRACING I$/],
+      ['B', /^APPENDIX B – REGLER FÖR FLEETRACING I$/, /^APPENDIX C – REGLER FÖR MATCHRACING$/],
+      ['C', /^APPENDIX C – REGLER FÖR MATCHRACING$/, /^APPENDIX D – REGLER FÖR$/],
+      ['D', /^APPENDIX D – REGLER FÖR$/, /^APPENDIX E – REGLER FÖR RADIOSTYRDA$/],
+      ['E', /^APPENDIX E – REGLER FÖR RADIOSTYRDA$/, /^APPENDIX F – REGLER FÖR KITE$/],
+      ['F', /^APPENDIX F – REGLER FÖR KITE$/, /^APPENDIX G – IGENKÄNNINGSTECKEN I$/],
+      ['G', /^APPENDIX G – IGENKÄNNINGSTECKEN I$/, /^APPENDIX H – VÄGNING AV KLÄDER OCH$/],
+      ['H', /^APPENDIX H – VÄGNING AV KLÄDER OCH$/, /^APPENDIX J – INBJUDAN OCH$/],
+      ['J', /^APPENDIX J – INBJUDAN OCH$/, /^APPENDIX M – REKOMMENDATIONER FÖR$/],
+      ['M', /^APPENDIX M – REKOMMENDATIONER FÖR$/, /^APPENDIX N – INTERNATIONELLA JURYER$/],
+      ['N', /^APPENDIX N – INTERNATIONELLA JURYER$/, /^APPENDIX P – SÄRSKILDA PROCEDURER$/],
+      ['P', /^APPENDIX P – SÄRSKILDA PROCEDURER$/, /^APPENDIX R – PROCEDURER FÖR$/],
+      ['R', /^APPENDIX R – PROCEDURER FÖR$/, /^APPENDIX S – STANDARDSEGLINGS$/],
+      ['S', /^APPENDIX S – STANDARDSEGLINGS$/, /^APPENDIX T – MEDLING$/],
+      ['T', /^APPENDIX T – MEDLING$/, undefined],
+    ],
+    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu} ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
-const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)(E?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
+const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)([A-Z]?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const DOT = /^(\s*)(?:\((\d)\))?(\d)\.\s+(.*)$/; // group 2 never matches; keeps SUB's group layout
 const GCL = /^(\s*)(G\d(?:\.\d)?)\s+(\p{Lu}.*)$/u; // Appendix G rules quoted in E8 ('G1.1 Identification')
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -61,10 +85,10 @@ const flex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/ /
 export const detectLang = (lines: string[]): Lang | null =>
   (['en', 'fi', 'sv'] as Lang[]).find(l => lines.some(x => CFG[l].part[0].test(x)) && lines.some(x => CFG[l].defs[0].test(x))) ?? null;
 
-function cut(ls: string[], [start, end]: [RegExp, RegExp]): string[] {
+function cut(ls: string[], [start, end]: [RegExp, RegExp | undefined]): string[] {
   const s = ls.findIndex(l => start.test(l));
   if (s < 0) return [];
-  const e = ls.findIndex((l, i) => i > s && end.test(l));
+  const e = end ? ls.findIndex((l, i) => i > s && end.test(l)) : -1;
   return ls.slice(s + 1, e < 0 ? undefined : e);
 }
 
@@ -156,15 +180,16 @@ function rules(all: string[], lang: Lang): { titles: Record<string, string>; blo
     return s < 0 ? [] : clauses(all.slice(s, e < 0 ? undefined : e), lang, titles, '');
   });
   const alias = (b: Block): Block => SKELETON.alias[b[0]] ? [SKELETON.alias[b[0]], 0, b[2]] : b; // FI numbers 92.1-92.2 as 92(a)-(b)
-  const app = clauses(cut(all, CFG[lang].app), lang, titles, 'E');
-  return { titles, blocks: [...part, ...extra, ...app].map(alias) };
+  const apps = CFG[lang].apps.flatMap(([letter, start, end]) => clauses(cut(all, [start, end]), lang, titles, letter));
+  return { titles, blocks: [...part, ...extra, ...apps].map(alias) };
 }
 
 function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first: string): Block[] {
   const cfg = CFG[lang], untitled = new Set(SKELETON.untitled), tables = new Set(SKELETON.tables), chunks: [string, string[], number][] = [];
+  const isApp = /^[A-Z]$/.test(first);
   let cur: [string, string[], number] = [first, [], -1];
-  let titleNext: string | null = lang === 'sv' || !first || first === 'E' ? null : first;
-  if (first === 'E') while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
+  let titleNext: string | null = lang === 'sv' || !first || isApp ? null : first;
+  if (isApp) while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
   if (lang === 'sv' && first === 'P2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l) ?? (first === 'E' ? GCL.exec(l) : null);
