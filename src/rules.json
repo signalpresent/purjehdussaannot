@@ -22825,9 +22825,9 @@
           }
         ],
         "why": {
-          "fi": "A6.1.",
-          "en": "A6.1.",
-          "sv": "A6.1."
+          "fi": "A6.1 nostaa jokaista hylätyn veneen takana ollutta venettä yhden sijan ylöspäin, kun vene hylätään tai vetäytyy maaliin tulonsa jälkeen.",
+          "en": "A6.1 moves every boat that finished behind a disqualified boat up one place, when that boat is disqualified or retires after finishing.",
+          "sv": "A6.1 flyttar varje båt som gick i mål efter en diskvalificerad båt upp en placering, när den båten diskvalificeras eller bryter efter målgång."
         },
         "source": "RRS A6.1",
         "also": []
@@ -22891,9 +22891,9 @@
           }
         ],
         "why": {
-          "fi": "A6.2.",
-          "en": "A6.2.",
-          "sv": "A6.2."
+          "fi": "A6.2 jättää muiden veneiden pisteet ennalleen hyvityksen yhteydessä, ellei protestilautakunta erikseen päätä toisin.",
+          "en": "A6.2 leaves other boats' scores unchanged when redress is given, unless the protest committee specifically decides otherwise.",
+          "sv": "A6.2 lämnar andra båtars poäng oförändrade vid gottgörelse, om inte protestkommittén särskilt beslutar annat."
         },
         "source": "RRS A6.2",
         "also": [
@@ -23507,9 +23507,9 @@
           }
         ],
         "why": {
-          "fi": "A10 ja 90.3(b).",
-          "en": "A10 and 90.3(b).",
-          "sv": "A10 och 90.3b."
+          "fi": "A10 määrittelee DNE:n hylkäykseksi, jota ei saa jättää pois kokonaispisteistä, ja 90.3(b) vaatii laskemaan sen aina mukaan.",
+          "en": "A10 defines DNE as a disqualification that may not be excluded from the total score, and 90.3(b) requires it always to be counted.",
+          "sv": "A10 definierar DNE som en diskvalifikation som inte får strykas från totalpoängen, och 90.3(b) kräver att den alltid räknas med."
         },
         "source": "RRS A10, 90.3(b)",
         "also": [
@@ -23548,9 +23548,9 @@
           }
         ],
         "why": {
-          "fi": "Case 128 ja A10.",
-          "en": "Case 128 and A10.",
-          "sv": "Fall 128 och A10."
+          "fi": "Case 128: kilpailulautakunnan oma havainto radan purjehtimisen virheestä johtaa A5.1(a):n mukaiseen pisteeseen ilman tutkintaa; A10:ssä tämä lyhenne on NSC (did not sail the course).",
+          "en": "Case 128: the race committee's own observation of a course error leads to the score under A5.1(a) without a hearing; in A10 that abbreviation is NSC (did not sail the course).",
+          "sv": "Fall 128: kappseglingskommitténs egen observation av ett banfel leder till poängen enligt A5.1(a) utan förhandling; i A10 är den förkortningen NSC (seglade inte banan)."
         },
         "source": "Case 128; RRS A10, A5.1",
         "also": [
@@ -31296,9 +31296,9 @@
           }
         ],
         "why": {
-          "fi": "G4.",
-          "en": "G4.",
-          "sv": "G4."
+          "fi": "G4 antaa protestilautakunnalle vaihtoehdon: joko varoitus ja korjausaika tai rangaistus — ei automaattista hylkäystä eikä täydellistä sivuuttamista.",
+          "en": "G4 gives the protest committee a choice: either a warning with time to correct, or a penalty — not an automatic disqualification or ignoring it entirely.",
+          "sv": "G4 ger protestkommittén ett val: antingen en varning med tid att rätta till felet, eller ett straff — inte en automatisk diskvalifikation eller att helt bortse från felet."
         },
         "source": "RRS G4",
         "also": [
@@ -31373,9 +31373,9 @@
           }
         ],
         "why": {
-          "fi": "G5 ja Case 86.",
-          "en": "G5 and Case 86.",
-          "sv": "G5 och fall 86."
+          "fi": "G5 sallii World Sailingin luokkien muuttaa liitettä G vain, jos World Sailing on ensin hyväksynyt muutoksen — muuten liite G olisi 86.1(a):n suojaama eikä luokkasääntöjen muutettavissa.",
+          "en": "G5 allows World Sailing classes to modify Appendix G only if World Sailing has first approved the change — otherwise Appendix G would be protected under 86.1(a) and beyond the reach of class rules.",
+          "sv": "G5 tillåter World Sailing-klasser att ändra bilaga G bara om World Sailing först har godkänt ändringen — annars vore bilaga G skyddad enligt 86.1(a) och utanför klassreglernas räckvidd."
         },
         "source": "RRS G5; Case 86",
         "also": [
@@ -31478,9 +31478,9 @@
           }
         ],
         "why": {
-          "fi": "H1.",
-          "en": "H1.",
-          "sv": "H1."
+          "fi": "H1 vaatii antamaan osien valua vapaasti yhden minuutin ajan kastelun jälkeen ennen punnitusta.",
+          "en": "H1 requires letting the items drain freely for one minute after soaking, before weighing.",
+          "sv": "H1 kräver att delarna får rinna av fritt i en minut efter blötläggningen, innan de vägs."
         },
         "source": "RRS H1",
         "also": []
@@ -31510,9 +31510,9 @@
           }
         ],
         "why": {
-          "fi": "H1.",
-          "en": "H1.",
-          "sv": "H1."
+          "fi": "H1 vaatii pitämään tyhjennysaukottomat taskut tyhjinä, kun taas vettä pidättävät taskut tai osat pidetään täysinä.",
+          "en": "H1 requires pockets without drain holes to be kept empty, while pockets or parts that can hold water are kept full.",
+          "sv": "H1 kräver att fickor utan dräneringshål hålls tomma, medan fickor eller delar som kan hålla kvar vatten hålls fulla."
         },
         "source": "RRS H1",
         "also": []
@@ -31542,9 +31542,9 @@
           }
         ],
         "why": {
-          "fi": "H2.",
-          "en": "H2.",
-          "sv": "H2."
+          "fi": "H2 sallii menettelyn toistamisen vielä kerran, jos paino edelleen ylittää sallitun uudelleenpunnituksenkin jälkeen.",
+          "en": "H2 allows the procedure to be repeated once more, if the weight still exceeds the limit even after reweighing.",
+          "sv": "H2 tillåter att förfarandet upprepas en gång till, om vikten fortfarande överskrider gränsen även efter omvägning."
         },
         "source": "RRS H2",
         "also": []
@@ -31574,9 +31574,9 @@
           }
         ],
         "why": {
-          "fi": "H3.",
-          "en": "H3.",
-          "sv": "H3."
+          "fi": "H3 jakaa kuivapukua käyttävän kilpailijan punnituksen kahteen osaan: puku päällysvarusteineen punnitaan tavalliseen tapaan (H3(a)), puvun alla pidetyt vaatteet punnitaan valuttamatta (H3(b)), ja painot lasketaan yhteen (H3(c)).",
+          "en": "H3 splits a dry-suit competitor's weigh-in into two parts: the suit with outer gear is weighed the normal way (H3(a)), clothing worn under the suit is weighed without draining (H3(b)), and the two weights are added together (H3(c)).",
+          "sv": "H3 delar upp en torrdräktsanvändares vägning i två delar: dräkten med ytterplagg vägs på vanligt sätt (H3a), klädseln under dräkten vägs utan avrinning (H3b), och de två vikterna läggs ihop (H3c)."
         },
         "source": "RRS H3",
         "also": []
@@ -34279,9 +34279,9 @@
           }
         ],
         "why": {
-          "fi": "P2.4.",
-          "en": "P2.4.",
-          "sv": "P2.4."
+          "fi": "P2.4 antaa veneelle tuloksen aivan kuin se olisi välittömästi vetäytynyt, kun vetäytyminen ei ollut kohtuudella mahdollista ennen maaliin tuloa.",
+          "en": "P2.4 gives the boat the result as if she had retired immediately, when retiring was not reasonably possible before finishing.",
+          "sv": "P2.4 ger båten resultatet som om den omedelbart hade brutit, när det inte rimligen var möjligt att bryta före målgång."
         },
         "source": "RRS P2.4",
         "also": [
@@ -34367,9 +34367,9 @@
           }
         ],
         "why": {
-          "fi": "P3.",
-          "en": "P3.",
-          "sv": "P3."
+          "fi": "P3 poistaa rangaistuksen palautuksen yhteydessä, mutta se lasketaan silti mukaan, kun määritetään veneen seuraavien rangaistusten ankaruutta.",
+          "en": "P3 cancels the penalty when there is a general recall, but it still counts toward determining the severity of the boat's future penalties.",
+          "sv": "P3 tar bort straffet vid en allmän återkallelse, men det räknas ändå med när man avgör hur stränga båtens kommande straff ska vara."
         },
         "source": "RRS P3",
         "also": []
@@ -34470,9 +34470,9 @@
           }
         ],
         "why": {
-          "fi": "P4.",
-          "en": "P4.",
-          "sv": "P4."
+          "fi": "P4 sallii hyvityksen vain, jos tarkkailijan tai lautakunnan toimi oli virheellinen, koska se ei ottanut huomioon kilpailulautakunnan viestiä tai luokkasääntöä — ei pelkän väitetyn virheellisyyden perusteella.",
+          "en": "P4 allows redress only if the observer's or committee's action was invalid because it failed to account for a race committee signal or a class rule — not merely on a claim that the penalty was wrong.",
+          "sv": "P4 tillåter gottgörelse bara om observatörens eller nämndens åtgärd var ogiltig för att den inte tog hänsyn till en kappseglingskommittésignal eller en klassregel — inte enbart för att man hävdar att straffet var fel."
         },
         "source": "RRS P4",
         "also": [
@@ -34674,9 +34674,9 @@
           }
         ],
         "why": {
-          "fi": "P5.3(a).",
-          "en": "P5.3(a).",
-          "sv": "P5.3a."
+          "fi": "P5.3(a) sallii pumppaamisen vasta sen jälkeen, kun vene on ohittanut merkin, josta lippu O näytettiin — ei heti lipun nähtyään.",
+          "en": "P5.3(a) permits pumping only after the boat has passed the mark from which flag O was displayed — not as soon as she sees the flag.",
+          "sv": "P5.3(a) tillåter pumpning först efter att båten har passerat det märke där flagg O visades — inte så snart den ser flaggan."
         },
         "source": "RRS P5.3(a)",
         "also": []
