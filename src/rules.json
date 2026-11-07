@@ -28149,9 +28149,9 @@
           }
         ],
         "why": {
-          "fi": "E1.3(a).",
-          "en": "E1.3(a).",
-          "sv": "E1.3a."
+          "fi": "E1.3(a) poistaa säännön 1.2 kokonaan radio-ohjattavilta veneiltä, koska kyseessä ei ole miehitetty alus eikä pelastusvälineitä tai kelluntavälineitä tarvita.",
+          "en": "E1.3(a) deletes rule 1.2 entirely for radio-controlled boats, since there is no crew aboard and no life-saving or personal flotation equipment is needed.",
+          "sv": "E1.3(a) tar helt bort regel 1.2 för radiostyrda båtar, eftersom det inte finns någon besättning ombord och ingen livräddnings- eller flytutrustning behövs."
         },
         "source": "RRS E1.3(a)",
         "also": [
@@ -28334,9 +28334,9 @@
           }
         ],
         "why": {
-          "fi": "E2.3.",
-          "en": "E2.3.",
-          "sv": "E2.3."
+          "fi": "E2.3 vaatii kilpailijaa huutamaan välittömästi purjenumeron ja ”ohjauskyvytön”, ja velvoittaa veneen vetäytymään — ohjauskyvytön vene ei voi enää turvallisesti jatkaa kilpailua.",
+          "en": "E2.3 requires the competitor to immediately hail the sail number and ‘out of control’, and requires the boat to retire — a boat that cannot be steered can no longer race safely.",
+          "sv": "E2.3 kräver att deltagaren omedelbart ropar segelnumret och ”okontrollerbar”, och kräver att båten bryter — en båt som inte går att styra kan inte längre segla säkert."
         },
         "source": "RRS E2.3",
         "also": []
@@ -28373,9 +28373,9 @@
           }
         ],
         "why": {
-          "fi": "E2.4.",
-          "en": "E2.4.",
-          "sv": "E2.4."
+          "fi": "E2.4 vaatii suojaamaan lähettimen antennin kärjen nimenomaan silloin, kun antenni on ulosvedettynä yli 200 mm pitkä — lyhyempää antennia ei tarvitse suojata.",
+          "en": "E2.4 requires the transmitter antenna tip to be protected specifically when the antenna is extended to more than 200 mm — a shorter antenna need not be protected.",
+          "sv": "E2.4 kräver att sändarantennens spets skyddas just när antennen är utdragen till mer än 200 mm — en kortare antenn behöver inte skyddas."
         },
         "source": "RRS E2.4",
         "also": []
@@ -28412,9 +28412,9 @@
           }
         ],
         "why": {
-          "fi": "E2.5.",
-          "en": "E2.5.",
-          "sv": "E2.5."
+          "fi": "E2.5 kieltää häiritsevien radiosignaalien lähettämisen ja antaa kilpailulautakunnalle yksinoikeuden päättää, milloin rikkonut kilpailija saa kilpailla uudelleen.",
+          "en": "E2.5 forbids sending radio signals that interfere with others and gives the race committee sole authority to decide when the offending competitor may race again.",
+          "sv": "E2.5 förbjuder att sända radiosignaler som stör andra och ger kappseglingskommittén ensam rätt att besluta när den felande deltagaren får tävla igen."
         },
         "source": "RRS E2.5",
         "also": []
@@ -28553,9 +28553,9 @@
           }
         ],
         "why": {
-          "fi": "E3.4(a).",
-          "en": "E3.4(a).",
-          "sv": "E3.4a."
+          "fi": "E3.4(a) muuttaa sääntöä 26 lisäämällä lähtöviestiä edeltävän minuutin ajalle tiheämmät äänimerkit (10 sekunnin välein, viimeiset 10 sekuntia sekunnin välein), koska kilpailijat ohjaavat venettä etäältä eivätkä näe lähtölinjaa yhtä tarkasti kuin miehitetyssä purjehduksessa.",
+          "en": "E3.4(a) amends rule 26 by adding more frequent sound signals in the minute before the starting signal (every 10 seconds, then every second in the last 10), since competitors steer remotely and cannot judge the start line as precisely as when sailing aboard.",
+          "sv": "E3.4(a) ändrar regel 26 genom att lägga till tätare ljudsignaler under minuten före startsignalen (var 10:e sekund, de sista 10 sekunderna varje sekund), eftersom deltagarna styr på distans och inte kan bedöma startlinjen lika exakt som vid ombordsegling."
         },
         "source": "RRS E3.4(a)",
         "also": [
@@ -28628,9 +28628,9 @@
           }
         ],
         "why": {
-          "fi": "E3.8(c).",
-          "en": "E3.8(c).",
-          "sv": "E3.8c."
+          "fi": "E3.8(c) kieltää radan lyhentämisen kokonaan radiopurjehduksessa, vaikka tavallinen sääntö 32.2 sen muuten sallisi.",
+          "en": "E3.8(c) forbids shortening the course entirely in radio sailing, even though the ordinary rule 32.2 would otherwise allow it.",
+          "sv": "E3.8(c) förbjuder att banan förkortas helt i radiosegling, trots att den vanliga regeln 32.2 annars skulle tillåta det."
         },
         "source": "RRS E3.8(c)",
         "also": [
@@ -28669,9 +28669,9 @@
           }
         ],
         "why": {
-          "fi": "E3.7.",
-          "en": "E3.7.",
-          "sv": "E3.7."
+          "fi": "E3.7 velvoittaa veneen poistumaan rata-alueelta heti, kun kilpailulautakunta ilmoittaa sen rikkoneen mustan tai valkoisen (30.3/30.4) lipun sääntöä — tilannetta ei jätetä protestin varaan kuten tavallisesti.",
+          "en": "E3.7 requires the boat to leave the course area immediately once the race committee tells her she has broken the black- or U-flag rule (30.3/30.4) — the matter is not left to a protest as usual.",
+          "sv": "E3.7 kräver att båten omedelbart lämnar banområdet så snart kappseglingskommittén meddelar att den brutit mot regeln om svart eller U-flagg (30.3/30.4) — saken lämnas inte till en protest som vanligt."
         },
         "source": "RRS E3.7",
         "also": [
@@ -28823,9 +28823,9 @@
           }
         ],
         "why": {
-          "fi": "E4.3(a).",
-          "en": "E4.3(a).",
-          "sv": "E4.3a."
+          "fi": "E4.3(a) vapauttaa veneen säännön 31 rangaistuksesta, kun se on rikkonut sekä osan 2 sääntöä että sääntöä 31 samassa tapahtumassa — sama periaate kuin tavallisessa säännössä 44.1(a).",
+          "en": "E4.3(a) exempts the boat from the rule 31 penalty when she has broken both a Part 2 rule and rule 31 in the same incident — the same principle as the ordinary rule 44.1(a).",
+          "sv": "E4.3(a) befriar båten från straffet för regel 31 när den brutit mot både en del 2-regel och regel 31 i samma tillbud — samma princip som den vanliga regeln 44.1(a)."
         },
         "source": "RRS E4.3(a)",
         "also": [
@@ -28864,9 +28864,9 @@
           }
         ],
         "why": {
-          "fi": "E4.3(c).",
-          "en": "E4.3(c).",
-          "sv": "E4.3c."
+          "fi": "E4.3(c) määrää rangaistukseksi vetäytymisen, koska toisen veneen muuttuminen estyneeksi ja sen pakotettu vetäytyminen on niin vakava seuraus, ettei pelkkä kierrosrangaistus riitä.",
+          "en": "E4.3(c) sets retirement as the penalty, because forcing another boat to become obstructed and retire is a serious enough consequence that a mere turns penalty is not enough.",
+          "sv": "E4.3(c) fastställer utgående som straff, eftersom att tvinga en annan båt att bli ett hinder och bryta är en så allvarlig följd att enbart ett varvstraff inte räcker."
         },
         "source": "RRS E4.3(c)",
         "also": []
@@ -29049,9 +29049,9 @@
           }
         ],
         "why": {
-          "fi": "E5.1(b).",
-          "en": "E5.1(b).",
-          "sv": "E5.1b."
+          "fi": "E5.1(b) rajaa tarkkailijan huutovelvollisuuden koskettamisiin merkkiin tai toiseen veneeseen — ei kulkuoikeuteen tai peittoon, joista lautakunta päättää itse todetuista tosiasioista.",
+          "en": "E5.1(b) limits the observer's duty to hail to touches of a mark or another boat — not right of way or overlaps, which the committee decides from the facts itself.",
+          "sv": "E5.1(b) begränsar observatörens ropskyldighet till beröringar av märke eller en annan båt — inte väjningsplikt eller överlapp, vilket kommittén avgör själv utifrån fakta."
         },
         "source": "RRS E5.1(b)",
         "also": []
@@ -29081,9 +29081,9 @@
           }
         ],
         "why": {
-          "fi": "E5.2.",
-          "en": "E5.2.",
-          "sv": "E5.2."
+          "fi": "E5.2 vaatii tarkkailijoiden ja erotuomareiden pysyvän ohjausalueella ja kieltää näkökykyä parantavat apuvälineet, jotta heidän näkökulmansa vastaa kilpailijoiden omaa.",
+          "en": "E5.2 requires observers and umpires to stay in the control area and forbids vision-enhancing aids, so their viewpoint matches what competitors themselves can see.",
+          "sv": "E5.2 kräver att observatörer och domare stannar inom styrområdet och förbjuder synförstärkande hjälpmedel, så att deras perspektiv motsvarar det deltagarna själva kan se."
         },
         "source": "RRS E5.2",
         "also": []
@@ -29113,9 +29113,9 @@
           }
         ],
         "why": {
-          "fi": "E5.1(c).",
-          "en": "E5.1(c).",
-          "sv": "E5.1c."
+          "fi": "E5.1(c) velvoittaa tarkkailijat ilmoittamaan erän jälkeen kaikki selvittämättömät tapahtumat ja radan purjehtimisen virheet, ei vain kosketuksia, joista he jo huusivat erän aikana.",
+          "en": "E5.1(c) requires observers to report after the race all unresolved incidents and course-sailing errors, not just the touches they already hailed during the race.",
+          "sv": "E5.1(c) kräver att observatörerna efter heatet rapporterar alla oavgjorda tillbud och fel i att segla banan, inte bara de beröringar de redan ropat om under heatet."
         },
         "source": "RRS E5.1(c)",
         "also": []
@@ -29467,9 +29467,9 @@
           }
         ],
         "why": {
-          "fi": "E7(a) ja (b).",
-          "en": "E7(a) and (b).",
-          "sv": "E7a och b."
+          "fi": "E7 antaa lautakunnalle kaksi vaihtoehtoa muun kuin osien 2–4 säännön rikkomukseen: pistemääräinen rangaistus (a) tai Yhden Kierroksen Rangaistukset tulevassa erässä (b) — ei hylkäystä ainoana vaihtoehtona eikä rankaisematta jättämistä.",
+          "en": "E7 gives the committee two options for a breach of a rule outside Parts 2-4: a scoring penalty (a) or One-Turn Penalties in a future race (b) — not disqualification as the only option, nor leaving it unpunished.",
+          "sv": "E7 ger kommittén två alternativ för brott mot en regel utanför del 2–4: ett poängstraff (a) eller Enkelsvängsstraff i ett kommande heat (b) — inte diskvalifikation som enda alternativ, och inte heller att lämna det obestraffat."
         },
         "source": "RRS E7",
         "also": [
@@ -29501,9 +29501,9 @@
           }
         ],
         "why": {
-          "fi": "E7(a).",
-          "en": "E7(a).",
-          "sv": "E7a."
+          "fi": "E7(a) jättää muiden veneiden pisteet nimenomaisesti ennalleen, kun rikkoneelle veneelle lisätään pisteitä — kukin vene saa oman rangaistuksensa vaikuttamatta muiden sijoituksiin.",
+          "en": "E7(a) explicitly leaves other boats' scores unchanged when points are added to the offending boat — each boat receives her own penalty without affecting others' placings.",
+          "sv": "E7(a) lämnar uttryckligen andra båtars poäng oförändrade när poäng läggs till den felande båten — varje båt får sitt eget straff utan att påverka andras placeringar."
         },
         "source": "RRS E7(a)",
         "also": []
@@ -29540,9 +29540,9 @@
           }
         ],
         "why": {
-          "fi": "E7(b).",
-          "en": "E7(b).",
-          "sv": "E7b."
+          "fi": "E7(b) ajoittaa rangaistuskierrokset nimenomaan veneen seuraavaan, lähetettyyn ja läpivietyyn erään, koska kyseessä olevaa erää, jossa rikkomus havaittiin, ei enää voida muuttaa jälkikäteen.",
+          "en": "E7(b) times the penalty turns specifically to the boat's next race that is started and completed, since the race in which the breach was found can no longer be changed after the fact.",
+          "sv": "E7(b) förlägger strafsvängarna just till båtens nästa heat som startas och genomförs, eftersom det heat där brottet upptäcktes inte längre kan ändras i efterhand."
         },
         "source": "RRS E7(b)",
         "also": []
@@ -29572,9 +29572,9 @@
           }
         ],
         "why": {
-          "fi": "E7, ensimmäinen virke.",
-          "en": "E7, first sentence.",
-          "sv": "E7, första meningen."
+          "fi": "E7:n ensimmäinen virke rajaa sen soveltamisen nimenomaan muihin kuin osien 2, 3 ja 4 sääntöihin; osan 2 rikkomuksiin sovelletaan sen sijaan sääntöä E4.",
+          "en": "E7's opening sentence limits it specifically to rules outside Parts 2, 3 and 4; Part 2 breaches are instead governed by rule E4.",
+          "sv": "E7:s inledande mening begränsar den just till regler utanför del 2, 3 och 4; brott mot del 2 regleras i stället av regel E4."
         },
         "source": "RRS E7",
         "also": []
@@ -29757,9 +29757,9 @@
           }
         ],
         "why": {
-          "fi": "G1.5(a)(2).",
-          "en": "G1.5(a)(2).",
-          "sv": "G1.5a2."
+          "fi": "G1.5(a)(2) (jota E8 lainaa) vaatii oikean puolen purjenumerot ylemmäksi, jotta numerot erottuvat selvästi kummaltakin puolelta katsottaessa.",
+          "en": "G1.5(a)(2) (which E8 quotes) requires the starboard-side sail numbers to be placed uppermost, so the numbers are clearly distinguishable viewed from either side.",
+          "sv": "G1.5(a)(2) (som E8 citerar) kräver att styrbordssidans segelnummer placeras överst, så att siffrorna tydligt kan urskiljas sedda från båda sidor."
         },
         "source": "RRS E8 (G1.5(a)(2))",
         "also": []
