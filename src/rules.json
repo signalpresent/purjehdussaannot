@@ -34764,9 +34764,9 @@
           }
         ],
         "why": {
-          "fi": "R2.1(a).",
-          "en": "R2.1(a).",
-          "sv": "R2.1a."
+          "fi": "R2.1(a) antaa muutoksenhakijalle seitsemän vuorokautta protestilautakunnan kirjallisen päätöksen saamisesta hakemuksen lähettämiseen kansalliselle järjestölle.",
+          "en": "R2.1(a) gives the appellant seven days from receiving the protest committee's written decision to send the appeal to the national authority.",
+          "sv": "R2.1(a) ger den som överklagar sju dygn från mottagandet av protestkommitténs skriftliga beslut att skicka överklagandet till den nationella myndigheten."
         },
         "source": "RRS R2.1(a)",
         "also": []
@@ -34796,9 +34796,9 @@
           }
         ],
         "why": {
-          "fi": "R2.1(b).",
-          "en": "R2.1(b).",
-          "sv": "R2.1b."
+          "fi": "R2.1(b) antaa asianosaiselle seitsemän lisäpäivää lähettää hakemus liitteineen, jos tutkintaa ei ole pidetty 30 vuorokauden kuluessa protestin jättämisestä.",
+          "en": "R2.1(b) gives a party seven extra days to send the appeal with its attachments, if no hearing has been held within 30 days of lodging the protest.",
+          "sv": "R2.1(b) ger en part sju extra dygn att skicka överklagandet med bilagor, om ingen förhandling hållits inom 30 dygn efter att protesten lämnades in."
         },
         "source": "RRS R2.1(b)",
         "also": []
@@ -34828,9 +34828,9 @@
           }
         ],
         "why": {
-          "fi": "R2.2(b).",
-          "en": "R2.2(b).",
-          "sv": "R2.2b."
+          "fi": "R2.2(b) vaatii kuvion näyttävän kaikkien asianosaisten veneiden asemat ja reitit, suunnan seuraavalle merkille, tuulen voimakkuuden ja suunnan sekä tarvittaessa veden syvyyden ja virtauksen.",
+          "en": "R2.2(b) requires the diagram to show all parties' boats' positions and tracks, the direction to the next mark, wind strength and direction, and where relevant the water depth and current.",
+          "sv": "R2.2(b) kräver att diagrammet visar alla parters båtars positioner och spår, riktningen till nästa märke, vindstyrka och vindriktning samt, där det har betydelse, vattendjup och ström."
         },
         "source": "RRS R2.2(b)",
         "also": []
@@ -34860,9 +34860,9 @@
           }
         ],
         "why": {
-          "fi": "R2.3.",
-          "en": "R2.3.",
-          "sv": "R2.3."
+          "fi": "R2.3 antaa protestilautakunnalle seitsemän vuorokautta oman päätöksensä jälkeen pyytää sen vahvistamista tai oikaisemista, samalla määräajalla kuin asianosaisen muutoshakemuksella.",
+          "en": "R2.3 gives the protest committee seven days after its own decision to request confirmation or correction of it, the same deadline as a party's appeal.",
+          "sv": "R2.3 ger protestkommittén sju dygn efter sitt eget beslut att begära att det bekräftas eller rättas, samma tidsgräns som en parts överklagande."
         },
         "source": "RRS R2.3",
         "also": []
@@ -34945,9 +34945,9 @@
           }
         ],
         "why": {
-          "fi": "R3.",
-          "en": "R3.",
-          "sv": "R3."
+          "fi": "R3 velvoittaa kansallisen järjestön pyytämään puuttuvat R2.2:n asiakirjat suoraan protestilautakunnalta, jonka on toimitettava ne viipymättä — hakemusta ei hylätä puutteen vuoksi.",
+          "en": "R3 requires the national authority to request any missing R2.2 documents directly from the protest committee, which must supply them promptly — the appeal is not dismissed for the gap.",
+          "sv": "R3 kräver att den nationella myndigheten begär de saknade R2.2-dokumenten direkt av protestkommittén, som ska skicka dem utan dröjsmål — överklagandet avvisas inte på grund av bristen."
         },
         "source": "RRS R3",
         "also": []
@@ -34977,9 +34977,9 @@
           }
         ],
         "why": {
-          "fi": "R4.1.",
-          "en": "R4.1.",
-          "sv": "R4.1."
+          "fi": "R4.1 antaa asianosaisille ja protestilautakunnalle seitsemän vuorokautta siitä, kun kansallinen järjestö on asettanut asiakirjat saataville, kirjallisten huomautusten tekemiseen.",
+          "en": "R4.1 gives the parties and the protest committee seven days from when the national authority makes the documents available to submit written comments.",
+          "sv": "R4.1 ger parterna och protestkommittén sju dygn från det att den nationella myndigheten gjort dokumenten tillgängliga att lämna skriftliga synpunkter."
         },
         "source": "RRS R4.1",
         "also": []
@@ -35009,9 +35009,9 @@
           }
         ],
         "why": {
-          "fi": "R5.",
-          "en": "R5.",
-          "sv": "R5."
+          "fi": "R5 antaa kansalliselle järjestölle oikeuden vaatia lisätietoja tai tutkinnan uudelleenavaamista, jos se pitää todettuja tosiasioita riittämättöminä — se ei saa päättää puuttuvia tosiasioita itse.",
+          "en": "R5 gives the national authority the right to demand further facts or a reopened hearing if it finds the facts found insufficient — it may not decide the missing facts itself.",
+          "sv": "R5 ger den nationella myndigheten rätt att kräva fler fakta eller att förhandlingen återupptas, om den anser de fastställda fakta otillräckliga — den får inte själv besluta om de saknade fakta."
         },
         "source": "RRS R5",
         "also": []
@@ -35041,9 +35041,9 @@
           }
         ],
         "why": {
-          "fi": "R6.",
-          "en": "R6.",
-          "sv": "R6."
+          "fi": "R6 sallii muutoshakijan peruuttaa hakemuksen milloin tahansa ennen ratkaisua hyväksymällä protestilautakunnan alkuperäisen päätöksen.",
+          "en": "R6 allows the appellant to withdraw the appeal at any time before it is decided, by accepting the protest committee's original decision.",
+          "sv": "R6 tillåter den som överklagar att dra tillbaka överklagandet när som helst före avgörandet, genom att acceptera protestkommitténs ursprungliga beslut."
         },
         "source": "RRS R6",
         "also": []
@@ -35942,9 +35942,9 @@
           }
         ],
         "why": {
-          "fi": "T1(a).",
-          "en": "T1(a).",
-          "sv": "T1a."
+          "fi": "T1(a) sallii Purjehduksenjälkeisen Rangaistuksen ottamisen milloin tahansa purjehduksen jälkeen, mutta vain siihen asti kunnes tapahtumaan liittyvän protestin tutkinta alkaa.",
+          "en": "T1(a) allows taking a Post-Race Penalty at any time after racing, but only until the hearing of a protest about the incident begins.",
+          "sv": "T1(a) tillåter att man tar ett Efterseglingsstraff när som helst efter seglingen, men bara till dess att förhandlingen om en protest som gäller tillbudet inleds."
         },
         "source": "RRS T1(a)",
         "also": []
@@ -35981,9 +35981,9 @@
           }
         ],
         "why": {
-          "fi": "T1(b).",
-          "en": "T1(b).",
-          "sv": "T1b."
+          "fi": "T1(b) kiinnittää Purjehduksenjälkeisen Rangaistuksen suoraan säännön 44.3(c) pisterangaistuslaskuun, korotettuna 30 %:iin.",
+          "en": "T1(b) ties the Post-Race Penalty directly to rule 44.3(c)'s scoring-penalty calculation, raised to 30%.",
+          "sv": "T1(b) kopplar Efterseglingsstraffet direkt till regel 44.3(c)s poängstraffberäkning, höjt till 30 %."
         },
         "source": "RRS T1(b), 44.3(c)",
         "also": []
@@ -36013,9 +36013,9 @@
           }
         ],
         "why": {
-          "fi": "T1(c).",
-          "en": "T1(c).",
-          "sv": "T1c."
+          "fi": "T1(c) edellyttää kirjallista ilmoitusta välittäjälle tai lautakunnan jäsenelle; pelkkä kahden kierroksen purjehtiminen maalin jälkeen ei ole tämän liitteen mukainen menettely.",
+          "en": "T1(c) requires written notice to the arbitrator or a committee member; simply sailing two circles after finishing is not this appendix's procedure.",
+          "sv": "T1(c) kräver skriftligt meddelande till medlaren eller en kommittéledamot; att bara segla två varv efter målgång är inte detta tilläggs förfarande."
         },
         "source": "RRS T1(c)",
         "also": []
@@ -36045,9 +36045,9 @@
           }
         ],
         "why": {
-          "fi": "T2.",
-          "en": "T2.",
-          "sv": "T2."
+          "fi": "T2 rajaa välityskokouksen tilanteisiin, joissa jokaista asianosaista edustaa tapahtumahetkellä veneessä ollut henkilö; todistajia ei sallita.",
+          "en": "T2 limits an arbitration meeting to situations where every party is represented by someone who was on board at the time of the incident; witnesses are not allowed.",
+          "sv": "T2 begränsar ett medlingsmöte till situationer där varje part företräds av någon som var ombord vid tillbudet; vittnen tillåts inte."
         },
         "source": "RRS T2",
         "also": []
@@ -36077,9 +36077,9 @@
           }
         ],
         "why": {
-          "fi": "T2.",
-          "en": "T2.",
-          "sv": "T2."
+          "fi": "T2 antaa välittäjälle vallan jättää kokouksen pitämättä tai keskeyttää sen, jos hän päättää, että sääntö 44.1(b) saattaa soveltua tai välitys ei ole tarkoituksenmukainen.",
+          "en": "T2 gives the arbitrator power to not hold the meeting, or to stop it, if they decide rule 44.1(b) may apply or arbitration is not suitable.",
+          "sv": "T2 ger medlaren befogenhet att låta bli att hålla mötet, eller avbryta det, om denne beslutar att regel 44.1(b) kan vara tillämplig eller att medling inte är lämpligt."
         },
         "source": "RRS T2, 44.1(b)",
         "also": []
@@ -36150,9 +36150,9 @@
           }
         ],
         "why": {
-          "fi": "T3.",
-          "en": "T3.",
-          "sv": "T3."
+          "fi": "T3 rajaa välittäjän kannan kolmeen vaihtoehtoon: protesti pätemätön, ei rangaistusta, tai yksi tai useampi vene rangaistaan yksilöitynä.",
+          "en": "T3 limits the arbitrator's view to three options: the protest is invalid, no boat is penalized, or one or more named boats are penalized.",
+          "sv": "T3 begränsar medlarens ståndpunkt till tre alternativ: protesten är ogiltig, ingen båt straffas, eller en eller flera namngivna båtar straffas."
         },
         "source": "RRS T3",
         "also": []
@@ -36182,9 +36182,9 @@
           }
         ],
         "why": {
-          "fi": "T3, T2.",
-          "en": "T3, T2.",
-          "sv": "T3, T2."
+          "fi": "T3 perustaa välittäjän kannan nimenomaan edustajien antamaan näyttöön, koska T2 kieltää todistajat välityskokouksessa.",
+          "en": "T3 bases the arbitrator's view specifically on the representatives' own evidence, since T2 bars witnesses from the arbitration meeting.",
+          "sv": "T3 grundar medlarens ståndpunkt just på representanternas egen bevisning, eftersom T2 förbjuder vittnen vid medlingsmötet."
         },
         "source": "RRS T3, T2",
         "also": []
@@ -36214,9 +36214,9 @@
           }
         ],
         "why": {
-          "fi": "T4(b).",
-          "en": "T4(b).",
-          "sv": "Kappseglingskommittén"
+          "fi": "T4(b) antaa välittäjälle valtuuden toimia protestilautakunnan puolesta säännön 63.2(a) nojalla ja sallia protestin peruuttamisen kannan esittämisen jälkeen.",
+          "en": "T4(b) authorizes the arbitrator to act for the protest committee under rule 63.2(a) and allow the protest to be withdrawn after the view is given.",
+          "sv": "T4(b) ger medlaren befogenhet att agera för protestkommittén enligt regel 63.2(a) och tillåta att protesten dras tillbaka efter att ståndpunkten lämnats."
         },
         "source": "RRS T4(b), 63.2(a)",
         "also": []
@@ -36246,9 +36246,9 @@
           }
         ],
         "why": {
-          "fi": "T4.",
-          "en": "T4.",
-          "sv": "Nej, om minst en tas tillbaka"
+          "fi": "T4(b) mahdollistaa vain yksittäisen veneen protestin peruuttamisen; muiden asianosaisten protestit jäävät voimaan ja tutkinta pidetään niiden osalta.",
+          "en": "T4(b) only allows an individual boat's own protest to be withdrawn; other parties' protests remain in force and a hearing is still held for them.",
+          "sv": "T4(b) tillåter bara att en enskild båts egen protest dras tillbaka; andra parters protester kvarstår och en förhandling hålls ändå för dem."
         },
         "source": "RRS T4",
         "also": []
