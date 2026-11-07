@@ -23649,9 +23649,9 @@
           }
         ],
         "why": {
-          "fi": "Muutokset määritelmiin.",
-          "en": "Changes to the Definitions.",
-          "sv": "Ändringar i definitionerna."
+          "fi": "Liite B poistaa Vyöhyke-määritelmän kokonaan purjelautailusta, koska merkkitilasäännöt rakentuvat siellä eri käsitteen, 'kiertämässä tai ohittamassa', varaan.",
+          "en": "Appendix B removes the Zone definition entirely for windsurfing, since its mark-room rules are built instead on the separate concept of 'rounding or passing'.",
+          "sv": "Bilaga B tar bort Zon-definitionen helt för brädsegling, eftersom dess märkesplatsregler i stället bygger på det separata begreppet 'rundar eller passerar'."
         },
         "source": "RRS B, Changes to the Definitions",
         "also": [
@@ -23683,9 +23683,9 @@
           }
         ],
         "why": {
-          "fi": "Muutokset määritelmiin.",
-          "en": "Changes to the Definitions.",
-          "sv": "Ändringar i definitionerna."
+          "fi": "Liite B määrittelee laudan olevan 'kiertämässä tai ohittamassa' merkkiä siitä hetkestä, jolloin sen oikea suunta edellyttää kiertoliikkeen aloittamista, siihen asti kun merkki on kierretty tai ohitettu — ei kiinteän runkopituusvyöhykkeen perusteella.",
+          "en": "Appendix B defines a board as 'rounding or passing' a mark from the moment her proper course requires starting to round, until the mark has been rounded or passed — not based on a fixed hull-length zone.",
+          "sv": "Bilaga B definierar en bräda som 'rundar eller passerar' ett märke från den stund dess tillbörliga kurs kräver att rundningen påbörjas, till dess märket har rundats eller passerats — inte baserat på en fast zon av skrovlängder."
         },
         "source": "RRS B, Changes to the Definitions",
         "also": []
@@ -23715,9 +23715,9 @@
           }
         ],
         "why": {
-          "fi": "B2, sääntö 13.",
-          "en": "B2, rule 13.",
-          "sv": "B2, regel 13."
+          "fi": "B2.13 ratkaisee tuulensilmän samanaikaisen ohituksen antamalla väistämisvelvollisuuden vasemmalla puolella tai perässä olevalle laudalle, koska tavallinen halssisääntö ei toimi hetkellä, jolloin kumpikaan ei vielä ole selvästi kummallakaan halssilla.",
+          "en": "B2.13 resolves a simultaneous head-to-wind passing by placing the keep-clear duty on the board to the left or astern, since the ordinary tack rule does not work at the moment neither board is clearly on either tack.",
+          "sv": "B2.13 löser en samtidig passage genom vinden genom att lägga väjningsplikten på den bräda som är till vänster eller akter, eftersom den vanliga halsregeln inte fungerar i det ögonblick ingen bräda ännu tydligt ligger för en halsa."
         },
         "source": "RRS B2, 13",
         "also": [
@@ -23749,9 +23749,9 @@
           }
         ],
         "why": {
-          "fi": "B2, sääntö 18.2(b).",
-          "en": "B2, rule 18.2(b).",
-          "sv": "B2, regel 18.2b."
+          "fi": "Liitteessä B merkkitilan antamisvelvollisuus säännön 18.2(a) nojalla jatkuu, kunnes merkkitilaan oikeutettu lauta on ohittanut tuulensilmän — paljon pidempään kuin tavallisessa veneilyssä, jossa halssinvaihto yksin lopettaa velvollisuuden.",
+          "en": "Under Appendix B, the mark-room duty under rule 18.2(a) continues until the board entitled to room has passed head to wind — much longer than in ordinary sailing, where a tack alone ends the duty.",
+          "sv": "Enligt bilaga B fortsätter skyldigheten att ge märkesplats enligt regel 18.2(a) tills den bräda som har rätt till platsen har passerat vinden rätt i fören — mycket längre än vid vanlig segling, där en stagvändning ensam avslutar skyldigheten."
         },
         "source": "RRS B2, 18.2(b)",
         "also": [
@@ -23783,9 +23783,9 @@
           }
         ],
         "why": {
-          "fi": "B2, sääntö 23.3.",
-          "en": "B2, rule 23.3.",
-          "sv": "B2, regel 23.3."
+          "fi": "Sääntö 23.3 vaatii pitämään purjeen poissa vedestä ja normaaliasennossa viimeisen lähtöä edeltävän minuutin ajan, paitsi vahingossa kaatuneena, jotta lauta ei voi viivyttää itseään tahallisesti lähtölinjan tuntumassa.",
+          "en": "Rule 23.3 requires keeping the sail out of the water and in its normal position during the last minute before the start, except when accidentally capsized, so a board cannot deliberately stall near the start line.",
+          "sv": "Regel 23.3 kräver att seglet hålls borta från vattnet och i normalt läge under sista minuten före start, utom vid oavsiktlig kapsejsning, så att en bräda inte avsiktligt kan fördröja sig nära startlinjen."
         },
         "source": "RRS B2, 23.3",
         "also": []
@@ -23876,9 +23876,9 @@
           }
         ],
         "why": {
-          "fi": "B3, sääntö 26.1.",
-          "en": "B3, rule 26.1.",
-          "sv": "B3, regel 26.1."
+          "fi": "Menetelmä 1 on tarkoitettu vastatuulilähtöihin, koska siinä laudat lähtevät linjalta kohti tuulta purjehtien, kuten tavallisessa kilpailussa.",
+          "en": "Method 1 is intended for upwind starts, since boards there leave the line sailing toward the wind, as in ordinary racing.",
+          "sv": "Metod 1 är avsedd för kryssstarter, eftersom brädorna där lämnar linjen seglande mot vinden, som vid vanlig kappsegling."
         },
         "source": "RRS B3, 26.1",
         "also": []
@@ -23915,9 +23915,9 @@
           }
         ],
         "why": {
-          "fi": "B3, sääntö 26.2.",
-          "en": "B3, rule 26.2.",
-          "sv": "B3, regel 26.2."
+          "fi": "Menetelmässä 2 (sivutuulilähtö) vihreä lippu toimii lähtöviestinä, erotuksena vastatuulilähdön tavallisesta luokkalipusta.",
+          "en": "In Method 2 (reaching start), the green flag serves as the starting signal, distinct from the ordinary class flag used for an upwind start.",
+          "sv": "I metod 2 (länsstart) fungerar den gröna flaggan som startsignal, till skillnad från den vanliga klassflaggan vid en kryssstart."
         },
         "source": "RRS B3, 26.2",
         "also": []
@@ -23947,9 +23947,9 @@
           }
         ],
         "why": {
-          "fi": "B3, sääntö 26.3(b).",
-          "en": "B3, rule 26.3(b).",
-          "sv": "B3, regel 26.3b."
+          "fi": "Rantalähdössä (Menetelmä 3) paikka 1 on tuulenpuoleisin, koska lähtöpaikat numeroidaan rannalla tuulen suunnan mukaan järjestyksessä.",
+          "en": "In the beach start (Method 3), place 1 is the most windward, since starting places are numbered along the beach in order of wind direction.",
+          "sv": "Vid stranstart (metod 3) är plats 1 den mest luvartliga, eftersom startplatserna numreras längs stranden i vindens riktning."
         },
         "source": "RRS B3, 26.3(b)",
         "also": []
@@ -23979,9 +23979,9 @@
           }
         ],
         "why": {
-          "fi": "B3, sääntö 26.3(d).",
-          "en": "B3, rule 26.3(d).",
-          "sv": "B3, regel 26.3d."
+          "fi": "Osan 2 säännöt alkavat päteä rantalähdössä vasta, kun kilpailijan molemmat jalat ovat laudalla, koska vasta silloin lauta on käytännössä kilpailutilanteessa eikä enää rannalla valmistautumassa.",
+          "en": "Part 2 rules start applying in a beach start only once both of the competitor's feet are on the board, since only then is the board practically in a racing situation rather than still preparing ashore.",
+          "sv": "Del 2-reglerna börjar gälla vid en stranstart först när tävlarens båda fötter är på brädan, eftersom brädan först då praktiskt sett är i en kappseglingssituation och inte längre förbereder sig på stranden."
         },
         "source": "RRS B3, 26.3(d)",
         "also": []
@@ -24011,9 +24011,9 @@
           }
         ],
         "why": {
-          "fi": "B3.",
-          "en": "B3.",
-          "sv": "B3."
+          "fi": "Liite B poistaa säännön 30.2 (Z-lippu) kokonaan, mutta jättää I-, U- ja mustan lipun säännöt voimaan, koska purjelautailun lähtöjärjestelmässä pisterangaistusmenettelylle ei ole tarvetta.",
+          "en": "Appendix B removes rule 30.2 (the Z flag) entirely but leaves the I, U and black flag rules in force, since windsurfing's starting system has no use for the scoring-penalty procedure.",
+          "sv": "Bilaga B tar helt bort regel 30.2 (Z-flagg) men låter reglerna för I-, U- och svart flagg stå kvar, eftersom brädseglingens startsystem inte har någon användning för poängstraffsförfarandet."
         },
         "source": "RRS B3, 30.2",
         "also": [
@@ -24094,9 +24094,9 @@
           }
         ],
         "why": {
-          "fi": "B4, sääntö 42.",
-          "en": "B4, rule 42.",
-          "sv": "B4, regel 42."
+          "fi": "B4.42 sallii laudoille pumppaamisen ja purjeen tuulettamisen nopeuden lisäämiseksi, koska nämä ovat lautailun normaaleja, laudan hallintaan kuuluvia tekniikoita eivätkä kiellettyä keinotekoista etenemistä kuten tavallisessa purjehduksessa.",
+          "en": "B4.42 allows boards to pump and flag their sail to gain speed, since these are normal board-handling techniques, not the prohibited artificial propulsion they would be in ordinary sailing.",
+          "sv": "B4.42 tillåter brädor att pumpa och fläkta med seglet för att öka farten, eftersom detta är normala bräddhanteringstekniker och inte den förbjudna konstgjorda framdrivning de skulle vara vid vanlig segling."
         },
         "source": "RRS B4, 42",
         "also": [
@@ -24128,9 +24128,9 @@
           }
         ],
         "why": {
-          "fi": "B4, sääntö 44.1.",
-          "en": "B4, rule 44.1.",
-          "sv": "B4, regel 44.1."
+          "fi": "B4.44 korvaa osan 2 säännön rikkomuksen rangaistuksen pelkällä 360° käännöksellä tavallisen kahden kierroksen rangaistuksen sijaan, koska lautailussa kierrosrangaistuksen suorittaminen on hitaampaa ja riskialttiimpaa.",
+          "en": "B4.44 replaces the penalty for breaking a Part 2 rule with a single 360° turn instead of the ordinary two-turn penalty, since performing turns penalties is slower and riskier on a board.",
+          "sv": "B4.44 ersätter straffet för att bryta mot en del 2-regel med bara en 360°-sväng i stället för det vanliga tvåvarvsstraffet, eftersom det är långsammare och mer riskfyllt att utföra varvstraff på en bräda."
         },
         "source": "RRS B4, 44.1",
         "also": [
@@ -24162,9 +24162,9 @@
           }
         ],
         "why": {
-          "fi": "B4, sääntö 44.2.",
-          "en": "B4, rule 44.2.",
-          "sv": "B4, regel 44.2."
+          "fi": "360° käännösrangaistus ei vaadi erillistä vastakäännöstä tai jiippiä, koska lautailussa näitä ei voi erottaa toisistaan samalla tavalla kuin purjeveneellä.",
+          "en": "The 360° turn penalty does not require a separate tack or gybe, since windsurfing cannot distinguish these the way a sailboat does.",
+          "sv": "360°-svängstraffet kräver ingen separat stagvändning eller jippning, eftersom brädsegling inte kan särskilja dessa på samma sätt som en segelbåt."
         },
         "source": "RRS B4, 44.2",
         "also": []
@@ -24194,9 +24194,9 @@
           }
         ],
         "why": {
-          "fi": "B4, sääntö 50.1(a).",
-          "en": "B4, rule 50.1(a).",
-          "sv": "B4, regel 50.1a."
+          "fi": "Sääntö 50.1(a) sallii enintään 1,5 litran juomasäiliön painon lisäämiseen tarkoitettujen vaatteiden ja varusteiden yleisestä kiellosta huolimatta.",
+          "en": "Rule 50.1(a) allows a drink container of up to 1.5 litres despite the general ban on clothing and equipment intended to add weight.",
+          "sv": "Regel 50.1(a) tillåter en dryckesbehållare på upp till 1,5 liter trots det allmänna förbudet mot klädsel och utrustning avsedd att öka vikten."
         },
         "source": "RRS B4, 50.1(a)",
         "also": []
@@ -24226,9 +24226,9 @@
           }
         ],
         "why": {
-          "fi": "B4, sääntö 44.1.",
-          "en": "B4, rule 44.1.",
-          "sv": "B4, regel 44.1."
+          "fi": "Rangaistus on vetäytyminen, jos lauta aiheutti vakavan vahingon tai sai rikkomuksellaan merkittävää etua rangaistuksesta huolimatta — lievempi 360° käännös ei tällöin riitä.",
+          "en": "The penalty is retirement if the board caused serious damage or gained significant advantage from her breach despite taking the penalty — the lighter 360° turn is then not enough.",
+          "sv": "Straffet är utgående om brädan orsakat allvarlig skada eller fått en betydande fördel av sitt regelbrott trots att den tagit straffet — den lindrigare 360°-svängen räcker då inte."
         },
         "source": "RRS B4, 44.1",
         "also": []
@@ -24307,9 +24307,9 @@
           }
         ],
         "why": {
-          "fi": "B5, sääntö 60.4.",
-          "en": "B5, rule 60.4.",
-          "sv": "B5, regel 60.4."
+          "fi": "Muutos säännön 60.4(a)(2) tekstiin sallii protestoivan laudan protestoida, kunhan se oli tapahtumassa osallisena, vaikka se ei olisi varsinaisesti nähnyt tapahtumaa — koska lautailijan oma näkökenttä voi olla rajallinen tilanteessa, jossa hän itse on osapuoli.",
+          "en": "The amendment to rule 60.4(a)(2) lets a protesting board protest as long as she was party to the incident, even without having actually seen it — since a windsurfer's own view can be limited in an incident they are themselves party to.",
+          "sv": "Ändringen av regel 60.4(a)(2) tillåter en protesterande bräda att protestera så länge den var part i tillbudet, även om den inte faktiskt såg det — eftersom en brädseglares egen synvinkel kan vara begränsad i ett tillbud denne själv är part i."
         },
         "source": "RRS B5, 60.4",
         "also": []
@@ -24339,9 +24339,9 @@
           }
         ],
         "why": {
-          "fi": "B5, sääntö 61.4.",
-          "en": "B5, rule 61.4.",
-          "sv": "B5, regel 61.4."
+          "fi": "Liite B lisää kaatumisen hyvityksen perusteisiin loukkaantumisen ja fyysisen vahingon rinnalle, koska kaatuminen on lautailussa tavallinen, mutta silti merkittävästi sijoitusta huonontava tapahtuma.",
+          "en": "Appendix B adds capsizing to the grounds for redress alongside injury and physical damage, since capsizing is common in windsurfing yet can still significantly worsen a finishing position.",
+          "sv": "Bilaga B lägger till kapsejsning som grund för gottgörelse bredvid skada på person och sak, eftersom kapsejsning är vanligt vid brädsegling men ändå kan försämra en placering betydligt."
         },
         "source": "RRS B5, 61.4",
         "also": []
@@ -24371,9 +24371,9 @@
           }
         ],
         "why": {
-          "fi": "B5, sääntö 63.4.",
-          "en": "B5, rule 63.4.",
-          "sv": "B5, regel 63.4."
+          "fi": "Liite B sallii karsintasarjan purjehdusta koskevan protestin tai hyvityspyynnön tekemisen suullisesti lautakunnan jäsenelle heti purjehduksen jälkeen, koska karsintaeriä purjehditaan tiiviisti ilman aikaa kirjalliseen menettelyyn.",
+          "en": "Appendix B allows a protest or redress request about a qualifying-series race to be made orally to a committee member right after the race, since qualifying heats are sailed in quick succession without time for written procedure.",
+          "sv": "Bilaga B tillåter att en protest eller begäran om gottgörelse för en kvalomgångssegling görs muntligt till en kommittéledamot direkt efter seglingen, eftersom kvalheat seglas tätt utan tid för ett skriftligt förfarande."
         },
         "source": "RRS B5, 63.4",
         "also": [
@@ -24405,9 +24405,9 @@
           }
         ],
         "why": {
-          "fi": "B5, sääntö 63.5(d).",
-          "en": "B5, rule 63.5(d).",
-          "sv": "B5, regel 63.5d."
+          "fi": "Sääntö 63.5(d) vaatii alistamaan kysymyksen ja asiaan vaikuttavat tosiasiat asiantuntijataholle, jonka vastaus sitoo lautakuntaa, koska mittaus-, luokkasääntö- ja vahinkokysymykset vaativat teknistä erityisosaamista, jota protestilautakunnalla ei välttämättä ole.",
+          "en": "Rule 63.5(d) requires referring the question and relevant facts to an expert body whose answer binds the committee, since measurement, class-rule and damage questions need technical expertise a protest committee may not have.",
+          "sv": "Regel 63.5(d) kräver att frågan och relevanta fakta hänskjuts till ett sakkunnigorgan vars svar binder kommittén, eftersom frågor om mätning, klassregler och skada kräver teknisk sakkunskap som en protestkommitté kanske inte har."
         },
         "source": "RRS B5, 63.5(d)",
         "also": []
@@ -24437,9 +24437,9 @@
           }
         ],
         "why": {
-          "fi": "B6, sääntö 78.1.",
-          "en": "B6, rule 78.1.",
-          "sv": "B6, regel 78.1."
+          "fi": "Säännön 78.1 lisäys mahdollistaa numeroidun ja päivätyn merkin laudassa, nostokölissä, evässä ja takilassa toimimisen mittaustodistuksena, koska purjelaudoilla ei useinkaan ole erillistä paperista mittakirjaa mukana vesillä.",
+          "en": "The addition to rule 78.1 allows a numbered, dated mark on the board, centreboard, fin and rig to serve as the measurement certificate, since windsurfers often do not carry a separate paper measurement certificate on the water.",
+          "sv": "Tillägget till regel 78.1 gör det möjligt för en numrerad och daterad märkning på brädan, svärdet, fenan och riggen att fungera som mätbrev, eftersom brädseglare ofta inte har ett separat pappersmätbrev med sig på vattnet."
         },
         "source": "RRS B6, 78.1",
         "also": []
@@ -24527,9 +24527,9 @@
           }
         ],
         "why": {
-          "fi": "B8, sääntö A2.1(b).",
-          "en": "B8, rule A2.1(b).",
-          "sv": "B8, regel A2.1b."
+          "fi": "A2.1 jättää pois kaksi huonointa pistemäärää, kun 12 tai useampi purjehdus on pisteytetty, suuremman poisjätettävien määrän kuin lyhyemmissä sarjoissa.",
+          "en": "A2.1 discards two worst scores when 12 or more races have been scored, a larger number than in shorter series.",
+          "sv": "A2.1 stryker två sämsta resultat när 12 eller fler seglingar har poängsatts, fler än i kortare serier."
         },
         "source": "RRS B8, A2.1(b)",
         "also": []
@@ -24559,9 +24559,9 @@
           }
         ],
         "why": {
-          "fi": "B8, sääntö A5.4.",
-          "en": "B8, rule A5.4.",
-          "sv": "B8, regel A5.4."
+          "fi": "A5.4 pisteyttää karsintasarjan purjehduksessa radan purjehtimatta jättäneen, vetäytyneen tai hylätyn laudan purjehdukseen sallittujen laudiden lukumäärällä, koska karsintaerässä on kiinteä, tunnettu osallistujamäärä.",
+          "en": "A5.4 scores a board that did not sail the course, retired, or was disqualified in a qualifying-series race as the number of boards permitted in that race, since a qualifying heat has a fixed, known field size.",
+          "sv": "A5.4 poängsätter en bräda som inte seglade banan, bröt eller diskvalificerades i en kvalomgångssegling som antalet brädor som tillåts i den seglingen, eftersom ett kvalheat har en fast, känd fältstorlek."
         },
         "source": "RRS B8, A5.4",
         "also": []
@@ -24591,9 +24591,9 @@
           }
         ],
         "why": {
-          "fi": "B8, sääntö A8.",
-          "en": "B8, rule A8.",
-          "sv": "B8, regel A8."
+          "fi": "A8 ratkaisee tasapistetilanteen ensin pois jätetyillä tuloksilla, sitten kaikilla tuloksilla, ja vasta lopuksi viimeisen purjehduksen (ja tarvittaessa aiempien) tuloksella, jos aiemmat vaiheet eivät riitä.",
+          "en": "A8 breaks a tie first using discarded results, then all results, and only finally the last race's result (and earlier ones if needed) if the earlier steps are not enough.",
+          "sv": "A8 löser en poänglikhet först med strukna resultat, sedan med alla resultat, och till sist med den sista seglingens resultat (och tidigare om det behövs) om de tidigare stegen inte räcker."
         },
         "source": "RRS B8, A8",
         "also": []
@@ -24623,9 +24623,9 @@
           }
         ],
         "why": {
-          "fi": "B9, sääntö G1.3.",
-          "en": "B9, rule G1.3.",
-          "sv": "B9, regel G1.3."
+          "fi": "G1.3 vaatii kansallisuuskirjainten ja purjenumeron olevan mustia läpinäkymättömällä valkoisella taustalla, jotta ne erottuvat selvästi purjekankaasta taustan väristä riippumatta.",
+          "en": "G1.3 requires national letters and sail numbers to be black on an opaque white background, so they stand out clearly from the sailcloth regardless of its own colour.",
+          "sv": "G1.3 kräver att nationalitetsbokstäver och segelnummer är svarta på en ogenomskinlig vit bakgrund, så att de tydligt syns mot seglet oavsett dess egen färg."
         },
         "source": "RRS B9, G1.3",
         "also": []
@@ -24655,9 +24655,9 @@
           }
         ],
         "why": {
-          "fi": "B9, sääntö G1.3.",
-          "en": "B9, rule G1.3.",
-          "sv": "B9, regel G1.3."
+          "fi": "G1.3 vaatii valkoisen taustan ulottumaan vähintään 30 mm merkkien ulkopuolelle, jotta tausta erottuu selvästi eikä merkkien reunat sekoitu purjeen omaan väriin.",
+          "en": "G1.3 requires the white background to extend at least 30 mm beyond the markings, so the background stands out clearly and the markings' edges do not blend into the sail's own colour.",
+          "sv": "G1.3 kräver att den vita bakgrunden sträcker sig minst 30 mm utanför märkningarna, så att bakgrunden syns tydligt och märkningarnas kanter inte smälter ihop med segelns egen färg."
         },
         "source": "RRS B9, G1.3",
         "also": []
