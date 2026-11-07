@@ -30061,9 +30061,9 @@
           }
         ],
         "why": {
-          "fi": "F2, sääntö 13.",
-          "en": "F2, rule 13.",
-          "sv": "F2, regel 13."
+          "fi": "Liite F poistaa säännön 13 kokonaan leijalautailussa, koska leijalaudoilla ei ole erillistä, muista käännöksistä poikkeavaa vastakäännössääntöä.",
+          "en": "Appendix F deletes rule 13 entirely for kiteboarding, since kiteboards have no separate tacking rule distinct from other turns.",
+          "sv": "Bilaga F tar helt bort regel 13 för kitesegling, eftersom kitebrädor inte har någon separat stagvändningsregel skild från andra svängar."
         },
         "source": "RRS F2, 13",
         "also": [
@@ -30095,9 +30095,9 @@
           }
         ],
         "why": {
-          "fi": "F2, sääntö 18.2(b).",
-          "en": "F2, rule 18.2(b).",
-          "sv": "F2, regel 18.2b."
+          "fi": "Liitteen F mukaan sääntö 18 lakkaa pätemästä heti, kun kumpi tahansa osapuoli vaihtaa halssia vyöhykkeessä — toisin kuin joissain muissa liitteissä, joissa velvollisuus jatkuu tuulensilmän ohitukseen asti.",
+          "en": "Under Appendix F, rule 18 stops applying as soon as either party changes tack in the zone — unlike some other appendices, where the duty continues until passing head to wind.",
+          "sv": "Enligt bilaga F upphör regel 18 att gälla så snart endera parten byter halsa i zonen — till skillnad från vissa andra bilagor, där skyldigheten fortsätter tills man passerat vinden rätt i fören."
         },
         "source": "RRS F2, 18.2(b)",
         "also": [
@@ -30129,9 +30129,9 @@
           }
         ],
         "why": {
-          "fi": "F2, sääntö 21.4.",
-          "en": "F2, rule 21.4.",
-          "sv": "F2, regel 21.4."
+          "fi": "Uusi sääntö 21.4 velvoittaa hyppäävän leijalaudan pysymään loitolla hyppäämättömästä laudasta, koska hyppäävä lauta on arvaamattomampi ja sillä on parempi mahdollisuus väistää.",
+          "en": "The new rule 21.4 requires a jumping kiteboard to keep clear of a non-jumping board, since the jumping board is less predictable and better placed to avoid the other.",
+          "sv": "Den nya regeln 21.4 kräver att en hoppande kitebräda håller undan för en icke-hoppande bräda, eftersom den hoppande brädan är mindre förutsägbar och har bättre möjlighet att undvika den andra."
         },
         "source": "RRS F2, 21.4",
         "also": []
@@ -30161,9 +30161,9 @@
           }
         ],
         "why": {
-          "fi": "F2, sääntö 21.3.",
-          "en": "F2, rule 21.3.",
-          "sv": "F2, regel 21.3."
+          "fi": "Sääntö 21.3 velvoittaa viimeisen minuutin ajan pysähtyvän tai merkittävästi hidastuvan laudan pysymään loitolla kaikista muista, paitsi jos se on vahingossa kaatunut, koska pysähtynyt lauta on arvaamaton este lähtöä valmistelevalle kentälle.",
+          "en": "Rule 21.3 requires a board that stops or slows substantially in the last minute to keep clear of all others, except when accidentally capsized, since a stopped board is an unpredictable obstacle on a field preparing to start.",
+          "sv": "Regel 21.3 kräver att en bräda som stannar eller saktar in väsentligt under sista minuten håller undan för alla andra, utom vid en oavsiktlig kapsejsning, eftersom en stillastående bräda är ett oförutsägbart hinder på ett fält som förbereder start."
         },
         "source": "RRS F2, 21.3",
         "also": []
@@ -30271,9 +30271,9 @@
           }
         ],
         "why": {
-          "fi": "F3, sääntö 26.",
-          "en": "F3, rule 26.",
-          "sv": "F3, regel 26."
+          "fi": "Liite F korvaa tavallisen sääntöjen 26 ja 30.1/30.2 lähtöjärjestelmän lyhyemmällä kaavalla, jossa lippu U tai musta lippu toimii valmiusviestinä kaksi minuuttia ennen lähtöä.",
+          "en": "Appendix F replaces the ordinary rule 26 and 30.1/30.2 starting system with a shorter scheme, in which flag U or the black flag serves as the preparatory signal two minutes before the start.",
+          "sv": "Bilaga F ersätter det vanliga startsystemet enligt regel 26 och 30.1/30.2 med ett kortare system, där flagg U eller svart flagga fungerar som förberedelsesignal två minuter före start."
         },
         "source": "RRS F3, 26",
         "also": []
@@ -30303,9 +30303,9 @@
           }
         ],
         "why": {
-          "fi": "F3, sääntö 30.",
-          "en": "F3, rule 30.",
-          "sv": "F3, regel 30."
+          "fi": "Liite F poistaa säännöt 30.1 ja 30.2 kokonaan, koska leijalautailun lyhyempi lähtöjärjestelmä ei käytä I- tai Z-lippumenettelyjä lainkaan.",
+          "en": "Appendix F deletes rules 30.1 and 30.2 entirely, since kiteboarding's shorter starting system does not use the I- or Z-flag procedures at all.",
+          "sv": "Bilaga F tar helt bort reglerna 30.1 och 30.2, eftersom kiteseglingens kortare startsystem inte alls använder I- eller Z-flaggförfarandena."
         },
         "source": "RRS F3, 30",
         "also": []
@@ -30335,9 +30335,9 @@
           }
         ],
         "why": {
-          "fi": "F4, sääntö 44.1.",
-          "en": "F4, rule 44.1.",
-          "sv": "F4, regel 44.1."
+          "fi": "Sääntö 44.1 muuttuu liitteessä F niin, että osan 2 säännön tai säännön 31 rikkomisesta riittää Yhden Kierroksen Rangaistus — ei tavallista kahden kierroksen rangaistusta.",
+          "en": "Rule 44.1 is amended under Appendix F so that a One-Turn Penalty is enough for breaking a Part 2 rule or rule 31 — not the ordinary two-turn penalty.",
+          "sv": "Regel 44.1 ändras enligt bilaga F så att ett Enkelsvängsstraff räcker för att bryta mot en del 2-regel eller regel 31 — inte det vanliga tvåvarvsstraffet."
         },
         "source": "RRS F4, 44.1",
         "also": [
@@ -30369,9 +30369,9 @@
           }
         ],
         "why": {
-          "fi": "F4, sääntö 44.2.",
-          "en": "F4, rule 44.2.",
-          "sv": "F4, regel 44.2."
+          "fi": "Sääntö 44.2 muuttuu liitteessä F niin, että rangaistus on pelkkä 360° käännös ilman erillistä vastakäännös- tai jiippivaatimusta, koska leijalaudalla näitä ei voi erotella tavallisen purjeveneen tapaan.",
+          "en": "Rule 44.2 is amended under Appendix F so the penalty is simply a 360° turn without a separate tack or gybe requirement, since a kiteboard cannot distinguish these the way an ordinary sailboat does.",
+          "sv": "Regel 44.2 ändras enligt bilaga F så att straffet är bara en 360°-sväng utan separat krav på stagvändning eller jippning, eftersom en kitebräda inte kan särskilja dessa på samma sätt som en vanlig segelbåt."
         },
         "source": "RRS F4, 44.2",
         "also": []
@@ -30401,9 +30401,9 @@
           }
         ],
         "why": {
-          "fi": "F4, sääntö 50.1(a).",
-          "en": "F4, rule 50.1(a).",
-          "sv": "F4, regel 50.1a."
+          "fi": "Sääntö 50.1(a) sallii liitteessä F juomasäiliön, jonka täytenä paino saa olla enintään 1,5 kg — poikkeuksena yleiseen kieltoon lisätä painoa vaatteilla tai varusteilla.",
+          "en": "Rule 50.1(a) allows under Appendix F a drink container weighing at most 1.5 kg when full — an exception to the general ban on clothing or equipment added for weight.",
+          "sv": "Regel 50.1(a) tillåter enligt bilaga F en dryckesbehållare som väger högst 1,5 kg fylld — ett undantag från det allmänna förbudet mot klädsel eller utrustning som läggs till för vikt."
         },
         "source": "RRS F4, 50.1(a)",
         "also": []
@@ -30479,9 +30479,9 @@
           }
         ],
         "why": {
-          "fi": "F5, sääntö 60.2(b).",
-          "en": "F5, rule 60.2(b).",
-          "sv": "F5, regel 60.2b."
+          "fi": "Liite F vapauttaa huutovaatimuksesta nimenomaan tilanteissa, joissa huuto ei olisi käytännössä tavoittanut protestin kohdetta tai kyse ei ollut huudettavasta tapahtumasta — esimerkiksi kun kohde ei ollut kuuloetäisyydellä, kyse oli radan purjehtimisen virheestä tai protestoija ei itse nähnyt tapahtumaa.",
+          "en": "Appendix F waives the hail requirement specifically in situations where a hail would not practically have reached the protest's target or the matter was not one to hail about — such as when the target was out of earshot, the matter was a course-sailing error, or the protestor did not see the incident herself.",
+          "sv": "Bilaga F befriar från ropkravet just i situationer där ett rop i praktiken inte skulle ha nått protestens mål eller saken inte var något att ropa om — till exempel när målet inte var inom hörhåll, det gällde ett fel i att segla banan, eller protestanten inte själv såg tillbudet."
         },
         "source": "RRS F5, 60.2(b)",
         "also": [
@@ -30513,9 +30513,9 @@
           }
         ],
         "why": {
-          "fi": "F5, sääntö 60.5(e).",
-          "en": "F5, rule 60.5(e).",
-          "sv": "F5, regel 60.5e."
+          "fi": "Uusi sääntö 60.5(e) määrää toistuvasta, vapauttamattomasta sotkeentumisesta ankaran rangaistuksen — hylkäyksen, jota ei voi jättää pois lopputuloksista — koska leijojen sotkeentuminen on erityisen vaarallinen tilanne.",
+          "en": "The new rule 60.5(e) sets a severe penalty for a repeated, non-exonerated entanglement — a disqualification that cannot be excluded from the results — since kite entanglement is an especially dangerous situation.",
+          "sv": "Den nya regeln 60.5(e) fastställer ett strängt straff för en upprepad, icke friad hoptrassling — en diskvalifikation som inte får strykas från resultaten — eftersom hoptrassling av kitar är en särskilt farlig situation."
         },
         "source": "RRS F5, 60.5(e)",
         "also": []
@@ -30545,9 +30545,9 @@
           }
         ],
         "why": {
-          "fi": "F5, sääntö 63.8(b).",
-          "en": "F5, rule 63.8(b).",
-          "sv": "F5, regel 63.8b."
+          "fi": "Uusi sääntö 63.8 keventää karsintasarjan menettelyä sallimalla protestin tai hyvityspyynnön tekemisen suullisesti protestilautakunnan jäsenelle heti purjehduksen jälkeen, koska karsintaeriä purjehditaan tiiviissä tahdissa ilman aikaa kirjalliseen menettelyyn.",
+          "en": "The new rule 63.8 lightens qualifying-series procedure by allowing a protest or redress request to be made orally to a protest committee member right after the race, since qualifying heats are sailed in quick succession without time for written procedure.",
+          "sv": "Den nya regeln 63.8 lättar upp förfarandet i kvalomgångar genom att tillåta att en protest eller begäran om gottgörelse görs muntligt till en protestkommittéledamot direkt efter seglingen, eftersom kvalheat seglas tätt inpå varandra utan tid för ett skriftligt förfarande."
         },
         "source": "RRS F5, 63.8(b)",
         "also": []
@@ -30577,9 +30577,9 @@
           }
         ],
         "why": {
-          "fi": "F5, sääntö 70.6.",
-          "en": "F5, rule 70.6.",
-          "sv": "F5, regel 70.6."
+          "fi": "Uusi sääntö 70.6 kieltää muutoksenhaun kokonaan karsintasarjoja käyttävissä lajeissa ja kilpailumuodoissa, koska niiden nopeatempoinen, suullinen protestimenettely (63.8) ei sovi yhteen hitaan muutoksenhakuprosessin kanssa.",
+          "en": "The new rule 70.6 bans appeals entirely in disciplines and formats using qualifying series, since their fast-paced, oral protest procedure (63.8) does not fit with a slow appeal process.",
+          "sv": "Den nya regeln 70.6 förbjuder överklagande helt i discipliner och format med kvalomgångar, eftersom deras snabba, muntliga protestförfarande (63.8) inte går ihop med en långsam överklagandeprocess."
         },
         "source": "RRS F5, 70.6",
         "also": [
@@ -30611,9 +30611,9 @@
           }
         ],
         "why": {
-          "fi": "F7, sääntö 90.2(c).",
-          "en": "F7, rule 90.2(c).",
-          "sv": "F7, regel 90.2c."
+          "fi": "Säännön 90.2(c) liitteen F -muutos rajaa suulliset purjehdusohjemuutokset vain tapauksiin, joissa purjehdusohjeet on etukäteen kertonut tällaisesta menettelystä — kilpailulautakunta ei voi ottaa tätä oikeutta itselleen tilanteen mukaan.",
+          "en": "Appendix F's amendment to rule 90.2(c) limits oral sailing instruction changes to cases where the sailing instructions have described that procedure in advance — the race committee cannot grant itself this right as the situation demands.",
+          "sv": "Bilaga F:s ändring av regel 90.2(c) begränsar muntliga ändringar av seglingsföreskrifterna till fall där seglingsföreskrifterna i förväg beskrivit det förfarandet — kappseglingskommittén kan inte ge sig själv den rätten efter situationen."
         },
         "source": "RRS F7, 90.2(c)",
         "also": []
@@ -30689,9 +30689,9 @@
           }
         ],
         "why": {
-          "fi": "F8, sääntö A5.2.",
-          "en": "F8, rule A5.2.",
-          "sv": "F8, regel A5.2."
+          "fi": "A5.2 antaa radan purjehtimatta jättäneelle, vetäytyneelle tai hylätylle laudalle ilmoittautuneiden (tai karsintaerässä olleiden) laudiden määrän lisättynä yhdellä — huonomman pistemäärän kuin kenelläkään maaliin tulleella, mutta ei nollaa.",
+          "en": "A5.2 scores a board that did not sail the course, retired, or was disqualified as the number of boards entered (or in the qualifying heat) plus one — worse than anyone who finished, but not zero.",
+          "sv": "A5.2 ger en bräda som inte seglade banan, bröt eller diskvalificerades poängen som antalet anmälda brädor (eller brädor i kvalheatet) plus ett — sämre än någon som gått i mål, men inte noll."
         },
         "source": "RRS F8, A5.2",
         "also": []
@@ -30721,9 +30721,9 @@
           }
         ],
         "why": {
-          "fi": "F8, sääntö A10.",
-          "en": "F8, rule A10.",
-          "sv": "F8, regel A10."
+          "fi": "A10 lisää lyhenteen DCT nimenomaan sotkeentumisen aiheuttamisesta johtuvalle hylkäykselle, erotukseksi muista hylkäyslyhenteistä kuten DNE.",
+          "en": "A10 adds the abbreviation DCT specifically for a disqualification caused by causing an entanglement, distinct from other disqualification abbreviations like DNE.",
+          "sv": "A10 lägger till förkortningen DCT specifikt för en diskvalifikation som orsakats av att framkalla en hoptrassling, skild från andra diskvalifikationsförkortningar som DNE."
         },
         "source": "RRS F8, A10",
         "also": []
@@ -30753,9 +30753,9 @@
           }
         ],
         "why": {
-          "fi": "F9.",
-          "en": "F9.",
-          "sv": "F9."
+          "fi": "Liite F korvaa pääsäännön purjenumero- ja kansallisuuskirjainjärjestelmän kokonaan yksinkertaisemmalla tunnisteliivillä, jossa on henkilökohtainen, enintään kolminumeroinen kilpailunumero — leijalaudassa ei ole purjetta, johon numerot voisi kiinnittää.",
+          "en": "Appendix F replaces the main rules' sail-number and national-letter system entirely with a simpler identification vest bearing a personal competitor number of at most three digits — a kiteboard has no sail to attach numbers to.",
+          "sv": "Bilaga F ersätter huvudreglernas segelnummer- och nationalitetsbokstavssystem helt med en enklare identifieringsväst med ett personligt, högst tresiffrigt tävlingsnummer — en kitebräda har inget segel att fästa nummer på."
         },
         "source": "RRS F9",
         "also": []
@@ -30785,9 +30785,9 @@
           }
         ],
         "why": {
-          "fi": "F9, G1(b).",
-          "en": "F9, G1(b).",
-          "sv": "F9, G1b."
+          "fi": "Uusi liite G vaatii tunnisteliivin takana olevat numerot vähintään 20 cm korkeiksi, jotta ne erottuvat selvästi kauempaa kuin edessä tai hihoissa olevat, vähintään 6 cm korkeat numerot.",
+          "en": "The new Appendix G requires the numbers on the back of the vest to be at least 20 cm high, so they are clearly visible from further away than the front or sleeve numbers, which need only be at least 6 cm.",
+          "sv": "Den nya bilagan G kräver att numren på västens rygg är minst 20 cm höga, så att de syns tydligt på längre avstånd än framsidans eller ärmarnas nummer, som bara behöver vara minst 6 cm."
         },
         "source": "RRS F9, G1(b)",
         "also": []
@@ -30817,9 +30817,9 @@
           }
         ],
         "why": {
-          "fi": "F9, G1(c).",
-          "en": "F9, G1(c).",
-          "sv": "F9, G1c."
+          "fi": "Uusi liite G vaatii numeroiden olevan arabialaisia, kaikkien kilpailijoiden samaa yhtenäistä väriä, selvästi luettavia ja vähintään Helveticaa vastaavalla kaupallisella kirjasintyypillä, lisäksi liivin väriin kontrastoituna — käsinkirjoitetut tai sekalaiset numerot eivät täytä tätä.",
+          "en": "The new Appendix G requires the numbers to be Arabic numerals, all competitors' the same uniform colour, clearly legible and in a commercial typeface at least as readable as Helvetica, and contrasting with the vest's colour — handwritten or mismatched numbers do not meet this.",
+          "sv": "Den nya bilagan G kräver att numren är arabiska siffror, samma enhetliga färg för alla deltagare, tydligt läsbara och i ett kommersiellt typsnitt minst lika läsbart som Helvetica, samt kontrasterande mot västens färg — handskrivna eller omaka nummer uppfyller inte detta."
         },
         "source": "RRS F9, G1(c)",
         "also": []
