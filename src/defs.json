@@ -372,7 +372,7 @@
    118
   ],
   "explain": {
-   "fi": "Merkkitila on tila veneelle (a) purjehtia merkille, kun sen oikea suunta on purjehtia sen lähelle, (b) kiertää tai ohittaa merkki vaaditulta puolelta ja (c) jättää se perään. Case 118: kohta (a) tarkoittaa tilaa purjehtia viipymättä ja merenkulkutaidolla oikeaoppisesti merkin lähelle sen vaaditulle puolelle.",
+   "fi": "Merkkitila on tila veneelle (a) purjehtia merkille, kun sen oikea suunta on purjehtia sen lähelle, (b) kiertää tai ohittaa merkki vaaditulta puolelta ja (c) jättää se perään. Case 118: kohta (a) tarkoittaa tilaa purjehtia viipymättä ja merimiesmäisesti oikeaoppisesti merkin lähelle sen vaaditulle puolelle.",
    "sv": "Märkesplats är plats för en båt (a) att segla till märket när dess tillbörliga kurs är att segla nära det, (b) att runda eller passera märket på föreskriven sida och (c) att lämna det akter om sig. Case 118: i (a) betyder plats att segla till märket utrymme att utan dröjsmål och sjömansmässigt segla till ett läge nära märket på dess föreskrivna sida.",
    "en": "Mark-room is room for a boat (a) to sail to the mark when her proper course is to sail close to it, (b) to round or pass the mark on the required side, and (c) to leave it astern. Case 118: in (a), 'room to sail to the mark' means space to sail promptly and in a seamanlike way to a position close to the mark on its required side."
   },
@@ -611,7 +611,7 @@
    146
   ],
   "explain": {
-   "fi": "Tila on se tila, jonka vene tarvitsee vallitsevissa olosuhteissa, mukaan lukien tila osan 2 ja säännön 31 velvoitteiden täyttämiseen, kun se liikkuu viipymättä ja merenkulkutaidolla.",
+   "fi": "Tila on se tila, jonka vene tarvitsee vallitsevissa olosuhteissa, mukaan lukien tila osan 2 ja säännön 31 velvoitteiden täyttämiseen, kun se liikkuu viipymättä ja merimiesmäisesti.",
    "sv": "Plats är det utrymme en båt behöver under rådande förhållanden, inklusive utrymme för att uppfylla sina skyldigheter enligt del 2 och regel 31, när hon manövrerar utan dröjsmål och sjömansmässigt.",
    "en": "Room is the space a boat needs in the existing conditions, including space to meet her obligations under Part 2 and rule 31, while manoeuvring promptly and in a seamanlike way."
   },
