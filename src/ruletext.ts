@@ -43,16 +43,16 @@ export function pageLines(all: Item[]): string[] {
 // rules: single rules outside Part 2, from their heading line up to the next rule.
 // apps: one entry per appendix letter in book order (A,B,C,D,E,F,G,H,J,M,N,P,R,S,T), clause ids e.g. 'M1', 'E1.1'.
 const APPX = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'P', 'R', 'S', 'T'] as const;
-// Builds the [letter, start, end] triples for one language from each appendix's first-occurrence start line (a function of the letter); end is the next appendix's start, undefined (-> EOF) for the last.
-function appsFor(startOf: (l: string) => RegExp): [string, RegExp, RegExp | undefined][] {
-  return APPX.map((l, i) => [l, startOf(l), i + 1 < APPX.length ? startOf(APPX[i + 1]) : undefined]);
+// Builds the [letter, start, end] triples for one language from each appendix's first-occurrence start line (a function of the letter); the last appendix (T) ends at the given marker, short of the book's back matter (ISBN block, colophon), which otherwise leaks into T4's body as T has no next appendix to stop at.
+function appsFor(startOf: (l: string) => RegExp, tEnd: RegExp): [string, RegExp, RegExp | undefined][] {
+  return APPX.map((l, i) => [l, startOf(l), i + 1 < APPX.length ? startOf(APPX[i + 1]) : tEnd]);
 }
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; apps: [string, RegExp, RegExp | undefined][]; furniture: RegExp; see: string[]; section: RegExp }> = {
   en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]],
-    apps: appsFor(l => new RegExp(`^\\s*APPENDIX ${l}$`)),
+    apps: appsFor(l => new RegExp(`^\\s*APPENDIX ${l}$`), /^www\.sailing\.org$/),
     furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix [A-Z]\s+[\p{Lu}\d ]+|\d+)\s*$/u, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
   fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]],
-    apps: appsFor(l => new RegExp(`^LIITE ${l}$`)),
+    apps: appsFor(l => new RegExp(`^LIITE ${l}$`), /^MUISTIINPANOJA$/),
     furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[\p{Lu} ,;]+|Liite [A-Z]\s+[\p{Lu}\d ]+|LIITE [A-Z] [\p{Lu}\d \-]+|\d+|\.)\s*$/u, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
   sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]],
     apps: [
@@ -70,7 +70,7 @@ const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules:
       ['P', /^APPENDIX P – SÄRSKILDA PROCEDURER$/, /^APPENDIX R – PROCEDURER FÖR$/],
       ['R', /^APPENDIX R – PROCEDURER FÖR$/, /^APPENDIX S – STANDARDSEGLINGS$/],
       ['S', /^APPENDIX S – STANDARDSEGLINGS$/, /^APPENDIX T – MEDLING$/],
-      ['T', /^APPENDIX T – MEDLING$/, undefined],
+      ['T', /^APPENDIX T – MEDLING$/, /^ANTECKNINGAR$/],
     ],
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu}\d ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
