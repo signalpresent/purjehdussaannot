@@ -20027,9 +20027,9 @@
           }
         ],
         "why": {
-          "fi": "76.2(a) ja 76.3.",
-          "en": "Rules 76.2(a) and 76.3.",
-          "sv": "Reglerna 76.2a och 76.3."
+          "fi": "76.2(a) kieltää järjestäjää hylkäämästä ilmoittautumista mainonnan perusteella, kun vene noudattaa World Sailingin Mainos-Säännöstöä; 76.3 antaa tällöin oikeuden hyvityspyyntöön.",
+          "en": "76.2(a) forbids an organizer from rejecting an entry over advertising when the boat complies with World Sailing's Advertising Code; 76.3 then gives the right to request redress.",
+          "sv": "76.2(a) förbjuder en arrangör att avvisa en anmälan på grund av reklam när båten följer World Sailings reklamregler; 76.3 ger då rätt att begära gottgörelse."
         },
         "source": "RRS 76.2(a), 76.3",
         "also": [
@@ -20097,9 +20097,9 @@
           }
         ],
         "why": {
-          "fi": "G3.",
-          "en": "Rule G3.",
-          "sv": "Regel G3."
+          "fi": "Sääntö 77 viittaa liitteeseen G, jonka G3 sallii vuokra- tai lainaveneelle poikkeavat kansallisuuskirjaimet juuri silloin, kun kilpailukutsu tai purjehdusohjeet sen sallivat.",
+          "en": "Rule 77 refers to Appendix G, whose G3 allows a chartered or borrowed boat different national letters precisely when the notice of race or sailing instructions permit it.",
+          "sv": "Regel 77 hänvisar till bilaga G, vars G3 tillåter en chartrad eller lånad båt avvikande nationalitetsbokstäver just när inbjudan eller seglingsföreskrifterna tillåter det."
         },
         "source": "RRS 77; Appendix G3",
         "also": []
@@ -20129,9 +20129,9 @@
           }
         ],
         "why": {
-          "fi": "G4.",
-          "en": "Rule G4.",
-          "sv": "Regel G4."
+          "fi": "G4 antaa protestilautakunnalle vaihtoehdon: joko varoitus ja korjausaika tai rangaistus — ei pelkkää automaattista hylkäystä.",
+          "en": "G4 gives the protest committee a choice: either a warning with time to correct, or a penalty — not an automatic disqualification.",
+          "sv": "G4 ger protestkommittén ett val: antingen en varning med tid att rätta till felet, eller ett straff — inte en automatisk diskvalifikation."
         },
         "source": "RRS 77; Appendix G4",
         "also": []
@@ -20290,9 +20290,9 @@
           }
         ],
         "why": {
-          "fi": "78.1.",
-          "en": "Rule 78.1.",
-          "sv": "Regel 78.1."
+          "fi": "78.1 asettaa vastuun nimenomaan omistajalle ja muulle vastuuhenkilölle, ei mittaajalle eikä kilpailulautakunnalle.",
+          "en": "78.1 places the responsibility specifically on the owner and any other person in charge, not on the measurer or the race committee.",
+          "sv": "78.1 lägger ansvaret just på ägaren och en annan eventuell ansvarig person, inte på mätaren eller kappseglingskommittén."
         },
         "source": "RRS 78.1",
         "also": []
@@ -20395,9 +20395,9 @@
           }
         ],
         "why": {
-          "fi": "78.1, viimeinen virke.",
-          "en": "Rule 78.1, last sentence.",
-          "sv": "Regel 78.1, sista meningen."
+          "fi": "78.1:n viimeinen virke kytkee rangaistuksen samaan lievempään tasoon, joka on säädetty kyseisen luokkasäännön rikkomiselle.",
+          "en": "The last sentence of 78.1 ties the penalty to the same lighter level set for breaking that class rule itself.",
+          "sv": "Sista meningen i 78.1 kopplar straffet till samma lindrigare nivå som är fastställd för att bryta mot själva klassregeln."
         },
         "source": "RRS 78.1",
         "also": []
@@ -20463,9 +20463,9 @@
           }
         ],
         "why": {
-          "fi": "Sääntö 79.",
-          "en": "Rule 79.",
-          "sv": "Regel 79."
+          "fi": "Sääntö 79 edellyttää, että luokitus tehdään World Sailingin Kilpailijaluokitussäännöstön mukaan, ei järjestäjän oman harkinnan mukaan.",
+          "en": "Rule 79 requires that categorization follow World Sailing's Sailor Categorization Code, not the organizer's own judgment.",
+          "sv": "Regel 79 kräver att klassificeringen görs enligt World Sailings regler för klassificering av seglare, inte efter arrangörens eget gottfinnande."
         },
         "source": "RRS 79",
         "also": []
@@ -20495,9 +20495,9 @@
           }
         ],
         "why": {
-          "fi": "86.1(a) ja (b).",
-          "en": "Rule 86.1(a) and (b).",
-          "sv": "Regel 86.1a och b."
+          "fi": "86.1(a) sulkee säännön 79 pois niistä säännöistä, joita edes kansallisen järjestön määräykset saavat muuttaa, ja 86.1(b) kieltää saman purjehdusohjeilta.",
+          "en": "86.1(a) excludes rule 79 from the rules even national authority prescriptions may change, and 86.1(b) forbids the same for sailing instructions.",
+          "sv": "86.1(a) utesluter regel 79 från de regler som ens den nationella myndighetens föreskrifter får ändra, och 86.1(b) förbjuder detsamma för seglingsföreskrifterna."
         },
         "source": "RRS 86.1",
         "also": [
@@ -20565,9 +20565,9 @@
           }
         ],
         "why": {
-          "fi": "Sääntö 80.",
-          "en": "Rule 80.",
-          "sv": "Regel 80."
+          "fi": "Sääntö 80 antaa kilpailulautakunnalle harkintavallan hyväksyä uusia ilmoittautumisia siirretyn tapahtuman uusiin päiviin, vaikka alkuperäinen määräaika on jo ohi.",
+          "en": "Rule 80 gives the race committee discretion to accept new entries for the postponed event's new dates, even though the original deadline has already passed.",
+          "sv": "Regel 80 ger kappseglingskommittén möjlighet att godkänna nya anmälningar till det uppskjutna evenemangets nya dagar, trots att den ursprungliga anmälningstiden redan gått ut."
         },
         "source": "RRS 80",
         "also": []
@@ -20597,9 +20597,9 @@
           }
         ],
         "why": {
-          "fi": "Sääntö 80.",
-          "en": "Rule 80.",
-          "sv": "Regel 80."
+          "fi": "Sääntö 80 vaatii ilmoittamaan siirrosta kaikille jo ilmoittautuneille veneille, ei vain luokkaliitolle.",
+          "en": "Rule 80 requires that the change be notified to all boats already entered, not just the class association.",
+          "sv": "Regel 80 kräver att ändringen meddelas alla redan anmälda båtar, inte bara klassförbundet."
         },
         "source": "RRS 80",
         "also": []
@@ -20701,9 +20701,9 @@
           }
         ],
         "why": {
-          "fi": "85.1, viimeinen virke.",
-          "en": "Rule 85.1, last sentence.",
-          "sv": "Regel 85.1, sista meningen."
+          "fi": "85.1:n viimeinen virke määrittelee muutoksen kattavan sekä lisäyksen että säännön täydellisen tai osittaisen poiston.",
+          "en": "The last sentence of 85.1 defines a change as covering both an addition and a complete or partial deletion of a rule.",
+          "sv": "Sista meningen i 85.1 definierar en ändring som att omfatta både ett tillägg och ett fullständigt eller delvis borttagande av en regel."
         },
         "source": "RRS 85.1",
         "also": []
@@ -20886,9 +20886,9 @@
           }
         ],
         "why": {
-          "fi": "86.1(c).",
-          "en": "Rule 86.1(c).",
-          "sv": "Regel 86.1c."
+          "fi": "86.1(c) rajaa luokkasääntöjen muutosvallan tarkasti näihin kahdeksaan sääntöön; mitään muuta, kuten koko osaa 4, ne eivät saa muuttaa.",
+          "en": "86.1(c) limits class rules' power to amend to exactly these eight rules; they may not change anything else, such as all of Part 4.",
+          "sv": "86.1(c) begränsar klassreglernas ändringsrätt till exakt dessa åtta regler; de får inte ändra något annat, som hela del 4."
         },
         "source": "RRS 86.1(c)",
         "also": []
@@ -20918,9 +20918,9 @@
           }
         ],
         "why": {
-          "fi": "86.1(b).",
-          "en": "Rule 86.1(b).",
-          "sv": "Regel 86.1b."
+          "fi": "86.1(b) nimeää säännön 4 yhdeksi niistä, joita kilpailukutsu tai purjehdusohjeet eivät saa muuttaa.",
+          "en": "86.1(b) names rule 4 as one of the rules the notice of race or sailing instructions may not change.",
+          "sv": "86.1(b) nämner regel 4 som en av de regler som inbjudan eller seglingsföreskrifterna inte får ändra."
         },
         "source": "RRS 86.1(b)",
         "also": [
@@ -21020,9 +21020,9 @@
           }
         ],
         "why": {
-          "fi": "Sääntö 87.",
-          "en": "Rule 87.",
-          "sv": "Regel 87."
+          "fi": "Sääntö 87 vaatii joko luokkasääntöjen oman luvan tai luokkaliiton kirjallisen, virallisella ilmoitustaululla olevan luvan — pelkkä kilpailulautakunnan päätös ei riitä.",
+          "en": "Rule 87 requires either the class rules' own permission or the class association's written approval posted on the official notice board — a race committee decision alone is not enough.",
+          "sv": "Regel 87 kräver antingen klassreglernas eget tillstånd eller klassförbundets skriftliga godkännande anslaget på den officiella anslagstavlan — ett beslut av kappseglingskommittén räcker inte."
         },
         "source": "RRS 87",
         "also": []
@@ -21130,9 +21130,9 @@
           }
         ],
         "why": {
-          "fi": "88.1.",
-          "en": "Rule 88.1.",
-          "sv": "Regel 88.1."
+          "fi": "88.1 vaatii kilpailukutsua ilmoittamaan, mitkä kansalliset määräykset pätevät ja milloin, kun kilpailu ulottuu useamman kansallisen järjestön vesille.",
+          "en": "88.1 requires the notice of race to state which national prescriptions apply and when, whenever the event extends into the waters of more than one national authority.",
+          "sv": "88.1 kräver att inbjudan anger vilka nationella föreskrifter som gäller och när, när tävlingen sträcker sig in på mer än en nationell myndighets vatten."
         },
         "source": "RRS 88.1",
         "also": []
@@ -21162,9 +21162,9 @@
           }
         ],
         "why": {
-          "fi": "88.2.",
-          "en": "Rule 88.2.",
-          "sv": "Regel 88.2."
+          "fi": "88.2 sallii kilpailukutsun tai purjehdusohjeiden muuttaa määräystä, ellei kansallinen järjestö ole World Sailingin suostumuksella rajoittanut juuri sitä määräystä.",
+          "en": "88.2 allows the notice of race or sailing instructions to change a prescription, unless the national authority has, with World Sailing's consent, specifically restricted that prescription.",
+          "sv": "88.2 tillåter att inbjudan eller seglingsföreskrifterna ändrar en föreskrift, om inte den nationella myndigheten med World Sailings samtycke särskilt har begränsat just den föreskriften."
         },
         "source": "RRS 88.2",
         "also": []
@@ -21240,9 +21240,9 @@
           }
         ],
         "why": {
-          "fi": "89.1(e).",
-          "en": "Rule 89.1(e).",
-          "sv": "Regel 89.1e."
+          "fi": "89.1(e) sallii kansalliseen järjestöön kuulumattoman luokkaliiton järjestää kilpailun, kun järjestöön kuuluva seura on mukana tai kansallinen järjestö suostuu.",
+          "en": "89.1(e) allows a class association that does not belong to a national authority to organize an event when a member club is involved or the national authority consents.",
+          "sv": "89.1(e) tillåter ett klassförbund som inte tillhör en nationell myndighet att arrangera en tävling när en ansluten klubb medverkar eller myndigheten samtycker."
         },
         "source": "RRS 89.1(e)",
         "also": []
@@ -21313,9 +21313,9 @@
           }
         ],
         "why": {
-          "fi": "89.2(b).",
-          "en": "Rule 89.2(b).",
-          "sv": "Regel 89.2b."
+          "fi": "89.2(b) sallii kilpailukutsun muuttamisen milloin tahansa, kunhan muutoksesta ilmoitetaan riittävästi.",
+          "en": "89.2(b) allows the notice of race to be changed at any time, as long as adequate notice of the change is given.",
+          "sv": "89.2(b) tillåter att inbjudan ändras när som helst, så länge ändringen meddelas tillräckligt väl."
         },
         "source": "RRS 89.2(b)",
         "also": []
@@ -21427,9 +21427,9 @@
           }
         ],
         "why": {
-          "fi": "90.2(c).",
-          "en": "Rule 90.2(c).",
-          "sv": "Regel 90.2c."
+          "fi": "90.2(c) sallii suulliset muutokset vain vesillä ja vain, jos menettely on kuvattu purjehdusohjeissa; satamassa annettu suullinen muutos ei siis kelpaa.",
+          "en": "90.2(c) allows oral changes only on the water and only if the procedure is described in the sailing instructions; an oral change given ashore in the harbor does not count.",
+          "sv": "90.2(c) tillåter muntliga ändringar bara på vattnet och bara om förfarandet beskrivs i seglingsföreskrifterna; en muntlig ändring given i hamnen gäller alltså inte."
         },
         "source": "RRS 90.2(c)",
         "also": []
@@ -21491,9 +21491,9 @@
           }
         ],
         "why": {
-          "fi": "90.3(b).",
-          "en": "Rule 90.3(b).",
-          "sv": "Regel 90.3b."
+          "fi": "90.3(b) vaatii laskemaan jokaisen DNE-hylkäyksen (jota ei saa jättää pois) mukaan kokonaispistemäärään, vaikka sarjassa muuten vähennettäisiin huonoin tulos.",
+          "en": "90.3(b) requires every DNE disqualification (one that may not be excluded) to be counted toward the total score, even when the series otherwise discards a worst result.",
+          "sv": "90.3(b) kräver att varje DNE-diskvalifikation (en som inte får strykas) räknas med i totalpoängen, även om serien annars stryker det sämsta resultatet."
         },
         "source": "RRS 90.3(b)",
         "also": []
@@ -21555,9 +21555,9 @@
           }
         ],
         "why": {
-          "fi": "90.3(c).",
-          "en": "Rule 90.3(c).",
-          "sv": "Regel 90.3c."
+          "fi": "90.3(c) velvoittaa kilpailulautakunnan itse korjaamaan huomaamansa pistevirheen ja julkaisemaan korjatut tulokset, ilman että kukaan pyytää hyvitystä.",
+          "en": "90.3(c) requires the race committee itself to correct a scoring error it notices and publish the corrected results, without anyone needing to request redress.",
+          "sv": "90.3(c) kräver att kappseglingskommittén själv rättar ett poängfel den upptäcker och publicerar de rättade resultaten, utan att någon behöver begära gottgörelse."
         },
         "source": "RRS 90.3(c)",
         "also": []
@@ -21642,9 +21642,9 @@
           }
         ],
         "why": {
-          "fi": "91(a).",
-          "en": "Rule 91(a).",
-          "sv": "Regel 91a."
+          "fi": "91(a) antaa kilpailun järjestäjälle tai kilpailulautakunnalle vallan nimittää tavallisen protestilautakunnan; kansainvälinen tuomaristo (91(b)) liitteen N mukaan on eri asia.",
+          "en": "91(a) gives the organizing authority or race committee the power to appoint an ordinary protest committee; an international jury (91(b)) under Appendix N is a separate matter.",
+          "sv": "91(a) ger den arrangerande myndigheten eller kappseglingskommittén befogenhet att utse en vanlig protestkommitté; en internationell jury (91b) enligt bilaga N är en annan sak."
         },
         "source": "RRS 91(a)",
         "also": []
@@ -21768,9 +21768,9 @@
           }
         ],
         "why": {
-          "fi": "92.1.",
-          "en": "Rule 92.1.",
-          "sv": "Regel 92.1."
+          "fi": "92.1 vaatii teknisen lautakunnan jäsenmääräksi vähintään yhden — ei kolmea kuten protestilautakunnassa tavallisesti.",
+          "en": "92.1 requires a technical committee to have at least one member — not three as is usual for a protest committee.",
+          "sv": "92.1 kräver att en teknisk kommitté har minst en ledamot — inte tre som vanligen krävs för en protestkommitté."
         },
         "source": "RRS 92.1",
         "also": []
