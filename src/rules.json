@@ -33355,9 +33355,9 @@
           }
         ],
         "why": {
-          "fi": "M8(d).",
-          "en": "M8(d).",
-          "sv": "M8(d)."
+          "fi": "M8(d) listaa neljä tarkistettavaa seikkaa — kameran sijainnin, kuvausalustan liikkeen, kuvakulman muutokset ja näkökentän esteettömyyden — koska mikä tahansa niistä voi vääristää videon antamaa kuvaa tilanteesta.",
+          "en": "M8(d) lists four things to check — the camera's position, whether the filming platform moved, whether the angle changed, and whether the view was unobstructed — since any of these can distort what the video appears to show.",
+          "sv": "M8(d) räknar upp fyra saker att kontrollera — kamerans position, om filmningsplattformen rörde sig, om vinkeln ändrades och om sikten var fri — eftersom vilken som helst av dessa kan förvränga vad videon tycks visa."
         },
         "source": "RRS M8(d)",
         "also": []
