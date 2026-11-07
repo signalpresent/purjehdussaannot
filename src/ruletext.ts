@@ -192,14 +192,14 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   if (isApp) while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
   if (lang === 'sv' && first === 'P2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
   for (let i = 0; i < ls.length; i++) {
-    const l = ls[i], sm = cfg.section.exec(l), cm = CLAUSE.exec(l) ?? (first === 'E' ? GCL.exec(l) : null);
+    const l = ls[i], sm = cfg.section.exec(l), gcl = first === 'E' ? GCL.exec(l) : null, cm = CLAUSE.exec(l) ?? gcl;
     if (sm) {
       chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
       if (lang === 'sv') titles[cur[0]] = (sm[2] + (/^\s*\p{Ll}+$/u.test(ls[i + 1] ?? '') ? ' ' + ls[++i] : '')).trim().replace(/\s+/g, ' '); // 'Förhandlingar och' / 'beslutsfattande'
       else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
-    } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0])) { // table rows ('4  P, I, Z') are not clauses
+    } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0]) && (gcl || !isApp || cm[2][0] === first)) { // table rows ('4  P, I, Z') are not clauses; inside an appendix, a bare rule number (e.g. B2's '13  WHILE TACKING', or a cross-reference like C's 'N1.10') is quoted/modified rule text, not a new top-level clause of this appendix — only an id starting with the appendix's own letter opens one (E8's own GCL quotes of Appendix G are the deliberate exception)
       chunks.push(cur); cur = [cm[2], [], cm[1].length];
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
