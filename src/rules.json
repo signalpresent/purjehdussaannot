@@ -32556,9 +32556,9 @@
           }
         ],
         "why": {
-          "fi": "M2.1(b).",
-          "en": "M2.1(b).",
-          "sv": "M2.1b."
+          "fi": "M2.1(b) vaatii lautakuntaa varmistamaan, että kutakin asianosaista edustaa paikalla vain yksi henkilö — poikkeuksena tulkin tarve.",
+          "en": "M2.1(b) requires the committee to make sure each party is represented by only one person present — unless an interpreter is needed.",
+          "sv": "M2.1(b) kräver att kommittén säkerställer att varje part företräds av bara en person på plats — om inte en tolk behövs."
         },
         "source": "RRS M2.1(b)",
         "also": []
@@ -32595,9 +32595,9 @@
           }
         ],
         "why": {
-          "fi": "M2.2.",
-          "en": "M2.2.",
-          "sv": "M2.2."
+          "fi": "M2.2 velvoittaa lautakunnan jäsenen, joka on itse nähnyt tapahtuman, ilmoittamaan siitä mahdollisimman pian tutkinnan aikana (säännön 63.4(d) mukaisesti).",
+          "en": "M2.2 requires a committee member who personally saw the incident to disclose this as soon as possible during the hearing (per rule 63.4(d)).",
+          "sv": "M2.2 kräver att en kommittéledamot som själv såg tillbudet meddelar detta så snart som möjligt under förhandlingen (enligt regel 63.4d)."
         },
         "source": "RRS M2.2",
         "also": []
@@ -32627,9 +32627,9 @@
           }
         ],
         "why": {
-          "fi": "M2.3(b).",
-          "en": "M2.3(b).",
-          "sv": "M2.3b."
+          "fi": "M2.3(b) sallii lautakunnan tulkita asianosaisen vaikenemisen eturistiriidan ilmoittamisen jälkeen hyväksynnäksi jatkaa, ja ohjeistaa kirjaamaan tämän.",
+          "en": "M2.3(b) allows the committee to interpret a party's silence after a conflict of interest is disclosed as consent to proceed, and directs that this be recorded.",
+          "sv": "M2.3(b) tillåter kommittén att tolka en parts tystnad efter att en intressekonflikt meddelats som samtycke att fortsätta, och anger att detta ska antecknas."
         },
         "source": "RRS M2.3(b)",
         "also": [
@@ -32661,9 +32661,9 @@
           }
         ],
         "why": {
-          "fi": "M2.1(e).",
-          "en": "M2.1(e).",
-          "sv": "M2.1e."
+          "fi": "M2.1(e) vaatii, että kun asianosaiset olivat eri kilpailuissa, kummankin kilpailun järjestäjän on hyväksyttävä protestilautakunnan kokoonpano — tätä ei sovelleta hyvityspyynnössä, joka koskee pelkästään kilpailutoimikunnan omaa virhettä.",
+          "en": "M2.1(e) requires that when parties were in different events, both organizing authorities must approve the protest committee's composition — this does not apply here, since the request concerns only the race committee's own error.",
+          "sv": "M2.1(e) kräver att när parterna var i olika tävlingar måste båda arrangörerna godkänna protestkommitténs sammansättning — detta gäller inte här, eftersom begäran enbart rör kappseglingskommitténs eget fel."
         },
         "source": "RRS M2.1(e)",
         "also": [
@@ -32751,9 +32751,9 @@
           }
         ],
         "why": {
-          "fi": "M3.1(b).",
-          "en": "M3.1(b).",
-          "sv": "M3.1b."
+          "fi": "M3.1(b) vaatii lautakuntaa tarkistamaan protestin määräaikaisuuden ja hylkäämään sen, ellei hyvää syytä jatkaa määräaikaa löydy.",
+          "en": "M3.1(b) requires the committee to check whether the protest was timely and to reject it unless good reason is found to extend the deadline.",
+          "sv": "M3.1(b) kräver att kommittén kontrollerar om protesten lämnades i tid och avvisar den om ingen god anledning hittas att förlänga tiden."
         },
         "source": "RRS M3.1(b)",
         "also": []
@@ -32783,9 +32783,9 @@
           }
         ],
         "why": {
-          "fi": "M3.2(c).",
-          "en": "M3.2(c).",
-          "sv": "M3.2c."
+          "fi": "M3.2(c) sallii kenen tahansa antaa näyttöä ja jättää todistajien kutsumisen tavallisesti asianosaisten omaan harkintaan, vaikka lautakuntakin voi kutsua todistajia säännön 63.4(b) nojalla.",
+          "en": "M3.2(c) allows anyone to give evidence and normally leaves it to the parties themselves to choose witnesses, though the committee too may call witnesses under rule 63.4(b).",
+          "sv": "M3.2(c) tillåter vem som helst att vittna och lämnar normalt åt parterna själva att välja vittnen, även om kommittén också får kalla vittnen enligt regel 63.4(b)."
         },
         "source": "RRS M3.2(c)",
         "also": []
@@ -32822,9 +32822,9 @@
           }
         ],
         "why": {
-          "fi": "M3.2(h).",
-          "en": "M3.2(h).",
-          "sv": "M3.2h."
+          "fi": "M3.2(h) ohjeistaa lautakunnan antamaan kuulopuheelle vain sille kuuluvan, mahdollisesti vähäisen tai olemattoman painoarvon, ei jättämään sitä automaattisesti kokonaan huomiotta.",
+          "en": "M3.2(h) directs the committee to give hearsay only the weight it deserves, which may be small or none, not to dismiss it automatically altogether.",
+          "sv": "M3.2(h) anger att kommittén ska ge hörsägen bara den vikt den förtjänar, som kan vara liten eller ingen, inte att automatiskt helt bortse från den."
         },
         "source": "RRS M3.2(h)",
         "also": []
@@ -32854,9 +32854,9 @@
           }
         ],
         "why": {
-          "fi": "M3.3(a).",
-          "en": "M3.3(a).",
-          "sv": "M3.3a."
+          "fi": "M3.3(a) vaatii ratkaisemaan epävarmat tosiasiat suuntaan tai toiseen, koska tutkinnan pitää päätyä selviin todettuihin tosiasioihin eikä jättää niitä auki.",
+          "en": "M3.3(a) requires resolving uncertain facts one way or the other, since the hearing must arrive at clear facts found rather than leave them open.",
+          "sv": "M3.3(a) kräver att osäkra fakta avgörs åt ena eller andra hållet, eftersom förhandlingen måste leda till klara fastställda fakta och inte lämna dem öppna."
         },
         "source": "RRS M3.3(a)",
         "also": []
@@ -32929,9 +32929,9 @@
           }
         ],
         "why": {
-          "fi": "M4.2(a).",
-          "en": "M4.2(a).",
-          "sv": "M4.2a."
+          "fi": "M4.2(a) määrittelee näytön uudeksi nimenomaan silloin, kun pyynnön esittäjällä ei ollut kohtuudella mahdollisuutta tietää siitä ennen alkuperäistä tutkintaa.",
+          "en": "M4.2(a) defines evidence as new precisely when the party requesting the reopening could not reasonably have known of it before the original hearing.",
+          "sv": "M4.2(a) definierar bevisningen som ny just när den som begär återupptagandet inte rimligen kunde ha känt till den före den ursprungliga förhandlingen."
         },
         "source": "RRS M4.2(a)",
         "also": []
@@ -32961,9 +32961,9 @@
           }
         ],
         "why": {
-          "fi": "M4.1.",
-          "en": "M4.1.",
-          "sv": "M4.1."
+          "fi": "M4.1 vaatii lautakunnan harkitsemaan uuden näytön lisäksi myös sitä, onko sen oma sääntötulkinta saattanut olla virheellinen, suhtautuen avoimesti virheen mahdollisuuteen.",
+          "en": "M4.1 requires the committee, besides new evidence, to also consider whether its own interpretation of the rules may have been mistaken, staying open to the possibility of error.",
+          "sv": "M4.1 kräver att kommittén, utöver ny bevisning, också överväger om dess egen regeltolkning kan ha varit felaktig, och är öppen för att den kan ha haft fel."
         },
         "source": "RRS M4.1",
         "also": []
@@ -32993,9 +32993,9 @@
           }
         ],
         "why": {
-          "fi": "M5.",
-          "en": "M5.",
-          "sv": "M5."
+          "fi": "M5 sallii lautakunnan kysyä veneen edustajalta ja todistajilta tarvittavat lisätiedot ilman muodollista tutkintaa, kun kyse on veneen oma-aloitteisesta ilmoituksesta säännön 64 nojalla.",
+          "en": "M5 allows the committee to ask the boat's representative and witnesses for the needed extra facts without a formal hearing, when it concerns a boat's own report under rule 64.",
+          "sv": "M5 tillåter kommittén att fråga båtens representant och vittnen om nödvändiga ytterligare fakta utan en formell förhandling, när det gäller en båts egen rapport enligt regel 64."
         },
         "source": "RRS M5, 64",
         "also": []
@@ -33078,9 +33078,9 @@
           }
         ],
         "why": {
-          "fi": "M6.2.",
-          "en": "M6.2.",
-          "sv": "M6.2."
+          "fi": "M6.2 estää kilpailijaa protestoimasta suoraan säännön 69 nojalla, mutta sallii käsitellä hänen tutkintapyyntönsä lautakunnalle osoitettuna ilmoituksena, josta lautakunta itse päättää tutkinnan järjestämisestä.",
+          "en": "M6.2 prevents a competitor from protesting directly under rule 69, but allows their hearing request to be treated as a report to the committee, which itself decides whether to hold a hearing.",
+          "sv": "M6.2 hindrar en deltagare från att protestera direkt enligt regel 69, men tillåter att deras begäran behandlas som en anmälan till kommittén, som själv beslutar om en förhandling ska hållas."
         },
         "source": "RRS M6.2",
         "also": []
@@ -33117,9 +33117,9 @@
           }
         ],
         "why": {
-          "fi": "M6.1 (sääntö 69.2(a)).",
-          "en": "M6.1 (rule 69.2(a)).",
-          "sv": "M6.1 (regel 69.2a)."
+          "fi": "M6.1 ja 69.2(a) vaativat säännön 69 tutkintaan vähintään kolme jäsentä asian vakavuuden vuoksi, enemmän kuin tavallisessa protestitutkinnassa yleensä edellytetään.",
+          "en": "M6.1 and 69.2(a) require at least three members for a rule 69 hearing given the seriousness of the matter, more than an ordinary protest hearing usually requires.",
+          "sv": "M6.1 och 69.2(a) kräver minst tre ledamöter för en förhandling enligt regel 69 med tanke på sakens allvar, fler än vad en vanlig protestförhandling vanligen kräver."
         },
         "source": "RRS M6.1, 69.2(a)",
         "also": []
@@ -33149,9 +33149,9 @@
           }
         ],
         "why": {
-          "fi": "M6.4.",
-          "en": "M6.4.",
-          "sv": "M6.4."
+          "fi": "M6.4 ohjeistaa ratkaisemaan ensin veneiden väliset osan 2 protestit tavalliseen tapaan, ja vasta sitten harkitsemaan säännön 69 toimia kilpailijaa vastaan.",
+          "en": "M6.4 directs that Part 2 protests between boats be resolved first in the ordinary way, and only then should rule 69 action against a competitor be considered.",
+          "sv": "M6.4 anger att protester mellan båtar enligt del 2 ska lösas först på vanligt sätt, och först därefter bör åtgärder enligt regel 69 mot en deltagare övervägas."
         },
         "source": "RRS M6.4",
         "also": []
@@ -33259,9 +33259,9 @@
           }
         ],
         "why": {
-          "fi": "M7(a).",
-          "en": "M7(a).",
-          "sv": "M7(a)."
+          "fi": "M7(a) vaatii todetun tosiasian olevan selvä kyllä tai ei, koska muutoksenhakulautakunta ratkaisee asian vain kirjattujen tosiasioiden perusteella eikä voi itse arvailla epävarmaa tilannetta.",
+          "en": "M7(a) requires a fact found to be a clear yes or no, since the appeal body decides the matter only from the facts on record and cannot itself guess at an uncertain situation.",
+          "sv": "M7(a) kräver att en fastställd fakta är ett tydligt ja eller nej, eftersom besvärsinstansen avgör saken bara utifrån de antecknade fakta och inte själv kan gissa sig till en osäker situation."
         },
         "source": "RRS M7(a)",
         "also": []
@@ -33291,9 +33291,9 @@
           }
         ],
         "why": {
-          "fi": "M7(b).",
-          "en": "M7(b).",
-          "sv": "M7(b)."
+          "fi": "M7(b) perustelee vaatimuksen sillä, ettei muutoksenhakulautakunta tiedä tapahtumasta mitään muuta kuin mitä asiakirjoista käy ilmi.",
+          "en": "M7(b) grounds the requirement in the fact that the appeal body knows nothing about the incident beyond what the documents show.",
+          "sv": "M7(b) grundar kravet i att besvärsinstansen inte vet något om händelsen utöver det som framgår av handlingarna."
         },
         "source": "RRS M7(b)",
         "also": []
@@ -33323,9 +33323,9 @@
           }
         ],
         "why": {
-          "fi": "M8(c).",
-          "en": "M8(c).",
-          "sv": "M8(c)."
+          "fi": "M8(c) selittää, että suoraan edestä kuvatusta videosta peiton toteaminen on mahdotonta, ellei peitto ole runsas, koska yksilinssisen kameran syvyysvaikutelma on huono tai olematon.",
+          "en": "M8(c) explains that from video shot straight from ahead, determining an overlap is impossible unless it is substantial, because a single-lens camera gives poor or no sense of depth.",
+          "sv": "M8(c) förklarar att det från video filmad rakt framifrån är omöjligt att avgöra en överlappning om den inte är stor, eftersom en enkel kameralins ger dålig eller ingen djupuppfattning."
         },
         "source": "RRS M8(c)",
         "also": []
