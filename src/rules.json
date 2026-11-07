@@ -35068,10 +35068,12 @@
     },
     "explain": {
       "fi": "Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan, ja sitä voidaan käyttää painettujen, jokaiselle veneelle jaettavien purjehdusohjeiden sijaan. Käyttöön otettaessa kilpailukutsussa ilmoitetaan, että purjehdusohjeet koostuvat liitteen S ohjeista ja lisäpurjehdusohjeista, jotka julkaistaan tietyllä virallisella ilmoitustaululla. Lisäpurjehdusohjeiden pitää sisältää: kilpailutoimiston ja maissa annettavien viestien lippusalon sijainti; taulukko purjehdusten aikataulusta — päivät, päivämäärät, purjehdusten lukumäärä päivässä, ensimmäisen varoitusviestin ajat ja viimeisen mahdollisen varoitusviestin aika viimeisenä päivänä; luettelo käytettävistä merkeistä kuvauksineen sekä tieto siitä, miten uudet merkit eroavat alkuperäisistä; liitteen S enimmäisaikakohdassa (SI 12) tarkoitetut mahdolliset aikarajat; sekä kaikki muutokset tai lisäykset liitteen S omiin ohjeisiin. Kopio lisäpurjehdusohjeista on kilpailijoiden saatavilla pyydettäessä.",
+      "sv": "Bilaga S gäller bara om det anges i inbjudan, och kan användas i stället för tryckta seglingsföreskrifter som delas ut till varje båt. Vid användning anger inbjudan att seglingsföreskrifterna består av bilaga S och kompletterande seglingsföreskrifter (supplementet) som anslås på en namngiven officiell anslagstavla. Supplementet ska innehålla: tävlingsexpeditionens och signalmastens placering för signaler som visas i land; ett tidsschema för kappseglingarna — dagar, datum, antal kappseglingar per dag, tiden för den första varningssignalen och den senaste möjliga tiden för en varningssignal sista dagen; en förteckning över de märken som ska användas med en beskrivning av varje, och hur nya märken skiljer sig från de ursprungliga; eventuella tidsbegränsningar enligt bilaga S:s egen tidsbegränsningsparagraf (SF 12); samt alla ändringar av eller tillägg till bilaga S:s egna föreskrifter. En kopia av supplementet finns tillgänglig för de tävlande på begäran.",
       "en": "Appendix S applies only if the notice of race so states, and may be used instead of printed sailing instructions distributed to each boat. To use it, the notice of race states that the sailing instructions consist of Appendix S plus supplementary sailing instructions posted on a named official notice board. The supplement must include: the location of the race office and the flag pole for signals made ashore; a table of the race schedule — days, dates, the number of races each day, the first warning signal times, and the latest possible warning signal time on the last day; a list of the marks to be used with a description of each, and how new marks differ from the original ones; any time limits from Appendix S's own time-limit section (SI 12); and any changes or additions to Appendix S's own instructions. A copy of the supplement is available to competitors on request."
     },
     "note": {
       "fi": "Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan; se tarjoaa valmiin purjehdusohjepohjan (SI, Sailing Instructions), jota täydennetään tapahtumakohtaisilla lisäpurjehdusohjeilla. Case Bookissa ei ole liitettä S koskevia tapauksia.",
+      "sv": "Bilaga S gäller bara om det anges i inbjudan; den ger en färdig mall för seglingsföreskrifter (SF) som kompletteras med evenemangsspecifika kompletterande seglingsföreskrifter. Case Book har inga fall om bilaga S.",
       "en": "Appendix S applies only if the notice of race so states; it provides a ready-made sailing instructions template (SI) that is completed with event-specific supplementary sailing instructions. The Case Book has no cases on Appendix S."
     },
     "source": "RRS S (preamble)",
@@ -35083,6 +35085,7 @@
         ],
         "note": {
           "fi": "Liite S on vaihtoehto säännön 89.2:n mukaiselle tavalliselle purjehdusohjeiden laatimiselle — se korvaa itse ohjetekstin, mutta vaatii silti tapahtumakohtaisen lisäyksen.",
+          "sv": "Bilaga S är ett alternativ till att utforma vanliga seglingsföreskrifter enligt regel 89.2 — den ersätter själva föreskriftstexten, men kräver ändå ett evenemangsspecifikt supplement.",
           "en": "Appendix S is an alternative to drafting ordinary sailing instructions under rule 89.2 — it replaces the instruction text itself, but still needs an event-specific supplement."
         }
       }
@@ -35093,6 +35096,7 @@
         "id": "rS1-q1",
         "prompt": {
           "fi": "Milloin liite S pätee?",
+          "sv": "När gäller bilaga S?",
           "en": "When does Appendix S apply?"
         },
         "options": [
@@ -35100,12 +35104,14 @@
             "ok": true,
             "t": {
               "fi": "Vain, jos kilpailukutsussa niin ilmoitetaan",
+              "sv": "Bara om det anges i inbjudan",
               "en": "Only if the notice of race so states"
             }
           },
           {
             "t": {
               "fi": "Aina, kun kilpailussa ei ole muita purjehdusohjeita",
+              "sv": "Alltid, när en tävling saknar andra seglingsföreskrifter",
               "en": "Always, whenever an event has no other sailing instructions"
             }
           }
@@ -35122,6 +35128,7 @@
         "id": "rS1-q2",
         "prompt": {
           "fi": "Mitä liite S korvaa, kun sitä käytetään?",
+          "sv": "Vad ersätter bilaga S när den används?",
           "en": "What does Appendix S replace when it is used?"
         },
         "options": [
@@ -35129,12 +35136,14 @@
             "ok": true,
             "t": {
               "fi": "Painetut, jokaiselle veneelle jaettavat purjehdusohjeet",
+              "sv": "Tryckta seglingsföreskrifter som delas ut till varje båt",
               "en": "Printed sailing instructions distributed to each boat"
             }
           },
           {
             "t": {
               "fi": "Kilpailukutsun kokonaan",
+              "sv": "Hela inbjudan",
               "en": "The notice of race entirely"
             }
           }
@@ -35151,6 +35160,7 @@
         "id": "rS1-q3",
         "prompt": {
           "fi": "Mitä lisäpurjehdusohjeiden pitää kertoa merkeistä?",
+          "sv": "Vad måste supplementet säga om märken?",
           "en": "What must the supplement say about marks?"
         },
         "options": [
@@ -35158,19 +35168,22 @@
             "ok": true,
             "t": {
               "fi": "Luettelon käytettävistä merkeistä kuvauksineen ja sen, miten uudet merkit eroavat alkuperäisistä",
+              "sv": "En förteckning över de märken som ska användas med beskrivningar, och hur nya märken skiljer sig från de ursprungliga",
               "en": "A list of the marks to be used with descriptions, and how new marks differ from the original ones"
             }
           },
           {
             "t": {
               "fi": "Vain merkkien lukumäärän",
+              "sv": "Bara antalet märken",
               "en": "Only the number of marks"
             }
           }
         ],
         "why": {
-          "fi": "Liitteen S johdanto, kohta 3.",
-          "en": "Appendix S preamble, point 3."
+          "fi": "Liitteen S johdanto vaatii lisäpurjehdusohjeilta paitsi luettelon käytettävistä merkeistä, myös kuvauksen kustakin ja tiedon siitä, miten mahdolliset uudet merkit eroavat alkuperäisistä — pelkkä lukumäärä ei riitä purjehtijalle merkkien tunnistamiseen.",
+          "en": "Appendix S's preamble requires the supplement to give not just a list of the marks to be used but a description of each and how any new marks differ from the original ones — a bare count would not let sailors identify the marks.",
+          "sv": "Bilaga S:s inledning kräver att supplementet inte bara ger en förteckning över de märken som ska användas utan även en beskrivning av varje och hur eventuella nya märken skiljer sig från de ursprungliga — enbart ett antal skulle inte låta seglarna känna igen märkena."
         },
         "source": "RRS S (preamble)",
         "also": []
@@ -35179,6 +35192,7 @@
         "id": "rS1-q4",
         "prompt": {
           "fi": "Onko kopio lisäpurjehdusohjeista kilpailijoiden saatavilla?",
+          "sv": "Finns en kopia av supplementet tillgänglig för de tävlande?",
           "en": "Is a copy of the supplement available to competitors?"
         },
         "options": [
@@ -35186,12 +35200,14 @@
             "ok": true,
             "t": {
               "fi": "Kyllä, pyydettäessä",
+              "sv": "Ja, på begäran",
               "en": "Yes, on request"
             }
           },
           {
             "t": {
               "fi": "Ei, vain ilmoitustaululta katsottuna",
+              "sv": "Nej, bara genom att läsa anslagstavlan",
               "en": "No, only by viewing the notice board"
             }
           }
@@ -35219,10 +35235,12 @@
     },
     "explain": {
       "fi": "Kilpailua noudatetaan Purjehduksen kilpailusääntöjen mukaisesti (SI 1). Ilmoitukset kilpailijoille ja lisäpurjehdusohjeet julkaistaan virallisella ilmoitustaululla (SI 2). Purjehdusohjeiden muutokset julkaistaan ennen klo 8.00 voimaantulopäivänä, ellei lisäyksissä toisin ilmoiteta; aikataulumuutokset julkaistaan viimeistään klo 20.00 edeltävänä päivänä (SI 3). Maissa annettavat viestit näytetään lippusalossa, jonka sijainnin lisäykset kertovat (SI 4). Lisäykset sisältävät aikataulutaulukon päivineen, päivämäärineen, purjehdusten lukumäärineen ja varoitusviestien aikoineen; veneiden huomion kiinnittämiseksi tulevaan purjehdukseen tai purjehdussarjaan nostetaan oranssi lähtölinjalippu äänimerkillä vähintään viisi minuuttia ennen varoitusviestiä (SI 5). Luokkalippu on luokkatunnus yksiväriselle taustalle, ellei lisäyksissä muuta ilmoiteta (SI 6).",
+      "sv": "Tävlingen genomförs i överensstämmelse med Kappseglingsreglerna (SF 1). Meddelanden till tävlande och supplementet anslås på den officiella anslagstavlan (SF 2). Ändringar i seglingsföreskrifterna anslås före kl. 8.00 samma dag som de börjar gälla, om inte supplementet anger annat; ändringar i tidsschemat anslås senast kl. 20.00 dagen innan (SF 3). Signaler på land visas i signalmasten, vars placering anges i supplementet (SF 4). Supplementet innehåller ett tidsschema med dagar, datum, antal kappseglingar och tider för varningssignaler; för att göra båtarna uppmärksamma på att en kappsegling eller startföljd snart ska börja visas den orange startlinjeflaggan med en ljudsignal minst fem minuter före varningssignalen (SF 5). Klassflaggan är klassinsignet på en enfärgad bakgrund, om inte supplementet anger annat (SF 6).",
       "en": "The event is governed by The Racing Rules of Sailing (SI 1). Notices to competitors and the supplement are posted on the official notice board (SI 2). Changes to the sailing instructions are posted before 0800 on the day they take effect, unless the supplement changes that time; schedule changes are posted by 2000 the day before (SI 3). Signals made ashore are shown on a flag pole, whose location the supplement states (SI 4). The supplement includes a schedule table with days, dates, number of races and warning signal times; to alert boats that a race or sequence is about to begin, the orange starting line flag is shown with one sound at least five minutes before the warning signal (SI 5). The class flag is the class insignia on a plain background, unless the supplement states otherwise (SI 6)."
     },
     "note": {
       "fi": "Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan; se tarjoaa valmiin purjehdusohjepohjan (SI, Sailing Instructions), jota täydennetään tapahtumakohtaisilla lisäpurjehdusohjeilla. Case Bookissa ei ole liitettä S koskevia tapauksia.",
+      "sv": "Bilaga S gäller bara om det anges i inbjudan; den ger en färdig mall för seglingsföreskrifter (SF) som kompletteras med evenemangsspecifika kompletterande seglingsföreskrifter. Case Book har inga fall om bilaga S.",
       "en": "Appendix S applies only if the notice of race so states; it provides a ready-made sailing instructions template (SI) that is completed with event-specific supplementary sailing instructions. The Case Book has no cases on Appendix S."
     },
     "source": "RRS S1-S6",
@@ -35234,6 +35252,7 @@
         ],
         "note": {
           "fi": "SI 3:n aikarajat (klo 8.00 ja 20.00) ovat liitteen S oma oletusarvo; lisäykset voivat muuttaa niitä tapahtumakohtaisesti.",
+          "sv": "Tidsgränserna i SF 3 (kl. 8.00 och 20.00) är bilaga S:s egna standardvärden; supplementet kan ändra dem för evenemanget.",
           "en": "SI 3's time limits (0800 and 2000) are Appendix S's own default; the supplement may change them for the event."
         }
       }
@@ -35244,6 +35263,7 @@
         "id": "rS2-q1",
         "prompt": {
           "fi": "Mihin mennessä purjehdusohjeiden muutos pitää julkaista voimaantulopäivänä, ellei lisäyksissä muuta ilmoiteta (SI 3.1)?",
+          "sv": "Senast när måste en ändring av seglingsföreskrifterna anslås samma dag som den börjar gälla, om inte supplementet anger annat (SF 3.1)?",
           "en": "By when must a change to the sailing instructions be posted on the day it takes effect, unless the supplement says otherwise (SI 3.1)?"
         },
         "options": [
@@ -35251,12 +35271,14 @@
             "ok": true,
             "t": {
               "fi": "Ennen klo 8.00",
+              "sv": "Före kl. 8.00",
               "en": "Before 0800"
             }
           },
           {
             "t": {
               "fi": "Ennen klo 12.00",
+              "sv": "Före kl. 12.00",
               "en": "Before 1200"
             }
           }
@@ -35273,6 +35295,7 @@
         "id": "rS2-q2",
         "prompt": {
           "fi": "Mihin mennessä aikataulumuutos pitää julkaista?",
+          "sv": "Senast när måste en ändring av tidsschemat anslås?",
           "en": "By when must a schedule change be posted?"
         },
         "options": [
@@ -35280,12 +35303,14 @@
             "ok": true,
             "t": {
               "fi": "Viimeistään klo 20.00 edeltävänä päivänä",
+              "sv": "Senast kl. 20.00 dagen innan",
               "en": "By 2000 the day before, at the latest"
             }
           },
           {
             "t": {
               "fi": "Viimeistään tuntia ennen varoitusviestiä",
+              "sv": "Senast en timme före varningssignalen",
               "en": "At least an hour before the warning signal"
             }
           }
@@ -35302,6 +35327,7 @@
         "id": "rS2-q3",
         "prompt": {
           "fi": "Mitä oranssin lähtölinjalipun nostaminen äänimerkillä tarkoittaa (SI 5.2)?",
+          "sv": "Vad betyder det när den orange startlinjeflaggan visas med en ljudsignal (SF 5.2)?",
           "en": "What does displaying the orange starting line flag with a sound mean (SI 5.2)?"
         },
         "options": [
@@ -35309,12 +35335,14 @@
             "ok": true,
             "t": {
               "fi": "Purjehdus tai purjehdussarja alkaa pian",
+              "sv": "En kappsegling eller startföljd börjar snart",
               "en": "A race or sequence of races will begin soon"
             }
           },
           {
             "t": {
               "fi": "Kilpailu on mitätöity",
+              "sv": "Tävlingen har ställts in",
               "en": "The event has been abandoned"
             }
           }
@@ -35331,6 +35359,7 @@
         "id": "rS2-q4",
         "prompt": {
           "fi": "Mikä luokkalippu on, ellei lisäyksissä muuta ilmoiteta (SI 6.1)?",
+          "sv": "Vad är klassflaggan, om inte supplementet anger annat (SF 6.1)?",
           "en": "What is the class flag, unless the supplement states otherwise (SI 6.1)?"
         },
         "options": [
@@ -35338,12 +35367,14 @@
             "ok": true,
             "t": {
               "fi": "Luokkatunnus yksiväriselle taustalle",
+              "sv": "Klassinsignet på en enfärgad bakgrund",
               "en": "The class insignia on a plain background"
             }
           },
           {
             "t": {
               "fi": "Aina pelkkä valkoinen lippu",
+              "sv": "Alltid en vanlig vit flagga",
               "en": "Always a plain white flag"
             }
           }
@@ -35381,10 +35412,12 @@
     },
     "explain": {
       "fi": "Kilpailulautakunta määrää radan viimeistään varoitusviestin aikaan ja voi näyttää ensimmäisen rataosuuden likimääräisen kompassisuunnan; ratapiirrokset ovat liitteen lopussa, ja lisäyksissä voi olla lisää ratoja (SI 7). Lisäykset sisältävät luettelon käytettävistä merkeistä kuvauksineen (SI 8). Purjehdukset lähetetään säännön 26 mukaisesti; lähtölinja kulkee kilpailulautakunnan aluksen oranssilipullisen salon ja lähtömerkin radanpuoleisen reunan välillä (SI 9). Seuraavaa rataosuutta muutettaessa kilpailulautakunta laskee uuden merkin — tai siirtää maalilinjaa — ja poistaa alkuperäisen merkin niin pian kuin käytännössä mahdollista; jos myöhemmin tehdään toinen muutos, uusi merkki korvataan alkuperäisellä (SI 10). Maalilinja kulkee kilpailulautakunnan aluksen sinilipullisen salon ja maalimerkin radanpuoleisen reunan välillä (SI 11).",
+      "sv": "Kappseglingskommittén fastställer banan senast vid varningssignalen och får visa den ungefärliga kompassbäringen för det första banbenet; banbeskrivningarna finns i slutet av bilagan, och supplementet kan innehålla ytterligare banor (SF 7). Supplementet innehåller en förteckning över de märken som ska användas med en beskrivning av varje (SF 8). Kappseglingar startas enligt regel 26; startlinjen går mellan masten med en orange flagga på kappseglingskommitténs funktionärsbåt och bansidan av startmärket (SF 9). Vid ändring av nästa banben lägger kappseglingskommittén ut ett nytt märke — eller flyttar mållinjen — och tar bort det ursprungliga märket så fort som möjligt; vid en ytterligare ändring ersätts det nya märket med det ursprungliga (SF 10). Mållinjen går mellan masten med en blå flagga på kappseglingskommitténs funktionärsbåt och bansidan av målmärket (SF 11).",
       "en": "The race committee designates the course no later than the warning signal and may display the approximate compass bearing of the first leg; the course diagrams are at the end of the appendix, and the supplement may add more courses (SI 7). The supplement includes a list of the marks to be used with descriptions (SI 8). Races are started under rule 26; the starting line is between the staff with an orange flag on the race committee vessel and the course side of the starting mark (SI 9). When changing the next leg, the race committee lays a new mark — or moves the finishing line — and removes the original mark as soon as practicable; if a further change is made later, the new mark is replaced by the original (SI 10). The finishing line is between the staff with a blue flag on the race committee vessel and the course side of the finishing mark (SI 11)."
     },
     "note": {
       "fi": "Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan; se tarjoaa valmiin purjehdusohjepohjan (SI, Sailing Instructions), jota täydennetään tapahtumakohtaisilla lisäpurjehdusohjeilla. Case Bookissa ei ole liitettä S koskevia tapauksia.",
+      "sv": "Bilaga S gäller bara om det anges i inbjudan; den ger en färdig mall för seglingsföreskrifter (SF) som kompletteras med evenemangsspecifika kompletterande seglingsföreskrifter. Case Book har inga fall om bilaga S.",
       "en": "Appendix S applies only if the notice of race so states; it provides a ready-made sailing instructions template (SI) that is completed with event-specific supplementary sailing instructions. The Case Book has no cases on Appendix S."
     },
     "source": "RRS S7-S11, 26",
@@ -35396,6 +35429,7 @@
         ],
         "note": {
           "fi": "SI 9.1 nojautuu suoraan sääntöön 26 lähettämistavasta; liite S ei muuta sitä, vain kertoo missä lähtölinja kulkee.",
+          "sv": "SF 9.1 bygger direkt på regel 26 för hur kappseglingar startas; bilaga S ändrar den inte, utan anger bara var startlinjen går.",
           "en": "SI 9.1 relies directly on rule 26 for how races are started; Appendix S does not change it, only states where the starting line runs."
         }
       }
@@ -35406,6 +35440,7 @@
         "id": "rS3-q1",
         "prompt": {
           "fi": "Minkä säännön mukaisesti purjehdukset lähetetään (SI 9.1)?",
+          "sv": "Enligt vilken regel startas kappseglingarna (SF 9.1)?",
           "en": "Under which rule are races started (SI 9.1)?"
         },
         "options": [
@@ -35413,12 +35448,14 @@
             "ok": true,
             "t": {
               "fi": "Säännön 26",
+              "sv": "Regel 26",
               "en": "Rule 26"
             }
           },
           {
             "t": {
               "fi": "Säännön 30",
+              "sv": "Regel 30",
               "en": "Rule 30"
             }
           }
@@ -35437,6 +35474,7 @@
         "id": "rS3-q2",
         "prompt": {
           "fi": "Minkä kahden kohteen välissä lähtölinja kulkee (SI 9.2)?",
+          "sv": "Mellan vilka två punkter går startlinjen (SF 9.2)?",
           "en": "Between which two things does the starting line run (SI 9.2)?"
         },
         "options": [
@@ -35444,12 +35482,14 @@
             "ok": true,
             "t": {
               "fi": "Kilpailulautakunnan aluksen oranssilipullisen salon ja lähtömerkin radanpuoleisen reunan",
+              "sv": "Masten med en orange flagga på kappseglingskommitténs funktionärsbåt och bansidan av startmärket",
               "en": "The staff with an orange flag on the race committee vessel and the course side of the starting mark"
             }
           },
           {
             "t": {
               "fi": "Kahden erillisen lähtömerkin välissä",
+              "sv": "Mellan två separata startmärken",
               "en": "Between two separate starting marks"
             }
           }
@@ -35466,6 +35506,7 @@
         "id": "rS3-q3",
         "prompt": {
           "fi": "Mitä kilpailulautakunta tekee muuttaessaan seuraavaa rataosuutta (SI 10.1)?",
+          "sv": "Vad gör kappseglingskommittén vid ändring av nästa banben (SF 10.1)?",
           "en": "What does the race committee do when changing the next leg (SI 10.1)?"
         },
         "options": [
@@ -35473,12 +35514,14 @@
             "ok": true,
             "t": {
               "fi": "Laskee uuden merkin (tai siirtää maalilinjaa) ja poistaa alkuperäisen merkin niin pian kuin käytännössä mahdollista",
+              "sv": "Lägger ut ett nytt märke (eller flyttar mållinjen) och tar bort det ursprungliga märket så fort som möjligt",
               "en": "Lays a new mark (or moves the finishing line) and removes the original mark as soon as practicable"
             }
           },
           {
             "t": {
               "fi": "Keskeyttää purjehduksen aina muutoksen ajaksi",
+              "sv": "Avbryter alltid kappseglingen under ändringen",
               "en": "Always stops the race for the duration of the change"
             }
           }
@@ -35495,6 +35538,7 @@
         "id": "rS3-q4",
         "prompt": {
           "fi": "Minkä värinen lippu on maalilinjan salossa (SI 11.1)?",
+          "sv": "Vilken färg har flaggan på mållinjens mast (SF 11.1)?",
           "en": "What colour is the flag on the finishing line staff (SI 11.1)?"
         },
         "options": [
@@ -35502,12 +35546,14 @@
             "ok": true,
             "t": {
               "fi": "Sininen",
+              "sv": "Blå",
               "en": "Blue"
             }
           },
           {
             "t": {
               "fi": "Oranssi",
+              "sv": "Orange",
               "en": "Orange"
             }
           }
@@ -35540,10 +35586,12 @@
     },
     "explain": {
       "fi": "Lisäykset ilmoittavat, mitkä seuraavista enimmäisajoista — jos mitkään — ovat voimassa ja kunkin pituuden: Merkin 1 enimmäisaika (ensimmäisen veneen on ohitettava merkki 1 tähän mennessä), kilpapurjehduksen enimmäisaika (ensimmäisen veneen on purjehdittava rata tähän mennessä), ja maaliintuloaikaikkuna (muiden veneiden enimmäisaika tulla maaliin sen jälkeen, kun ensimmäinen on purjehtinut radan) (SI 12.1). Jos yksikään vene ei ole ohittanut merkkiä 1 sille asetetun enimmäisajan kuluessa, purjehdus mitätöidään (SI 12.2). Maaliintuloaikaikkunan ulkopuolella maaliin tulemattomat veneet kirjataan ei maaliin tulleiksi ilman tutkintaa; tämä muuttaa sääntöjä 35, A5.1 ja A5.2 (SI 12.3). Tutkintapyyntölomakkeita saa kilpailutoimistosta, ja protestit, hyvityspyynnöt ja uusimispyynnöt on toimitettava sinne määräaikaan mennessä (SI 13.1). Kunkin luokan protestiaika on 60 minuuttia siitä, kun viimeinen vene on tullut maaliin päivän viimeisessä purjehduksessa, tai kilpailulautakunnan ilmoituksesta ettei tänään enää kilpailla, kumpi tahansa on myöhempi (SI 13.2). Ilmoitukset tutkinnoista, joissa kilpailija on asianosainen tai nimetty todistaja, ja tutkintapaikasta julkaistaan viimeistään 30 minuuttia protestiajan päättymisestä (SI 13.3). Kilpailu-, teknisen tai protestilautakunnan oma protesti ilmoitetaan veneelle julkaisemalla se ilmoitustaululla säännön 60.2(d) mukaisesti (SI 13.4).",
+      "sv": "Supplementet anger vilka av följande tidsbegränsningar — om några — som gäller, och längden på var och en: Tidsbegränsning för märke 1 (den första båten måste passera märke 1 före denna tid), Kappseglingens tidsbegränsning (den första båten måste segla banan före denna tid), och Målgångsfönster (maxtid för övriga båtar att gå i mål efter att den första båten seglat banan) (SF 12.1). Om ingen båt har passerat märke 1 inom dess tidsbegränsning annulleras kappseglingen (SF 12.2). Båtar som inte går i mål inom målgångsfönstret poängsätts som om de inte gått i mål, utan förhandling; detta ändrar reglerna 35, A5.1 och A5.2 (SF 12.3). Formulär för begäran om förhandling finns på tävlingsexpeditionen, och protester, ansökningar om gottgörelse och om att återuppta en förhandling ska lämnas in där inom den tillämpliga tidsgränsen (SF 13.1). Protesttiden för varje klass är 60 minuter efter att den sista båten gått i mål i dagens sista kappsegling, eller efter att kappseglingskommittén signalerat att det inte blir mer kappsegling idag, beroende på vilket som är senast (SF 13.2). Meddelanden om förhandlingar där en tävlande är part eller namngiven som vittne, och var förhandlingarna hålls, anslås senast 30 minuter efter protesttidens utgång (SF 13.3). En protest från kappseglings-, tekniska eller protestkommittén meddelas en båt genom att anslås enligt regel 60.2(d) (SF 13.4).",
       "en": "The supplement states which of the following time limits — if any — apply, and each one's length: the Mark 1 Time Limit (the first boat must pass Mark 1 by then), the Race Time Limit (the first boat must sail the course by then), and the Finishing Window (the time limit for other boats to finish after the first boat sails the course) (SI 12.1). If no boat has passed Mark 1 within its time limit, the race is abandoned (SI 12.2). Boats failing to finish within the Finishing Window are scored Did Not Finish without a hearing; this changes rules 35, A5.1 and A5.2 (SI 12.3). Hearing request forms are available at the race office, and protests, redress requests and reopening requests must be delivered there within the time limit (SI 13.1). Each class's protest time limit is 60 minutes after the last boat finishes the day's last race, or the race committee signals no more racing today, whichever is later (SI 13.2). Notices of hearings where a competitor is a party or named witness, and where they will be held, are posted no later than 30 minutes after the protest time limit (SI 13.3). A protest by the race, technical or protest committee is announced to a boat by posting it under rule 60.2(d) (SI 13.4)."
     },
     "note": {
       "fi": "Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan; se tarjoaa valmiin purjehdusohjepohjan (SI, Sailing Instructions), jota täydennetään tapahtumakohtaisilla lisäpurjehdusohjeilla. Case Bookissa ei ole liitettä S koskevia tapauksia.",
+      "sv": "Bilaga S gäller bara om det anges i inbjudan; den ger en färdig mall för seglingsföreskrifter (SF) som kompletteras med evenemangsspecifika kompletterande seglingsföreskrifter. Case Book har inga fall om bilaga S.",
       "en": "Appendix S applies only if the notice of race so states; it provides a ready-made sailing instructions template (SI) that is completed with event-specific supplementary sailing instructions. The Case Book has no cases on Appendix S."
     },
     "source": "RRS S12, S13, 35, A5.1, A5.2, 60.2(d)",
@@ -35555,6 +35603,7 @@
         ],
         "note": {
           "fi": "SI 12.3 käyttää säännön 35 muuttamisoikeutta: maaliintuloaikaikkunan ulkopuolella maaliin tulematon vene saa DNF:n ilman tutkintaa, poiketen pääsäännöstä.",
+          "sv": "SF 12.3 utnyttjar regel 35:s rätt att ändras: en båt som går i mål utanför målgångsfönstret får DNF utan förhandling, vilket avviker från huvudregeln.",
           "en": "SI 12.3 uses rule 35's power to be changed: a boat finishing outside the Finishing Window gets DNF without a hearing, departing from the main rule."
         }
       },
@@ -35564,6 +35613,7 @@
         ],
         "note": {
           "fi": "SI 13.4 toteuttaa säännön 60.2(d) ilmoitusvaatimuksen lautakunnan omista protesteista käytännössä ilmoitustaulun kautta.",
+          "sv": "SF 13.4 uppfyller regel 60.2(d):s meddelandekrav för kommitténs egna protester i praktiken via anslagstavlan.",
           "en": "SI 13.4 carries out rule 60.2(d)'s notice requirement for a committee's own protests in practice via the notice board."
         }
       }
@@ -35574,6 +35624,7 @@
         "id": "rS4-q1",
         "prompt": {
           "fi": "Mitä tapahtuu, jos yksikään vene ei ohita merkkiä 1 sille asetetun enimmäisajan kuluessa (SI 12.2)?",
+          "sv": "Vad händer om ingen båt passerar märke 1 inom dess tidsbegränsning (SF 12.2)?",
           "en": "What happens if no boat passes Mark 1 within its time limit (SI 12.2)?"
         },
         "options": [
@@ -35581,12 +35632,14 @@
             "ok": true,
             "t": {
               "fi": "Purjehdus mitätöidään",
+              "sv": "Kappseglingen annulleras",
               "en": "The race is abandoned"
             }
           },
           {
             "t": {
               "fi": "Kaikki veneet saavat DNF:n",
+              "sv": "Alla båtar poängsätts DNF",
               "en": "All boats are scored DNF"
             }
           }
@@ -35603,6 +35656,7 @@
         "id": "rS4-q2",
         "prompt": {
           "fi": "Miten maaliintuloaikaikkunan ulkopuolella maaliin tulematon vene pisteytetään (SI 12.3)?",
+          "sv": "Hur poängsätts en båt som går i mål utanför målgångsfönstret (SF 12.3)?",
           "en": "How is a boat that finishes outside the Finishing Window scored (SI 12.3)?"
         },
         "options": [
@@ -35610,12 +35664,14 @@
             "ok": true,
             "t": {
               "fi": "Ei maaliin tulleeksi (DNF) ilman tutkintaa",
+              "sv": "Som att den inte gått i mål (DNF), utan förhandling",
               "en": "Did Not Finish (DNF), without a hearing"
             }
           },
           {
             "t": {
               "fi": "Hylätyksi (DSQ) tutkinnan jälkeen",
+              "sv": "Diskvalificerad (DSQ), efter förhandling",
               "en": "Disqualified (DSQ), after a hearing"
             }
           }
@@ -35634,6 +35690,7 @@
         "id": "rS4-q3",
         "prompt": {
           "fi": "Kuinka pitkä kunkin luokan protestiaika on (SI 13.2)?",
+          "sv": "Hur lång är protesttiden för varje klass (SF 13.2)?",
           "en": "How long is each class's protest time limit (SI 13.2)?"
         },
         "options": [
@@ -35641,12 +35698,14 @@
             "ok": true,
             "t": {
               "fi": "60 minuuttia siitä, kun viimeinen vene on tullut maaliin tai lautakunta ilmoittaa, ettei tänään enää kilpailla — kumpi myöhempi",
+              "sv": "60 minuter efter att den sista båten gått i mål eller kommittén signalerat ingen mer kappsegling idag — vilket som är senast",
               "en": "60 minutes after the last boat finishes or the committee signals no more racing today — whichever is later"
             }
           },
           {
             "t": {
               "fi": "30 minuuttia maaliin tulosta, poikkeuksetta",
+              "sv": "30 minuter efter målgång, utan undantag",
               "en": "30 minutes after finishing, with no exception"
             }
           }
@@ -35663,6 +35722,7 @@
         "id": "rS4-q4",
         "prompt": {
           "fi": "Mihin mennessä tutkintailmoitukset julkaistaan protestiajan päättymisestä (SI 13.3)?",
+          "sv": "Senast när anslås meddelanden om förhandlingar efter att protesttiden gått ut (SF 13.3)?",
           "en": "By when are hearing notices posted after the protest time limit (SI 13.3)?"
         },
         "options": [
@@ -35670,12 +35730,14 @@
             "ok": true,
             "t": {
               "fi": "Viimeistään 30 minuutin kuluessa",
+              "sv": "Senast inom 30 minuter",
               "en": "No later than 30 minutes after"
             }
           },
           {
             "t": {
               "fi": "Viimeistään seuraavana aamuna",
+              "sv": "Senast nästa morgon",
               "en": "No later than the next morning"
             }
           }
@@ -35692,6 +35754,7 @@
         "id": "rS4-q5",
         "prompt": {
           "fi": "Miten kilpailulautakunnan oma protesti ilmoitetaan veneelle (SI 13.4, sääntö 60.2(d))?",
+          "sv": "Hur meddelas en båt om kappseglingskommitténs egen protest (SF 13.4, regel 60.2(d))?",
           "en": "How is the race committee's own protest announced to a boat (SI 13.4, rule 60.2(d))?"
         },
         "options": [
@@ -35699,12 +35762,14 @@
             "ok": true,
             "t": {
               "fi": "Julkaisemalla ilmoitus virallisella ilmoitustaululla",
+              "sv": "Genom att ett meddelande anslås på den officiella anslagstavlan",
               "en": "By posting a notice on the official notice board"
             }
           },
           {
             "t": {
               "fi": "Huutamalla ”protesti” veneelle vesillä",
+              "sv": "Genom att ropa ”protest” till båten på vattnet",
               "en": "By hailing 'Protest' to the boat on the water"
             }
           }
@@ -35740,10 +35805,12 @@
     },
     "explain": {
       "fi": "Liitteen S lopussa on kuusi valmista ratatyyppiä, joihin lisäpurjehdusohjeet voivat viitata signaalikoodilla (esimerkiksi ”W2”). Radat L ja LA ovat vastatuuli/myötätuuli-ratoja, jotka päättyvät myötätuulimaaliin; LA:ssa alamerkkiä (merkki 2) edeltää lisäksi levittäjämerkki (merkki 1a) jokaisella luovilla. Radat W ja WA ovat muuten samanlaisia, mutta ne päättyvät vastatuulimaaliin; WA:ssa on niin ikään levittäjämerkki. Radat TL ja TW ovat kolmiomuotoisia (kolme merkkiä kierrettäväksi järjestyksessä 1–2–3), joista TL päättyy myötätuulimaaliin ja TW vastatuulimaaliin. Kunkin radan signaalikoodin numero-osa (2, 3 tai 4) kertoo, montako kertaa kryssi- ja alarataosuus kierretään ennen maaliin tuloa: esimerkiksi W3 tarkoittaa kahta luovia ennen maalia, TL4 neljää kierrosta kolmion ympäri ennen myötätuulimaaliin tuloa. Merkintä kahdesta merkistä kauttaviivalla, esimerkiksi ”2s/2p”, tarkoittaa kahden merkin muodostamaa porttia, jonka läpi purjehditaan radan edelliseltä merkiltä tulevasta suunnasta (ks. määritelmä Radan purjehtiminen). Huomautus: liitteen lähdetekstistä saatiin luettua tarkasti signaalikoodien ja merkkien kierto- ja ohitusjärjestystä kuvaavat taulukot; itse ratapiirrosten kuvat (veneen reitin graafinen hahmotelma) eivät siirry tekstinpoiminnassa, joten niitä ei ole nähty.",
+      "sv": "Sist i bilaga S finns sex färdiga bantyper som supplementet kan hänvisa till med en signalkod (till exempel ”W2”). Banorna L och LA är kryss/läns-banor med länsmålgång; LA har dessutom ett offsetmärke (märke 1a) före läns-märket (märke 2) på varje ben. Banorna W och WA är i övrigt likadana men har kryssmålgång; WA har likaså ett offsetmärke. Banorna TL och TW är triangelbanor (tre märken som rundas i ordningen 1–2–3), där TL har länsmålgång och TW kryssmålgång. Siffran i varje banas signalkod (2, 3 eller 4) anger hur många gånger kryss- och länsbenen seglas före målgång: till exempel betyder W3 två kryssben före mål, TL4 fyra varv runt triangeln före länsmålgång. En beteckning med två märken skilda med snedstreck, till exempel ”2s/2b”, anger en port som bildas av de två märkena och som passeras i den riktning banan kommer från föregående märke (se definitionen Segla banan). Observera: källtexten gav en tillförlitlig läsning av tabellerna som visar signalkoder och i vilken ordning och på vilken sida märkena passeras; själva banbildernas grafik (en skiss av båtens väg) följer inte med vid textutvinningen, så de har inte synats.",
       "en": "At the end of Appendix S are six ready-made course types that the supplement may reference by signal code (for example 'W2'). Courses L and LA are windward/leeward courses ending at a leeward finish; LA adds an offset mark (mark 1a) before the leeward mark (mark 2) on every leg. Courses W and WA are otherwise the same but end at a windward finish; WA likewise has an offset mark. Courses TL and TW are triangular (three marks rounded in order 1-2-3), with TL ending at a leeward finish and TW at a windward finish. Each course's signal code number (2, 3 or 4) shows how many times the beat and run legs are sailed before finishing: for example W3 means two beats before the finish, TL4 means four laps of the triangle before the leeward finish. A notation of two marks joined by a slash, such as '2s/2p', denotes a gate formed by those two marks, passed between from the direction of the course from the previous mark (see the definition Sail the Course). Note: the text extracted from the source gave an accurate reading of the tables matching signal codes to the order and side marks are passed on; the diagrams' own pictures (a graphical sketch of the boat's track) do not carry over in text extraction, so they have not been seen."
     },
     "note": {
       "fi": "Suomenkielisen kirjan ”Rata L” -taulukossa signaalikoodit on merkitty virheellisesti LA2:ksi, LA3:ksi ja LA4:ksi; englannin- ja ruotsinkielinen kirja käyttävät oikein L2, L3 ja L4, ja sama näkyy myös suomenkielisen kirjan omassa seuraavassa ”Rata LA” -taulukossa, jossa LA-koodit toistuvat oikein. Suomenkielisen Rata L -taulukon koodit vaikuttavat siis painovirheeltä. Liite S pätee vain, jos kilpailukutsussa niin ilmoitetaan; se tarjoaa valmiin purjehdusohjepohjan (SI, Sailing Instructions), jota täydennetään tapahtumakohtaisilla lisäpurjehdusohjeilla. Case Bookissa ei ole liitettä S koskevia tapauksia.",
+      "sv": "I den finska bokens tabell för ”Bana L” är signalkoderna felaktigt märkta LA2, LA3 och LA4; den engelska och svenska boken använder korrekt L2, L3 och L4, och samma sak syns i den finska bokens egen efterföljande tabell för ”Bana LA”, där LA-koderna upprepas korrekt. Koderna i den finska Bana L-tabellen verkar alltså vara ett tryckfel. Bilaga S gäller bara om det anges i inbjudan; den ger en färdig mall för seglingsföreskrifter (SF) som kompletteras med evenemangsspecifika kompletterande seglingsföreskrifter. Case Book har inga fall om bilaga S.",
       "en": "In the Finnish book's 'Course L' table, the signal codes are mislabelled LA2, LA3 and LA4; the English and Swedish books correctly use L2, L3 and L4, and the Finnish book's own very next 'Course LA' table correctly repeats the LA codes right after. The codes in the Finnish Course L table therefore look like a misprint. Appendix S applies only if the notice of race so states; it provides a ready-made sailing instructions template (SI) that is completed with event-specific supplementary sailing instructions. The Case Book has no cases on Appendix S."
     },
     "source": "RRS S, Course Diagrams",
@@ -35757,6 +35824,7 @@
         ],
         "note": {
           "fi": "Portin kaksi merkkiä (esim. 2s/2p) liittyvät samaan porttimerkki-käsitteeseen, josta useat liitteet (mm. B ja C) tekevät poikkeuksia sääntöön 18.4.",
+          "sv": "Portens två märken (t.ex. 2s/2b) hör till samma portmärke-begrepp som flera bilagor (bl.a. B och C) gör undantag för från regel 18.4.",
           "en": "A gate's two marks (e.g. 2s/2p) are the same gate-mark concept several appendices (e.g. B and C) carve exceptions to rule 18.4 for."
         }
       }
@@ -35767,6 +35835,7 @@
         "id": "rS5-q1",
         "prompt": {
           "fi": "Mitä yhteistä radoilla L ja LA on verrattuna ratoihin W ja WA?",
+          "sv": "Vad har banorna L och LA gemensamt jämfört med W och WA?",
           "en": "What do courses L and LA have in common, compared with W and WA?"
         },
         "options": [
@@ -35774,12 +35843,14 @@
             "ok": true,
             "t": {
               "fi": "Molemmat ovat vastatuuli/myötätuuli-ratoja, mutta L ja LA päättyvät myötätuulimaaliin, W ja WA vastatuulimaaliin",
+              "sv": "Båda paren är kryss/läns-banor, men L och LA har länsmålgång, W och WA har kryssmålgång",
               "en": "Both pairs are windward/leeward courses, but L and LA finish downwind, W and WA finish upwind"
             }
           },
           {
             "t": {
               "fi": "L ja LA ovat kolmioratoja, W ja WA vastatuuli/myötätuuli-ratoja",
+              "sv": "L och LA är triangelbanor, W och WA är kryss/läns-banor",
               "en": "L and LA are triangular courses, W and WA are windward/leeward courses"
             }
           }
@@ -35796,6 +35867,7 @@
         "id": "rS5-q2",
         "prompt": {
           "fi": "Mitä radat LA ja WA lisäävät ratoihin L ja W verrattuna?",
+          "sv": "Vad lägger banorna LA och WA till jämfört med L och W?",
           "en": "What do courses LA and WA add compared with L and W?"
         },
         "options": [
@@ -35803,12 +35875,14 @@
             "ok": true,
             "t": {
               "fi": "Levittäjämerkin (1a) jokaisella luovilla ennen alamerkkiä",
+              "sv": "Ett offsetmärke (1a) på varje ben före läns- eller kryssmärket",
               "en": "An offset mark (1a) on every leg before the leeward or windward mark"
             }
           },
           {
             "t": {
               "fi": "Ylimääräisen maalilinjan",
+              "sv": "En extra mållinje",
               "en": "An extra finishing line"
             }
           }
@@ -35825,6 +35899,7 @@
         "id": "rS5-q3",
         "prompt": {
           "fi": "Montako merkkiä radoilla TL ja TW on, ja missä järjestyksessä niitä kierretään?",
+          "sv": "Hur många märken har banorna TL och TW, och i vilken ordning rundas de?",
           "en": "How many marks do courses TL and TW have, and in what order are they rounded?"
         },
         "options": [
@@ -35832,12 +35907,14 @@
             "ok": true,
             "t": {
               "fi": "Kolme merkkiä (kolmio), järjestyksessä 1–2–3 toistuvasti ratasignaalin numero-osan mukaisesti",
+              "sv": "Tre märken (en triangel), i ordningen 1–2–3 upprepad enligt signalkodens sifferdel",
               "en": "Three marks (a triangle), in order 1-2-3 repeated according to the course signal's number"
             }
           },
           {
             "t": {
               "fi": "Neljä merkkiä aina samassa järjestyksessä",
+              "sv": "Fyra märken, alltid i samma ordning",
               "en": "Four marks, always in the same order"
             }
           }
@@ -35854,6 +35931,7 @@
         "id": "rS5-q4",
         "prompt": {
           "fi": "Mitä merkintä ”2s/2p” tarkoittaa ratapiirroksissa?",
+          "sv": "Vad betyder beteckningen ”2s/2b” i banbeskrivningarna?",
           "en": "What does the notation '2s/2p' mean in the course diagrams?"
         },
         "options": [
@@ -35861,19 +35939,22 @@
             "ok": true,
             "t": {
               "fi": "Merkkien 2s ja 2p muodostamaa porttia, jonka läpi purjehditaan",
+              "sv": "En port som bildas av märkena 2s och 2b, som båten seglar mellan",
               "en": "A gate formed by marks 2s and 2p, passed between"
             }
           },
           {
             "t": {
               "fi": "Kahta erillistä, vaihtoehtoista rataa",
+              "sv": "Två separata, alternativa banor",
               "en": "Two separate, alternative courses"
             }
           }
         ],
         "why": {
-          "fi": "Ratapiirrokset; ks. määritelmä Radan purjehtiminen.",
-          "en": "Course Diagrams; see the definition Sail the Course."
+          "fi": "Kahden merkin kauttaviivamerkintä (esim. ”2s/2p”) tarkoittaa porttia: kahta erillistä merkkiä, joiden välistä purjehditaan siitä suunnasta, josta radan edellinen merkki tulee — ei kahta vaihtoehtoista rataa valittavaksi.",
+          "en": "A slash notation for two marks (e.g. '2s/2p') denotes a gate: two separate marks that a boat sails between, approached from the direction of the previous mark on the course — not two alternative courses to choose from.",
+          "sv": "En snedstrecksbeteckning för två märken (t.ex. ”2s/2b”) anger en port: två separata märken som en båt seglar mellan, från den riktning banan kommer från föregående märke — inte två alternativa banor att välja mellan."
         },
         "source": "RRS S, Course Diagrams",
         "also": [
