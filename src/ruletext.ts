@@ -75,6 +75,8 @@ const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules:
     furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu}\d ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d+)\)|(\d+)\))\s+(.*)$/, CLAUSE = /^(\s*)([A-Z]?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
+const ORD = /^(\s*)(\d+)\.\s+(\S.*)$/; // Appendix S's preamble list (FI/SV use '1.   text'; EN uses '1    text', already caught by CLAUSE)
+const DIAG = /^\s*(COURSE DIAGRAMS|RATAPIIRROKSET|BANBESKRIVNINGAR)\s*$/;
 const DOT = /^(\s*)(?:\((\d)\))?(\d)\.\s+(.*)$/; // group 2 never matches; keeps SUB's group layout
 const GCL = /^(\s*)(G\d(?:\.\d)?)\s+(\p{Lu}.*)$/u; // Appendix G rules quoted in E8 ('G1.1 Identification')
 const letter = (c: string | undefined) => !!c && /\p{L}/u.test(c);
@@ -191,15 +193,18 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   let titleNext: string | null = lang === 'sv' || !first || isApp ? null : first;
   if (isApp) while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
   if (lang === 'sv' && first === 'P2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
+  let diag = false; // once Appendix S's course-diagram section starts, pdf.js merges the diagrams' own mark-position numbers into the signal-code table rows (e.g. SV 'TL2 Start – 1 – 2 – 3 – 1 – mål'), which would otherwise be mistaken for new top-level clauses; from here on the rest of the appendix is kept as one block
   for (let i = 0; i < ls.length; i++) {
-    const l = ls[i], sm = cfg.section.exec(l), gcl = first === 'E' ? GCL.exec(l) : null, cm = CLAUSE.exec(l) ?? gcl;
+    const l = ls[i];
+    if (first === 'S' && DIAG.test(l)) diag = true;
+    const sm = cfg.section.exec(l), gcl = first === 'E' ? GCL.exec(l) : null, cm = diag ? null : CLAUSE.exec(l) ?? gcl ?? (first === 'S' ? ORD.exec(l) : null);
     if (sm) {
       chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
       if (lang === 'sv') titles[cur[0]] = (sm[2] + (/^\s*\p{Ll}+$/u.test(ls[i + 1] ?? '') ? ' ' + ls[++i] : '')).trim().replace(/\s+/g, ' '); // 'Förhandlingar och' / 'beslutsfattande'
       else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
       titles[titleNext] = l.trim().replace(/\s+/g, ' '); titleNext = null;
-    } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0]) && (gcl || !isApp || cm[2][0] === first)) { // table rows ('4  P, I, Z') are not clauses; inside an appendix, a bare rule number (e.g. B2's '13  WHILE TACKING', or a cross-reference like C's 'N1.10') is quoted/modified rule text, not a new top-level clause of this appendix — only an id starting with the appendix's own letter opens one (E8's own GCL quotes of Appendix G are the deliberate exception)
+    } else if (cm && !ITEM.test(l) && !(tables.has(cur[0]) && +cm[2] < +cur[0]) && (gcl || !isApp || first === 'S' || cm[2][0] === first)) { // table rows ('4  P, I, Z') are not clauses; inside an appendix, a bare rule number (e.g. B2's '13  WHILE TACKING', or a cross-reference like C's 'N1.10') is quoted/modified rule text, not a new top-level clause of this appendix — only an id starting with the appendix's own letter opens one (E8's own GCL quotes of Appendix G, and Appendix S's own bare 'SI' numbering (its clauses are plain '1', '1.1', ... with no 'S' prefix at all), are the deliberate exceptions)
       chunks.push(cur); cur = [cm[2], [], cm[1].length];
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
