@@ -31642,9 +31642,9 @@
           }
         ],
         "why": {
-          "fi": "Liitteen J johdanto.",
-          "en": "Appendix J preamble.",
-          "sv": "Bilaga J:s inledning."
+          "fi": "Liitteen J johdanto vapauttaa toistamasta kilpailukutsun sääntöä purjehdusohjeissa, kunhan asiakirjojen välillä ei ole ristiriitaa.",
+          "en": "Appendix J's preamble exempts a rule already in the notice of race from being repeated in the sailing instructions, as long as the documents do not conflict.",
+          "sv": "Bilaga J:s inledning befriar från att upprepa en regel som redan finns i inbjudan i seglingsföreskrifterna, så länge dokumenten inte motsäger varandra."
         },
         "source": "RRS J (preamble)",
         "also": []
@@ -31674,9 +31674,9 @@
           }
         ],
         "why": {
-          "fi": "J1.1(3).",
-          "en": "J1.1(3).",
-          "sv": "J1.1(3)."
+          "fi": "J1.1(3) vaatii listaamaan kaikki muut kilpailua sääntelevät asiakirjat ja kertomaan, mistä tai miten kukin niistä on saatavilla — ei kopioimaan niiden sisältöä kutsuun.",
+          "en": "J1.1(3) requires listing every other document governing the event and stating where or how each can be obtained — not copying their content into the notice.",
+          "sv": "J1.1(3) kräver att alla andra dokument som styr tävlingen listas och att det anges var eller hur vart och ett kan fås — inte att deras innehåll kopieras in i inbjudan."
         },
         "source": "RRS J1.1(3)",
         "also": []
@@ -31706,9 +31706,9 @@
           }
         ],
         "why": {
-          "fi": "J1.1(6).",
-          "en": "J1.1(6).",
-          "sv": "J1.1(6)."
+          "fi": "J1.1(6) vaatii kertomaan vain harjoitus- ja ensimmäisen kilpapurjehduksen varoitusviestin ajan sekä seuraavien ajat, jos ne jo tiedetään — ei koko kilpailun lopullista aikataulua.",
+          "en": "J1.1(6) requires stating only the warning signal time for any practice race and the first race, plus later ones if already known — not the event's complete final schedule.",
+          "sv": "J1.1(6) kräver att bara varningssignalens tid för en eventuell övningssegling och första seglingen anges, samt senare tider om de redan är kända — inte hela tävlingens slutliga tidsschema."
         },
         "source": "RRS J1.1(6)",
         "also": []
@@ -31738,9 +31738,9 @@
           }
         ],
         "why": {
-          "fi": "J1.1(5).",
-          "en": "J1.1(5).",
-          "sv": "J1.1(5)."
+          "fi": "J1.1(5) vaatii kertomaan sekä ilmoittautumismenettelyn ja -ajat että maksut ja takarajat yhdessä, ei pelkkää hintaa.",
+          "en": "J1.1(5) requires stating both the entry procedure and times, and the fees and deadlines together, not just the price.",
+          "sv": "J1.1(5) kräver att både anmälningsförfarandet och tiderna samt avgifterna och tidsgränserna anges tillsammans, inte bara priset."
         },
         "source": "RRS J1.1(5)",
         "also": []
@@ -31816,9 +31816,9 @@
           }
         ],
         "why": {
-          "fi": "J1.2(2).",
-          "en": "J1.2(2).",
-          "sv": "J1.2.2."
+          "fi": "J1.2(2) vaatii viittaamaan nimenomaisesti kuhunkin World Sailingin säännön 86.2 nojalla sallimaan muutokseen ja liittämään mukaan itse myönnetyn luvan, ei pelkkää yleistä mainintaa.",
+          "en": "J1.2(2) requires referring specifically to each change World Sailing has approved under rule 86.2 and including the approval itself, not just a general mention.",
+          "sv": "J1.2(2) kräver att det hänvisas specifikt till varje ändring som World Sailing godkänt enligt regel 86.2 och att själva godkännandet bifogas, inte bara ett allmänt omnämnande."
         },
         "source": "RRS J1.2(2)",
         "also": []
@@ -31848,9 +31848,9 @@
           }
         ],
         "why": {
-          "fi": "J1.2(4).",
-          "en": "J1.2(4).",
-          "sv": "J1.2.4."
+          "fi": "J1.2(4) mainitsee esimerkkeinä purjehtijaluokittelun (sääntö 79) ja Para World Sailingin toimintakykyluokituksen erillisinä, erilaisina vaatimuksina.",
+          "en": "J1.2(4) names sailor categorization (rule 79) and Para World Sailing functional classification as separate, different examples of requirements.",
+          "sv": "J1.2(4) nämner som exempel seglarklassificering (regel 79) och Para World Sailings funktionsklassificering som separata, olika krav."
         },
         "source": "RRS J1.2(4)",
         "also": []
@@ -31880,9 +31880,9 @@
           }
         ],
         "why": {
-          "fi": "J1.2(12).",
-          "en": "J1.2(12).",
-          "sv": "J1.2.12."
+          "fi": "J1.2(12) vaatii nimenomaan omistajan tai edustajan allekirjoittaman sitoumuksen noudattaa sääntöjä, ei esimerkiksi mittaustodistuksen liittämistä lomakkeeseen.",
+          "en": "J1.2(12) specifically requires the owner's or representative's signed commitment to follow the rules, not for example attaching a measurement certificate to the form.",
+          "sv": "J1.2(12) kräver specifikt ägarens eller representantens undertecknade åtagande att följa reglerna, inte till exempel att ett mätbrev bifogas formuläret."
         },
         "source": "RRS J1.2(12)",
         "also": []
@@ -31912,9 +31912,9 @@
           }
         ],
         "why": {
-          "fi": "J1.2(13).",
-          "en": "J1.2(13).",
-          "sv": "J1.2.13."
+          "fi": "J1.2(13) vaatii kertomaan sekä milloin ja missä meriteiden säännöt korvaavat osan 2 säännöt että mahdolliset kilpailulautakunnan käyttämät yöviestit — ei pelkkää mainintaa korvaamisesta.",
+          "en": "J1.2(13) requires stating both when and where the collision regulations replace Part 2 rules and any night signals the race committee may use — not just a mention that replacement occurs.",
+          "sv": "J1.2(13) kräver att det anges både när och var sjövägsreglerna ersätter del 2-reglerna och eventuella nattsignaler kappseglingskommittén kan använda — inte bara ett omnämnande av att ersättning sker."
         },
         "source": "RRS J1.2(13)",
         "also": []
@@ -31990,9 +31990,9 @@
           }
         ],
         "why": {
-          "fi": "J1.3(5).",
-          "en": "J1.3(5).",
-          "sv": "J1.3.5."
+          "fi": "J1.3(5) vaatii kertomaan pistelaskujärjestelmän tarkemmin nimenomaan silloin, kun se poikkeaa liitteen A oletusjärjestelmästä; muuten liitteen A soveltaminen riittää ilman erillistä mainintaa.",
+          "en": "J1.3(5) requires detailing the scoring system specifically when it differs from Appendix A's default system; otherwise applying Appendix A is enough without a separate statement.",
+          "sv": "J1.3(5) kräver att poängsystemet beskrivs närmare just när det avviker från bilaga A:s standardsystem; annars räcker det att bilaga A tillämpas utan särskilt omnämnande."
         },
         "source": "RRS J1.3(5)",
         "also": []
@@ -32022,9 +32022,9 @@
           }
         ],
         "why": {
-          "fi": "J1.3(7).",
-          "en": "J1.3(7).",
-          "sv": "J1.3.7."
+          "fi": "J1.3(7) vaatii ilmoittamaan nimenomaisen kellonajan, jonka jälkeen viimeisenä purjehduspäivänä ei enää anneta varoitusviestiä, jotta kilpailijat tietävät tarkalleen milloin kilpailu voi päättyä.",
+          "en": "J1.3(7) requires stating the specific time after which no warning signal will be made on the last scheduled day, so competitors know exactly when racing can end.",
+          "sv": "J1.3(7) kräver att den specifika tidpunkten anges efter vilken ingen varningssignal ges den sista planerade tävlingsdagen, så att deltagarna vet exakt när kappseglingen kan avslutas."
         },
         "source": "RRS J1.3(7)",
         "also": []
@@ -32054,9 +32054,9 @@
           }
         ],
         "why": {
-          "fi": "J1.3(8).",
-          "en": "J1.3(8).",
-          "sv": "J1.3.8."
+          "fi": "J1.3(8) vaatii ilmoittamaan säännön 70.3 nojalla tehtävästä muutoksenhakuoikeuden kieltämisestä jo kilpailukutsussa, ei vasta tutkinnan yhteydessä.",
+          "en": "J1.3(8) requires announcing a denial of appeal rights under rule 70.3 already in the notice of race, not only at the hearing.",
+          "sv": "J1.3(8) kräver att en inskränkning av rätten att överklaga enligt regel 70.3 meddelas redan i inbjudan, inte först vid förhandlingen."
         },
         "source": "RRS J1.3(8)",
         "also": [
@@ -32088,9 +32088,9 @@
           }
         ],
         "why": {
-          "fi": "J1.3(9).",
-          "en": "J1.3(9).",
-          "sv": "J1.3.9."
+          "fi": "J1.3(9) vaatii kertomaan, sovelletaanko liitteen G sääntöä G3 vuokra- tai lainaveneisiin, koska se sallii niille poikkeavat kansallisuuskirjaimet.",
+          "en": "J1.3(9) requires stating whether Appendix G's rule G3 applies to chartered or borrowed boats, since it allows them different national letters.",
+          "sv": "J1.3(9) kräver att det anges om bilaga G:s regel G3 tillämpas på chartrade eller lånade båtar, eftersom den tillåter dem avvikande nationalitetsbokstäver."
         },
         "source": "RRS J1.3(9)",
         "also": []
@@ -32158,9 +32158,9 @@
           }
         ],
         "why": {
-          "fi": "J2.1(3).",
-          "en": "J2.1(3).",
-          "sv": "J2.1.3."
+          "fi": "J2.1(3) vaatii joko täydellisen ratakuvauksen tai luettelon radan valintaan käytettävistä merkeistä, sekä mahdolliset muutokset maaliin tulon suuntaan — ei pelkkää radan nimeä.",
+          "en": "J2.1(3) requires either a complete course description or a list of marks used to select the course, plus any changes to the finishing direction — not just the course's name.",
+          "sv": "J2.1(3) kräver antingen en fullständig bankaskrivning eller en lista över märken som används för att välja bana, plus eventuella ändringar av målgångsriktningen — inte bara banans namn."
         },
         "source": "RRS J2.1(3)",
         "also": []
@@ -32190,9 +32190,9 @@
           }
         ],
         "why": {
-          "fi": "J2.1(4).",
-          "en": "J2.1(4).",
-          "sv": "J2.1.4."
+          "fi": "J2.1(4) vaatii kertomaan merkkien ohitusjärjestyksen, kummalta puolelta kukin jätetään ja mitkä niistä ovat kääntömerkkejä, koska nämä määrittävät radan purjehtimisen oikein.",
+          "en": "J2.1(4) requires stating the order marks are rounded, which side each is left on, and which are turning marks, since these define correctly sailing the course.",
+          "sv": "J2.1(4) kräver att ordningen märkena rundas i, vilken sida vart och ett lämnas på och vilka som är vändmärken anges, eftersom detta avgör korrekt segling av banan."
         },
         "source": "RRS J2.1(4)",
         "also": [
@@ -32224,9 +32224,9 @@
           }
         ],
         "why": {
-          "fi": "J2.1.",
-          "en": "J2.1.",
-          "sv": "J2.1."
+          "fi": "J2.1:n johdantovirke jatkaa liitteen J yleistä periaatetta: kilpailukutsussa jo kerrottua tietoa ei tarvitse toistaa purjehdusohjeissa.",
+          "en": "J2.1's opening sentence continues Appendix J's general principle: information already stated in the notice of race need not be repeated in the sailing instructions.",
+          "sv": "J2.1:s inledande mening fortsätter bilaga J:s allmänna princip: information som redan angetts i inbjudan behöver inte upprepas i seglingsföreskrifterna."
         },
         "source": "RRS J2.1",
         "also": []
@@ -32256,9 +32256,9 @@
           }
         ],
         "why": {
-          "fi": "J2.1(6).",
-          "en": "J2.1(6).",
-          "sv": "J2.1.6."
+          "fi": "J2.1(6) vaatii kertomaan nimenomaan ensimmäisen veneen enimmäisajan radan purjehtimiseen (sääntö 35), ei muiden veneiden maaliintuloaikaa.",
+          "en": "J2.1(6) requires stating specifically the time limit for the first boat to sail the course (rule 35), not a finishing time for other boats.",
+          "sv": "J2.1(6) kräver att tidsgränsen specifikt för den första båten att segla banan anges (regel 35), inte en målgångstid för andra båtar."
         },
         "source": "RRS J2.1(6)",
         "also": []
@@ -32336,9 +32336,9 @@
           }
         ],
         "why": {
-          "fi": "J2.2(4).",
-          "en": "J2.2(4).",
-          "sv": "J2.2.4."
+          "fi": "J2.2(4) vaatii kertomaan etukäteen menettelytavan suullisten purjehdusohjemuutosten antamiseen vesillä, koska sääntö 90.2(c) edellyttää juuri tämän menettelyn kuvaamista purjehdusohjeissa.",
+          "en": "J2.2(4) requires stating in advance the procedure for giving oral sailing instruction changes on the water, since rule 90.2(c) specifically requires that procedure to be described in the sailing instructions.",
+          "sv": "J2.2(4) kräver att förfarandet för muntliga ändringar av seglingsföreskrifterna på vattnet anges i förväg, eftersom regel 90.2(c) specifikt kräver att det förfarandet beskrivs i seglingsföreskrifterna."
         },
         "source": "RRS J2.2(4)",
         "also": [
@@ -32370,9 +32370,9 @@
           }
         ],
         "why": {
-          "fi": "J2.2(15).",
-          "en": "J2.2(15).",
-          "sv": "J2.2.15."
+          "fi": "J2.2(15) vaatii kuvaamaan säännössä esteiksi määrätyt kohteet tai alueet sekä niitä koskevat rajoitukset konkreettisesti — pelkkä viittaus esteen määritelmään ei kerro kilpailijalle, mistä paikasta on kyse.",
+          "en": "J2.2(15) requires concretely describing objects or areas designated as obstructions, plus the restrictions on them — merely citing the definition of obstruction does not tell a competitor which actual place is meant.",
+          "sv": "J2.2(15) kräver en konkret beskrivning av föremål eller områden som utsetts till hinder samt restriktionerna kring dem — att bara hänvisa till definitionen av hinder talar inte om för deltagaren vilken faktisk plats som avses."
         },
         "source": "RRS J2.2(15)",
         "also": [
@@ -32404,9 +32404,9 @@
           }
         ],
         "why": {
-          "fi": "J2.2(23).",
-          "en": "J2.2(23).",
-          "sv": "J2.2.23."
+          "fi": "J2.2(23) vaatii kertomaan säännön N1.4(b) tutkintapyynnön määräajan vain, jos se poikkeaa 30 minuutin oletuksesta.",
+          "en": "J2.2(23) requires stating the rule N1.4(b) hearing-request deadline only if it differs from the 30-minute default.",
+          "sv": "J2.2(23) kräver att tidsgränsen för en begäran om förhandling enligt regel N1.4(b) anges bara om den avviker från standardtiden 30 minuter."
         },
         "source": "RRS J2.2(23)",
         "also": []
@@ -32436,9 +32436,9 @@
           }
         ],
         "why": {
-          "fi": "J2.2(26).",
-          "en": "J2.2(26).",
-          "sv": "J2.2.26."
+          "fi": "J2.2(26) vaatii kertomaan pienimmän veneiden määrän, joka tarvitaan lähtöalueella purjehduksen lähettämiseksi — ei suurinta sallittua osallistujamäärää, josta kerrotaan muualla.",
+          "en": "J2.2(26) requires stating the minimum number of boats needed in the starting area for a race to be started — not the maximum entries allowed, which is covered elsewhere.",
+          "sv": "J2.2(26) kräver att det minsta antalet båtar som krävs i startområdet för att en segling ska startas anges — inte det högsta tillåtna antalet anmälningar, som tas upp på annat håll."
         },
         "source": "RRS J2.2(26)",
         "also": []
@@ -32468,9 +32468,9 @@
           }
         ],
         "why": {
-          "fi": "J2.2(19), (20).",
-          "en": "J2.2(19), (20).",
-          "sv": "J2.2.19, 20."
+          "fi": "J2.2(19) ja (20) listaavat sekä raportointivaatimukset että aikahyvitykset erikseen purjehdusohjeiden pakollisiin tietoihin kuuluviksi.",
+          "en": "J2.2(19) and (20) separately list reporting requirements and time allowances as items belonging to the sailing instructions' mandatory content.",
+          "sv": "J2.2(19) och (20) listar var för sig rapporteringskrav och tidsgottgörelser som poster som hör till seglingsföreskrifternas obligatoriska innehåll."
         },
         "source": "RRS J2.2(19), J2.2(20)",
         "also": []
