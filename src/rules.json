@@ -2175,9 +2175,9 @@
       {
         "id": "r11-q2",
         "prompt": {
-          "fi": "Puoli minuuttia ennen lähtöviestiä W on lähes paikallaan ja sen purjeet lepattavat. L, joka on selvästi W:n perässä ja suojan puolella, huutaa ‘suojan puolen vene’ ja tulee kolmen rungonpituuden päästä peittoon. W ei tee mitään ennen peiton syntymistä. Rikkooko W sääntöä 11, koska se ei toiminut etukäteen?",
-          "en": "Thirty seconds before the starting signal W is almost stationary with her sails flapping. L, clear astern of W and to leeward, hails ‘Leeward boat’ and becomes overlapped from three hull lengths away. W does nothing before the overlap begins. Does W break rule 11 by not acting in advance?",
-          "sv": "Trettio sekunder före startsignalen ligger W nästan stilla med fladdrande segel. L, klar akter om W och i lä, ropar ”Läbåt” och får överlapp från tre skrovlängders avstånd. W gör ingenting innan överlappen börjar. Bryter W mot regel 11 genom att inte agera i förväg?"
+          "fi": "W on lähes paikallaan purjeet lepattaen. L, selvästi W:n perässä ja suojan puolella, huutaa ‘suojan puolen vene’ ja tulee peittoon. W ei tee mitään ennen peiton syntymistä. Rikkooko W sääntöä 11, koska se ei toiminut etukäteen?",
+          "en": "W is almost stationary with her sails flapping. L, clear astern of W and to leeward, hails ‘Leeward boat’ and becomes overlapped. W does nothing before the overlap begins. Does W break rule 11 by not acting in advance?",
+          "sv": "W ligger nästan stilla med fladdrande segel. L, klar akter om W och i lä, ropar ”Läbåt” och får överlapp. W gör ingenting innan överlappen börjar. Bryter W mot regel 11 genom att inte agera i förväg?"
         },
         "scene": {
           "h": 260,
@@ -2834,9 +2834,9 @@
       {
         "id": "r12-q4",
         "prompt": {
-          "fi": "A:n spinnaakkeri on lepattanut hallitsemattomana mastonhuipusta koko osuuden ajan. B, joka on selvästi A:n perässä samalla halssilla, laskee, ja sen takila koskettaa A:n spinnaakkeria. B väittää, ettei sen tarvinnut väistää varustetta, joka oli pois normaaliasennosta. Rikkoiko B sääntöä 12?",
-          "en": "A's spinnaker has been flying out of control from the top of her mast for the whole leg. B, clear astern of A on the same tack, bears away and her rigging touches A's spinnaker. B argues she did not have to avoid equipment that was out of its normal position. Did B break rule 12?",
-          "sv": "A:s spinnaker har flugit okontrollerat från mastens topp hela banbenet. B, klar akter om A för samma halsar, faller av och dess rigg berör A:s spinnaker. B hävdar att den inte behövde undvika utrustning som var utanför sitt normala läge. Bröt B mot regel 12?"
+          "fi": "A:n spinnaakkeri on lepattanut hallitsemattomana mastonhuipusta pitkään. Selvästi perässä samalla halssilla oleva B laskee ja koskettaa takilallaan spinnaakkeria, väittäen ettei sen tarvinnut väistää poikkeavassa asennossa ollutta varustetta. Rikkoiko B sääntöä 12?",
+          "en": "A's spinnaker has been flying out of control from her masthead for a long time. B, clear astern on the same tack, bears away and her rigging touches the spinnaker, arguing she did not have to avoid equipment out of its normal position. Did B break rule 12?",
+          "sv": "A:s spinnaker har flugit okontrollerat från masttoppen länge. B, klar akter om A för samma halsar, faller av och dess rigg berör spinnakern, och hävdar att den inte behövde undvika utrustning utanför normalt läge. Bröt B mot regel 12?"
         },
         "scene": {
           "h": 260,
@@ -6186,9 +6186,9 @@
       {
         "id": "r18-q5",
         "prompt": {
-          "fi": "S (oikea halssi) ja P (vasen halssi) kohtaavat tiukasti vastaisessa suunnassa yläpuolen merkillä, joka jätetään oikealle. S voisi tehdä vastakäännöksen ja kiertää merkin, mutta jatkaa kurssiaan pakottaakseen P:n kääntymään. Voiko P vaatia merkkitilaa tai vedota siihen, että S purjehtii ohi oikean suuntansa?",
-          "en": "S (starboard) and P (port), both close-hauled, meet at a windward mark to be left to starboard. S could tack and round the mark, but holds her course to force P to tack. Can P claim mark-room or argue that S is sailing beyond her proper course?",
-          "sv": "S (styrbord) och P (babord), båda dikt bidevind, möts vid ett kryssmärke som ska lämnas om styrbord. S skulle kunna stagvända och runda märket men håller sin kurs för att tvinga P att stagvända. Kan P kräva märkesplats eller hävda att S seglar förbi sin tillbörliga kurs?"
+          "fi": "S (oikea halssi) ja P (vasen halssi) kohtaavat tiukasti vastaisessa suunnassa ylämerkillä, joka jätetään oikealle. S voisi kääntyä ja kiertää merkin, mutta jatkaa kurssiaan pakottaen P:n kääntymään. Voiko P vaatia merkkitilaa tai vedota S:n oikean suunnan ylitykseen?",
+          "en": "S (starboard) and P (port), both close-hauled, meet at a windward mark to be left to starboard. S could tack and round it, but holds her course, forcing P to tack. Can P claim mark-room or argue S is sailing past her proper course?",
+          "sv": "S (styrbord) och P (babord), båda dikt bidevind, möts vid ett kryssmärke som ska lämnas om styrbord. S skulle kunna stagvända och runda det, men håller sin kurs och tvingar P att stagvända. Kan P kräva märkesplats eller hävda att S seglar förbi sin tillbörliga kurs?"
         },
         "scene": {
           "h": 260,
@@ -7917,9 +7917,9 @@
       {
         "id": "r19-q6",
         "prompt": {
-          "fi": "P purjehtii jokea ylös tiukasti vastaisessa suunnassa vasemmalla halssilla aivan rannan vieressä ja sen suuntaisesti. S tekee vastakäännöksen oikealle halssille ja tulee P:tä kohti. P ei voi nousta osumatta rantaan eikä laskea osumatta S:ään ja huutaa tilaa. Pitääkö S:n antaa tilaa säännön 19.2(b) tai 20 perusteella?",
-          "en": "P is sailing up-river close-hauled on port tack, right next to and parallel to the bank. S tacks onto starboard and approaches P. P cannot luff without hitting the bank or bear away without hitting S, and hails for room. Must S give room under 19.2(b) or rule 20?",
-          "sv": "P seglar uppför en flod dikt bidevind för babords halsar, alldeles intill och parallellt med stranden. S stagvänder till styrbords halsar och närmar sig P. P kan varken lova utan att träffa stranden eller falla av utan att träffa S, och ropar efter plats. Måste S ge plats enligt 19.2b eller regel 20?"
+          "fi": "P purjehtii jokea ylös tiukasti vastaisessa suunnassa vasemmalla halssilla aivan rannan suuntaisesti. S tekee vastakäännöksen oikealle halssille P:tä kohti. P ei voi nousta osumatta rantaan eikä laskea osumatta S:ään, ja huutaa tilaa. Pitääkö S:n antaa tilaa säännön 19.2(b) tai 20 perusteella?",
+          "en": "P is sailing up-river close-hauled on port tack, right alongside the bank. S tacks onto starboard towards P. P cannot luff without hitting the bank or bear away without hitting S, and hails for room. Must S give room under 19.2(b) or rule 20?",
+          "sv": "P seglar uppför en flod dikt bidevind för babords halsar, alldeles längs stranden. S stagvänder till styrbords halsar mot P. P kan varken lova utan att träffa stranden eller falla av utan att träffa S, och ropar efter plats. Måste S ge plats enligt 19.2b eller regel 20?"
         },
         "scene": {
           "h": 260,
