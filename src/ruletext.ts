@@ -50,10 +50,10 @@ function appsFor(startOf: (l: string) => RegExp): [string, RegExp, RegExp | unde
 const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules: [RegExp, RegExp][]; apps: [string, RegExp, RegExp | undefined][]; furniture: RegExp; see: string[]; section: RegExp }> = {
   en: { defs: [/^DEFINITIONS$/, /BASIC PRINCIPLES/], part: [/^\s*PART 2$/, /^\s*PART 3$/], rules: [[/^1\s+SAFETY$/, /^\s*PART 2$/], [/^25\s+NOTICE OF RACE/, /^\s*PART 4$/], [/^40\s+PERSONAL FLOTATION/, /^\s*PART 5$/], [/^60\s+PROTESTS$/, /^\s*PART 6$/], [/^75\s+ENTERING AN EVENT/, /^\s*PART 7$/], [/^85\s+CHANGES TO RULES$/, /^\s*APPENDIX A$/]],
     apps: appsFor(l => new RegExp(`^\\s*APPENDIX ${l}$`)),
-    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix [A-Z]\s+[\p{Lu} ]+|\d+)\s*$/u, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
+    furniture: /^\s*(DEFINITIONS|Part \d\s+[A-Z ,;]+|Appendix [A-Z]\s+[\p{Lu}\d ]+|\d+)\s*$/u, see: ['Overlap', 'Windward'], section: /^\s*SECTION ([A-D])$/ },
   fi: { defs: [/^MÄÄRITELMÄT$/, /PERUSPERIAATTEET/], part: [/^OSA 2$/, /^Osa 3\s+KILPAILUN/], rules: [[/^1\s+TURVALLISUUS$/, /^OSA 2$/], [/^25\s+KILPAILUKUTSU/, /^OSA 4$/], [/^40\s+HENKILÖKOHTAISET/, /^OSA 5$/], [/^60\s+PROTESTIT$/, /^OSA 6$/], [/^75\s+KILPAILUUN ILMOITTAUTUMINEN/, /^OSA 7$/], [/^85\s+MUUTOKSET SÄÄNTÖIHIN$/, /^(Liite A\s+PISTELASKU|LIITE A)$/]],
     apps: appsFor(l => new RegExp(`^LIITE ${l}$`)),
-    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[\p{Lu} ,;]+|Liite [A-Z]\s+[\p{Lu} ]+|LIITE [A-Z] [\p{Lu} \-]+|\d+|\.)\s*$/u, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
+    furniture: /^\s*(MÄÄRITELMÄT|Osa \d\s+[\p{Lu} ,;]+|Liite [A-Z]\s+[\p{Lu}\d ]+|LIITE [A-Z] [\p{Lu}\d \-]+|\d+|\.)\s*$/u, see: ['Peittää', 'Tuulen puoli'], section: /^\s*RYHMÄ ([A-D])$/ },
   sv: { defs: [/^DEFINITIONER$/, /^GRUNDLÄGGANDE PRINCIPER/], part: [/^DEL 2 – NÄR BÅTAR MÖTS$/, /^DEL 3 – GENOMFÖRA/], rules: [[/^1\s+SÄKERHET$/, /^DEL 2 – NÄR BÅTAR MÖTS$/], [/^25\s+INBJUDAN/, /^DEL 4 – /], [/^40\s+PERSONLIG FLYT/, /^DEL 5 – /], [/^60\s+PROTESTER$/, /^DEL 6 – /], [/^75\s+ANMÄLAN TILL TÄVLING/, /^DEL 7 – /], [/^85\s+ÄNDRING AV REGLER$/, /^APPENDIX A – /]],
     apps: [
       ['A', /^APPENDIX A – POÄNGBERÄKNING$/, /^APPENDIX B – REGLER FÖR FLEETRACING I$/],
@@ -72,7 +72,7 @@ const CFG: Record<Lang, { defs: [RegExp, RegExp]; part: [RegExp, RegExp]; rules:
       ['S', /^APPENDIX S – STANDARDSEGLINGS$/, /^APPENDIX T – MEDLING$/],
       ['T', /^APPENDIX T – MEDLING$/, undefined],
     ],
-    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu} ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
+    furniture: /^\s*(DEFINITIONER|\s*DEL \d – [\p{Lu} ,;]+(m\.m\.)?|\s*APPENDIX [A-Z] – [\p{Lu}\d ]+|\d+)\s*$/u, see: ['Överlapp'], section: /^\s*AVDELNING ([A-D]) – (.+)$/ },
 };
 const ITEM = /^(\s*)(?:\(([a-z])\)|([a-z])\))\s+(.*)$/, SUB = /^(\s*)(?:\((\d)\)|(\d)\))\s+(.*)$/, CLAUSE = /^(\s*)([A-Z]?\d+(?:\.\d+)?)\s{2,}(\S.*)$/;
 const DOT = /^(\s*)(?:\((\d)\))?(\d)\.\s+(.*)$/; // group 2 never matches; keeps SUB's group layout
@@ -204,6 +204,8 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
+      // a single short lowercase line immediately before a lettered item continues the lead-in sentence (EN N2.2 'the jury shall' / 'decide' (a) ...)
+      if (cur[0].includes('.') && i + 1 < ls.length && i + 2 < ls.length && /^\p{Ll}/u.test(ls[i + 1].trim()) && !ITEM.test(ls[i + 1]) && !SUB.test(ls[i + 1]) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1]) && !cfg.furniture.test(ls[i + 1]) && (ITEM.test(ls[i + 2]) || SUB.test(ls[i + 2]))) t += ' ' + ls[++i].trim();
       if (untitled.has(cur[0])) cur[1].push(cm[1] + ' '.repeat(cm[2].length + 2) + t); // e.g. 16.1: the heading line is body text
       else titles[cur[0]] = glue(t.replace(/\s+/g, ' '));
     } else cur[1].push(l);
