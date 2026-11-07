@@ -33446,9 +33446,9 @@
           }
         ],
         "why": {
-          "fi": "N1.2.",
-          "en": "N1.2.",
-          "sv": "N1.2."
+          "fi": "N1.2 vaatii tuomaristoon puheenjohtajan lisäksi riittävästi jäseniä niin, että kokonaismäärä on vähintään viisi, ja enemmistön pitää olla kansainvälisiä tuomareita.",
+          "en": "N1.2 requires the jury to have a chair plus enough members to reach at least five in total, with a majority being international judges.",
+          "sv": "N1.2 kräver att juryn utöver ordföranden har tillräckligt många ledamöter för att nå minst fem totalt, och att en majoritet är internationella domare."
         },
         "source": "RRS N1.2",
         "also": []
@@ -33478,9 +33478,9 @@
           }
         ],
         "why": {
-          "fi": "N1.4(b).",
-          "en": "N1.4(b).",
-          "sv": "N1.4b."
+          "fi": "N1.4(b) antaa oikeuden uuteen tutkintaan koko tuomaristossa kaikesta muusta paitsi todetuista tosiasioista, jos sitä pyydetään 30 minuutin kuluessa tai purjehdusohjeiden määräajassa.",
+          "en": "N1.4(b) gives the right to a new hearing before the full jury on everything except the facts found, if requested within 30 minutes or the sailing instructions' deadline.",
+          "sv": "N1.4(b) ger rätt till en ny förhandling inför hela juryn om allt utom de fastställda fakta, om det begärs inom 30 minuter eller inom den tid seglingsföreskrifterna anger."
         },
         "source": "RRS N1.4(b)",
         "also": []
@@ -33510,9 +33510,9 @@
           }
         ],
         "why": {
-          "fi": "N1.5.",
-          "en": "N1.5.",
-          "sv": "N1.5."
+          "fi": "N1.5 sallii hätätilanteessa jatkaa vain kolmella jäsenellä, kunhan vähintään kaksi heistä on kansainvälisiä tuomareita.",
+          "en": "N1.5 allows continuing with as few as three members in an emergency, as long as at least two of them are international judges.",
+          "sv": "N1.5 tillåter att man i en nödsituation fortsätter med så få som tre ledamöter, så länge minst två av dem är internationella domare."
         },
         "source": "RRS N1.5",
         "also": []
@@ -33542,9 +33542,9 @@
           }
         ],
         "why": {
-          "fi": "N1.7.",
-          "en": "N1.7.",
-          "sv": "N1.7."
+          "fi": "N1.7 vaatii World Sailingin poikkeusluvan ilmoitettavaksi sekä hyväksyntäkirjeellä järjestäjälle että kilpailukutsussa tai purjehdusohjeissa ja ilmoitustaululla — pelkkä suullinen maininta ei riitä.",
+          "en": "N1.7 requires World Sailing's exception to be announced both by a letter of approval to the organizer and in the notice of race or sailing instructions and on the notice board — a verbal mention alone is not enough.",
+          "sv": "N1.7 kräver att World Sailings undantag meddelas både genom ett godkännandebrev till arrangören och i inbjudan eller seglingsföreskrifterna samt på anslagstavlan — enbart ett muntligt omnämnande räcker inte."
         },
         "source": "RRS N1.7",
         "also": []
@@ -33625,9 +33625,9 @@
           }
         ],
         "why": {
-          "fi": "N2.2.",
-          "en": "N2.2.",
-          "sv": "N2.2."
+          "fi": "N2.2 listaa kelpoisuuden, mittauksen ja mittalukutodistusten sekä kilpailijan/veneen/varusteen vaihdon hyväksynnän asioiksi, jotka kuuluvat tuomaristolle, ellei järjestäjä ole määrännyt toisin.",
+          "en": "N2.2 lists eligibility, measurement and rating certificates, and approving changes of competitor/boat/equipment as matters belonging to the jury, unless the organizer has decided otherwise.",
+          "sv": "N2.2 räknar upp behörighet, mätning och mätbrev samt godkännande av byte av deltagare/båt/utrustning som frågor som hör till juryn, om inte arrangören bestämt annat."
         },
         "source": "RRS N2.2",
         "also": []
@@ -33657,9 +33657,9 @@
           }
         ],
         "why": {
-          "fi": "N3.1.",
-          "en": "N3.1.",
-          "sv": "N3.1."
+          "fi": "N3.1 kieltää pitämästä pelkkää kansallisuutta tai seurayhteyttä yksin merkittävänä eturistiriitana; se on vain yksi tekijä kokonaisharkinnassa.",
+          "en": "N3.1 forbids treating mere nationality or club membership alone as a significant conflict of interest; it is only one factor in the overall assessment.",
+          "sv": "N3.1 förbjuder att enbart nationalitet eller klubbtillhörighet i sig betraktas som en betydande intressekonflikt; det är bara en faktor i helhetsbedömningen."
         },
         "source": "RRS N3.1",
         "also": [
@@ -33691,9 +33691,9 @@
           }
         ],
         "why": {
-          "fi": "N3.1.",
-          "en": "N3.1.",
-          "sv": "N3.1."
+          "fi": "N3.1 vaatii antamaan erityistä painoarvoa sille, ettei kansainvälisen tuomariston päätöksestä voi valittaa, koska tämä voi heikentää tasapuolisuuden mielikuvaa ja laskee kynnystä, jolla ristiriidasta tulee merkittävä.",
+          "en": "N3.1 requires giving special weight to the fact that an international jury's decision cannot be appealed, since this can hurt the impression of fairness and lowers the threshold at which a conflict becomes significant.",
+          "sv": "N3.1 kräver att man ger särskild vikt åt att en internationell jurys beslut inte kan överklagas, eftersom detta kan skada intrycket av opartiskhet och sänker tröskeln för när en intressekonflikt blir betydande."
         },
         "source": "RRS N3.1",
         "also": []
@@ -33723,9 +33723,9 @@
           }
         ],
         "why": {
-          "fi": "N3.2.",
-          "en": "N3.2.",
-          "sv": "N3.2."
+          "fi": "N3.2 antaa yksimielisyyteen pääsemättömälle osatuomaristolle mahdollisuuden lopettaa kokouksensa ja siirtää asian mahdollisimman suurelle toimivaltaiselle kokoonpanolle, tarvittaessa koko tuomaristolle.",
+          "en": "N3.2 lets a sub-committee that cannot reach agreement end its meeting and refer the matter to the largest competent panel available, if necessary the full jury.",
+          "sv": "N3.2 låter en delkommitté som inte kan nå enighet avsluta sitt möte och hänskjuta ärendet till den största behöriga sammansättning som finns, vid behov hela juryn."
         },
         "source": "RRS N3.2",
         "also": []
@@ -33800,9 +33800,9 @@
           }
         ],
         "why": {
-          "fi": "N4.2.",
-          "en": "N4.2.",
-          "sv": "N4.2."
+          "fi": "N4.2 kieltää säännön 69 väitteen esittäjää olemasta tutkivan osatuomariston jäsen, mutta sallii hänen olla tuomariston muu jäsen — esittäjän ja tutkijan roolit on pidettävä erillään.",
+          "en": "N4.2 forbids the person presenting a rule 69 allegation from being a member of the hearing sub-committee, but allows them to be another member of the jury — the presenting and hearing roles must stay separate.",
+          "sv": "N4.2 förbjuder den som framför ett påstående enligt regel 69 att vara ledamot i den dömande delkommittén, men tillåter personen att vara en annan ledamot av juryn — rollerna som framförare och dömande måste hållas isär."
         },
         "source": "RRS N4.2",
         "also": []
@@ -33832,9 +33832,9 @@
           }
         ],
         "why": {
-          "fi": "N4.2.",
-          "en": "N4.2.",
-          "sv": "N4.2."
+          "fi": "N4.2 velvoittaa väitteen esittäjän tuomaan kaiken tutkimuksessa kerätyn materiaalin julki väitteen kohteelle, ei vain itselleen edullista osaa siitä.",
+          "en": "N4.2 requires the person presenting the allegation to disclose all material gathered during the investigation to the person accused, not just the parts favorable to the case.",
+          "sv": "N4.2 kräver att den som framför påståendet lämnar ut allt material som samlats in under utredningen till den anklagade, inte bara de delar som gynnar fallet."
         },
         "source": "RRS N4.2",
         "also": []
@@ -33864,9 +33864,9 @@
           }
         ],
         "why": {
-          "fi": "N4.3.",
-          "en": "N4.3.",
-          "sv": "N4.3."
+          "fi": "N4.3 erottaa tutkintaa edeltävän vaiheen (jossa osatuomaristo pyrkii olemaan toimimatta tutkijana) itse tutkinnasta, jonka aikana se saa vapaasti esittää tutkivia kysymyksiä.",
+          "en": "N4.3 distinguishes the pre-hearing stage (where the sub-committee tries not to act as investigator) from the hearing itself, during which it may freely ask investigative questions.",
+          "sv": "N4.3 skiljer mellan tiden före förhandlingen (då delkommittén försöker undvika att agera utredare) och själva förhandlingen, under vilken den fritt får ställa utredande frågor."
         },
         "source": "RRS N4.3",
         "also": []
