@@ -18,7 +18,6 @@ export const T: Record<string, Record<Lang, string>> = {
   treeReset: { fi: 'Aloita alusta', sv: 'Börja om', en: 'Start over' },
   tabPractice: { fi: 'Harjoittele', sv: 'Öva', en: 'Practice' },
   rule: { fi: 'Sääntö', sv: 'Regel', en: 'Rule' },
-  moreRules: { fi: 'Lisää sääntöjä tulossa.', sv: 'Fler regler kommer.', en: 'More rules to come.' },
   related: { fi: 'Liittyvät määritelmät', sv: 'Relaterade definitioner', en: 'Related definitions' },
   links: { fi: 'Kytkennät', sv: 'Kopplingar', en: 'Links' },
   scenarios: { fi: 'Skenaariot Case Bookista (omin sanoin)', sv: 'Scenarier från Case Book (egna ord)', en: 'Scenarios from the Case Book (own words)' },

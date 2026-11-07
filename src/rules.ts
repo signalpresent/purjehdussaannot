@@ -63,7 +63,7 @@ export function rulesView(l: Lang, txt: TextStore = {}): string {
   return `<p><button class="btn" data-nav="tree">${T.treeTitle[l]} →</button></p>` + [...new Set(groups.map(g => g[0]))].map(p => {
     const ns = rules.filter(r => r.section[0] === p).map(r => r.n);
     return `<details class="part" data-part="${p}"${openParts.has(p) ? ' open' : ''}><summary>${T['group' + p][l]} <span class="mute">${ns[0]}–${ns[ns.length - 1]}</span></summary>${p === '2' ? official(txt, l, b => b === 'pt2') : ''}${groups.filter(g => g[0] === p).map(grp).join('')}</details>`;
-  }).join('') + `<p class="mute">${T.moreRules[l]}</p>`;
+  }).join('');
 }
 // Parts the user has opened stay open across re-renders (main.ts toggle listener).
 export const openParts = new Set<string>();
