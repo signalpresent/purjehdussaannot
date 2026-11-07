@@ -179,7 +179,7 @@ function definitions(all: string[], lang: Lang): Record<string, Block[]> {
 
 function rules(all: string[], lang: Lang): { titles: Record<string, string>; blocks: Block[] } {
   const titles: Record<string, string> = {};
-  const part = clauses(cut(all, CFG[lang].part), lang, titles, 'P2');
+  const part = clauses(cut(all, CFG[lang].part), lang, titles, 'pt2'); // not 'P2': that collides with Appendix P's own clause P2 (Penalties)
   const extra = CFG[lang].rules.flatMap(([start, end]) => {
     const s = all.findIndex(l => start.test(l)), e = all.findIndex((l, i) => i > s && end.test(l));
     return s < 0 ? [] : clauses(all.slice(s, e < 0 ? undefined : e), lang, titles, '');
@@ -195,14 +195,14 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
   let cur: [string, string[], number] = [first, [], -1];
   let titleNext: string | null = lang === 'sv' || !first || isApp ? null : first;
   if (isApp) while (ls.length && (!ls[0].trim() || isUpper(ls[0].trim()))) ls = ls.slice(1); // appendix title lines
-  if (lang === 'sv' && first === 'P2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
+  if (lang === 'sv' && first === 'pt2') titles[first] = 'NÄR BÅTAR MÖTS'; // the Swedish part title shares the line with 'DEL 2 –'
   let diag = false; // once Appendix S's course-diagram section starts, pdf.js merges the diagrams' own mark-position numbers into the signal-code table rows (e.g. SV 'TL2 Start – 1 – 2 – 3 – 1 – mål'), which would otherwise be mistaken for new top-level clauses; from here on the rest of the appendix is kept as one block
   for (let i = 0; i < ls.length; i++) {
     const l = ls[i];
     if (first === 'S' && !diag && DIAG.test(l)) { diag = true; chunks.push(cur); cur = ['Sdiagrams', [], -1]; } // its own fixed id, so rules.json can cover it on its own page instead of folding into whatever clause (13.4) was still open
     const sm = cfg.section.exec(l), gcl = first === 'E' ? GCL.exec(l) : null, cm = diag ? null : CLAUSE.exec(l) ?? gcl ?? (first === 'S' ? ORD.exec(l) : null);
     if (sm) {
-      chunks.push(cur); cur = [(first === 'P2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
+      chunks.push(cur); cur = [(first === 'pt2' ? '2' : +cur[0].split('.')[0] < 60 ? '4' : '5') + sm[1], [], -1]; // Section B of Part 4 -> '4B', of Part 5 -> '5B'
       if (lang === 'sv') titles[cur[0]] = (sm[2] + (/^\s*\p{Ll}+$/u.test(ls[i + 1] ?? '') ? ' ' + ls[++i] : '')).trim().replace(/\s+/g, ' '); // 'Förhandlingar och' / 'beslutsfattande'
       else titleNext = cur[0];
     } else if (titleNext && l.trim() && !cfg.furniture.test(l)) {
