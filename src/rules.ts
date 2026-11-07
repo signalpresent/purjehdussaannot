@@ -72,9 +72,9 @@ const isAppx = (g: string) => /^[A-Z]$/.test(g);
 // Appendices tab: every appendix of the book; those with pages list them, the rest are marked not yet covered.
 export function appxView(l: Lang, txt: TextStore = {}): string {
   return `<p class="mute">${T.appxIntro[l]}</p>` + APPX.map(([k, title]) => {
-    const pages = rules.filter(r => r.section === k), head = `<h3>${T.appendix[l]} ${k} · ${esc(title[l])}</h3>`;
-    if (!pages.length) return `${head}<p class="mute soonrow">${T.notYet[l]}</p>`;
-    return `${head}${official(txt, l, b => b === k)}<div class="list">${pages.map(rowOf(l)).join('')}</div>`;
+    const pages = rules.filter(r => r.section === k), summary = `<summary>${T.appendix[l]} ${k} · ${esc(title[l])}</summary>`;
+    const body = pages.length ? `${official(txt, l, b => b === k)}<div class="list">${pages.map(rowOf(l)).join('')}</div>` : `<p class="mute soonrow">${T.notYet[l]}</p>`;
+    return `<details class="part" data-part="${k}"${openParts.has(k) ? ' open' : ''}>${summary}${body}</details>`;
   }).join('');
 }
 
