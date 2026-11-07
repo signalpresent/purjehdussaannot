@@ -204,8 +204,12 @@ function clauses(ls: string[], lang: Lang, titles: Record<string, string>, first
       let t = cm[3].trim();
       if (ITEM.test(' ' + t)) { cur[1].push(' '.repeat(l.indexOf(cm[3])) + cm[3]); continue; } // '43.1  (a) ...': no title, item on the same line
       while (!cur[0].includes('.') && i + 1 < ls.length && (isUpper(ls[i + 1].trim()) || /\s(JA|AND|OCH)$|\p{L}-$/u.test(t)) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1])) t += ' ' + ls[++i].trim(); // multi-line rule titles
-      // a single short lowercase line immediately before a lettered item continues the lead-in sentence (EN N2.2 'the jury shall' / 'decide' (a) ...)
-      if (cur[0].includes('.') && i + 1 < ls.length && i + 2 < ls.length && /^\p{Ll}/u.test(ls[i + 1].trim()) && !ITEM.test(ls[i + 1]) && !SUB.test(ls[i + 1]) && !CLAUSE.test(ls[i + 1]) && !cfg.section.test(ls[i + 1]) && !cfg.furniture.test(ls[i + 1]) && (ITEM.test(ls[i + 2]) || SUB.test(ls[i + 2]))) t += ' ' + ls[++i].trim();
+      // a lead-in sentence before a lettered item can wrap over several lines (FI/SV R2.2); absorb up to the first item line, but only if one is found before the next clause/section/page break (otherwise this is a plain paragraph, left alone for 'untitled' to handle)
+      if (cur[0].includes('.')) {
+        let j = i + 1;
+        while (j < ls.length && !CLAUSE.test(ls[j]) && !cfg.section.test(ls[j]) && !cfg.furniture.test(ls[j]) && !ITEM.test(ls[j]) && !SUB.test(ls[j])) j++;
+        if (j < ls.length && j > i + 1 && (ITEM.test(ls[j]) || SUB.test(ls[j]))) { t = join([t, ...ls.slice(i + 1, j).map(x => x.trim())], lang); i = j - 1; }
+      }
       if (untitled.has(cur[0])) cur[1].push(cm[1] + ' '.repeat(cm[2].length + 2) + t); // e.g. 16.1: the heading line is body text
       else titles[cur[0]] = glue(t.replace(/\s+/g, ' '));
     } else cur[1].push(l);
