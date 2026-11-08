@@ -36,8 +36,8 @@ const chips = (rs: string[], l: Lang) => {
 // This turns such mentions into a link to that page, so e.g. "Case 24" on rule 12 jumps to rule 15.
 const caseToRule = new Map<number, Rule>();
 for (const r of rules) for (const s of r.scenarios) if (!caseToRule.has(s.case)) caseToRule.set(s.case, r);
-export const linkCases = (html: string): string => html.replace(/Case\s+(\d+(?:\s*,\s*\d+)*(?:\s+(?:and|ja|och)\s+\d+)?)/g, (m, list: string) =>
-  `Case ${list.replace(/\d+/g, (ns: string) => { const r = caseToRule.get(+ns); return r ? `<span class="caselink" data-rule="${r.n}">${ns}</span>` : ns; })}`);
+export const linkCases = (html: string): string => html.replace(/(Cases?)\s+(\d+(?:\s*,\s*\d+)*(?:\s+(?:and|ja|och)\s+\d+)?)/g, (m, word: string, list: string) =>
+  `${word} ${list.replace(/\d+/g, (ns: string) => { const r = caseToRule.get(+ns); return r ? `<span class="caselink" data-rule="${r.n}">${ns}</span>` : ns; })}`);
 
 // Official text blocks, e.g. '18.2(a)(1)'; base = clause without item letters. Headings are shown when the clause changes.
 // Falls back to another imported language (marked) when the current one has not been imported.
