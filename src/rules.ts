@@ -32,6 +32,13 @@ const chips = (rs: string[], l: Lang) => {
     + (no.length ? `<span class="soon">${no.length > 1 ? T.tabRules[l] : T.rule[l]} ${no.join(', ')} · ${T.notYet[l]}</span>` : '');
 };
 
+// A case appears as a full scenario on exactly one rule's page; elsewhere it is only mentioned by number.
+// This turns such mentions into a link to that page, so e.g. "Case 24" on rule 12 jumps to rule 15.
+const caseToRule = new Map<number, Rule>();
+for (const r of rules) for (const s of r.scenarios) if (!caseToRule.has(s.case)) caseToRule.set(s.case, r);
+export const linkCases = (html: string): string => html.replace(/Case\s+(\d+(?:\s*,\s*\d+)*(?:\s+(?:and|ja|och)\s+\d+)?)/g, (m, list: string) =>
+  `Case ${list.replace(/\d+/g, (ns: string) => { const r = caseToRule.get(+ns); return r ? `<span class="caselink" data-rule="${r.n}">${ns}</span>` : ns; })}`);
+
 // Official text blocks, e.g. '18.2(a)(1)'; base = clause without item letters. Headings are shown when the clause changes.
 // Falls back to another imported language (marked) when the current one has not been imported.
 const base = (id: string) => id.split('(')[0];
@@ -80,12 +87,12 @@ export function appxView(l: Lang, txt: TextStore = {}): string {
 
 export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
   const defs = r.defs.map(k => `<span data-open="${esc(k)}">${esc(defNames.find(d => d.en === k)?.[l] ?? k)}</span>`).join('');
-  const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${esc(tx(k.note, l))}</p>`).join('');
+  const links = r.links.map(k => `<div class="chips">${chips(k.rules, l)}</div><p>${linkCases(esc(tx(k.note, l)))}</p>`).join('');
   const scen = r.scenarios.map(s => `<div class="sc"><div class="chips"><span>Case ${s.case}</span>${chips(s.also ?? [], l)}</div>
-    <h4>${esc(tx(s.title, l))}</h4><p>${esc(tx(s.text, l))}</p><p><b>${T.outcome[l]}.</b> ${esc(tx(s.answer, l))}</p></div>`).join('');
+    <h4>${esc(tx(s.title, l))}</h4><p>${linkCases(esc(tx(s.text, l)))}</p><p><b>${T.outcome[l]}.</b> ${linkCases(esc(tx(s.answer, l)))}</p></div>`).join('');
   return `<button class="btn" data-nav="${isAppx(r.section) ? 'appx' : 'rules'}">${T.back[l]}</button><h2>${r.n} ${esc(r.title[l])}</h2>${fb(l, r.explain)}${official(txt, l, mine(r), String(r.n))}${signalsFor(String(r.n), l)}
-  <h3>${T.explain[l]}</h3><p>${esc(tx(r.explain, l))}</p><p class="mute">${T.source[l]}: ${esc(r.source)}</p>
-  ${r.scene && r.caption ? `<div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div>` : ''}<p class="mute">${esc(tx(r.note, l))}</p>
+  <h3>${T.explain[l]}</h3><p>${linkCases(esc(tx(r.explain, l)))}</p><p class="mute">${T.source[l]}: ${linkCases(esc(r.source))}</p>
+  ${r.scene && r.caption ? `<div class="fig">${sceneSvg(r.scene, tx(r.caption, l))}<p class="mute">${T.wind[l]}</p><p>${esc(tx(r.caption, l))}</p></div>` : ''}<p class="mute">${linkCases(esc(tx(r.note, l)))}</p>
   <h3>${T.related[l]}</h3><div class="chips">${defs}</div><h3>${T.links[l]}</h3>${links}
   ${scen ? `<h3>${T.scenarios[l]}</h3>${scen}` : ""}<p><button class="btn" data-nav="practice">${T.tabPractice[l]}</button></p>`;
 }
@@ -134,8 +141,8 @@ export function practiceView(s: State): string {
   const q = cur!, done = pool.filter(id => (s.box[id] ?? 0) >= 2).length;
   const filterSel = `<p><select id="pf" aria-label="${esc(T.filterLabel[l])}">${filterOptions(l).map(o => `<option value="${esc(o.v)}"${(s.filter ?? '') === o.v ? ' selected' : ''}>${esc(o.label)}</option>`).join('')}</select></p>`;
   const buttons = opts.map((o, i) => `<button class="btn opt${picked >= 0 ? (o.ok ? ' ok' : i === picked ? ' bad' : '') : ''}" data-ans="${i}"${picked >= 0 ? ' disabled' : ''}>${o.img ? o.img(l) : esc(tx(o.t, l))}</button>`).join('');
-  const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
-    <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
+  const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${linkCases(esc(tx(q.why, l)))}</p>
+    <p class="mute">${T.source[l]}: ${linkCases(esc(q.source))}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
   return `${fb(l, q.prompt)}${filterSel}<p class="mute">${T.mastered[l]}: ${done}/${pool.length}</p><p class="mute">${esc(pageLabel(q, l))}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
 }
 

@@ -6,7 +6,7 @@ import { load, save, State, exportBox, importBox, loadText, saveText, textSig } 
 import { readPdf, detectLang, parseBook } from './ruletext';
 import { diagrams, overlapMove } from './diagrams';
 import { signalsView } from './flags';
-import { rules, rulesView, appxView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official, openParts } from './rules';
+import { rules, rulesView, appxView, treeView, treeAnswer, treeBack, treeReset, ruleView, practiceView, practiceNext, practiceAnswer, questionIds, official, openParts, linkCases } from './rules';
 
 interface RuleRef { n: number; en: string; fi: string; sv: string }
 interface Def { en: string; fi: string; sv: string; rules: RuleRef[]; cases: number[]; explain: Record<Lang, string>; source: string }
@@ -66,7 +66,7 @@ function detailView(d: Def): string {
   const tri = LANGS.map(l => `<div><b>${l.toUpperCase()}</b>${esc(d[l])}</div>`).join('');
   const rules = d.rules.map(r => `<span class="rule"><b>${r.n}</b> ${esc(r[state.lang])}</span>`).join('') || '–';
   const cases = d.cases.length ? `<div class="chips">${d.cases.map(c => `<span>Case ${c}</span>`).join('')}</div>` : '–';
-  const ex = `<p>${esc(d.explain[state.lang])}</p><p class="mute">${t('source')}: ${esc(d.source)}</p>`;
+  const ex = `<p>${linkCases(esc(d.explain[state.lang]))}</p><p class="mute">${t('source')}: ${linkCases(esc(d.source))}</p>`;
   return `<button class="btn" data-nav="${backTo}">${t('back')}</button><h2>${esc(d[state.lang])}</h2><div class="tri">${tri}</div>
   ${official(text, state.lang, b => b === 'def:' + d.en)}<h3>${t('explain')}</h3>${ex}${diagrams[d.en]?.(state.lang) ?? ''}<h3>${t('rules')}</h3>${rules}<h3>${t('cases')}</h3>${cases}`;
 }
