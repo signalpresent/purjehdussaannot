@@ -8,6 +8,7 @@ h1{font-size:1.15rem;margin:8px 0}h2{font-size:1.4rem;margin:.4rem 0}h3{font-siz
 nav{display:flex;gap:8px;margin:8px 0}nav button,.btn{background:var(--card);color:var(--ink);border:1px solid #2b5a78;border-radius:10px;padding:10px 14px;cursor:pointer;font-size:1rem}
 nav button.on{border-color:var(--acc)}
 input[type=search]{width:100%;padding:12px;border-radius:10px;border:1px solid #2b5a78;background:#0e3248;color:var(--ink);font-size:1rem;margin:8px 0}
+select{width:100%;padding:10px;border-radius:10px;border:1px solid #2b5a78;background:#0e3248;color:var(--ink);font-size:1rem;margin:8px 0}
 .list{display:grid;gap:8px}.item{background:var(--card);border-radius:12px;padding:12px 14px;cursor:pointer;border:1px solid transparent}
 .item:hover,.item:focus{border-color:var(--acc)}.item .t{font-weight:600}.item .s{color:var(--mute);font-size:.9rem}
 

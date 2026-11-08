@@ -29,6 +29,8 @@ export const T: Record<string, Record<Lang, string>> = {
   correct: { fi: 'Oikein', sv: 'Rätt', en: 'Correct' },
   wrong: { fi: 'Väärin', sv: 'Fel', en: 'Incorrect' },
   mastered: { fi: 'Hallittu', sv: 'Behärskade', en: 'Mastered' },
+  filterAll: { fi: 'Kaikki', sv: 'Allt', en: 'All' },
+  filterLabel: { fi: 'Harjoiteltava osio', sv: 'Övningsavsnitt', en: 'Practice section' },
   group2A: { fi: 'Ryhmä A · Kulkuoikeus', sv: 'Avdelning A · Rätt till väg', en: 'Section A · Right of Way' },
   group2B: { fi: 'Ryhmä B · Yleiset rajoitukset', sv: 'Avdelning B · Allmänna begränsningar', en: 'Section B · General Limitations' },
   group2C: { fi: 'Ryhmä C · Merkeillä ja esteillä', sv: 'Avdelning C · Vid märken och hinder', en: 'Section C · At Marks and Obstructions' },

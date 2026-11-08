@@ -113,6 +113,7 @@ root.addEventListener('input', e => {
 });
 root.addEventListener('change', async e => {
   const el = e.target as HTMLInputElement;
+  if (el.id === 'pf') { state.filter = el.value || undefined; save(state); practiceNext(state); render(); return; }
   if (el.id === 'timp' && el.files?.length) {
     const files = Array.from(el.files), msgs: string[] = [];
     textMsg = t('textReading'); render();

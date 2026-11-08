@@ -3,7 +3,8 @@ import type { LangText } from './ruletext';
 import ids from './ruletext-ids.json' with { type: 'json' };
 const K = 'sailrules.v1';
 // box: question id -> Leitner box 0..2 (2 = mastered)
-interface State { lang: Lang; box: Record<string, number> }
+// filter: '' (or unset) = all questions; a rule-group digit ('1'..'7'), an appendix letter, or 'signals'.
+interface State { lang: Lang; box: Record<string, number>; filter?: string }
 const def: State = { lang: 'fi', box: {} };
 export function load(): State {
   try { return { ...def, ...JSON.parse(localStorage.getItem(K) || '{}') }; } catch { return { ...def }; }
