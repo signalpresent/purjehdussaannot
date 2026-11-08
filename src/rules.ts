@@ -91,6 +91,14 @@ export function ruleView(r: Rule, l: Lang, txt: TextStore = {}): string {
 }
 
 const all: Question[] = [...rules.flatMap(r => r.questions), ...signalQuestions()];
+const qPage = new Map<string, Rule>();
+for (const r of rules) for (const q of r.questions) qPage.set(q.id, r);
+// Which page/section a question is about, shown before answering so the question isn't context-free.
+const pageLabel = (q: Question, l: Lang): string => {
+  const r = qPage.get(q.id);
+  if (!r) return T.tabSignals[l];
+  return isAppx(r.section) ? `${T.appendix[l]} ${r.section} · ${r.n}` : `${T.rule[l]} ${r.n}`;
+};
 let cur: Question | null = null, opts: Opt[] = [], picked = -1;
 const shuffle = <A,>(a: A[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 export function practiceNext(s: State) {
@@ -109,7 +117,7 @@ export function practiceView(s: State): string {
   const buttons = opts.map((o, i) => `<button class="btn opt${picked >= 0 ? (o.ok ? ' ok' : i === picked ? ' bad' : '') : ''}" data-ans="${i}"${picked >= 0 ? ' disabled' : ''}>${o.img ? o.img(l) : esc(tx(o.t, l))}</button>`).join('');
   const res = picked < 0 ? '' : `<p class="st">${opts[picked].ok ? T.correct[l] : T.wrong[l]}</p><p>${esc(tx(q.why, l))}</p>
     <p class="mute">${T.source[l]}: ${esc(q.source)}</p><div class="chips">${chips(q.also ?? [], l)}</div><p><button class="btn" data-next="1">${T.next[l]}</button></p>`;
-  return `${fb(l, q.prompt)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
+  return `${fb(l, q.prompt)}<p class="mute">${T.mastered[l]}: ${done}/${all.length}</p><p class="mute">${esc(pageLabel(q, l))}</p>${q.scene ? `<div class="fig">${sceneSvg(q.scene, tx(q.prompt, l))}<p class="mute">${T.wind[l]}</p></div>` : ''}${q.img ? `<div class="sigq">${q.img(l)}</div>` : ''}<p>${esc(tx(q.prompt, l))}</p>${buttons}${res}<p class="tools"><button class="btn" data-export="1">${T.export[l]}</button> <button class="btn" data-import="1">${T.import[l]}</button><input type="file" id="imp" accept=".json,application/json" hidden></p><p class="mute" id="impmsg"></p>`;
 }
 
 // "Who keeps clear?" decision tree; path = chosen option per step.
